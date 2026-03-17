@@ -80,16 +80,18 @@
   details.week-block summary::-webkit-details-marker{display:none}
   .current-week summary{background:rgba(212,160,23,.10);border-bottom-color:rgba(212,160,23,.35)}
   .week-header-left{display:flex;align-items:center;gap:10px}
-  .week-chevron{color:var(--gold);font-size:10px;transition:transform .2s;display:none}
-  .week-race-count{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:rgba(200,200,200,.35);letter-spacing:2px;text-transform:uppercase;display:none}
+  .week-chevron{color:var(--gold);font-size:10px;transition:transform .2s;display:inline-block}
+  .week-race-count{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:rgba(200,200,200,.35);letter-spacing:2px;text-transform:uppercase;display:block}
+  details.week-block[open] .week-chevron{transform:rotate(90deg)}
+  details.week-block[open] .week-days{display:flex;flex-direction:row}
+  details.week-block:not([open]) .week-days{display:none}
   .week-number{font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:900;color:var(--gold);letter-spacing:3px;text-transform:uppercase}
   .current-week .week-number{font-size:18px}
   .this-week-badge{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:900;letter-spacing:3px;color:#000;background:var(--gold);border-radius:3px;padding:4px 12px;text-transform:uppercase}
   .finale-label{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:900;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
   .finale-banner{background:linear-gradient(90deg,#1A0000,var(--red-dark) 30%,var(--red) 50%,var(--red-dark) 70%,#1A0000);text-align:center;padding:7px;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:900;letter-spacing:5px;color:var(--gold);text-transform:uppercase}
   @media(min-width:769px){
-    details.week-block .week-days{display:flex!important;flex-direction:row}
-    .week-chevron,.week-race-count{display:none!important}
+    details.week-block[open] .week-days{flex-direction:row!important}
   }
   .week-days{display:flex;flex-direction:row}
   .day-divider{width:1px;background:var(--border);flex-shrink:0}
@@ -233,7 +235,6 @@
     .nav-right{display:none}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
-    details.week-block:not([open]) .week-days{display:none!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
     details.week-block[open] .week-days{display:flex!important;flex-direction:column!important}
     .day-divider{width:100%;height:1px}
