@@ -69,9 +69,64 @@
   .legend-note.free{color:var(--gold);margin-left:auto}
   .legend-note.sponsored{color:var(--sponsored-color)}
 
-  /* ══════════════════════════════════════════
-     SCHEDULE PAGE
-  ══════════════════════════════════════════ */
+  /* ── STANDINGS SUB-TABS ── */
+  .sub-tabs{
+    display:flex;align-items:stretch;
+    background:var(--surface2);
+    border-bottom:1px solid var(--border);
+    padding:0 24px;
+    gap:4px;
+  }
+  .sub-tab{
+    padding:10px 20px;
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:12px;font-weight:800;letter-spacing:3px;
+    text-transform:uppercase;color:rgba(200,200,200,.40);
+    cursor:pointer;border:none;background:none;
+    border-bottom:2px solid transparent;
+    transition:color .2s,border-color .2s;
+  }
+  .sub-tab:hover{color:var(--white)}
+  .sub-tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+  .sub-page{display:none}
+  .sub-page.active{display:block}
+
+  /* Season 1 placeholder */
+  .s1-placeholder{
+    margin:40px auto;max-width:700px;
+    text-align:center;padding:60px 40px;
+    background:var(--surface);border:1px solid var(--border);
+    border-radius:8px;
+  }
+  .s1-placeholder-eyebrow{
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:11px;font-weight:700;letter-spacing:4px;
+    color:rgba(200,200,200,.35);text-transform:uppercase;
+    margin-bottom:16px;
+  }
+  .s1-placeholder-title{
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:48px;font-weight:900;letter-spacing:2px;
+    color:var(--white);text-transform:uppercase;
+    margin-bottom:8px;
+  }
+  .s1-placeholder-title span{color:var(--gold)}
+  .s1-placeholder-sub{
+    font-family:'Barlow',sans-serif;
+    font-size:16px;font-weight:400;
+    color:rgba(200,200,200,.50);
+    margin-bottom:32px;line-height:1.6;
+  }
+  .s1-placeholder-cta{
+    display:inline-block;
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:14px;font-weight:900;letter-spacing:3px;
+    text-transform:uppercase;color:#000;
+    background:var(--gold);border-radius:4px;
+    padding:12px 28px;text-decoration:none;
+    transition:opacity .2s;
+  }
+  .s1-placeholder-cta:hover{opacity:.85}
   .schedule{max-width:100%;padding:16px 24px 60px;display:flex;flex-direction:column;gap:8px}
   details.week-block{background:var(--surface);border:1px solid var(--border);border-radius:5px;overflow:hidden}
   details.week-block.finale{border-color:var(--gold);box-shadow:0 0 30px rgba(212,160,23,.12)}
@@ -147,13 +202,13 @@
   /* Row */
   .lb-row{
     display:grid;
-    grid-template-columns: 44px 48px 1fr 120px 80px 100px 140px;
+    grid-template-columns: 44px 48px 1fr 120px 180px;
     align-items:center;
     background:var(--surface);
     border:1px solid var(--border);
     border-radius:5px;
-    padding:10px 14px;
-    gap:12px;
+    padding:12px 20px;
+    gap:16px;
     transition:background .15s;
   }
   .lb-row:hover{background:var(--surface2)}
@@ -181,15 +236,15 @@
   .lb-name-col{min-width:0}
   .lb-name{
     font-family:'Barlow Condensed',sans-serif;
-    font-size:20px;font-weight:900;
+    font-size:26px;font-weight:900;
     color:var(--white);
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
   }
   .lb-meta{
     font-family:'Barlow',sans-serif;
-    font-size:11px;font-weight:400;
-    color:rgba(200,200,200,.40);
-    margin-top:2px;
+    font-size:13px;font-weight:400;
+    color:rgba(200,200,200,.55);
+    margin-top:3px;
   }
 
   /* Tags */
@@ -211,14 +266,14 @@
   /* Points */
   .lb-pts-col{text-align:center;position:relative}
   .lb-pts-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:2px}
-  .lb-pts-val{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:900;color:var(--white)}
-  .lb-down{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;color:var(--red);letter-spacing:1px}
+  .lb-pts-val{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;color:var(--white)}
+  .lb-down{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;color:var(--red);letter-spacing:1px}
 
   /* Pips */
   .lb-pips-col{}
-  .lb-pips-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:6px}
-  .lb-pips{display:flex;gap:3px;flex-wrap:wrap}
-  .lb-pip{width:10px;height:10px;border-radius:2px;background:var(--border)}
+  .lb-pips-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:8px}
+  .lb-pips{display:flex;gap:5px;flex-wrap:wrap}
+  .lb-pip{width:14px;height:14px;border-radius:3px;background:var(--border)}
   .lb-pip.filled{background:var(--gold)}
 
   /* ── FOOTER ── */
@@ -246,7 +301,7 @@
       grid-template-columns: 36px 36px 1fr 60px;
       grid-template-rows: auto auto;
     }
-    .lb-wins-col,.lb-pips-col{display:none}
+    .lb-pips-col{display:none}
     .lb-pts-val{font-size:20px}
     .lb-name{font-size:16px}
     .lb-pos{font-size:18px}
@@ -1527,33 +1582,43 @@
 <!-- STANDINGS PAGE -->
 <div class="page" id="page-standings">
   <div class="legend">
-    <div class="legend-item"><span class="legend-dot" style="background:#D4A017"></span>Win</div>
-    <div class="legend-item"><span class="legend-dot" style="background:#CC0000"></span>Chaos (&gt;8 inc/race)</div>
-    <div class="legend-item"><span class="legend-dot" style="background:#2D7D32"></span>Clean (&le;3 inc/race)</div>
-    <div class="legend-item"><span class="legend-dot" style="background:#1565C0"></span>Racer</div>
-    <div class="legend-sep"></div>
-    <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.40);text-transform:uppercase">7 of 20 weeks scored</span>
+    <span style="font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.40);text-transform:uppercase">7 of 20 pre-season weeks scored</span>
   </div>
-  <div class="standings-wrap">
-    <div class="standings-header">
-      <div>
-        <div class="standings-title">Juiced Open Season 1 &mdash; Championship Standings</div>
-        <div class="standings-subtitle">Juiced Points &bull; Best result per week &bull; Catch-up eligible</div>
+  <div class="sub-tabs">
+    <button class="sub-tab" onclick="setSubPage('s1')">Season 1</button>
+    <button class="sub-tab active" onclick="setSubPage('preseason')">Pre-Season</button>
+  </div>
+
+  <!-- Season 1 placeholder -->
+  <div class="sub-page" id="sub-s1">
+    <div class="s1-placeholder">
+      <div class="s1-placeholder-eyebrow">Coming Soon</div>
+      <div class="s1-placeholder-title">Juiced Open <span>Season 1</span></div>
+      <div class="s1-placeholder-sub">
+        Season 1 kicks off soon. 20 weeks of racing across Dirt Oval, Oval, Dirt Road and Road / GT disciplines.<br>
+        Race sponsorships available for $25 &mdash; your name on a race card, on stream and on this page all season.
       </div>
+      <a class="s1-placeholder-cta" href="#schedule" onclick="setPage('schedule')">View Season 1 Schedule</a>
     </div>
-    <div class="lb-table">
+  </div>
+
+  <!-- Pre-Season leaderboard -->
+  <div class="sub-page active" id="sub-preseason">
+    <div class="standings-wrap">
+      <div class="standings-header">
+        <div>
+          <div class="standings-title">Pre-Season &mdash; Final Standings</div>
+          <div class="standings-subtitle">Juiced Points &bull; Best result per week &bull; Catch-up eligible</div>
+        </div>
+      </div>
+      <div class="lb-table">
 
       <div class="lb-row lb-row-top3">
         <div class="lb-pos lb-pos-gold">1</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Brooks Whynot</div>
-          <div class="lb-meta">26 starts &bull; 6.0 inc/race &bull; S/F 9/3</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">26 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F 9/3</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1571,12 +1636,7 @@
         <img class="lb-team-logo" src="team_logos/PSC.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Clay Debban</div>
-          <div class="lb-meta">23 starts &bull; 4.8 inc/race &bull; S/F 5/4</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">2</span>
+          <div class="lb-meta">23 starts &bull; 2 wins &bull; 4.8 inc/race &bull; S/F 5/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1594,12 +1654,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Nate Lesko</div>
-          <div class="lb-meta">14 starts &bull; 5.3 inc/race &bull; S/F 3/4</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">2</span>
+          <div class="lb-meta">14 starts &bull; 2 wins &bull; 5.3 inc/race &bull; S/F 3/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1617,12 +1672,7 @@
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Cazz Bedford</div>
-          <div class="lb-meta">18 starts &bull; 5.2 inc/race &bull; S/F 5/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">18 starts &bull; 0 wins &bull; 5.2 inc/race &bull; S/F 5/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1640,12 +1690,7 @@
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Eric Loethen</div>
-          <div class="lb-meta">17 starts &bull; 6.5 inc/race &bull; S/F 6/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">17 starts &bull; 0 wins &bull; 6.5 inc/race &bull; S/F 6/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1663,12 +1708,7 @@
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Cody Schlaudecker</div>
-          <div class="lb-meta">13 starts &bull; 3.3 inc/race &bull; S/F 5/5</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#D4A017">WINNER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">5</span>
+          <div class="lb-meta">13 starts &bull; 5 wins &bull; 3.3 inc/race &bull; S/F 5/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1686,12 +1726,7 @@
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Dustin L Collins</div>
-          <div class="lb-meta">19 starts &bull; 4.1 inc/race &bull; S/F 8/5</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">19 starts &bull; 1 wins &bull; 4.1 inc/race &bull; S/F 8/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1709,12 +1744,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Allen Kish8</div>
-          <div class="lb-meta">12 starts &bull; 5.3 inc/race &bull; S/F 16/7</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">12 starts &bull; 1 wins &bull; 5.3 inc/race &bull; S/F 16/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1732,12 +1762,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Joseph T Selinger III</div>
-          <div class="lb-meta">19 starts &bull; 7.0 inc/race &bull; S/F 16/7</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">19 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 16/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1755,12 +1780,7 @@
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Russell Armstrong3</div>
-          <div class="lb-meta">18 starts &bull; 2.9 inc/race &bull; S/F 6/7</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#2D7D32">CLEAN</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">18 starts &bull; 0 wins &bull; 2.9 inc/race &bull; S/F 6/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1778,12 +1798,7 @@
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Billy Dick</div>
-          <div class="lb-meta">27 starts &bull; 5.6 inc/race &bull; S/F 10/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">27 starts &bull; 0 wins &bull; 5.6 inc/race &bull; S/F 10/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1801,12 +1816,7 @@
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Chris Campbell15</div>
-          <div class="lb-meta">11 starts &bull; 5.5 inc/race &bull; S/F 7/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">11 starts &bull; 0 wins &bull; 5.5 inc/race &bull; S/F 7/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1824,12 +1834,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jeff Hedges</div>
-          <div class="lb-meta">12 starts &bull; 3.5 inc/race &bull; S/F 12/9</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">12 starts &bull; 0 wins &bull; 3.5 inc/race &bull; S/F 12/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1847,12 +1852,7 @@
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Keegan Mantle</div>
-          <div class="lb-meta">20 starts &bull; 7.5 inc/race &bull; S/F 12/9</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">20 starts &bull; 1 wins &bull; 7.5 inc/race &bull; S/F 12/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1870,12 +1870,7 @@
         <img class="lb-team-logo" src="team_logos/Vantage.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Chay Mitchell3</div>
-          <div class="lb-meta">16 starts &bull; 5.5 inc/race &bull; S/F 12/11</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">16 starts &bull; 0 wins &bull; 5.5 inc/race &bull; S/F 12/11</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1893,12 +1888,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Greg Fronek</div>
-          <div class="lb-meta">14 starts &bull; 4.6 inc/race &bull; S/F 15/11</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">14 starts &bull; 0 wins &bull; 4.6 inc/race &bull; S/F 15/11</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1916,12 +1906,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Austin T Roberts</div>
-          <div class="lb-meta">15 starts &bull; 4.1 inc/race &bull; S/F 13/12</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">15 starts &bull; 0 wins &bull; 4.1 inc/race &bull; S/F 13/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1939,12 +1924,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Cayden Cyr</div>
-          <div class="lb-meta">8 starts &bull; 5.1 inc/race &bull; S/F 7/12</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">8 starts &bull; 0 wins &bull; 5.1 inc/race &bull; S/F 7/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1962,12 +1942,7 @@
         <img class="lb-team-logo" src="team_logos/RMS_Racing_logo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Jeremy Doran</div>
-          <div class="lb-meta">12 starts &bull; 6.4 inc/race &bull; S/F 9/5</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">12 starts &bull; 0 wins &bull; 6.4 inc/race &bull; S/F 9/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -1985,12 +1960,7 @@
         <img class="lb-team-logo" src="team_logos/LapDownLegends.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Rob Hettinger</div>
-          <div class="lb-meta">11 starts &bull; 8.5 inc/race &bull; S/F 14/14</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">11 starts &bull; 0 wins &bull; 8.5 inc/race &bull; S/F 14/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2008,12 +1978,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Matthew Wilbanks</div>
-          <div class="lb-meta">7 starts &bull; 7.6 inc/race &bull; S/F 14/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">7 starts &bull; 0 wins &bull; 7.6 inc/race &bull; S/F 14/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2031,12 +1996,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">William Figueredo</div>
-          <div class="lb-meta">9 starts &bull; 7.0 inc/race &bull; S/F 7/11</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">9 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 7/11</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2054,12 +2014,7 @@
         <img class="lb-team-logo" src="team_logos/rainbowunicorn.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Kolby Newland</div>
-          <div class="lb-meta">10 starts &bull; 6.3 inc/race &bull; S/F 12/13</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">10 starts &bull; 0 wins &bull; 6.3 inc/race &bull; S/F 12/13</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2077,12 +2032,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Max Nau</div>
-          <div class="lb-meta">9 starts &bull; 7.0 inc/race &bull; S/F 9/5</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">9 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 9/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2100,12 +2050,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Matt Petit2</div>
-          <div class="lb-meta">5 starts &bull; 6.4 inc/race &bull; S/F 5/10</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">5 starts &bull; 0 wins &bull; 6.4 inc/race &bull; S/F 5/10</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2123,12 +2068,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Paul Doyle</div>
-          <div class="lb-meta">7 starts &bull; 4.0 inc/race &bull; S/F 12/12</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">7 starts &bull; 1 wins &bull; 4.0 inc/race &bull; S/F 12/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2146,12 +2086,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Ed Burgin</div>
-          <div class="lb-meta">8 starts &bull; 6.2 inc/race &bull; S/F 11/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">8 starts &bull; 0 wins &bull; 6.2 inc/race &bull; S/F 11/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2169,12 +2104,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Brendon Allen</div>
-          <div class="lb-meta">11 starts &bull; 5.7 inc/race &bull; S/F 10/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">11 starts &bull; 0 wins &bull; 5.7 inc/race &bull; S/F 10/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2192,12 +2122,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Mike Malone2</div>
-          <div class="lb-meta">5 starts &bull; 1.4 inc/race &bull; S/F 7/4</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#2D7D32">CLEAN</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">5 starts &bull; 1 wins &bull; 1.4 inc/race &bull; S/F 7/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2215,12 +2140,7 @@
         <img class="lb-team-logo" src="team_logos/Flippy00TGL.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Lars Aurisch</div>
-          <div class="lb-meta">6 starts &bull; 6.0 inc/race &bull; S/F 16/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">6 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F 16/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2238,12 +2158,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Andrew Metcalf</div>
-          <div class="lb-meta">6 starts &bull; 6.8 inc/race &bull; S/F 6/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">6 starts &bull; 0 wins &bull; 6.8 inc/race &bull; S/F 6/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2261,12 +2176,7 @@
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Drew Baum</div>
-          <div class="lb-meta">5 starts &bull; 1.0 inc/race &bull; S/F 1/1</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#D4A017">WINNER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">3</span>
+          <div class="lb-meta">5 starts &bull; 3 wins &bull; 1.0 inc/race &bull; S/F 1/1</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2284,12 +2194,7 @@
         <img class="lb-team-logo" src="team_logos/Gator.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Clayton Tageson</div>
-          <div class="lb-meta">8 starts &bull; 7.0 inc/race &bull; S/F 16/15</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">8 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 16/15</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2307,12 +2212,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Tanner J Moore</div>
-          <div class="lb-meta">15 starts &bull; 4.3 inc/race &bull; S/F 9/16</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">15 starts &bull; 0 wins &bull; 4.3 inc/race &bull; S/F 9/16</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2330,12 +2230,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Robert Obriant</div>
-          <div class="lb-meta">8 starts &bull; 5.6 inc/race &bull; S/F 11/5</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#1565C0">RACER</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">2</span>
+          <div class="lb-meta">8 starts &bull; 2 wins &bull; 5.6 inc/race &bull; S/F 11/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2353,12 +2248,7 @@
         <img class="lb-team-logo" src="team_logos/Echelon_Logo_2026_White.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">John Salada</div>
-          <div class="lb-meta">11 starts &bull; 4.3 inc/race &bull; S/F 6/5</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">11 starts &bull; 0 wins &bull; 4.3 inc/race &bull; S/F 6/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2376,12 +2266,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Quinn Rowen</div>
-          <div class="lb-meta">4 starts &bull; 6.5 inc/race &bull; S/F 17/7</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">4 starts &bull; 0 wins &bull; 6.5 inc/race &bull; S/F 17/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2399,12 +2284,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Caleb Baumann</div>
-          <div class="lb-meta">4 starts &bull; 8.0 inc/race &bull; S/F 13/12</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 13/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2422,12 +2302,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">De Andre Cain</div>
-          <div class="lb-meta">4 starts &bull; 8.0 inc/race &bull; S/F 13/12</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 13/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2445,12 +2320,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Todd Adams</div>
-          <div class="lb-meta">4 starts &bull; 5.8 inc/race &bull; S/F 15/15</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">4 starts &bull; 0 wins &bull; 5.8 inc/race &bull; S/F 15/15</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2468,12 +2338,7 @@
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Michael Piecko</div>
-          <div class="lb-meta">2 starts &bull; 8.5 inc/race &bull; S/F 4/2</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">2 starts &bull; 1 wins &bull; 8.5 inc/race &bull; S/F 4/2</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2491,12 +2356,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Ricky Wall</div>
-          <div class="lb-meta">4 starts &bull; 2.5 inc/race &bull; S/F 2/2</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#2D7D32">CLEAN</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">4 starts &bull; 1 wins &bull; 2.5 inc/race &bull; S/F 2/2</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2514,12 +2374,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jason Trevino</div>
-          <div class="lb-meta">2 starts &bull; 4.0 inc/race &bull; S/F 12/7</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 12/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2537,12 +2392,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Rory Bauman</div>
-          <div class="lb-meta">3 starts &bull; 5.7 inc/race &bull; S/F 12/9</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 5.7 inc/race &bull; S/F 12/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2560,12 +2410,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jesse Winslow</div>
-          <div class="lb-meta">2 starts &bull; 9.0 inc/race &bull; S/F 20/12</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 9.0 inc/race &bull; S/F 20/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2583,12 +2428,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Johnny Wilbanks</div>
-          <div class="lb-meta">2 starts &bull; 1.5 inc/race &bull; S/F 25/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 1.5 inc/race &bull; S/F 25/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2606,12 +2446,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Justin A Brown</div>
-          <div class="lb-meta">4 starts &bull; 8.8 inc/race &bull; S/F 24/14</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.8 inc/race &bull; S/F 24/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2629,12 +2464,7 @@
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Aiden Anantaphong</div>
-          <div class="lb-meta">1 starts &bull; 3.0 inc/race &bull; S/F 2/1</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-val">1</span>
+          <div class="lb-meta">1 starts &bull; 1 wins &bull; 3.0 inc/race &bull; S/F 2/1</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2652,12 +2482,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Emily Howe</div>
-          <div class="lb-meta">1 starts &bull; 7.0 inc/race &bull; S/F 14/2</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 14/2</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2675,12 +2500,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Travis Ewart</div>
-          <div class="lb-meta">2 starts &bull; 10.0 inc/race &bull; S/F 2/3</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 2/3</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2698,12 +2518,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Brandon Cashmore</div>
-          <div class="lb-meta">1 starts &bull; 8.0 inc/race &bull; S/F 19/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 19/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2721,12 +2536,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Dominic Wright2</div>
-          <div class="lb-meta">2 starts &bull; 0.0 inc/race &bull; S/F 13/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 0.0 inc/race &bull; S/F 13/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2744,12 +2554,7 @@
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Jake Kaminskis</div>
-          <div class="lb-meta">1 starts &bull; 11.0 inc/race &bull; S/F 14/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 11.0 inc/race &bull; S/F 14/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2767,12 +2572,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Nicholas Bechtold</div>
-          <div class="lb-meta">1 starts &bull; 2.0 inc/race &bull; S/F 21/4</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F 21/4</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2790,12 +2590,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Graham Bullis2</div>
-          <div class="lb-meta">2 starts &bull; 4.0 inc/race &bull; S/F 5/5</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 5/5</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2813,12 +2608,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Evan Melanson</div>
-          <div class="lb-meta">1 starts &bull; 8.0 inc/race &bull; S/F 18/6</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 18/6</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2836,12 +2626,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Joshua Ace</div>
-          <div class="lb-meta">1 starts &bull; 13.0 inc/race &bull; S/F 10/6</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 13.0 inc/race &bull; S/F 10/6</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2859,12 +2644,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Randy Miller8</div>
-          <div class="lb-meta">2 starts &bull; 3.0 inc/race &bull; S/F 20/7</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F 20/7</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2882,12 +2662,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jason Taylor6</div>
-          <div class="lb-meta">1 starts &bull; 5.0 inc/race &bull; S/F 1/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 5.0 inc/race &bull; S/F 1/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2905,12 +2680,7 @@
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Jason Vondra2</div>
-          <div class="lb-meta">3 starts &bull; 8.7 inc/race &bull; S/F 10/8</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 8.7 inc/race &bull; S/F 10/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2928,12 +2698,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Steven Crawford4</div>
-          <div class="lb-meta">2 starts &bull; 11.5 inc/race &bull; S/F 13/8</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 11.5 inc/race &bull; S/F 13/8</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2951,12 +2716,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Alex M Bates</div>
-          <div class="lb-meta">1 starts &bull; 10.0 inc/race &bull; S/F 17/9</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 17/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2974,12 +2734,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jesse Weidner</div>
-          <div class="lb-meta">1 starts &bull; 8.0 inc/race &bull; S/F 10/9</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 10/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -2997,12 +2752,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Steven Jack4</div>
-          <div class="lb-meta">2 starts &bull; 4.0 inc/race &bull; S/F 11/9</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 11/9</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3020,12 +2770,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Amine Haddaji</div>
-          <div class="lb-meta">3 starts &bull; 10.7 inc/race &bull; S/F 9/10</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 10.7 inc/race &bull; S/F 9/10</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3043,12 +2788,7 @@
         <img class="lb-team-logo" src="team_logos/MNR_White-OL.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name">Ethan Mansberger</div>
-          <div class="lb-meta">3 starts &bull; 6.3 inc/race &bull; S/F 13/10</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 6.3 inc/race &bull; S/F 13/10</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3066,12 +2806,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Aaron martin4</div>
-          <div class="lb-meta">1 starts &bull; 4.0 inc/race &bull; S/F 12/11</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 12/11</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3089,12 +2824,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Brandon Showers</div>
-          <div class="lb-meta">1 starts &bull; 12.0 inc/race &bull; S/F 19/12</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F 19/12</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3112,12 +2842,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Josiah Winslow</div>
-          <div class="lb-meta">1 starts &bull; 14.0 inc/race &bull; S/F 21/13</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 14.0 inc/race &bull; S/F 21/13</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3135,12 +2860,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Adam Coy</div>
-          <div class="lb-meta">2 starts &bull; 0.5 inc/race &bull; S/F 7/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 0.5 inc/race &bull; S/F 7/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3158,12 +2878,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Randall Hall</div>
-          <div class="lb-meta">2 starts &bull; 9.5 inc/race &bull; S/F 21/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 9.5 inc/race &bull; S/F 21/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3181,12 +2896,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Stefan Wagner3</div>
-          <div class="lb-meta">2 starts &bull; 4.5 inc/race &bull; S/F 15/14</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.5 inc/race &bull; S/F 15/14</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3204,12 +2914,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Adrian Beasley</div>
-          <div class="lb-meta">3 starts &bull; 7.3 inc/race &bull; S/F 34/15</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 7.3 inc/race &bull; S/F 34/15</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3227,12 +2932,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">John Adams11</div>
-          <div class="lb-meta">1 starts &bull; 10.0 inc/race &bull; S/F 4/15</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 4/15</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3250,12 +2950,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jeff Banfield</div>
-          <div class="lb-meta">1 starts &bull; 9.0 inc/race &bull; S/F 7/17</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 9.0 inc/race &bull; S/F 7/17</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3273,12 +2968,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Will Dawson</div>
-          <div class="lb-meta">3 starts &bull; 10.3 inc/race &bull; S/F 11/19</div>
-        </div>
-        <div class="lb-tags-col"><span class="lb-tag" style="background:#CC0000">CHAOS</span></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 10.3 inc/race &bull; S/F 11/19</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3296,12 +2986,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Stoner Lopez</div>
-          <div class="lb-meta">1 starts &bull; 12.0 inc/race &bull; S/F 23/20</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F 23/20</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3319,12 +3004,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Alvin Carter</div>
-          <div class="lb-meta">1 starts &bull; 4.0 inc/race &bull; S/F 6/23</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 6/23</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3342,12 +3022,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Douglas Dennison</div>
-          <div class="lb-meta">2 starts &bull; 13.5 inc/race &bull; S/F 15/24</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">2 starts &bull; 0 wins &bull; 13.5 inc/race &bull; S/F 15/24</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3365,12 +3040,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Alex Huffman</div>
-          <div class="lb-meta">1 starts &bull; 0.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 0.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3388,12 +3058,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Andriy Trynoga</div>
-          <div class="lb-meta">1 starts &bull; 2.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3411,12 +3076,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Dalton Hall2</div>
-          <div class="lb-meta">1 starts &bull; 12.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3434,12 +3094,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Dalton Steele</div>
-          <div class="lb-meta">3 starts &bull; 7.3 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">3 starts &bull; 0 wins &bull; 7.3 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3457,12 +3112,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Donivan McKenzie</div>
-          <div class="lb-meta">1 starts &bull; 4.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3480,12 +3130,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">James Klinzing</div>
-          <div class="lb-meta">1 starts &bull; 3.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3503,12 +3148,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Jason Hale</div>
-          <div class="lb-meta">1 starts &bull; 7.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3526,12 +3166,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Maxwell Trivieri</div>
-          <div class="lb-meta">1 starts &bull; 6.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3549,12 +3184,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Sean Peleg</div>
-          <div class="lb-meta">1 starts &bull; 10.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3572,12 +3202,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Tyler Andrews</div>
-          <div class="lb-meta">1 starts &bull; 6.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3595,12 +3220,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Vanessa Vondra</div>
-          <div class="lb-meta">1 starts &bull; 3.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3618,12 +3238,7 @@
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name">Victor Phillips</div>
-          <div class="lb-meta">1 starts &bull; 2.0 inc/race &bull; S/F —</div>
-        </div>
-        <div class="lb-tags-col"></div>
-        <div class="lb-wins-col">
-          <div class="lb-wins-label">WINS</div>
-          <span class="lb-wins-none">—</span>
+          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F —</div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-pts-label">PTS</div>
@@ -3634,6 +3249,7 @@
           <div class="lb-pips-label">WEEKS</div>
           <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
         </div>
+      </div>
       </div>
     </div>
   </div>
@@ -3648,6 +3264,15 @@
 </div>
 
 <script>
+function setSubPage(name) {
+  document.querySelectorAll('.sub-page').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.sub-tab').forEach(function(t) { t.classList.remove('active'); });
+  var sp = document.getElementById('sub-' + name);
+  if (sp) sp.classList.add('active');
+  var tabs = document.querySelectorAll('.sub-tab');
+  tabs.forEach(function(t) { if (t.getAttribute('onclick') && t.getAttribute('onclick').indexOf(name) !== -1) t.classList.add('active'); });
+}
+
 function setPage(name) {
   document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
   document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
