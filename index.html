@@ -182,99 +182,62 @@
      STANDINGS PAGE
   ══════════════════════════════════════════ */
   .standings-wrap{max-width:100%;padding:16px 24px 60px}
-  .standings-header{
-    display:flex;align-items:center;justify-content:space-between;
-    margin-bottom:16px;flex-wrap:wrap;gap:10px;
-  }
-  .standings-title{
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:24px;font-weight:900;letter-spacing:3px;
-    color:var(--white);text-transform:uppercase;
-  }
-  .standings-subtitle{
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:13px;font-weight:600;letter-spacing:2px;
-    color:rgba(200,200,200,.40);text-transform:uppercase;
-    margin-top:3px;
-  }
-  .lb-table{display:flex;flex-direction:column;gap:4px}
+  .standings-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+  .standings-title{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;letter-spacing:3px;color:var(--white);text-transform:uppercase}
+  .standings-subtitle{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;letter-spacing:2px;color:rgba(200,200,200,.40);text-transform:uppercase;margin-top:3px}
+  .lb-table{display:flex;flex-direction:column;gap:3px}
 
   /* Row */
   .lb-row{
     display:grid;
-    grid-template-columns: 44px 48px 1fr 120px 180px;
+    grid-template-columns:54px 44px 1fr 160px 130px 110px;
     align-items:center;
     background:var(--surface);
     border:1px solid var(--border);
-    border-radius:5px;
-    padding:12px 20px;
+    border-radius:6px;
+    padding:12px 20px 12px 12px;
     gap:16px;
-    transition:background .15s;
+    transition:border-color .15s,background .15s;
+    position:relative;
+    overflow:hidden;
   }
-  .lb-row:hover{background:var(--surface2)}
-  .lb-row-top3{border-left:3px solid var(--gold)}
-  .lb-row-top3:nth-child(1){border-left-color:#FFD700}
-  .lb-row-top3:nth-child(2){border-left-color:#C0C0C0}
-  .lb-row-top3:nth-child(3){border-left-color:#CD7F32}
+  .lb-row:hover{border-color:rgba(200,200,200,.2)}
 
   /* Position */
-  .lb-pos{
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:24px;font-weight:900;
-    color:rgba(200,200,200,.35);
-    text-align:center;
-  }
-  .lb-pos-gold{color:#FFD700}
-  .lb-pos-silver{color:#C0C0C0}
-  .lb-pos-bronze{color:#CD7F32}
+  .lb-pos{font-family:'Barlow Condensed',sans-serif;font-weight:900;text-align:center;line-height:1;transition:transform .15s}
+  .lb-row:hover .lb-pos{transform:scale(1.05)}
 
   /* Team logo */
-  .lb-team-logo{width:36px;height:36px;object-fit:contain;border-radius:3px}
-  .lb-team-logo-placeholder{width:36px;height:36px}
+  .lb-team-logo{width:38px;height:38px;object-fit:contain;border-radius:4px}
+  .lb-team-logo-placeholder{width:38px;height:38px}
 
-  /* Name + meta */
-  .lb-name-col{min-width:0}
-  .lb-name{
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:26px;font-weight:900;
-    color:var(--white);
-    white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
-  }
-  .lb-meta{
-    font-family:'Barlow',sans-serif;
-    font-size:13px;font-weight:400;
-    color:rgba(200,200,200,.55);
-    margin-top:3px;
-  }
+  /* Name col */
+  .lb-name-col{min-width:0;display:flex;flex-direction:column;gap:4px}
+  .lb-name{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;line-height:1}
+  .lb-pts-bar{height:3px;background:var(--border);border-radius:2px;margin-top:2px}
+  .lb-pts-bar-fill{height:100%;border-radius:2px;transition:width .3s;opacity:.7}
+  .lb-meta{font-family:'Barlow',sans-serif;font-size:11px;color:rgba(200,200,200,.45);line-height:1}
 
-  /* Tags */
-  .lb-tags-col{display:flex;gap:6px;flex-wrap:wrap}
-  .lb-tag{
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:10px;font-weight:900;letter-spacing:2px;
-    text-transform:uppercase;color:#fff;
-    padding:2px 8px;border-radius:2px;
-    white-space:nowrap;
-  }
+  /* Wins col */
+  .lb-wins-col{text-align:center;min-width:0}
+  .lb-col-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-bottom:4px}
+  .lb-trophies{display:flex;gap:2px;justify-content:center;flex-wrap:wrap;min-height:20px;align-items:center}
+  .lb-trophy{font-size:14px;line-height:1}
+  .lb-trophy-extra{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:var(--gold)}
+  .lb-no-wins{font-family:'Barlow Condensed',sans-serif;font-size:16px;color:rgba(200,200,200,.15)}
+  .lb-wins-sub{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.35);margin-top:3px}
 
-  /* Wins */
-  .lb-wins-col{text-align:center}
-  .lb-wins-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:2px}
-  .lb-wins-val{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--gold)}
-  .lb-wins-none{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;color:rgba(200,200,200,.20)}
+  /* Starts col */
+  .lb-starts-col{text-align:center}
+  .lb-starts-val{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--white);line-height:1;margin-top:4px}
+  .lb-stat-main{color:var(--white)}
+  .lb-stat-sub{font-size:14px;color:rgba(200,200,200,.35)}
 
-  /* Points */
-  .lb-pts-col{text-align:center;position:relative}
-  .lb-pts-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:2px}
-  .lb-pts-val{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;color:var(--white)}
-  .lb-down{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;color:var(--red);letter-spacing:1px}
-
-  /* Pips */
-  .lb-pips-col{}
-  .lb-pips-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:8px}
-  .lb-pips{display:flex;gap:5px;flex-wrap:wrap}
-  .lb-pip{width:14px;height:14px;border-radius:3px;background:var(--border)}
-  .lb-pip.filled{background:var(--gold)}
+  /* Points col */
+  .lb-pts-col{text-align:center}
+  .lb-pts-val{font-family:'Barlow Condensed',sans-serif;font-size:38px;font-weight:900;color:var(--white);line-height:1;margin-top:4px}
+  .lb-down-val{display:block;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:var(--red);letter-spacing:1px;margin-top:2px}
+  .lb-current{display:block;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:#2D7D32;letter-spacing:1px;margin-top:2px}
 
   /* ── FOOTER ── */
   .footer{background:var(--surface);border-top:3px solid transparent;border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
@@ -298,10 +261,13 @@
     .race-card{min-width:100%!important;max-width:100%!important;flex:none!important}
     .race-car-img{width:130px!important;height:auto!important}
     .lb-row{
-      grid-template-columns: 36px 36px 1fr 60px;
-      grid-template-rows: auto auto;
+      grid-template-columns: 40px 36px 1fr 80px;
+      padding:10px 12px;gap:10px;
     }
-    .lb-pips-col{display:none}
+    .lb-wins-col,.lb-starts-col{display:none}
+    .lb-pts-val{font-size:24px}
+    .lb-name{font-size:18px}
+    .lb-pts-bar{display:none}
     .lb-pts-val{font-size:20px}
     .lb-name{font-size:16px}
     .lb-pos{font-size:18px}
@@ -1613,1641 +1579,2187 @@
       </div>
       <div class="lb-table">
 
-      <div class="lb-row lb-row-top3">
-        <div class="lb-pos lb-pos-gold">1</div>
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)">
+        <div class="lb-pos" style="color:#FF8000;font-size:36px;">1</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#FF8000">Brooks Whynot</div>
-          <div class="lb-meta">26 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F 9/3</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:100%;background:#FF8000"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.0 inc/race</span> &bull; S/F 9/3</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/26</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">374</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row lb-row-top3">
-        <div class="lb-pos lb-pos-silver">2</div>
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(163,53,238,0.06) 0%,transparent 60%)">
+        <div class="lb-pos" style="color:#A335EE;font-size:32px;">2</div>
         <img class="lb-team-logo" src="team_logos/PSC.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#A335EE">Clay Debban</div>
-          <div class="lb-meta">23 starts &bull; 2 wins &bull; 4.8 inc/race &bull; S/F 5/4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#A335EE"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.8 inc/race</span> &bull; S/F 5/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">2J / 2T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/23</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">367</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row lb-row-top3">
-        <div class="lb-pos lb-pos-bronze">3</div>
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)">
+        <div class="lb-pos" style="color:#0070DD;font-size:28px;">3</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#A335EE">Nate Lesko</div>
-          <div class="lb-meta">14 starts &bull; 2 wins &bull; 5.3 inc/race &bull; S/F 3/4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#A335EE"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.3 inc/race</span> &bull; S/F 3/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">2J / 2T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/14</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">365</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">4</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">4</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Cazz Bedford</div>
-          <div class="lb-meta">18 starts &bull; 0 wins &bull; 5.2 inc/race &bull; S/F 5/4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.2 inc/race</span> &bull; S/F 5/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/18</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">365</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">5</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">5</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Eric Loethen</div>
-          <div class="lb-meta">17 starts &bull; 0 wins &bull; 6.5 inc/race &bull; S/F 6/4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:97%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.5 inc/race</span> &bull; S/F 6/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/17</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">363</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">6</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">6</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Cody Schlaudecker</div>
-          <div class="lb-meta">13 starts &bull; 5 wins &bull; 3.3 inc/race &bull; S/F 5/5</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:95%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">3.3 inc/race</span> &bull; S/F 5/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">5J / 6T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/13</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">357</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">7</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">7</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Dustin L Collins</div>
-          <div class="lb-meta">19 starts &bull; 1 wins &bull; 4.1 inc/race &bull; S/F 8/5</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:95%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.1 inc/race</span> &bull; S/F 8/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/19</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">357</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">8</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">8</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Allen Kish8</div>
-          <div class="lb-meta">12 starts &bull; 1 wins &bull; 5.3 inc/race &bull; S/F 16/7</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:92%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.3 inc/race</span> &bull; S/F 16/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/12</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">343</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">9</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">9</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Joseph T Selinger III</div>
-          <div class="lb-meta">19 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 16/7</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F 16/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/19</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">342</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">10</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">10</div>
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#0070DD">Russell Armstrong3</div>
-          <div class="lb-meta">18 starts &bull; 0 wins &bull; 2.9 inc/race &bull; S/F 6/7</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#0070DD"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">2.9 inc/race</span> &bull; S/F 6/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/18</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">341</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">11</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">11</div>
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Billy Dick</div>
-          <div class="lb-meta">27 starts &bull; 0 wins &bull; 5.6 inc/race &bull; S/F 10/8</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.6 inc/race</span> &bull; S/F 10/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/27</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">339</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">12</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">12</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Chris Campbell15</div>
-          <div class="lb-meta">11 starts &bull; 0 wins &bull; 5.5 inc/race &bull; S/F 7/8</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:90%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.5 inc/race</span> &bull; S/F 7/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/11</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">337</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">13</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">13</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Jeff Hedges</div>
-          <div class="lb-meta">12 starts &bull; 0 wins &bull; 3.5 inc/race &bull; S/F 12/9</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:89%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">3.5 inc/race</span> &bull; S/F 12/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/12</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">332</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">14</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">14</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Keegan Mantle</div>
-          <div class="lb-meta">20 starts &bull; 1 wins &bull; 7.5 inc/race &bull; S/F 12/9</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:87%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.5 inc/race</span> &bull; S/F 12/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/20</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">327</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">15</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">15</div>
         <img class="lb-team-logo" src="team_logos/Vantage.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Chay Mitchell3</div>
-          <div class="lb-meta">16 starts &bull; 0 wins &bull; 5.5 inc/race &bull; S/F 12/11</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:85%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.5 inc/race</span> &bull; S/F 12/11</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/16</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">318</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">16</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">16</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Greg Fronek</div>
-          <div class="lb-meta">14 starts &bull; 0 wins &bull; 4.6 inc/race &bull; S/F 15/11</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:83%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.6 inc/race</span> &bull; S/F 15/11</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/14</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">312</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">17</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">17</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Austin T Roberts</div>
-          <div class="lb-meta">15 starts &bull; 0 wins &bull; 4.1 inc/race &bull; S/F 13/12</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.1 inc/race</span> &bull; S/F 13/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/15</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">308</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">18</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">18</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Cayden Cyr</div>
-          <div class="lb-meta">8 starts &bull; 0 wins &bull; 5.1 inc/race &bull; S/F 7/12</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.1 inc/race</span> &bull; S/F 7/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/8</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">305</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">19</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">19</div>
         <img class="lb-team-logo" src="team_logos/RMS_Racing_logo.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Jeremy Doran</div>
-          <div class="lb-meta">12 starts &bull; 0 wins &bull; 6.4 inc/race &bull; S/F 9/5</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.4 inc/race</span> &bull; S/F 9/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/12</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">305</div>
-          <span class="lb-down">-1</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-1</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">20</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">20</div>
         <img class="lb-team-logo" src="team_logos/LapDownLegends.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Rob Hettinger</div>
-          <div class="lb-meta">11 starts &bull; 0 wins &bull; 8.5 inc/race &bull; S/F 14/14</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:78%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.5 inc/race</span> &bull; S/F 14/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/11</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">293</div>
-          
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span></div>
+          <span class="lb-current">✓</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">21</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">21</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Matthew Wilbanks</div>
-          <div class="lb-meta">7 starts &bull; 0 wins &bull; 7.6 inc/race &bull; S/F 14/8</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:77%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.6 inc/race</span> &bull; S/F 14/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/7</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">288</div>
-          <span class="lb-down">-1</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-1</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">22</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">22</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">William Figueredo</div>
-          <div class="lb-meta">9 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 7/11</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:72%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F 7/11</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/9</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">270</div>
-          <span class="lb-down">-1</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-1</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">23</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">23</div>
         <img class="lb-team-logo" src="team_logos/rainbowunicorn.png" alt="">
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Kolby Newland</div>
-          <div class="lb-meta">10 starts &bull; 0 wins &bull; 6.3 inc/race &bull; S/F 12/13</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:70%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.3 inc/race</span> &bull; S/F 12/13</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/10</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">260</div>
-          <span class="lb-down">-1</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-1</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">24</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">24</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Max Nau</div>
-          <div class="lb-meta">9 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 9/5</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:68%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F 9/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/9</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">255</div>
-          <span class="lb-down">-2</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-2</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">25</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">25</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
           <div class="lb-name" style="color:#1EFF00">Matt Petit2</div>
-          <div class="lb-meta">5 starts &bull; 0 wins &bull; 6.4 inc/race &bull; S/F 5/10</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:61%;background:#1EFF00"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.4 inc/race</span> &bull; S/F 5/10</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/5</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">229</div>
-          <span class="lb-down">-2</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-2</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">26</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">26</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Paul Doyle</div>
-          <div class="lb-meta">7 starts &bull; 1 wins &bull; 4.0 inc/race &bull; S/F 12/12</div>
+          <div class="lb-name" style="color:#C0C0C0">Paul Doyle</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:59%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 12/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/7</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">220</div>
-          <span class="lb-down">-2</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-2</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">27</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">27</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Ed Burgin</div>
-          <div class="lb-meta">8 starts &bull; 0 wins &bull; 6.2 inc/race &bull; S/F 11/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Ed Burgin</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:57%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.2 inc/race</span> &bull; S/F 11/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/8</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">212</div>
-          <span class="lb-down">-2</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-2</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">28</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">28</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Brendon Allen</div>
-          <div class="lb-meta">11 starts &bull; 0 wins &bull; 5.7 inc/race &bull; S/F 10/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Brendon Allen</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:56%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.7 inc/race</span> &bull; S/F 10/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/11</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">210</div>
-          <span class="lb-down">-2</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-2</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">29</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">29</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Mike Malone2</div>
-          <div class="lb-meta">5 starts &bull; 1 wins &bull; 1.4 inc/race &bull; S/F 7/4</div>
+          <div class="lb-name" style="color:#C0C0C0">Mike Malone2</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:55%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">1.4 inc/race</span> &bull; S/F 7/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/5</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">206</div>
-          <span class="lb-down">-3</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-3</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">30</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">30</div>
         <img class="lb-team-logo" src="team_logos/Flippy00TGL.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Lars Aurisch</div>
-          <div class="lb-meta">6 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F 16/8</div>
+          <div class="lb-name" style="color:#C0C0C0">Lars Aurisch</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:51%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.0 inc/race</span> &bull; S/F 16/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/6</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">192</div>
-          <span class="lb-down">-3</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-3</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">31</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">31</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Andrew Metcalf</div>
-          <div class="lb-meta">6 starts &bull; 0 wins &bull; 6.8 inc/race &bull; S/F 6/8</div>
+          <div class="lb-name" style="color:#C0C0C0">Andrew Metcalf</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:51%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.8 inc/race</span> &bull; S/F 6/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/6</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">191</div>
-          <span class="lb-down">-3</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-3</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">32</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">32</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Drew Baum</div>
-          <div class="lb-meta">5 starts &bull; 3 wins &bull; 1.0 inc/race &bull; S/F 1/1</div>
+          <div class="lb-name" style="color:#C0C0C0">Drew Baum</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:44%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">1.0 inc/race</span> &bull; S/F 1/1</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">3J / 3T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/5</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">165</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">33</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">33</div>
         <img class="lb-team-logo" src="team_logos/Gator.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Clayton Tageson</div>
-          <div class="lb-meta">8 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 16/15</div>
+          <div class="lb-name" style="color:#C0C0C0">Clayton Tageson</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:44%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F 16/15</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/8</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">164</div>
-          <span class="lb-down">-3</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-3</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">34</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">34</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Tanner J Moore</div>
-          <div class="lb-meta">15 starts &bull; 0 wins &bull; 4.3 inc/race &bull; S/F 9/16</div>
+          <div class="lb-name" style="color:#C0C0C0">Tanner J Moore</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:43%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.3 inc/race</span> &bull; S/F 9/16</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/15</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">162</div>
-          <span class="lb-down">-3</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-3</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">35</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">35</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Robert Obriant</div>
-          <div class="lb-meta">8 starts &bull; 2 wins &bull; 5.6 inc/race &bull; S/F 11/5</div>
+          <div class="lb-name" style="color:#C0C0C0">Robert Obriant</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:41%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.6 inc/race</span> &bull; S/F 11/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">2J / 2T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/8</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">154</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">36</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">36</div>
         <img class="lb-team-logo" src="team_logos/Echelon_Logo_2026_White.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">John Salada</div>
-          <div class="lb-meta">11 starts &bull; 0 wins &bull; 4.3 inc/race &bull; S/F 6/5</div>
+          <div class="lb-name" style="color:#C0C0C0">John Salada</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:41%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.3 inc/race</span> &bull; S/F 6/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/11</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">154</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">37</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">37</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Quinn Rowen</div>
-          <div class="lb-meta">4 starts &bull; 0 wins &bull; 6.5 inc/race &bull; S/F 17/7</div>
+          <div class="lb-name" style="color:#C0C0C0">Quinn Rowen</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:39%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.5 inc/race</span> &bull; S/F 17/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">146</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">38</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">38</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Caleb Baumann</div>
-          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 13/12</div>
+          <div class="lb-name" style="color:#C0C0C0">Caleb Baumann</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:36%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.0 inc/race</span> &bull; S/F 13/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">133</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">39</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">39</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">De Andre Cain</div>
-          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 13/12</div>
+          <div class="lb-name" style="color:#C0C0C0">De Andre Cain</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:36%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.0 inc/race</span> &bull; S/F 13/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">133</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">40</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">40</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Todd Adams</div>
-          <div class="lb-meta">4 starts &bull; 0 wins &bull; 5.8 inc/race &bull; S/F 15/15</div>
+          <div class="lb-name" style="color:#C0C0C0">Todd Adams</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:33%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.8 inc/race</span> &bull; S/F 15/15</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">124</div>
-          <span class="lb-down">-4</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-4</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">41</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">41</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Michael Piecko</div>
-          <div class="lb-meta">2 starts &bull; 1 wins &bull; 8.5 inc/race &bull; S/F 4/2</div>
+          <div class="lb-name" style="color:#C0C0C0">Michael Piecko</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:29%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.5 inc/race</span> &bull; S/F 4/2</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">109</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">42</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">42</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Ricky Wall</div>
-          <div class="lb-meta">4 starts &bull; 1 wins &bull; 2.5 inc/race &bull; S/F 2/2</div>
+          <div class="lb-name" style="color:#C0C0C0">Ricky Wall</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:29%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">2.5 inc/race</span> &bull; S/F 2/2</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 2T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">109</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">43</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">43</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jason Trevino</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 12/7</div>
+          <div class="lb-name" style="color:#C0C0C0">Jason Trevino</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:26%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 12/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">98</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">44</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">44</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Rory Bauman</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 5.7 inc/race &bull; S/F 12/9</div>
+          <div class="lb-name" style="color:#C0C0C0">Rory Bauman</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:25%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.7 inc/race</span> &bull; S/F 12/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">94</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">45</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">45</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jesse Winslow</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 9.0 inc/race &bull; S/F 20/12</div>
+          <div class="lb-name" style="color:#C0C0C0">Jesse Winslow</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:23%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">9.0 inc/race</span> &bull; S/F 20/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">87</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">46</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">46</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Johnny Wilbanks</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 1.5 inc/race &bull; S/F 25/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Johnny Wilbanks</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:22%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">1.5 inc/race</span> &bull; S/F 25/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">84</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">47</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">47</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Justin A Brown</div>
-          <div class="lb-meta">4 starts &bull; 0 wins &bull; 8.8 inc/race &bull; S/F 24/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Justin A Brown</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:22%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.8 inc/race</span> &bull; S/F 24/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/4</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">84</div>
-          <span class="lb-down">-5</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-5</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">48</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">48</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Aiden Anantaphong</div>
-          <div class="lb-meta">1 starts &bull; 1 wins &bull; 3.0 inc/race &bull; S/F 2/1</div>
+          <div class="lb-name" style="color:#C0C0C0">Aiden Anantaphong</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:15%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">3.0 inc/race</span> &bull; S/F 2/1</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
+          <div class="lb-wins-sub">1J / 1T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">55</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">49</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">49</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Emily Howe</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F 14/2</div>
+          <div class="lb-name" style="color:#C0C0C0">Emily Howe</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F 14/2</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">54</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">50</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">50</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Travis Ewart</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 2/3</div>
+          <div class="lb-name" style="color:#C0C0C0">Travis Ewart</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.0 inc/race</span> &bull; S/F 2/3</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">53</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">51</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">51</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Brandon Cashmore</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 19/4</div>
+          <div class="lb-name" style="color:#C0C0C0">Brandon Cashmore</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.0 inc/race</span> &bull; S/F 19/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">52</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">52</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">52</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Dominic Wright2</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 0.0 inc/race &bull; S/F 13/4</div>
+          <div class="lb-name" style="color:#C0C0C0">Dominic Wright2</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">0.0 inc/race</span> &bull; S/F 13/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">52</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">53</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">53</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jake Kaminskis</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 11.0 inc/race &bull; S/F 14/4</div>
+          <div class="lb-name" style="color:#C0C0C0">Jake Kaminskis</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">11.0 inc/race</span> &bull; S/F 14/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">52</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">54</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">54</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Nicholas Bechtold</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F 21/4</div>
+          <div class="lb-name" style="color:#C0C0C0">Nicholas Bechtold</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">2.0 inc/race</span> &bull; S/F 21/4</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">52</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">55</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">55</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Graham Bullis2</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 5/5</div>
+          <div class="lb-name" style="color:#C0C0C0">Graham Bullis2</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 5/5</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">51</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">56</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">56</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Evan Melanson</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 18/6</div>
+          <div class="lb-name" style="color:#C0C0C0">Evan Melanson</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.0 inc/race</span> &bull; S/F 18/6</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">50</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">57</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">57</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Joshua Ace</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 13.0 inc/race &bull; S/F 10/6</div>
+          <div class="lb-name" style="color:#C0C0C0">Joshua Ace</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">13.0 inc/race</span> &bull; S/F 10/6</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">50</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">58</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">58</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Randy Miller8</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F 20/7</div>
+          <div class="lb-name" style="color:#C0C0C0">Randy Miller8</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">3.0 inc/race</span> &bull; S/F 20/7</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">49</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">59</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">59</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jason Taylor6</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 5.0 inc/race &bull; S/F 1/8</div>
+          <div class="lb-name" style="color:#C0C0C0">Jason Taylor6</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">5.0 inc/race</span> &bull; S/F 1/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">48</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">60</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">60</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jason Vondra2</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 8.7 inc/race &bull; S/F 10/8</div>
+          <div class="lb-name" style="color:#C0C0C0">Jason Vondra2</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.7 inc/race</span> &bull; S/F 10/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">48</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">61</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">61</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Steven Crawford4</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 11.5 inc/race &bull; S/F 13/8</div>
+          <div class="lb-name" style="color:#C0C0C0">Steven Crawford4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">11.5 inc/race</span> &bull; S/F 13/8</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">48</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">62</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">62</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Alex M Bates</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 17/9</div>
+          <div class="lb-name" style="color:#C0C0C0">Alex M Bates</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.0 inc/race</span> &bull; S/F 17/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">47</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">63</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">63</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jesse Weidner</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 8.0 inc/race &bull; S/F 10/9</div>
+          <div class="lb-name" style="color:#C0C0C0">Jesse Weidner</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">8.0 inc/race</span> &bull; S/F 10/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">47</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">64</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">64</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Steven Jack4</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 11/9</div>
+          <div class="lb-name" style="color:#C0C0C0">Steven Jack4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 11/9</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">47</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">65</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">65</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Amine Haddaji</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 10.7 inc/race &bull; S/F 9/10</div>
+          <div class="lb-name" style="color:#C0C0C0">Amine Haddaji</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.7 inc/race</span> &bull; S/F 9/10</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">46</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">66</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">66</div>
         <img class="lb-team-logo" src="team_logos/MNR_White-OL.png" alt="">
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Ethan Mansberger</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 6.3 inc/race &bull; S/F 13/10</div>
+          <div class="lb-name" style="color:#C0C0C0">Ethan Mansberger</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.3 inc/race</span> &bull; S/F 13/10</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">46</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">67</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">67</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Aaron martin4</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 12/11</div>
+          <div class="lb-name" style="color:#C0C0C0">Aaron martin4</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 12/11</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">45</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">68</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">68</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Brandon Showers</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F 19/12</div>
+          <div class="lb-name" style="color:#C0C0C0">Brandon Showers</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">12.0 inc/race</span> &bull; S/F 19/12</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">44</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">69</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">69</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Josiah Winslow</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 14.0 inc/race &bull; S/F 21/13</div>
+          <div class="lb-name" style="color:#C0C0C0">Josiah Winslow</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">14.0 inc/race</span> &bull; S/F 21/13</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">43</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">70</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">70</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Adam Coy</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 0.5 inc/race &bull; S/F 7/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Adam Coy</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">0.5 inc/race</span> &bull; S/F 7/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">42</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">71</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">71</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Randall Hall</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 9.5 inc/race &bull; S/F 21/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Randall Hall</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">9.5 inc/race</span> &bull; S/F 21/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">42</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">72</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">72</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Stefan Wagner3</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 4.5 inc/race &bull; S/F 15/14</div>
+          <div class="lb-name" style="color:#C0C0C0">Stefan Wagner3</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.5 inc/race</span> &bull; S/F 15/14</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">42</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">73</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">73</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Adrian Beasley</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 7.3 inc/race &bull; S/F 34/15</div>
+          <div class="lb-name" style="color:#C0C0C0">Adrian Beasley</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.3 inc/race</span> &bull; S/F 34/15</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">41</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">74</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">74</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">John Adams11</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F 4/15</div>
+          <div class="lb-name" style="color:#C0C0C0">John Adams11</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.0 inc/race</span> &bull; S/F 4/15</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">41</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">75</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">75</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jeff Banfield</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 9.0 inc/race &bull; S/F 7/17</div>
+          <div class="lb-name" style="color:#C0C0C0">Jeff Banfield</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">9.0 inc/race</span> &bull; S/F 7/17</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">39</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">76</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">76</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Will Dawson</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 10.3 inc/race &bull; S/F 11/19</div>
+          <div class="lb-name" style="color:#C0C0C0">Will Dawson</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.3 inc/race</span> &bull; S/F 11/19</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">37</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">77</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">77</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Stoner Lopez</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F 23/20</div>
+          <div class="lb-name" style="color:#C0C0C0">Stoner Lopez</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">12.0 inc/race</span> &bull; S/F 23/20</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">36</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">78</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">78</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Alvin Carter</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F 6/23</div>
+          <div class="lb-name" style="color:#C0C0C0">Alvin Carter</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:9%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F 6/23</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">33</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">79</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">79</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Douglas Dennison</div>
-          <div class="lb-meta">2 starts &bull; 0 wins &bull; 13.5 inc/race &bull; S/F 15/24</div>
+          <div class="lb-name" style="color:#C0C0C0">Douglas Dennison</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:9%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">13.5 inc/race</span> &bull; S/F 15/24</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">32</div>
-          <span class="lb-down">-6</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip filled"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-6</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">80</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">80</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Alex Huffman</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 0.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Alex Huffman</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">0.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">81</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">81</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Andriy Trynoga</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Andriy Trynoga</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">2.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">82</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">82</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Dalton Hall2</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 12.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Dalton Hall2</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">12.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">83</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">83</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Dalton Steele</div>
-          <div class="lb-meta">3 starts &bull; 0 wins &bull; 7.3 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Dalton Steele</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.3 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/3</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">84</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">84</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Donivan McKenzie</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 4.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Donivan McKenzie</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">4.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">85</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">85</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">James Klinzing</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">James Klinzing</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">3.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">86</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">86</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Jason Hale</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 7.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Jason Hale</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">7.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">87</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">87</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Maxwell Trivieri</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Maxwell Trivieri</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">88</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">88</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Sean Peleg</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 10.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Sean Peleg</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#CC0000">10.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">89</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">89</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Tyler Andrews</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 6.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Tyler Andrews</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:rgba(200,200,200,.60)">6.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">90</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">90</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Vanessa Vondra</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 3.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Vanessa Vondra</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">3.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
 
-      <div class="lb-row">
-        <div class="lb-pos ">91</div>
+      <div class="lb-row" style="">
+        <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">91</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
-          <div class="lb-name" style="color:#FFFFFF">Victor Phillips</div>
-          <div class="lb-meta">1 starts &bull; 0 wins &bull; 2.0 inc/race &bull; S/F —</div>
+          <div class="lb-name" style="color:#C0C0C0">Victor Phillips</div>
+          <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
+          <div class="lb-meta"><span style="color:#2D7D32">2.0 inc/race</span> &bull; S/F —</div>
+        </div>
+        <div class="lb-wins-col">
+          <div class="lb-col-label">WINS</div>
+          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-sub">0J / 0T</div>
+        </div>
+        <div class="lb-starts-col">
+          <div class="lb-col-label">WKS / STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
         </div>
         <div class="lb-pts-col">
-          <div class="lb-pts-label">PTS</div>
+          <div class="lb-col-label">PTS</div>
           <div class="lb-pts-val">0</div>
-          <span class="lb-down">-7</span>
-        </div>
-        <div class="lb-pips-col">
-          <div class="lb-pips-label">WEEKS</div>
-          <div class="lb-pips"><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span><span class="lb-pip"></span></div>
+          <span class="lb-down-val">-7</span>
         </div>
       </div>
       </div>
