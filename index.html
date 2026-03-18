@@ -181,18 +181,27 @@
   .standings-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px}
   .standings-title{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;letter-spacing:3px;color:var(--white);text-transform:uppercase}
   .standings-subtitle{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:600;letter-spacing:2px;color:rgba(200,200,200,.40);text-transform:uppercase;margin-top:3px}
+  .racing-style-btn{
+    font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:900;letter-spacing:3px;
+    text-transform:uppercase;color:var(--gold);background:none;
+    border:1px solid rgba(212,160,23,.35);border-radius:4px;
+    padding:8px 16px;cursor:pointer;
+    transition:border-color .2s,color .2s,background .2s;
+    align-self:center;
+  }
+  .racing-style-btn:hover{background:rgba(212,160,23,.08);border-color:var(--gold)}
   .lb-table{display:flex;flex-direction:column;gap:3px}
 
   /* Row */
   .lb-row{
     display:grid;
-    grid-template-columns:54px 44px 1fr 160px 130px 110px;
+    grid-template-columns:54px 48px 1fr 80px 100px 120px 110px;
     align-items:center;
     background:var(--surface);
     border:1px solid var(--border);
     border-radius:6px;
     padding:12px 20px 12px 12px;
-    gap:16px;
+    gap:12px;
     transition:border-color .15s,background .15s;
     position:relative;
     overflow:hidden;
@@ -204,8 +213,8 @@
   .lb-row:hover .lb-pos{transform:scale(1.05)}
 
   /* Team logo */
-  .lb-team-logo{width:52px;height:52px;object-fit:contain;border-radius:4px}
-  .lb-team-logo-placeholder{width:52px;height:52px}
+  .lb-team-logo{width:48px;height:48px;object-fit:contain;border-radius:4px}
+  .lb-team-logo-placeholder{width:48px;height:48px}
 
   /* Name col */
   .lb-name-col{min-width:0;display:flex;flex-direction:column;gap:4px}
@@ -214,20 +223,27 @@
   .lb-pts-bar-fill{height:100%;border-radius:2px;transition:width .3s;opacity:.7}
   .lb-meta{font-family:'Barlow',sans-serif;font-size:11px;color:rgba(200,200,200,.45);line-height:1}
 
+  /* Archetype badge col */
+  .lb-badge-col{text-align:center;min-width:0}
+  .lb-badge-emoji{font-size:26px;line-height:1;margin-bottom:3px}
+  .lb-badge-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:900;letter-spacing:2px;text-transform:uppercase;white-space:nowrap}
+
   /* Wins col */
   .lb-wins-col{text-align:center;min-width:0}
-  .lb-col-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-bottom:4px}
-  .lb-trophies{display:flex;gap:2px;justify-content:center;flex-wrap:wrap;min-height:20px;align-items:center}
-  .lb-trophy{font-size:14px;line-height:1}
-  .lb-trophy-extra{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;color:var(--gold)}
-  .lb-no-wins{font-family:'Barlow Condensed',sans-serif;font-size:16px;color:rgba(200,200,200,.15)}
-  .lb-wins-sub{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.35);margin-top:3px}
+  .lb-col-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-bottom:4px;white-space:nowrap}
+  .lb-wins-big{font-family:'Barlow Condensed',sans-serif;font-size:38px;font-weight:900;color:var(--white);line-height:1;margin-top:2px}
+  .lb-wins-zero{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;color:rgba(200,200,200,.15);line-height:1;margin-top:2px}
+  .lb-trophies{display:flex;gap:2px;justify-content:center;flex-wrap:wrap;min-height:14px;align-items:center;margin-top:2px}
+  .lb-trophy{font-size:11px;line-height:1}
+  .lb-trophy-extra{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;color:var(--gold)}
+  .lb-wins-sub{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.35);margin-top:3px;white-space:nowrap}
 
   /* Starts col */
   .lb-starts-col{text-align:center}
-  .lb-starts-val{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--white);line-height:1;margin-top:4px}
-  .lb-stat-main{color:var(--white)}
-  .lb-stat-sub{font-size:14px;color:rgba(200,200,200,.35)}
+  .lb-starts-val{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:900;color:var(--white);line-height:1;margin-top:4px;display:flex;align-items:baseline;justify-content:center;gap:1px}
+  .lb-stat-main{color:var(--white);font-size:28px}
+  .lb-stat-sep{font-size:18px;color:rgba(200,200,200,.20);font-weight:900}
+  .lb-stat-sub{font-size:18px;color:rgba(200,200,200,.35);font-weight:900}
 
   /* Points col */
   .lb-pts-col{text-align:center}
@@ -338,10 +354,10 @@
     .races-row{flex-direction:column!important;gap:8px}
     .race-card{min-width:100%!important;max-width:100%!important;flex:none!important}
     .race-car-img{width:130px!important;height:auto!important}
-    .lb-row{grid-template-columns:36px 52px 1fr 70px;padding:10px 12px;gap:8px}
+    .lb-row{grid-template-columns:36px 44px 1fr 70px;padding:10px 12px;gap:8px}
     .lb-team-logo{width:44px;height:44px}
     .lb-team-logo-placeholder{width:44px;height:44px}
-    .lb-wins-col,.lb-starts-col{display:none}
+    .lb-badge-col,.lb-wins-col,.lb-starts-col{display:none}
     .lb-pts-val{font-size:22px}
     .lb-name{font-size:17px}
     .lb-pts-bar{height:2px;max-width:100%}
@@ -1663,10 +1679,11 @@
           <div class="standings-title">Pre-Season &mdash; Final Standings</div>
           <div class="standings-subtitle">Juiced Points &bull; Best result per week &bull; Catch-up eligible</div>
         </div>
+        <button class="racing-style-btn" onclick="openRacingStyle()">RACING STYLE &#9432;</button>
       </div>
       <div class="lb-table">
 
-      <div class="lb-row" style="background:linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)" data-driver-id="16" onclick="openDriver('16')"  >
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)" data-driver-id="16" onclick="openDriver('16')">
         <div class="lb-pos" style="color:#FF8000;font-size:36px;">1</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
@@ -1674,14 +1691,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:100%;background:#FF8000"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.0 INC/RACE</span> &bull; S/F 9/3</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">💪</div>
+          <div class="lb-badge-label" style="color:#1E6FBA">IRON MAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/26</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">26</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1690,7 +1712,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="background:linear-gradient(90deg,rgba(163,53,238,0.06) 0%,transparent 60%)" data-driver-id="24" onclick="openDriver('24')"  >
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(163,53,238,0.06) 0%,transparent 60%)" data-driver-id="24" onclick="openDriver('24')">
         <div class="lb-pos" style="color:#A335EE;font-size:28px;">2</div>
         <img class="lb-team-logo" src="team_logos/PSC.png" alt="">
         <div class="lb-name-col">
@@ -1698,14 +1720,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#A335EE"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.8 INC/RACE</span> &bull; S/F 5/4</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏆</div>
+          <div class="lb-badge-label" style="color:#D4A017">WINNER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">2</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">2J / 2T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/23</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">23</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1714,7 +1741,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="background:linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)" data-driver-id="1" onclick="openDriver('1')"  >
+      <div class="lb-row" style="background:linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)" data-driver-id="1" onclick="openDriver('1')">
         <div class="lb-pos" style="color:#A335EE;font-size:28px;">3</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -1722,14 +1749,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#A335EE"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.3 INC/RACE</span> &bull; S/F 3/4</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏆</div>
+          <div class="lb-badge-label" style="color:#D4A017">WINNER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">2</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">2J / 2T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/14</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">14</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1738,7 +1770,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="10" onclick="openDriver('10')"  >
+      <div class="lb-row" style="" data-driver-id="10" onclick="openDriver('10')">
         <div class="lb-pos" style="color:#A335EE;font-size:28px;">4</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
@@ -1746,14 +1778,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:98%;background:#A335EE"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.2 INC/RACE</span> &bull; S/F 5/4</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/18</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">18</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1762,7 +1799,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="11" onclick="openDriver('11')"  >
+      <div class="lb-row" style="" data-driver-id="11" onclick="openDriver('11')">
         <div class="lb-pos" style="color:#A335EE;font-size:28px;">5</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
@@ -1770,14 +1807,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:97%;background:#A335EE"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.5 INC/RACE</span> &bull; S/F 6/4</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/17</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">17</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1786,7 +1828,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="22" onclick="openDriver('22')"  >
+      <div class="lb-row" style="" data-driver-id="22" onclick="openDriver('22')">
         <div class="lb-pos" style="color:#0070DD;font-size:26px;">6</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
@@ -1794,14 +1836,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:95%;background:#0070DD"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.3 INC/RACE</span> &bull; S/F 5/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏆</div>
+          <div class="lb-badge-label" style="color:#D4A017">WINNER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">5</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">5J / 6T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/13</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">13</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1810,7 +1857,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="7" onclick="openDriver('7')"  >
+      <div class="lb-row" style="" data-driver-id="7" onclick="openDriver('7')">
         <div class="lb-pos" style="color:#0070DD;font-size:26px;">7</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
@@ -1818,14 +1865,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:95%;background:#0070DD"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.1 INC/RACE</span> &bull; S/F 8/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/19</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">19</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1834,7 +1886,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="20" onclick="openDriver('20')"  >
+      <div class="lb-row" style="" data-driver-id="20" onclick="openDriver('20')">
         <div class="lb-pos" style="color:#0070DD;font-size:26px;">8</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -1842,14 +1894,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:92%;background:#0070DD"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.3 INC/RACE</span> &bull; S/F 16/7</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/12</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">12</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1858,7 +1915,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="33" onclick="openDriver('33')"  >
+      <div class="lb-row" style="" data-driver-id="33" onclick="openDriver('33')">
         <div class="lb-pos" style="color:#0070DD;font-size:26px;">9</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -1866,14 +1923,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#0070DD"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F 16/7</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">💥</div>
+          <div class="lb-badge-label" style="color:#CC0000">CHAOS</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/19</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">19</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1882,7 +1944,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="30" onclick="openDriver('30')"  >
+      <div class="lb-row" style="" data-driver-id="30" onclick="openDriver('30')">
         <div class="lb-pos" style="color:#0070DD;font-size:26px;">10</div>
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
@@ -1890,14 +1952,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#0070DD"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">2.9 INC/RACE</span> &bull; S/F 6/7</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🧊</div>
+          <div class="lb-badge-label" style="color:#2D7D32">CLEAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/18</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">18</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1906,7 +1973,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="8" onclick="openDriver('8')"  >
+      <div class="lb-row" style="" data-driver-id="8" onclick="openDriver('8')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">11</div>
         <img class="lb-team-logo" src="team_logos/JuicedRacingLogo.png" alt="">
         <div class="lb-name-col">
@@ -1914,14 +1981,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:91%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.6 INC/RACE</span> &bull; S/F 10/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">💪</div>
+          <div class="lb-badge-label" style="color:#1E6FBA">IRON MAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/27</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">27</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1930,7 +2002,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="5" onclick="openDriver('5')"  >
+      <div class="lb-row" style="" data-driver-id="5" onclick="openDriver('5')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">12</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
@@ -1938,14 +2010,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:90%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.5 INC/RACE</span> &bull; S/F 7/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/11</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">11</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1954,7 +2031,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="94" onclick="openDriver('94')"  >
+      <div class="lb-row" style="" data-driver-id="94" onclick="openDriver('94')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">13</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -1962,14 +2039,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:89%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.5 INC/RACE</span> &bull; S/F 12/9</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🧊</div>
+          <div class="lb-badge-label" style="color:#2D7D32">CLEAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/12</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">12</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -1978,7 +2060,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="26" onclick="openDriver('26')"  >
+      <div class="lb-row" style="" data-driver-id="26" onclick="openDriver('26')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">14</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
@@ -1986,14 +2068,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:87%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.5 INC/RACE</span> &bull; S/F 12/9</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">💥</div>
+          <div class="lb-badge-label" style="color:#CC0000">CHAOS</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/20</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">20</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2002,7 +2089,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="37" onclick="openDriver('37')"  >
+      <div class="lb-row" style="" data-driver-id="37" onclick="openDriver('37')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">15</div>
         <img class="lb-team-logo" src="team_logos/Vantage.png" alt="">
         <div class="lb-name-col">
@@ -2010,14 +2097,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:85%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.5 INC/RACE</span> &bull; S/F 12/11</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/16</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">16</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2026,7 +2118,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="92" onclick="openDriver('92')"  >
+      <div class="lb-row" style="" data-driver-id="92" onclick="openDriver('92')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">16</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2034,14 +2126,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:83%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.6 INC/RACE</span> &bull; S/F 15/11</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/14</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">14</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2050,7 +2147,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="21" onclick="openDriver('21')"  >
+      <div class="lb-row" style="" data-driver-id="21" onclick="openDriver('21')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">17</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2058,14 +2155,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.1 INC/RACE</span> &bull; S/F 13/12</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/15</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">15</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2074,7 +2176,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="32" onclick="openDriver('32')"  >
+      <div class="lb-row" style="" data-driver-id="32" onclick="openDriver('32')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">18</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2082,14 +2184,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.1 INC/RACE</span> &bull; S/F 7/12</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/8</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">8</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2098,7 +2205,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="42" onclick="openDriver('42')"  >
+      <div class="lb-row" style="" data-driver-id="42" onclick="openDriver('42')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">19</div>
         <img class="lb-team-logo" src="team_logos/DWM_Sti8cker.png" alt="">
         <div class="lb-name-col">
@@ -2106,14 +2213,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:82%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.4 INC/RACE</span> &bull; S/F 9/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/12</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">12</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2122,7 +2234,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="46" onclick="openDriver('46')"  >
+      <div class="lb-row" style="" data-driver-id="46" onclick="openDriver('46')">
         <div class="lb-pos" style="color:#1EFF00;font-size:24px;">20</div>
         <img class="lb-team-logo" src="team_logos/LapDownLegends.png" alt="">
         <div class="lb-name-col">
@@ -2130,14 +2242,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:78%;background:#1EFF00"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.5 INC/RACE</span> &bull; S/F 14/14</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sub">/11</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">7</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">11</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2146,7 +2263,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="14" onclick="openDriver('14')"  >
+      <div class="lb-row" style="" data-driver-id="14" onclick="openDriver('14')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">21</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2154,14 +2271,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:77%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.6 INC/RACE</span> &bull; S/F 14/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/7</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">7</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2170,7 +2292,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="39" onclick="openDriver('39')"  >
+      <div class="lb-row" style="" data-driver-id="39" onclick="openDriver('39')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">22</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2178,14 +2300,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:72%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F 7/11</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/9</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">9</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2194,7 +2321,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="76" onclick="openDriver('76')"  >
+      <div class="lb-row" style="" data-driver-id="76" onclick="openDriver('76')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">23</div>
         <img class="lb-team-logo" src="team_logos/rainbowunicorn.png" alt="">
         <div class="lb-name-col">
@@ -2202,14 +2329,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:70%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.3 INC/RACE</span> &bull; S/F 12/13</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sub">/10</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">6</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">10</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2218,7 +2350,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="53" onclick="openDriver('53')"  >
+      <div class="lb-row" style="" data-driver-id="53" onclick="openDriver('53')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">24</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2226,14 +2358,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:68%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F 9/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/9</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">9</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2242,7 +2379,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="44" onclick="openDriver('44')"  >
+      <div class="lb-row" style="" data-driver-id="44" onclick="openDriver('44')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">25</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2250,14 +2387,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:61%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.4 INC/RACE</span> &bull; S/F 5/10</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/5</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">5</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2266,7 +2408,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="71" onclick="openDriver('71')"  >
+      <div class="lb-row" style="" data-driver-id="71" onclick="openDriver('71')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">26</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2274,14 +2416,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:59%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 12/12</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/7</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">7</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2290,7 +2437,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="41" onclick="openDriver('41')"  >
+      <div class="lb-row" style="" data-driver-id="41" onclick="openDriver('41')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">27</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2298,14 +2445,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:57%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.2 INC/RACE</span> &bull; S/F 11/14</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/8</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">8</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2314,7 +2466,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="69" onclick="openDriver('69')"  >
+      <div class="lb-row" style="" data-driver-id="69" onclick="openDriver('69')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">28</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2322,14 +2474,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:56%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.7 INC/RACE</span> &bull; S/F 10/14</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sub">/11</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">5</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">11</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2338,7 +2495,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="102" onclick="openDriver('102')"  >
+      <div class="lb-row" style="" data-driver-id="102" onclick="openDriver('102')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">29</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2346,14 +2503,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:55%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">1.4 INC/RACE</span> &bull; S/F 7/4</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🧊</div>
+          <div class="lb-badge-label" style="color:#2D7D32">CLEAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/5</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">5</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2362,7 +2524,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="58" onclick="openDriver('58')"  >
+      <div class="lb-row" style="" data-driver-id="58" onclick="openDriver('58')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">30</div>
         <img class="lb-team-logo" src="team_logos/Flippy00TGL.png" alt="">
         <div class="lb-name-col">
@@ -2370,14 +2532,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:51%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.0 INC/RACE</span> &bull; S/F 16/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/6</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">6</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2386,7 +2553,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="89" onclick="openDriver('89')"  >
+      <div class="lb-row" style="" data-driver-id="89" onclick="openDriver('89')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">31</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2394,14 +2561,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:51%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.8 INC/RACE</span> &bull; S/F 6/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/6</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">6</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2410,7 +2582,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="4" onclick="openDriver('4')"  >
+      <div class="lb-row" style="" data-driver-id="4" onclick="openDriver('4')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">32</div>
         <img class="lb-team-logo" src="team_logos/BottomBoysRacing.png" alt="">
         <div class="lb-name-col">
@@ -2418,14 +2590,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:44%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">1.0 INC/RACE</span> &bull; S/F 1/1</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏆</div>
+          <div class="lb-badge-label" style="color:#D4A017">WINNER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">3</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">3J / 3T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/5</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">5</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2434,7 +2611,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="73" onclick="openDriver('73')"  >
+      <div class="lb-row" style="" data-driver-id="73" onclick="openDriver('73')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">33</div>
         <img class="lb-team-logo" src="team_logos/Gator.png" alt="">
         <div class="lb-name-col">
@@ -2442,14 +2619,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:44%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F 16/15</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/8</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">8</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2458,7 +2640,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="66" onclick="openDriver('66')"  >
+      <div class="lb-row" style="" data-driver-id="66" onclick="openDriver('66')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">34</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2466,14 +2648,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:43%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.3 INC/RACE</span> &bull; S/F 9/16</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏁</div>
+          <div class="lb-badge-label" style="color:rgba(200,200,200,.55)">RACER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sub">/15</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">4</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">15</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2482,7 +2669,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="29" onclick="openDriver('29')"  >
+      <div class="lb-row" style="" data-driver-id="29" onclick="openDriver('29')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">35</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2490,14 +2677,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:41%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.6 INC/RACE</span> &bull; S/F 11/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🏆</div>
+          <div class="lb-badge-label" style="color:#D4A017">WINNER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">2</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">2J / 2T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/8</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">8</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2506,7 +2698,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="36" onclick="openDriver('36')"  >
+      <div class="lb-row" style="" data-driver-id="36" onclick="openDriver('36')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">36</div>
         <img class="lb-team-logo" src="team_logos/Echelon_Logo_2026_White.png" alt="">
         <div class="lb-name-col">
@@ -2514,14 +2706,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:41%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.3 INC/RACE</span> &bull; S/F 6/5</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/11</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">11</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2530,7 +2727,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="97" onclick="openDriver('97')"  >
+      <div class="lb-row" style="" data-driver-id="97" onclick="openDriver('97')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">37</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2538,14 +2735,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:39%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.5 INC/RACE</span> &bull; S/F 17/7</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2554,7 +2756,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="64" onclick="openDriver('64')"  >
+      <div class="lb-row" style="" data-driver-id="64" onclick="openDriver('64')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">38</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2562,14 +2764,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:36%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.0 INC/RACE</span> &bull; S/F 13/12</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2578,7 +2785,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="18" onclick="openDriver('18')"  >
+      <div class="lb-row" style="" data-driver-id="18" onclick="openDriver('18')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">39</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2586,14 +2793,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:36%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.0 INC/RACE</span> &bull; S/F 13/12</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2602,7 +2814,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="61" onclick="openDriver('61')"  >
+      <div class="lb-row" style="" data-driver-id="61" onclick="openDriver('61')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">40</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2610,14 +2822,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:33%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.8 INC/RACE</span> &bull; S/F 15/15</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">3</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2626,7 +2843,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="78" onclick="openDriver('78')"  >
+      <div class="lb-row" style="" data-driver-id="78" onclick="openDriver('78')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">41</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
@@ -2634,14 +2851,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:29%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.5 INC/RACE</span> &bull; S/F 4/2</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2650,7 +2869,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="50" onclick="openDriver('50')"  >
+      <div class="lb-row" style="" data-driver-id="50" onclick="openDriver('50')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">42</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2658,14 +2877,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:29%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">2.5 INC/RACE</span> &bull; S/F 2/2</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">🧊</div>
+          <div class="lb-badge-label" style="color:#2D7D32">CLEAN</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 2T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2674,7 +2898,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="74" onclick="openDriver('74')"  >
+      <div class="lb-row" style="" data-driver-id="74" onclick="openDriver('74')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">43</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2682,14 +2906,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:26%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 12/7</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2698,7 +2924,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="81" onclick="openDriver('81')"  >
+      <div class="lb-row" style="" data-driver-id="81" onclick="openDriver('81')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">44</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2706,14 +2932,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:25%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.7 INC/RACE</span> &bull; S/F 12/9</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2722,7 +2953,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="75" onclick="openDriver('75')"  >
+      <div class="lb-row" style="" data-driver-id="75" onclick="openDriver('75')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">45</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2730,14 +2961,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:23%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">9.0 INC/RACE</span> &bull; S/F 20/12</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2746,7 +2979,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="84" onclick="openDriver('84')"  >
+      <div class="lb-row" style="" data-driver-id="84" onclick="openDriver('84')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">46</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2754,14 +2987,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:22%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">1.5 INC/RACE</span> &bull; S/F 25/14</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2770,7 +3005,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="57" onclick="openDriver('57')"  >
+      <div class="lb-row" style="" data-driver-id="57" onclick="openDriver('57')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">47</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2778,14 +3013,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:22%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.8 INC/RACE</span> &bull; S/F 24/14</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sub">/4</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">2</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">4</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2794,7 +3034,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="77" onclick="openDriver('77')"  >
+      <div class="lb-row" style="" data-driver-id="77" onclick="openDriver('77')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">48</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
@@ -2802,14 +3042,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:15%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.0 INC/RACE</span> &bull; S/F 2/1</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
+          <div class="lb-wins-big">1</div>
           <div class="lb-trophies"><span class="lb-trophy">🏆</span></div>
           <div class="lb-wins-sub">1J / 1T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2818,7 +3060,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="51" onclick="openDriver('51')"  >
+      <div class="lb-row" style="" data-driver-id="51" onclick="openDriver('51')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">49</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2826,14 +3068,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F 14/2</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2842,7 +3086,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="70" onclick="openDriver('70')"  >
+      <div class="lb-row" style="" data-driver-id="70" onclick="openDriver('70')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">50</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2850,14 +3094,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.0 INC/RACE</span> &bull; S/F 2/3</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2866,7 +3112,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="65" onclick="openDriver('65')"  >
+      <div class="lb-row" style="" data-driver-id="65" onclick="openDriver('65')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">51</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2874,14 +3120,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.0 INC/RACE</span> &bull; S/F 19/4</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2890,7 +3138,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="72" onclick="openDriver('72')"  >
+      <div class="lb-row" style="" data-driver-id="72" onclick="openDriver('72')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">52</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2898,14 +3146,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">0.0 INC/RACE</span> &bull; S/F 13/4</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2914,7 +3164,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="79" onclick="openDriver('79')"  >
+      <div class="lb-row" style="" data-driver-id="79" onclick="openDriver('79')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">53</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
@@ -2922,14 +3172,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">11.0 INC/RACE</span> &bull; S/F 14/4</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2938,7 +3190,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="52" onclick="openDriver('52')"  >
+      <div class="lb-row" style="" data-driver-id="52" onclick="openDriver('52')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">54</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2946,14 +3198,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">2.0 INC/RACE</span> &bull; S/F 21/4</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2962,7 +3216,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="86" onclick="openDriver('86')"  >
+      <div class="lb-row" style="" data-driver-id="86" onclick="openDriver('86')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">55</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2970,14 +3224,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:14%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 5/5</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -2986,7 +3242,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="54" onclick="openDriver('54')"  >
+      <div class="lb-row" style="" data-driver-id="54" onclick="openDriver('54')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">56</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -2994,14 +3250,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.0 INC/RACE</span> &bull; S/F 18/6</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3010,7 +3268,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="49" onclick="openDriver('49')"  >
+      <div class="lb-row" style="" data-driver-id="49" onclick="openDriver('49')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">57</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3018,14 +3276,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">13.0 INC/RACE</span> &bull; S/F 10/6</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3034,7 +3294,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="55" onclick="openDriver('55')"  >
+      <div class="lb-row" style="" data-driver-id="55" onclick="openDriver('55')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">58</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3042,14 +3302,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.0 INC/RACE</span> &bull; S/F 20/7</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3058,7 +3320,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="80" onclick="openDriver('80')"  >
+      <div class="lb-row" style="" data-driver-id="80" onclick="openDriver('80')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">59</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3066,14 +3328,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">5.0 INC/RACE</span> &bull; S/F 1/8</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3082,7 +3346,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="83" onclick="openDriver('83')"  >
+      <div class="lb-row" style="" data-driver-id="83" onclick="openDriver('83')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">60</div>
         <img class="lb-team-logo" src="team_logos/DADSRACING.png" alt="">
         <div class="lb-name-col">
@@ -3090,14 +3354,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.7 INC/RACE</span> &bull; S/F 10/8</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3106,7 +3375,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="98" onclick="openDriver('98')"  >
+      <div class="lb-row" style="" data-driver-id="98" onclick="openDriver('98')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">61</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3114,14 +3383,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">11.5 INC/RACE</span> &bull; S/F 13/8</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3130,7 +3401,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="56" onclick="openDriver('56')"  >
+      <div class="lb-row" style="" data-driver-id="56" onclick="openDriver('56')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">62</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3138,14 +3409,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.0 INC/RACE</span> &bull; S/F 17/9</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3154,7 +3427,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="93" onclick="openDriver('93')"  >
+      <div class="lb-row" style="" data-driver-id="93" onclick="openDriver('93')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">63</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3162,14 +3435,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">8.0 INC/RACE</span> &bull; S/F 10/9</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3178,7 +3453,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="63" onclick="openDriver('63')"  >
+      <div class="lb-row" style="" data-driver-id="63" onclick="openDriver('63')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">64</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3186,14 +3461,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:13%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 11/9</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3202,7 +3479,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="34" onclick="openDriver('34')"  >
+      <div class="lb-row" style="" data-driver-id="34" onclick="openDriver('34')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">65</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3210,14 +3487,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.7 INC/RACE</span> &bull; S/F 9/10</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3226,7 +3508,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="88" onclick="openDriver('88')"  >
+      <div class="lb-row" style="" data-driver-id="88" onclick="openDriver('88')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">66</div>
         <img class="lb-team-logo" src="team_logos/MNR_White-OL.png" alt="">
         <div class="lb-name-col">
@@ -3234,14 +3516,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.3 INC/RACE</span> &bull; S/F 13/10</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3250,7 +3537,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="101" onclick="openDriver('101')"  >
+      <div class="lb-row" style="" data-driver-id="101" onclick="openDriver('101')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">67</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3258,14 +3545,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 12/11</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3274,7 +3563,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="108" onclick="openDriver('108')"  >
+      <div class="lb-row" style="" data-driver-id="108" onclick="openDriver('108')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">68</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3282,14 +3571,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:12%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">12.0 INC/RACE</span> &bull; S/F 19/12</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3298,7 +3589,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="12" onclick="openDriver('12')"  >
+      <div class="lb-row" style="" data-driver-id="12" onclick="openDriver('12')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">69</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3306,14 +3597,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">14.0 INC/RACE</span> &bull; S/F 21/13</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3322,7 +3615,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="96" onclick="openDriver('96')"  >
+      <div class="lb-row" style="" data-driver-id="96" onclick="openDriver('96')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">70</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3330,14 +3623,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">0.5 INC/RACE</span> &bull; S/F 7/14</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3346,7 +3641,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="35" onclick="openDriver('35')"  >
+      <div class="lb-row" style="" data-driver-id="35" onclick="openDriver('35')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">71</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3354,14 +3649,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">9.5 INC/RACE</span> &bull; S/F 21/14</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3370,7 +3667,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="107" onclick="openDriver('107')"  >
+      <div class="lb-row" style="" data-driver-id="107" onclick="openDriver('107')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">72</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3378,14 +3675,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.5 INC/RACE</span> &bull; S/F 15/14</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3394,7 +3693,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="60" onclick="openDriver('60')"  >
+      <div class="lb-row" style="" data-driver-id="60" onclick="openDriver('60')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">73</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3402,14 +3701,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.3 INC/RACE</span> &bull; S/F 34/15</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3418,7 +3722,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="82" onclick="openDriver('82')"  >
+      <div class="lb-row" style="" data-driver-id="82" onclick="openDriver('82')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">74</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3426,14 +3730,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:11%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.0 INC/RACE</span> &bull; S/F 4/15</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3442,7 +3748,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="67" onclick="openDriver('67')"  >
+      <div class="lb-row" style="" data-driver-id="67" onclick="openDriver('67')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">75</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3450,14 +3756,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">9.0 INC/RACE</span> &bull; S/F 7/17</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3466,7 +3774,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="85" onclick="openDriver('85')"  >
+      <div class="lb-row" style="" data-driver-id="85" onclick="openDriver('85')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">76</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3474,14 +3782,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.3 INC/RACE</span> &bull; S/F 11/19</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3490,7 +3803,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="59" onclick="openDriver('59')"  >
+      <div class="lb-row" style="" data-driver-id="59" onclick="openDriver('59')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">77</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3498,14 +3811,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:10%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">12.0 INC/RACE</span> &bull; S/F 23/20</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3514,7 +3829,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="68" onclick="openDriver('68')"  >
+      <div class="lb-row" style="" data-driver-id="68" onclick="openDriver('68')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">78</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3522,14 +3837,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:9%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F 6/23</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3538,7 +3855,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="95" onclick="openDriver('95')"  >
+      <div class="lb-row" style="" data-driver-id="95" onclick="openDriver('95')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">79</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3546,14 +3863,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:9%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">13.5 INC/RACE</span> &bull; S/F 15/24</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sub">/2</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">1</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">2</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3562,7 +3881,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="100" onclick="openDriver('100')"  >
+      <div class="lb-row" style="" data-driver-id="100" onclick="openDriver('100')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">80</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3570,14 +3889,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">0.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3586,7 +3907,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="43" onclick="openDriver('43')"  >
+      <div class="lb-row" style="" data-driver-id="43" onclick="openDriver('43')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">81</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3594,14 +3915,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">2.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3610,7 +3933,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="40" onclick="openDriver('40')"  >
+      <div class="lb-row" style="" data-driver-id="40" onclick="openDriver('40')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">82</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3618,14 +3941,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">12.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3634,7 +3959,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="87" onclick="openDriver('87')"  >
+      <div class="lb-row" style="" data-driver-id="87" onclick="openDriver('87')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">83</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3642,14 +3967,19 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.3 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col">
+          <div class="lb-badge-emoji">⚡</div>
+          <div class="lb-badge-label" style="color:#A335EE">STREAKER</div>
+        </div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/3</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">3</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3658,7 +3988,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="104" onclick="openDriver('104')"  >
+      <div class="lb-row" style="" data-driver-id="104" onclick="openDriver('104')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">84</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3666,14 +3996,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">4.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3682,7 +4014,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="99" onclick="openDriver('99')"  >
+      <div class="lb-row" style="" data-driver-id="99" onclick="openDriver('99')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">85</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3690,14 +4022,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3706,7 +4040,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="90" onclick="openDriver('90')"  >
+      <div class="lb-row" style="" data-driver-id="90" onclick="openDriver('90')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">86</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3714,14 +4048,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">7.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3730,7 +4066,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="91" onclick="openDriver('91')"  >
+      <div class="lb-row" style="" data-driver-id="91" onclick="openDriver('91')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">87</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3738,14 +4074,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3754,7 +4092,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="62" onclick="openDriver('62')"  >
+      <div class="lb-row" style="" data-driver-id="62" onclick="openDriver('62')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">88</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3762,14 +4100,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#CC0000;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">10.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3778,7 +4118,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="106" onclick="openDriver('106')"  >
+      <div class="lb-row" style="" data-driver-id="106" onclick="openDriver('106')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">89</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3786,14 +4126,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:rgba(200,200,200,.60);font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">6.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3802,7 +4144,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="103" onclick="openDriver('103')"  >
+      <div class="lb-row" style="" data-driver-id="103" onclick="openDriver('103')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">90</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3810,14 +4152,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">3.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3826,7 +4170,7 @@
         </div>
       </div>
 
-      <div class="lb-row" style="" data-driver-id="105" onclick="openDriver('105')"  >
+      <div class="lb-row" style="" data-driver-id="105" onclick="openDriver('105')">
         <div class="lb-pos" style="color:rgba(200,200,200,.30);font-size:22px;">91</div>
         <div class="lb-team-logo-placeholder"></div>
         <div class="lb-name-col">
@@ -3834,14 +4178,16 @@
           <div class="lb-pts-bar"><div class="lb-pts-bar-fill" style="width:0%;background:#C0C0C0"></div></div>
           <div class="lb-meta"><span class="lb-inc-val" style="color:#2D7D32;font-size:15px;font-weight:800;font-family:'Barlow Condensed',sans-serif;letter-spacing:1px">2.0 INC/RACE</span> &bull; S/F —</div>
         </div>
+        <div class="lb-badge-col"></div>
         <div class="lb-wins-col">
           <div class="lb-col-label">WINS</div>
-          <div class="lb-trophies"><span class="lb-no-wins">—</span></div>
+          <div class="lb-wins-zero">—</div>
+          <div class="lb-trophies"></div>
           <div class="lb-wins-sub">0J / 0T</div>
         </div>
         <div class="lb-starts-col">
-          <div class="lb-col-label">WKS / STARTS</div>
-          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sub">/1</span></div>
+          <div class="lb-col-label">SCORED&nbsp;/ STARTS</div>
+          <div class="lb-starts-val"><span class="lb-stat-main">0</span><span class="lb-stat-sep">/</span><span class="lb-stat-sub">1</span></div>
         </div>
         <div class="lb-pts-col">
           <div class="lb-col-label">PTS</div>
@@ -3977,6 +4323,47 @@ function closeDriverModal(e) {
 document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeModal();
 });
+
+function openRacingStyle() {
+  // Header
+  document.getElementById('modalName').textContent = 'Racing Style';
+  document.getElementById('modalName').style.color = 'var(--gold)';
+  document.getElementById('modalLogo').innerHTML = '<div class="modal-logo-placeholder"></div>';
+  document.getElementById('modalMeta').textContent = 'Each driver earns a badge based on their season performance. First matching rule wins.';
+
+  // No stats bar
+  document.getElementById('modalStats').innerHTML = '';
+
+  var archetypes = [
+    { emoji: '🏆', label: 'WINNER',   color: '#D4A017', rule: 'j-wins ≥ 2',          desc: 'Has won 2 or more Juiced-scored races this season. The benchmark everyone is chasing.' },
+    { emoji: '💪', label: 'IRON MAN', color: '#1E6FBA', rule: 'attendance ≥ 80%',     desc: 'Shows up to 80% or more of all races. Earns points through relentless consistency, not just hot streaks.' },
+    { emoji: '🧊', label: 'CLEAN',    color: '#2D7D32', rule: 'avg inc ≤ 3.5 / race', desc: 'Races with surgical precision. Low incident rate means they stay out of trouble and let the chaos happen around them.' },
+    { emoji: '⚡', label: 'STREAKER', color: '#A335EE', rule: 'attendance ≤ 50%',     desc: 'Races selectively — shows up to fewer than half the events but still scores big when they do. Quality over quantity.' },
+    { emoji: '💥', label: 'CHAOS',    color: '#CC0000', rule: 'avg inc ≥ 7.0 / race', desc: 'Brings the heat — and the carnage. High incident average suggests an aggressive style, for better or worse.' },
+    { emoji: '🏁', label: 'RACER',    color: 'rgba(200,200,200,.70)', rule: 'everyone else', desc: 'No dominant trait yet. Solid, well-rounded, and still writing their story. Watch this space.' },
+  ];
+
+  var bodyHtml = '<div class="modal-section-title">How badges are assigned</div>';
+  bodyHtml += '<div style="font-family:Barlow,sans-serif;font-size:13px;color:rgba(200,200,200,.5);margin-bottom:16px;line-height:1.5">Rules are evaluated top to bottom — the first match wins. Requires at least 3 starts to qualify for any badge.</div>';
+  bodyHtml += '<div style="display:flex;flex-direction:column;gap:10px">';
+
+  archetypes.forEach(function(a) {
+    bodyHtml += '<div style="display:grid;grid-template-columns:52px 120px 1fr;align-items:start;gap:12px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:14px 16px">';
+    bodyHtml += '<div style="font-size:32px;text-align:center;line-height:1">' + a.emoji + '</div>';
+    bodyHtml += '<div>';
+    bodyHtml += '<div style="font-family:Barlow Condensed,sans-serif;font-size:18px;font-weight:900;color:' + a.color + ';letter-spacing:1px">' + a.label + '</div>';
+    bodyHtml += '<div style="font-family:Barlow Condensed,sans-serif;font-size:11px;font-weight:700;color:rgba(200,200,200,.35);letter-spacing:1px;margin-top:4px;text-transform:uppercase">' + a.rule + '</div>';
+    bodyHtml += '</div>';
+    bodyHtml += '<div style="font-family:Barlow,sans-serif;font-size:13px;color:rgba(200,200,200,.65);line-height:1.5">' + a.desc + '</div>';
+    bodyHtml += '</div>';
+  });
+
+  bodyHtml += '</div>';
+
+  document.getElementById('modalBody').innerHTML = bodyHtml;
+  document.getElementById('driverModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
 
 function setSubPage(name) {
   document.querySelectorAll('.sub-page').forEach(function(p) { p.classList.remove('active'); });
