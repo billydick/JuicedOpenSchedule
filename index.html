@@ -24,15 +24,10 @@
     border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;
     display:flex;align-items:stretch;
   }
-  .nav-brand{
-    padding:16px 24px;
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:20px;font-weight:900;letter-spacing:2px;
-    color:var(--white);text-transform:uppercase;
-    display:flex;align-items:center;gap:10px;
-    border-right:1px solid var(--border);
-  }
-  .nav-brand span{color:var(--gold)}
+  .nav-brand{padding:8px 16px;display:flex;align-items:center;border-right:1px solid var(--border)}
+  .nav-logo-main{height:80px;width:auto;object-fit:contain}
+  .nav-race-night{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
+  .nav-logo-right{height:48px;width:auto;object-fit:contain;margin-left:16px;opacity:.9}
   .nav-tabs{display:flex;align-items:stretch}
   .nav-tab{
     padding:0 28px;
@@ -104,6 +99,7 @@
     color:rgba(200,200,200,.35);text-transform:uppercase;
     margin-bottom:16px;
   }
+  .s1-placeholder-logo{height:120px;width:auto;object-fit:contain;margin-bottom:20px;opacity:.95}
   .s1-placeholder-title{
     font-family:'Barlow Condensed',sans-serif;
     font-size:48px;font-weight:900;letter-spacing:2px;
@@ -261,7 +257,10 @@
     display:flex;align-items:center;gap:16px;
     flex-shrink:0;
   }
-  .modal-logo{width:48px;height:48px;object-fit:contain}
+  .modal-logo{width:52px;height:52px;object-fit:contain;border-radius:4px}
+  .modal-logo-placeholder{width:52px;height:52px}
+  .modal-brand-logo{height:56px;width:auto;object-fit:contain;opacity:.85;flex-shrink:0}
+  .modal-brand-logo-right{margin-left:auto}
   .modal-logo-placeholder{width:48px;height:48px}
   .modal-title-wrap{flex:1;min-width:0}
   .modal-name{font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;line-height:1}
@@ -353,12 +352,17 @@
 <body>
 
 <nav class="site-nav">
-  <div class="nav-brand">Juiced <span>Open</span></div>
+  <div class="nav-brand">
+    <img src="JuicedOpenLogo.png" alt="Juiced Open" class="nav-logo-main">
+  </div>
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
   </div>
-  <div class="nav-right">&#9679; Wed and Sat 9:30 PM EST Race Night</div>
+  <div class="nav-right">
+    <span class="nav-race-night">&#9679; Wed and Sat 9:30 PM EST Race Night</span>
+    <img src="team_logos/JuicedRacingLogo.png" alt="Juiced Racing" class="nav-logo-right">
+  </div>
 </nav>
 
 <!-- SCHEDULE PAGE -->
@@ -1635,7 +1639,7 @@
   <div class="sub-page" id="sub-s1">
     <div class="s1-placeholder">
       <div class="s1-placeholder-eyebrow">Coming Soon</div>
-      <div class="s1-placeholder-title">Juiced Open <span>Season 1</span></div>
+      <img src="JuicedOpenLogoS1.png" alt="Juiced Open Season 1" class="s1-placeholder-logo">
       <div class="s1-placeholder-sub">
         Season 1 kicks off soon. 20 weeks of racing across Dirt Oval, Oval, Dirt Road and Road / GT disciplines.<br>
         Race sponsorships available for $25 &mdash; your name on a race card, on stream and on this page all season.
@@ -3847,11 +3851,14 @@
 <div class="modal-overlay" id="driverModal" onclick="closeDriverModal(event)">
   <div class="modal" id="driverModalInner">
     <div class="modal-header">
+      <img src="JuicedOpenLogo.png" alt="Juiced Open" class="modal-brand-logo">
+      <div style="width:1px;height:40px;background:var(--border);flex-shrink:0;margin:0 4px"></div>
       <div id="modalLogo"></div>
       <div class="modal-title-wrap">
         <div class="modal-name" id="modalName"></div>
         <div class="modal-meta" id="modalMeta"></div>
       </div>
+      <img src="team_logos/JuicedRacingLogo.png" alt="Juiced Racing" class="modal-brand-logo modal-brand-logo-right">
       <button class="modal-close" onclick="closeModal()">&times;</button>
     </div>
     <div class="modal-stats" id="modalStats"></div>
