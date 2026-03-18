@@ -261,6 +261,7 @@
   .modal-logo-placeholder{width:52px;height:52px}
   .modal-brand-logo{height:56px;width:auto;object-fit:contain;opacity:.85;flex-shrink:0}
   .modal-brand-logo-right{margin-left:auto}
+  @media(max-width:768px){.modal-brand-logo-right{display:none}}
   .modal-logo-placeholder{width:48px;height:48px}
   .modal-title-wrap{flex:1;min-width:0}
   .modal-name{font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;line-height:1}
@@ -308,12 +309,13 @@
   .modal-inc-clean{color:#2D7D32}
   .modal-not-counted{opacity:.4}
   @media(max-width:768px){
-    .modal{max-height:95vh}
-    .modal-header{padding:14px 16px}
-    .modal-name{font-size:24px}
-    .modal-body{padding:12px 16px 20px}
-    .modal-stat{padding:10px 12px}
-    .modal-stat-val{font-size:20px}
+    .modal-brand-logo{height:32px}
+    .modal-logo{width:36px;height:36px}
+    .modal-name{font-size:22px}
+    .modal-header{padding:12px 14px;gap:8px;flex-wrap:wrap}
+    .modal-meta{font-size:11px}
+    .modal-stat-val{font-size:18px}
+    .modal-body{padding:12px 14px 20px}
   }
   .footer{background:var(--surface);border-top:3px solid transparent;border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;padding:16px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
   .footer-copy{font-family:'Barlow Condensed',sans-serif;font-size:10px;color:var(--chrome);opacity:.35;letter-spacing:2px;text-transform:uppercase}
@@ -335,21 +337,21 @@
     .races-row{flex-direction:column!important;gap:8px}
     .race-card{min-width:100%!important;max-width:100%!important;flex:none!important}
     .race-car-img{width:130px!important;height:auto!important}
-    .lb-row{
-      grid-template-columns: 36px 52px 1fr 70px;
-      padding:10px 12px;gap:8px;
-    }
-    .lb-team-logo{width:44px;height:44px}
-    .lb-team-logo-placeholder{width:44px;height:44px}
+    .lb-row{grid-template-columns:36px 52px 1fr 70px;padding:10px 12px;gap:8px}
     .lb-team-logo{width:44px;height:44px}
     .lb-team-logo-placeholder{width:44px;height:44px}
     .lb-wins-col,.lb-starts-col{display:none}
-    .lb-pts-val{font-size:24px}
-    .lb-name{font-size:18px}
+    .lb-pts-val{font-size:22px}
+    .lb-name{font-size:17px}
     .lb-pts-bar{height:2px;max-width:100%}
-    .lb-pts-val{font-size:20px}
-    .lb-name{font-size:16px}
-    .lb-pos{font-size:18px}
+    .modal-brand-logo{display:none!important}
+    .modal-header{gap:8px;padding:12px;flex-wrap:nowrap}
+    .modal-name{font-size:20px}
+    .modal-meta{font-size:11px}
+    .modal-stats{flex-wrap:wrap}
+    .modal-stat{min-width:80px;padding:10px 8px;flex:1}
+    .modal-stat-val{font-size:18px}
+    .modal-race-table td,.modal-race-table th{padding:5px 3px;font-size:11px}
   }
 </style>
 </head>
