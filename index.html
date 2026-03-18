@@ -369,6 +369,8 @@
     .modal-stat{min-width:80px;padding:10px 8px;flex:1}
     .modal-stat-val{font-size:18px}
     .modal-race-table td,.modal-race-table th{padding:5px 3px;font-size:11px}
+    .rs-archetype-row{grid-template-columns:40px 1fr!important}
+    .rs-archetype-desc{display:none}
   }
 </style>
 </head>
@@ -4348,13 +4350,13 @@ function openRacingStyle() {
   bodyHtml += '<div style="display:flex;flex-direction:column;gap:10px">';
 
   archetypes.forEach(function(a) {
-    bodyHtml += '<div style="display:grid;grid-template-columns:52px 120px 1fr;align-items:start;gap:12px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:14px 16px">';
+    bodyHtml += '<div class="rs-archetype-row" style="display:grid;grid-template-columns:52px 120px 1fr;align-items:start;gap:12px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:14px 16px">';
     bodyHtml += '<div style="font-size:32px;text-align:center;line-height:1">' + a.emoji + '</div>';
     bodyHtml += '<div>';
     bodyHtml += '<div style="font-family:Barlow Condensed,sans-serif;font-size:18px;font-weight:900;color:' + a.color + ';letter-spacing:1px">' + a.label + '</div>';
     bodyHtml += '<div style="font-family:Barlow Condensed,sans-serif;font-size:11px;font-weight:700;color:rgba(200,200,200,.35);letter-spacing:1px;margin-top:4px;text-transform:uppercase">' + a.rule + '</div>';
     bodyHtml += '</div>';
-    bodyHtml += '<div style="font-family:Barlow,sans-serif;font-size:13px;color:rgba(200,200,200,.65);line-height:1.5">' + a.desc + '</div>';
+    bodyHtml += '<div class="rs-archetype-desc" style="font-family:Barlow,sans-serif;font-size:13px;color:rgba(200,200,200,.65);line-height:1.5">' + a.desc + '</div>';
     bodyHtml += '</div>';
   });
 
