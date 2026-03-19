@@ -442,22 +442,25 @@
     background:var(--surface2);border:1px solid var(--border);border-radius:8px;
     padding:28px 24px;text-decoration:none;
     transition:border-color .2s,background .2s;
+    min-height:300px;
   }
   .jr-platform-card:hover{background:#1a1a1a;border-color:rgba(200,200,200,.2)}
   .jr-twitch-card{border-top:3px solid #9146FF}
-  .jr-yt-card{border-top:3px solid #FF0000;background:#0f0f0f;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}
+  .jr-yt-card{border-top:3px solid #FF0000;background:#0f0f0f;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px 24px;gap:12px}
+  .jr-yt-play-icon{line-height:1}
+  .jr-yt-channel{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--white);letter-spacing:1px}
   .jr-yt-card:hover{background:#181818}
   .jr-discord-card{border-top:3px solid #5865F2}
   .jr-platform-card-top{display:flex;align-items:center;gap:14px}
   .jr-platform-card-logo{height:40px;width:auto;object-fit:contain;border-radius:4px;flex-shrink:0}
-  .jr-platform-card-name{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:700;color:var(--white);letter-spacing:0.5px}
-  .jr-yt-subscribe-btn{width:90%;max-width:320px;height:auto;display:block;border-radius:4px;margin-bottom:8px}
+  .jr-platform-card-name{font-family:'Barlow Condensed',sans-serif;font-size:17px;font-weight:700;color:var(--white);letter-spacing:0.5px;white-space:nowrap}
+  .jr-yt-subscribe-btn{height:36px;width:auto;display:block;border-radius:3px}
   .jr-platform-card-cta{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:900;letter-spacing:1px;text-transform:uppercase}
   .jr-twitch-card .jr-platform-card-cta{color:#9146FF}
   .jr-yt-card .jr-platform-card-cta{color:#FF0000}
   .jr-discord-card .jr-platform-card-cta{color:#5865F2}
   .jr-platform-card-sub{font-family:'Barlow',sans-serif;font-size:13px;color:rgba(200,200,200,.40);line-height:1.4}
-  .jr-discord-icon{font-size:32px;line-height:1}
+  .jr-discord-icon{font-size:32px;line-height:1;flex-shrink:0}
   @media(max-width:768px){.jr-platform-grid{grid-template-columns:1fr}}
 
   @media(max-width:768px){
@@ -4446,9 +4449,14 @@
 
           <!-- YouTube -->
           <a href="https://youtube.com/@JuicedRacingTV" target="_blank" class="jr-platform-card jr-yt-card">
-            <div class="jr-platform-card-top">
-              <video src="JuicedRacingYTSubscribe.webm" autoplay loop muted playsinline class="jr-yt-subscribe-btn"></video>
+            <div class="jr-yt-play-icon">
+              <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="64" height="64" rx="14" fill="#FF0000"/>
+                <polygon points="26,18 50,32 26,46" fill="white"/>
+              </svg>
             </div>
+            <div class="jr-yt-channel">@JuicedRacingTV</div>
+            <video src="JuicedRacingYTSubscribe.webm" autoplay loop muted playsinline class="jr-yt-subscribe-btn"></video>
             <div class="jr-platform-card-cta">Subscribe &rarr;</div>
             <div class="jr-platform-card-sub">Race replays, highlights &amp; VODs</div>
           </a>
