@@ -362,9 +362,18 @@
 
   /* ── MOBILE ── */
   @media(max-width:768px){
-    .nav-brand{padding:12px 16px;font-size:16px}
-    .nav-tab{padding:0 16px;font-size:12px}
+    .nav-brand{padding:8px 12px;font-size:16px}
+    .nav-logo-main{height:48px}
     .nav-right{display:none}
+    .site-nav{flex-direction:column}
+    .nav-tabs{
+      display:flex;align-items:stretch;
+      overflow-x:auto;-webkit-overflow-scrolling:touch;
+      scrollbar-width:none;border-top:1px solid var(--border);
+      width:100%;
+    }
+    .nav-tabs::-webkit-scrollbar{display:none}
+    .nav-tab{padding:0 20px;font-size:12px;white-space:nowrap;flex-shrink:0;height:44px}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
@@ -4754,7 +4763,10 @@ function setPage(name) {
   var page = document.getElementById('page-' + name);
   if (page) page.classList.add('active');
   var tab = document.querySelector('.nav-tab[href="#' + name + '"]');
-  if (tab) tab.classList.add('active');
+  if (tab) {
+    tab.classList.add('active');
+    tab.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
+  }
   localStorage.setItem('juiced-page', name);
 }
 
