@@ -395,6 +395,70 @@
     .rs-archetype-row{grid-template-columns:40px 1fr!important}
     .rs-archetype-desc{display:none}
   }
+  /* ── JUICED RACING PAGE ── */
+  .jr-page{max-width:100%}
+  .jr-hero{
+    padding:80px 48px;
+    background:linear-gradient(135deg,#0a0a0a 0%,#111 60%,#0D0D0D 100%);
+    border-bottom:1px solid var(--border);
+    text-align:center;
+  }
+  .jr-hero-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:16px}
+  .jr-hero-title{font-family:'Barlow Condensed',sans-serif;font-size:72px;font-weight:900;letter-spacing:2px;color:var(--white);text-transform:uppercase;line-height:1}
+  .jr-hero-sub{font-family:'Barlow',sans-serif;font-size:20px;color:rgba(200,200,200,.65);margin:16px 0 12px}
+  .jr-hero-meta{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:32px}
+  .jr-watch-btn{
+    display:inline-flex;align-items:center;gap:10px;
+    background:var(--gold);color:#000;
+    font-family:'Barlow Condensed',sans-serif;font-size:15px;font-weight:900;letter-spacing:3px;text-transform:uppercase;
+    padding:14px 32px;border-radius:4px;text-decoration:none;
+    transition:opacity .2s;
+  }
+  .jr-watch-btn:hover{opacity:.85}
+  .jr-twitch-logo{height:22px;width:auto;object-fit:contain;border-radius:2px}
+
+  .jr-section{padding:60px 0;border-bottom:1px solid var(--border)}
+  .jr-section-alt{background:var(--surface)}
+  .jr-section-inner{max-width:900px;margin:0 auto;padding:0 48px}
+  .jr-section-label{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:20px}
+  .jr-body{font-family:'Barlow',sans-serif;font-size:17px;line-height:1.7;color:rgba(200,200,200,.75);margin-bottom:16px}
+  .jr-body:last-child{margin-bottom:0}
+
+  .jr-feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:32px 0}
+  .jr-feature{background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:24px}
+  .jr-feature-title{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:900;letter-spacing:1px;color:var(--white);text-transform:uppercase;margin-bottom:10px}
+  .jr-feature-body{font-family:'Barlow',sans-serif;font-size:14px;line-height:1.6;color:rgba(200,200,200,.60)}
+
+  .jr-stats-row{display:flex;gap:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-top:32px}
+  .jr-stat{flex:1;text-align:center;padding:24px;border-right:1px solid var(--border)}
+  .jr-stat:last-child{border-right:none}
+  .jr-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;color:var(--gold);line-height:1}
+  .jr-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-top:6px}
+
+  .jr-watch-section{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
+  .jr-platform-link{display:flex;align-items:center;gap:12px;text-decoration:none;margin-bottom:16px;transition:opacity .2s}
+  .jr-platform-link:hover{opacity:.8}
+  .jr-platform-logo{height:36px;width:auto;object-fit:contain;border-radius:4px}
+  .jr-platform-link span{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;color:var(--white);letter-spacing:1px}
+  .jr-yt-badge{height:48px;width:auto;display:block;border-radius:4px}
+  .jr-race-times{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-top:8px}
+  .jr-discord-btn{
+    display:inline-block;
+    font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:900;letter-spacing:3px;text-transform:uppercase;
+    color:#fff;background:#5865F2;border-radius:4px;
+    padding:12px 28px;text-decoration:none;margin-top:16px;
+    transition:opacity .2s;
+  }
+  .jr-discord-btn:hover{opacity:.85}
+
+  @media(max-width:768px){
+    .jr-hero{padding:48px 20px}
+    .jr-hero-title{font-size:48px}
+    .jr-section-inner{padding:0 20px}
+    .jr-feature-grid{grid-template-columns:1fr}
+    .jr-watch-section{grid-template-columns:1fr;gap:32px}
+  }
+
 </style>
 </head>
 <body>
@@ -406,6 +470,7 @@
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
+    <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
   </div>
   <div class="nav-right">
     <span class="nav-race-night">&#9679; Wed and Sat 9:30 PM EST Race Night</span>
@@ -4289,6 +4354,95 @@
   </div>
 </div>
 
+<!-- JUICED RACING PAGE -->
+<div class="page" id="page-juicedracing">
+  <div class="jr-page">
+
+    <!-- HERO -->
+    <div class="jr-hero">
+      <div class="jr-hero-eyebrow">iRacing League</div>
+      <div class="jr-hero-title">The Juiced Open</div>
+      <div class="jr-hero-sub">Weekly racing. Four disciplines. No time trials. Just race.</div>
+      <div class="jr-hero-meta">Wed &amp; Sat &bull; 9:30 PM EST &bull; 20 Weeks &bull; 60 Tracks &bull; 32 Cars &bull; 91 Drivers and climbing</div>
+      <a class="jr-watch-btn" href="https://twitch.tv/juicedracing" target="_blank">
+        <img src="twitch_tv_logo.jpg" alt="Twitch" class="jr-twitch-logo">
+        WATCH LIVE
+      </a>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="jr-section">
+      <div class="jr-section-inner">
+        <div class="jr-section-label">The League</div>
+        <p class="jr-body">The Juiced Open is a weekly iRacing league built for drivers who want to race — not time trial, not practice farm, not qualify for 45 minutes. You grid up and you race.</p>
+        <p class="jr-body">Every Wednesday and Saturday at 9:30 PM EST, races go live across four disciplines — Oval, Dirt Oval, Road/GT, and Dirt Road.</p>
+      </div>
+    </div>
+
+    <!-- POINTS -->
+    <div class="jr-section jr-section-alt">
+      <div class="jr-section-inner">
+        <div class="jr-section-label">How Points Work</div>
+        <p class="jr-body">NASCAR-style ladder. P1 scores 55 points, P2 scores 35, and so on. Your best result per week counts toward standings — so if you run all five races and win one, that win is what goes in the books.</p>
+        <p class="jr-body">Saturday runs three races, Wednesday runs two. Five races every week you can enter — you don't have to be perfect, you just have to show up and find your best result in something.</p>
+        <p class="jr-body">Miss a week entirely? The catch-up rule has you covered. Your next eligible results automatically backfill your missing slots. Life happens — one bad week doesn't knock you out of contention.</p>
+      </div>
+    </div>
+
+    <!-- STREAM SECTION -->
+    <div class="jr-section">
+      <div class="jr-section-inner">
+        <div class="jr-section-label">The Stream</div>
+        <p class="jr-body">This isn't someone screen-recording iRacing. This is a production — and one specific thing makes it different.</p>
+
+        <div class="jr-feature-grid">
+          <div class="jr-feature">
+            <div class="jr-feature-title">The Crash Cam</div>
+            <div class="jr-feature-body">A dedicated second iRacing account runs on track as a spotter — no HUD, no car, just a free camera that follows the action. It chases the incidents, the door slams, the last-lap moves. If something happens, the crash cam is already there. When you race in the Juiced Open, you're on stream.</div>
+          </div>
+          <div class="jr-feature">
+            <div class="jr-feature-title">The Rig</div>
+            <div class="jr-feature-body">Billy runs a full motion simulator. When the car hits the wall, he feels it. Chat can trigger effects mid-race through Twitch bits — including boosting the motion 100%. Race night is live, loud, and genuinely unpredictable.</div>
+          </div>
+          <div class="jr-feature">
+            <div class="jr-feature-title">Moose</div>
+            <div class="jr-feature-body">Chat can trigger an automated treat dispenser that feeds Moose, Billy's dog, mid-race. Yes, really. Someone will throw bits during a late-race battle and Moose will get a snack. This is the stream.</div>
+          </div>
+        </div>
+
+        <div class="jr-stats-row">
+          <div class="jr-stat"><div class="jr-stat-val">3,400+</div><div class="jr-stat-label">Followers</div></div>
+          <div class="jr-stat"><div class="jr-stat-val">Top 0.5%</div><div class="jr-stat-label">Twitch</div></div>
+          <div class="jr-stat"><div class="jr-stat-val">2 Years</div><div class="jr-stat-label">Built in</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WATCH / JOIN -->
+    <div class="jr-section jr-section-alt">
+      <div class="jr-section-inner jr-watch-section">
+        <div class="jr-watch-col">
+          <div class="jr-section-label">Watch Live</div>
+          <a href="https://twitch.tv/juicedracing" target="_blank" class="jr-platform-link">
+            <img src="twitch_tv_logo.jpg" alt="Twitch" class="jr-platform-logo">
+            <span>twitch.tv/juicedracing</span>
+          </a>
+          <a href="https://youtube.com/@JuicedRacingTV" target="_blank" class="jr-platform-link jr-yt-link">
+            <video src="JuicedRacingYTSubscribe.webm" autoplay loop muted playsinline class="jr-yt-badge"></video>
+          </a>
+          <div class="jr-race-times">Race nights: Wednesday &amp; Saturday &bull; 9:30 PM EST</div>
+        </div>
+        <div class="jr-join-col">
+          <div class="jr-section-label">Want In?</div>
+          <p class="jr-body">Join the Discord and we'll get you on the grid.</p>
+          <a href="https://discord.gg/FZY6VxnKJ2" target="_blank" class="jr-discord-btn">Join our Discord</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- DRIVER MODAL -->
 <div class="modal-overlay" id="driverModal" onclick="closeDriverModal(event)">
   <div class="modal" id="driverModalInner">
@@ -4583,7 +4737,7 @@ if (window.innerWidth <= 768) {
 // Init page from hash or localStorage
 var hash = window.location.hash.replace('#','');
 var saved = localStorage.getItem('juiced-page');
-var startPage = (hash === 'standings' || hash === 'schedule') ? hash : (saved || 'schedule');
+var startPage = (hash === 'standings' || hash === 'schedule' || hash === 'juicedracing') ? hash : (saved || 'schedule');
 setPage(startPage);
 </script>
 </body>
