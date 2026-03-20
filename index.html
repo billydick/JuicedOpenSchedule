@@ -76,9 +76,10 @@
     font-size:15px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
     background:transparent;border:2px solid var(--gold);
     color:var(--gold);padding:10px 20px;border-radius:4px;
-    cursor:pointer;white-space:nowrap;
+    cursor:pointer;white-space:nowrap;width:220px;text-align:center;
     animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
   }
+  .sponsor-nav-btn.pulse-gold{animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
   .sponsor-nav-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
   .sponsor-nav-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
   .sponsor-nav-btn:hover{background:var(--gold);color:#000;animation:none;box-shadow:none;opacity:1}
@@ -437,14 +438,15 @@
     .nav-tabs::-webkit-scrollbar{display:none}
     .nav-tab{padding:0 20px;font-size:12px;white-space:nowrap;flex-shrink:0;height:44px}
     .mobile-sponsor-btn{
-      display:flex;align-items:center;
+      display:flex;align-items:center;justify-content:center;
       font-family:'Barlow Condensed',sans-serif;
       font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
       background:transparent;border:2px solid var(--gold);
       color:var(--gold);padding:6px 12px;border-radius:4px;
-      white-space:nowrap;cursor:pointer;margin-left:auto;
+      white-space:nowrap;cursor:pointer;margin-left:auto;width:180px;
       animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
     }
+    .mobile-sponsor-btn.pulse-gold{animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
     .mobile-sponsor-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
     .mobile-sponsor-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
     .schedule,.standings-wrap{padding:10px 10px 40px}
@@ -588,7 +590,7 @@
 <nav class="site-nav">
   <div class="nav-brand">
     <img src="JuicedOpenLogo.png" alt="Juiced Open" class="nav-logo-main">
-    <button class="mobile-sponsor-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
+    <button class="mobile-sponsor-btn pulse-gold" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
   </div>
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
@@ -4554,17 +4556,18 @@
 <div class="sponsor-overlay" id="sponsorModal" onclick="closeSponsorModal(event)">
   <div class="sponsor-modal">
     <button class="sponsor-modal-close" onclick="closeSponsorModal()">&times;</button>
-    <div class="sponsor-modal-eyebrow">Support the League</div>
+    <div class="sponsor-modal-eyebrow">Support the Championship</div>
     <div class="sponsor-modal-title">Race Sponsorship</div>
     <div class="sponsor-modal-body">
-      Put your name on a race. Sponsors are featured on the race card on this site, called out live on stream, and credited on the broadcast all night. One race, one sponsor, all season long.
+      Put your name on a race. Sponsors are featured on the race card on this site and the stream overlay, and called out live on the Twitch broadcast all race night.
     </div>
     <ul class="sponsor-modal-perks">
       <li>Your name on the race card on this site and the stream overlay</li>
       <li>Constant shoutouts &amp; plugs live on the Twitch broadcast</li>
-      <li>You provide images/marketing materials &mdash; we can help if you have nothing</li>
+      <li>You provide images/marketing materials via Discord &mdash; we can help if you have nothing</li>
     </ul>
     <div class="sponsor-modal-price">$25 <span>per race</span></div>
+    <div class="sponsor-modal-body" style="font-size:14px;margin-bottom:20px;">Donate $25 on Ko-fi and include the race you want to sponsor in the message field. We'll take it from there.</div>
     <a class="sponsor-kofi-btn" href="https://ko-fi.com/juicedracing" target="_blank" onclick="closeSponsorModal()">
       Sponsor a Race on Ko-fi &rarr;
     </a>
@@ -4819,21 +4822,31 @@ function closeSponsorModal(e) {
   document.body.style.overflow = '';
 }
 
-// Cycle sponsor button pulse color on each animation end
+// Cycle sponsor button pulse color and text on each animation end
 (function() {
-  var cycle = ['pulse-red', 'pulse-blue', ''];
+  var cycle = [['pulse-gold','★ Race Sponsorship'],['pulse-red','Purchase Here'],['pulse-blue','★ Race Sponsorship'],['pulse-gold','Purchase Here'],['pulse-red','★ Race Sponsorship'],['pulse-blue','Purchase Here']];
   var idx = 0;
-  function cycleBtn(btn) {
-    if (!btn) return;
-    btn.addEventListener('animationiteration', function() {
-      btn.classList.remove('pulse-red', 'pulse-blue');
-      if (cycle[idx]) btn.classList.add(cycle[idx]);
+  function applyState(btn, state) {
+    btn.classList.remove('pulse-red','pulse-blue','pulse-gold');
+    btn.classList.add(state[0]);
+    btn.textContent = state[1];
+  }
+  var navBtn = document.querySelector('.sponsor-nav-btn');
+  var mobileBtn = document.querySelector('.mobile-sponsor-btn');
+  if (navBtn) {
+    navBtn.addEventListener("animationiteration", function() {
       idx = (idx + 1) % cycle.length;
+      applyState(navBtn, cycle[idx]);
+      if (mobileBtn) applyState(mobileBtn, cycle[idx]);
+    });
+  } else if (mobileBtn) {
+    mobileBtn.addEventListener("animationiteration", function() {
+      idx = (idx + 1) % cycle.length;
+      applyState(mobileBtn, cycle[idx]);
     });
   }
-  cycleBtn(document.querySelector('.sponsor-nav-btn'));
-  cycleBtn(document.querySelector('.mobile-sponsor-btn'));
 })();
+
 
 function openRacingStyle() {
   // Header
