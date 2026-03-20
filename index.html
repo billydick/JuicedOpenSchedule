@@ -407,17 +407,22 @@
   /* ── JUICED RACING PAGE ── */
   .jr-page{max-width:100%}
   .jr-hero{
-    padding:80px 48px;
+    padding:60px 48px;
     background:linear-gradient(135deg,#0a0a0a 0%,#111 60%,#0D0D0D 100%);
     border-bottom:1px solid var(--border);
-    text-align:center;
   }
+  .jr-hero-content{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;max-width:1400px;margin:0 auto}
+  .jr-hero-left{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+  .jr-hero-right{display:flex;flex-direction:column;gap:10px}
+  .jr-hero-embed-wrap{width:100%;aspect-ratio:16/9;background:#000;border-radius:6px;overflow:hidden;border:1px solid var(--border)}
+  .jr-hero-iframe{width:100%;height:100%;border:none;display:block}
+  .jr-hero-embed-label{display:flex;align-items:center;gap:6px;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.35);text-transform:uppercase}
   .jr-hero-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:16px}
-  .jr-hero-logo{height:120px;width:auto;object-fit:contain;display:block;margin:0 auto 20px}
+  .jr-hero-logo{height:120px;width:auto;object-fit:contain;display:block;margin:0 0 20px}
   .jr-hero-title{font-family:'Barlow Condensed',sans-serif;font-size:72px;font-weight:900;letter-spacing:2px;color:var(--white);text-transform:uppercase;line-height:1}
-  .jr-hero-title-img{max-width:600px;width:85%;height:auto;display:block;margin:0 auto}
+  .jr-hero-title-img{max-width:520px;width:100%;height:auto;display:block;margin:0 0 8px}
   .jr-hero-sub{font-family:'Barlow',sans-serif;font-size:20px;color:rgba(200,200,200,.65);margin:16px 0 12px}
-  .jr-hero-meta{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:32px}
+  .jr-hero-meta{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:28px}
   .jr-watch-btn{
     display:inline-flex;align-items:center;gap:10px;
     background:#9146FF;color:#fff;
@@ -465,8 +470,12 @@
   @media(max-width:768px){.jr-platform-grid{grid-template-columns:1fr}}
 
   @media(max-width:768px){
-    .jr-hero{padding:48px 20px}
+    .jr-hero{padding:40px 20px}
+    .jr-hero-content{grid-template-columns:1fr;gap:32px}
+    .jr-hero-left{align-items:center;text-align:center}
+    .jr-hero-right{display:none}
     .jr-hero-title{font-size:48px}
+    .jr-hero-title-img{margin:0 auto 8px}
     .jr-section-inner{padding:0 20px}
     .jr-body{font-size:17px}
     .jr-feature-grid{grid-template-columns:1fr}
@@ -4374,15 +4383,27 @@
 
     <!-- HERO -->
     <div class="jr-hero">
-    <!-- Hero logo removed -->
-      <div class="jr-hero-eyebrow">iRacing League</div>
-      <img src="JuicedOpenBasic.png" alt="The Juiced Open" class="jr-hero-title-img">
-      <div class="jr-hero-sub">No practice. Just racing.</div>
-      <div class="jr-hero-meta">Wed &amp; Sat &bull; 9:30 PM EST &bull; 20 Weeks &bull; 60 Tracks &bull; 32 Cars &bull; 91 Drivers and climbing</div>
-      <a class="jr-watch-btn" href="https://twitch.tv/juicedracing" target="_blank">
-        <img src="twitch_tv_logo.jpg" alt="Twitch" class="jr-twitch-logo">
-        WATCH LIVE
-      </a>
+      <div class="jr-hero-content">
+        <div class="jr-hero-left">
+          <div class="jr-hero-eyebrow">iRacing League</div>
+          <img src="JuicedOpenBasic.png" alt="The Juiced Open" class="jr-hero-title-img">
+          <div class="jr-hero-sub">No practice. Just racing.</div>
+          <div class="jr-hero-meta">Wed &amp; Sat &bull; 9:30 PM EST &bull; 20 Weeks &bull; 60 Tracks &bull; 32 Cars &bull; 91 Drivers and climbing</div>
+          <a class="jr-watch-btn" href="https://twitch.tv/juicedracing" target="_blank">
+            <img src="twitch_tv_logo.jpg" alt="Twitch" class="jr-twitch-logo">
+            WATCH LIVE
+          </a>
+        </div>
+        <div class="jr-hero-right">
+          <div class="jr-hero-embed-wrap">
+            <iframe src="https://player.twitch.tv/?video=v2725920647&parent=www.juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+          </div>
+          <div class="jr-hero-embed-label">
+            <svg width="16" height="16" viewBox="0 0 20 20" fill="none" style="flex-shrink:0"><rect width="20" height="20" rx="5" fill="#9146FF"/><path d="M5 4h1.5v4H5V4zm4 0h1.5v4H9V4z" fill="white"/><path d="M3 2l-1 3v10h4v2h2l2-2h3l4-4V2H3zm13 8l-2.5 2.5H11l-2 2v-2H5V4h11v6z" fill="white"/></svg>
+            twitch.tv/juicedracing &bull; Wed &amp; Sat 9:30 PM EST
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- ABOUT -->
