@@ -519,7 +519,17 @@
   .jr-feature-title{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:900;letter-spacing:1px;color:var(--white);text-transform:uppercase;margin-bottom:10px}
   .jr-feature-body{font-family:'Barlow',sans-serif;font-size:14px;line-height:1.6;color:rgba(200,200,200,.60)}
 
-  .jr-stats-row{display:flex;gap:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-top:32px}
+  .jr-ring-section{background:linear-gradient(135deg,#0a0a0a 0%,#111 100%);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+  .jr-ring-inner{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;max-width:1100px}
+  .jr-ring-image-wrap{display:flex;justify-content:center;align-items:center}
+  .jr-ring-img{width:100%;max-width:380px;height:auto;display:block;filter:drop-shadow(0 0 40px rgba(212,160,23,.25))}
+  .jr-ring-copy{display:flex;flex-direction:column;gap:0}
+  .jr-ring-season{font-family:'Barlow Condensed',sans-serif;font-size:28px;font-weight:900;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-top:24px}
+  @media(max-width:768px){
+    .jr-ring-inner{grid-template-columns:1fr;gap:32px}
+    .jr-ring-img{max-width:280px;margin:0 auto}
+    .jr-ring-copy{text-align:center}
+  }
   .jr-stat{flex:1;text-align:center;padding:24px;border-right:1px solid var(--border)}
   .jr-stat:last-child{border-right:none}
   .jr-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;color:var(--gold);line-height:1}
@@ -4426,6 +4436,21 @@
         <p class="jr-body">NASCAR-style ladder. P1 scores 55 points, P2 scores 54, P3 scores 53, and so on down to a minimum of 1. Your best result per week counts toward standings — so if you run all five races and win one, that win is what goes in the books.</p>
         <p class="jr-body">Saturday runs three races, Wednesday runs two. Five races every week you can enter — you don't have to be perfect, you just have to show up and find your best result in something.</p>
         <p class="jr-body">Miss a week entirely? The catch-up rule has you covered. Your next eligible results automatically backfill your missing slots. Life happens — one bad week doesn't knock you out of contention.</p>
+      </div>
+    </div>
+
+    <!-- RING SECTION -->
+    <div class="jr-section jr-ring-section">
+      <div class="jr-section-inner jr-ring-inner">
+        <div class="jr-ring-image-wrap">
+          <img src="JuicedOpenRing.png" alt="Juiced Open Championship Ring" class="jr-ring-img">
+        </div>
+        <div class="jr-ring-copy">
+          <div class="jr-section-label">The Ring</div>
+          <p class="jr-body">At the end of 20 weeks, one driver takes home the Juiced Open Championship Ring.</p>
+          <p class="jr-body">Custom engraved, season-specific, and yours to keep. This is what the points are for.</p>
+          <div class="jr-ring-season">Season 1 Champion</div>
+        </div>
       </div>
     </div>
 
