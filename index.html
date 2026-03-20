@@ -550,13 +550,14 @@
   .jr-merch-dots{display:flex;gap:5px;justify-content:center;padding:8px 16px}
   .jr-merch-dot{width:6px;height:6px;border-radius:50%;background:var(--border);transition:background .2s;cursor:pointer}
   .jr-merch-dot.active{background:var(--gold)}
-  .jr-platform-card{display:flex;flex-direction:column;gap:14px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .2s,background .2s;overflow:hidden;height:420px}
+  .jr-platform-card{display:flex;flex-direction:column;gap:14px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .2s,background .2s;overflow:hidden;height:480px}
   .jr-platform-card:hover{border-color:rgba(200,200,200,.2)}
   .jr-twitch-card{border-top:3px solid #9146FF}
-  .jr-yt-card{border-top:3px solid #FF0000;background:#0f0f0f;align-items:center;text-align:center;padding:28px 24px;gap:14px}
+  .jr-yt-card{border-top:3px solid #FF0000;background:#0f0f0f;align-items:center;text-align:center;padding:0;gap:0}
   .jr-yt-card:hover{background:#181818}
-  .jr-discord-card{border-top:3px solid #5865F2;align-items:center;text-align:center;padding:28px 24px;gap:14px}
-  .jr-embed-label{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--border);font-family:"Barlow Condensed",sans-serif;font-size:14px;font-weight:700;color:var(--white);letter-spacing:1px;white-space:nowrap}
+  .jr-discord-card{border-top:3px solid #5865F2;align-items:center;text-align:center;padding:0;gap:0}
+  .jr-embed-label{display:flex;align-items:center;gap:8px;padding:14px 16px;border-bottom:1px solid var(--border);font-family:"Barlow Condensed",sans-serif;font-size:14px;font-weight:700;color:var(--white);letter-spacing:1px;white-space:nowrap;flex-shrink:0}
+  .jr-card-body-center{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:14px;padding:24px}
   .jr-embed-wrap{width:100%;aspect-ratio:16/9;background:#000;flex-shrink:0}
   .jr-twitch-iframe{width:100%;height:100%;border:none;display:block}
   .jr-twitch-cta{font-family:"Barlow Condensed",sans-serif;font-size:18px;font-weight:900;letter-spacing:1px;text-transform:uppercase;color:#9146FF;text-decoration:none;padding:0 16px 4px}
@@ -4496,11 +4497,13 @@
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="flex-shrink:0"><rect width="20" height="20" rx="5" fill="#FF0000"/><polygon points="8,6 15,10 8,14" fill="white"/></svg>
               <span>@JuicedRacingTV</span>
             </div>
-            <div class="jr-yt-play-wrap">
-              <svg width="72" height="72" viewBox="0 0 72 72" fill="none"><rect width="72" height="72" rx="16" fill="#FF0000"/><polygon points="29,20 57,36 29,52" fill="white"/></svg>
+            <div class="jr-card-body-center">
+              <div class="jr-yt-play-wrap">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none"><rect width="72" height="72" rx="16" fill="#FF0000"/><polygon points="29,20 57,36 29,52" fill="white"/></svg>
+              </div>
+              <div class="jr-platform-card-cta">Subscribe &rarr;</div>
+              <div class="jr-platform-card-sub">Race replays, highlights &amp; VODs</div>
             </div>
-            <div class="jr-platform-card-cta">Subscribe &rarr;</div>
-            <div class="jr-platform-card-sub">Race replays, highlights &amp; VODs</div>
           </a>
 
           <!-- Discord -->
@@ -4509,11 +4512,13 @@
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="flex-shrink:0"><rect width="20" height="20" rx="5" fill="#5865F2"/><path d="M14.25 6.25C13.45 5.85 12.6 5.55 11.7 5.4C11.6 5.55 11.45 5.8 11.35 6C10.4 5.85 9.45 5.85 8.5 6C8.4 5.8 8.25 5.55 8.15 5.4C7.25 5.55 6.4 5.85 5.6 6.25C4.05 8.6 3.65 10.9 3.85 13.15C4.9 13.95 5.9 14.4 6.9 14.7C7.15 14.35 7.35 13.95 7.55 13.55C7.15 13.4 6.75 13.2 6.4 12.95C6.5 12.85 6.6 12.8 6.65 12.7C8.6 13.6 10.75 13.6 12.7 12.7C12.8 12.8 12.9 12.85 12.95 12.95C12.65 13.2 12.25 13.4 11.8 13.55C12 13.95 12.25 14.35 12.5 14.7C13.5 14.4 14.5 13.95 15.55 13.15C15.8 10.55 15.1 8.25 14.25 6.25ZM8.1 11.75C7.55 11.75 7.1 11.25 7.1 10.6C7.1 10 7.55 9.5 8.1 9.5C8.7 9.5 9.15 10 9.1 10.6C9.1 11.25 8.65 11.75 8.1 11.75ZM11.75 11.75C11.2 11.75 10.75 11.25 10.75 10.6C10.75 10 11.2 9.5 11.75 9.5C12.35 9.5 12.8 10 12.75 10.6C12.75 11.25 12.35 11.75 11.75 11.75Z" fill="white"/></svg>
               <span>discord.gg/FZY6VxnKJ2</span>
             </div>
-            <div class="jr-yt-play-wrap">
-              <svg width="72" height="72" viewBox="0 0 72 72" fill="none"><rect width="72" height="72" rx="16" fill="#5865F2"/><path d="M50 22C47.2 20.6 44.2 19.6 41 19.2C40.6 19.8 40.1 20.8 39.8 21.6C36.4 21.1 33.1 21.1 29.8 21.6C29.5 20.8 28.9 19.8 28.5 19.2C25.3 19.6 22.3 20.6 19.5 22C14.2 30 12.9 37.8 13.5 45.5C17.2 48.2 20.8 49.8 24.3 50.8C25.2 49.6 26 48.3 26.6 46.9C25.3 46.4 24 45.7 22.9 44.9C23.2 44.7 23.4 44.5 23.7 44.3C31 47.6 39.1 47.6 46.3 44.3C46.6 44.5 46.8 44.7 47.1 44.9C46 45.7 44.7 46.4 43.4 46.9C44 48.3 44.8 49.6 45.7 50.8C49.2 49.8 52.8 48.2 56.5 45.5C57.3 36.6 54.9 28.9 50 22ZM28.5 41C26.9 41 25.6 39.6 25.6 37.8C25.6 36 26.9 34.6 28.5 34.6C30.2 34.6 31.5 36 31.4 37.8C31.4 39.6 30.2 41 28.5 41ZM43.5 41C41.9 41 40.6 39.6 40.6 37.8C40.6 36 41.9 34.6 43.5 34.6C45.2 34.6 46.5 36 46.4 37.8C46.4 39.6 45.2 41 43.5 41Z" fill="white"/></svg>
+            <div class="jr-card-body-center">
+              <div class="jr-yt-play-wrap">
+                <svg width="72" height="72" viewBox="0 0 72 72" fill="none"><rect width="72" height="72" rx="16" fill="#5865F2"/><path d="M50 22C47.2 20.6 44.2 19.6 41 19.2C40.6 19.8 40.1 20.8 39.8 21.6C36.4 21.1 33.1 21.1 29.8 21.6C29.5 20.8 28.9 19.8 28.5 19.2C25.3 19.6 22.3 20.6 19.5 22C14.2 30 12.9 37.8 13.5 45.5C17.2 48.2 20.8 49.8 24.3 50.8C25.2 49.6 26 48.3 26.6 46.9C25.3 46.4 24 45.7 22.9 44.9C23.2 44.7 23.4 44.5 23.7 44.3C31 47.6 39.1 47.6 46.3 44.3C46.6 44.5 46.8 44.7 47.1 44.9C46 45.7 44.7 46.4 43.4 46.9C44 48.3 44.8 49.6 45.7 50.8C49.2 49.8 52.8 48.2 56.5 45.5C57.3 36.6 54.9 28.9 50 22ZM28.5 41C26.9 41 25.6 39.6 25.6 37.8C25.6 36 26.9 34.6 28.5 34.6C30.2 34.6 31.5 36 31.4 37.8C31.4 39.6 30.2 41 28.5 41ZM43.5 41C41.9 41 40.6 39.6 40.6 37.8C40.6 36 41.9 34.6 43.5 34.6C45.2 34.6 46.5 36 46.4 37.8C46.4 39.6 45.2 41 43.5 41Z" fill="white"/></svg>
+              </div>
+              <div class="jr-platform-card-cta">Get on the grid &rarr;</div>
+              <div class="jr-platform-card-sub">Sign up, get updates, talk racing</div>
             </div>
-            <div class="jr-platform-card-cta">Get on the grid &rarr;</div>
-            <div class="jr-platform-card-sub">Sign up, get updates, talk racing</div>
           </a>
 
           <!-- Merch -->
