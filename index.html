@@ -24,7 +24,7 @@
     border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;
     display:flex;align-items:stretch;
   }
-  .nav-brand{padding:8px 16px;display:flex;align-items:center;justify-content:space-between;width:100%}
+  .nav-brand{padding:8px 16px;display:flex;align-items:center}
   .nav-logo-main{height:80px;width:auto;object-fit:contain;display:block}
   .mobile-sponsor-btn{display:none}
   .nav-race-night{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
@@ -424,7 +424,7 @@
 
   /* ── MOBILE ── */
   @media(max-width:768px){
-    .nav-brand{padding:8px 12px;font-size:16px}
+    .nav-brand{padding:8px 12px;font-size:16px;justify-content:space-between;width:100%}
     .nav-logo-main{height:48px}
     .nav-right{display:none}
     .site-nav{flex-direction:column}
