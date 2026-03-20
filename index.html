@@ -435,6 +435,16 @@
     }
     .nav-tabs::-webkit-scrollbar{display:none}
     .nav-tab{padding:0 20px;font-size:12px;white-space:nowrap;flex-shrink:0;height:44px}
+    .mobile-sponsor-btn{
+      display:flex;align-items:center;
+      font-family:'Barlow Condensed',sans-serif;
+      font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
+      background:transparent;border:none;border-left:1px solid var(--border);
+      color:var(--gold);padding:0 16px;white-space:nowrap;flex-shrink:0;cursor:pointer;
+      animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
+    }
+    .mobile-sponsor-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
+    .mobile-sponsor-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
@@ -568,6 +578,7 @@
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
+    <button class="mobile-sponsor-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
@@ -586,10 +597,6 @@
     <div class="legend-item"><span class="legend-dot" style="background:var(--road-color)"></span>Road / GT</div>
     <div class="legend-sep"></div>
     <div class="legend-note free">&#9733; FREE = included with iRacing subscription</div>
-    <div class="legend-sep"></div>
-    <div class="legend-note sponsored">&#9733; SPONSORED races proudly supported by our community</div>
-    <div class="legend-sep"></div>
-    <span style="margin-left:auto;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;color:rgba(200,200,200,.40);letter-spacing:2px;text-transform:uppercase">Race Sponsorships Available for $25 Donation</span>
   </div>
   <div class="schedule">
 
@@ -4778,15 +4785,18 @@ function closeSponsorModal(e) {
 
 // Cycle sponsor button pulse color on each animation end
 (function() {
-  var btn = document.querySelector('.sponsor-nav-btn');
-  if (!btn) return;
   var cycle = ['pulse-red', 'pulse-blue', ''];
   var idx = 0;
-  btn.addEventListener('animationiteration', function() {
-    btn.classList.remove('pulse-red', 'pulse-blue');
-    if (cycle[idx]) btn.classList.add(cycle[idx]);
-    idx = (idx + 1) % cycle.length;
-  });
+  function cycleBtn(btn) {
+    if (!btn) return;
+    btn.addEventListener('animationiteration', function() {
+      btn.classList.remove('pulse-red', 'pulse-blue');
+      if (cycle[idx]) btn.classList.add(cycle[idx]);
+      idx = (idx + 1) % cycle.length;
+    });
+  }
+  cycleBtn(document.querySelector('.sponsor-nav-btn'));
+  cycleBtn(document.querySelector('.mobile-sponsor-btn'));
 })();
 
 function openRacingStyle() {
