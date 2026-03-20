@@ -4822,7 +4822,7 @@ function closeSponsorModal(e) {
   document.body.style.overflow = '';
 }
 
-// Cycle sponsor button pulse color and text on each animation end
+// Cycle sponsor button pulse color and text
 (function() {
   var cycle = [['pulse-gold','★ Race Sponsorship'],['pulse-red','Purchase Here'],['pulse-blue','★ Race Sponsorship'],['pulse-gold','Purchase Here'],['pulse-red','★ Race Sponsorship'],['pulse-blue','Purchase Here']];
   var idx = 0;
@@ -4831,21 +4831,16 @@ function closeSponsorModal(e) {
     btn.classList.add(state[0]);
     btn.textContent = state[1];
   }
-  var navBtn = document.querySelector('.sponsor-nav-btn');
-  var mobileBtn = document.querySelector('.mobile-sponsor-btn');
-  if (navBtn) {
-    navBtn.addEventListener("animationiteration", function() {
-      idx = (idx + 1) % cycle.length;
-      applyState(navBtn, cycle[idx]);
-      if (mobileBtn) applyState(mobileBtn, cycle[idx]);
-    });
-  } else if (mobileBtn) {
-    mobileBtn.addEventListener("animationiteration", function() {
-      idx = (idx + 1) % cycle.length;
-      applyState(mobileBtn, cycle[idx]);
-    });
+  function advance() {
+    idx = (idx + 1) % cycle.length;
+    var navBtn = document.querySelector('.sponsor-nav-btn');
+    var mobileBtn = document.querySelector('.mobile-sponsor-btn');
+    if (navBtn) applyState(navBtn, cycle[idx]);
+    if (mobileBtn) applyState(mobileBtn, cycle[idx]);
   }
+  setInterval(advance, 4500);
 })();
+
 
 
 function openRacingStyle() {
