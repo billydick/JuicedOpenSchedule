@@ -537,13 +537,12 @@
   .jr-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-top:6px}
 
   .jr-platform-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
-  .jr-merch-card{border-top:3px solid var(--gold);display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .2s,background .2s}
+  .jr-merch-card{border-top:3px solid var(--gold);display:flex;flex-direction:column;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .2s,background .2s;overflow:hidden}
   .jr-merch-card:hover{background:#1a1a1a;border-color:rgba(212,160,23,.4)}
-  .jr-merch-card .jr-embed-label{padding:14px 16px;border-bottom:1px solid var(--border)}
-  .jr-merch-carousel{flex:1;position:relative;overflow:hidden;min-height:200px}
+  .jr-merch-card .jr-embed-label{padding:14px 16px;border-bottom:1px solid var(--border);flex-shrink:0}
+  .jr-merch-carousel{flex:1;position:relative;overflow:hidden;min-height:220px}
   .jr-merch-item{display:none;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px;padding:16px;text-decoration:none;height:100%;background:transparent}
   .jr-merch-item.active{display:flex}
-  .jr-merch-item:hover{background:transparent}
   .jr-merch-img{width:120px;height:120px;object-fit:cover;border-radius:6px;display:block}
   .jr-merch-name{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:900;letter-spacing:1px;color:var(--white);text-transform:uppercase;line-height:1.2}
   .jr-merch-price{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--gold);letter-spacing:1px}
@@ -4518,7 +4517,6 @@
           </a>
 
           <!-- Merch -->
-          <!-- Merch -->
           <div class="jr-platform-card jr-merch-card">
             <div class="jr-embed-label">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" style="flex-shrink:0"><rect width="20" height="20" rx="5" fill="#D4A017"/><path d="M5 7h10l-1 7H6L5 7zm2-2a3 3 0 016 0" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
@@ -4536,7 +4534,7 @@
               <a href="https://juicedracing-shop.fourthwall.com/products/juiced-racing-mouse-pad" target="_blank" class="jr-merch-item"><img src="https://imgproxy.fourthwall.com/Lt-BBq68EnhiJC5hLEwwtP2_7rhFd4p0rYqoUbh1wdg/w:720/sm:1/enc/_pCgrvWBeqrHHHME/QTj9BJHzLDrnR37B/mMbJcGNcEdy6W3L3/EC_9VewqvTQ305zA/nRfoWBD2SlWYX-xq/-TzewSIlO_KY4_0K/9nkF_uOdkBKaH3LS/15mXzt9YoOaagPPB/cgDgpktzY0c5usWN/AkTzrMnX4u-W5Q_C/XA-rmIpHHLGHEzJo/E61tnHwqpbK_k1BY/-2j36cZB_U7OlSKr/L0mYi8l4V7SJALhN/p4UTV40lN8E" alt="Juiced Racing Mouse Pad" class="jr-merch-img"><span class="jr-merch-name">Juiced Racing Mouse Pad</span><span class="jr-merch-price">$22</span></a>
               <a href="https://juicedracing-shop.fourthwall.com/products/3-wide-and-wired-juiced-racing-coffee-mug" target="_blank" class="jr-merch-item"><img src="https://imgproxy.fourthwall.com/fdzfERDvAGzMKgcv1EqE2zeqwK0E3zGyaxBY25SJQm8/w:720/sm:1/enc/oJrfNN1Pftv4lo8u/aGmchnjUMNy6zKUF/AQl_TG_14Xn2s0Np/8AIDtf1ZUnj9mVKc/WLlXrb0GVMZe1gAE/_rpyZRuKgd3p-Woi/Yq-Hq3FMOu5-T71W/IyOjgPWqiF877rVS/X6TahDOJ03-sj2-N/tKmZW5VtFpzp6rmv/iU1IEOInOKGeq10Y/e9EH2rX8jcTh2U17/g1k6bWHGr5_pJkvE/Vtdf7tBye_sWROwc/URExsCpc0iI" alt="3-Wide and Wired Coffee Mug" class="jr-merch-img"><span class="jr-merch-name">3-Wide and Wired Coffee Mug</span><span class="jr-merch-price">$14</span></a>
             </div>
-            <div class="jr-merch-dots" id="merchDots"></div>            </div>
+            <div class="jr-merch-dots" id="merchDots"></div>
             <a href="https://juicedracing-shop.fourthwall.com/" target="_blank" class="jr-merch-shop-all">Shop All &rarr;</a>
             <div class="jr-platform-card-sub">Juiced Racing gear &amp; apparel</div>
           </div>
