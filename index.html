@@ -47,8 +47,69 @@
     font-family:'Barlow Condensed',sans-serif;
     font-size:12px;font-weight:700;letter-spacing:2px;
     color:var(--gold);text-transform:uppercase;
-    display:flex;align-items:center;gap:6px;
+    display:flex;align-items:center;gap:16px;
   }
+  @keyframes sponsor-pulse-gold{
+    0%{opacity:0;box-shadow:none;border-color:var(--gold);color:var(--gold)}
+    50%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4);border-color:var(--gold);color:var(--gold)}
+    97%{opacity:0;box-shadow:none;border-color:var(--gold);color:var(--gold)}
+    98%{opacity:0;box-shadow:none;border-color:#CC0000;color:#CC0000}
+    100%{opacity:0;box-shadow:none;border-color:#CC0000;color:#CC0000}
+  }
+  @keyframes sponsor-pulse-red{
+    0%{opacity:0;box-shadow:none;border-color:#CC0000;color:#CC0000}
+    50%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4);border-color:#CC0000;color:#CC0000}
+    97%{opacity:0;box-shadow:none;border-color:#CC0000;color:#CC0000}
+    98%{opacity:0;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
+    100%{opacity:0;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
+  }
+  @keyframes sponsor-pulse-blue{
+    0%{opacity:0;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
+    50%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4);border-color:#1E6FBA;color:#1E6FBA}
+    97%{opacity:0;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
+    98%{opacity:0;box-shadow:none;border-color:var(--gold);color:var(--gold)}
+    100%{opacity:0;box-shadow:none;border-color:var(--gold);color:var(--gold)}
+  }
+  .sponsor-nav-btn{
+    font-family:'Barlow Condensed',sans-serif;
+    font-size:15px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
+    background:transparent;border:2px solid var(--gold);
+    color:var(--gold);padding:10px 20px;border-radius:4px;
+    cursor:pointer;white-space:nowrap;
+    animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
+  }
+  .sponsor-nav-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn:hover{background:var(--gold);color:#000;animation:none;box-shadow:none;opacity:1}
+
+  /* ── SPONSOR MODAL ── */
+  .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
+  .sponsor-overlay.open{display:flex}
+  .sponsor-modal{
+    background:#111;border:1px solid var(--border);border-radius:10px;
+    max-width:540px;width:90%;padding:40px;position:relative;
+    border-top:3px solid var(--gold);
+  }
+  .sponsor-modal-close{position:absolute;top:14px;right:18px;background:none;border:none;color:rgba(200,200,200,.5);font-size:24px;cursor:pointer;line-height:1}
+  .sponsor-modal-close:hover{color:var(--white)}
+  .sponsor-modal-eyebrow{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:4px;color:var(--gold);text-transform:uppercase;margin-bottom:12px}
+  .sponsor-modal-title{font-family:'Barlow Condensed',sans-serif;font-size:36px;font-weight:900;letter-spacing:1px;color:var(--white);text-transform:uppercase;line-height:1;margin-bottom:20px}
+  .sponsor-modal-body{font-family:'Barlow',sans-serif;font-size:16px;line-height:1.7;color:rgba(200,200,200,.75);margin-bottom:24px}
+  .sponsor-modal-perks{list-style:none;margin-bottom:28px;display:flex;flex-direction:column;gap:8px}
+  .sponsor-modal-perks li{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:700;letter-spacing:1px;color:var(--white);display:flex;align-items:center;gap:10px}
+  .sponsor-modal-perks li::before{content:'★';color:var(--gold);flex-shrink:0}
+  .sponsor-modal-price{font-family:'Barlow Condensed',sans-serif;font-size:48px;font-weight:900;color:var(--gold);letter-spacing:2px;margin-bottom:24px;line-height:1}
+  .sponsor-modal-price span{font-size:18px;color:rgba(200,200,200,.5);font-weight:600;letter-spacing:1px}
+  .sponsor-kofi-btn{
+    display:flex;align-items:center;justify-content:center;gap:12px;width:100%;
+    background:linear-gradient(135deg,#FF5E5B 0%,#FF3B38 100%);
+    color:#fff;border:none;
+    font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;letter-spacing:3px;text-transform:uppercase;
+    padding:20px 24px;border-radius:6px;text-decoration:none;cursor:pointer;
+    box-shadow:0 4px 24px rgba(255,59,56,.4);
+    transition:transform .15s,box-shadow .15s;
+  }
+  .sponsor-kofi-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,59,56,.6)}
 
   /* ── PAGES ── */
   .page{display:none}
@@ -509,6 +570,7 @@
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
   </div>
   <div class="nav-right">
+    <button class="sponsor-nav-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
     <span class="nav-race-night">&#9679; Wed and Sat 9:30 PM EST Race Night</span>
     <img src="team_logos/JuicedRacingLogo.png" alt="Juiced Racing" class="nav-logo-right">
   </div>
@@ -4447,6 +4509,27 @@
   </div>
 </div>
 
+<!-- SPONSOR MODAL -->
+<div class="sponsor-overlay" id="sponsorModal" onclick="closeSponsorModal(event)">
+  <div class="sponsor-modal">
+    <button class="sponsor-modal-close" onclick="closeSponsorModal()">&times;</button>
+    <div class="sponsor-modal-eyebrow">Support the League</div>
+    <div class="sponsor-modal-title">Race Sponsorship</div>
+    <div class="sponsor-modal-body">
+      Put your name on a race. Sponsors are featured on the race card on this site, called out live on stream, and credited on the broadcast all night. One race, one sponsor, all season long.
+    </div>
+    <ul class="sponsor-modal-perks">
+      <li>Your name on the race card on this site and the stream overlay</li>
+      <li>Constant shoutouts &amp; plugs live on the Twitch broadcast</li>
+      <li>You provide images/marketing materials &mdash; we can help if you have nothing</li>
+    </ul>
+    <div class="sponsor-modal-price">$25 <span>per race</span></div>
+    <a class="sponsor-kofi-btn" href="https://ko-fi.com/juicedracing" target="_blank" onclick="closeSponsorModal()">
+      Sponsor a Race on Ko-fi &rarr;
+    </a>
+  </div>
+</div>
+
 <!-- DRIVER MODAL -->
 <div class="modal-overlay" id="driverModal" onclick="closeDriverModal(event)">
   <div class="modal" id="driverModalInner">
@@ -4682,6 +4765,29 @@ function openRaceResults(raceId, highlightDid) {
     if (hl) hl.scrollIntoView({block:'center', behavior:'smooth'});
   }, 100);
 }
+
+function openSponsorModal() {
+  document.getElementById('sponsorModal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeSponsorModal(e) {
+  if (e && e.target !== document.getElementById('sponsorModal')) return;
+  document.getElementById('sponsorModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Cycle sponsor button pulse color on each animation end
+(function() {
+  var btn = document.querySelector('.sponsor-nav-btn');
+  if (!btn) return;
+  var cycle = ['pulse-red', 'pulse-blue', ''];
+  var idx = 0;
+  btn.addEventListener('animationiteration', function() {
+    btn.classList.remove('pulse-red', 'pulse-blue');
+    if (cycle[idx]) btn.classList.add(cycle[idx]);
+    idx = (idx + 1) % cycle.length;
+  });
+})();
 
 function openRacingStyle() {
   // Header
