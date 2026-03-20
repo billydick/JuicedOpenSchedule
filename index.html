@@ -24,8 +24,9 @@
     border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;
     display:flex;align-items:stretch;
   }
-  .nav-brand{padding:8px 16px;display:flex;align-items:center}
+  .nav-brand{padding:8px 16px;display:flex;align-items:center;justify-content:space-between;width:100%}
   .nav-logo-main{height:80px;width:auto;object-fit:contain;display:block}
+  .mobile-sponsor-btn{display:none}
   .nav-race-night{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
   .nav-logo-right{height:48px;width:auto;object-fit:contain;margin-left:16px;opacity:.9}
   .nav-tabs{display:flex;align-items:stretch}
@@ -439,8 +440,9 @@
       display:flex;align-items:center;
       font-family:'Barlow Condensed',sans-serif;
       font-size:12px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
-      background:transparent;border:none;border-left:1px solid var(--border);
-      color:var(--gold);padding:0 16px;white-space:nowrap;flex-shrink:0;cursor:pointer;
+      background:transparent;border:2px solid var(--gold);
+      color:var(--gold);padding:6px 12px;border-radius:4px;
+      white-space:nowrap;cursor:pointer;margin-left:auto;
       animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
     }
     .mobile-sponsor-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
@@ -573,12 +575,12 @@
 <nav class="site-nav">
   <div class="nav-brand">
     <img src="JuicedOpenLogo.png" alt="Juiced Open" class="nav-logo-main">
+    <button class="mobile-sponsor-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
   </div>
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
-    <button class="mobile-sponsor-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
