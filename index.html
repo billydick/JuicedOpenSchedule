@@ -537,12 +537,13 @@
   .jr-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-top:6px}
 
   .jr-platform-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:8px}
-  .jr-merch-card{border-top:3px solid var(--gold);display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden}
+  .jr-merch-card{border-top:3px solid var(--gold);display:flex;flex-direction:column;gap:0;padding:0;overflow:hidden;background:var(--surface2);border:1px solid var(--border);border-radius:8px;text-decoration:none;transition:border-color .2s,background .2s}
+  .jr-merch-card:hover{background:#1a1a1a;border-color:rgba(212,160,23,.4)}
   .jr-merch-card .jr-embed-label{padding:14px 16px;border-bottom:1px solid var(--border)}
   .jr-merch-carousel{flex:1;position:relative;overflow:hidden;min-height:200px}
-  .jr-merch-item{display:none;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px;padding:16px;text-decoration:none;height:100%;background:var(--surface2)}
+  .jr-merch-item{display:none;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:8px;padding:16px;text-decoration:none;height:100%;background:transparent}
   .jr-merch-item.active{display:flex}
-  .jr-merch-item:hover{background:#1a1a1a}
+  .jr-merch-item:hover{background:transparent}
   .jr-merch-img{width:120px;height:120px;object-fit:cover;border-radius:6px;display:block}
   .jr-merch-name{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:900;letter-spacing:1px;color:var(--white);text-transform:uppercase;line-height:1.2}
   .jr-merch-price{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--gold);letter-spacing:1px}
