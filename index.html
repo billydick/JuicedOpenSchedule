@@ -5828,10 +5828,13 @@ document.addEventListener('keydown', function(e) {
 });
 
 function formatInterval(ms, driverLaps, leaderLaps) {
-  // Lapped car: iRacing sends interval=-1 (stored as 1 after ABS), detect via laps diff
-  if (leaderLaps && driverLaps !== undefined && driverLaps < leaderLaps) {
-    var diff = leaderLaps - driverLaps;
-    return '+' + diff + 'L';
+  // iRacing sentinel for lapped cars: interval stored as 1 after ABS(-1)
+  if (ms === 1 || (leaderLaps && driverLaps !== undefined && driverLaps < leaderLaps)) {
+    if (leaderLaps && driverLaps !== undefined) {
+      var diff = leaderLaps - driverLaps;
+      return '+' + diff + 'L';
+    }
+    return '+1L';
   }
   if (!ms || ms <= 0) return '—';
   var s = ms / 10000;
@@ -5876,12 +5879,13 @@ function openRaceResults(raceId, highlightDid) {
     + '</div>';
   headerHtml += '</div>';
 
+  var leaderLaps = race.results.reduce(function(mx,r){return Math.max(mx, r.laps||0);}, 0);
   var rows = race.results.map(function(r) {
     var isHighlight = String(r.did) === String(highlightDid);
     var rowClass = isHighlight ? 'rr-highlight' : '';
     var posClass = r.pos == 1 ? 'rr-pos-win' : r.pos <= 3 ? 'rr-pos-pod' : '';
     var incClass = r.inc >= 8 ? 'rr-inc-high' : r.inc <= 3 ? 'rr-inc-clean' : '';
-    var interval = r.pos == 1 ? '—' : formatInterval(r.interval, r.laps, race.laps);
+    var interval = r.pos == 1 ? '—' : formatInterval(r.interval, r.laps, leaderLaps);
     var lapsLed = r.laps_led > 0 ? r.laps_led : '—';
     return '<tr class="' + rowClass + '">' +
       '<td class="' + posClass + '" style="text-align:center;width:40px;font-size:' + (r.pos <= 3 ? '18' : '14') + 'px">P' + r.pos + '</td>' +
