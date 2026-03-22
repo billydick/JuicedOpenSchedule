@@ -5839,10 +5839,6 @@ function formatInterval(ms, driverLaps, leaderLaps) {
   }
   if (!ms || ms <= 0) return '—';
   var s = ms / 10000;
-  if (s >= 60) {
-    var m = Math.floor(s / 60);
-    return '-' + m + 'L';
-  }
   return '+' + s.toFixed(3) + 's';
 }
 
