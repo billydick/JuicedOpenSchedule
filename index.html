@@ -338,10 +338,18 @@
   .rr-inc-clean{color:#2D7D32}
   .rr-name-col{max-width:200px;overflow:hidden;text-overflow:ellipsis}
   .rr-car-col{max-width:160px;overflow:hidden;text-overflow:ellipsis;opacity:.7}
-  .rr-header-bar{display:flex;gap:24px;padding:12px 24px;background:var(--surface2);border-bottom:1px solid var(--border);flex-wrap:wrap}
+  .rr-header-bar{display:flex;gap:24px;padding:12px 24px;background:var(--surface2);border-bottom:1px solid var(--border);flex-wrap:wrap;align-items:center}
   .rr-header-stat{text-align:center}
   .rr-header-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;color:var(--white);line-height:1}
   .rr-header-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-top:3px}
+  .rr-intensity-block{flex:1;min-width:180px}
+  .rr-intensity-title{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.35);text-transform:uppercase;margin-bottom:6px}
+  .rr-intensity-gauge{position:relative;width:100%;height:14px;border-radius:999px;overflow:hidden}
+  .rr-intensity-gradient{position:absolute;inset:0;border-radius:999px;background:linear-gradient(90deg,#00ff88 0%,#ffee00 40%,#ff5500 70%,#990000 100%)}
+  .rr-intensity-slider{position:absolute;top:-3px;width:5px;height:20px;background:#fff;border-radius:3px;box-shadow:0 0 8px rgba(255,255,255,.9)}
+  .rr-intensity-labels{display:flex;justify-content:space-between;margin-top:4px}
+  .rr-intensity-labels span{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:800}
+  .rr-intensity-stats{font-family:'Barlow',sans-serif;font-size:10px;color:rgba(200,200,200,.45);margin-top:3px}
   .modal{
     background:var(--surface);border:1px solid var(--border);
     border-radius:8px;width:100%;max-width:900px;
@@ -5843,6 +5851,24 @@ function openRaceResults(raceId, highlightDid) {
   if (race.sof) headerHtml += '<div class="rr-header-stat"><div class="rr-header-stat-val">' + race.sof + '</div><div class="rr-header-stat-label">SOF</div></div>';
   if (race.laps) headerHtml += '<div class="rr-header-stat"><div class="rr-header-stat-val">' + race.laps + '</div><div class="rr-header-stat-label">LAPS</div></div>';
   headerHtml += '<div class="rr-header-stat"><div class="rr-header-stat-val">' + race.results.length + '</div><div class="rr-header-stat-label">DRIVERS</div></div>';
+  // Incident intensity bar
+  var totalInc = race.results.reduce(function(s,r){return s+(Number(r.inc)||0);}, 0);
+  var avgInc = race.results.length ? totalInc / race.results.length : 0;
+  var scale = Math.max(0, Math.min(avgInc / 10.0, 1.0));
+  var sliderPct = (scale * 94).toFixed(1);
+  headerHtml += '<div class="rr-intensity-block">'
+    + '<div class="rr-intensity-title">Incident Intensity</div>'
+    + '<div class="rr-intensity-gauge">'
+    + '<div class="rr-intensity-gradient"></div>'
+    + '<div class="rr-intensity-slider" style="left:' + sliderPct + '%"></div>'
+    + '</div>'
+    + '<div class="rr-intensity-labels">'
+    + '<span style="color:#00ff88">Clean</span>'
+    + '<span style="color:#ffaa00">Hard Racin</span>'
+    + '<span style="color:#ff4444">Shitter Town</span>'
+    + '</div>'
+    + '<div class="rr-intensity-stats">' + avgInc.toFixed(2) + ' Inc / Driver &bull; ' + totalInc + ' Total &bull; ' + race.results.length + ' Drivers</div>'
+    + '</div>';
   headerHtml += '</div>';
 
   var rows = race.results.map(function(r) {
