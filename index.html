@@ -5830,17 +5830,18 @@ document.addEventListener('keydown', function(e) {
 function formatInterval(ms, driverLaps, leaderLaps) {
   // iRacing sentinel for lapped cars: interval stored as 1 after ABS(-1)
   if (ms === 1 || (leaderLaps && driverLaps !== undefined && driverLaps < leaderLaps)) {
+    if (driverLaps === 0) return '—';
     if (leaderLaps && driverLaps !== undefined) {
       var diff = leaderLaps - driverLaps;
-      return '+' + diff + 'L';
+      return '-' + diff + 'L';
     }
-    return '+1L';
+    return '-1L';
   }
   if (!ms || ms <= 0) return '—';
   var s = ms / 10000;
   if (s >= 60) {
     var m = Math.floor(s / 60);
-    return '+' + m + 'L';
+    return '-' + m + 'L';
   }
   return '+' + s.toFixed(3) + 's';
 }
