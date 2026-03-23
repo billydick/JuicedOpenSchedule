@@ -6472,7 +6472,7 @@ function renderDriverNameRow(d) {
   var ac = arcLabelColor(did);
   var seasonsStr = cd.seasons === 1 ? '1 season' : cd.seasons + ' seasons';
   var startsStr = cd.total_starts + (cd.total_starts === 1 ? ' start' : ' starts');
-  return '<div class="driver-name-row" onclick="openCareerModal(' + JSON.stringify(did) + ')">'
+  return '<div class="driver-name-row" data-did="' + did + '">'
     + '<div class="dnr-name" style="color:' + d.name_color + '">' + d.name + '</div>'
     + (ac.label ? '<div class="dnr-arc" style="color:' + ac.color + '">' + ac.label + '</div>' : '')
     + '<div class="dnr-starts">' + seasonsStr + ' &bull; ' + startsStr + '</div>'
@@ -6499,6 +6499,21 @@ function filterDrivers(q) {
   }
 }
 
+document.addEventListener('click', function(e) {
+  var row = e.target.closest('.driver-name-row, .carousel-card');
+  if (row) {
+    var did = row.getAttribute('data-did');
+    if (did) openCareerModal(did);
+    return;
+  }
+  var raceRow = e.target.closest('.career-race-row[data-race-id]');
+  if (raceRow) {
+    var raceId = parseInt(raceRow.getAttribute('data-race-id'), 10);
+    var did = raceRow.getAttribute('data-did');
+    if (raceId && did) openRaceResults(raceId, did);
+  }
+});
+
 function initDriversPage() {
   if (driversInited) return;
   driversInited = true;
@@ -6517,7 +6532,7 @@ function renderCarousel() {
     var badgeHtml = driverBadgeHtml(did);
     var bgStyle = c.track_img ? 'background-image:url(' + c.track_img + ');background-position:center center' : 'background:#111';
     var champHtml = c.champ_pos ? 'P' + c.champ_pos + ' IN SEASON 1 &bull; ' + c.champ_pts + ' PTS' : '';
-    return '<div class="carousel-card' + (i === 0 ? ' active' : '') + '" onclick="openCareerModal(' + JSON.stringify(did) + ')">'
+    return '<div class="carousel-card' + (i === 0 ? ' active' : '') + '" data-did="' + did + '">'
       + '<div class="carousel-card-bg" style="' + bgStyle + '"></div>'
       + '<div class="carousel-card-overlay"></div>'
       + '<div class="carousel-card-content">'
@@ -6628,7 +6643,7 @@ function openCareerModal(did) {
 
     seasonHistory.forEach(function(r) {
       var posColor = r.pos === 1 ? 'var(--gold)' : r.pos <= 3 ? '#A335EE' : 'var(--white)';
-      var clickable = r.race_id ? 'onclick="openRaceResults(' + r.race_id + ',' + JSON.stringify(did) + ')"' : '';
+      var clickable = r.race_id ? 'data-race-id="' + r.race_id + '" data-did="' + did + '"' : '';
       bodyHtml += '<div class="career-race-row" ' + clickable + '>'
         + '<div class="career-race-pos" style="color:' + posColor + '">P' + r.pos + '</div>'
         + '<div class="career-race-track">' + r.track + '</div>'
