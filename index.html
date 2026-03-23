@@ -494,41 +494,56 @@
   /* ── JUICED RACING PAGE ── */
   /* ── DRIVERS PAGE ── */
   .drivers-wrap{max-width:100%;padding:16px 24px 60px}
-  .drivers-search-row{display:flex;align-items:center;gap:12px;margin-bottom:20px;position:sticky;top:48px;z-index:10;background:var(--surface);padding:12px 0;border-bottom:1px solid var(--border)}
-  .drivers-search-input{flex:1;font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;letter-spacing:1px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;color:var(--white);padding:10px 16px;outline:none;transition:border-color .2s}
+  .drivers-search-row{display:flex;align-items:center;gap:12px;margin-bottom:16px;position:sticky;top:48px;z-index:10;background:var(--surface);padding:12px 0;border-bottom:1px solid var(--border)}
+  .drivers-search-input{flex:1;font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:1px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;color:var(--white);padding:12px 18px;outline:none;transition:border-color .2s}
   .drivers-search-input:focus{border-color:var(--gold)}
-  .drivers-search-input::placeholder{color:rgba(200,200,200,.25)}
-  .drivers-count{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;white-space:nowrap}
-  .drivers-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:48px}
-  .driver-card{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:16px;cursor:pointer;transition:border-color .2s,background .2s;display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px}
-  .driver-card:hover{border-color:rgba(200,200,200,.25);background:#1a1a1a}
-  .driver-card-logo{width:90px;height:90px;object-fit:contain;border-radius:6px}
-  .driver-card-badge{font-size:42px;line-height:1}
-  .driver-card-badge-svg{width:42px;height:42px}
-  .driver-card-name{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:900;line-height:1;letter-spacing:1px}
-  .driver-card-arc{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:900;letter-spacing:2px;text-transform:uppercase;opacity:.7}
-  .driver-card-stats{display:flex;gap:16px;justify-content:center}
-  .driver-card-stat{text-align:center}
-  .driver-card-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:900;color:var(--white);line-height:1}
-  .driver-card-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:8px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-top:2px}
+  .drivers-search-input::placeholder{color:rgba(200,200,200,.20)}
+  .drivers-count{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.25);text-transform:uppercase;white-space:nowrap}
+  .drivers-list{display:flex;flex-direction:column;gap:6px;margin-bottom:48px}
+  .driver-card{
+    display:grid;
+    grid-template-columns:56px 1fr auto;
+    align-items:center;
+    gap:16px;
+    background:var(--surface2);
+    border:1px solid var(--border);
+    border-radius:6px;
+    padding:12px 20px 12px 14px;
+    cursor:pointer;
+    transition:border-color .15s,background .15s;
+    position:relative;
+    overflow:hidden;
+  }
+  .driver-card:hover{border-color:rgba(200,200,200,.2);background:#1a1a1a}
+  .driver-card-logo{width:56px;height:56px;object-fit:contain;border-radius:4px}
+  .driver-card-badge{font-size:36px;line-height:1;text-align:center;width:56px}
+  .driver-card-badge-svg{width:36px;height:36px;display:block;margin:0 auto}
+  .driver-card-main{min-width:0;display:flex;flex-direction:column;gap:3px}
+  .driver-card-name{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:900;line-height:1;letter-spacing:0.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .driver-card-arc{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:900;letter-spacing:2px;text-transform:uppercase;margin-top:2px}
+  .driver-card-stats{display:flex;gap:20px;align-items:center;flex-shrink:0}
+  .driver-card-stat{text-align:center;min-width:36px}
+  .driver-card-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:900;color:var(--white);line-height:1}
+  .driver-card-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:8px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.25);text-transform:uppercase;margin-top:2px}
   /* Carousel */
   .drivers-carousel-section{margin-top:8px}
   .drivers-carousel-label{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;color:rgba(200,200,200,.25);text-transform:uppercase;margin-bottom:14px}
   .drivers-carousel-track{position:relative;overflow:hidden;border-radius:8px}
-  .carousel-card{display:none;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:20px 24px;align-items:center;gap:20px}
+  .carousel-card{display:none;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:20px 24px;align-items:center;gap:20px;cursor:pointer;transition:border-color .15s}
+  .carousel-card:hover{border-color:rgba(200,200,200,.2)}
   .carousel-card.active{display:flex}
   .carousel-card-logo{width:80px;height:80px;object-fit:contain;flex-shrink:0;border-radius:6px}
-  .carousel-card-badge{font-size:52px;line-height:1;flex-shrink:0}
-  .carousel-card-badge-svg{width:52px;height:52px;flex-shrink:0}
+  .carousel-card-badge{font-size:52px;line-height:1;flex-shrink:0;width:80px;text-align:center}
+  .carousel-card-badge-svg{width:52px;height:52px;flex-shrink:0;display:block}
   .carousel-card-body{flex:1;min-width:0}
-  .carousel-card-name{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:900;line-height:1;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .carousel-card-arc{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:900;letter-spacing:2px;text-transform:uppercase;opacity:.6;margin-top:3px}
-  .carousel-card-hook{font-family:'Barlow',sans-serif;font-size:15px;color:rgba(200,200,200,.75);margin-top:8px;line-height:1.4}
-  .carousel-card-track{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-top:6px}
+  .carousel-card-name{font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;line-height:1;letter-spacing:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .carousel-card-arc{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:900;letter-spacing:2px;text-transform:uppercase;opacity:.6;margin-top:4px}
+  .carousel-card-hook{font-family:'Barlow',sans-serif;font-size:16px;color:rgba(200,200,200,.75);margin-top:10px;line-height:1.4}
+  .carousel-card-track{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:1px;color:rgba(200,200,200,.25);text-transform:uppercase;margin-top:6px}
   .drivers-carousel-dots{display:flex;gap:6px;justify-content:center;margin-top:12px}
   .carousel-dot{width:6px;height:6px;border-radius:50%;background:rgba(200,200,200,.2);cursor:pointer;transition:background .2s}
   .carousel-dot.active{background:var(--gold)}
-  /* Career modal additions */
+  /* Career modal */
   .career-stats-row{display:flex;gap:0;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:20px;flex-wrap:wrap}
   .career-stat-cell{flex:1;min-width:80px;padding:12px 8px;text-align:center;border-right:1px solid var(--border);background:var(--surface2)}
   .career-stat-cell:last-child{border-right:none}
@@ -546,10 +561,13 @@
   @media(max-width:768px){
     .drivers-wrap{padding:10px 10px 40px}
     .drivers-search-row{top:88px}
-    .drivers-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:8px}
-    .driver-card-logo,.driver-card-badge{width:64px;height:64px;font-size:32px}
+    .driver-card{grid-template-columns:44px 1fr auto;gap:10px;padding:10px 12px 10px 10px}
+    .driver-card-logo,.driver-card-badge{width:44px;height:44px;font-size:28px}
+    .driver-card-name{font-size:20px}
+    .driver-card-stats{gap:12px}
+    .driver-card-stat-val{font-size:20px}
     .carousel-card{flex-direction:column;text-align:center;padding:16px}
-    .career-stats-row{gap:0}
+    .carousel-card-logo,.carousel-card-badge{width:64px;height:64px;font-size:40px;margin:0 auto}
     .career-stat-cell{min-width:60px;padding:10px 4px}
     .career-stat-val{font-size:20px}
   }
@@ -5877,7 +5895,7 @@
         <input class="drivers-search-input" id="driversSearch" type="text" placeholder="Search drivers..." oninput="filterDrivers(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
         <span class="drivers-count" id="driversCount"></span>
       </div>
-      <div class="drivers-grid" id="driversGrid"></div>
+      <div class="drivers-list" id="driversGrid"></div>
       <div class="drivers-carousel-section" id="driversCarouselSection">
         <div class="drivers-carousel-label">FROM THE LAST 5 RACES</div>
         <div class="drivers-carousel-track" id="driversCarouselTrack"></div>
@@ -6454,8 +6472,10 @@ function renderDriverCard(d) {
   var badge = driverBadgeHtml(did, 'small');
   return '<div class="driver-card" onclick="openCareerModal(' + JSON.stringify(did) + ')">'
     + badge
+    + '<div class="driver-card-main">'
     + '<div class="driver-card-name" style="color:' + d.name_color + '">' + d.name + '</div>'
-    + '<div class="driver-card-arc" style="color:' + ac.color + '">' + ac.label + '</div>'
+    + (ac.label ? '<div class="driver-card-arc" style="color:' + ac.color + '">' + ac.label + '</div>' : '')
+    + '</div>'
     + '<div class="driver-card-stats">'
     + '<div class="driver-card-stat"><div class="driver-card-stat-val">' + cd.career_wins + '</div><div class="driver-card-stat-label">WINS</div></div>'
     + '<div class="driver-card-stat"><div class="driver-card-stat-val">' + cd.total_starts + '</div><div class="driver-card-stat-label">STARTS</div></div>'
