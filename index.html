@@ -553,12 +553,14 @@
   .career-stat-val{font-family:'Barlow Condensed',sans-serif;font-size:26px;font-weight:900;color:var(--white);line-height:1}
   .career-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:8px;font-weight:700;letter-spacing:2px;color:rgba(200,200,200,.30);text-transform:uppercase;margin-top:3px}
   .career-season-block{background:var(--surface2);border:1px solid var(--border);border-radius:6px;margin-bottom:10px;overflow:hidden}
-  .career-season-header{padding:10px 14px;background:rgba(255,255,255,.03);border-bottom:1px solid var(--border);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:900;letter-spacing:2px;color:rgba(200,200,200,.6);text-transform:uppercase;display:flex;justify-content:space-between;align-items:center}
+  .career-season-header{padding:10px 14px;background:rgba(255,255,255,.03);border-bottom:1px solid var(--border);font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:900;letter-spacing:2px;color:rgba(200,200,200,.6);text-transform:uppercase;display:flex;flex-direction:column;gap:5px}
+  .career-season-header-top{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
   .career-season-header.podium-1{background:linear-gradient(90deg,rgba(255,128,0,.18) 0%,rgba(255,128,0,.06) 60%,rgba(255,255,255,.03) 100%);border-bottom-color:rgba(255,128,0,.3)}
   .career-season-header.podium-2{background:linear-gradient(90deg,rgba(163,53,238,.15) 0%,rgba(163,53,238,.05) 60%,rgba(255,255,255,.03) 100%);border-bottom-color:rgba(163,53,238,.25)}
   .career-season-header.podium-3{background:linear-gradient(90deg,rgba(0,112,221,.15) 0%,rgba(0,112,221,.05) 60%,rgba(255,255,255,.03) 100%);border-bottom-color:rgba(0,112,221,.25)}
-  .career-champ-pos{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;border-radius:3px;border:1px solid currentColor;opacity:.85;white-space:nowrap;margin-left:10px}
-  .career-season-label-wrap{display:flex;align-items:center;gap:0}
+  .career-champ-pos{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:900;letter-spacing:2px;text-transform:uppercase;padding:3px 8px;border-radius:3px;border:1px solid currentColor;opacity:.85;white-space:nowrap;margin-left:8px}
+  .career-season-label-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:4px}
+  .career-season-wins{color:var(--gold);white-space:nowrap}
   .career-season-races{padding:8px 0}
   .career-race-row{display:flex;align-items:center;gap:8px;padding:6px 14px;cursor:pointer;transition:background .15s;font-family:'Barlow Condensed',sans-serif;font-size:13px}
   .career-race-row:hover{background:rgba(255,255,255,.04)}
@@ -6652,8 +6654,10 @@ function openCareerModal(did) {
 
     bodyHtml += '<div class="career-season-block">'
       + '<div class="career-season-header' + podiumClass + '">'
+      + '<div class="career-season-header-top">'
       + '<div class="career-season-label-wrap"><span>' + season.label + '</span>' + posLabel + '</div>'
-      + '<span style="color:var(--gold)">' + season.wins + (season.wins === 1 ? ' WIN' : ' WINS') + ' &bull; ' + season.starts + ' STARTS</span>'
+      + '<span class="career-season-wins">' + season.wins + (season.wins === 1 ? ' WIN' : ' WINS') + ' &bull; ' + season.starts + ' STARTS</span>'
+      + '</div>'
       + '</div>'
       + '<div class="career-season-races">';
 
