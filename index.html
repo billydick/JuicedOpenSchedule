@@ -6452,7 +6452,7 @@ function renderDriverCard(d) {
   if (!cd) return '';
   var ac = arcLabelColor(did);
   var badge = driverBadgeHtml(did, 'small');
-  return '<div class="driver-card" onclick="openCareerModal('' + did + '')">'
+  return '<div class="driver-card" onclick="openCareerModal(' + JSON.stringify(did) + ')">'
     + badge
     + '<div class="driver-card-name" style="color:' + d.name_color + '">' + d.name + '</div>'
     + '<div class="driver-card-arc" style="color:' + ac.color + '">' + ac.label + '</div>'
@@ -6492,7 +6492,7 @@ function renderCarousel() {
     var did = c.did;
     var badge = driverBadgeHtml(did, 'large');
     var ac = arcLabelColor(did);
-    return '<div class="carousel-card' + (i === 0 ? ' active' : '') + '" onclick="openCareerModal('' + did + '')">'
+    return '<div class="carousel-card' + (i === 0 ? ' active' : '') + '" onclick="openCareerModal(' + JSON.stringify(did) + ')">'
       + badge
       + '<div class="carousel-card-body">'
       + '<div class="carousel-card-name" style="color:' + c.name_color + '">' + c.name + '</div>'
@@ -6587,7 +6587,7 @@ function openCareerModal(did) {
 
     seasonHistory.forEach(function(r) {
       var posColor = r.pos === 1 ? 'var(--gold)' : r.pos <= 3 ? '#A335EE' : 'var(--white)';
-      var clickable = r.race_id ? 'onclick="openRaceResults(' + r.race_id + ','' + did + '')"' : '';
+      var clickable = r.race_id ? 'onclick="openRaceResults(' + r.race_id + ',' + JSON.stringify(did) + ')"' : '';
       bodyHtml += '<div class="career-race-row" ' + clickable + '>'
         + '<div class="career-race-pos" style="color:' + posColor + '">P' + r.pos + '</div>'
         + '<div class="career-race-track">' + r.track + '</div>'
