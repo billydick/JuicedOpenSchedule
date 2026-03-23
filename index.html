@@ -6434,34 +6434,30 @@ var carouselTimer = null;
 var SNIPER_SVG_SMALL = '<svg class="driver-card-badge-svg" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="18" stroke="#A335EE" stroke-width="2.5"/><line x1="0" y1="30" x2="60" y2="30" stroke="#A335EE" stroke-width="2.5"/><line x1="30" y1="0" x2="30" y2="60" stroke="#A335EE" stroke-width="2.5"/><circle cx="30" cy="30" r="4" fill="#A335EE"/></svg>';
 var SNIPER_SVG_LARGE = '<svg class="carousel-card-badge-svg" viewBox="0 0 60 60" fill="none"><circle cx="30" cy="30" r="18" stroke="#A335EE" stroke-width="2.5"/><line x1="0" y1="30" x2="60" y2="30" stroke="#A335EE" stroke-width="2.5"/><line x1="30" y1="0" x2="30" y2="60" stroke="#A335EE" stroke-width="2.5"/><circle cx="30" cy="30" r="4" fill="#A335EE"/></svg>';
 
-function driverBadgeHtml(did, size) {
-  var cd = CAREER_DATA[did];
-  if (!cd) return '';
-  var logo = TEAM_MAP[did];
-  if (logo) return '<img class="' + (size === 'large' ? 'carousel-card-logo' : 'driver-card-logo') + '" src="' + logo + '" alt="">';
-  var arc = cd.arc_emoji || '';
-  // Get arc from any season standings
-  var s = STANDINGS_DATA[did];
-  if (!s) {
-    for (var tid in SEASON_DATA) {
-      var sd = SEASON_DATA[tid];
-      if (sd && sd.standings && sd.standings[did]) { s = sd.standings[did]; break; }
-    }
+function getSeason1Standings(did) {
+  // Season 1 is the active season — check SEASON_DATA first (named seasons), then skip preseason
+  for (var tid in SEASON_DATA) {
+    var sd = SEASON_DATA[tid];
+    if (sd && sd.standings && sd.standings[did]) return sd.standings[did];
   }
-  arc = s ? s.arc_emoji : '';
+  return null;
+}
+
+function driverBadgeHtml(did, size) {
+  var logo = TEAM_MAP[did];
+  if (logo) return '<img class="' + (size === 'large' ? 'carousel-card-logo' : 'driver-card-logo') + '" src="team_logos/' + logo + '" alt="" onerror="this.style.display=&quot;none&quot;">';
+  // Archetype from Season 1 only
+  var s = getSeason1Standings(did);
+  if (!s || !s.arc_emoji) return '';
+  var arc = s.arc_emoji;
   if (arc === 'SNIPER_SVG') return size === 'large' ? SNIPER_SVG_LARGE : SNIPER_SVG_SMALL;
-  return '<div class="' + (size === 'large' ? 'carousel-card-badge' : 'driver-card-badge') + '">' + (arc || '🏁') + '</div>';
+  return '<div class="' + (size === 'large' ? 'carousel-card-badge' : 'driver-card-badge') + '">' + arc + '</div>';
 }
 
 function arcLabelColor(did) {
-  var s = STANDINGS_DATA[did];
-  if (!s) {
-    for (var tid in SEASON_DATA) {
-      var sd = SEASON_DATA[tid];
-      if (sd && sd.standings && sd.standings[did]) { s = sd.standings[did]; break; }
-    }
-  }
-  return s ? {label: s.arc_label, color: s.arc_color} : {label: 'RACER', color: 'rgba(200,200,200,.55)'};
+  var s = getSeason1Standings(did);
+  if (!s) return {label: '', color: 'rgba(200,200,200,.55)'};
+  return {label: s.arc_label || '', color: s.arc_color || 'rgba(200,200,200,.55)'};
 }
 
 function renderDriverCard(d) {
