@@ -341,8 +341,10 @@
   .rr-table tr:hover td{background:var(--surface2)}
   .rr-table tr.rr-highlight td{background:rgba(212,160,23,.08);border-left:3px solid var(--gold)}
   .rr-table tr.rr-highlight:hover td{background:rgba(212,160,23,.12)}
-  .rr-pos-win{color:#FFD700;font-weight:900;font-size:18px}
+  .rr-pos-win{color:#FF8000;font-weight:900;font-size:18px}
   .rr-pos-pod{color:#A335EE;font-weight:900}
+  .rr-pos-top5{color:#0070DD;font-weight:900}
+  .rr-pos-top10{color:#1EFF00;font-weight:700}
   .rr-inc-high{color:var(--red)}
   .rr-inc-clean{color:#2D7D32}
   .rr-name-col{max-width:200px;overflow:hidden;text-overflow:ellipsis}
@@ -419,8 +421,10 @@
     white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:200px;
   }
   .modal-race-table tr:hover td{background:var(--surface2)}
-  .modal-pos-win{color:#FFD700;font-weight:900}
+  .modal-pos-win{color:#FF8000;font-weight:900}
   .modal-pos-pod{color:#A335EE;font-weight:900}
+  .modal-pos-top5{color:#0070DD;font-weight:900}
+  .modal-pos-top10{color:#1EFF00;font-weight:700}
   .modal-pts-val{color:var(--gold)}
   .modal-inc-high{color:var(--red)}
   .modal-inc-clean{color:#2D7D32}
@@ -6213,7 +6217,7 @@ function openDriver(did) {
 
   function raceRows(races, dimmed) {
     return races.map(function(r) {
-      var posClass = r.pos == 1 ? 'modal-pos-win' : r.pos <= 3 ? 'modal-pos-pod' : '';
+      var posClass = r.pos == 1 ? 'modal-pos-win' : r.pos <= 3 ? 'modal-pos-pod' : r.pos <= 5 ? 'modal-pos-top5' : r.pos <= 10 ? 'modal-pos-top10' : '';
       var incClass = r.inc >= 8 ? 'modal-inc-high' : r.inc <= 3 ? 'modal-inc-clean' : '';
       var rowClass = dimmed ? 'modal-not-counted' : '';
       var title = r.title || r.car || '—';
@@ -6332,7 +6336,7 @@ function openRaceResults(raceId, highlightDid) {
   var rows = race.results.map(function(r) {
     var isHighlight = String(r.did) === String(highlightDid);
     var rowClass = isHighlight ? 'rr-highlight' : '';
-    var posClass = r.pos == 1 ? 'rr-pos-win' : r.pos <= 3 ? 'rr-pos-pod' : '';
+    var posClass = r.pos == 1 ? 'rr-pos-win' : r.pos <= 3 ? 'rr-pos-pod' : r.pos <= 5 ? 'rr-pos-top5' : r.pos <= 10 ? 'rr-pos-top10' : '';
     var incClass = r.inc >= 8 ? 'rr-inc-high' : r.inc <= 3 ? 'rr-inc-clean' : '';
     var interval = r.pos == 1 ? '—' : formatInterval(r.interval, r.laps, leaderLaps);
     var lapsLed = r.laps_led > 0 ? r.laps_led : '—';
@@ -6668,7 +6672,7 @@ function openCareerModal(did) {
       + '<div class="career-season-races">';
 
     seasonHistory.forEach(function(r) {
-      var posColor = r.pos === 1 ? 'var(--gold)' : r.pos <= 3 ? '#A335EE' : 'var(--white)';
+      var posColor = r.pos === 1 ? '#FF8000' : r.pos <= 3 ? '#A335EE' : r.pos <= 5 ? '#0070DD' : r.pos <= 10 ? '#1EFF00' : '#C0C0C0';
       var clickable = r.race_id ? 'data-race-id="' + r.race_id + '" data-did="' + did + '"' : '';
       bodyHtml += '<div class="career-race-row" ' + clickable + '>'
         + '<div class="career-race-pos" style="color:' + posColor + '">P' + r.pos + '</div>'
