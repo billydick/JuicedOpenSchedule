@@ -6825,8 +6825,6 @@ function renderCarousel() {
   }).join('');
 
   startCarousel();
-  track.addEventListener('mouseenter', function() { clearInterval(carouselTimer); });
-  track.addEventListener('mouseleave', startCarousel);
   track.addEventListener('touchstart', function() { clearInterval(carouselTimer); }, {passive:true});
   track.addEventListener('touchend', startCarousel);
 }
