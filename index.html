@@ -6537,9 +6537,22 @@ function formatInterval(ms, driverLaps, leaderLaps) {
   return '+' + s.toFixed(3) + 's';
 }
 
-function openRaceResults(raceId, highlightDid) {
-  var ctx = getSeasonData(highlightDid);
-  var race = ctx.races[raceId];
+function openRaceResults(raceId, highlightDid, seasonId) {
+  // Look up races by seasonId directly — avoids getSeasonData's active-tab dependency
+  var races;
+  if (seasonId && seasonId === 6) {
+    races = RACE_RESULTS;
+  } else if (seasonId) {
+    for (var _tid in SEASON_DATA) {
+      if (SEASON_DATA[_tid].season_id === seasonId) { races = SEASON_DATA[_tid].races; break; }
+    }
+  }
+  // Fallback to tab-context lookup for callers that don't pass seasonId
+  if (!races) {
+    var ctx = getSeasonData(highlightDid);
+    races = ctx.races;
+  }
+  var race = races[raceId];
   if (!race) return;
 
   var title = race.title || race.track;
@@ -6766,7 +6779,8 @@ document.addEventListener('click', function(e) {
   if (raceRow) {
     var raceId = parseInt(raceRow.getAttribute('data-race-id'), 10);
     var did = raceRow.getAttribute('data-did');
-    if (raceId && did) openRaceResults(raceId, did);
+    var seasonId = parseInt(raceRow.getAttribute('data-season-id'), 10);
+    if (raceId && did) openRaceResults(raceId, did, seasonId);
   }
 });
 
@@ -6917,7 +6931,7 @@ function openCareerModal(did) {
 
     seasonHistory.forEach(function(r) {
       var posColor = r.pos === 1 ? '#FF8000' : r.pos <= 3 ? '#A335EE' : r.pos <= 5 ? '#0070DD' : r.pos <= 10 ? '#1EFF00' : '#C0C0C0';
-      var clickable = r.race_id ? 'data-race-id="' + r.race_id + '" data-did="' + did + '"' : '';
+      var clickable = r.race_id ? 'data-race-id="' + r.race_id + '" data-did="' + did + '" data-season-id="' + season.season_id + '"' : '';
       var rowClass = r.scored ? 'scored' : (r.elig ? 'unscored' : 'ineligible');
       bodyHtml += '<div class="career-race-row ' + rowClass + '" ' + clickable + '>'
         + '<div class="career-race-pos" style="color:' + posColor + '">P' + r.pos + '</div>'
