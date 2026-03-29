@@ -244,6 +244,14 @@
   .race-car{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:900;color:var(--white);line-height:1.15;display:flex;align-items:center;gap:6px;flex-wrap:wrap;text-shadow:0 1px 6px rgba(0,0,0,.95)}
   .race-track{font-family:'Barlow',sans-serif;font-size:14px;font-weight:500;color:rgba(200,200,200,.90);text-shadow:0 1px 4px rgba(0,0,0,.95);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .race-winner-strip{font-family:"Barlow Condensed",sans-serif;font-size:12px;font-weight:700;color:var(--gold);letter-spacing:1px;text-shadow:0 1px 4px rgba(0,0,0,.95)}
+  .race-results-badge{font-family:"Barlow Condensed",sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;color:rgba(255,255,255,.5);margin-top:3px;transition:color .2s}
+  .race-card[data-race-id]:hover .race-results-badge{color:var(--gold)}
+  .race-card[data-race-id]{transition:box-shadow .15s,transform .15s}
+  .race-card[data-race-id]:hover{box-shadow:0 0 0 2px var(--gold);transform:translateY(-1px)}
+  @media(hover:none){
+    .race-card[data-race-id] .race-results-badge{color:var(--gold)}
+    .race-card[data-race-id]{box-shadow:0 0 0 1px rgba(212,160,23,.4)}
+  }
   .free-badge{display:inline-block;background:var(--gold);color:#000;font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:900;letter-spacing:1px;padding:2px 6px;border-radius:2px;text-transform:uppercase;flex-shrink:0}
 
   /* ══════════════════════════════════════════
@@ -751,7 +759,7 @@
     <div class="week-days">
       <div class="day-col sat-col">
         <div class="day-header sat-header">SATURDAY &mdash; MAIN CARD</div>
-        <div class="races-row"><div class="race-card dirt-oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2018/03/included_LimalandMotorsportsPark.jpg')">
+        <div class="races-row"><div class="race-card dirt-oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2018/03/included_LimalandMotorsportsPark.jpg')" data-race-id="30" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       
       <div class="race-card-left">
         <div class="race-type-pill">DIRT OVAL</div>
@@ -759,9 +767,10 @@
         <div class="race-track">Limaland Motorsports Park</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Cody Schlaudecker</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
-    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/bristolmotorspeedway-sm.jpg')">
+    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/bristolmotorspeedway-sm.jpg')" data-race-id="31" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       
       <div class="race-card-left">
         <div class="race-type-pill">OVAL</div>
@@ -769,9 +778,10 @@
         <div class="race-track">Bristol Motor Speedway</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Cody Schlaudecker</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
-    </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2022/12/virginiainternationalraceway-featured.jpg')">
+    </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2022/12/virginiainternationalraceway-featured.jpg')" data-race-id="32" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       
       <div class="race-card-left">
         <div class="race-type-pill">ROAD / GT</div>
@@ -779,6 +789,7 @@
         <div class="race-track">Virginia International Raceway</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Clay Debban</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2024/12/bmw-m2-csr-feature-1024x576.jpg" alt="BMW M2 CS Racing" loading="lazy">
     </div></div>
@@ -786,7 +797,7 @@
       <div class="day-divider"></div>
       <div class="day-col wed-col">
         <div class="day-header wed-header">WEDNESDAY &mdash; BONUS / CATCH-UP</div>
-        <div class="races-row"><div class="race-card dirt-road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2019/06/wild-west-motorsports-park-featured.jpg')">
+        <div class="races-row"><div class="race-card dirt-road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2019/06/wild-west-motorsports-park-featured.jpg')" data-race-id="33" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       
       <div class="race-card-left">
         <div class="race-type-pill">DIRT ROAD</div>
@@ -794,9 +805,10 @@
         <div class="race-track">Wild West Motorsports Park</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Brooks Whynot</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/vwbeetlelite-feature-1024x576.jpg" alt="iRX VW Beetle Lite" loading="lazy">
-    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/martinsville-feature.jpg')">
+    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/martinsville-feature.jpg')" data-race-id="34" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       <span class="sponsored-badge">&#9733; SPONSORED</span>
       <div class="race-card-left">
         <div class="race-type-pill">OVAL</div>
@@ -804,6 +816,7 @@
         <div class="race-track">Martinsville Speedway</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; John Ballew</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="Martin Insurance NSR 100" loading="lazy">
     </div></div>
@@ -823,7 +836,7 @@
     <div class="week-days">
       <div class="day-col sat-col">
         <div class="day-header sat-header">SATURDAY &mdash; MAIN CARD <span class="day-date">&middot; March 28</span></div>
-        <div class="races-row"><div class="race-card dirt-oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2017/04/Knoxville-tile.jpg')">
+        <div class="races-row"><div class="race-card dirt-oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2017/04/Knoxville-tile.jpg')" data-race-id="35" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       
       <div class="race-card-left">
         <div class="race-type-pill">DIRT OVAL</div>
@@ -831,9 +844,10 @@
         <div class="race-track">Knoxville Raceway</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Clay Debban</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
-    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/talladega-feature.jpg')">
+    </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/talladega-feature.jpg')" data-race-id="36" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       <span class="sponsored-badge">&#9733; SPONSORED</span>
       <div class="race-card-left">
         <div class="race-type-pill">OVAL</div>
@@ -841,9 +855,10 @@
         <div class="race-track">Talladega Superspeedway</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Eric Loethen</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Martin Insurance NSR 200" loading="lazy">
-    </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_RoadAmerica.jpg')">
+    </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_RoadAmerica.jpg')" data-race-id="37" data-season-id="7" onclick="openScheduleRaceResults(this)" style="cursor:pointer">
       <span class="sponsored-badge">&#9733; SPONSORED</span>
       <div class="race-card-left">
         <div class="race-type-pill">ROAD / GT</div>
@@ -851,6 +866,7 @@
         <div class="race-track">Road America</div>
         <div class="race-card-spacer"></div>
         <div class="race-winner-strip">&#127942; Mike Malone2</div>
+        <div class="race-results-badge">&#9654; RESULTS</div>
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="Lap Down Legends GT3 Driver Development Cup" loading="lazy">
     </div></div>
@@ -866,6 +882,7 @@
         <div class="race-track">Limaland Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/michigan-feature.jpg')">
@@ -875,6 +892,7 @@
         <div class="race-car">Vantage 250</div>
         <div class="race-track">Michigan International Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Vantage 250" loading="lazy">
@@ -903,6 +921,7 @@
         <div class="race-track">Charlotte Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/vwbeetlelite-feature-1024x576.jpg" alt="iRX VW Beetle Lite" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/richmond-feature.jpg')">
@@ -913,6 +932,7 @@
         <div class="race-track">Richmond Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="DWM 1000" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/Sebring.jpg')">
@@ -922,6 +942,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Sebring International Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -938,6 +959,7 @@
         <div class="race-track">USA International Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_DarlingtonRaceway.jpg')">
@@ -947,6 +969,7 @@
         <div class="race-car">NASCAR Trucks</div>
         <div class="race-track">Darlington Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
@@ -975,6 +998,7 @@
         <div class="race-track">Eldora Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2024/03/kansasspeedway-feature-1.jpg')">
@@ -985,6 +1009,7 @@
         <div class="race-track">Kansas Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="Bofa Tea Bandits Brewed Speed 75" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/watkinsglen-feature.jpg')">
@@ -994,6 +1019,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Watkins Glen International</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -1010,6 +1036,7 @@
         <div class="race-track">USA International Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/dover-ms.jpg')">
@@ -1019,6 +1046,7 @@
         <div class="race-car">Gen 4 Cup</div>
         <div class="race-track">Dover Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
@@ -1047,6 +1075,7 @@
         <div class="race-track">The Dirt Track at Charlotte</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2018/12/charlottemotorspeedway-feature.jpg')">
@@ -1057,6 +1086,7 @@
         <div class="race-track">Charlotte Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Next Gen Cup" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/limerock2019-feature.jpg')">
@@ -1066,6 +1096,7 @@
         <div class="race-car"><span class="free-badge">FREE</span>BMW M2 CS Racing</div>
         <div class="race-track">Lime Rock Park</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2024/12/bmw-m2-csr-feature-1024x576.jpg" alt="BMW M2 CS Racing" loading="lazy">
@@ -1082,6 +1113,7 @@
         <div class="race-track">Crandon International Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/pro2lite-feature-1024x576.jpg" alt="Pro 2 Lite Off-Road" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/texasmotorspeedway-feature.jpg')">
@@ -1091,6 +1123,7 @@
         <div class="race-car">NASCAR O'Reilly</div>
         <div class="race-track">Texas Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
@@ -1119,6 +1152,7 @@
         <div class="race-track">Lanier National Speedway – Dirt</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/iowa-feature.jpg')">
@@ -1129,6 +1163,7 @@
         <div class="race-track">Iowa Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_RoadAtlanta.jpg')">
@@ -1138,6 +1173,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Michelin Raceway Road Atlanta</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1154,6 +1190,7 @@
         <div class="race-track">Phoenix Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/pro2lite-feature-1024x576.jpg" alt="Pro 2 Lite Off-Road" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/bristolmotorspeedway-sm.jpg')">
@@ -1163,6 +1200,7 @@
         <div class="race-car">ARCA Menards</div>
         <div class="race-track">Bristol Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
@@ -1191,6 +1229,7 @@
         <div class="race-track">Williams Grove Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/echoparkspeedway-feature.jpg')">
@@ -1201,6 +1240,7 @@
         <div class="race-track">EchoPark Speedway (Atlanta)</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="BBR GOOP 6900" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_MidOhioSportsCarCourse.jpg')">
@@ -1210,6 +1250,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Mid-Ohio Sports Car Course</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -1226,6 +1267,7 @@
         <div class="race-track">Southern National Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/newhampshiremotorspeedway-sm.jpg')">
@@ -1235,6 +1277,7 @@
         <div class="race-car">Gen 4 Cup</div>
         <div class="race-track">New Hampshire Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
@@ -1263,6 +1306,7 @@
         <div class="race-track">Charlotte Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/12/fia-cross-car-feature-1024x576.jpg" alt="FIA Cross Car" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2020/08/worldwidetechnologyraceway-feature.jpg')">
@@ -1273,6 +1317,7 @@
         <div class="race-track">World Wide Technology Raceway (Gateway)</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/included_SummitPointMotorsportsPark.jpg')">
@@ -1282,6 +1327,7 @@
         <div class="race-car"><span class="free-badge">FREE</span>BMW M2 CS Racing</div>
         <div class="race-track">Summit Point Motorsports Park</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2024/12/bmw-m2-csr-feature-1024x576.jpg" alt="BMW M2 CS Racing" loading="lazy">
@@ -1298,6 +1344,7 @@
         <div class="race-track">Volusia Speedway Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/pocono-feature.jpg')">
@@ -1307,6 +1354,7 @@
         <div class="race-car">NASCAR Trucks</div>
         <div class="race-track">Pocono Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
@@ -1335,6 +1383,7 @@
         <div class="race-track">Southern National Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/nashvilless-feature.jpg')">
@@ -1345,6 +1394,7 @@
         <div class="race-track">Nashville Superspeedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/lagunaseca-feature.jpg')">
@@ -1354,6 +1404,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">WeatherTech Raceway at Laguna Seca</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1370,6 +1421,7 @@
         <div class="race-track">Lanier National Speedway – Dirt</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/themilwaukeemile-sm.jpg')">
@@ -1379,6 +1431,7 @@
         <div class="race-car">Gen 4 Cup</div>
         <div class="race-track">The Milwaukee Mile</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
@@ -1407,6 +1460,7 @@
         <div class="race-track">Kokomo Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/michigan-feature.jpg')">
@@ -1417,6 +1471,7 @@
         <div class="race-track">Michigan International Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2013/12/Monza.jpg')">
@@ -1426,6 +1481,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Autódromo Nazionale Monza</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -1442,6 +1498,7 @@
         <div class="race-track">Limaland Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/daytona-feature.jpg')">
@@ -1451,6 +1508,7 @@
         <div class="race-car">Next Gen Cup</div>
         <div class="race-track">Daytona International Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Next Gen Cup" loading="lazy">
@@ -1479,6 +1537,7 @@
         <div class="race-track">Wild West Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/pro2lite-feature-1024x576.jpg" alt="Pro 2 Lite Off-Road" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/richmond-feature.jpg')">
@@ -1489,6 +1548,7 @@
         <div class="race-track">Richmond Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/Sebring.jpg')">
@@ -1498,6 +1558,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Sebring International Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -1514,6 +1575,7 @@
         <div class="race-track">Williams Grove Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/kentuckyspeedway-sm.jpg')">
@@ -1523,6 +1585,7 @@
         <div class="race-car">ARCA Menards</div>
         <div class="race-track">Kentucky Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
@@ -1551,6 +1614,7 @@
         <div class="race-track">Huset’s Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_DarlingtonRaceway.jpg')">
@@ -1561,6 +1625,7 @@
         <div class="race-track">Darlington Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_RoadAmerica.jpg')">
@@ -1570,6 +1635,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Road America</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1586,6 +1652,7 @@
         <div class="race-track">Wild West Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/12/fia-cross-car-feature-1024x576.jpg" alt="FIA Cross Car" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/dover-ms.jpg')">
@@ -1595,6 +1662,7 @@
         <div class="race-car">NASCAR O'Reilly</div>
         <div class="race-track">Dover Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
@@ -1623,6 +1691,7 @@
         <div class="race-track">The Dirt Track at Charlotte</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/lasvegasmotorspeedway-sm.jpg')">
@@ -1633,6 +1702,7 @@
         <div class="race-track">Las Vegas Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Next Gen Cup" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_RoadAtlanta.jpg')">
@@ -1642,6 +1712,7 @@
         <div class="race-car">BMW M2 CS Racing</div>
         <div class="race-track">Michelin Raceway Road Atlanta</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2024/12/bmw-m2-csr-feature-1024x576.jpg" alt="BMW M2 CS Racing" loading="lazy">
@@ -1658,6 +1729,7 @@
         <div class="race-track">Southern National Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2024/03/kansasspeedway-feature-1.jpg')">
@@ -1667,6 +1739,7 @@
         <div class="race-car">NASCAR Trucks</div>
         <div class="race-track">Kansas Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
@@ -1695,6 +1768,7 @@
         <div class="race-track">Eldora Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="MAPLE SYRUP SLIDER POWERED BY BBR" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/northwilkesborospeedway-feature.jpg')">
@@ -1705,6 +1779,7 @@
         <div class="race-track">North Wilkesboro Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/brandshatchcircuit-sm.jpg')">
@@ -1714,6 +1789,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Brands Hatch Circuit</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1730,6 +1806,7 @@
         <div class="race-track">Huset’s Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/echoparkspeedway-feature.jpg')">
@@ -1739,6 +1816,7 @@
         <div class="race-car">Gen 4 Cup</div>
         <div class="race-track">EchoPark Speedway (Atlanta)</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
@@ -1767,6 +1845,7 @@
         <div class="race-track">Lanier National Speedway – Dirt</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/texasmotorspeedway-feature.jpg')">
@@ -1777,6 +1856,7 @@
         <div class="race-track">Texas Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Next Gen Cup" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/watkinsglen-feature.jpg')">
@@ -1786,6 +1866,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Watkins Glen International</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1802,6 +1883,7 @@
         <div class="race-track">Sonoma Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/vwbeetlelite-feature-1024x576.jpg" alt="iRX VW Beetle Lite" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/talladega-feature.jpg')">
@@ -1811,6 +1893,7 @@
         <div class="race-car">NASCAR O'Reilly</div>
         <div class="race-track">Talladega Superspeedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
@@ -1839,6 +1922,7 @@
         <div class="race-track">Federated Auto Parts Raceway at I-55</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/update_ChicagolandSpeedway.jpg')">
@@ -1849,6 +1933,7 @@
         <div class="race-track">Chicagoland Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2024/09/circuitdespa-francorchamps-feature.jpg')">
@@ -1858,6 +1943,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Circuit de Spa-Francorchamps</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -1874,6 +1960,7 @@
         <div class="race-track">Port Royal Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/newhampshiremotorspeedway-sm.jpg')">
@@ -1883,6 +1970,7 @@
         <div class="race-car">ARCA Menards</div>
         <div class="race-track">New Hampshire Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
@@ -1911,6 +1999,7 @@
         <div class="race-track">USA International Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2017/03/Dirt-SLM-1024x576.jpg" alt="Dirt Late Model" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/rockingham-feature.jpg')">
@@ -1921,6 +2010,7 @@
         <div class="race-track">Rockingham Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/sonoma-feature.jpg')">
@@ -1930,6 +2020,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Sonoma Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -1946,6 +2037,7 @@
         <div class="race-track">Lucas Oil Indianapolis Raceway Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/12/fia-cross-car-feature-1024x576.jpg" alt="FIA Cross Car" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/06/indianapolis-feature.jpg')">
@@ -1955,6 +2047,7 @@
         <div class="race-car">Next Gen Cup</div>
         <div class="race-track">Indianapolis Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="Next Gen Cup" loading="lazy">
@@ -1983,6 +2076,7 @@
         <div class="race-track">Kokomo Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/pocono-feature.jpg')">
@@ -1993,6 +2087,7 @@
         <div class="race-track">Pocono Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/barbermotorsportspark-sm.jpg')">
@@ -2002,6 +2097,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Barber Motorsports Park</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -2018,6 +2114,7 @@
         <div class="race-track">Huset’s Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/phoenix-feature.jpg')">
@@ -2027,6 +2124,7 @@
         <div class="race-car">NASCAR Trucks</div>
         <div class="race-track">Phoenix Raceway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/05/chevroletsilverado-feature-1024x576.jpg" alt="NASCAR Trucks" loading="lazy">
@@ -2055,6 +2153,7 @@
         <div class="race-track">Knoxville Raceway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2013/01/autoclubspeedway-sm1.jpg')">
@@ -2065,6 +2164,7 @@
         <div class="race-track">Auto Club Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/03/arca-chevy-ss-feature-1024x576.jpg" alt="ARCA Menards" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2013/01/update_MountPanoramaCircuit.jpg')">
@@ -2074,6 +2174,7 @@
         <div class="race-car">GT3</div>
         <div class="race-track">Mount Panorama  Circuit</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2023/06/porsche992rgt3-feature-1-1024x576.jpg" alt="GT3" loading="lazy">
@@ -2090,6 +2191,7 @@
         <div class="race-track">Wild West Motorsports Park</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/micro-sprint-non-winged-feature-1024x576.jpg" alt="Dirt Micro Sprint NW" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/lasvegasmotorspeedway-sm.jpg')">
@@ -2099,6 +2201,7 @@
         <div class="race-car">Gen 4 Cup</div>
         <div class="race-track">Las Vegas Motor Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/06/NascarGen4Chevy-feature-1024x576.jpg" alt="Gen 4 Cup" loading="lazy">
@@ -2127,6 +2230,7 @@
         <div class="race-track">Lincoln Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2020/12/358-modified-1-1024x576.jpg" alt="DIRTcar 358 Modified" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2012/10/homestead-miami-speedway-feature.jpg')">
@@ -2137,6 +2241,7 @@
         <div class="race-track">Homestead Miami Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2021/04/NASCAR-NEXT-GEN-Chevrolet-Camaro-ZL1-1024x576.jpg" alt="SUPER DEUCES SHOWDOWN" loading="lazy">
     </div><div class="race-card road" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2014/09/Ring-Tile-NEW1.jpg')">
@@ -2146,6 +2251,7 @@
         <div class="race-car">GT4</div>
         <div class="race-track">Nürburgring Nordschleife</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/09/FordMustangGT4-feature-1024x576.jpg" alt="GT4" loading="lazy">
@@ -2162,6 +2268,7 @@
         <div class="race-track">Charlotte Motor Speedway</div>
         <div class="race-card-spacer"></div>
         
+        
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2025/07/pro2lite-feature-1024x576.jpg" alt="Pro 2 Lite Off-Road" loading="lazy">
     </div><div class="race-card oval" style="--track-img:url('https://s100.iracing.com/wp-content/uploads/2025/09/daytona-feature.jpg')">
@@ -2171,6 +2278,7 @@
         <div class="race-car">NASCAR O'Reilly</div>
         <div class="race-track">Daytona International Speedway</div>
         <div class="race-card-spacer"></div>
+        
         
       </div>
       <img class="race-car-img" src="https://s100.iracing.com/wp-content/uploads/2019/09/NASCAR-Xfi-Chevrolet-Camaro-1024x576.jpg" alt="NASCAR O'Reilly" loading="lazy">
@@ -6906,6 +7014,13 @@ function openRaceResults(raceId, highlightDid, seasonId) {
     var hl = document.querySelector('#raceModal .rr-highlight');
     if (hl) hl.scrollIntoView({block:'center', behavior:'smooth'});
   }, 100);
+}
+
+function openScheduleRaceResults(el) {
+  var raceId = parseInt(el.getAttribute('data-race-id'));
+  var seasonId = parseInt(el.getAttribute('data-season-id'));
+  if (!raceId) return;
+  openRaceResults(raceId, null, seasonId);
 }
 
 function openSponsorModal() {
