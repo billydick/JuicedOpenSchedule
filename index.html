@@ -77,6 +77,23 @@
   .live-flag-dot.green{background:#00ff88;box-shadow:0 0 6px #00ff88}
   .live-flag-dot.yellow{background:#ffcc00;box-shadow:0 0 6px #ffcc00}
   .live-flag-dot.red{background:#ff3333;box-shadow:0 0 6px #ff3333}
+  .live-flag-dot.white{background:#ffffff;box-shadow:0 0 8px #ffffff}
+  .live-flag-dot.caution{background:#ffcc00;box-shadow:0 0 6px #ffcc00}
+  @keyframes cautionFlash{0%,100%{opacity:1;box-shadow:0 0 14px #ffcc00}50%{opacity:.25;box-shadow:none}}
+  .live-flag-dot.caution{animation:cautionFlash .6s ease-in-out infinite}
+  /* Flag banner shown in map area */
+  .live-flag-banner{
+    position:absolute;top:12px;right:12px;z-index:10;
+    font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:900;
+    letter-spacing:3px;text-transform:uppercase;padding:5px 14px;
+    border-radius:2px;pointer-events:none;opacity:0;
+    transition:opacity .3s ease;
+  }
+  .live-flag-banner.show{opacity:1}
+  .live-flag-banner.caution{background:rgba(255,204,0,.15);border:1px solid #ffcc00;color:#ffcc00}
+  .live-flag-banner.white{background:rgba(255,255,255,.12);border:1px solid #fff;color:#fff}
+  @keyframes cautionBannerFlash{0%,100%{opacity:1}50%{opacity:.35}}
+  .live-flag-banner.caution{animation:cautionBannerFlash .6s ease-in-out infinite}
   .live-conn-dot{width:8px;height:8px;border-radius:50%;background:#333;flex-shrink:0}
   .live-conn-dot.on{background:#00ff88;box-shadow:0 0 5px #00ff88}
   .live-body{display:flex;flex:1;min-height:500px}
@@ -6967,6 +6984,7 @@
 
         <div class="live-map-msg" id="liveMapMsg" style="display:none"></div>
         <div id="liveMapTapHint">TAP TO FULLSCREEN</div>
+        <div class="live-flag-banner" id="liveFlagBanner"></div>
         <svg id="liveMapSvg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" style="cursor:grab;overflow:visible">
           <g id="liveRotateG" transform="rotate(0,250,250)">
             <g id="liveTrackG"></g>
@@ -8325,6 +8343,20 @@ setPage(startPage);
     setLiveMode(nextMode);
     conn.className='live-conn-dot on';
     flag.className='live-flag-dot '+(p.flag||'');
+    // Flag banner in map area
+    var banner = document.getElementById('liveFlagBanner');
+    if (banner) {
+      var f = p.flag || '';
+      if (f === 'caution') {
+        banner.textContent = '⚠ CAUTION';
+        banner.className = 'live-flag-banner caution show';
+      } else if (f === 'white') {
+        banner.textContent = '🏳 WHITE FLAG — LAST LAP';
+        banner.className = 'live-flag-banner white show';
+      } else {
+        banner.className = 'live-flag-banner';
+      }
+    }
     track.textContent=p.trackName||'';
 
     if (nextMode === 'practice') {
