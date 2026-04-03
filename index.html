@@ -106,22 +106,45 @@
 
   @media (max-width:768px) {
     .live-page{height:auto;min-height:100vh}
-    .live-body{position:relative;min-height:100vw;flex-shrink:0}
-    /* Map fills entire body area */
-    .live-map{position:absolute;inset:0;z-index:1;background:#080808}
-    .live-map svg{width:100%;height:100%;max-width:none;max-height:none}
-    /* Leaderboard floats over map, semi-transparent */
-    #liveLbCol{
-      position:absolute;top:0;left:0;z-index:2;
-      width:55%!important;max-height:100%;overflow-y:auto;
-      background:rgba(10,10,10,0.72)!important;
-      border-right:1px solid rgba(255,255,255,0.06)!important;
-      backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+    /* Swipe container */
+    .live-body{
+      position:relative;
+      overflow:hidden;
+      height:calc(100vh - 130px);
+      min-height:500px;
     }
+    .live-mobile-panels{
+      display:flex;
+      width:200%;
+      height:100%;
+      transition:transform 0.3s cubic-bezier(.4,0,.2,1);
+      will-change:transform;
+    }
+    /* Each panel is full viewport width */
+    #liveLbCol{
+      width:50%!important;
+      flex-shrink:0;
+      display:flex;
+      flex-direction:column;
+      border-right:none!important;
+      overflow:hidden;
+    }
+    .live-lb{
+      flex:1;
+      overflow-y:auto;
+      width:100%!important;
+    }
+    .live-map{
+      width:50%;
+      flex-shrink:0;
+      height:100%;
+      max-height:none;
+      position:relative;
+    }
+    .live-map svg{max-width:none;max-height:none;width:100%;height:100%}
     .live-detail{display:none}
-    .live-lb{background:transparent!important;border-right:none!important}
-    .live-lb-row{border-bottom:1px solid rgba(255,255,255,0.05)!important;padding:4px 8px!important}
-    .live-lb-row:hover{background:rgba(255,255,255,0.04)!important}
+    /* Compact leaderboard rows */
+    .live-lb-row{padding:4px 8px!important}
     .live-lb-name{font-size:12px}
     .live-lb-pos{font-size:14px;width:18px!important}
     .live-lb-num{width:28px!important;height:20px!important}
@@ -130,8 +153,24 @@
     .live-lb-inc{display:none}
     .live-lb-new-badge{display:none}
     .live-transition-card{min-width:90vw}
-    /* Gap toggle header */
-    #liveLbCol > div:first-child{background:rgba(0,0,0,0.5)!important}
+    /* Panel indicator dots */
+    .live-panel-dots{
+      display:flex;
+      justify-content:center;
+      gap:8px;
+      padding:5px 0;
+      background:#0a0a0a;
+      border-bottom:1px solid #1a1a1a;
+    }
+    .live-panel-dot{
+      width:6px;height:6px;border-radius:50%;
+      background:#333;transition:background .2s;
+    }
+    .live-panel-dot.active{background:var(--live-accent,#D4A017)}
+  }
+  @media (min-width:769px) {
+    .live-mobile-panels{display:contents}
+    .live-panel-dots{display:none}
   }
   .live-detail-name{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;letter-spacing:1px;margin-bottom:2px}
   .live-detail-sub{font-size:12px;color:#555;margin-bottom:14px}
@@ -6876,7 +6915,12 @@
       <span class="live-session-type" id="liveSType"></span>
       <span class="live-lap-info" id="liveLapInfo"></span>
     </div>
-    <div class="live-body">
+    <div style="display:none" class="live-panel-dots" id="livePanelDots">
+      <div class="live-panel-dot active" id="liveDot0"></div>
+      <div class="live-panel-dot" id="liveDot1"></div>
+    </div>
+    <div class="live-body" id="liveBody">
+      <div class="live-mobile-panels" id="liveMobilePanels">
       <div style="display:flex;flex-direction:column;width:340px;flex-shrink:0;border-right:1px solid #222;background:#111" id="liveLbCol">
         <div style="display:flex;align-items:center;padding:4px 12px;border-bottom:1px solid #1a1a1a;background:#0e0e0e;flex-shrink:0">
           <span style="font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:#333;text-transform:uppercase;flex:1">GAP</span>
@@ -6918,6 +6962,7 @@
       <div class="live-detail" id="liveDetail">
         <div class="live-no-sel">Click a driver</div>
       </div>
+      </div><!-- /live-mobile-panels -->
     </div>
   </div>
 </div>
@@ -8416,6 +8461,54 @@ setPage(startPage);
 
     window.addEventListener('mouseup',  function() { dragging = false; svg.style.cursor = 'grab'; });
     window.addEventListener('touchend', function() { dragging = false; });
+
+    // ── Mobile swipe between panels ─────────────────────────────────────────
+    (function() {
+      var body    = document.getElementById('liveBody');
+      var panels  = document.getElementById('liveMobilePanels');
+      var dots    = document.getElementById('livePanelDots');
+      var dot0    = document.getElementById('liveDot0');
+      var dot1    = document.getElementById('liveDot1');
+      var curPanel = 0;
+      var touchStartX = 0, touchStartY = 0, touchStartT = 0;
+      var isMobile = false;
+
+      function checkMobile() {
+        isMobile = window.innerWidth <= 768;
+        if (dots) dots.style.display = isMobile ? 'flex' : 'none';
+      }
+      checkMobile();
+      window.addEventListener('resize', checkMobile);
+
+      function goPanel(idx) {
+        if (!panels) return;
+        curPanel = idx;
+        panels.style.transform = 'translateX(' + (idx === 0 ? '0' : '-50%') + ')';
+        if (dot0) dot0.classList.toggle('active', idx === 0);
+        if (dot1) dot1.classList.toggle('active', idx === 1);
+      }
+
+      if (body) {
+        body.addEventListener('touchstart', function(e) {
+          if (!isMobile || e.touches.length !== 1) return;
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+          touchStartT = Date.now();
+        }, {passive: true});
+
+        body.addEventListener('touchend', function(e) {
+          if (!isMobile || e.changedTouches.length !== 1) return;
+          var dx = e.changedTouches[0].clientX - touchStartX;
+          var dy = e.changedTouches[0].clientY - touchStartY;
+          var dt = Date.now() - touchStartT;
+          // Only trigger on horizontal swipes (not scroll)
+          if (Math.abs(dx) > Math.abs(dy) * 1.5 && Math.abs(dx) > 40 && dt < 400) {
+            if (dx < 0 && curPanel === 0) goPanel(1);
+            else if (dx > 0 && curPanel === 1) goPanel(0);
+          }
+        }, {passive: true});
+      }
+    })();
 
     svg.addEventListener('wheel', function(e) {
       e.preventDefault();
