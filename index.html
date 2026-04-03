@@ -7905,12 +7905,13 @@ setPage(startPage);
         if (rotDelta > 180)  rotDelta -= 360;
         if (rotDelta < -180) rotDelta += 360;
         var setAngle = lastRot + rotDelta;
+        // Store unnormalized so next delta is computed correctly — never normalize _lastAngle
         rotGrp._lastAngle = setAngle;
         rotGrp.style.transition = teleport ? 'none' : 'transform 0.55s linear';
         rotGrp.setAttribute('transform', 'rotate(' + setAngle + ')');
       }
       if (txtGrp) {
-        var counterAngle = -(angle) - mapRotation;
+        var counterAngle = -angle - mapRotation;
         var lastTxt = (txtGrp._lastAngle !== undefined) ? txtGrp._lastAngle : counterAngle;
         var txtDelta = counterAngle - lastTxt;
         if (txtDelta > 180)  txtDelta -= 360;
