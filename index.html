@@ -8427,9 +8427,16 @@ setPage(startPage);
     track.textContent=p.trackName||'';
     // Track background image
     var tbg = document.getElementById('liveTrackBg');
-    if (tbg && p.trackName) {
-      var normKey = p.trackName.toLowerCase().replace(/[^a-z0-9]/g,'');
-      var imgUrl = (typeof TRACK_IMG_MAP !== 'undefined') ? TRACK_IMG_MAP[normKey] : '';
+    if (tbg && p.trackName && typeof TRACK_IMG_MAP !== 'undefined') {
+      // Try full name first, then each progressively shorter word-stripped version
+      // Handles "Rockingham Speedway Oval" -> tries "rockinghamspeedwayoval",
+      // "rockinghamspeedway", "rockingham" until a match is found
+      var words = p.trackName.trim().split(' ');
+      var imgUrl = '';
+      for (var wi = words.length; wi >= 1; wi--) {
+        var key = words.slice(0, wi).join('').toLowerCase().replace(/[^a-z0-9]/g,'');
+        if (TRACK_IMG_MAP[key]) { imgUrl = TRACK_IMG_MAP[key]; break; }
+      }
       tbg.style.backgroundImage = imgUrl ? 'url(' + imgUrl + ')' : 'none';
     }
 
