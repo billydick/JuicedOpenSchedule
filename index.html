@@ -8308,6 +8308,10 @@ setPage(startPage);
       last = null;
       var offMsg = document.getElementById('liveOfflineMsg');
       if (offMsg) offMsg.style.display = '';
+      var lbCol = document.getElementById('liveLbCol');
+      if (lbCol) lbCol.style.display = 'none';
+      var detail = document.getElementById('liveDetail');
+      if (detail) detail.style.display = 'none';
       return;
     }
     if (liveMode !== nextMode) maybeShowLiveTransition(liveMode, nextMode);
@@ -8336,6 +8340,10 @@ setPage(startPage);
     // Hide offline message
     var offMsg = document.getElementById('liveOfflineMsg');
     if (offMsg) offMsg.style.display = 'none';
+    var lbCol = document.getElementById('liveLbCol');
+    if (lbCol) lbCol.style.display = '';
+    var detail = document.getElementById('liveDetail');
+    if (detail) detail.style.display = '';
   }
 
   // ── Meta ───────────────────────────────────────────────────────────────────
