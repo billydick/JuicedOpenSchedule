@@ -7837,13 +7837,12 @@ setPage(startPage);
   function _updateLabel(lg, ns, labels, id, xy, r, col, car, dotGrp, stagger) {
     var LINE_LEN  = 20 + (stagger||0) * 18;
     var LABEL_PAD = 5;
-    var TIP       = r + LINE_LEN + LABEL_PAD;
 
     var dx = xy.x - trackCX, dy = xy.y - trackCY;
     var dist = Math.sqrt(dx*dx + dy*dy) || 1;
     var rawNx = dx/dist, rawNy = dy/dist;
 
-    // Lerp direction
+    // Lerp direction — smooth small changes, snap big ones
     var LERP = 0.25, SNAP = 0.5;
     if (lerpedDir[id]) {
       var d = lerpedDir[id].nx*rawNx + lerpedDir[id].ny*rawNy;
@@ -7859,101 +7858,66 @@ setPage(startPage);
       lerpedDir[id] = {nx: rawNx, ny: rawNy};
     }
     var nx = lerpedDir[id].nx, ny = lerpedDir[id].ny;
-    var rawAngle = Math.atan2(ny, nx) * 180 / Math.PI;
 
-    // Detect teleport FIRST — reset labelAngles on lap crossing so short-path starts clean
+    // Teleport detection
     var teleport = lastPct[id] !== undefined && Math.abs(car.lapPct - lastPct[id]) > 0.15;
-    if (teleport) {
-      delete labelAngles[id]; delete lerpedDir[id];
-      // Reset stored angles on the elements so short-path restarts clean
-      if (labels[id] && labels[id]._rot) { labels[id]._rot._lastAngle = undefined; }
-      if (labels[id] && labels[id]._txt) { labels[id]._txt._lastAngle = undefined; }
-    }
+    if (teleport) { delete lerpedDir[id]; nx = rawNx; ny = rawNy; }
 
-    // Short-path normalization — prevent orbit accumulation between polls
-    if (labelAngles[id] !== undefined) {
-      var delta = rawAngle - labelAngles[id];
-      if (delta > 180)  rawAngle -= 360;
-      if (delta < -180) rawAngle += 360;
-    }
-    // Normalize stored angle to -180..180 to prevent drift
-    while (rawAngle > 180)  rawAngle -= 360;
-    while (rawAngle < -180) rawAngle += 360;
-    labelAngles[id] = rawAngle;
-    var angle = rawAngle;
+    // Compute tip position in SVG world coords — no rotation transform needed
+    var x1 = xy.x + nx*(r+2),           y1 = xy.y + ny*(r+2);
+    var x2 = xy.x + nx*(r+LINE_LEN),    y2 = xy.y + ny*(r+LINE_LEN);
+    var tx = xy.x + nx*(r+LINE_LEN+LABEL_PAD);
+    var ty = xy.y + ny*(r+LINE_LEN+LABEL_PAD);
 
     var dlabel = (car.carNumber ? '#'+car.carNumber : '') + (car.name ? ' '+car.name : '');
     var T = teleport ? 'none' : 'transform 0.55s linear';
 
     if (labels[id]) {
       var posGrp = labels[id];
-      var rotGrp = labels[id]._rot;
+      var line   = labels[id]._line;
       var txtGrp = labels[id]._txt;
 
-      // Position: CSS transition for smooth movement
+      // Smooth position via CSS transition on posGrp
       posGrp.style.transition = T;
-      posGrp.setAttribute('transform', 'translate(' + xy.x + ',' + xy.y + ')');
+      // posGrp stays at SVG origin (0,0) — we use world coords on children directly
+      // Line endpoints: world coords, no transition (instant update matches lerp)
+      if (line) {
+        line.setAttribute('x1', x1); line.setAttribute('y1', y1);
+        line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+      }
+      // Text position: CSS transition on translate
+      if (txtGrp) {
+        txtGrp.style.transition = T;
+        txtGrp.setAttribute('transform', 'translate(' + tx + ',' + ty + ')');
+      }
       if (teleport) {
         void posGrp.getBoundingClientRect();
         posGrp.style.transition = 'transform 0.55s linear';
-      }
-      // Rotation: CSS transition re-enabled, but normalize angle to short path
-      // relative to the last angle we SET on the element, preventing browser wrap orbits
-      if (rotGrp) {
-        var lastRot = (rotGrp._lastAngle !== undefined) ? rotGrp._lastAngle : angle;
-        var rotDelta = angle - lastRot;
-        if (rotDelta > 180)  rotDelta -= 360;
-        if (rotDelta < -180) rotDelta += 360;
-        var setAngle = lastRot + rotDelta;
-        // Store unnormalized so next delta is computed correctly — never normalize _lastAngle
-        rotGrp._lastAngle = setAngle;
-        rotGrp.style.transition = teleport ? 'none' : 'transform 0.55s linear';
-        rotGrp.setAttribute('transform', 'rotate(' + setAngle + ')');
-      }
-      if (txtGrp) {
-        var counterAngle = -angle - mapRotation;
-        var lastTxt = (txtGrp._lastAngle !== undefined) ? txtGrp._lastAngle : counterAngle;
-        var txtDelta = counterAngle - lastTxt;
-        if (txtDelta > 180)  txtDelta -= 360;
-        if (txtDelta < -180) txtDelta += 360;
-        var setTxt = lastTxt + txtDelta;
-        txtGrp._lastAngle = setTxt;
-        txtGrp.style.transition = teleport ? 'none' : 'transform 0.55s linear';
-        txtGrp.setAttribute('transform', 'rotate(' + setTxt + ')');
+        if (txtGrp) txtGrp.style.transition = 'transform 0.55s linear';
       }
       if (labels[id]._col !== col) {
-        var line = rotGrp ? rotGrp.querySelector('line') : null;
-        var txt  = txtGrp ? txtGrp.querySelector('text') : null;
         if (line) line.setAttribute('stroke', col);
-        if (txt)  txt.setAttribute('fill', col);
+        var txt = txtGrp ? txtGrp.querySelector('text') : null;
+        if (txt) txt.setAttribute('fill', col);
         labels[id]._col = col;
       }
 
     } else {
+      // posGrp at origin — children use world coords
       var posGrp = document.createElementNS(ns, 'g');
-      posGrp.setAttribute('transform', 'translate(' + xy.x + ',' + xy.y + ')');
       posGrp.style.transition = 'transform 0.55s linear';
 
-      var rotGrp = document.createElementNS(ns, 'g');
-      rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
-      rotGrp.style.transition = 'transform 0.55s linear';
-      rotGrp._lastAngle = angle;
-
       var line = document.createElementNS(ns, 'line');
-      line.setAttribute('x1', r+2);        line.setAttribute('y1', '0');
-      line.setAttribute('x2', r+LINE_LEN); line.setAttribute('y2', '0');
+      line.setAttribute('x1', x1); line.setAttribute('y1', y1);
+      line.setAttribute('x2', x2); line.setAttribute('y2', y2);
       line.setAttribute('stroke', col);
       line.setAttribute('stroke-width', '0.4');
       line.setAttribute('opacity', '0.7');
 
-      var tipGrp = document.createElementNS(ns, 'g');
-      tipGrp.setAttribute('transform', 'translate(' + TIP + ',0)');
-
+      // Text group — translate to tip in world space, CSS transition for smooth movement
       var txtGrp = document.createElementNS(ns, 'g');
-      txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
-      var counterAngle0 = -angle - mapRotation;
+      txtGrp.setAttribute('transform', 'translate(' + tx + ',' + ty + ')');
       txtGrp.style.transition = 'transform 0.55s linear';
-      txtGrp._lastAngle = counterAngle0;
 
       var txt = document.createElementNS(ns, 'text');
       txt.setAttribute('x', '0'); txt.setAttribute('y', '0');
@@ -7968,16 +7932,14 @@ setPage(startPage);
       txt.textContent = dlabel;
 
       txtGrp.appendChild(txt);
-      tipGrp.appendChild(txtGrp);
-      rotGrp.appendChild(line);
-      rotGrp.appendChild(tipGrp);
-      posGrp.appendChild(rotGrp);
+      posGrp.appendChild(line);
+      posGrp.appendChild(txtGrp);
       lg.appendChild(posGrp);
 
-      labels[id]      = posGrp;
-      labels[id]._rot = rotGrp;
-      labels[id]._txt = txtGrp;
-      labels[id]._col = col;
+      labels[id]       = posGrp;
+      labels[id]._line = line;
+      labels[id]._txt  = txtGrp;
+      labels[id]._col  = col;
     }
   }
 
