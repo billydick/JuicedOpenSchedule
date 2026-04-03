@@ -8312,6 +8312,8 @@ setPage(startPage);
       if (lbCol) lbCol.style.display = 'none';
       var detail = document.getElementById('liveDetail');
       if (detail) detail.style.display = 'none';
+      var liveMap = document.getElementById('liveMap');
+      if (liveMap) liveMap.style.width = '100%';
       return;
     }
     if (liveMode !== nextMode) maybeShowLiveTransition(liveMode, nextMode);
@@ -8344,6 +8346,8 @@ setPage(startPage);
     if (lbCol) lbCol.style.display = '';
     var detail = document.getElementById('liveDetail');
     if (detail) detail.style.display = '';
+    var liveMap = document.getElementById('liveMap');
+    if (liveMap) liveMap.style.width = '';
   }
 
   // ── Meta ───────────────────────────────────────────────────────────────────
