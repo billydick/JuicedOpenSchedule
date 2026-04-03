@@ -8545,7 +8545,7 @@ setPage(startPage);
         last.lapInfo = p.lapInfo || last.lapInfo;
         last.trackName = p.trackName || last.trackName;
         last.trackKey = p.trackKey || last.trackKey;
-        last.flag = p.flag || last.flag;
+        last.flag = p.flag !== undefined ? p.flag : last.flag;
         last.paceCar = p.paceCar || null;
         last.cars.forEach(function(c) {
           var u = byIdx[String(c.custID)];
