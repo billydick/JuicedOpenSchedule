@@ -6916,6 +6916,26 @@
 
 <div class="page" id="page-live">
   <div class="live-page" id="livePageRoot">
+    <div id="liveOfflineMsg" style="position:absolute;inset:0;z-index:20;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;pointer-events:none;overflow:hidden;background:#080808">
+      <style>
+        @keyframes liveOfflineFloat {
+          0%,100% { transform:translateY(0px); }
+          50% { transform:translateY(-10px); }
+        }
+        @keyframes liveOfflineGlow {
+          0%,100% { filter:drop-shadow(0 0 20px rgba(180,0,255,.45)); }
+          50% { filter:drop-shadow(0 0 55px rgba(200,0,255,.85)); }
+        }
+        @keyframes liveOfflineFadeUp {
+          0% { opacity:0; transform:translateY(16px); }
+          100% { opacity:1; transform:translateY(0); }
+        }
+      </style>
+      <img src="JuicedOpenOffline.jpg" alt="Juiced Open Offline"
+        style="width:min(680px,88%);display:block;mix-blend-mode:screen;animation:liveOfflineFloat 5s ease-in-out infinite, liveOfflineGlow 5s ease-in-out infinite;margin-bottom:22px">
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;letter-spacing:5px;color:var(--gold);text-transform:uppercase;animation:liveOfflineFadeUp .6s ease both;animation-delay:.2s">LIVE WEDNESDAYS &amp; SATURDAYS</div>
+      <div style="font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;letter-spacing:2px;color:#fff;text-transform:uppercase;line-height:1.1;animation:liveOfflineFadeUp .6s ease both;animation-delay:.35s">9:30 PM EST</div>
+    </div>
     <div class="live-transition" id="liveTransition">
       <div class="live-transition-card">
         <div class="live-transition-eyebrow" id="liveTransitionEyebrow">LIVE SESSION</div>
@@ -6944,26 +6964,7 @@
         </div>
       </div>
       <div class="live-map" id="liveMap">
-        <div id="liveOfflineMsg" style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;pointer-events:none;overflow:hidden">
-          <style>
-            @keyframes liveOfflineFloat {
-              0%,100% { transform:translateY(0px); }
-              50% { transform:translateY(-10px); }
-            }
-            @keyframes liveOfflineGlow {
-              0%,100% { filter:drop-shadow(0 0 20px rgba(180,0,255,.45)); }
-              50% { filter:drop-shadow(0 0 55px rgba(200,0,255,.85)); }
-            }
-            @keyframes liveOfflineFadeUp {
-              0% { opacity:0; transform:translateY(16px); }
-              100% { opacity:1; transform:translateY(0); }
-            }
-          </style>
-          <img src="JuicedOpenOffline.jpg" alt="Juiced Open Offline"
-            style="width:min(680px,88%);display:block;mix-blend-mode:screen;animation:liveOfflineFloat 5s ease-in-out infinite, liveOfflineGlow 5s ease-in-out infinite;margin-bottom:22px">
-          <div style="font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:800;letter-spacing:5px;color:var(--gold);text-transform:uppercase;animation:liveOfflineFadeUp .6s ease both;animation-delay:.2s">LIVE WEDNESDAYS &amp; SATURDAYS</div>
-          <div style="font-family:'Barlow Condensed',sans-serif;font-size:32px;font-weight:900;letter-spacing:2px;color:#fff;text-transform:uppercase;line-height:1.1;animation:liveOfflineFadeUp .6s ease both;animation-delay:.35s">9:30 PM EST</div>
-        </div>
+
         <div class="live-map-msg" id="liveMapMsg" style="display:none"></div>
         <div id="liveMapTapHint">TAP TO FULLSCREEN</div>
         <svg id="liveMapSvg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" style="cursor:grab;overflow:visible">
@@ -8307,13 +8308,9 @@ setPage(startPage);
       dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
       last = null;
       var offMsg = document.getElementById('liveOfflineMsg');
-      if (offMsg) offMsg.style.display = '';
-      var lbCol = document.getElementById('liveLbCol');
-      if (lbCol) lbCol.style.display = 'none';
-      var detail = document.getElementById('liveDetail');
-      if (detail) detail.style.display = 'none';
-      var liveMap = document.getElementById('liveMap');
-      if (liveMap) liveMap.style.width = '100%';
+      if (offMsg) offMsg.style.display = 'flex';
+      var liveBody = document.getElementById('liveBody');
+      if (liveBody) liveBody.style.visibility = 'hidden';
       return;
     }
     if (liveMode !== nextMode) maybeShowLiveTransition(liveMode, nextMode);
@@ -8342,12 +8339,8 @@ setPage(startPage);
     // Hide offline message
     var offMsg = document.getElementById('liveOfflineMsg');
     if (offMsg) offMsg.style.display = 'none';
-    var lbCol = document.getElementById('liveLbCol');
-    if (lbCol) lbCol.style.display = '';
-    var detail = document.getElementById('liveDetail');
-    if (detail) detail.style.display = '';
-    var liveMap = document.getElementById('liveMap');
-    if (liveMap) liveMap.style.width = '';
+    var liveBody = document.getElementById('liveBody');
+    if (liveBody) liveBody.style.visibility = '';
   }
 
   // ── Meta ───────────────────────────────────────────────────────────────────
