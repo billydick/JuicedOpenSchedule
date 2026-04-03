@@ -7861,20 +7861,23 @@ setPage(startPage);
     var nx = lerpedDir[id].nx, ny = lerpedDir[id].ny;
     var rawAngle = Math.atan2(ny, nx) * 180 / Math.PI;
 
-    // Short-path normalization — prevent full orbit accumulation
+    // Detect teleport FIRST — reset labelAngles on lap crossing so short-path starts clean
+    var teleport = lastPct[id] !== undefined && Math.abs(car.lapPct - lastPct[id]) > 0.15;
+    if (teleport) { delete labelAngles[id]; delete lerpedDir[id]; }
+
+    // Short-path normalization — prevent orbit accumulation between polls
     if (labelAngles[id] !== undefined) {
       var delta = rawAngle - labelAngles[id];
       if (delta > 180)  rawAngle -= 360;
       if (delta < -180) rawAngle += 360;
     }
-    // Normalize stored angle to -180..180 to prevent drift over many laps
+    // Normalize stored angle to -180..180 to prevent drift
     while (rawAngle > 180)  rawAngle -= 360;
     while (rawAngle < -180) rawAngle += 360;
     labelAngles[id] = rawAngle;
     var angle = rawAngle;
 
     var dlabel = (car.carNumber ? '#'+car.carNumber : '') + (car.name ? ' '+car.name : '');
-    var teleport = lastPct[id] !== undefined && Math.abs(car.lapPct - lastPct[id]) > 0.15;
     var T = teleport ? 'none' : 'transform 0.55s linear';
 
     if (labels[id]) {
