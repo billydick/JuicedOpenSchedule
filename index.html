@@ -7885,21 +7885,21 @@ setPage(startPage);
       var rotGrp = labels[id]._rot;
       var txtGrp = labels[id]._txt;
 
+      // Position: CSS transition for smooth movement
       posGrp.style.transition = T;
       posGrp.setAttribute('transform', 'translate(' + xy.x + ',' + xy.y + ')');
-      if (rotGrp) {
-        rotGrp.style.transition = T;
-        rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
-      }
-      if (txtGrp) {
-        txtGrp.style.transition = T;
-        txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
-      }
       if (teleport) {
         void posGrp.getBoundingClientRect();
         posGrp.style.transition = 'transform 0.55s linear';
-        if (rotGrp) rotGrp.style.transition = 'transform 0.55s linear';
-        if (txtGrp) txtGrp.style.transition = 'transform 0.55s linear';
+      }
+      // Rotation: NO CSS transition — lerpedDir handles smoothing, CSS transition causes wrap orbits
+      if (rotGrp) {
+        rotGrp.style.transition = 'none';
+        rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
+      }
+      if (txtGrp) {
+        txtGrp.style.transition = 'none';
+        txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
       }
       if (labels[id]._col !== col) {
         var line = rotGrp ? rotGrp.querySelector('line') : null;
@@ -7916,7 +7916,7 @@ setPage(startPage);
 
       var rotGrp = document.createElementNS(ns, 'g');
       rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
-      rotGrp.style.transition = 'transform 0.55s linear';
+      // No CSS transition on rotation — lerpedDir lerps the angle in JS
 
       var line = document.createElementNS(ns, 'line');
       line.setAttribute('x1', r+2);        line.setAttribute('y1', '0');
@@ -7930,7 +7930,7 @@ setPage(startPage);
 
       var txtGrp = document.createElementNS(ns, 'g');
       txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
-      txtGrp.style.transition = 'transform 0.55s linear';
+      // No CSS transition on txtGrp rotation
 
       var txt = document.createElementNS(ns, 'text');
       txt.setAttribute('x', '0'); txt.setAttribute('y', '0');
