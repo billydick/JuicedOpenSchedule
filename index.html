@@ -55,7 +55,7 @@
   .nav-tab.live-tab.live-offline.active{color:#444;border-bottom-color:#444}
   @keyframes liveNavPulse{0%,100%{opacity:1}50%{opacity:.4}}
   .nav-tab.live-tab:not(.live-offline) .live-nav-dot{animation:liveNavPulse 1.4s ease-in-out infinite}
-  .live-page{--live-accent:var(--gold);background:var(--bg);min-height:calc(100vh - 120px);display:flex;flex-direction:column;position:relative}
+  .live-page{--live-accent:var(--gold);background:var(--bg);height:calc(100vh - 120px);min-height:500px;display:flex;flex-direction:column;position:relative}
   .live-page.live-state-practice{--live-accent:var(--blue)}
   .live-page.live-state-qualify{--live-accent:#A335EE}
   .live-page.live-state-race{--live-accent:var(--red)}
@@ -103,6 +103,20 @@
   .live-map svg{width:100%;height:100%;max-width:580px;max-height:580px;user-select:none}
   .live-map-msg{position:absolute;color:#222;font-family:'Barlow Condensed',sans-serif;font-size:14px;letter-spacing:3px;text-transform:uppercase}
   .live-detail{width:260px;flex-shrink:0;border-left:1px solid #1a1a1a;background:#0c0c0c;padding:14px;overflow-y:auto}
+
+  @media (max-width:768px) {
+    .live-page{height:auto;min-height:100vh}
+    .live-body{flex-direction:column;min-height:auto}
+    .live-lb{width:100%!important;border-right:none;border-bottom:1px solid #222;max-height:45vh;overflow-y:auto}
+    .live-map{min-height:55vw;max-height:60vw;width:100%;flex-shrink:0}
+    .live-map svg{max-width:100%;max-height:100%}
+    .live-detail{display:none}
+    .live-transition-card{min-width:90vw}
+    .live-lb-name{font-size:13px}
+    .live-lb-pos{font-size:15px}
+    .live-lb-num{width:32px;height:24px}
+    .live-lb-num img{width:32px;height:24px}
+  }
   .live-detail-name{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:700;letter-spacing:1px;margin-bottom:2px}
   .live-detail-sub{font-size:12px;color:#555;margin-bottom:14px}
   .live-dstat{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #141414}
@@ -6847,7 +6861,7 @@
       <span class="live-lap-info" id="liveLapInfo"></span>
     </div>
     <div class="live-body">
-      <div style="display:flex;flex-direction:column;width:340px;flex-shrink:0;border-right:1px solid #222;background:#111">
+      <div style="display:flex;flex-direction:column;width:340px;flex-shrink:0;border-right:1px solid #222;background:#111" id="liveLbCol">
         <div style="display:flex;align-items:center;padding:4px 12px;border-bottom:1px solid #1a1a1a;background:#0e0e0e;flex-shrink:0">
           <span style="font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:#333;text-transform:uppercase;flex:1">GAP</span>
           <span class="live-gap-toggle" id="liveGapToggle" onclick="liveToggleGap()">INTERVAL</span>
