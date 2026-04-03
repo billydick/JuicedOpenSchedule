@@ -8501,6 +8501,40 @@ setPage(startPage);
     if (!active()) return;
     fetch(API+'/api/live_race').then(function(r){return r.json();}).then(function(p){
       if (!p||!p.connected) return;
+
+      // Session change detection — nuke last and do clean bootstrap
+      if (last && last.cars) {
+        var sessionChanged =
+          (p.trackKey && last.trackKey && p.trackKey !== last.trackKey) ||
+          (p.sessionType && last.sessionType && p.sessionType !== last.sessionType);
+
+        // Stale car detection — if >30% of new cars have no match, treat as new session
+        if (!sessionChanged && p.cars && p.cars.length > 0) {
+          var existingIds = {};
+          last.cars.forEach(function(c) { existingIds[String(c.custID)] = true; });
+          var unmatched = (p.cars||[]).filter(function(c) { return !existingIds[String(c.custID)]; }).length;
+          if (unmatched / p.cars.length > 0.3) sessionChanged = true;
+        }
+
+        if (sessionChanged) {
+          // Clean slate — clear all state and bootstrap fresh
+          var dotsG = document.getElementById('liveDotsG');
+          var labelsG = document.getElementById('liveLabelsG');
+          if (dotsG) dotsG.innerHTML = '';
+          if (labelsG) labelsG.innerHTML = '';
+          dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
+          var lb = document.getElementById('liveLb');
+          if (lb) { lb.innerHTML = ''; lbRows = {}; }
+          last = p;
+          loadMeta();
+          if (p.trackKey && p.trackKey !== shapeKey) loadShape(p.trackKey);
+          updateHeader(p);
+          renderLb(p.cars||[]);
+          updateDots(p.cars||[]);
+          return;
+        }
+      }
+
       if (last && last.cars) {
         var byIdx = {};
         (p.cars||[]).forEach(function(c) { byIdx[String(c.custID)] = c; });
