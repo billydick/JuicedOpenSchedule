@@ -8432,24 +8432,18 @@ setPage(startPage);
       if (f === 'caution') {
         banner.textContent = '⚠ CAUTION';
         banner.className = 'live-flag-banner caution show';
-        if (banner._greenTimer) { clearTimeout(banner._greenTimer); banner._greenTimer = null; }
       } else if (f === 'white') {
-        banner.textContent = '🏳 WHITE FLAG — LAST LAP';
+        banner.textContent = '🏳 WHITE FLAG';
         banner.className = 'live-flag-banner white show';
-        if (banner._greenTimer) { clearTimeout(banner._greenTimer); banner._greenTimer = null; }
-      } else if (f === 'green' && banner._lastFlag !== 'green') {
-        // Green flag — show for 5 seconds then hide
-        banner.textContent = '🟢 GREEN FLAG';
+      } else if (f === 'green' && nextMode === 'race') {
+        banner.textContent = '🏁 GREEN FLAG';
         banner.className = 'live-flag-banner green show';
-        if (banner._greenTimer) clearTimeout(banner._greenTimer);
-        banner._greenTimer = setTimeout(function() {
-          banner.className = 'live-flag-banner';
-          flag.style.animation = '';
-        }, 5000);
-      } else if (f !== 'green' && f !== 'caution' && f !== 'white') {
-        if (!banner._greenTimer) banner.className = 'live-flag-banner';
+      } else if (f === 'checkered') {
+        banner.textContent = '🏁 CHECKERED';
+        banner.className = 'live-flag-banner white show';
+      } else {
+        banner.className = 'live-flag-banner';
       }
-      banner._lastFlag = f;
     }
     track.textContent=p.trackName||'';
     // Track background image
