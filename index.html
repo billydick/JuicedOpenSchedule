@@ -7694,6 +7694,9 @@ setPage(startPage);
   var gapMode      = 'gap';
   var liveTransitionHide = null;
   var timerFast    = null;
+  var _failCount   = 0;
+  var _FAIL_THRESH = 40;  // ~20 seconds at 500ms before going offline
+  var _pollFailCount = 0;  // consecutive pollFast failures
   var _numImgFailed = {};
 
   function active() {
@@ -8407,7 +8410,7 @@ setPage(startPage);
       if (dotsG) dotsG.innerHTML = '';
       if (labelsG) labelsG.innerHTML = '';
       dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
-      last = null;
+      last = null; _failCount = 0;
       var offMsg = document.getElementById('liveOfflineMsg');
       if (offMsg) offMsg.style.display = 'flex';
       var liveBody = document.getElementById('liveBody');
@@ -8478,6 +8481,7 @@ setPage(startPage);
     var toggleBtn = document.getElementById('liveGapToggle');
     if (toggleBtn) toggleBtn.style.display = (nextMode === 'race' || nextMode === 'finished') ? '' : 'none';
     // Hide offline message
+    _failCount = 0;
     var offMsg = document.getElementById('liveOfflineMsg');
     if (offMsg) offMsg.style.display = 'none';
     var liveBody = document.getElementById('liveBody');
@@ -8500,7 +8504,12 @@ setPage(startPage);
   function pollFast() {
     if (!active()) return;
     fetch(API+'/api/live_race').then(function(r){return r.json();}).then(function(p){
-      if (!p||!p.connected) return;
+      if (!p||!p.connected) {
+        _failCount++;
+        if (_failCount >= _FAIL_THRESH) updateHeader(null);
+        return;
+      }
+      _failCount = 0;
 
       // Session change detection — nuke last and do clean bootstrap
       if (last && last.cars) {
@@ -8578,28 +8587,36 @@ setPage(startPage);
         updateHeader(last);
         updateDots(last.cars||[]);
       } else {
+        // Bootstrap — last is null, do full clean init
         last = p;
+        loadMeta();
+        if (p.trackKey && p.trackKey !== shapeKey) loadShape(p.trackKey);
+        updateHeader(p);
         renderLb(p.cars||[]);
         updateDots(p.cars||[]);
+        if (selID) renderDetail(selID);
       }
-    }).catch(function(){});
+    }).catch(function() {
+      _failCount++;
+      if (_failCount >= _FAIL_THRESH) updateHeader(null);
+    });
   }
 
-  // Bootstrap poll — runs once, only sets last if not already populated
+  // Bootstrap poll — runs once on page load, only populates if last is null
   function poll() {
     if (!active()) return;
     fetch(API+'/api/live_race').then(function(r){return r.json();}).then(function(p){
-      updateHeader(p);
-      if (!p||!p.connected) return;
+      if (!p || !p.connected) return;  // pollFast handles offline detection
       loadMeta();
       if (p.trackKey && p.trackKey!==shapeKey) loadShape(p.trackKey);
       if (!last) {
         last = p;
+        updateHeader(p);
         var cars=p.cars||[];
         renderLb(cars); updateDots(cars);
         if (selID) renderDetail(selID);
       }
-    }).catch(function(){updateHeader(null);});
+    }).catch(function(){});  // bootstrap failure is silent — pollFast will retry
   }
 
   // ── Page change hook (called by setPage) ───────────────────────────────────
