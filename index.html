@@ -7863,7 +7863,12 @@ setPage(startPage);
 
     // Detect teleport FIRST — reset labelAngles on lap crossing so short-path starts clean
     var teleport = lastPct[id] !== undefined && Math.abs(car.lapPct - lastPct[id]) > 0.15;
-    if (teleport) { delete labelAngles[id]; delete lerpedDir[id]; }
+    if (teleport) {
+      delete labelAngles[id]; delete lerpedDir[id];
+      // Reset stored angles on the elements so short-path restarts clean
+      if (labels[id] && labels[id]._rot) { labels[id]._rot._lastAngle = undefined; }
+      if (labels[id] && labels[id]._txt) { labels[id]._txt._lastAngle = undefined; }
+    }
 
     // Short-path normalization — prevent orbit accumulation between polls
     if (labelAngles[id] !== undefined) {
@@ -7892,14 +7897,28 @@ setPage(startPage);
         void posGrp.getBoundingClientRect();
         posGrp.style.transition = 'transform 0.55s linear';
       }
-      // Rotation: NO CSS transition — lerpedDir handles smoothing, CSS transition causes wrap orbits
+      // Rotation: CSS transition re-enabled, but normalize angle to short path
+      // relative to the last angle we SET on the element, preventing browser wrap orbits
       if (rotGrp) {
-        rotGrp.style.transition = 'none';
-        rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
+        var lastRot = (rotGrp._lastAngle !== undefined) ? rotGrp._lastAngle : angle;
+        var rotDelta = angle - lastRot;
+        if (rotDelta > 180)  rotDelta -= 360;
+        if (rotDelta < -180) rotDelta += 360;
+        var setAngle = lastRot + rotDelta;
+        rotGrp._lastAngle = setAngle;
+        rotGrp.style.transition = teleport ? 'none' : 'transform 0.55s linear';
+        rotGrp.setAttribute('transform', 'rotate(' + setAngle + ')');
       }
       if (txtGrp) {
-        txtGrp.style.transition = 'none';
-        txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
+        var counterAngle = -(angle) - mapRotation;
+        var lastTxt = (txtGrp._lastAngle !== undefined) ? txtGrp._lastAngle : counterAngle;
+        var txtDelta = counterAngle - lastTxt;
+        if (txtDelta > 180)  txtDelta -= 360;
+        if (txtDelta < -180) txtDelta += 360;
+        var setTxt = lastTxt + txtDelta;
+        txtGrp._lastAngle = setTxt;
+        txtGrp.style.transition = teleport ? 'none' : 'transform 0.55s linear';
+        txtGrp.setAttribute('transform', 'rotate(' + setTxt + ')');
       }
       if (labels[id]._col !== col) {
         var line = rotGrp ? rotGrp.querySelector('line') : null;
@@ -7916,7 +7935,8 @@ setPage(startPage);
 
       var rotGrp = document.createElementNS(ns, 'g');
       rotGrp.setAttribute('transform', 'rotate(' + angle + ')');
-      // No CSS transition on rotation — lerpedDir lerps the angle in JS
+      rotGrp.style.transition = 'transform 0.55s linear';
+      rotGrp._lastAngle = angle;
 
       var line = document.createElementNS(ns, 'line');
       line.setAttribute('x1', r+2);        line.setAttribute('y1', '0');
@@ -7930,7 +7950,9 @@ setPage(startPage);
 
       var txtGrp = document.createElementNS(ns, 'g');
       txtGrp.setAttribute('transform', 'rotate(' + (-angle - mapRotation) + ')');
-      // No CSS transition on txtGrp rotation
+      var counterAngle0 = -angle - mapRotation;
+      txtGrp.style.transition = 'transform 0.55s linear';
+      txtGrp._lastAngle = counterAngle0;
 
       var txt = document.createElementNS(ns, 'text');
       txt.setAttribute('x', '0'); txt.setAttribute('y', '0');
