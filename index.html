@@ -7701,10 +7701,14 @@ setPage(startPage);
     }, 1500);
   }
 
-  function maybeShowLiveTransition(prevMode, nextMode) {
+  function maybeShowLiveTransition(prevMode, nextMode, flag) {
     if (!prevMode || prevMode === 'offline' || prevMode === nextMode) return;
     if (nextMode === 'qualify') showLiveTransition('QUALIFYING', 'SESSION CHANGE');
-    else if (nextMode === 'race') showLiveTransition('GREEN FLAG', 'SESSION CHANGE');
+    else if (nextMode === 'race') {
+      // Only show GREEN FLAG when flag is actually green — grid/parade lap is not a green flag
+      if (flag === 'green') showLiveTransition('GREEN FLAG', 'SESSION CHANGE');
+      else showLiveTransition('RACE SESSION', 'SESSION CHANGE');
+    }
     else if (nextMode === 'finished') showLiveTransition('RACE COMPLETE', 'CHECKERED FLAG');
     else if (nextMode === 'practice') showLiveTransition('PRACTICE', 'SESSION CHANGE');
   }
@@ -8313,7 +8317,7 @@ setPage(startPage);
       if (liveBody) liveBody.style.visibility = 'hidden';
       return;
     }
-    if (liveMode !== nextMode) maybeShowLiveTransition(liveMode, nextMode);
+    if (liveMode !== nextMode) maybeShowLiveTransition(liveMode, nextMode, p.flag);
     liveMode = nextMode;
     setLiveMode(nextMode);
     conn.className='live-conn-dot on';
