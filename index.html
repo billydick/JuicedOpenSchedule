@@ -8106,6 +8106,45 @@ setPage(startPage);
     });
 
 
+    // Pace car dot — shown only under caution or parade laps
+    var showPace = last && last.paceCar &&
+                   (last.flag === 'caution' || last.sessionState === 'paradeLaps') &&
+                   last.paceCar.trackSurf !== -1 && !last.paceCar.onPit;
+    var paceEl = document.getElementById('livePaceCarDot');
+    if (showPace) {
+      var pxy = pctToXY(last.paceCar.lapPct);
+      if (pxy) {
+        if (!paceEl) {
+          var ns2 = 'http://www.w3.org/2000/svg';
+          paceEl = document.createElementNS(ns2, 'g');
+          paceEl.id = 'livePaceCarDot';
+          paceEl.style.transition = 'transform 0.55s linear';
+          var pc = document.createElementNS(ns2, 'circle');
+          pc.setAttribute('cx','0'); pc.setAttribute('cy','0');
+          pc.setAttribute('r','7');
+          pc.setAttribute('fill','#ffcc00');
+          pc.setAttribute('stroke','rgba(0,0,0,.7)');
+          pc.setAttribute('stroke-width','1.5');
+          var pt = document.createElementNS(ns2, 'text');
+          pt.setAttribute('x','0'); pt.setAttribute('y','0');
+          pt.setAttribute('text-anchor','middle');
+          pt.setAttribute('dominant-baseline','central');
+          pt.setAttribute('fill','#000');
+          pt.setAttribute('font-family','Barlow Condensed,sans-serif');
+          pt.setAttribute('font-size','7');
+          pt.setAttribute('font-weight','900');
+          pt.setAttribute('pointer-events','none');
+          pt.textContent = 'PC';
+          paceEl.appendChild(pc);
+          paceEl.appendChild(pt);
+          g.appendChild(paceEl);
+        }
+        paceEl.setAttribute('transform', 'translate(' + pxy.x + ',' + pxy.y + ')');
+      }
+    } else if (paceEl) {
+      paceEl.parentNode.removeChild(paceEl);
+    }
+
     Object.keys(dots).forEach(function(id) {
       if (!seen[id]) {
         if (dots[id].parentNode) dots[id].parentNode.removeChild(dots[id]);
@@ -8433,6 +8472,7 @@ setPage(startPage);
         last.trackName = p.trackName || last.trackName;
         last.trackKey = p.trackKey || last.trackKey;
         last.flag = p.flag || last.flag;
+        last.paceCar = p.paceCar || null;
         last.cars.forEach(function(c) {
           var u = byIdx[String(c.custID)];
           if (u) {
