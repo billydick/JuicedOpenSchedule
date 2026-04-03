@@ -8065,6 +8065,7 @@ setPage(startPage);
         circle.setAttribute('stroke', isSel ? '#fff' : 'rgba(0,0,0,.6)');
         text.textContent = label;
         text.setAttribute('font-size', fs);
+        text.setAttribute('transform', 'rotate(' + (-mapRotation) + ')');
         if (isSel) g.appendChild(grp);
 
         // Show label only when near another car, hide otherwise
@@ -8093,6 +8094,7 @@ setPage(startPage);
         text.setAttribute('font-size', fs);
         text.setAttribute('font-weight', '900');
         text.setAttribute('pointer-events', 'none');
+        text.setAttribute('transform', 'rotate(' + (-mapRotation) + ')');
         text.textContent = label;
 
         grp.appendChild(circle);
@@ -8550,6 +8552,20 @@ setPage(startPage);
       if (!rg) return;
       var tx = 250 * (1 - mapScale);
       rg.setAttribute('transform', 'translate(' + tx + ',' + tx + ') scale(' + mapScale + ') rotate(' + mapRotation + ',250,250)');
+      // Counter-rotate dot text so numbers stay upright
+      var dotsG = document.getElementById('liveDotsG');
+      if (dotsG) {
+        var texts = dotsG.querySelectorAll('text');
+        for (var i = 0; i < texts.length; i++) {
+          texts[i].setAttribute('transform', 'rotate(' + (-mapRotation) + ')');
+        }
+      }
+      // Also update pace car text
+      var paceEl = document.getElementById('livePaceCarDot');
+      if (paceEl) {
+        var pt = paceEl.querySelector('text');
+        if (pt) pt.setAttribute('transform', 'rotate(' + (-mapRotation) + ')');
+      }
     }
     function applyRotation() { applyTransform(); }
 
