@@ -7837,6 +7837,7 @@ setPage(startPage);
   function _updateLabel(lg, ns, labels, id, xy, r, col, car, dotGrp, stagger) {
     var LINE_LEN  = 20 + (stagger||0) * 18;
     var LABEL_PAD = 5;
+    var TIP = r + LINE_LEN + LABEL_PAD;
 
     var dx = xy.x - trackCX, dy = xy.y - trackCY;
     var dist = Math.sqrt(dx*dx + dy*dy) || 1;
@@ -7862,47 +7863,77 @@ setPage(startPage);
     var teleport = lastPct[id] !== undefined && Math.abs(car.lapPct - lastPct[id]) > 0.15;
     if (teleport) { delete lerpedDir[id]; nx = rawNx; ny = rawNy; }
 
-    // All coords in SVG world space (inside liveRotateG)
-    var x1 = xy.x + nx*(r+2),                   y1 = xy.y + ny*(r+2);
-    var x2 = xy.x + nx*(r+LINE_LEN),             y2 = xy.y + ny*(r+LINE_LEN);
-    var tx = xy.x + nx*(r+LINE_LEN+LABEL_PAD),   ty = xy.y + ny*(r+LINE_LEN+LABEL_PAD);
+    // Matrix for rotation — interpolates cos/sin coefficients, never wraps
+    // rotate(angle): matrix(cos, sin, -sin, cos, 0, 0)
+    var matRot  = 'matrix(' + nx + ',' + ny + ',' + (-ny) + ',' + nx + ',0,0)';
+    // Counter-rotation to keep text upright: undo arm rotation + map rotation
+    var rad = -Math.atan2(ny, nx) - mapRotation * Math.PI / 180;
+    var cr = Math.cos(rad), sr = Math.sin(rad);
+    var matTxt  = 'matrix(' + cr + ',' + sr + ',' + (-sr) + ',' + cr + ',0,0)';
 
     var dlabel = (car.carNumber ? '#'+car.carNumber : '') + (car.name ? ' '+car.name : '');
+    var T = teleport ? 'none' : 'transform 0.55s linear';
 
     if (labels[id]) {
-      var line = labels[id]._line;
-      var txt  = labels[id]._txt;
+      var posGrp = labels[id];
+      var rotGrp = labels[id]._rot;
+      var txtGrp = labels[id]._txt;
 
-      // Line: instant update (no transition on line — just two points)
-      line.setAttribute('x1', x1); line.setAttribute('y1', y1);
-      line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+      posGrp.style.transition = T;
+      posGrp.setAttribute('transform', 'translate(' + xy.x + ',' + xy.y + ')');
 
-      // Text: CSS transition on transform for smooth glide, counter-rotate to stay upright
-      var T = teleport ? 'none' : 'transform 0.55s linear';
-      txt.style.transition = T;
-      txt.setAttribute('transform', 'translate(' + tx + ',' + ty + ') rotate(' + (-mapRotation) + ')');
-      if (teleport) {
-        void txt.getBoundingClientRect();
-        txt.style.transition = 'transform 0.55s linear';
+      if (rotGrp) {
+        rotGrp.style.transition = T;
+        rotGrp.setAttribute('transform', matRot);
       }
-
+      if (txtGrp) {
+        txtGrp.style.transition = T;
+        txtGrp.setAttribute('transform', matTxt);
+      }
+      if (teleport) {
+        void posGrp.getBoundingClientRect();
+        posGrp.style.transition = 'transform 0.55s linear';
+        if (rotGrp) rotGrp.style.transition = 'transform 0.55s linear';
+        if (txtGrp) txtGrp.style.transition = 'transform 0.55s linear';
+      }
       if (labels[id]._col !== col) {
-        line.setAttribute('stroke', col);
-        txt.setAttribute('fill', col);
+        var line = rotGrp ? rotGrp.querySelector('line') : null;
+        var txt  = txtGrp ? txtGrp.querySelector('text') : null;
+        if (line) line.setAttribute('stroke', col);
+        if (txt)  txt.setAttribute('fill', col);
         labels[id]._col = col;
       }
 
     } else {
+      // posGrp — translates to car position
+      var posGrp = document.createElementNS(ns, 'g');
+      posGrp.setAttribute('transform', 'translate(' + xy.x + ',' + xy.y + ')');
+      posGrp.style.transition = 'transform 0.55s linear';
+
+      // rotGrp — matrix rotation to face outward (no angle wrapping possible)
+      var rotGrp = document.createElementNS(ns, 'g');
+      rotGrp.setAttribute('transform', matRot);
+      rotGrp.style.transition = 'transform 0.55s linear';
+
+      // Line fixed along x-axis in rotGrp space
       var line = document.createElementNS(ns, 'line');
-      line.setAttribute('x1', x1); line.setAttribute('y1', y1);
-      line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+      line.setAttribute('x1', r+2);        line.setAttribute('y1', '0');
+      line.setAttribute('x2', r+LINE_LEN); line.setAttribute('y2', '0');
       line.setAttribute('stroke', col);
       line.setAttribute('stroke-width', '0.4');
       line.setAttribute('opacity', '0.7');
 
+      // tipGrp — static translate to line tip
+      var tipGrp = document.createElementNS(ns, 'g');
+      tipGrp.setAttribute('transform', 'translate(' + TIP + ',0)');
+
+      // txtGrp — counter-rotation matrix to keep text upright
+      var txtGrp = document.createElementNS(ns, 'g');
+      txtGrp.setAttribute('transform', matTxt);
+      txtGrp.style.transition = 'transform 0.55s linear';
+
       var txt = document.createElementNS(ns, 'text');
-      txt.setAttribute('transform', 'translate(' + tx + ',' + ty + ') rotate(' + (-mapRotation) + ')');
-      txt.style.transition = 'transform 0.55s linear';
+      txt.setAttribute('x', '0'); txt.setAttribute('y', '0');
       txt.setAttribute('text-anchor', 'start');
       txt.setAttribute('dominant-baseline', 'central');
       txt.setAttribute('fill', col);
@@ -7913,10 +7944,17 @@ setPage(startPage);
       txt.setAttribute('pointer-events', 'none');
       txt.textContent = dlabel;
 
-      lg.appendChild(line);
-      lg.appendChild(txt);
+      txtGrp.appendChild(txt);
+      tipGrp.appendChild(txtGrp);
+      rotGrp.appendChild(line);
+      rotGrp.appendChild(tipGrp);
+      posGrp.appendChild(rotGrp);
+      lg.appendChild(posGrp);
 
-      labels[id]       = { _line: line, _txt: txt, _col: col };
+      labels[id]      = posGrp;
+      labels[id]._rot = rotGrp;
+      labels[id]._txt = txtGrp;
+      labels[id]._col = col;
     }
   }
 
@@ -7946,10 +7984,7 @@ setPage(startPage);
           if (dots[id].parentNode) dots[id].parentNode.removeChild(dots[id]);
           delete dots[id]; delete lastPct[id];
         }
-        if (labels[id]) {
-          if (labels[id]._line && labels[id]._line.parentNode) labels[id]._line.parentNode.removeChild(labels[id]._line);
-          if (labels[id]._txt  && labels[id]._txt.parentNode)  labels[id]._txt.parentNode.removeChild(labels[id]._txt);
-        }
+        if (labels[id] && labels[id].parentNode) labels[id].parentNode.removeChild(labels[id]);
         delete labels[id]; delete lerpedDir[id]; delete labelAngles[id];
         return;
       }
@@ -8039,10 +8074,7 @@ setPage(startPage);
     // Labels are children of dot groups — cleaned up automatically with dots
     Object.keys(labels).forEach(function(id) {
       if (!seen[id]) {
-        if (labels[id]) {
-          if (labels[id]._line && labels[id]._line.parentNode) labels[id]._line.parentNode.removeChild(labels[id]._line);
-          if (labels[id]._txt  && labels[id]._txt.parentNode)  labels[id]._txt.parentNode.removeChild(labels[id]._txt);
-        }
+        if (labels[id] && labels[id].parentNode) labels[id].parentNode.removeChild(labels[id]);
         delete labels[id]; delete lerpedDir[id]; delete labelAngles[id];
       }
     });
