@@ -7895,7 +7895,9 @@ setPage(startPage);
     var cr = Math.cos(rad), sr = Math.sin(rad);
     var matTxt  = 'matrix(' + cr + ',' + sr + ',' + (-sr) + ',' + cr + ',0,0)';
 
+    var pos    = car.position > 0 ? car.position : null;
     var dlabel = (car.carNumber ? '#'+car.carNumber : '') + (car.name ? ' '+car.name : '');
+    var dpos   = pos ? ' · P'+pos : '';
     var T = teleport ? 'none' : 'transform 0.55s linear';
 
     if (labels[id]) {
@@ -7920,11 +7922,19 @@ setPage(startPage);
         if (rotGrp) rotGrp.style.transition = 'transform 0.55s linear';
         if (txtGrp) txtGrp.style.transition = 'transform 0.55s linear';
       }
+      // Update label text and position every poll
+      var _txt = txtGrp ? txtGrp.querySelector('text') : null;
+      if (_txt) {
+        var _spans = _txt.querySelectorAll('tspan');
+        if (_spans.length >= 2) {
+          _spans[0].textContent = dlabel;
+          _spans[1].textContent = dpos;
+        }
+      }
       if (labels[id]._col !== col) {
         var line = rotGrp ? rotGrp.querySelector('line') : null;
-        var txt  = txtGrp ? txtGrp.querySelector('text') : null;
         if (line) line.setAttribute('stroke', col);
-        if (txt)  txt.setAttribute('fill', col);
+        if (_txt)  _txt.setAttribute('fill', col);
         labels[id]._col = col;
       }
 
@@ -7966,7 +7976,14 @@ setPage(startPage);
       txt.setAttribute('font-weight', '600');
       txt.setAttribute('opacity', '0.85');
       txt.setAttribute('pointer-events', 'none');
-      txt.textContent = dlabel;
+      txt.textContent = '';
+      var span1 = document.createElementNS(ns, 'tspan');
+      span1.textContent = dlabel;
+      var span2 = document.createElementNS(ns, 'tspan');
+      span2.textContent = dpos;
+      span2.setAttribute('opacity', '0.45');
+      txt.appendChild(span1);
+      txt.appendChild(span2);
 
       txtGrp.appendChild(txt);
       tipGrp.appendChild(txtGrp);
