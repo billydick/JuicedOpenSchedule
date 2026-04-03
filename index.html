@@ -79,6 +79,11 @@
   .live-flag-dot.red{background:#ff3333;box-shadow:0 0 6px #ff3333}
   .live-flag-dot.white{background:#ffffff;box-shadow:0 0 8px #ffffff}
   .live-flag-dot.caution{background:#ffcc00;box-shadow:0 0 6px #ffcc00}
+  .live-flag-dot.green{background:#00ff88;box-shadow:0 0 8px #00ff88}
+  @keyframes greenFlash{
+    0%,45%{opacity:1;box-shadow:0 0 16px #00ff88}
+    55%,100%{opacity:.15;box-shadow:none}
+  }
   @keyframes cautionFlash{
     0%,45%{opacity:1;box-shadow:0 0 14px #ffcc00}
     55%,100%{opacity:.2;box-shadow:none}
@@ -86,11 +91,10 @@
   .live-flag-dot.caution{animation:cautionFlash 1.8s ease-in-out infinite}
   /* Flag banner shown in map area */
   .live-flag-banner{
-    position:absolute;top:12px;right:12px;z-index:10;
     font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:900;
-    letter-spacing:3px;text-transform:uppercase;padding:5px 14px;
+    letter-spacing:3px;text-transform:uppercase;padding:4px 12px;
     border-radius:2px;pointer-events:none;opacity:0;
-    transition:opacity .3s ease;
+    transition:opacity .3s ease;flex-shrink:0;
   }
   .live-flag-banner.show{opacity:1}
   .live-flag-banner.caution{background:rgba(255,204,0,.15);border:1px solid #ffcc00;color:#ffcc00}
@@ -100,6 +104,11 @@
     55%,100%{opacity:.15;box-shadow:none}
   }
   .live-flag-banner.caution{animation:cautionBannerFlash 1.8s ease-in-out infinite}
+  @keyframes greenBannerFlash{
+    0%,45%{opacity:1;box-shadow:0 0 18px rgba(0,255,136,.5),inset 0 0 12px rgba(0,255,136,.1)}
+    55%,100%{opacity:.15;box-shadow:none}
+  }
+  .live-flag-banner.green{background:rgba(0,255,136,.1);border:1px solid #00ff88;color:#00ff88;animation:greenBannerFlash 0.9s ease-in-out infinite}
   .live-conn-dot{width:8px;height:8px;border-radius:50%;background:#333;flex-shrink:0}
   .live-conn-dot.on{background:#00ff88;box-shadow:0 0 5px #00ff88}
   .live-body{display:flex;flex:1;min-height:500px}
@@ -6971,6 +6980,7 @@
       <span class="live-flag-dot" id="liveFlag"></span>
       <span class="live-track-name" id="liveTrack">Waiting for iRacing...</span>
       <span class="live-session-type" id="liveSType"></span>
+      <div class="live-flag-banner" id="liveFlagBanner"></div>
       <span class="live-lap-info" id="liveLapInfo"></span>
     </div>
     <div style="display:none" class="live-panel-dots" id="livePanelDots">
@@ -6992,7 +7002,6 @@
         <div class="live-map-trackbg" id="liveTrackBg"></div>
         <div class="live-map-msg" id="liveMapMsg" style="display:none"></div>
         <div id="liveMapTapHint">TAP TO FULLSCREEN</div>
-        <div class="live-flag-banner" id="liveFlagBanner"></div>
         <svg id="liveMapSvg" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" style="cursor:grab;overflow:visible">
           <g id="liveRotateG" transform="rotate(0,250,250)">
             <g id="liveTrackG"></g>
@@ -8410,6 +8419,12 @@ setPage(startPage);
     setLiveMode(nextMode);
     conn.className='live-conn-dot on';
     flag.className='live-flag-dot '+(p.flag||'');
+    // Flash dot on green
+    if (p.flag === 'green') {
+      flag.style.animation = 'greenFlash 1.8s ease-in-out infinite';
+    } else {
+      flag.style.animation = '';
+    }
     // Flag banner in map area
     var banner = document.getElementById('liveFlagBanner');
     if (banner) {
@@ -8417,12 +8432,24 @@ setPage(startPage);
       if (f === 'caution') {
         banner.textContent = '⚠ CAUTION';
         banner.className = 'live-flag-banner caution show';
+        if (banner._greenTimer) { clearTimeout(banner._greenTimer); banner._greenTimer = null; }
       } else if (f === 'white') {
         banner.textContent = '🏳 WHITE FLAG — LAST LAP';
         banner.className = 'live-flag-banner white show';
-      } else {
-        banner.className = 'live-flag-banner';
+        if (banner._greenTimer) { clearTimeout(banner._greenTimer); banner._greenTimer = null; }
+      } else if (f === 'green' && banner._lastFlag !== 'green') {
+        // Green flag — show for 5 seconds then hide
+        banner.textContent = '🟢 GREEN FLAG';
+        banner.className = 'live-flag-banner green show';
+        if (banner._greenTimer) clearTimeout(banner._greenTimer);
+        banner._greenTimer = setTimeout(function() {
+          banner.className = 'live-flag-banner';
+          flag.style.animation = '';
+        }, 5000);
+      } else if (f !== 'green' && f !== 'caution' && f !== 'white') {
+        if (!banner._greenTimer) banner.className = 'live-flag-banner';
       }
+      banner._lastFlag = f;
     }
     track.textContent=p.trackName||'';
     // Track background image
