@@ -8194,7 +8194,7 @@ setPage(startPage);
     cars.forEach(function(car, orderIdx) {
       var id    = String(car.custID);
       var inDb  = !!(meta.drivers && meta.drivers[id]);
-      var sel   = inDb && id === String(selID);
+      var sel   = (id === String(selID));
       var tc    = car.position===1?'#FF8000':car.position<=5?'#A335EE':car.position<=10?'#0070DD':car.position<=20?'#1EFF00':'#C0C0C0';
       var posD  = car.position > 0 ? String(car.position) : '—';
       var isPit = !!car.onPit;
@@ -8281,7 +8281,7 @@ setPage(startPage);
         r.inc = incKey;
       }
 
-      var selKey = sel ? '1' : '0';
+      var selKey = (sel ? '1' : '0') + (inDb ? 'db' : '');
       if (r.sel !== selKey) {
         row.className = 'live-lb-row' + (sel?' sel':'') + (inDb?'':' new-driver');
         r.sel = selKey;
@@ -8369,13 +8369,9 @@ setPage(startPage);
   };
 
   window.livePick = function(id) {
-    selID = id;
-    if (last) renderLb(last.cars||[]);
-    Object.keys(dots).forEach(function(did) {
-      dots[did].setAttribute('stroke', did===String(id)?'#fff':'none');
-      dots[did].setAttribute('r', did===String(id)?'8':'5');
-    });
-    if (meta.drivers && meta.drivers[String(id)]) renderDetail(id);
+    selID = String(id);
+    if (last) { renderLb(last.cars||[]); updateDots(last.cars||[]); }
+    renderDetail(selID);
   };
 
   // ── Header ─────────────────────────────────────────────────────────────────
@@ -8398,6 +8394,7 @@ setPage(startPage);
       if (dotsG) dotsG.innerHTML = '';
       if (labelsG) labelsG.innerHTML = '';
       dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
+      selID = null; metaDone = false; meta = {};
       last = null; _failCount = 0;
       var offMsg = document.getElementById('liveOfflineMsg');
       if (offMsg) offMsg.style.display = 'flex';
@@ -8530,8 +8527,11 @@ setPage(startPage);
           if (dotsG) dotsG.innerHTML = '';
           if (labelsG) labelsG.innerHTML = '';
           dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
+          selID = null;
           var lb = document.getElementById('liveLb');
           if (lb) { lb.innerHTML = ''; lbRows = {}; }
+          var det = document.getElementById('liveDetail');
+          if (det) det.innerHTML = '<div class="live-no-sel">CLICK A DRIVER</div>';
           last = p;
           loadMeta();
           if (p.trackKey && p.trackKey !== shapeKey) loadShape(p.trackKey);
