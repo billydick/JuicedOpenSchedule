@@ -8190,7 +8190,18 @@ setPage(startPage);
 
     var currentIds = {};
     var posChanged = {};
+    var _allowFlash = true;
     cars.forEach(function(c) { currentIds[String(c.custID)] = true; });
+    // Pre-pass: count how many drivers actually changed position this cycle
+    var _posChangeCount = 0;
+    cars.forEach(function(car) {
+      var id = String(car.custID);
+      var r = lbRows[id];
+      if (!r) return;
+      var newPosNum = car.position > 0 ? car.position : null;
+      if (r.posNum !== null && newPosNum !== null && r.posNum !== newPosNum) _posChangeCount++;
+    });
+    _allowFlash = _posChangeCount <= 3;
     Object.keys(lbRows).forEach(function(id) {
       if (!currentIds[id]) {
         if (lbRows[id].el.parentNode) lbRows[id].el.parentNode.removeChild(lbRows[id].el);
@@ -8248,7 +8259,7 @@ setPage(startPage);
           posEl.textContent = posD;
           posEl.style.color = tc;
           posEl.classList.remove('bump-up','bump-down');
-          if (oldPosNum !== null && newPosNum !== null && oldPosNum !== newPosNum && (!last || last.flag !== 'caution')) {
+          if (oldPosNum !== null && newPosNum !== null && oldPosNum !== newPosNum && _allowFlash) {
             posEl.classList.add(newPosNum < oldPosNum ? 'bump-up' : 'bump-down');
             row.classList.remove('pos-flash','row-up','row-down');
             void row.offsetWidth;
@@ -8310,7 +8321,7 @@ setPage(startPage);
         var newTop = row.getBoundingClientRect().top;
         var dy = beforeTops[id] - newTop;
         row.style.transition = '';
-        if (Math.abs(dy) > 1 && posChanged[id] && (!last || last.flag !== 'caution')) {
+        if (Math.abs(dy) > 1 && posChanged[id] && _allowFlash) {
           row.style.transform = 'translateY(' + dy + 'px)';
           void row.offsetWidth;
           row.classList.add('row-move');
