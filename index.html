@@ -6967,10 +6967,10 @@
     <div class="live-header">
       <span class="live-conn-dot" id="liveConn"></span>
       <span class="live-flag-dot" id="liveFlag"></span>
+      <div class="live-flag-banner" id="liveFlagBanner"></div>
       <span class="live-track-name" id="liveTrack">Waiting for iRacing...</span>
       <span class="live-session-type" id="liveSType"></span>
       <span class="live-lap-info" id="liveLapInfo"></span>
-      <div class="live-flag-banner" id="liveFlagBanner"></div>
     </div>
     <div style="display:none" class="live-panel-dots" id="livePanelDots">
       <div class="live-panel-dot active" id="liveDot0"></div>
@@ -7681,6 +7681,7 @@ setPage(startPage);
   var liveMode     = 'offline';
   var gapMode      = 'gap';
   var liveTransitionHide = null;
+  var greenBannerTimer   = null;
   var timerFast    = null;
   var _failCount   = 0;
   var _FAIL_THRESH = 40;  // ~20 seconds at 500ms before going offline
@@ -8368,14 +8369,13 @@ setPage(startPage);
   };
 
   window.livePick = function(id) {
-    if (!(meta.drivers && meta.drivers[String(id)])) return;
     selID = id;
-    renderDetail(id);
     if (last) renderLb(last.cars||[]);
     Object.keys(dots).forEach(function(did) {
       dots[did].setAttribute('stroke', did===String(id)?'#fff':'none');
       dots[did].setAttribute('r', did===String(id)?'8':'5');
     });
+    if (meta.drivers && meta.drivers[String(id)]) renderDetail(id);
   };
 
   // ── Header ─────────────────────────────────────────────────────────────────
@@ -8421,18 +8421,28 @@ setPage(startPage);
     if (banner) {
       var f = p.flag || '';
       if (f === 'caution') {
+        if (greenBannerTimer) { clearTimeout(greenBannerTimer); greenBannerTimer = null; }
         banner.textContent = '⚠ CAUTION';
         banner.className = 'live-flag-banner caution show';
       } else if (f === 'white') {
+        if (greenBannerTimer) { clearTimeout(greenBannerTimer); greenBannerTimer = null; }
         banner.textContent = '🏳 WHITE FLAG';
         banner.className = 'live-flag-banner white show';
       } else if (f === 'green' && nextMode === 'race') {
-        banner.textContent = '🏁 GREEN FLAG';
-        banner.className = 'live-flag-banner green show';
+        if (!greenBannerTimer && banner.className.indexOf('green') === -1) {
+          banner.textContent = '🏁 GREEN FLAG';
+          banner.className = 'live-flag-banner green show';
+          greenBannerTimer = setTimeout(function() {
+            banner.className = 'live-flag-banner';
+            greenBannerTimer = null;
+          }, 10000);
+        }
       } else if (f === 'checkered') {
+        if (greenBannerTimer) { clearTimeout(greenBannerTimer); greenBannerTimer = null; }
         banner.textContent = '🏁 CHECKERED';
         banner.className = 'live-flag-banner white show';
       } else {
+        if (greenBannerTimer) { clearTimeout(greenBannerTimer); greenBannerTimer = null; }
         banner.className = 'live-flag-banner';
       }
     }
@@ -8769,7 +8779,7 @@ setPage(startPage);
         var row = e.target.closest('[data-cid]');
         if (!row) return;
         var cid = row.getAttribute('data-cid');
-        if (cid && meta.drivers && meta.drivers[cid]) livePick(cid);
+        if (cid) livePick(cid);
       });
     }
   })();
