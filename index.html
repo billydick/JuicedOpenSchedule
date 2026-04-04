@@ -8189,6 +8189,7 @@ setPage(startPage);
     });
 
     var currentIds = {};
+    var posChanged = {};
     cars.forEach(function(c) { currentIds[String(c.custID)] = true; });
     Object.keys(lbRows).forEach(function(id) {
       if (!currentIds[id]) {
@@ -8261,6 +8262,7 @@ setPage(startPage);
             })(row, posEl);
           }
         }
+        if (oldPosNum !== null && newPosNum !== null && oldPosNum !== newPosNum) posChanged[id] = true;
         r.pos = posKey;
         r.posNum = newPosNum;
       }
@@ -8308,7 +8310,7 @@ setPage(startPage);
         var newTop = row.getBoundingClientRect().top;
         var dy = beforeTops[id] - newTop;
         row.style.transition = '';
-        if (Math.abs(dy) > 1) {
+        if (Math.abs(dy) > 1 && posChanged[id]) {
           row.style.transform = 'translateY(' + dy + 'px)';
           void row.offsetWidth;
           row.classList.add('row-move');
