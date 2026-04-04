@@ -6995,6 +6995,7 @@
             <g id="liveTrackG"></g>
             <g id="liveLabelsG"></g>
             <g id="liveDotsG"></g>
+            <g id="liveDotsTop"></g>
           </g>
         </svg>
       </div>
@@ -7758,6 +7759,7 @@ setPage(startPage);
     var rg = document.getElementById('liveRotateG');
     if (rg) rg.setAttribute('transform', 'translate(0,0) scale(1) rotate(0,250,250)');
     document.getElementById('liveDotsG').innerHTML = '';
+    document.getElementById('liveDotsTop').innerHTML = '';
     document.getElementById('liveLabelsG').innerHTML = '';
     document.getElementById('liveTrackG').innerHTML = '';
     document.getElementById('liveMapMsg').style.display = '';
@@ -8006,6 +8008,7 @@ setPage(startPage);
   function updateDots(cars) {
     if (!shape) return;
     var g  = document.getElementById('liveDotsG');
+    var gt = document.getElementById('liveDotsTop');
     var lg = document.getElementById('liveLabelsG');
     var ns = 'http://www.w3.org/2000/svg';
     var seen = {};
@@ -8067,10 +8070,13 @@ setPage(startPage);
         circle.setAttribute('r', r);
         circle.setAttribute('fill', col);
         circle.setAttribute('stroke', isSel ? '#fff' : 'rgba(0,0,0,.6)');
+        circle.setAttribute('stroke-width', isSel ? '2.5' : '1.5');
         text.textContent = label;
         text.setAttribute('font-size', fs);
         text.setAttribute('transform', 'rotate(' + (-mapRotation) + ')');
-        if (isSel) g.appendChild(grp);
+        // Move to top group if selected, back to normal group if not
+        var targetG = isSel ? gt : g;
+        if (grp.parentNode !== targetG) targetG.appendChild(grp);
 
         // Show label only when near another car, hide otherwise
         _updateLabel(lg, ns, labels, id, xy, r, col, car, grp, nearCars[id]||0, wrapCross);
@@ -8103,7 +8109,7 @@ setPage(startPage);
 
         grp.appendChild(circle);
         grp.appendChild(text);
-        g.appendChild(grp);
+        (isSel ? gt : g).appendChild(grp);
         dots[id] = grp;
 
         // Create label only when near another car
@@ -8143,7 +8149,7 @@ setPage(startPage);
           pt.textContent = 'PC';
           paceEl.appendChild(pc);
           paceEl.appendChild(pt);
-          g.appendChild(paceEl);
+          gt.appendChild(paceEl);
         }
         paceEl.setAttribute('transform', 'translate(' + pxy.x + ',' + pxy.y + ')');
       }
@@ -8392,6 +8398,7 @@ setPage(startPage);
       var dotsG = document.getElementById('liveDotsG');
       var labelsG = document.getElementById('liveLabelsG');
       if (dotsG) dotsG.innerHTML = '';
+      var dotsTop2 = document.getElementById('liveDotsTop'); if (dotsTop2) dotsTop2.innerHTML = '';
       if (labelsG) labelsG.innerHTML = '';
       dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
       selID = null; metaDone = false; meta = {};
@@ -8525,6 +8532,7 @@ setPage(startPage);
           var dotsG = document.getElementById('liveDotsG');
           var labelsG = document.getElementById('liveLabelsG');
           if (dotsG) dotsG.innerHTML = '';
+          var dotsTop = document.getElementById('liveDotsTop'); if (dotsTop) dotsTop.innerHTML = '';
           if (labelsG) labelsG.innerHTML = '';
           dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
           selID = null;
