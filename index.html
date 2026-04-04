@@ -8248,7 +8248,7 @@ setPage(startPage);
           posEl.textContent = posD;
           posEl.style.color = tc;
           posEl.classList.remove('bump-up','bump-down');
-          if (oldPosNum !== null && newPosNum !== null && oldPosNum !== newPosNum) {
+          if (oldPosNum !== null && newPosNum !== null && oldPosNum !== newPosNum && (!last || last.flag !== 'caution')) {
             posEl.classList.add(newPosNum < oldPosNum ? 'bump-up' : 'bump-down');
             row.classList.remove('pos-flash','row-up','row-down');
             void row.offsetWidth;
@@ -8310,7 +8310,7 @@ setPage(startPage);
         var newTop = row.getBoundingClientRect().top;
         var dy = beforeTops[id] - newTop;
         row.style.transition = '';
-        if (Math.abs(dy) > 1 && posChanged[id]) {
+        if (Math.abs(dy) > 1 && posChanged[id] && (!last || last.flag !== 'caution')) {
           row.style.transform = 'translateY(' + dy + 'px)';
           void row.offsetWidth;
           row.classList.add('row-move');
