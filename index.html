@@ -6740,7 +6740,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2737609320&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2739367580&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
@@ -8223,7 +8223,7 @@ setPage(startPage);
           newBadge +
           gapHtml +
           incHtml;
-        if (inDb) row.onclick = (function(cid) { return function() { livePick(cid); }; })(id);
+        row.setAttribute('data-cid', id);
         lb.appendChild(row);
         lbRows[id] = { el: row, pos: null, posNum: null, sel: null, gap: null, inc: null };
       }
@@ -8761,6 +8761,18 @@ setPage(startPage);
   })();
 
   var timerFast = null;
+
+  (function() {
+    var lb = document.getElementById('liveLb');
+    if (lb) {
+      lb.addEventListener('click', function(e) {
+        var row = e.target.closest('[data-cid]');
+        if (!row) return;
+        var cid = row.getAttribute('data-cid');
+        if (cid && meta.drivers && meta.drivers[cid]) livePick(cid);
+      });
+    }
+  })();
 
   window.livePageChange = function(name) {
     if (name==='live') {
