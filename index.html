@@ -64,6 +64,8 @@
   .live-track-name{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:700;letter-spacing:2px;color:var(--white);text-transform:uppercase;transition:color .25s ease,text-shadow .25s ease}
   .live-page.live-state-qualify .live-track-name,.live-page.live-state-race .live-track-name,.live-page.live-state-finished .live-track-name{color:var(--live-accent);text-shadow:0 0 10px rgba(0,0,0,.4)}
   .live-session-type{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:800;letter-spacing:2.5px;color:var(--live-accent);text-transform:uppercase;transition:color .25s ease,opacity .25s ease}
+  .live-heat-info{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:2px;color:var(--gold);text-transform:uppercase;border:1px solid rgba(212,160,23,.4);padding:2px 10px;border-radius:2px;display:none}
+  .live-heat-info.show{display:inline-block}
   .live-lap-info{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.2px;color:var(--gold);margin-left:auto;transition:color .25s ease,opacity .25s ease}
   .live-page.live-state-practice .live-lap-info{color:var(--blue)}
   .live-page.live-state-qualify .live-lap-info{color:#A335EE}
@@ -6740,7 +6742,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2739367580&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2740193084&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
@@ -6970,6 +6972,7 @@
       <div class="live-flag-banner" id="liveFlagBanner"></div>
       <span class="live-track-name" id="liveTrack">Waiting for iRacing...</span>
       <span class="live-session-type" id="liveSType"></span>
+      <span class="live-heat-info" id="liveHeatInfo"></span>
       <span class="live-lap-info" id="liveLapInfo"></span>
     </div>
     <div style="display:none" class="live-panel-dots" id="livePanelDots">
@@ -8398,12 +8401,13 @@ setPage(startPage);
     var conn  = document.getElementById('liveConn');
     var flag  = document.getElementById('liveFlag');
     var track = document.getElementById('liveTrack');
-    var stype = document.getElementById('liveSType');
-    var lap   = document.getElementById('liveLapInfo');
+    var stype    = document.getElementById('liveSType');
+    var lap      = document.getElementById('liveLapInfo');
+    var heatInfo = document.getElementById('liveHeatInfo');
     var nextMode = normalizeLiveMode(p);
     if (!p || !p.connected) {
       conn.className='live-conn-dot'; flag.className='live-flag-dot';
-      track.textContent='NO ACTIVE SESSION'; stype.textContent=''; lap.textContent='';
+      track.textContent='NO ACTIVE SESSION'; stype.textContent=''; lap.textContent=''; if (heatInfo) { heatInfo.textContent=''; heatInfo.className='live-heat-info'; }
       setLiveMode('offline'); liveMode = 'offline';
       // Clear stale data
       var lb = document.getElementById('liveLb');
@@ -8482,15 +8486,22 @@ setPage(startPage);
     if (nextMode === 'practice') {
       stype.textContent = 'PRACTICE';
       lap.textContent = (p.lapInfo && p.lapInfo !== '--:--') ? ('OPEN TRACK • ' + p.lapInfo) : 'OPEN TRACK';
+      if (heatInfo) { heatInfo.textContent=''; heatInfo.className='live-heat-info'; }
     } else if (nextMode === 'qualify') {
       stype.textContent = 'QUALIFYING';
       lap.textContent = (p.lapInfo && p.lapInfo !== '--:--') ? ('TIME ATTACK • ' + p.lapInfo) : 'TIME ATTACK';
+      if (heatInfo) { heatInfo.textContent=''; heatInfo.className='live-heat-info'; }
     } else if (nextMode === 'finished') {
       stype.textContent = 'RACE COMPLETE';
       lap.textContent = p.lapInfo ? ('CHECKERED FLAG • ' + p.lapInfo) : 'CHECKERED FLAG';
     } else {
       stype.textContent = 'RACE';
       lap.textContent = p.lapInfo||'';
+      if (heatInfo) {
+        var sub = p.sessionSubType || '';
+        if (p.heatRacing && sub) { heatInfo.textContent = sub.toUpperCase(); heatInfo.className = 'live-heat-info show'; }
+        else { heatInfo.textContent = ''; heatInfo.className = 'live-heat-info'; }
+      }
     }
     // Show interval toggle only during race
     var toggleBtn = document.getElementById('liveGapToggle');
@@ -8568,7 +8579,9 @@ setPage(startPage);
         (p.cars||[]).forEach(function(c) { byIdx[String(c.custID)] = c; });
         last.orderSource = p.orderSource || last.orderSource || 'official_position';
         last.resultsLocked = !!p.resultsLocked;
-        last.sessionType = p.sessionType || last.sessionType;
+        last.sessionType    = p.sessionType    || last.sessionType;
+        last.sessionSubType = p.sessionSubType !== undefined ? p.sessionSubType : (last.sessionSubType || '');
+        last.heatRacing     = p.heatRacing     !== undefined ? p.heatRacing     : (last.heatRacing || false);
         last.sessionState = p.sessionState || last.sessionState;
         last.lapInfo = p.lapInfo || last.lapInfo;
         last.trackName = p.trackName || last.trackName;
