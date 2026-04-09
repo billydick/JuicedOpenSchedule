@@ -302,23 +302,9 @@
   }
   .sponsor-nav-btn:hover{cursor:pointer}
   .sponsor-nav-btn,.mobile-sponsor-btn{position:relative;min-height:40px}
-  .spn-a,.spn-b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center}
-  @keyframes spn-a-vis{
-    0%{opacity:1}
-    31%{opacity:1}32%{opacity:0}
-    65%{opacity:0}66%{opacity:1}
-    97%{opacity:1}98%{opacity:0}
-    100%{opacity:0}
-  }
-  @keyframes spn-b-vis{
-    0%{opacity:0}
-    31%{opacity:0}32%{opacity:1}
-    65%{opacity:1}66%{opacity:0}
-    97%{opacity:0}98%{opacity:1}
-    100%{opacity:1}
-  }
-  .spn-a{animation:spn-a-vis 13.5s linear infinite}
-  .spn-b{animation:spn-b-vis 13.5s linear infinite}
+  .spn-a,.spn-b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;pointer-events:none}
+  .spn-a{opacity:1}
+  .spn-b{opacity:0}
 
   /* ── SPONSOR MODAL ── */
   .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
@@ -7547,10 +7533,7 @@ function openScheduleRaceResults(el) {
       var rgb = parseRGB(computed);
       savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
       var fill = colorMap[savedPhase].fill;
-      var spnA = btn.querySelector('.spn-a');
-      var spnB = btn.querySelector('.spn-b');
-      if (spnA) spnA.style.animationPlayState = 'paused';
-      if (spnB) spnB.style.animationPlayState = 'paused';
+
       btn.style.animation = 'none';
       btn.style.background = fill;
       btn.style.color = '#000';
@@ -7560,8 +7543,6 @@ function openScheduleRaceResults(el) {
     });
     btn.addEventListener('mouseleave', function() {
       var anim = colorMap[savedPhase].anim;
-      var spnA = btn.querySelector('.spn-a');
-      var spnB = btn.querySelector('.spn-b');
       btn.style.background = '';
       btn.style.color = '';
       btn.style.borderColor = '';
@@ -7570,8 +7551,7 @@ function openScheduleRaceResults(el) {
       btn.style.animation = 'none';
       void btn.offsetWidth;
       btn.style.animation = anim + ' 13.5s linear infinite';
-      if (spnA) { spnA.style.animationPlayState = ''; }
-      if (spnB) { spnB.style.animationPlayState = ''; }
+
     });
   }
 
@@ -7583,6 +7563,46 @@ function openScheduleRaceResults(el) {
   else { init(); }
 })();
 
+
+// Sponsor text switcher — driven by animationiteration on sponsor-cycle, zero drift
+(function() {
+  var textToggle = 0;
+  var _hovered = false;
+
+  function switchText() {
+    if (_hovered) return;
+    textToggle = 1 - textToggle;
+    var btns = [document.querySelector('.sponsor-nav-btn'), document.querySelector('.mobile-sponsor-btn')];
+    btns.forEach(function(btn) {
+      if (!btn) return;
+      var a = btn.querySelector('.spn-a');
+      var b = btn.querySelector('.spn-b');
+      if (!a || !b) return;
+      a.style.opacity = textToggle === 0 ? '1' : '0';
+      b.style.opacity = textToggle === 0 ? '0' : '1';
+    });
+  }
+
+  function init() {
+    var nav = document.querySelector('.sponsor-nav-btn');
+    var mob = document.querySelector('.mobile-sponsor-btn');
+    // animationiteration fires at the end of each 13.5s loop — which is a zero point
+    // We also fire on every color zero crossing by listening on each color variant restart
+    if (nav) {
+      nav.addEventListener('animationiteration', switchText);
+      nav.addEventListener('mouseenter', function() { _hovered = true; });
+      nav.addEventListener('mouseleave', function() { _hovered = false; });
+    }
+    if (mob) {
+      mob.addEventListener('animationiteration', switchText);
+      mob.addEventListener('mouseenter', function() { _hovered = true; });
+      mob.addEventListener('mouseleave', function() { _hovered = false; });
+    }
+  }
+
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+  else { init(); }
+})();
 
 function openSponsorModal() {
   document.getElementById('sponsorModal').classList.add('open');
