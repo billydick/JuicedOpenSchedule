@@ -301,6 +301,16 @@
     animation:sponsor-cycle 13.5s linear infinite;
   }
   .sponsor-nav-btn:hover{cursor:pointer}
+  .spn-a,.spn-b{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;align-items:center;justify-content:center}
+  .sponsor-nav-btn,.mobile-sponsor-btn{position:relative}
+  @keyframes spn-a-cycle{
+    0%{opacity:1}4.5%{opacity:1}6%{opacity:0}50%{opacity:0}51.5%{opacity:1}100%{opacity:1}
+  }
+  @keyframes spn-b-cycle{
+    0%{opacity:0}4.5%{opacity:0}6%{opacity:1}50%{opacity:1}51.5%{opacity:0}100%{opacity:0}
+  }
+  .spn-a{animation:spn-a-cycle 13.5s linear infinite}
+  .spn-b{animation:spn-b-cycle 13.5s linear infinite}
 
   /* ── SPONSOR MODAL ── */
   .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
@@ -928,7 +938,7 @@
 <nav class="site-nav">
   <div class="nav-brand">
     <img src="JuicedOpenLogo.png" alt="Juiced Open" class="nav-logo-main">
-    <button class="mobile-sponsor-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
+    <button class="mobile-sponsor-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
   </div>
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
@@ -937,7 +947,7 @@
     <a class="nav-tab live-tab live-offline" id="liveNavTab" href="#live" onclick="setPage('live')"><span class="live-nav-dot">&#9679;</span> Live</a>
   </div>
   <div class="nav-right">
-    <button class="sponsor-nav-btn" onclick="openSponsorModal()">&#9733; Race Sponsorship</button>
+    <button class="sponsor-nav-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
     <span class="nav-race-night">&#9679; Wed and Sat 9:30 PM EST Race Night</span>
     <img src="team_logos/JuicedRacingLogo.png" alt="Juiced Racing" class="nav-logo-right">
   </div>
@@ -7529,6 +7539,11 @@ function openScheduleRaceResults(el) {
       var rgb = parseRGB(computed);
       savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
       var fill = colorMap[savedPhase].fill;
+      // Freeze span animations
+      var spnA = btn.querySelector('.spn-a');
+      var spnB = btn.querySelector('.spn-b');
+      if (spnA) spnA.style.animationPlayState = 'paused';
+      if (spnB) spnB.style.animationPlayState = 'paused';
       btn.style.animation = 'none';
       btn.style.background = fill;
       btn.style.color = '#000';
@@ -7538,6 +7553,9 @@ function openScheduleRaceResults(el) {
     });
     btn.addEventListener('mouseleave', function() {
       var anim = colorMap[savedPhase].anim;
+      // Unfreeze span animations
+      var spnA = btn.querySelector('.spn-a');
+      var spnB = btn.querySelector('.spn-b');
       btn.style.background = '';
       btn.style.color = '';
       btn.style.borderColor = '';
@@ -7546,6 +7564,8 @@ function openScheduleRaceResults(el) {
       btn.style.animation = 'none';
       void btn.offsetWidth;
       btn.style.animation = anim + ' 13.5s linear infinite';
+      if (spnA) { spnA.style.animationPlayState = ''; }
+      if (spnB) { spnB.style.animationPlayState = ''; }
     });
   }
 
