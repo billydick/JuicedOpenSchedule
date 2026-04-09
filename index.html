@@ -233,22 +233,19 @@
     display:flex;align-items:center;gap:16px;
   }
   @keyframes sponsor-pulse-gold{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
-    88%{opacity:.05;box-shadow:none}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
+    0%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:var(--gold);color:var(--gold)}
+    50%{box-shadow:0 0 4px 1px rgba(212,160,23,.1);border-color:rgba(212,160,23,.3);color:rgba(212,160,23,.3)}
+    100%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:var(--gold);color:var(--gold)}
   }
   @keyframes sponsor-pulse-red{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
-    88%{opacity:.05;box-shadow:none}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
+    0%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:var(--red);color:var(--red)}
+    50%{box-shadow:0 0 4px 1px rgba(204,0,0,.1);border-color:rgba(204,0,0,.3);color:rgba(204,0,0,.3)}
+    100%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:var(--red);color:var(--red)}
   }
   @keyframes sponsor-pulse-blue{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
-    88%{opacity:.05;box-shadow:none}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
+    0%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:var(--blue);color:var(--blue)}
+    50%{box-shadow:0 0 4px 1px rgba(30,111,186,.1);border-color:rgba(30,111,186,.3);color:rgba(30,111,186,.3)}
+    100%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:var(--blue);color:var(--blue)}
   }
   .sponsor-nav-btn{
     font-family:'Barlow Condensed',sans-serif;
@@ -256,12 +253,12 @@
     background:transparent;border:2px solid var(--sponsor-color, var(--gold));
     color:var(--sponsor-color, var(--gold));padding:10px 20px;border-radius:4px;
     cursor:pointer;white-space:nowrap;width:220px;text-align:center;
-    animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
+    animation:sponsor-pulse-gold 4.5s ease-in-out infinite;
     transition:background .15s,color .15s;
   }
-  .sponsor-nav-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
-  .sponsor-nav-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
-  .sponsor-nav-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s ease-in-out infinite}
+  .sponsor-nav-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s ease-in-out infinite}
+  .sponsor-nav-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s ease-in-out infinite}
   .sponsor-nav-btn:hover{background:var(--sponsor-color,var(--gold));color:#000;animation:none;box-shadow:none;opacity:1}
 
   /* ── SPONSOR MODAL ── */
@@ -652,11 +649,11 @@
       background:transparent;border:2px solid var(--gold);
       color:var(--gold);padding:6px 12px;border-radius:4px;
       white-space:nowrap;cursor:pointer;margin-left:auto;width:180px;
-      animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
+      animation:sponsor-pulse-gold 4.5s ease-in-out infinite;
     }
-    .mobile-sponsor-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
-    .mobile-sponsor-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
-    .mobile-sponsor-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
+    .mobile-sponsor-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s ease-in-out infinite}
+    .mobile-sponsor-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s ease-in-out infinite}
+    .mobile-sponsor-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s ease-in-out infinite}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
@@ -7493,7 +7490,7 @@ function closeSponsorModal(e) {
     idx = (idx + 1) % cycle.length;
     applyAll(cycle[idx]);
   }
-  _sponsorTimer = setInterval(advance, 3960); // fires at 88% of 4500ms cycle — during opacity dip
+  _sponsorTimer = setInterval(advance, 2250); // fires at 50% of 4500ms cycle — during dim point
   // Pause cycle while hovered so no snap on mouse-out
   document.addEventListener('mouseover', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) _hovered = true;
