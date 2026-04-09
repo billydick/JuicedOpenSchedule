@@ -7485,12 +7485,19 @@ function closeSponsorModal(e) {
     if (navBtn) applyState(navBtn, cls);
     if (mobileBtn) applyState(mobileBtn, cls);
   }
+  var CYCLE_MS = 4500;
+  var DIM_AT   = 0.5; // fraction of cycle where animation is dimmest
   function advance() {
     if (_hovered) return;
     idx = (idx + 1) % cycle.length;
     applyAll(cycle[idx]);
   }
-  _sponsorTimer = setInterval(advance, 4500);
+  // Sync first advance to the dim point of the animation cycle
+  // Animation starts at t=0 (bright), dim at 50% = 2250ms
+  setTimeout(function() {
+    advance();
+    _sponsorTimer = setInterval(advance, CYCLE_MS);
+  }, CYCLE_MS * DIM_AT);
   // Pause cycle while hovered so no snap on mouse-out
   document.addEventListener('mouseover', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) _hovered = true;
