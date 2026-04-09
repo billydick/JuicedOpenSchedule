@@ -7490,7 +7490,7 @@ function closeSponsorModal(e) {
     idx = (idx + 1) % cycle.length;
     applyAll(cycle[idx]);
   }
-  _sponsorTimer = setInterval(advance, 2250); // fires at 50% of 4500ms cycle — during dim point
+  _sponsorTimer = setInterval(advance, 4500);
   // Pause cycle while hovered so no snap on mouse-out
   document.addEventListener('mouseover', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) _hovered = true;
@@ -7498,11 +7498,6 @@ function closeSponsorModal(e) {
   document.addEventListener('mouseout', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) {
       _hovered = false;
-      // Reapply class to restart animation cleanly from current state
-      var navBtn = document.querySelector('.sponsor-nav-btn');
-      var mobileBtn = document.querySelector('.mobile-sponsor-btn');
-      if (navBtn) { navBtn.classList.remove(cycle[idx]); void navBtn.offsetWidth; navBtn.classList.add(cycle[idx]); }
-      if (mobileBtn) { mobileBtn.classList.remove(cycle[idx]); void mobileBtn.offsetWidth; mobileBtn.classList.add(cycle[idx]); }
     }
   });
 })();
