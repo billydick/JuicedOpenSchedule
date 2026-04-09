@@ -7497,40 +7497,47 @@ function openScheduleRaceResults(el) {
   openRaceResults(raceId, null, seasonId);
 }
 
-// Sponsor button hover — fill current color on hover, restart from that color on leave
+// Sponsor button hover — read actual computed color, fill on hover, restart from that color on leave
 (function() {
-  var CYCLE_MS = 13500;
-  // [start_pct, end_pct, fill_color, animation_name]
-  var phases = [
-    [0,   33,  'rgba(212,160,23,1)',  'sponsor-cycle-from-gold'],
-    [33,  66,  'rgba(204,0,0,1)',     'sponsor-cycle-from-red'],
-    [66,  100, 'rgba(30,111,186,1)', 'sponsor-cycle-from-blue'],
+  // Map computed border-color RGB to animation name
+  var colorMap = [
+    { r:212, g:160, b:23,  anim:'sponsor-cycle-from-gold', fill:'rgba(212,160,23,1)' },
+    { r:204, g:0,   b:0,   anim:'sponsor-cycle-from-red',  fill:'rgba(204,0,0,1)'    },
+    { r:30,  g:111, b:186, anim:'sponsor-cycle-from-blue', fill:'rgba(30,111,186,1)' },
   ];
-  var currentPhase = 0;
-  var startTime = Date.now();
 
-  function getPhase() {
-    var pct = ((Date.now() - startTime) % CYCLE_MS) / CYCLE_MS * 100;
-    for (var i = 0; i < phases.length; i++) {
-      if (pct >= phases[i][0] && pct < phases[i][1]) return i;
+  function closestPhase(r, g, b) {
+    var best = 0, bestDist = Infinity;
+    for (var i = 0; i < colorMap.length; i++) {
+      var c = colorMap[i];
+      var dist = Math.abs(c.r-r) + Math.abs(c.g-g) + Math.abs(c.b-b);
+      if (dist < bestDist) { bestDist = dist; best = i; }
     }
-    return 0;
+    return best;
+  }
+
+  function parseRGB(str) {
+    var m = str.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+    return m ? [+m[1], +m[2], +m[3]] : [212, 160, 23];
   }
 
   function attach(btn) {
     if (!btn) return;
+    var savedPhase = 0;
     btn.addEventListener('mouseenter', function() {
-      currentPhase = getPhase();
-      var col = phases[currentPhase][0+2]; // fill color
+      var computed = getComputedStyle(btn).borderTopColor;
+      var rgb = parseRGB(computed);
+      savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
+      var fill = colorMap[savedPhase].fill;
       btn.style.animation = 'none';
-      btn.style.background = col;
+      btn.style.background = fill;
       btn.style.color = '#000';
-      btn.style.borderColor = col;
+      btn.style.borderColor = fill;
       btn.style.boxShadow = 'none';
       btn.style.opacity = '1';
     });
     btn.addEventListener('mouseleave', function() {
-      var anim = phases[currentPhase][3];
+      var anim = colorMap[savedPhase].anim;
       btn.style.background = '';
       btn.style.color = '';
       btn.style.borderColor = '';
