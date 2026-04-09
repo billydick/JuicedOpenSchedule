@@ -256,12 +256,12 @@
     background:transparent;border:2px solid var(--sponsor-color, var(--gold));
     color:var(--sponsor-color, var(--gold));padding:10px 20px;border-radius:4px;
     cursor:pointer;white-space:nowrap;width:220px;text-align:center;
-    animation:sponsor-pulse-gold 4.5s ease-in-out infinite;
+    animation:sponsor-pulse-gold 4.5s linear infinite;
     transition:background .15s,color .15s;
   }
-  .sponsor-nav-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s ease-in-out infinite}
-  .sponsor-nav-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s ease-in-out infinite}
-  .sponsor-nav-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s ease-in-out infinite}
+  .sponsor-nav-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s linear infinite}
+  .sponsor-nav-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s linear infinite}
+  .sponsor-nav-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s linear infinite}
   .sponsor-nav-btn:hover{background:var(--sponsor-color,var(--gold));color:#000;animation:none;box-shadow:none;opacity:1}
 
   /* ── SPONSOR MODAL ── */
@@ -652,11 +652,11 @@
       background:transparent;border:2px solid var(--gold);
       color:var(--gold);padding:6px 12px;border-radius:4px;
       white-space:nowrap;cursor:pointer;margin-left:auto;width:180px;
-      animation:sponsor-pulse-gold 4.5s ease-in-out infinite;
+      animation:sponsor-pulse-gold 4.5s linear infinite;
     }
-    .mobile-sponsor-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s ease-in-out infinite}
-    .mobile-sponsor-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s ease-in-out infinite}
-    .mobile-sponsor-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s ease-in-out infinite}
+    .mobile-sponsor-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s linear infinite}
+    .mobile-sponsor-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s linear infinite}
+    .mobile-sponsor-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s linear infinite}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
@@ -7489,18 +7489,19 @@ function closeSponsorModal(e) {
     if (mobileBtn) applyState(mobileBtn, cls);
   }
   var CYCLE_MS = 4500;
-  var DIM_AT   = 0.5; // fraction of cycle where animation is dimmest
   function advance() {
     if (_hovered) return;
     idx = (idx + 1) % cycle.length;
     applyAll(cycle[idx]);
   }
-  // Sync first advance to the dim point of the animation cycle
-  // Animation starts at t=0 (bright), dim at 50% = 2250ms
+  // First fire at the zero point (50% into first cycle = 2250ms), then every full cycle
   setTimeout(function() {
-    advance();
+    if (!_hovered) {
+      idx = (idx + 1) % cycle.length;
+      applyAll(cycle[idx]);
+    }
     _sponsorTimer = setInterval(advance, CYCLE_MS);
-  }, CYCLE_MS * DIM_AT);
+  }, CYCLE_MS / 2);
   // Pause cycle while hovered so no snap on mouse-out
   document.addEventListener('mouseover', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) _hovered = true;
