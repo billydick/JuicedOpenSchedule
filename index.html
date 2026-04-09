@@ -256,15 +256,16 @@
   .sponsor-nav-btn{
     font-family:'Barlow Condensed',sans-serif;
     font-size:15px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
-    background:transparent;border:2px solid var(--gold);
-    color:var(--gold);padding:10px 20px;border-radius:4px;
+    background:transparent;border:2px solid var(--sponsor-color, var(--gold));
+    color:var(--sponsor-color, var(--gold));padding:10px 20px;border-radius:4px;
     cursor:pointer;white-space:nowrap;width:220px;text-align:center;
     animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
+    transition:background .15s,color .15s;
   }
-  .sponsor-nav-btn.pulse-gold{animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
-  .sponsor-nav-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
-  .sponsor-nav-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
-  .sponsor-nav-btn:hover{background:var(--gold);color:#000;animation:none;box-shadow:none;opacity:1}
+  .sponsor-nav-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
+  .sponsor-nav-btn:hover{background:var(--sponsor-color,var(--gold));color:#000;animation:none;box-shadow:none;opacity:1}
 
   /* ── SPONSOR MODAL ── */
   .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
@@ -656,9 +657,9 @@
       white-space:nowrap;cursor:pointer;margin-left:auto;width:180px;
       animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite;
     }
-    .mobile-sponsor-btn.pulse-gold{animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
-    .mobile-sponsor-btn.pulse-red{animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
-    .mobile-sponsor-btn.pulse-blue{animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
+    .mobile-sponsor-btn.pulse-gold{--sponsor-color:var(--gold);animation:sponsor-pulse-gold 4.5s cubic-bezier(.4,0,.6,1) infinite}
+    .mobile-sponsor-btn.pulse-red{--sponsor-color:var(--red);animation:sponsor-pulse-red 4.5s cubic-bezier(.4,0,.6,1) infinite}
+    .mobile-sponsor-btn.pulse-blue{--sponsor-color:var(--blue);animation:sponsor-pulse-blue 4.5s cubic-bezier(.4,0,.6,1) infinite}
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
     details.week-block[open] .week-chevron{transform:rotate(90deg)}
@@ -7476,12 +7477,11 @@ function closeSponsorModal(e) {
 
 // Cycle sponsor button pulse color and text
 (function() {
-  var cycle = [['pulse-gold','★ Race Sponsorship'],['pulse-red','Purchase Here'],['pulse-blue','★ Race Sponsorship'],['pulse-gold','Purchase Here'],['pulse-red','★ Race Sponsorship'],['pulse-blue','Purchase Here']];
+  var cycle = ['pulse-gold','pulse-red','pulse-blue'];
   var idx = 0;
-  function applyState(btn, state) {
+  function applyState(btn, cls) {
     btn.classList.remove('pulse-red','pulse-blue','pulse-gold');
-    btn.classList.add(state[0]);
-    btn.textContent = state[1];
+    btn.classList.add(cls);
   }
   function advance() {
     idx = (idx + 1) % cycle.length;
