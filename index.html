@@ -302,9 +302,23 @@
   }
   .sponsor-nav-btn:hover{cursor:pointer}
   .sponsor-nav-btn,.mobile-sponsor-btn{position:relative;min-height:40px}
-  .spn-a,.spn-b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;transition:opacity 0.1s}
-  .spn-a{opacity:1}
-  .spn-b{opacity:0}
+  .spn-a,.spn-b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center}
+  @keyframes spn-a-vis{
+    0%{opacity:1}
+    31%{opacity:1}32%{opacity:0}
+    65%{opacity:0}66%{opacity:1}
+    97%{opacity:1}98%{opacity:0}
+    100%{opacity:0}
+  }
+  @keyframes spn-b-vis{
+    0%{opacity:0}
+    31%{opacity:0}32%{opacity:1}
+    65%{opacity:1}66%{opacity:0}
+    97%{opacity:0}98%{opacity:1}
+    100%{opacity:1}
+  }
+  .spn-a{animation:spn-a-vis 13.5s linear infinite}
+  .spn-b{animation:spn-b-vis 13.5s linear infinite}
 
   /* ── SPONSOR MODAL ── */
   .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
@@ -7533,7 +7547,6 @@ function openScheduleRaceResults(el) {
       var rgb = parseRGB(computed);
       savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
       var fill = colorMap[savedPhase].fill;
-      // Freeze span animations
       var spnA = btn.querySelector('.spn-a');
       var spnB = btn.querySelector('.spn-b');
       if (spnA) spnA.style.animationPlayState = 'paused';
@@ -7547,7 +7560,6 @@ function openScheduleRaceResults(el) {
     });
     btn.addEventListener('mouseleave', function() {
       var anim = colorMap[savedPhase].anim;
-      // Unfreeze span animations
       var spnA = btn.querySelector('.spn-a');
       var spnB = btn.querySelector('.spn-b');
       btn.style.background = '';
@@ -7571,47 +7583,6 @@ function openScheduleRaceResults(el) {
   else { init(); }
 })();
 
-// Sponsor button text switcher — fires at zero points of sponsor-cycle (every 4.5s, offset 4.32s)
-// Zero points in 13.5s cycle: ~4.32s, ~8.82s, ~13.32s — so switches every 4.5s after initial offset
-(function() {
-  var textIdx = 0;
-  var _paused = false;
-  var labels = ['★ Race Sponsorship', '★ Purchase Here'];
-
-  function switchText() {
-    if (_paused) return;
-    textIdx = (textIdx + 1) % 2;
-    var btns = [document.querySelector('.sponsor-nav-btn'), document.querySelector('.mobile-sponsor-btn')];
-    btns.forEach(function(btn) {
-      if (!btn) return;
-      var a = btn.querySelector('.spn-a');
-      var b = btn.querySelector('.spn-b');
-      if (!a || !b) return;
-      if (textIdx === 0) { a.style.opacity='1'; b.style.opacity='0'; }
-      else              { a.style.opacity='0'; b.style.opacity='1'; }
-    });
-  }
-
-  // Pause text switching on hover, resume on leave
-  function attachPause(btn) {
-    if (!btn) return;
-    btn.addEventListener('mouseenter', function() { _paused = true; });
-    btn.addEventListener('mouseleave', function() { _paused = false; });
-  }
-
-  function init() {
-    attachPause(document.querySelector('.sponsor-nav-btn'));
-    attachPause(document.querySelector('.mobile-sponsor-btn'));
-    // First zero point is at 4320ms, then every 4500ms
-    setTimeout(function() {
-      switchText();
-      setInterval(switchText, 4500);
-    }, 4320);
-  }
-
-  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
-  else { init(); }
-})();
 
 function openSponsorModal() {
   document.getElementById('sponsorModal').classList.add('open');
