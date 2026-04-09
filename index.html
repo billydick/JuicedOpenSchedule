@@ -301,16 +301,10 @@
     animation:sponsor-cycle 13.5s linear infinite;
   }
   .sponsor-nav-btn:hover{cursor:pointer}
-  .spn-a,.spn-b{position:absolute;left:0;right:0;top:0;bottom:0;display:flex;align-items:center;justify-content:center}
-  .sponsor-nav-btn,.mobile-sponsor-btn{position:relative}
-  @keyframes spn-a-cycle{
-    0%{opacity:1}4.5%{opacity:1}6%{opacity:0}50%{opacity:0}51.5%{opacity:1}100%{opacity:1}
-  }
-  @keyframes spn-b-cycle{
-    0%{opacity:0}4.5%{opacity:0}6%{opacity:1}50%{opacity:1}51.5%{opacity:0}100%{opacity:0}
-  }
-  .spn-a{animation:spn-a-cycle 13.5s linear infinite}
-  .spn-b{animation:spn-b-cycle 13.5s linear infinite}
+  .sponsor-nav-btn,.mobile-sponsor-btn{position:relative;min-height:40px}
+  .spn-a,.spn-b{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;transition:opacity 0.1s}
+  .spn-a{opacity:1}
+  .spn-b{opacity:0}
 
   /* ── SPONSOR MODAL ── */
   .sponsor-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.82);z-index:2000;align-items:center;justify-content:center}
@@ -7573,6 +7567,48 @@ function openScheduleRaceResults(el) {
     attach(document.querySelector('.sponsor-nav-btn'));
     attach(document.querySelector('.mobile-sponsor-btn'));
   }
+  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
+  else { init(); }
+})();
+
+// Sponsor button text switcher — fires at zero points of sponsor-cycle (every 4.5s, offset 4.32s)
+// Zero points in 13.5s cycle: ~4.32s, ~8.82s, ~13.32s — so switches every 4.5s after initial offset
+(function() {
+  var textIdx = 0;
+  var _paused = false;
+  var labels = ['★ Race Sponsorship', '★ Purchase Here'];
+
+  function switchText() {
+    if (_paused) return;
+    textIdx = (textIdx + 1) % 2;
+    var btns = [document.querySelector('.sponsor-nav-btn'), document.querySelector('.mobile-sponsor-btn')];
+    btns.forEach(function(btn) {
+      if (!btn) return;
+      var a = btn.querySelector('.spn-a');
+      var b = btn.querySelector('.spn-b');
+      if (!a || !b) return;
+      if (textIdx === 0) { a.style.opacity='1'; b.style.opacity='0'; }
+      else              { a.style.opacity='0'; b.style.opacity='1'; }
+    });
+  }
+
+  // Pause text switching on hover, resume on leave
+  function attachPause(btn) {
+    if (!btn) return;
+    btn.addEventListener('mouseenter', function() { _paused = true; });
+    btn.addEventListener('mouseleave', function() { _paused = false; });
+  }
+
+  function init() {
+    attachPause(document.querySelector('.sponsor-nav-btn'));
+    attachPause(document.querySelector('.mobile-sponsor-btn'));
+    // First zero point is at 4320ms, then every 4500ms
+    setTimeout(function() {
+      switchText();
+      setInterval(switchText, 4500);
+    }, 4320);
+  }
+
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
   else { init(); }
 })();
