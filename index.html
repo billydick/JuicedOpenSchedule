@@ -7525,15 +7525,25 @@ function openScheduleRaceResults(el) {
     return m ? [+m[1], +m[2], +m[3]] : [212, 160, 23];
   }
 
+  var textToggle = 0;
+
+  function setSpanText(btn, toggle) {
+    var a = btn.querySelector('.spn-a');
+    var b = btn.querySelector('.spn-b');
+    if (!a || !b) return;
+    a.style.opacity = toggle === 0 ? '1' : '0';
+    b.style.opacity = toggle === 0 ? '0' : '1';
+  }
+
   function attach(btn) {
     if (!btn) return;
     var savedPhase = 0;
+
     btn.addEventListener('mouseenter', function() {
       var computed = getComputedStyle(btn).borderTopColor;
       var rgb = parseRGB(computed);
       savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
       var fill = colorMap[savedPhase].fill;
-
       btn.style.animation = 'none';
       btn.style.background = fill;
       btn.style.color = '#000';
@@ -7541,7 +7551,9 @@ function openScheduleRaceResults(el) {
       btn.style.boxShadow = 'none';
       btn.style.opacity = '1';
     });
+
     btn.addEventListener('mouseleave', function() {
+      // Restart color animation from current color — resets to frame 0 of that color
       var anim = colorMap[savedPhase].anim;
       btn.style.background = '';
       btn.style.color = '';
@@ -7551,7 +7563,16 @@ function openScheduleRaceResults(el) {
       btn.style.animation = 'none';
       void btn.offsetWidth;
       btn.style.animation = anim + ' 13.5s linear infinite';
+      // Reset text to match — spn-a for gold/blue, spn-b for red (every other)
+      // Both animation and text restart from zero together — no drift possible
+      textToggle = savedPhase % 2;
+      setSpanText(btn, textToggle);
+    });
 
+    // Switch text on each animation loop — fires at zero point of each 13.5s cycle
+    btn.addEventListener('animationiteration', function() {
+      textToggle = 1 - textToggle;
+      setSpanText(btn, textToggle);
     });
   }
 
@@ -7559,47 +7580,6 @@ function openScheduleRaceResults(el) {
     attach(document.querySelector('.sponsor-nav-btn'));
     attach(document.querySelector('.mobile-sponsor-btn'));
   }
-  if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
-  else { init(); }
-})();
-
-
-// Sponsor text switcher — driven by animationiteration on sponsor-cycle, zero drift
-(function() {
-  var textToggle = 0;
-  var _hovered = false;
-
-  function switchText() {
-    if (_hovered) return;
-    textToggle = 1 - textToggle;
-    var btns = [document.querySelector('.sponsor-nav-btn'), document.querySelector('.mobile-sponsor-btn')];
-    btns.forEach(function(btn) {
-      if (!btn) return;
-      var a = btn.querySelector('.spn-a');
-      var b = btn.querySelector('.spn-b');
-      if (!a || !b) return;
-      a.style.opacity = textToggle === 0 ? '1' : '0';
-      b.style.opacity = textToggle === 0 ? '0' : '1';
-    });
-  }
-
-  function init() {
-    var nav = document.querySelector('.sponsor-nav-btn');
-    var mob = document.querySelector('.mobile-sponsor-btn');
-    // animationiteration fires at the end of each 13.5s loop — which is a zero point
-    // We also fire on every color zero crossing by listening on each color variant restart
-    if (nav) {
-      nav.addEventListener('animationiteration', switchText);
-      nav.addEventListener('mouseenter', function() { _hovered = true; });
-      nav.addEventListener('mouseleave', function() { _hovered = false; });
-    }
-    if (mob) {
-      mob.addEventListener('animationiteration', switchText);
-      mob.addEventListener('mouseenter', function() { _hovered = true; });
-      mob.addEventListener('mouseleave', function() { _hovered = false; });
-    }
-  }
-
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', init); }
   else { init(); }
 })();
