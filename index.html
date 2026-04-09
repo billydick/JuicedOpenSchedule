@@ -233,25 +233,22 @@
     display:flex;align-items:center;gap:16px;
   }
   @keyframes sponsor-pulse-gold{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4);border-color:var(--gold);color:var(--gold)}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4);border-color:var(--gold);color:var(--gold)}
-    88%{opacity:.05;box-shadow:none;border-color:var(--gold);color:var(--gold)}
-    89%{opacity:.05;box-shadow:none;border-color:#CC0000;color:#CC0000}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4);border-color:#CC0000;color:#CC0000}
+    0%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
+    60%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
+    88%{opacity:.05;box-shadow:none}
+    100%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4)}
   }
   @keyframes sponsor-pulse-red{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4);border-color:#CC0000;color:#CC0000}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4);border-color:#CC0000;color:#CC0000}
-    88%{opacity:.05;box-shadow:none;border-color:#CC0000;color:#CC0000}
-    89%{opacity:.05;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4);border-color:#1E6FBA;color:#1E6FBA}
+    0%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
+    60%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
+    88%{opacity:.05;box-shadow:none}
+    100%{opacity:1;box-shadow:0 0 16px 6px rgba(204,0,0,.4)}
   }
   @keyframes sponsor-pulse-blue{
-    0%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4);border-color:#1E6FBA;color:#1E6FBA}
-    60%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4);border-color:#1E6FBA;color:#1E6FBA}
-    88%{opacity:.05;box-shadow:none;border-color:#1E6FBA;color:#1E6FBA}
-    89%{opacity:.05;box-shadow:none;border-color:var(--gold);color:var(--gold)}
-    100%{opacity:1;box-shadow:0 0 16px 6px rgba(212,160,23,.4);border-color:var(--gold);color:var(--gold)}
+    0%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
+    60%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
+    88%{opacity:.05;box-shadow:none}
+    100%{opacity:1;box-shadow:0 0 16px 6px rgba(30,111,186,.4)}
   }
   .sponsor-nav-btn{
     font-family:'Barlow Condensed',sans-serif;
@@ -7496,7 +7493,7 @@ function closeSponsorModal(e) {
     idx = (idx + 1) % cycle.length;
     applyAll(cycle[idx]);
   }
-  _sponsorTimer = setInterval(advance, 4500);
+  _sponsorTimer = setInterval(advance, 3960); // fires at 88% of 4500ms cycle — during opacity dip
   // Pause cycle while hovered so no snap on mouse-out
   document.addEventListener('mouseover', function(e) {
     if (e.target.closest('.sponsor-nav-btn, .mobile-sponsor-btn')) _hovered = true;
