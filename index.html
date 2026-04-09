@@ -232,73 +232,31 @@
     color:var(--gold);text-transform:uppercase;
     display:flex;align-items:center;gap:16px;
   }
-  @keyframes sponsor-cycle{
+  @keyframes sponsor-gold{
     0%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    27%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    32%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    34%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    39%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    60%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    65%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    67%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    72%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    93%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    98%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    99%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    100%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
+    75%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
+    90%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
+    100%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
   }
-  @keyframes sponsor-cycle-from-gold{
-    0%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    27%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    32%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    34%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    39%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    60%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    65%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    67%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    72%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    93%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    98%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    99%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    100%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-  }
-  @keyframes sponsor-cycle-from-red{
+  @keyframes sponsor-red{
     0%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    27%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    32%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    34%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    39%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    60%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    65%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    67%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    72%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    93%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    98%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    99%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    100%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
+    75%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
+    90%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
+    100%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
   }
-  @keyframes sponsor-cycle-from-blue{
+  @keyframes sponsor-blue{
     0%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    27%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
-    32%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    34%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    39%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    60%{box-shadow:0 0 16px 6px rgba(212,160,23,.5);border-color:rgba(212,160,23,1);color:rgba(212,160,23,1)}
-    65%{box-shadow:none;border-color:rgba(212,160,23,0);color:rgba(212,160,23,0)}
-    67%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    72%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    93%{box-shadow:0 0 16px 6px rgba(204,0,0,.5);border-color:rgba(204,0,0,1);color:rgba(204,0,0,1)}
-    98%{box-shadow:none;border-color:rgba(204,0,0,0);color:rgba(204,0,0,0)}
-    99%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
-    100%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
+    75%{box-shadow:0 0 16px 6px rgba(30,111,186,.5);border-color:rgba(30,111,186,1);color:rgba(30,111,186,1)}
+    90%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
+    100%{box-shadow:none;border-color:rgba(30,111,186,0);color:rgba(30,111,186,0)}
   }
   .sponsor-nav-btn{
     font-family:'Barlow Condensed',sans-serif;
     font-size:15px;font-weight:900;letter-spacing:2px;text-transform:uppercase;
-    background:transparent;border:2px solid var(--sponsor-color, var(--gold));
-    color:var(--sponsor-color, var(--gold));padding:10px 20px;border-radius:4px;
+    background:transparent;border:2px solid var(--gold);
+    color:var(--gold);padding:10px 20px;border-radius:4px;
     cursor:pointer;white-space:nowrap;width:220px;text-align:center;
-    animation:sponsor-cycle 13.5s linear infinite;
+    animation:sponsor-gold 4.5s linear infinite;
   }
   .sponsor-nav-btn:hover{cursor:pointer}
   .sponsor-nav-btn,.mobile-sponsor-btn{position:relative;min-height:40px}
@@ -694,7 +652,7 @@
       background:transparent;border:2px solid var(--gold);
       color:var(--gold);padding:6px 12px;border-radius:4px;
       white-space:nowrap;cursor:pointer;margin-left:auto;width:180px;
-      animation:sponsor-cycle 13.5s linear infinite;
+      animation:sponsor-gold 4.5s linear infinite;
     }
     .schedule,.standings-wrap{padding:10px 10px 40px}
     .week-chevron,.week-race-count{display:block!important}
@@ -7501,78 +7459,63 @@ function openScheduleRaceResults(el) {
   openRaceResults(raceId, null, seasonId);
 }
 
-// Sponsor button hover — read actual computed color, fill on hover, restart from that color on leave
+// Sponsor button — 3 single-color 4.5s animations, JS advances color + text on each iteration
 (function() {
-  // Map computed border-color RGB to animation name
-  var colorMap = [
-    { r:212, g:160, b:23,  anim:'sponsor-cycle-from-gold', fill:'rgba(212,160,23,1)' },
-    { r:204, g:0,   b:0,   anim:'sponsor-cycle-from-red',  fill:'rgba(204,0,0,1)'    },
-    { r:30,  g:111, b:186, anim:'sponsor-cycle-from-blue', fill:'rgba(30,111,186,1)' },
+  var colors = [
+    { anim:'sponsor-gold', fill:'rgba(212,160,23,1)' },
+    { anim:'sponsor-red',  fill:'rgba(204,0,0,1)'    },
+    { anim:'sponsor-blue', fill:'rgba(30,111,186,1)' },
   ];
-
-  function closestPhase(r, g, b) {
-    var best = 0, bestDist = Infinity;
-    for (var i = 0; i < colorMap.length; i++) {
-      var c = colorMap[i];
-      var dist = Math.abs(c.r-r) + Math.abs(c.g-g) + Math.abs(c.b-b);
-      if (dist < bestDist) { bestDist = dist; best = i; }
-    }
-    return best;
-  }
-
-  function parseRGB(str) {
-    var m = str.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
-    return m ? [+m[1], +m[2], +m[3]] : [212, 160, 23];
-  }
-
+  var colorIdx  = 0;
   var textToggle = 0;
+  var _hovered  = false;
 
-  function setSpanText(btn, toggle) {
+  function setSpans(btn, toggle) {
     var a = btn.querySelector('.spn-a');
     var b = btn.querySelector('.spn-b');
-    if (!a || !b) return;
-    a.style.opacity = toggle === 0 ? '1' : '0';
-    b.style.opacity = toggle === 0 ? '0' : '1';
+    if (a) a.style.opacity = toggle === 0 ? '1' : '0';
+    if (b) b.style.opacity = toggle === 0 ? '0' : '1';
+  }
+
+  function setAnim(btn, idx) {
+    btn.style.animation = 'none';
+    void btn.offsetWidth;
+    btn.style.animation = colors[idx].anim + ' 4.5s linear infinite';
   }
 
   function attach(btn) {
     if (!btn) return;
-    var savedPhase = 0;
+
+    btn.addEventListener('animationiteration', function() {
+      if (_hovered) return;
+      // Advance to next color — this fires at frame 100% which is fully invisible
+      colorIdx = (colorIdx + 1) % 3;
+      textToggle = 1 - textToggle;
+      btn.style.animation = 'none';
+      void btn.offsetWidth;
+      btn.style.animation = colors[colorIdx].anim + ' 4.5s linear infinite';
+      setSpans(btn, textToggle);
+    });
 
     btn.addEventListener('mouseenter', function() {
-      var computed = getComputedStyle(btn).borderTopColor;
-      var rgb = parseRGB(computed);
-      savedPhase = closestPhase(rgb[0], rgb[1], rgb[2]);
-      var fill = colorMap[savedPhase].fill;
+      _hovered = true;
       btn.style.animation = 'none';
-      btn.style.background = fill;
+      btn.style.background = colors[colorIdx].fill;
       btn.style.color = '#000';
-      btn.style.borderColor = fill;
+      btn.style.borderColor = colors[colorIdx].fill;
       btn.style.boxShadow = 'none';
       btn.style.opacity = '1';
     });
 
     btn.addEventListener('mouseleave', function() {
-      // Restart color animation from current color — resets to frame 0 of that color
-      var anim = colorMap[savedPhase].anim;
+      _hovered = false;
       btn.style.background = '';
       btn.style.color = '';
       btn.style.borderColor = '';
       btn.style.boxShadow = '';
       btn.style.opacity = '';
-      btn.style.animation = 'none';
-      void btn.offsetWidth;
-      btn.style.animation = anim + ' 13.5s linear infinite';
-      // Reset text to match — spn-a for gold/blue, spn-b for red (every other)
-      // Both animation and text restart from zero together — no drift possible
-      textToggle = savedPhase % 2;
-      setSpanText(btn, textToggle);
-    });
-
-    // Switch text on each animation loop — fires at zero point of each 13.5s cycle
-    btn.addEventListener('animationiteration', function() {
-      textToggle = 1 - textToggle;
-      setSpanText(btn, textToggle);
+      setAnim(btn, colorIdx);
+      setSpans(btn, textToggle);
     });
   }
 
