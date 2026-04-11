@@ -6932,7 +6932,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2743301039&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2744192873&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
@@ -6996,7 +6996,7 @@
         </div>
 
         <div class="jr-stats-row">
-          <div class="jr-stat"><div class="jr-stat-val">3,400+</div><div class="jr-stat-label">Followers</div></div>
+          <div class="jr-stat"><div class="jr-stat-val">3,500+</div><div class="jr-stat-label">Followers</div></div>
           <div class="jr-stat"><div class="jr-stat-val">Top 0.5%</div><div class="jr-stat-label">Twitch</div></div>
           <div class="jr-stat"><div class="jr-stat-val">2 Years</div><div class="jr-stat-label">Built in</div></div>
         </div>
@@ -7272,21 +7272,21 @@ function openDriver(did) {
   }).join('');
   document.getElementById('modalStats').innerHTML = arcTile + statsHtml;
 
-  // Race history table
-  var standingsRaces = history.filter(function(r) { return r.standings == 1; });
-  var nonStandingsRaces = history.filter(function(r) { return r.standings != 1; });
+  // Race history table — newest first, scored/unscored/ineligible highlighting
+  var sortedHistory = history.slice().reverse();
 
-  function raceRows(races, dimmed) {
+  function raceRows(races) {
     return races.map(function(r) {
       var posClass = r.pos == 1 ? 'modal-pos-win' : r.pos <= 3 ? 'modal-pos-pod' : r.pos <= 5 ? 'modal-pos-top5' : r.pos <= 10 ? 'modal-pos-top10' : '';
       var incClass = r.inc >= 8 ? 'modal-inc-high' : r.inc <= 3 ? 'modal-inc-clean' : '';
-      var rowClass = dimmed ? 'modal-not-counted' : '';
+      var rowClass = r.scored ? '' : (r.elig ? 'modal-not-counted' : 'modal-not-counted');
       var title = r.title || r.car || '—';
       var isDqRow = !!(r.is_dq);
       var pts = isDqRow ? '0' : (r.elig ? (r.pts || '0') : '—');
-      var ptsStyle = isDqRow ? 'text-align:center;color:#c00;font-weight:700' : 'text-align:center';
+      var ptsStyle = isDqRow ? 'text-align:center;color:#c00;font-weight:700' : (r.scored ? 'text-align:center;color:var(--gold)' : 'text-align:center');
       var dqBadge = isDqRow ? ' <span style="display:inline-block;padding:1px 4px;background:#c00;color:#fff;font-size:10px;font-weight:900;border-radius:3px;vertical-align:middle">DQ</span>' : '';
-      var clickable = r.race_id ? 'style="cursor:pointer" onclick="openRaceResults(' + r.race_id + ',' + s.driver_id + ')"' : '';
+      var scoredBorder = r.scored ? 'border-left:2px solid var(--gold);' : '';
+      var clickable = r.race_id ? 'style="cursor:pointer;' + scoredBorder + '" onclick="openRaceResults(' + r.race_id + ',' + s.driver_id + ')"' : (scoredBorder ? 'style="' + scoredBorder + '"' : '');
       return '<tr class="' + rowClass + (isDqRow ? ' rr-dq-row' : '') + '" ' + clickable + '><td>' + r.date + '</td>' +
         '<td style="max-width:180px">' + r.track + '</td>' +
         '<td style="max-width:140px;opacity:.7">' + title + '</td>' +
@@ -7303,15 +7303,9 @@ function openDriver(did) {
     '</tr></thead><tbody>';
 
   var bodyHtml = '';
-  if (standingsRaces.length) {
-    bodyHtml += '<div class="modal-section-title">Standings Races (' + standingsRaces.length + ')</div>';
-    bodyHtml += tableHead + raceRows(standingsRaces, false) + '</tbody></table>';
-  }
-  if (nonStandingsRaces.length) {
-    bodyHtml += '<div class="modal-section-title">Other Starts (' + nonStandingsRaces.length + ')</div>';
-    bodyHtml += tableHead + raceRows(nonStandingsRaces, true) + '</tbody></table>';
-  }
-  if (!history.length) {
+  if (sortedHistory.length) {
+    bodyHtml += tableHead + raceRows(sortedHistory) + '</tbody></table>';
+  } else {
     bodyHtml = '<div style="padding:20px;text-align:center;color:rgba(200,200,200,.35)">No race history found.</div>';
   }
 
@@ -7813,7 +7807,7 @@ function openCareerModal(did) {
       + '</div>'
       + '<div class="career-season-races">';
 
-    seasonHistory.forEach(function(r) {
+    seasonHistory.slice().reverse().forEach(function(r) {
       var posColor = r.pos === 1 ? '#FF8000' : r.pos <= 3 ? '#A335EE' : r.pos <= 5 ? '#0070DD' : r.pos <= 10 ? '#1EFF00' : '#C0C0C0';
       var clickable = r.race_id ? 'data-race-id="' + r.race_id + '" data-did="' + did + '" data-season-id="' + season.season_id + '"' : '';
       var rowClass = r.scored ? 'scored' : (r.elig ? 'unscored' : 'ineligible');
