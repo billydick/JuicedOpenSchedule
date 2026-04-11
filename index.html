@@ -599,6 +599,10 @@
     padding:6px 8px;text-align:left;border-bottom:1px solid var(--border);
   }
   .modal-race-table tr:hover td{background:var(--surface2)}
+  .modal-race-table tr.scored td{border-left:2px solid var(--gold);background:rgba(212,160,23,.04)}
+  .modal-race-table tr.scored:hover td{background:rgba(212,160,23,.08)}
+  .modal-race-table tr.unscored td{opacity:.45}
+  .modal-race-table tr.ineligible td{opacity:.22}
   .modal-race-table td{
     font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:600;
     padding:8px 8px;border-bottom:1px solid rgba(37,37,37,.5);color:var(--white);
@@ -7279,14 +7283,13 @@ function openDriver(did) {
     return races.map(function(r) {
       var posClass = r.pos == 1 ? 'modal-pos-win' : r.pos <= 3 ? 'modal-pos-pod' : r.pos <= 5 ? 'modal-pos-top5' : r.pos <= 10 ? 'modal-pos-top10' : '';
       var incClass = r.inc >= 8 ? 'modal-inc-high' : r.inc <= 3 ? 'modal-inc-clean' : '';
-      var rowClass = r.scored ? '' : (r.elig ? 'modal-not-counted' : 'modal-not-counted');
+      var rowClass = r.scored ? 'scored' : (r.elig ? 'unscored' : 'ineligible');
       var title = r.title || r.car || '—';
       var isDqRow = !!(r.is_dq);
       var pts = isDqRow ? '0' : (r.elig ? (r.pts || '0') : '—');
-      var ptsStyle = isDqRow ? 'text-align:center;color:#c00;font-weight:700' : (r.scored ? 'text-align:center;color:var(--gold)' : 'text-align:center');
+      var ptsStyle = isDqRow ? 'text-align:center;color:#c00;font-weight:700' : 'text-align:center';
       var dqBadge = isDqRow ? ' <span style="display:inline-block;padding:1px 4px;background:#c00;color:#fff;font-size:10px;font-weight:900;border-radius:3px;vertical-align:middle">DQ</span>' : '';
-      var scoredBorder = r.scored ? 'border-left:2px solid var(--gold);' : '';
-      var clickable = r.race_id ? 'style="cursor:pointer;' + scoredBorder + '" onclick="openRaceResults(' + r.race_id + ',' + s.driver_id + ')"' : (scoredBorder ? 'style="' + scoredBorder + '"' : '');
+      var clickable = r.race_id ? 'style="cursor:pointer" onclick="openRaceResults(' + r.race_id + ',' + s.driver_id + ')"' : '';
       return '<tr class="' + rowClass + (isDqRow ? ' rr-dq-row' : '') + '" ' + clickable + '><td>' + r.date + '</td>' +
         '<td style="max-width:180px">' + r.track + '</td>' +
         '<td style="max-width:140px;opacity:.7">' + title + '</td>' +
