@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-13T23:02:07.970952+00:00",
-    "total_catches": 21103,
+    "generated_at": "2026-04-13T23:07:09.914813+00:00",
+    "total_catches": 21104,
     "unique_catches": 351,
     "total_players": 715,
     "dex_total": 351,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21103 catches"
+      "sub": "Since launch - 21104 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -370,20 +370,20 @@
         "l": "Nov 20 2025"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 29884,
+        "c": 464,
+        "casts": 464,
+        "l": "Apr 13 2026"
+      },
+      {
         "u": "jking9370",
         "n": "jking9370",
         "g": 29854,
         "c": 396,
         "casts": 396,
         "l": "Oct 27 2025"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 29841,
-        "c": 463,
-        "casts": 463,
-        "l": "Apr 12 2026"
       },
       {
         "u": "justingamez",
@@ -486,10 +486,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 806,
-        "c": 15,
-        "casts": 15,
-        "l": "Apr 12 2026"
+        "g": 849,
+        "c": 16,
+        "casts": 16,
+        "l": "Apr 13 2026"
       },
       {
         "u": "ten23graphics",
@@ -660,8 +660,26 @@
         "l": "Apr 11 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 13 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 13 2026"
+      }
+    ]
   },
   "records": [
     {
@@ -3134,7 +3152,7 @@
       "n": "Zane Smith",
       "custom": true,
       "r": "Common",
-      "c": 127,
+      "c": 128,
       "h": "drswank",
       "v": 51,
       "w": 4.05
@@ -4959,7 +4977,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Truck champ still trying to translate it upstairs",
-      "c": 127,
+      "c": 128,
       "rec": "4.05 lb",
       "v": 51
     },
@@ -7036,6 +7054,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Zane Smith",
+      "w": 42.54,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "Apr 13 2026"
+    },
+    {
       "u": "aquadays",
       "i": "Kenny Wallace",
       "w": 19.88,
@@ -7625,14 +7651,6 @@
       "w": 43.73,
       "v": 87,
       "r": "Rare",
-      "d": "Jan 21 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Golden Redeye Rudd",
-      "w": 0.87,
-      "v": 44,
-      "r": "Uncommon",
       "d": "Jan 21 2026"
     }
   ]
