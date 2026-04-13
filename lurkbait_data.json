@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-13T23:17:14.020338+00:00",
-    "total_catches": 21104,
+    "generated_at": "2026-04-13T23:22:16.041626+00:00",
+    "total_catches": 21105,
     "unique_catches": 351,
     "total_players": 715,
     "dex_total": 351,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21104 catches"
+      "sub": "Since launch - 21105 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -572,6 +572,14 @@
         "l": "Apr 12 2026"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 44,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 13 2026"
+      },
+      {
         "u": "nx1sfancy",
         "n": "nx1sfancy",
         "g": 28,
@@ -662,6 +670,14 @@
     ],
     "weekly": [
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 44,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 13 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 43,
@@ -671,6 +687,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 44,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 13 2026"
+      },
       {
         "u": "juicedracing",
         "n": "juicedracing",
@@ -2963,7 +2987,7 @@
       "n": "Have a Yoga Breath",
       "custom": true,
       "r": "Uncommon",
-      "c": 78,
+      "c": 79,
       "h": "gatoraintplaying",
       "v": 56,
       "w": 1.12
@@ -4680,7 +4704,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "This is a family stream.",
-      "c": 78,
+      "c": 79,
       "rec": "1.12 lb",
       "v": 56
     },
@@ -7054,6 +7078,14 @@
   ],
   "recent": [
     {
+      "u": "dvn_immortalflame",
+      "i": "Have a Yoga Breath",
+      "w": 0.87,
+      "v": 44,
+      "r": "Uncommon",
+      "d": "Apr 13 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Zane Smith",
       "w": 42.54,
@@ -7642,14 +7674,6 @@
       "i": "NEW Visual Flag System Full Package",
       "w": 1.08,
       "v": 81,
-      "r": "Rare",
-      "d": "Jan 21 2026"
-    },
-    {
-      "u": "showtime_84",
-      "i": "Dylan Dowell",
-      "w": 43.73,
-      "v": 87,
       "r": "Rare",
       "d": "Jan 21 2026"
     }
