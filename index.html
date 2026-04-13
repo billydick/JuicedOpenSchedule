@@ -905,15 +905,6 @@
   .lb-stat-label{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:2px;color:rgba(0,200,255,.35);text-transform:uppercase;margin-top:4px}
   .lb-timetabs{display:none;background:#0d1f3a;border-bottom:1px solid rgba(0,200,255,.1);padding:0 32px}
   .lb-timetabs.visible{display:flex}
-  .lb-ldr-tools{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin:10px 0 14px;flex-wrap:wrap}
-  .lb-ldr-tools-left{display:flex;flex-direction:column;gap:8px;min-width:320px;flex:1}
-  .lb-ldr-search{background:#10151d;border:1px solid rgba(0,200,255,.24);color:#d9f7ff;border-radius:10px;padding:12px 14px;font:600 14px/1.2 'Barlow',sans-serif;outline:none;max-width:420px;width:100%}
-  .lb-ldr-search:focus{border-color:#00c8ff;box-shadow:0 0 0 2px rgba(0,200,255,.15)}
-  .lb-ldr-summary{font:700 12px/1.2 'Barlow Condensed',sans-serif;letter-spacing:1.4px;text-transform:uppercase;color:rgba(200,200,200,.62)}
-  .lb-load-more{background:linear-gradient(180deg,#0d2732,#08161d);border:1px solid rgba(0,200,255,.24);color:#9eeeff;border-radius:10px;padding:12px 16px;font:800 12px/1 'Barlow Condensed',sans-serif;letter-spacing:2px;text-transform:uppercase;cursor:pointer;min-width:140px}
-  .lb-load-more:hover{border-color:#00c8ff;color:#fff}
-  .lb-load-more[disabled]{opacity:.35;cursor:default}
-  @media (max-width:768px){.lb-ldr-tools{flex-direction:column}.lb-load-more{width:100%}.lb-ldr-tools-left{min-width:0;width:100%}.lb-ldr-search{max-width:none}}
   .lb-timetab{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,255,.3);padding:14px 22px;cursor:pointer;border:none;background:none;border-bottom:2px solid transparent;transition:color .15s,border-color .15s}
   .lb-timetab:hover{color:rgba(200,200,255,.65)}.lb-timetab.active{color:#00c8ff;border-bottom-color:#00c8ff}
   .lb-sectabs{display:flex;background:#0D0D0D;border-bottom:1px solid #252525;padding:0 32px}
@@ -1073,12 +1064,9 @@
   <div class="lb-panel active" id="lb-panel-leaderboard">
     <div id="lb-comp-banner"></div>
     <div class="lb-sec-label">Gold Rankings</div>
-    <div class="lb-ldr-tools" id="lb-ldr-tools">
-      <div class="lb-ldr-tools-left">
-        <input id="lb-alltime-search" class="lb-ldr-search" type="text" placeholder="Search all-time anglers" oninput="lbOnAlltimeSearch(this.value)">
-        <div id="lb-alltime-summary" class="lb-ldr-summary"></div>
-      </div>
-      <button id="lb-load-more" class="lb-load-more" type="button" onclick="lbLoadMore()">Load 50 More</button>
+    <div class="lb-alltime-tools" id="lb-alltime-tools" style="display:none">
+      <input id="lb-alltime-search" class="lb-alltime-search" type="text" placeholder="Search all-time anglers..." oninput="lbAlltimeSearchChanged(this.value)">
+      <div class="lb-alltime-meta" id="lb-alltime-meta"></div>
     </div>
     <div class="lb-ldr-wrap">
       <div class="lb-ldr-row lb-ldr-head">
@@ -1089,6 +1077,9 @@
         <div class="lb-ldr-hcell r">Last Cast</div>
       </div>
       <div id="lb-ldr-body"></div>
+    </div>
+    <div class="lb-loadmore-wrap" id="lb-loadmore-wrap" style="display:none">
+      <button class="lb-loadmore-btn" onclick="lbLoadMore()">Load 50 More</button>
     </div>
   </div>
   <div class="lb-panel" id="lb-panel-records">
@@ -9675,60 +9666,15 @@ function lbThumb(name,isCustom){
     if(lbCurTime==='daily') return LB_DB.leaderboards.daily || [];
     return LB_DB.leaderboards.alltime || [];
   }
-  function lbGetAlltimeFilteredData(){
-    var data = LB_DB.leaderboards.alltime || [];
-    var q = (lbAlltimeSearch || '').trim().toLowerCase();
-    if(!q) return data;
-    return data.filter(function(p){
-      var name = String(p.n || p.u || '').toLowerCase();
-      return name.indexOf(q) !== -1;
-    });
-  }
-  function lbUpdateLeaderboardControls(fullData, shownData){
-    var tools = document.getElementById('lb-ldr-tools');
-    var summary = document.getElementById('lb-alltime-summary');
-    var search = document.getElementById('lb-alltime-search');
-    var loadBtn = document.getElementById('lb-load-more');
-    var isAlltime = lbCurTime==='alltime';
-    if(tools) tools.style.display = isAlltime ? 'flex' : 'none';
-    if(!isAlltime){
-      if(search) search.value='';
-      if(summary) summary.textContent='';
-      if(loadBtn){ loadBtn.style.display='none'; loadBtn.disabled=true; }
-      return;
-    }
-    if(search && search.value !== lbAlltimeSearch) search.value = lbAlltimeSearch;
-    var total = fullData.length;
-    var shown = shownData.length;
-    if(summary){
-      summary.textContent = lbAlltimeSearch ? ('Showing '+shown.toLocaleString()+' match'+(shown===1?'':'es')+' of '+total.toLocaleString()+' anglers') : ('Showing '+shown.toLocaleString()+' of '+total.toLocaleString()+' anglers');
-    }
-    if(loadBtn){
-      var searching = !!(lbAlltimeSearch || '').trim();
-      var canMore = !searching && shown < total;
-      loadBtn.style.display = canMore ? 'inline-flex' : 'none';
-      loadBtn.disabled = !canMore;
-    }
-  }
-  window.lbOnAlltimeSearch=function(v){
-    lbAlltimeSearch = v || '';
-    lbRenderLeaderboard();
-  };
-  window.lbLoadMore=function(){
-    if(lbCurTime!=='alltime') return;
-    lbAlltimeVisible += lbAlltimeStep;
-    lbRenderLeaderboard();
-  };
   window.lbSetTime=function(t,btn){
     lbCurTime=t;
-    if(t!=='alltime'){
-      lbAlltimeSearch='';
-      lbAlltimeVisible=50;
-    }
     document.querySelectorAll('.lb-timetab').forEach(function(b){b.classList.remove('active')});
     btn.classList.add('active');
+    if(t!=='alltime'){ lbAlltimeSearch=''; var s=document.getElementById('lb-alltime-search'); if(s) s.value=''; }
     lbRenderLeaderboard();
   };
+  window.lbAlltimeSearchChanged=function(v){ lbAlltimeSearch=(v||'').toLowerCase().trim(); lbRenderLeaderboard(); };
+  window.lbLoadMore=function(){ lbAlltimeVisible += lbAlltimeStep; lbRenderLeaderboard(); };
   window.lbSetSec=function(s,btn){
     document.querySelectorAll('.lb-sectab').forEach(function(b){b.classList.remove('active')});
     document.querySelectorAll('#page-lurkbait .lb-panel').forEach(function(p){p.classList.remove('active')});
@@ -9763,36 +9709,52 @@ function lbThumb(name,isCustom){
   }
   function lbRenderLeaderboard(){
     lbRenderBanner();
-    var data = lbCurTime==='alltime' ? lbGetAlltimeFilteredData() : lbGetData();
-    var displayData = data;
-    if(lbCurTime==='alltime' && !(lbAlltimeSearch || '').trim()){
-      displayData = data.slice(0, lbAlltimeVisible);
+    var data=lbGetData();
+    var isAllTime = lbCurTime==='alltime';
+    var tools=document.getElementById('lb-alltime-tools');
+    var meta=document.getElementById('lb-alltime-meta');
+    var loadWrap=document.getElementById('lb-loadmore-wrap');
+    var filtered=data;
+    if(isAllTime && lbAlltimeSearch){
+      filtered=data.filter(function(p){ var n=(p.n||p.u||'').toLowerCase(); return n.indexOf(lbAlltimeSearch)!==-1; });
     }
-    var maxG = displayData[0] ? displayData[0].g : (data[0] ? data[0].g : 1);
-    document.getElementById('lb-ldr-body').innerHTML=displayData.map(function(p,i){
-      var rank = lbCurTime==='alltime' ? ((LB_DB.leaderboards.alltime || []).findIndex(function(x){ return (x.n||x.u)===(p.n||p.u); }) + 1) : (i+1);
-      if(rank<=0) rank=i+1;
+    var visible = filtered;
+    if(isAllTime && !lbAlltimeSearch){
+      visible = filtered.slice(0, lbAlltimeVisible);
+    }
+    if(tools) tools.style.display=isAllTime?'flex':'none';
+    if(meta){
+      if(!isAllTime) meta.textContent='';
+      else if(lbAlltimeSearch) meta.textContent='Showing '+visible.length.toLocaleString()+' matching anglers';
+      else meta.textContent='Showing '+visible.length.toLocaleString()+' of '+filtered.length.toLocaleString()+' anglers';
+    }
+    if(loadWrap){
+      loadWrap.style.display=(isAllTime && !lbAlltimeSearch && visible.length < filtered.length)?'flex':'none';
+    }
+    var maxG = filtered[0]?filtered[0].g:1;
+    document.getElementById('lb-ldr-body').innerHTML=visible.map(function(p,i){
+      var rank=i+1;
       var col, sz, bg;
       if(rank===1){col='#FF8000';sz='36px';bg='linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)';}
       else if(rank===2){col='#A335EE';sz='28px';bg='linear-gradient(90deg,rgba(163,53,238,0.06) 0%,transparent 60%)';}
-      else if(rank===3){col='#A335EE';sz='28px';bg='linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)';}
+      else if(rank===3){col='#0070DD';sz='28px';bg='linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)';}
       else if(rank<=5){col='#A335EE';sz='28px';bg='';}
       else if(rank<=10){col='#0070DD';sz='26px';bg='';}
-      else{col='#1EFF00';sz='24px';bg='';}
-      var you=p.n==='juicedracing'?' lb-ldr-you':'';
-      var barW = Math.round(((p.g||0)/(maxG||1))*100);
+      else if(rank<=20){col='#1EFF00';sz='24px';bg='';}
+      else{col='#FFF';sz='24px';bg='';}
+      var you=(p.n||'').toLowerCase()==='juicedracing'?' lb-ldr-you':'';
+      var barW = maxG ? Math.round((p.g/maxG)*100) : 0;
       return '<div class="lb-ldr-row'+you+'" style="background:'+bg+'">'+
         '<div class="lb-ldr-rank" style="color:'+col+';font-size:'+sz+'">'+rank+'</div>'+
         '<div class="lb-ldr-name-col">'+
-          '<div class="lb-ldr-name" style="color:'+col+'">'+p.n+'</div>'+
+          '<div class="lb-ldr-name" style="color:'+col+'">'+(p.n||p.u||'Unknown')+'</div>'+
           '<div class="lb-ldr-bar"><div class="lb-ldr-bar-fill" style="width:'+barW+'%;background:'+col+'"></div></div>'+
         '</div>'+
-        '<div class="lb-ldr-gold" style="color:'+col+'">'+p.g.toLocaleString()+'</div>'+
-        '<div class="lb-ldr-casts">'+p.c.toLocaleString()+' casts</div>'+
-        '<div class="lb-ldr-date">'+p.l+'</div>'+
+        '<div class="lb-ldr-gold" style="color:'+col+'">'+Number(p.g||0).toLocaleString()+'</div>'+
+        '<div class="lb-ldr-casts">'+Number(p.c||0).toLocaleString()+' casts</div>'+
+        '<div class="lb-ldr-date">'+(p.l||'')+'</div>'+
       '</div>';
     }).join('');
-    lbUpdateLeaderboardControls(data, displayData);
   }
   function lbRenderRecords(){
     var ar = LB_DB.angler_records || {};
