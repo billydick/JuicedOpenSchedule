@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-04-13T20:14:23.212728+00:00",
+    "generated_at": "2026-04-13T20:18:08.305939+00:00",
     "total_catches": 21103,
     "unique_catches": 351,
     "total_players": 715,
-    "dex_total": 0,
-    "caught_total": 0,
-    "dex_completion": 0.0,
-    "custom_catch_count": 0,
+    "dex_total": 351,
+    "caught_total": 351,
+    "dex_completion": 100.0,
+    "custom_catch_count": 230,
     "custom_catch_files": [
       "$25 iRacing Creds.png",
       "1987 Wrangler.jpg",
@@ -739,7 +739,7 @@
     },
     {
       "n": "Kyle Busch",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 21,
       "h": "dowinkle",
@@ -757,7 +757,7 @@
     },
     {
       "n": "Denny Hamlin",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 19,
       "h": "wintergofast",
@@ -775,7 +775,7 @@
     },
     {
       "n": "iRacer Jesse Winslow",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 9,
       "h": "fjvgaming",
@@ -784,7 +784,7 @@
     },
     {
       "n": "Dale Earnhardt",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 21,
       "h": "benwysard",
@@ -793,7 +793,7 @@
     },
     {
       "n": "T-REX",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 25,
       "h": "eheye",
@@ -802,7 +802,7 @@
     },
     {
       "n": "Pitt Box",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 23,
       "h": "juicedracing",
@@ -820,7 +820,7 @@
     },
     {
       "n": "Ralph Moody",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 27,
       "h": "sigiseinsameminimurmel",
@@ -838,7 +838,7 @@
     },
     {
       "n": "Ricky Rudd",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 24,
       "h": "jowinslow",
@@ -847,7 +847,7 @@
     },
     {
       "n": "Donnie Allison",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 24,
       "h": "pvtcrackpot",
@@ -856,7 +856,7 @@
     },
     {
       "n": "Ross Chastain",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 31,
       "h": "brian_wertman_74",
@@ -865,7 +865,7 @@
     },
     {
       "n": "NASCAR Fans",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 30,
       "h": "foxxtruckin",
@@ -874,7 +874,7 @@
     },
     {
       "n": "Max Verstappen",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 21,
       "h": "bax_mayhem_inc",
@@ -883,7 +883,7 @@
     },
     {
       "n": "Andrews 4 Speed Transmission",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 27,
       "h": "wintergofast",
@@ -892,7 +892,7 @@
     },
     {
       "n": "87 Monte Carlo",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 25,
       "h": "dogger_101",
@@ -901,7 +901,7 @@
     },
     {
       "n": "Dale Earnhardt Jr.",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 35,
       "h": "justingamez",
@@ -928,7 +928,7 @@
     },
     {
       "n": "Whole NASCAR",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 30,
       "h": "casperfrnk09",
@@ -937,7 +937,7 @@
     },
     {
       "n": "Red Farmer",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 23,
       "h": "pintouc",
@@ -946,7 +946,7 @@
     },
     {
       "n": "Michael Jordan",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 17,
       "h": "karnalsanders",
@@ -955,7 +955,7 @@
     },
     {
       "n": "Circuit Of The Americas",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 23,
       "h": "riflehog",
@@ -964,7 +964,7 @@
     },
     {
       "n": "Tony Stewart",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 33,
       "h": "krueger1981",
@@ -973,7 +973,7 @@
     },
     {
       "n": "Richard Petty",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 24,
       "h": "scriptedpr",
@@ -982,7 +982,7 @@
     },
     {
       "n": "Carl Edwards",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 33,
       "h": "ironlegacy_",
@@ -991,7 +991,7 @@
     },
     {
       "n": "Phoenix Raceway",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 22,
       "h": "tamahawkz",
@@ -1000,7 +1000,7 @@
     },
     {
       "n": "A License",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 35,
       "h": "pvtcrackpot",
@@ -1018,7 +1018,7 @@
     },
     {
       "n": "Darrell Waltrip",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 5,
       "h": "motionless",
@@ -1027,7 +1027,7 @@
     },
     {
       "n": "Roll Cage",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 27,
       "h": "dogger_101",
@@ -1036,7 +1036,7 @@
     },
     {
       "n": "Frankie Muniz",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 24,
       "h": "pvtcrackpot",
@@ -1045,7 +1045,7 @@
     },
     {
       "n": "Micro Sprint Chassis",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 24,
       "h": "rob_pickle12",
@@ -1054,7 +1054,7 @@
     },
     {
       "n": "Hershel McGriff",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 38,
       "h": "illuminodie",
@@ -1063,7 +1063,7 @@
     },
     {
       "n": "Kenny Wallace",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 26,
       "h": "justingamez",
@@ -1072,7 +1072,7 @@
     },
     {
       "n": "Simucube 2 Ultimate",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 26,
       "h": "motionless",
@@ -1081,7 +1081,7 @@
     },
     {
       "n": "Simucube ActivePedal",
-      "custom": false,
+      "custom": true,
       "r": "Legendary",
       "c": 35,
       "h": "dontuu",
@@ -1117,7 +1117,7 @@
     },
     {
       "n": "iRacer - Francisco J Villarreal (FJV)",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 10,
       "h": "drewieblaster",
@@ -1135,7 +1135,7 @@
     },
     {
       "n": "iRacer Dominic Wright",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 17,
       "h": "ironlegacy_",
@@ -1144,7 +1144,7 @@
     },
     {
       "n": "iRacer - Lincoln Bond AKA ChitHole",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 23,
       "h": "ironlegacy_",
@@ -1153,7 +1153,7 @@
     },
     {
       "n": "Daniel Suarez",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 49,
       "h": "ironlegacy_",
@@ -1162,7 +1162,7 @@
     },
     {
       "n": "HELLRAIZER DEMON JACK",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 34,
       "h": "jking9370",
@@ -1171,7 +1171,7 @@
     },
     {
       "n": "Kirk Shelmerdine",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 38,
       "h": "ricofyi",
@@ -1180,7 +1180,7 @@
     },
     {
       "n": "William Byron",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 34,
       "h": "motionless",
@@ -1189,7 +1189,7 @@
     },
     {
       "n": "Simagic Alpha U",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 44,
       "h": "casperfrnk09",
@@ -1198,7 +1198,7 @@
     },
     {
       "n": "Stange Oval-Kera Dirt Late Model Gun Drilled Axle",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 35,
       "h": "zee20ate",
@@ -1207,7 +1207,7 @@
     },
     {
       "n": "Win @ Daytona",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 30,
       "h": "thebtm1",
@@ -1216,7 +1216,7 @@
     },
     {
       "n": "Talladega",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 36,
       "h": "truble135",
@@ -1225,7 +1225,7 @@
     },
     {
       "n": "1987 Wrangler",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 41,
       "h": "epicpoggersinthechatplz",
@@ -1234,7 +1234,7 @@
     },
     {
       "n": "87 Ford Thunderbird",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "fjvgaming",
@@ -1243,7 +1243,7 @@
     },
     {
       "n": "3rd @ Sonoma Raceway",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 49,
       "h": "nwoods56",
@@ -1252,7 +1252,7 @@
     },
     {
       "n": "iRacer - Jesse Winslow",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 31,
       "h": "simonmark21",
@@ -1261,7 +1261,7 @@
     },
     {
       "n": "iRacer - Jeff Purchatzke",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 20,
       "h": "krueger1981",
@@ -1270,7 +1270,7 @@
     },
     {
       "n": "iRacer - Kirk Martin",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 24,
       "h": "em1_c1v1c_si_rac1ng",
@@ -1288,7 +1288,7 @@
     },
     {
       "n": "Buddy Baker",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 40,
       "h": "flippy00",
@@ -1297,7 +1297,7 @@
     },
     {
       "n": "Joey Logano",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 33,
       "h": "nflxmiller",
@@ -1315,7 +1315,7 @@
     },
     {
       "n": "iRacer - Noah Woods",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 12,
       "h": "juicedracing",
@@ -1324,7 +1324,7 @@
     },
     {
       "n": "iRacer - Francisco J Villarreal",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 22,
       "h": "mildgooses",
@@ -1333,7 +1333,7 @@
     },
     {
       "n": "iRacer Kirk Martin",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 22,
       "h": "vanilia27xxx",
@@ -1342,7 +1342,7 @@
     },
     {
       "n": "iRacer - Jessie Winslow",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 16,
       "h": "pvtcrackpot",
@@ -1351,7 +1351,7 @@
     },
     {
       "n": "World Wide Technology Raceway",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 27,
       "h": "pvtcrackpot",
@@ -1360,7 +1360,7 @@
     },
     {
       "n": "Matt Kenseth",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "riflehog",
@@ -1369,7 +1369,7 @@
     },
     {
       "n": "Brad Keselowski",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 48,
       "h": "maui_199",
@@ -1396,7 +1396,7 @@
     },
     {
       "n": "Kyle Larson",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "jking9370",
@@ -1405,7 +1405,7 @@
     },
     {
       "n": "Florence Motor Speedway tickets!",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 25,
       "h": "dontuu",
@@ -1414,7 +1414,7 @@
     },
     {
       "n": "Michael Waltrip",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 5,
       "h": "78motu78",
@@ -1423,7 +1423,7 @@
     },
     {
       "n": "TR160 Mk4 Racing Simulator",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 35,
       "h": "flippy00",
@@ -1432,7 +1432,7 @@
     },
     {
       "n": "Tyler Reddick",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "motionless",
@@ -1441,7 +1441,7 @@
     },
     {
       "n": "iRacer - Cody Schlaudecker",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 18,
       "h": "ironlegacy_",
@@ -1450,7 +1450,7 @@
     },
     {
       "n": "Bobby Labonte",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 32,
       "h": "jking9370",
@@ -1459,7 +1459,7 @@
     },
     {
       "n": "Drew Baum",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 15,
       "h": "karnalsanders",
@@ -1468,7 +1468,7 @@
     },
     {
       "n": "iRacer_Jesse Winslow",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 25,
       "h": "benwysard",
@@ -1477,7 +1477,7 @@
     },
     {
       "n": "Jaime Little",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 9,
       "h": "motionless",
@@ -1486,7 +1486,7 @@
     },
     {
       "n": "Mike Joy",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 4,
       "h": "showtime_84",
@@ -1495,7 +1495,7 @@
     },
     {
       "n": "Ryan Blaney",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 32,
       "h": "motionless",
@@ -1504,7 +1504,7 @@
     },
     {
       "n": "iRacer - Cory Abbott",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 10,
       "h": "motionless",
@@ -1513,7 +1513,7 @@
     },
     {
       "n": "iRacer - Simon Lindmark",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 17,
       "h": "tackolish",
@@ -1531,7 +1531,7 @@
     },
     {
       "n": "iRacer - Tony Brent",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 19,
       "h": "thatoneunk",
@@ -1549,7 +1549,7 @@
     },
     {
       "n": "iRacer - Brandon Williams",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 22,
       "h": "ricofyi",
@@ -1558,7 +1558,7 @@
     },
     {
       "n": "iRacer  Cody Schlaudecker",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 21,
       "h": "ken_dj",
@@ -1567,7 +1567,7 @@
     },
     {
       "n": "iRacer . Cody Schlaudecker",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 5,
       "h": "karnalsanders",
@@ -1576,7 +1576,7 @@
     },
     {
       "n": "iRacer - Kyle Terczak",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 21,
       "h": "motionless",
@@ -1594,7 +1594,7 @@
     },
     {
       "n": "iRacer - Alayton Norgard",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 9,
       "h": "derrezz",
@@ -1612,7 +1612,7 @@
     },
     {
       "n": "iRacer_Cody Schlaudecker",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 18,
       "h": "krueger1981",
@@ -1621,7 +1621,7 @@
     },
     {
       "n": "Pit Crew",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 34,
       "h": "karnalsanders",
@@ -1639,7 +1639,7 @@
     },
     {
       "n": "iRacer Cazz Bedford",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 5,
       "h": "scaryfr0",
@@ -1648,7 +1648,7 @@
     },
     {
       "n": "iRacer - Jay Sanchez",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 18,
       "h": "motionless",
@@ -1666,7 +1666,7 @@
     },
     {
       "n": "iRacer _ Jesse Winslow",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 24,
       "h": "fry10ck",
@@ -1675,7 +1675,7 @@
     },
     {
       "n": "LAS VEGAS MOTOR SPEEDWAY",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 47,
       "h": "riflehog",
@@ -1684,7 +1684,7 @@
     },
     {
       "n": "Next Gen Camry",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 39,
       "h": "karnalsanders",
@@ -1693,7 +1693,7 @@
     },
     {
       "n": "Craftsman Tundra",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 42,
       "h": "pintouc",
@@ -1702,7 +1702,7 @@
     },
     {
       "n": "Matt Tyrrekk",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 24,
       "h": "benwysard",
@@ -1711,7 +1711,7 @@
     },
     {
       "n": "Chris Buescher",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 39,
       "h": "ricofyi",
@@ -1720,7 +1720,7 @@
     },
     {
       "n": "Chase Elliott",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 52,
       "h": "gogglezpizano",
@@ -1729,7 +1729,7 @@
     },
     {
       "n": "KOOLBOX IV DRIVER AC",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 41,
       "h": "benwysard",
@@ -1738,7 +1738,7 @@
     },
     {
       "n": "Used 2022 Alex Bowman Ally Hood",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 48,
       "h": "riflehog",
@@ -1747,7 +1747,7 @@
     },
     {
       "n": "Martin Truex Jr",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 45,
       "h": "juicedracing",
@@ -1756,7 +1756,7 @@
     },
     {
       "n": "PFC Rear Calipers",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 54,
       "h": "belyy92",
@@ -1765,7 +1765,7 @@
     },
     {
       "n": "VNM Sim Racing 3-Pedal Set",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 38,
       "h": "phantommarine",
@@ -1774,7 +1774,7 @@
     },
     {
       "n": "Chad Knaus",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 42,
       "h": "gracingthgoat",
@@ -1783,7 +1783,7 @@
     },
     {
       "n": "Charlotte Motor Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 30,
       "h": "justingamez",
@@ -1792,7 +1792,7 @@
     },
     {
       "n": "87 Le Sabre",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 34,
       "h": "dogger_101",
@@ -1801,7 +1801,7 @@
     },
     {
       "n": "Joel Bouagnon",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 29,
       "h": "riflehog",
@@ -1810,7 +1810,7 @@
     },
     {
       "n": "Caleb Dirks",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 28,
       "h": "vanilia27xxx",
@@ -1819,7 +1819,7 @@
     },
     {
       "n": "Waddell Wilson",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 36,
       "h": "callmedeutsch",
@@ -1828,7 +1828,7 @@
     },
     {
       "n": "Joe Gibbs",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "lispyinfamous",
@@ -1837,7 +1837,7 @@
     },
     {
       "n": "Ricky Stenhouse Jr",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 46,
       "h": "pony_r6",
@@ -1864,7 +1864,7 @@
     },
     {
       "n": "MCLAREN NASCAR DIGITAL DASH",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 44,
       "h": "dentedcan",
@@ -1873,7 +1873,7 @@
     },
     {
       "n": "B License",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 39,
       "h": "scripture_",
@@ -1909,7 +1909,7 @@
     },
     {
       "n": "87 Pontiac Gran Prix",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 39,
       "h": "scripture_",
@@ -1918,7 +1918,7 @@
     },
     {
       "n": "Xfinity Camry",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 47,
       "h": "sjbhomebrew",
@@ -1927,7 +1927,7 @@
     },
     {
       "n": "Nick McBeath",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 33,
       "h": "jking9370",
@@ -1936,7 +1936,7 @@
     },
     {
       "n": "Next Gen Camaro",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 52,
       "h": "realiist1",
@@ -1945,7 +1945,7 @@
     },
     {
       "n": "Xfinity Camaro",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 50,
       "h": "pvtcrackpot",
@@ -1954,7 +1954,7 @@
     },
     {
       "n": "Xfinity Mustang",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 55,
       "h": "goonrspecial",
@@ -1963,7 +1963,7 @@
     },
     {
       "n": "Lee Cunningham",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 37,
       "h": "pvtcrackpot",
@@ -1972,7 +1972,7 @@
     },
     {
       "n": "Next Gen Mustang",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 39,
       "h": "wintergofast",
@@ -1981,7 +1981,7 @@
     },
     {
       "n": "Derrell Edwards",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 33,
       "h": "motionless",
@@ -2008,7 +2008,7 @@
     },
     {
       "n": "iRacer Franciso J Villarreal",
-      "custom": false,
+      "custom": true,
       "r": "Epic",
       "c": 30,
       "h": "karnalsanders",
@@ -2062,7 +2062,7 @@
     },
     {
       "n": "Craftman F100",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 39,
       "h": "ironlegacy_",
@@ -2071,7 +2071,7 @@
     },
     {
       "n": "Homestead-Miami Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 42,
       "h": "riflehog",
@@ -2080,7 +2080,7 @@
     },
     {
       "n": "Kansas Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 31,
       "h": "justingamez",
@@ -2089,7 +2089,7 @@
     },
     {
       "n": "Blake Houston",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "motionless",
@@ -2098,7 +2098,7 @@
     },
     {
       "n": "Peyton Moore",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 31,
       "h": "jking9370",
@@ -2107,7 +2107,7 @@
     },
     {
       "n": "Kenneth Purcell",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 32,
       "h": "fjvgaming",
@@ -2116,7 +2116,7 @@
     },
     {
       "n": "Kieston France",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 33,
       "h": "fjvgaming",
@@ -2125,7 +2125,7 @@
     },
     {
       "n": "Jake Holmes",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "mrdrwaddles",
@@ -2134,7 +2134,7 @@
     },
     {
       "n": "Alex Bowman",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 42,
       "h": "simonmark21",
@@ -2143,7 +2143,7 @@
     },
     {
       "n": "Austin Cindric",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "dontuu",
@@ -2152,7 +2152,7 @@
     },
     {
       "n": "Chase Briscoe",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "hitmanjack3",
@@ -2161,7 +2161,7 @@
     },
     {
       "n": "Christopher Bell",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 46,
       "h": "motionless",
@@ -2170,7 +2170,7 @@
     },
     {
       "n": "Ricky Bobby",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 57,
       "h": "jking9370",
@@ -2206,7 +2206,7 @@
     },
     {
       "n": "Mike Hicks",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 31,
       "h": "dontuu",
@@ -2215,7 +2215,7 @@
     },
     {
       "n": "Watkins Glen Int.",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 41,
       "h": "juicedracing",
@@ -2224,7 +2224,7 @@
     },
     {
       "n": "CJ Bailey",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 27,
       "h": "brian_wertman_74",
@@ -2233,7 +2233,7 @@
     },
     {
       "n": "Button Box",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 48,
       "h": "pvtcrackpot",
@@ -2242,7 +2242,7 @@
     },
     {
       "n": "VNM handbrake V1",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 37,
       "h": "flippy00",
@@ -2251,7 +2251,7 @@
     },
     {
       "n": "Green Flag",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 59,
       "h": "goonrspecial",
@@ -2260,7 +2260,7 @@
     },
     {
       "n": "Race Suit",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 45,
       "h": "wintergofast",
@@ -2269,7 +2269,7 @@
     },
     {
       "n": "Rockingham Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "phantommarine",
@@ -2278,7 +2278,7 @@
     },
     {
       "n": "Cole Custer",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 4,
       "h": "mrdrwaddles",
@@ -2287,7 +2287,7 @@
     },
     {
       "n": "Penske Road Race Shock Set",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 47,
       "h": "wintergofast",
@@ -2296,7 +2296,7 @@
     },
     {
       "n": "Ty Gibbs",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 32,
       "h": "som3th1ng_",
@@ -2305,7 +2305,7 @@
     },
     {
       "n": "Harrison Burton",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 47,
       "h": "ironlegacy_",
@@ -2323,7 +2323,7 @@
     },
     {
       "n": "Devin Youker",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 32,
       "h": "eheye",
@@ -2332,7 +2332,7 @@
     },
     {
       "n": "AJ Rosini",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 32,
       "h": "pvtcrackpot",
@@ -2341,7 +2341,7 @@
     },
     {
       "n": "Craftsman Silverado",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 32,
       "h": "raising_cain_909",
@@ -2350,7 +2350,7 @@
     },
     {
       "n": "Dylan Dowell",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 24,
       "h": "pvtcrackpot",
@@ -2359,7 +2359,7 @@
     },
     {
       "n": "AJ Allmendinger",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 4,
       "h": "dogger_101",
@@ -2467,7 +2467,7 @@
     },
     {
       "n": "Martinsville Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 54,
       "h": "jdawg250f",
@@ -2476,7 +2476,7 @@
     },
     {
       "n": "Thomas Hatcher",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 35,
       "h": "colerusseii",
@@ -2485,7 +2485,7 @@
     },
     {
       "n": "Braxton Brannon",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 39,
       "h": "flippy00",
@@ -2494,7 +2494,7 @@
     },
     {
       "n": "Used Power Steering Pump",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 36,
       "h": "goonrspecial",
@@ -2503,7 +2503,7 @@
     },
     {
       "n": "Genesis Series Adjustable Shocks",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 59,
       "h": "78motu78",
@@ -2512,7 +2512,7 @@
     },
     {
       "n": "FUEL CELL TOP",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 65,
       "h": "laleb467",
@@ -2521,7 +2521,7 @@
     },
     {
       "n": "9inch Ring & Pinions",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 70,
       "h": "scriptedpr",
@@ -2530,7 +2530,7 @@
     },
     {
       "n": "AC RACING BRAKE",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 62,
       "h": "drewieblaster",
@@ -2539,7 +2539,7 @@
     },
     {
       "n": "THROTTLE RETURN SPRING KIT",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 54,
       "h": "ironlegacy_",
@@ -2548,7 +2548,7 @@
     },
     {
       "n": "C License",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 41,
       "h": "itzdubsta",
@@ -2557,7 +2557,7 @@
     },
     {
       "n": "Mini Stock",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 36,
       "h": "benwysard",
@@ -2566,7 +2566,7 @@
     },
     {
       "n": "Used Spek 5inch Tach",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 63,
       "h": "dontuu",
@@ -2575,7 +2575,7 @@
     },
     {
       "n": "Riley Herbst",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 6,
       "h": "pvtcrackpot",
@@ -2584,7 +2584,7 @@
     },
     {
       "n": "Jackson Gibbs",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 37,
       "h": "dontuu",
@@ -2593,7 +2593,7 @@
     },
     {
       "n": "Ian Anderson",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 46,
       "h": "pvtcrackpot",
@@ -2602,7 +2602,7 @@
     },
     {
       "n": "Kevon Jackson",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 42,
       "h": "krueger1981",
@@ -2611,7 +2611,7 @@
     },
     {
       "n": "Carbon Fiber Digital Dash",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 56,
       "h": "fjvgaming",
@@ -2620,7 +2620,7 @@
     },
     {
       "n": "USED NASCAR WINDOW NETS",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 46,
       "h": "justingamez",
@@ -2629,7 +2629,7 @@
     },
     {
       "n": "Atlanta Motor Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 46,
       "h": "pvtcrackpot",
@@ -2638,7 +2638,7 @@
     },
     {
       "n": "NEW Visual Flag System Full Package",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 54,
       "h": "peegeripper",
@@ -2710,7 +2710,7 @@
     },
     {
       "n": "Auto Club Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Rare",
       "c": 60,
       "h": "1disruptiveduck",
@@ -2782,7 +2782,7 @@
     },
     {
       "n": "Simagic - Alpha Mounting bracket",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 56,
       "h": "grumpymitch1",
@@ -2791,7 +2791,7 @@
     },
     {
       "n": "Iowa Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 66,
       "h": "duel_king320",
@@ -2800,7 +2800,7 @@
     },
     {
       "n": "Floor Jack",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 87,
       "h": "juicedracing",
@@ -2809,7 +2809,7 @@
     },
     {
       "n": "Sway Bar Clamps",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 76,
       "h": "riflehog",
@@ -2827,7 +2827,7 @@
     },
     {
       "n": "Gas Can",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 80,
       "h": "karnalsanders",
@@ -2836,7 +2836,7 @@
     },
     {
       "n": "CHEVY SB-2 INTAKE",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 73,
       "h": "wintergofast",
@@ -2845,7 +2845,7 @@
     },
     {
       "n": "Scuffed Tires",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 82,
       "h": "dogger_101",
@@ -2854,7 +2854,7 @@
     },
     {
       "n": "CSL Pedals",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 85,
       "h": "maui_199",
@@ -2863,7 +2863,7 @@
     },
     {
       "n": "Carb Spacer Plates",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 73,
       "h": "dentedcan",
@@ -2872,7 +2872,7 @@
     },
     {
       "n": "Daytona International Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 79,
       "h": "jdawg250f",
@@ -2881,7 +2881,7 @@
     },
     {
       "n": "Double Adjustable Steel J-Bar",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 75,
       "h": "ironlegacy_",
@@ -2890,7 +2890,7 @@
     },
     {
       "n": "HANS Device",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 75,
       "h": "motionless",
@@ -2899,7 +2899,7 @@
     },
     {
       "n": "KEISER FUEL REGULATOR & FILTER",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 75,
       "h": "motionless",
@@ -2908,7 +2908,7 @@
     },
     {
       "n": "MPI Rim",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 73,
       "h": "dowinkle",
@@ -2917,7 +2917,7 @@
     },
     {
       "n": "D License",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 69,
       "h": "thebtm1",
@@ -2926,7 +2926,7 @@
     },
     {
       "n": "NASCAR NACHOS",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 69,
       "h": "benwysard",
@@ -2935,7 +2935,7 @@
     },
     {
       "n": "NASCAR Tickets",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 86,
       "h": "pvtcrackpot",
@@ -2944,7 +2944,7 @@
     },
     {
       "n": "Sim Racing Shoes",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 83,
       "h": "em1_civic_si_racing",
@@ -2953,7 +2953,7 @@
     },
     {
       "n": "Zebra Cakes",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 73,
       "h": "pvtcrackpot",
@@ -2962,7 +2962,7 @@
     },
     {
       "n": "Have a Yoga Breath",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 78,
       "h": "gatoraintplaying",
@@ -2971,7 +2971,7 @@
     },
     {
       "n": "MWR BATTERY CONNECTOR WIRING",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 79,
       "h": "goetzlife",
@@ -2980,7 +2980,7 @@
     },
     {
       "n": "Sim Racing Gloves",
-      "custom": false,
+      "custom": true,
       "r": "Uncommon",
       "c": 88,
       "h": "ironlegacy_",
@@ -3106,7 +3106,7 @@
     },
     {
       "n": "Jimmie Johnson",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 64,
       "h": "snaney",
@@ -3115,7 +3115,7 @@
     },
     {
       "n": "John H. Nemechek",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 116,
       "h": "drewieblaster",
@@ -3124,7 +3124,7 @@
     },
     {
       "n": "Josh Berry",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 129,
       "h": "goonrspecial",
@@ -3133,7 +3133,7 @@
     },
     {
       "n": "Carson Hocevar",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 78,
       "h": "78motu78",
@@ -3142,7 +3142,7 @@
     },
     {
       "n": "Noah Gragson",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 149,
       "h": "dogger_101",
@@ -3151,7 +3151,7 @@
     },
     {
       "n": "Zane Smith",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 127,
       "h": "drswank",
@@ -3205,7 +3205,7 @@
     },
     {
       "n": "Darlington Raceway",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 101,
       "h": "nwoods56",
@@ -3214,7 +3214,7 @@
     },
     {
       "n": "Katherine Legge",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 18,
       "h": "x_killswitch22_x",
@@ -3223,7 +3223,7 @@
     },
     {
       "n": "Bubba Wallace",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 144,
       "h": "nflxmiller",
@@ -3232,7 +3232,7 @@
     },
     {
       "n": "Austin Dillon",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 105,
       "h": "motionless",
@@ -3241,7 +3241,7 @@
     },
     {
       "n": "Road Race Wiper Motor",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 129,
       "h": "flippy00",
@@ -3250,7 +3250,7 @@
     },
     {
       "n": "Fire Bottle Nozzle",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 135,
       "h": "lishogunil",
@@ -3259,7 +3259,7 @@
     },
     {
       "n": "2 TO 1 Y FITTING",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 135,
       "h": "dontuu",
@@ -3268,7 +3268,7 @@
     },
     {
       "n": "Billy Dick Cup Regulations",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 116,
       "h": "ironlegacy_",
@@ -3277,7 +3277,7 @@
     },
     {
       "n": "NOMEX SFI SHIFTER BOOT",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 129,
       "h": "motionless",
@@ -3286,7 +3286,7 @@
     },
     {
       "n": "Rookie License",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 100,
       "h": "justingamez",
@@ -3295,7 +3295,7 @@
     },
     {
       "n": "$25 iRacing Creds",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 139,
       "h": "breadandwaturd",
@@ -3313,7 +3313,7 @@
     },
     {
       "n": "Bubbly",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 127,
       "h": "skeeter1029",
@@ -3349,7 +3349,7 @@
     },
     {
       "n": "DAYS OF THUNDER VHS tape.",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 140,
       "h": "motionless",
@@ -3358,7 +3358,7 @@
     },
     {
       "n": "Bristol Motor Speedway",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 123,
       "h": "scriptedpr",
@@ -3376,7 +3376,7 @@
     },
     {
       "n": "Will Brown",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 182,
       "h": "k11racing",
@@ -3394,7 +3394,7 @@
     },
     {
       "n": "Single Seat Radio",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 181,
       "h": "1disruptiveduck",
@@ -3403,7 +3403,7 @@
     },
     {
       "n": "Safety Wire",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 145,
       "h": "stiggy_icky_icky",
@@ -3412,7 +3412,7 @@
     },
     {
       "n": "Annoying iRacer kid",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 144,
       "h": "riflehog",
@@ -3421,7 +3421,7 @@
     },
     {
       "n": "Castrol SRF Racing Brake Fluid",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 167,
       "h": "pvtcrackpot",
@@ -3430,7 +3430,7 @@
     },
     {
       "n": "Caution!",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 159,
       "h": "jking9370",
@@ -3439,7 +3439,7 @@
     },
     {
       "n": "Flat Tire",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 152,
       "h": "ironlegacy_",
@@ -3466,7 +3466,7 @@
     },
     {
       "n": "iRacing Protest",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 116,
       "h": "tressler1987",
@@ -3475,7 +3475,7 @@
     },
     {
       "n": "Suspension Clean",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 134,
       "h": "phantommarine",
@@ -3493,7 +3493,7 @@
     },
     {
       "n": "Cody Ware",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 149,
       "h": "loosewheel0",
@@ -3502,7 +3502,7 @@
     },
     {
       "n": "Michael McDowell",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 162,
       "h": "dontuu",
@@ -3511,7 +3511,7 @@
     },
     {
       "n": "Kaz Grala",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 156,
       "h": "fjvgaming",
@@ -3520,7 +3520,7 @@
     },
     {
       "n": "Todd Gilliland",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 142,
       "h": "justingamez",
@@ -3529,7 +3529,7 @@
     },
     {
       "n": "Richmond Raceway",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 132,
       "h": "benwysard",
@@ -3538,7 +3538,7 @@
     },
     {
       "n": "Justin Haley",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 155,
       "h": "riflehog",
@@ -3547,7 +3547,7 @@
     },
     {
       "n": "Black Flag",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 161,
       "h": "benjaminwysard",
@@ -3556,7 +3556,7 @@
     },
     {
       "n": "Corey LaJoie",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 158,
       "h": "ogbanana3036",
@@ -3565,7 +3565,7 @@
     },
     {
       "n": "Daniel Hermic",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 143,
       "h": "scriptedpr",
@@ -3583,7 +3583,7 @@
     },
     {
       "n": "Derek Kraus",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 147,
       "h": "riflehog",
@@ -3592,7 +3592,7 @@
     },
     {
       "n": "Erik Jones",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 144,
       "h": "eheye",
@@ -3601,7 +3601,7 @@
     },
     {
       "n": "Joey Hand",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 154,
       "h": "wintergofast",
@@ -3610,7 +3610,7 @@
     },
     {
       "n": "Kamui Kobayashi",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 132,
       "h": "karnalsanders",
@@ -3619,7 +3619,7 @@
     },
     {
       "n": "Ryan Preece",
-      "custom": false,
+      "custom": true,
       "r": "Common",
       "c": 159,
       "h": "dripnrip",
@@ -3843,7 +3843,2816 @@
       "w": 0.11
     }
   ],
-  "dex": [],
+  "dex": [
+    {
+      "n": "Red Eye Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 81,
+      "rec": "2.82 lb"
+    },
+    {
+      "n": "Hermit Crab",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 157,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Mackerel",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 164,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Treasure Chest",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 16,
+      "rec": "112.04 lb"
+    },
+    {
+      "n": "Oreochromis",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 51,
+      "rec": "2.71 lb"
+    },
+    {
+      "n": "Skateboard",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 60,
+      "rec": "3.34 lb"
+    },
+    {
+      "n": "Salmon",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 145,
+      "rec": "4.52 lb"
+    },
+    {
+      "n": "Starfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 65,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Nimbochromis",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 57,
+      "rec": "3.38 lb"
+    },
+    {
+      "n": "Watch",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 87,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "Coffee Cup",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 115,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Fish Fillet Burger",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 67,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Piranha",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 54,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Vape",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 83,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "Branch",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 123,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Sailfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 53,
+      "rec": "78.81 lb"
+    },
+    {
+      "n": "Atlantic Cod",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 144,
+      "rec": "45.19 lb"
+    },
+    {
+      "n": "Trout",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 172,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Barracuda",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 156,
+      "rec": "10.13 lb"
+    },
+    {
+      "n": "Pike",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 177,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Soda Can",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 130,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Yellowtang",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 44,
+      "rec": "0.78 lb"
+    },
+    {
+      "n": "Streaked Spinefoot",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 83,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Triggerfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 83,
+      "rec": "22.49 lb"
+    },
+    {
+      "n": "Traffic Cone",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 108,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Scrapermouth Mbun",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 78,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Pickle",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 64,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Sea Urchin",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 100,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Joel the Sturgeon",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 24,
+      "rec": "332.54 lb"
+    },
+    {
+      "n": "Moorish Idol",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 28,
+      "rec": "2.19 lb"
+    },
+    {
+      "n": "Leatherback Turtle",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 14,
+      "rec": "443.29 lb"
+    },
+    {
+      "n": "Mussel",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 167,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Tire",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 142,
+      "rec": "33.89 lb"
+    },
+    {
+      "n": "Red-knobbed Starfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 60,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Arapaima",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 62,
+      "rec": "110.05 lb"
+    },
+    {
+      "n": "Henrys Shoe",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 62,
+      "rec": "2.24 lb"
+    },
+    {
+      "n": "Scooter",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 119,
+      "rec": "16.89 lb"
+    },
+    {
+      "n": "Broken Sword",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 27,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Bike",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 132,
+      "rec": "11.28 lb"
+    },
+    {
+      "n": "Oyster",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 80,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Orange-Spotted Spinefoot",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 46,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Red Discus",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 70,
+      "rec": "0.45 lb"
+    },
+    {
+      "n": "Mahi Mahi",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 56,
+      "rec": "16.92 lb"
+    },
+    {
+      "n": "Yellow Mandarin Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 25,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "Black Spotted Grunt",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 160,
+      "rec": "5.64 lb"
+    },
+    {
+      "n": "Fish Cracker",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 62,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Black Redeye",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 154,
+      "rec": "44.83 lb"
+    },
+    {
+      "n": "Tiger Shark",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 23,
+      "rec": "550.77 lb"
+    },
+    {
+      "n": "Wahoo",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 66,
+      "rec": "15.66 lb"
+    },
+    {
+      "n": "Parrot Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 62,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Powderblue Tang",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 40,
+      "rec": "0.90 lb"
+    },
+    {
+      "n": "Blue Discus",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 145,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Carp",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 149,
+      "rec": "9.03 lb"
+    },
+    {
+      "n": "Sponge",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 24,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Marlin",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 60,
+      "rec": "338.03 lb"
+    },
+    {
+      "n": "Orangespined Unicornfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 63,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Nugget",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 89,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Golden Redeye Rudd",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 92,
+      "rec": "0.90 lb"
+    },
+    {
+      "n": "Car",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 23,
+      "rec": "1652.00 lb"
+    },
+    {
+      "n": "Strange Vase",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 36,
+      "rec": "0.55 lb"
+    },
+    {
+      "n": "Jellyfish Plushie",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 56,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Murex Shellfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 84,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Perch",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 167,
+      "rec": "3.39 lb"
+    },
+    {
+      "n": "Singing Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 27,
+      "rec": "5.57 lb"
+    },
+    {
+      "n": "Lobster",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 73,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "CB Longneck",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 112,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Can",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 109,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Fish Drawing",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 41,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Olive Ridley Turtle",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 71,
+      "rec": "44.87 lb"
+    },
+    {
+      "n": "Koi",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 99,
+      "rec": "15.81 lb"
+    },
+    {
+      "n": "Lion Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 36,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Tuna",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 72,
+      "rec": "259.60 lb"
+    },
+    {
+      "n": "Rainbow Cichlid",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 55,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Sunfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 60,
+      "rec": "1010.84 lb"
+    },
+    {
+      "n": "Butterfly Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 101,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Annoying iRacer kid",
+      "r": "Common",
+      "custom": true,
+      "desc": "This kid sucks.",
+      "c": 144,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Billy Dick Cup Regulations",
+      "r": "Common",
+      "custom": true,
+      "desc": "This is probably important...is there a TLDR?",
+      "c": 116,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Single Seat Radio",
+      "r": "Common",
+      "custom": true,
+      "desc": "So your crewchief can tell you how bad of a driver you are.",
+      "c": 181,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "NASCAR Tickets",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Fuck ya NASCAR tickets!",
+      "c": 86,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Gas Can",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Not water!",
+      "c": 80,
+      "rec": "5.63 lb"
+    },
+    {
+      "n": "Sim Racing Shoes",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Super Nerds Unite!",
+      "c": 83,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Tony Stewart",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "why so mad bro?",
+      "c": 33,
+      "rec": "16.95 lb"
+    },
+    {
+      "n": "Ricky Bobby",
+      "r": "Rare",
+      "custom": true,
+      "desc": "If you aint first yer last!",
+      "c": 57,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Funny Metal Tubes",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 55,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "Flat Tire",
+      "r": "Common",
+      "custom": true,
+      "desc": "Get to the pitts",
+      "c": 152,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Dale Earnhardt Jr.",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Spawn of GOAT, can also drive.",
+      "c": 35,
+      "rec": "5.61 lb"
+    },
+    {
+      "n": "Trolley",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 137,
+      "rec": "22.57 lb"
+    },
+    {
+      "n": "Have a Yoga Breath",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "This is a family stream.",
+      "c": 78,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Kyle Larson",
+      "r": "Epic",
+      "custom": true,
+      "desc": "I always like going to fancy Italian restaurants.",
+      "c": 37,
+      "rec": "2.23 lb"
+    },
+    {
+      "n": "Clownfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 55,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Martin Truex Jr",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Can get angry",
+      "c": 45,
+      "rec": "11.28 lb"
+    },
+    {
+      "n": "Bubbly",
+      "r": "Common",
+      "custom": true,
+      "desc": "Stay hydrated yo!",
+      "c": 127,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Pit Crew",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Starting to look like a real race team!",
+      "c": 34,
+      "rec": "11.24 lb"
+    },
+    {
+      "n": "Black Flag",
+      "r": "Common",
+      "custom": true,
+      "desc": "Maybe Forza is your jam?",
+      "c": 161,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Denny Hamlin",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "I beat your favorite driver, currently suing NASCAR",
+      "c": 19,
+      "rec": "5.62 lb"
+    },
+    {
+      "n": "Scuffed Tires",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "",
+      "c": 82,
+      "rec": "5.60 lb"
+    },
+    {
+      "n": "Caution!",
+      "r": "Common",
+      "custom": true,
+      "desc": "Some shitter spun on the restart.",
+      "c": 159,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Pineapple",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 24,
+      "rec": "1.10 lb"
+    },
+    {
+      "n": "Dale Earnhardt",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "The GOAT",
+      "c": 21,
+      "rec": "5.59 lb"
+    },
+    {
+      "n": "Richard Petty",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "I wrecked my own fucking dad and i'll wreck you too!",
+      "c": 24,
+      "rec": "5.64 lb"
+    },
+    {
+      "n": "1987 Wrangler",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Mint Condition",
+      "c": 41,
+      "rec": "28.17 lb"
+    },
+    {
+      "n": "Thong",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 101,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Shrimp Toy",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 29,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Old PC",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 19,
+      "rec": "22.30 lb"
+    },
+    {
+      "n": "Keys",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 64,
+      "rec": "0.23 lb"
+    },
+    {
+      "n": "Simagic Alpha U",
+      "r": "Epic",
+      "custom": true,
+      "desc": "You're still slow AF",
+      "c": 44,
+      "rec": "11.28 lb"
+    },
+    {
+      "n": "Electric Catfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 98,
+      "rec": "25.89 lb"
+    },
+    {
+      "n": "$25 iRacing Creds",
+      "r": "Common",
+      "custom": true,
+      "desc": "You can buy 1/2 a track with this.",
+      "c": 139,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Mug",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 35,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Rubber Ducky",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 47,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Daytona International Speedway",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Probably going to lose SR here.",
+      "c": 79,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Octopus",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 39,
+      "rec": "11.22 lb"
+    },
+    {
+      "n": "Frontosa Cichlid",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 73,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Green Flag",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Boogedy! Boogedy! Boogedy!",
+      "c": 59,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Corey LaJoie",
+      "r": "Common",
+      "custom": true,
+      "desc": "Talks like a contender, runs like a backmarker",
+      "c": 158,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "David Ragan",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 158,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Derek Kraus",
+      "r": "Common",
+      "custom": true,
+      "desc": "Out here logging laps like it’s community service",
+      "c": 147,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Justin Haley",
+      "r": "Common",
+      "custom": true,
+      "desc": "2026 championship odds (DraftKings): 250-1",
+      "c": 155,
+      "rec": "11.29 lb"
+    },
+    {
+      "n": "Erik Jones",
+      "r": "Common",
+      "custom": true,
+      "desc": "His race car came from Family Dollar as well.",
+      "c": 144,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Sim Racing Gloves",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Nerd Shit",
+      "c": 88,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Zane Smith",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Truck champ still trying to translate it upstairs",
+      "c": 127,
+      "rec": "4.05 lb"
+    },
+    {
+      "n": "Josh Berry",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Running better in 2025 got a Win",
+      "c": 129,
+      "rec": "52.46 lb"
+    },
+    {
+      "n": "Kamui Kobayashi",
+      "r": "Common",
+      "custom": true,
+      "desc": "Same dude that eats hot dogs in contests",
+      "c": 132,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Todd Gilliland",
+      "r": "Common",
+      "custom": true,
+      "desc": "Racing every week, noticed by nobody",
+      "c": 142,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Daniel Hermic",
+      "r": "Common",
+      "custom": true,
+      "desc": "",
+      "c": 143,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Noah Gragson",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Running with Front Row Motorports",
+      "c": 149,
+      "rec": "31.67 lb"
+    },
+    {
+      "n": "Will Brown",
+      "r": "Common",
+      "custom": true,
+      "desc": "May be around more next season",
+      "c": 182,
+      "rec": "7.89 lb"
+    },
+    {
+      "n": "VHS Tape",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 60,
+      "rec": "0.56 lb"
+    },
+    {
+      "n": "Chase Elliott",
+      "r": "Epic",
+      "custom": true,
+      "desc": "",
+      "c": 52,
+      "rec": "28.17 lb"
+    },
+    {
+      "n": "Zebra Cakes",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Snack of Sweats",
+      "c": 73,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "John H. Nemechek",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 116,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Win @ Daytona",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Fuck, nice job!",
+      "c": 30,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Michael McDowell",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Won a Daytona and been coasting off it ever since",
+      "c": 162,
+      "rec": "39.45 lb"
+    },
+    {
+      "n": "Green Sea Turtle",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 66,
+      "rec": "180.05 lb"
+    },
+    {
+      "n": "Golden Crown",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 22,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Bubba Wallace",
+      "r": "Common",
+      "custom": true,
+      "desc": "Finished 2024 season 18th in the points",
+      "c": 144,
+      "rec": "28.15 lb"
+    },
+    {
+      "n": "Cody Ware",
+      "r": "Common",
+      "custom": true,
+      "desc": "Still trying to figure out Ware he is in the points",
+      "c": 149,
+      "rec": "4.52 lb"
+    },
+    {
+      "n": "Orange Discus",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 34,
+      "rec": "0.34 lb"
+    },
+    {
+      "n": "Jimmie Johnson",
+      "r": "Epic",
+      "custom": true,
+      "desc": "NASCAR Hall of Fame member",
+      "c": 64,
+      "rec": "11.30 lb"
+    },
+    {
+      "n": "Ricky Stenhouse Jr",
+      "r": "Epic",
+      "custom": true,
+      "desc": "My dad and I just beat up Kyle Busch!",
+      "c": 46,
+      "rec": "11.23 lb"
+    },
+    {
+      "n": "Harrison Burton",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "It's Harrison Burton!",
+      "c": 47,
+      "rec": "11.14 lb"
+    },
+    {
+      "n": "Christopher Bell",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 46,
+      "rec": "22.51 lb"
+    },
+    {
+      "n": "Emperor Angelfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 66,
+      "rec": "1.69 lb"
+    },
+    {
+      "n": "Ross Chastain",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Ima drive this bitch on the wall",
+      "c": 31,
+      "rec": "22.34 lb"
+    },
+    {
+      "n": "Joey Hand",
+      "r": "Common",
+      "custom": true,
+      "desc": "Media has not mentioned this dude in months...",
+      "c": 154,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "DAYS OF THUNDER VHS tape.",
+      "r": "Common",
+      "custom": true,
+      "desc": "Need to go to grandmas to watch this.",
+      "c": 140,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Loggerhead Turtle",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 26,
+      "rec": "151.89 lb"
+    },
+    {
+      "n": "Kirk Shelmerdine",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Shelmerdine won four premier series championships with Dale Earnhardt in the late 1980s and early 1990s.",
+      "c": 38,
+      "rec": "28.24 lb"
+    },
+    {
+      "n": "Ryan Blaney",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Started from the dirt now we here",
+      "c": 32,
+      "rec": "28.15 lb"
+    },
+    {
+      "n": "Chad Knaus",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Fucking legend should be the default iRacing spot pack.",
+      "c": 42,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Floor Jack",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Need this shit for the pitts",
+      "c": 87,
+      "rec": "40.17 lb"
+    },
+    {
+      "n": "Donnie Allison",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "A member of NASCAR’s famed “Alabama Gang,” and an ambassador for the sport for more than 50 years",
+      "c": 24,
+      "rec": "27.90 lb"
+    },
+    {
+      "n": "Kaz Grala",
+      "r": "Common",
+      "custom": true,
+      "desc": "Random pop-in driver you forgot existed",
+      "c": 156,
+      "rec": "11.30 lb"
+    },
+    {
+      "n": "Austin Cindric",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 35,
+      "rec": "28.23 lb"
+    },
+    {
+      "n": "Carl Edwards",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "“If you’re looking for a driver, you’re looking for me.”",
+      "c": 33,
+      "rec": "28.11 lb"
+    },
+    {
+      "n": "Daniel Suarez",
+      "r": "Epic",
+      "custom": true,
+      "desc": "He said something in Spanish",
+      "c": 49,
+      "rec": "28.25 lb"
+    },
+    {
+      "n": "Rabbitfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 71,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Ryan Preece",
+      "r": "Common",
+      "custom": true,
+      "desc": "The Doom Marine got fucking lost",
+      "c": 159,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "William Byron",
+      "r": "Epic",
+      "custom": true,
+      "desc": "I like iRacing and Legos",
+      "c": 34,
+      "rec": "28.23 lb"
+    },
+    {
+      "n": "Austin Dillon",
+      "r": "Common",
+      "custom": true,
+      "desc": "I spin people to win, so what?",
+      "c": 105,
+      "rec": "16.86 lb"
+    },
+    {
+      "n": "Blue Whale",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 17,
+      "rec": "145584.70 lb"
+    },
+    {
+      "n": "Ralph Moody",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "This ole timer aint having any of your modern NASCAR bullshit",
+      "c": 27,
+      "rec": "27.84 lb"
+    },
+    {
+      "n": "Carson Hocevar",
+      "r": "Rare",
+      "custom": true,
+      "desc": "21st in the points, has a few top 10s, plays iRacing so he's cool",
+      "c": 78,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Alex Bowman",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Hi I'm Alex Bowman",
+      "c": 42,
+      "rec": "56.26 lb"
+    },
+    {
+      "n": "Brad Keselowski",
+      "r": "Epic",
+      "custom": true,
+      "desc": "",
+      "c": 48,
+      "rec": "27.89 lb"
+    },
+    {
+      "n": "Race Suit",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Can't go out there in steet clothes apparently",
+      "c": 45,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "NASCAR Fans",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "A little different, NASCAR corp does not like these people.",
+      "c": 30,
+      "rec": "55.05 lb"
+    },
+    {
+      "n": "Bobby Labonte",
+      "r": "Epic",
+      "custom": true,
+      "desc": "The ultimate grinder, Bobby raced any car he could get behind the wheel of before he got his first break in NASCAR",
+      "c": 32,
+      "rec": "27.59 lb"
+    },
+    {
+      "n": "Fire Bottle Nozzle",
+      "r": "Common",
+      "custom": true,
+      "desc": "Nozzle for a Fire Bottle",
+      "c": 135,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Road Race Wiper Motor",
+      "r": "Common",
+      "custom": true,
+      "desc": "NO ARM, MOTOR ONLY",
+      "c": 129,
+      "rec": "3.38 lb"
+    },
+    {
+      "n": "Andrews 4 Speed Transmission",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Will work with any NASCAR Xfinity, Truck Series, ARCA, etc. car.",
+      "c": 27,
+      "rec": "112.44 lb"
+    },
+    {
+      "n": "Safety Wire",
+      "r": "Common",
+      "custom": true,
+      "desc": "1 lb. spool of .032″ diameter stainless wire",
+      "c": 145,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Ty Gibbs",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Just got his drivers license last week",
+      "c": 32,
+      "rec": "27.79 lb"
+    },
+    {
+      "n": "Castrol SRF Racing Brake Fluid",
+      "r": "Common",
+      "custom": true,
+      "desc": "Used in racing, from Formula One, sports cars, V8 Supercar and Grand Prix and Superbikes",
+      "c": 167,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "CSL Pedals",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Entry Level Sim Pedals, hope you don't need to call support.",
+      "c": 85,
+      "rec": "4.50 lb"
+    },
+    {
+      "n": "FUEL CELL TOP",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Late model use only!",
+      "c": 65,
+      "rec": "4.52 lb"
+    },
+    {
+      "n": "PFC Rear Calipers",
+      "r": "Epic",
+      "custom": true,
+      "desc": "",
+      "c": 54,
+      "rec": "5.64 lb"
+    },
+    {
+      "n": "USED NASCAR WINDOW NETS",
+      "r": "Rare",
+      "custom": true,
+      "desc": "USED WINDOW NETS FROM THE TOP NASCAR TEAMS! ",
+      "c": 46,
+      "rec": "2.24 lb"
+    },
+    {
+      "n": "MPI Rim",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Industry lightest stock car steering wheel steel frame\r\nOval Ergonomic",
+      "c": 73,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "KEISER FUEL REGULATOR & FILTER",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "KEISER FUEL REGULATOR AND FUEL FILTER FROM NASCAR CUP TEAM",
+      "c": 75,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "2 TO 1 Y FITTING",
+      "r": "Common",
+      "custom": true,
+      "desc": "",
+      "c": 135,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Joe Gibbs",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Owns a race team, you don't",
+      "c": 37,
+      "rec": "27.94 lb"
+    },
+    {
+      "n": "Used Spek 5inch Tach",
+      "r": "Rare",
+      "custom": true,
+      "desc": "TESTED IN GREAT WORKING CONDITION FROM TOP NASCAR TEAM!",
+      "c": 63,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Peacock Bass",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 81,
+      "rec": "9.03 lb"
+    },
+    {
+      "n": "Croissant Shark",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 18,
+      "rec": "1.08 lb"
+    },
+    {
+      "n": "9inch Ring & Pinions",
+      "r": "Rare",
+      "custom": true,
+      "desc": "NASCAR PARTS!",
+      "c": 70,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "NOMEX SFI SHIFTER BOOT",
+      "r": "Common",
+      "custom": true,
+      "desc": "NOMEX SFI SHIFTER BOOT NASCAR CUP, XFINITY, TRUCK, K N AND ARCA LEGAL.",
+      "c": 129,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "HANS Device",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Shit will save your life yo",
+      "c": 75,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Used 2022 Alex Bowman Ally Hood",
+      "r": "Epic",
+      "custom": true,
+      "desc": "An authentic Hendrick Motorsports race used item, complete with certificate of authenticity.",
+      "c": 48,
+      "rec": "11.29 lb"
+    },
+    {
+      "n": "CHEVY SB-2 INTAKE",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "CHEVY SB-2 INTAKE FROM NASCAR TEAM",
+      "c": 73,
+      "rec": "5.62 lb"
+    },
+    {
+      "n": "Manta Ray",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 19,
+      "rec": "1508.03 lb"
+    },
+    {
+      "n": "Waddell Wilson",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Engine builder and crew chief, he powered and guided cars to some of the biggest NASCAR wins",
+      "c": 36,
+      "rec": "28.07 lb"
+    },
+    {
+      "n": "Hershel McGriff",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Hershel McGriff exhibited a competitive passion that lasted longer than any driver in NASCAR history.",
+      "c": 38,
+      "rec": "28.13 lb"
+    },
+    {
+      "n": "Matt Kenseth",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Every-man demeanor disguised an inarguable truth: He was one of NASCAR’s greatest drivers ever.",
+      "c": 37,
+      "rec": "27.98 lb"
+    },
+    {
+      "n": "Suspension Clean",
+      "r": "Common",
+      "custom": true,
+      "desc": "The Choice of Factory Racing Teams",
+      "c": 134,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "MWR BATTERY CONNECTOR WIRING",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "",
+      "c": 79,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Buddy Baker",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Dude was fast as shit, nickname was \"Lead Foot\"",
+      "c": 40,
+      "rec": "28.19 lb"
+    },
+    {
+      "n": "MCLAREN NASCAR DIGITAL DASH",
+      "r": "Epic",
+      "custom": true,
+      "desc": "MCLAREN NASCAR DIGITAL DASH FROM NASCAR CUP TEAM",
+      "c": 44,
+      "rec": "2.24 lb"
+    },
+    {
+      "n": "HELLRAIZER DEMON JACK",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Hellraizer Aluminum Demon Short Track Jack",
+      "c": 34,
+      "rec": "28.24 lb"
+    },
+    {
+      "n": "Orange Mandarin Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 29,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "Chris Buescher",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Punted Shane van Gisbergen to win at Watkins Glen in 2024",
+      "c": 39,
+      "rec": "33.77 lb"
+    },
+    {
+      "n": "Chase Briscoe",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 35,
+      "rec": "28.20 lb"
+    },
+    {
+      "n": "Eagle Ray",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 29,
+      "rec": "236.94 lb"
+    },
+    {
+      "n": "NASCAR NACHOS",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Like regular nachos but better!",
+      "c": 69,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Foureye Butterflyfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 28,
+      "rec": "0.22 lb"
+    },
+    {
+      "n": "T-REX",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Jeff Gordon's banned NASCAR",
+      "c": 25,
+      "rec": "5.57 lb"
+    },
+    {
+      "n": "Button Box",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Mah immersions",
+      "c": 48,
+      "rec": "3.37 lb"
+    },
+    {
+      "n": "AC RACING BRAKE",
+      "r": "Rare",
+      "custom": true,
+      "desc": "NICE USED SET OF 5895 AP RACING 6 PISTON BRAKES!",
+      "c": 62,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Ricky Rudd",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "\"Iron Man\"",
+      "c": 24,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Red Farmer",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "While it's unknown exactly how many wins Red Farmer accumulated, it's somewhere north of 700.",
+      "c": 23,
+      "rec": "26.85 lb"
+    },
+    {
+      "n": "Penske Road Race Shock Set",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Pefect bolt on set for track day cars!",
+      "c": 47,
+      "rec": "27.87 lb"
+    },
+    {
+      "n": "Sway Bar Clamps",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "For sway bars",
+      "c": 76,
+      "rec": "11.23 lb"
+    },
+    {
+      "n": "Stange Oval-Kera Dirt Late Model Gun Drilled Axle",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Max durability is achieved through usage of same proprietary material used in the NASCAR style axles.",
+      "c": 35,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Whale Shark",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 14,
+      "rec": "16464.95 lb"
+    },
+    {
+      "n": "Great White Shark",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 22,
+      "rec": "1112.99 lb"
+    },
+    {
+      "n": "Carb Spacer Plates",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Spacer Plates for your carbs",
+      "c": 73,
+      "rec": "3.38 lb"
+    },
+    {
+      "n": "KOOLBOX IV DRIVER AC",
+      "r": "Epic",
+      "custom": true,
+      "desc": "IN GREAT CONDITION WITH CONTROLLER AND POWER CORD!",
+      "c": 41,
+      "rec": "16.94 lb"
+    },
+    {
+      "n": "THROTTLE RETURN SPRING KIT",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Returns the throttle",
+      "c": 54,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Carbon Fiber Digital Dash",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 56,
+      "rec": "5.63 lb"
+    },
+    {
+      "n": "NEW Visual Flag System Full Package",
+      "r": "Rare",
+      "custom": true,
+      "desc": "",
+      "c": 54,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Zero",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 12,
+      "rec": "10.92 lb"
+    },
+    {
+      "n": "Swordfish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 27,
+      "rec": "279.21 lb"
+    },
+    {
+      "n": "Simagic - Alpha Mounting bracket",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "This mounting bracket is specifically for the Alpha series wheel bases. ",
+      "c": 56,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "VNM Sim Racing 3-Pedal Set",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Heel and base plate and dampers not included, available for purchase",
+      "c": 38,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Simucube ActivePedal",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Designed to cater to the sim racing enthusiast’s needs.",
+      "c": 35,
+      "rec": "3.35 lb"
+    },
+    {
+      "n": "Double Adjustable Steel J-Bar",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Better than single adjustable",
+      "c": 75,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "VNM handbrake V1",
+      "r": "Rare",
+      "custom": true,
+      "desc": " TrakRacer designed for rally and drifting simulator drivers. Designed to look and feel like the real thing,",
+      "c": 37,
+      "rec": "3.37 lb"
+    },
+    {
+      "n": "Roll Cage",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Protects your head from roll over -goetzlife",
+      "c": 27,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Genesis Series Adjustable Shocks",
+      "r": "Rare",
+      "custom": true,
+      "desc": "They're shocking!  -goetzlife",
+      "c": 59,
+      "rec": "5.64 lb"
+    },
+    {
+      "n": "Joey Logano",
+      "r": "Epic",
+      "custom": true,
+      "desc": "NASCAR CUP CHAMPION 2024 (also 2018, 2022)",
+      "c": 33,
+      "rec": "27.98 lb"
+    },
+    {
+      "n": "Micro Sprint Chassis",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Start your own race car build!",
+      "c": 24,
+      "rec": "56.29 lb"
+    },
+    {
+      "n": "Whole NASCAR",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Sick dude!",
+      "c": 30,
+      "rec": "108.20 lb"
+    },
+    {
+      "n": "Used Power Steering Pump",
+      "r": "Rare",
+      "custom": true,
+      "desc": "USED POWER STEERING PUMPS FROM TOP NASCAR RACE TEAM",
+      "c": 36,
+      "rec": "11.28 lb"
+    },
+    {
+      "n": "D License",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Got their D license and thinks they're moving up—yeah, moving up to taking out cars at higher speeds",
+      "c": 69,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "B License",
+      "r": "Epic",
+      "custom": true,
+      "desc": "You're gonna eat shit in the Xfinity car",
+      "c": 39,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Rookie License",
+      "r": "Common",
+      "custom": true,
+      "desc": "This motherfucker probably thinks they're the next Dale Earnhardt",
+      "c": 100,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Pitt Box",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Can't fix a car without expensive tools",
+      "c": 23,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "A License",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "How in the shit are you still causing wrecks?",
+      "c": 35,
+      "rec": "1.10 lb"
+    },
+    {
+      "n": "Tyler Reddick",
+      "r": "Epic",
+      "custom": true,
+      "desc": "I drive for Michael Jordan",
+      "c": 37,
+      "rec": "11.14 lb"
+    },
+    {
+      "n": "TR160 Mk4 Racing Simulator",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Most rigid sim racing cockpit on the market",
+      "c": 35,
+      "rec": "55.58 lb"
+    },
+    {
+      "n": "Richmond Raceway",
+      "r": "Common",
+      "custom": true,
+      "desc": "You wreck at Richmond, better luck next time!",
+      "c": 132,
+      "rec": "225.18 lb"
+    },
+    {
+      "n": "Simucube 2 Ultimate",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Designed for professional racing teams, drivers and racing enthusiasts who breath sim racing.",
+      "c": 26,
+      "rec": "11.26 lb"
+    },
+    {
+      "n": "Auto Club Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "RIP",
+      "c": 60,
+      "rec": "225.42 lb"
+    },
+    {
+      "n": "Martinsville Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "You almost won but some dickhead spins you on the lead lap, you still finish 6th.",
+      "c": 54,
+      "rec": "226.00 lb"
+    },
+    {
+      "n": "Kansas Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "5th @ Kansas, keep grindin",
+      "c": 31,
+      "rec": "112.60 lb"
+    },
+    {
+      "n": "Diamond",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 12,
+      "rec": "0.11 lb"
+    },
+    {
+      "n": "Kyle Busch",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Fuck Kyle Busch!",
+      "c": 21,
+      "rec": "22.56 lb"
+    },
+    {
+      "n": "World Wide Technology Raceway",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Another top 10 good work!",
+      "c": 27,
+      "rec": "111.51 lb"
+    },
+    {
+      "n": "C License",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Congrats, you’ve graduated from wrecking in Miatas to causing 10-car pileups in trucks",
+      "c": 41,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "3rd @ Sonoma Raceway",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Stressed the fuck out but you did it.",
+      "c": 49,
+      "rec": "224.34 lb"
+    },
+    {
+      "n": "Homestead-Miami Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "8th place, way to stay in top 10!",
+      "c": 42,
+      "rec": "112.69 lb"
+    },
+    {
+      "n": "Rockingham Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "AKA THE ROCK, you take 3rd",
+      "c": 35,
+      "rec": "222.39 lb"
+    },
+    {
+      "n": "Bristol Motor Speedway",
+      "r": "Common",
+      "custom": true,
+      "desc": "You wrecked in turn 1, fuck this track!",
+      "c": 123,
+      "rec": "225.65 lb"
+    },
+    {
+      "n": "Phoenix Raceway",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "2nd place, nice work!",
+      "c": 22,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Atlanta Motor Speedway",
+      "r": "Rare",
+      "custom": true,
+      "desc": "11th place, almost a top 10, keep grindin.",
+      "c": 46,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Darlington Raceway",
+      "r": "Common",
+      "custom": true,
+      "desc": "You ran 16th cause you fucking suck on turn 2",
+      "c": 101,
+      "rec": "112.95 lb"
+    },
+    {
+      "n": "Watkins Glen Int.",
+      "r": "Rare",
+      "custom": true,
+      "desc": "The fuck is this road shit?  Fuck it, got 7th place!",
+      "c": 41,
+      "rec": "55.99 lb"
+    },
+    {
+      "n": "LAS VEGAS MOTOR SPEEDWAY",
+      "r": "Epic",
+      "custom": true,
+      "desc": "You finish 4th, nice work!",
+      "c": 47,
+      "rec": "225.92 lb"
+    },
+    {
+      "n": "Next Gen Mustang",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Driving the A car like a big boy!",
+      "c": 39,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Xfinity Camaro",
+      "r": "Epic",
+      "custom": true,
+      "desc": "",
+      "c": 50,
+      "rec": "112.34 lb"
+    },
+    {
+      "n": "Iowa Speedway",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "You win @ Iowa but no one lives here so no one saw it.",
+      "c": 66,
+      "rec": "112.96 lb"
+    },
+    {
+      "n": "Charlotte Motor Speedway",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Win @ Charlotte!",
+      "c": 30,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Next Gen Camry",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Not as lame as your neigbors Camry",
+      "c": 39,
+      "rec": "112.87 lb"
+    },
+    {
+      "n": "iRacing Protest",
+      "r": "Common",
+      "custom": true,
+      "desc": "Loser protests you cause you said you banged his sister and mom at Talladega",
+      "c": 116,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "87 Monte Carlo",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Better than the sandwich...a lot!",
+      "c": 25,
+      "rec": "112.28 lb"
+    },
+    {
+      "n": "Talladega",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Podium @ Dega, collect 200 gold!",
+      "c": 36,
+      "rec": "247.37 lb"
+    },
+    {
+      "n": "Xfinity Mustang",
+      "r": "Epic",
+      "custom": true,
+      "desc": "",
+      "c": 55,
+      "rec": "111.82 lb"
+    },
+    {
+      "n": "Craftsman Silverado",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Rattles like the production truck",
+      "c": 32,
+      "rec": "109.10 lb"
+    },
+    {
+      "n": "87 Le Sabre",
+      "r": "Epic",
+      "custom": true,
+      "desc": "VRRROOOOM!",
+      "c": 34,
+      "rec": "112.25 lb"
+    },
+    {
+      "n": "Next Gen Camaro",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Not your neighbors Camaro",
+      "c": 52,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Craftsman Tundra",
+      "r": "Epic",
+      "custom": true,
+      "desc": "The regular truck is just as expensive",
+      "c": 42,
+      "rec": "112.67 lb"
+    },
+    {
+      "n": "Craftman F100",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Feels like an F100 too!",
+      "c": 39,
+      "rec": "112.88 lb"
+    },
+    {
+      "n": "Pink Rubber Ducky",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 14,
+      "rec": "5.51 lb"
+    },
+    {
+      "n": "87 Pontiac Gran Prix",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Grandpa's last ride",
+      "c": 39,
+      "rec": "112.91 lb"
+    },
+    {
+      "n": "87 Ford Thunderbird",
+      "r": "Epic",
+      "custom": true,
+      "desc": "They don't make em like this anymore",
+      "c": 37,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Mini Stock",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Oh shit you're runnin ovals now",
+      "c": 36,
+      "rec": "1.13 lb"
+    },
+    {
+      "n": "Kenny Wallace",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "NASCAR driver with nine Xfinity Series wins, just proved he's still a badass by winning a recent dirt race.",
+      "c": 26,
+      "rec": "22.50 lb"
+    },
+    {
+      "n": "Florence Motor Speedway tickets!",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Jr. is racing in historical paint 11/23/24",
+      "c": 25,
+      "rec": "1.11 lb"
+    },
+    {
+      "n": "Circuit Of The Americas",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "1st place at COTA!",
+      "c": 23,
+      "rec": "225.74 lb"
+    },
+    {
+      "n": "Xfinity Camry",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Is this really even a Camry?",
+      "c": 47,
+      "rec": "112.65 lb"
+    },
+    {
+      "n": "Frankie Muniz",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Full time NASCAR driver in 2025",
+      "c": 24,
+      "rec": "83.81 lb"
+    },
+    {
+      "n": "Michael Jordan",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "Is he the savior of NASCAR?",
+      "c": 17,
+      "rec": "106.62 lb"
+    },
+    {
+      "n": "Gummy Sharks",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 62,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Ghost Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 25,
+      "rec": "5.59 lb"
+    },
+    {
+      "n": "Amberjack o'Lantern",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 8,
+      "rec": "27.34 lb"
+    },
+    {
+      "n": "Gummy Worms",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 127,
+      "rec": "1.12 lb"
+    },
+    {
+      "n": "Duck Duck Ghoul",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 22,
+      "rec": "2.22 lb"
+    },
+    {
+      "n": "Bonytail Chub",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 38,
+      "rec": "3.34 lb"
+    },
+    {
+      "n": "Count Quackula",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 19,
+      "rec": "2.26 lb"
+    },
+    {
+      "n": "Candy Corydoras",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 21,
+      "rec": "5.58 lb"
+    },
+    {
+      "n": "CJ Bailey",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#19 Carrier, Joe Gibbs Racing, Former College Football Player",
+      "c": 27,
+      "rec": "55.98 lb"
+    },
+    {
+      "n": "Kenneth Purcell",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#11 Gasman, Joe Gibbs Racing,  Dude has been in the pitss a hot minute",
+      "c": 32,
+      "rec": "56.38 lb"
+    },
+    {
+      "n": "Blake Houston",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#20 Front Changer, Joe Gibbs Racing, Former Baseball Player",
+      "c": 35,
+      "rec": "56.45 lb"
+    },
+    {
+      "n": "Jake Holmes",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#20 Carrier, Joe Gibbs Racing, Former football player",
+      "c": 35,
+      "rec": "56.30 lb"
+    },
+    {
+      "n": "Nick McBeath",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#54 Carrier, Joe Gibbs Racing, Former NFL player",
+      "c": 33,
+      "rec": "56.38 lb"
+    },
+    {
+      "n": "Lee Cunningham",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#19 Rear Changer, Joe Gibbs Racing, Dual Sport Athelete in High School, went right into NASCAR",
+      "c": 37,
+      "rec": "56.19 lb"
+    },
+    {
+      "n": "Caleb Dirks",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#19 Jackman Joe Gibbs Racing, Played Professional Baseball for the Dodgers",
+      "c": 28,
+      "rec": "55.94 lb"
+    },
+    {
+      "n": "Thomas Hatcher",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#19 Front Changer, Joe Gibbs Racing",
+      "c": 35,
+      "rec": "56.47 lb"
+    },
+    {
+      "n": "Kevon Jackson",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#54 Rear Changer, Joe Gibbs Racing",
+      "c": 42,
+      "rec": "55.73 lb"
+    },
+    {
+      "n": "Kieston France",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Tire Changer - Team Penske",
+      "c": 33,
+      "rec": "56.35 lb"
+    },
+    {
+      "n": "Jackson Gibbs",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#54 Front Changer, Joe Gibbs Racing",
+      "c": 37,
+      "rec": "56.29 lb"
+    },
+    {
+      "n": "Joel Bouagnon",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#11 Jackman, Joe Gibbs Racing, Former NFL Running Back",
+      "c": 29,
+      "rec": "55.99 lb"
+    },
+    {
+      "n": "Dylan Dowell",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#11 Carrier, Joe Gibbs Racing, former football player and powerlifter",
+      "c": 24,
+      "rec": "53.26 lb"
+    },
+    {
+      "n": "Matt Tyrrekk",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#19 Gasman, Joe Gibbs Racing, Played in the NFL",
+      "c": 24,
+      "rec": "56.31 lb"
+    },
+    {
+      "n": "Finnish Fish",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 32,
+      "rec": "2.25 lb"
+    },
+    {
+      "n": "Mike Hicks",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#20 Rear Changer, Joe Gibbs Racing",
+      "c": 31,
+      "rec": "56.21 lb"
+    },
+    {
+      "n": "AJ Rosini",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#11 Front Changer Joe Gibbs Racing",
+      "c": 32,
+      "rec": "54.75 lb"
+    },
+    {
+      "n": "Braxton Brannon",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#54 Jackman, Joe Gibbs Racing",
+      "c": 39,
+      "rec": "56.34 lb"
+    },
+    {
+      "n": "Derrell Edwards",
+      "r": "Epic",
+      "custom": true,
+      "desc": "#20 Jackman, Joe Gibbs Racing, former basketball player",
+      "c": 33,
+      "rec": "56.19 lb"
+    },
+    {
+      "n": "Peyton Moore",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#20 Gasman, Joe Gibbs Racing, former college linebacker",
+      "c": 31,
+      "rec": "56.45 lb"
+    },
+    {
+      "n": "Ian Anderson",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#54 Gasman, Joe Gibbs Racing",
+      "c": 46,
+      "rec": "55.99 lb"
+    },
+    {
+      "n": "Max Verstappen",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "4 time F1 Champ, polarizing figure.",
+      "c": 21,
+      "rec": "112.81 lb"
+    },
+    {
+      "n": "Devin Youker",
+      "r": "Rare",
+      "custom": true,
+      "desc": "#11 Rear Changer Joe Gibbs Racing, Wrestler and Foootball player",
+      "c": 32,
+      "rec": "54.93 lb"
+    },
+    {
+      "n": "iRacer Franciso J Villarreal",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R1 Charlotte Motor Speedway",
+      "c": 30,
+      "rec": "112.16 lb"
+    },
+    {
+      "n": "iRacer - Kyle Terczak",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R10",
+      "c": 21,
+      "rec": "133.31 lb"
+    },
+    {
+      "n": "iRacer - Jesse Winslow",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R7 Homestead Miami",
+      "c": 31,
+      "rec": "134.92 lb"
+    },
+    {
+      "n": "iRacer  Cody Schlaudecker",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R2 Kentucky Speedway",
+      "c": 21,
+      "rec": "133.95 lb"
+    },
+    {
+      "n": "iRacer - Lincoln Bond AKA ChitHole",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R5 Pocono",
+      "c": 23,
+      "rec": "135.43 lb"
+    },
+    {
+      "n": "iRacer - Tony Brent",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R3 Phoenix Raceway",
+      "c": 19,
+      "rec": "134.22 lb"
+    },
+    {
+      "n": "iRacer _ Jesse Winslow",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R8 Daytona",
+      "c": 24,
+      "rec": "133.59 lb"
+    },
+    {
+      "n": "iRacer_Cody Schlaudecker",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R4 Homestead Miami ",
+      "c": 18,
+      "rec": "135.10 lb"
+    },
+    {
+      "n": "iRacer - Simon Lindmark",
+      "r": "Epic",
+      "custom": true,
+      "desc": "BDC Winner S1R3 -COTA ",
+      "c": 17,
+      "rec": "134.22 lb"
+    },
+    {
+      "n": "iRacer_Jesse Winslow",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R5 Auto Club Speedway",
+      "c": 25,
+      "rec": "132.24 lb"
+    },
+    {
+      "n": "iRacer - Cody Schlaudecker",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R1 Chicagoland Speedway",
+      "c": 18,
+      "rec": "132.43 lb"
+    },
+    {
+      "n": "iRacer - Jay Sanchez",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R4 - Talladega",
+      "c": 18,
+      "rec": "1.06 lb"
+    },
+    {
+      "n": "iRacer Kirk Martin",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R12 Watkins Glen",
+      "c": 22,
+      "rec": "133.65 lb"
+    },
+    {
+      "n": "iRacer - Francisco J Villarreal",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R6 Atlanta Motor Speedway",
+      "c": 22,
+      "rec": "134.31 lb"
+    },
+    {
+      "n": "iRacer - Kirk Martin",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R9 Milwaukee Mile",
+      "c": 24,
+      "rec": "134.56 lb"
+    },
+    {
+      "n": "iRacer - Brandon Williams",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R13 Las Vegas Motor Speedway",
+      "c": 22,
+      "rec": "133.97 lb"
+    },
+    {
+      "n": "iRacer Jesse Winslow",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "BDC Season 1 Champion",
+      "c": 9,
+      "rec": "134.17 lb"
+    },
+    {
+      "n": "iRacer Dominic Wright",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R6 Daytona",
+      "c": 17,
+      "rec": "169.28 lb"
+    },
+    {
+      "n": "iRacer - Jessie Winslow",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R2 - Darlington",
+      "c": 16,
+      "rec": "112.25 lb"
+    },
+    {
+      "n": "iRacer - Jeff Purchatzke",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner BDC S1R11 Indianapolis Motor Speedway",
+      "c": 20,
+      "rec": "134.84 lb"
+    },
+    {
+      "n": "Drew Baum",
+      "r": "Epic",
+      "custom": true,
+      "desc": "NASCAR Tire Carrier - iRacing - Juiced Racing crew member.",
+      "c": 15,
+      "rec": "241.38 lb"
+    },
+    {
+      "n": "iRacer - Francisco J Villarreal (FJV)",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R7 Nashville",
+      "c": 10,
+      "rec": "248.45 lb"
+    },
+    {
+      "n": "iRacer - Noah Woods",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R9 Bristol Motor Speedway",
+      "c": 12,
+      "rec": "244.91 lb"
+    },
+    {
+      "n": "iRacer - Cory Abbott",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R10 Atlata Motor Speedway",
+      "c": 10,
+      "rec": "231.55 lb"
+    },
+    {
+      "n": "iRacer - Alayton Norgard",
+      "r": "Epic",
+      "custom": true,
+      "desc": "SSSR11 Indianapolis Motor Speedway Race Winner",
+      "c": 9,
+      "rec": "221.12 lb"
+    },
+    {
+      "n": "iRacer . Cody Schlaudecker",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SSS1R12 Dover",
+      "c": 5,
+      "rec": "219.81 lb"
+    },
+    {
+      "n": "Jaime Little",
+      "r": "Epic",
+      "custom": true,
+      "desc": "NASCAR Pit Reporter and Sportscaster",
+      "c": 9,
+      "rec": "70.72 lb"
+    },
+    {
+      "n": "Shane Van Gisbergen",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 6,
+      "rec": "112.11 lb"
+    },
+    {
+      "n": "Michael Waltrip",
+      "r": "Epic",
+      "custom": true,
+      "desc": "2 Time Datona 500 Winner and Sportscaster",
+      "c": 5,
+      "rec": "111.21 lb"
+    },
+    {
+      "n": "Darrell Waltrip",
+      "r": "Legendary",
+      "custom": true,
+      "desc": "3 Time NASCAR Champion and Sportscaster",
+      "c": 5,
+      "rec": "129.04 lb"
+    },
+    {
+      "n": "iRacer Cazz Bedford",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Race Winner SS1R13 Texas Motor Speedway",
+      "c": 5,
+      "rec": "208.14 lb"
+    },
+    {
+      "n": "AJ Allmendinger",
+      "r": "Rare",
+      "custom": true,
+      "desc": "The Dinger",
+      "c": 4,
+      "rec": "104.08 lb"
+    },
+    {
+      "n": "Riley Herbst",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Still waiting on the break out season...any year now!",
+      "c": 6,
+      "rec": "84.31 lb"
+    },
+    {
+      "n": "Katherine Legge",
+      "r": "Common",
+      "custom": true,
+      "desc": "1st Cup Seaon, has an uphill battle",
+      "c": 18,
+      "rec": "55.26 lb"
+    },
+    {
+      "n": "Cole Custer",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Sent back to Xfinity and turned into a boss fight",
+      "c": 4,
+      "rec": "111.41 lb"
+    },
+    {
+      "n": "Mike Joy",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Started Sportscasting NASCAR in 1979",
+      "c": 4,
+      "rec": "128.24 lb"
+    },
+    {
+      "n": "muk",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 1,
+      "rec": "29.40 lb"
+    },
+    {
+      "n": "mew",
+      "r": "Common",
+      "custom": false,
+      "desc": "",
+      "c": 2,
+      "rec": "4.23 lb"
+    }
+  ],
   "recent": [
     {
       "u": "aquadays",
