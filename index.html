@@ -886,6 +886,10 @@
   }
 
 /* ── LURKBAIT DEV PAGE ── */
+  .nav-tab.lurkbait-nav-tab{color:#00c8ff;opacity:.65}
+  .nav-tab.lurkbait-nav-tab:hover{color:#00c8ff;opacity:1}
+  .nav-tab.lurkbait-nav-tab.active{color:#00c8ff;border-bottom-color:#00c8ff;opacity:1}
+  .nav-tab-sep{width:1px;background:rgba(200,200,200,.12);margin:8px 0;flex-shrink:0}
 .lb-hero{position:relative;overflow:hidden;background:linear-gradient(180deg,#000 0%,#0a1628 40%,#0d1f3a 100%);padding:48px 48px 0;border-bottom:1px solid rgba(0,200,255,.12)}
   .lb-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 20% 60%,rgba(0,200,255,.06) 0%,transparent 50%);pointer-events:none}
   .lb-hero-inner{position:relative;z-index:1;padding-bottom:40px}
@@ -1026,6 +1030,8 @@
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
     <a class="nav-tab live-tab live-offline" id="liveNavTab" href="#live" onclick="setPage('live')"><span class="live-nav-dot">&#9679;</span> Live</a>
+    <div class="nav-tab-sep"></div>
+    <a class="nav-tab lurkbait-nav-tab" href="#lurkbait" onclick="setPage('lurkbait')">&#127907; LurkBait</a>
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
