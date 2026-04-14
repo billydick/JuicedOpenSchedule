@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T15:18:32.197412+00:00",
-    "total_catches": 21202,
+    "generated_at": "2026-04-14T15:21:34.896829+00:00",
+    "total_catches": 21203,
     "unique_catches": 357,
     "total_players": 728,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21202 catches"
+      "sub": "Since launch - 21203 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -364,9 +364,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 31697,
-        "c": 481,
-        "casts": 481,
+        "g": 31742,
+        "c": 482,
+        "casts": 482,
         "l": "Apr 14 2026"
       },
       {
@@ -6110,9 +6110,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 2662,
-        "c": 33,
-        "casts": 33,
+        "g": 2707,
+        "c": 34,
+        "casts": 34,
         "l": "Apr 14 2026"
       },
       {
@@ -6312,9 +6312,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 1856,
-        "c": 18,
-        "casts": 18,
+        "g": 1901,
+        "c": 19,
+        "casts": 19,
         "l": "Apr 14 2026"
       },
       {
@@ -6510,7 +6510,16 @@
         "l": "Apr 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 14 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10912,7 +10921,7 @@
       "n": "Garrett Smithley",
       "custom": true,
       "r": "Uncommon",
-      "c": 1,
+      "c": 2,
       "h": "flippy00",
       "v": 52,
       "w": 51.56
@@ -15150,7 +15159,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Professional backmarker with a podcast mic ready",
-      "c": 1,
+      "c": 2,
       "rec": "51.56 lb",
       "v": 52
     },
@@ -15174,6 +15183,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "juicedracing",
+      "i": "Garrett Smithley",
+      "w": 45.31,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Apr 14 2026"
+    },
     {
       "u": "ineffabledecibel",
       "i": "Rainbow Cichlid",
@@ -15763,14 +15780,6 @@
       "i": "Fire Bottle Nozzle",
       "w": 2.02,
       "v": 25,
-      "r": "Common",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Katherine Legge",
-      "w": 40.87,
-      "v": 20,
       "r": "Common",
       "d": "Apr 14 2026"
     }
