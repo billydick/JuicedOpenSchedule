@@ -1004,6 +1004,11 @@
   .lb-loadmore-wrap{display:flex;justify-content:center;padding:20px 0 8px}
   .lb-loadmore-btn{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,255,.5);background:none;border:1px solid rgba(200,200,255,.15);border-radius:4px;padding:10px 28px;cursor:pointer;transition:color .15s,border-color .15s}
   .lb-loadmore-btn:hover{color:#fff;border-color:rgba(200,200,255,.4)}
+  .lb-period-nav{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+  .lb-period-btn{font-family:'Barlow Condensed',sans-serif;font-size:22px;font-weight:900;background:none;border:1px solid rgba(0,200,255,.15);border-radius:4px;color:rgba(0,200,255,.5);width:34px;height:34px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:color .15s,border-color .15s;flex-shrink:0;line-height:1}
+  .lb-period-btn:hover:not([disabled]){color:#00c8ff;border-color:#00c8ff}
+  .lb-period-btn[disabled]{opacity:.2;cursor:default}
+  .lb-period-label{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#fff;flex:1;text-align:center}
   @media(max-width:768px){
     .lb-hero{padding:24px 20px 0}.lb-hero-title{font-size:42px}.lb-hero-fish{font-size:80px;right:16px}
     .lb-timetabs,.lb-sectabs{padding:0 16px;overflow-x:auto}
@@ -1074,6 +1079,11 @@
   </div>
   <div class="lb-panel active" id="lb-panel-leaderboard">
     <div id="lb-comp-banner"></div>
+    <div class="lb-period-nav" id="lb-period-nav" style="display:none">
+      <button class="lb-period-btn" id="lb-period-prev" onclick="lbPeriodPrev()">&#8249;</button>
+      <div class="lb-period-label" id="lb-period-label"></div>
+      <button class="lb-period-btn" id="lb-period-next" onclick="lbPeriodNext()">&#8250;</button>
+    </div>
     <div class="lb-sec-label">Gold Rankings</div>
     <div class="lb-alltime-tools" id="lb-alltime-tools" style="display:none">
       <input id="lb-alltime-search" class="lb-alltime-search" type="text" placeholder="Search all-time anglers..." oninput="lbAlltimeSearchChanged(this.value)">
@@ -7434,7 +7444,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2745824999&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2747550718&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
@@ -9586,6 +9596,8 @@ setPage(startPage);
       daily:{label:'Today',sub:'Daily competition'}
     },
     leaderboards:{alltime:[],monthly:[],weekly:[],daily:[]},
+    daily_history:[],
+    monthly_history:[],
     records:[],
     angler_records:{},
     new_anglers:[],
@@ -9672,17 +9684,39 @@ function lbThumb(name,isCustom){
   var lbAlltimeVisible=50;
   var lbAlltimeStep=50;
   var lbAlltimeSearch='';
+  var lbDailyIdx=0;
+  var lbMonthlyIdx=0;
   function lbGetData(){
-    if(lbCurTime==='monthly') return LB_DB.leaderboards.monthly || [];
-    if(lbCurTime==='weekly') return LB_DB.leaderboards.weekly || [];
-    if(lbCurTime==='daily') return LB_DB.leaderboards.daily || [];
-    return LB_DB.leaderboards.alltime || [];
+    if(lbCurTime==='daily'){
+      var dh=LB_DB.daily_history||[];
+      if(lbDailyIdx===0) return LB_DB.leaderboards.daily||[];
+      var dp=dh[lbDailyIdx-1]; return dp?dp.leaderboard||[]:[];
+    }
+    if(lbCurTime==='monthly'){
+      var mh=LB_DB.monthly_history||[];
+      if(lbMonthlyIdx===0) return LB_DB.leaderboards.monthly||[];
+      var mp=mh[lbMonthlyIdx-1]; return mp?mp.leaderboard||[]:[];
+    }
+    if(lbCurTime==='weekly') return LB_DB.leaderboards.weekly||[];
+    return LB_DB.leaderboards.alltime||[];
   }
   window.lbSetTime=function(t,btn){
     lbCurTime=t;
+    lbDailyIdx=0;
+    lbMonthlyIdx=0;
     document.querySelectorAll('.lb-timetab').forEach(function(b){b.classList.remove('active')});
     btn.classList.add('active');
     if(t!=='alltime'){ lbAlltimeSearch=''; var s=document.getElementById('lb-alltime-search'); if(s) s.value=''; }
+    lbRenderLeaderboard();
+  };
+  window.lbPeriodPrev=function(){
+    if(lbCurTime==='daily'){ lbDailyIdx=Math.min(lbDailyIdx+1,(LB_DB.daily_history||[]).length-1); }
+    if(lbCurTime==='monthly'){ lbMonthlyIdx=Math.min(lbMonthlyIdx+1,(LB_DB.monthly_history||[]).length-1); }
+    lbRenderLeaderboard();
+  };
+  window.lbPeriodNext=function(){
+    if(lbCurTime==='daily'){ lbDailyIdx=Math.max(lbDailyIdx-1,0); }
+    if(lbCurTime==='monthly'){ lbMonthlyIdx=Math.max(lbMonthlyIdx-1,0); }
     lbRenderLeaderboard();
   };
   window.lbAlltimeSearchChanged=function(v){ lbAlltimeSearch=(v||'').toLowerCase().trim(); lbRenderLeaderboard(); };
@@ -9733,6 +9767,31 @@ function lbThumb(name,isCustom){
     if(lbl) lbl.textContent='Top Gold' + (top.n ? ' \u00b7 ' + top.n : '');
   }
   function lbRenderLeaderboard(){
+    // Period nav
+    var nav=document.getElementById('lb-period-nav');
+    var prevBtn=document.getElementById('lb-period-prev');
+    var nextBtn=document.getElementById('lb-period-next');
+    var periodLabel=document.getElementById('lb-period-label');
+    var showNav=(lbCurTime==='daily'||lbCurTime==='monthly');
+    if(nav) nav.style.display=showNav?'flex':'none';
+    if(showNav){
+      var label='',maxIdx=0;
+      if(lbCurTime==='daily'){
+        var dh=LB_DB.daily_history||[];
+        maxIdx=dh.length;
+        if(lbDailyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.daily&&LB_DB.competition_meta.daily.label)||'Today'; }
+        else{ var dp=dh[lbDailyIdx-1]; label=dp?dp.label:''; }
+      } else {
+        var mh=LB_DB.monthly_history||[];
+        maxIdx=mh.length;
+        if(lbMonthlyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.monthly&&LB_DB.competition_meta.monthly.label)||'This Month'; }
+        else{ var mp=mh[lbMonthlyIdx-1]; label=mp?mp.label:''; }
+      }
+      var curIdx=(lbCurTime==='daily'?lbDailyIdx:lbMonthlyIdx);
+      if(periodLabel) periodLabel.textContent=label;
+      if(prevBtn) prevBtn.disabled=(curIdx>=maxIdx);
+      if(nextBtn) nextBtn.disabled=(curIdx<=0);
+    }
     lbRenderBanner();
     var data=lbGetData();
     var isAllTime = lbCurTime==='alltime';
