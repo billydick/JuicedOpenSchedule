@@ -9602,6 +9602,7 @@ setPage(startPage);
     },
     leaderboards:{alltime:[],monthly:[],weekly:[],daily:[]},
     daily_history:[],
+    weekly_history:[],
     monthly_history:[],
     records:[],
     angler_records:{},
@@ -9690,6 +9691,7 @@ function lbThumb(name,isCustom){
   var lbAlltimeStep=50;
   var lbAlltimeSearch='';
   var lbDailyIdx=0;
+  var lbWeeklyIdx=0;
   var lbMonthlyIdx=0;
   function lbGetData(){
     if(lbCurTime==='daily'){
@@ -9702,12 +9704,17 @@ function lbThumb(name,isCustom){
       if(lbMonthlyIdx===0) return LB_DB.leaderboards.monthly||[];
       var mp=mh[lbMonthlyIdx-1]; return mp?mp.leaderboard||[]:[];
     }
-    if(lbCurTime==='weekly') return LB_DB.leaderboards.weekly||[];
+    if(lbCurTime==='weekly'){
+      var wh=LB_DB.weekly_history||[];
+      if(lbWeeklyIdx===0) return LB_DB.leaderboards.weekly||[];
+      var wp=wh[lbWeeklyIdx-1]; return wp?wp.leaderboard||[]:[];
+    }
     return LB_DB.leaderboards.alltime||[];
   }
   window.lbSetTime=function(t,btn){
     lbCurTime=t;
     lbDailyIdx=0;
+    lbWeeklyIdx=0;
     lbMonthlyIdx=0;
     document.querySelectorAll('.lb-timetab').forEach(function(b){b.classList.remove('active')});
     btn.classList.add('active');
@@ -9716,11 +9723,13 @@ function lbThumb(name,isCustom){
   };
   window.lbPeriodPrev=function(){
     if(lbCurTime==='daily'){ lbDailyIdx=Math.min(lbDailyIdx+1,(LB_DB.daily_history||[]).length-1); }
+    if(lbCurTime==='weekly'){ lbWeeklyIdx=Math.min(lbWeeklyIdx+1,(LB_DB.weekly_history||[]).length-1); }
     if(lbCurTime==='monthly'){ lbMonthlyIdx=Math.min(lbMonthlyIdx+1,(LB_DB.monthly_history||[]).length-1); }
     lbRenderLeaderboard();
   };
   window.lbPeriodNext=function(){
     if(lbCurTime==='daily'){ lbDailyIdx=Math.max(lbDailyIdx-1,0); }
+    if(lbCurTime==='weekly'){ lbWeeklyIdx=Math.max(lbWeeklyIdx-1,0); }
     if(lbCurTime==='monthly'){ lbMonthlyIdx=Math.max(lbMonthlyIdx-1,0); }
     lbRenderLeaderboard();
   };
@@ -9780,7 +9789,7 @@ function lbThumb(name,isCustom){
     var prevBtn=document.getElementById('lb-period-prev');
     var nextBtn=document.getElementById('lb-period-next');
     var periodLabel=document.getElementById('lb-period-label');
-    var showNav=(lbCurTime==='daily'||lbCurTime==='monthly');
+    var showNav=(lbCurTime==='daily'||lbCurTime==='weekly'||lbCurTime==='monthly');
     if(nav) nav.style.display=showNav?'flex':'none';
     if(showNav){
       var label='',maxIdx=0;
@@ -9789,13 +9798,18 @@ function lbThumb(name,isCustom){
         maxIdx=dh.length;
         if(lbDailyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.daily&&LB_DB.competition_meta.daily.label)||'Today'; }
         else{ var dp=dh[lbDailyIdx-1]; label=dp?dp.label:''; }
+      } else if(lbCurTime==='weekly'){
+        var wh=LB_DB.weekly_history||[];
+        maxIdx=wh.length;
+        if(lbWeeklyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.weekly&&LB_DB.competition_meta.weekly.label)||'This Week'; }
+        else{ var wp=wh[lbWeeklyIdx-1]; label=wp?wp.label:''; }
       } else {
         var mh=LB_DB.monthly_history||[];
         maxIdx=mh.length;
         if(lbMonthlyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.monthly&&LB_DB.competition_meta.monthly.label)||'This Month'; }
         else{ var mp=mh[lbMonthlyIdx-1]; label=mp?mp.label:''; }
       }
-      var curIdx=(lbCurTime==='daily'?lbDailyIdx:lbMonthlyIdx);
+      var curIdx=(lbCurTime==='daily'?lbDailyIdx:lbCurTime==='weekly'?lbWeeklyIdx:lbMonthlyIdx);
       if(periodLabel) periodLabel.textContent=label;
       if(prevBtn) prevBtn.disabled=(curIdx>=maxIdx);
       if(nextBtn) nextBtn.disabled=(curIdx<=0);
@@ -9824,6 +9838,11 @@ function lbThumb(name,isCustom){
       loadWrap.style.display=(isAllTime && !lbAlltimeSearch && visible.length < filtered.length)?'flex':'none';
     }
     var maxG = filtered[0]?filtered[0].g:1;
+    if(visible.length===0){
+      document.getElementById('lb-ldr-body').innerHTML='<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:40px 20px;text-align:center">No catches for this period</div>';
+      if(loadWrap) loadWrap.style.display='none';
+      return;
+    }
     document.getElementById('lb-ldr-body').innerHTML=visible.map(function(p,i){
       var rank=i+1;
       var col, sz, bg;
