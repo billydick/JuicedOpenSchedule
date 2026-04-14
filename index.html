@@ -1047,11 +1047,11 @@
   </div>
   <div class="lb-waterline"></div>
   <div class="lb-stats">
-    <div class="lb-stat-tile"><div class="lb-stat-val t">0</div><div class="lb-stat-label">Total Catches</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Anglers</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Items in Dex</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val g">0</div><div class="lb-stat-label">Top Gold &middot; —</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Custom Stream Items</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val t" id="lb-stat-catches">—</div><div class="lb-stat-label">Total Catches</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val" id="lb-stat-anglers">—</div><div class="lb-stat-label">Anglers</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val" id="lb-stat-dex">—</div><div class="lb-stat-label">Items in Dex</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val g" id="lb-stat-gold">—</div><div class="lb-stat-label" id="lb-stat-gold-label">Top Gold</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val" id="lb-stat-custom">—</div><div class="lb-stat-label">Custom Stream Items</div></div>
   </div>
   <div class="lb-timetabs">
     <button class="lb-timetab active" onclick="lbSetTime('daily',this)">Daily</button>
@@ -9641,6 +9641,7 @@ setPage(startPage);
       var res = await fetch('/lurkbait_data.json?ts=' + Date.now(), {cache:'no-store'});
       if(!res.ok) throw new Error('HTTP '+res.status);
       LB_DB = lbNormalizePayload(await res.json());
+      lbRenderStats();
       lbRenderLeaderboard();
       lbRenderRecords();
       lbRenderDex();
@@ -9711,6 +9712,19 @@ function lbThumb(name,isCustom){
           '<div><div class="lb-comp-stat-val">'+data.length+'</div><div class="lb-comp-stat-label">Anglers</div></div>'+
         '</div>'+
       '</div>';
+  }
+  function lbRenderStats(){
+    var m = LB_DB.meta || {};
+    var at = LB_DB.leaderboards.alltime || [];
+    var top = at[0] || {};
+    function set(id, val){ var el=document.getElementById(id); if(el) el.textContent=val; }
+    set('lb-stat-catches', (m.total_catches||0).toLocaleString());
+    set('lb-stat-anglers', (m.total_players||0).toLocaleString());
+    set('lb-stat-dex', m.dex_total||0);
+    set('lb-stat-gold', (top.g||0).toLocaleString());
+    set('lb-stat-custom', m.custom_catch_count||0);
+    var lbl=document.getElementById('lb-stat-gold-label');
+    if(lbl) lbl.textContent='Top Gold' + (top.n ? ' \u00b7 ' + top.n : '');
   }
   function lbRenderLeaderboard(){
     lbRenderBanner();
