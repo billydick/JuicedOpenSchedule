@@ -992,6 +992,14 @@
   .lb-recent-wt{font-family:'Barlow Condensed',sans-serif;font-size:12px;color:rgba(200,200,255,.3);text-align:right}
   .lb-recent-val{font-family:'Barlow Condensed',sans-serif;font-size:14px;font-weight:900;color:#D4A017;text-align:right}
   .lb-recent-rarity{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;text-align:right}
+  .lb-alltime-tools{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .lb-alltime-search{flex:1;min-width:200px;font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:700;letter-spacing:1px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;color:var(--white);padding:11px 16px;outline:none;transition:border-color .2s}
+  .lb-alltime-search:focus{border-color:rgba(0,200,255,.5)}
+  .lb-alltime-search::placeholder{color:rgba(200,200,200,.18)}
+  .lb-alltime-meta{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,200,.3)}
+  .lb-loadmore-wrap{display:flex;justify-content:center;padding:20px 0 8px}
+  .lb-loadmore-btn{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,255,.5);background:none;border:1px solid rgba(200,200,255,.15);border-radius:4px;padding:10px 28px;cursor:pointer;transition:color .15s,border-color .15s}
+  .lb-loadmore-btn:hover{color:#fff;border-color:rgba(200,200,255,.4)}
   @media(max-width:768px){
     .lb-hero{padding:24px 20px 0}.lb-hero-title{font-size:42px}.lb-hero-fish{font-size:80px;right:16px}
     .lb-timetabs,.lb-sectabs{padding:0 16px;overflow-x:auto}
@@ -1018,8 +1026,6 @@
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
     <a class="nav-tab live-tab live-offline" id="liveNavTab" href="#live" onclick="setPage('live')"><span class="live-nav-dot">&#9679;</span> Live</a>
-    <div class="nav-tab-sep"></div>
-    <a class="nav-tab lurkbait-nav-tab" href="#lurkbait" onclick="setPage('lurkbait')">&#127907; LurkBait</a>
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
@@ -1041,18 +1047,17 @@
   </div>
   <div class="lb-waterline"></div>
   <div class="lb-stats">
-    <div class="lb-stat-tile"><div class="lb-stat-val t">21103</div><div class="lb-stat-label">Total Catches</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">832</div><div class="lb-stat-label">Anglers</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">351</div><div class="lb-stat-label">Items in Dex</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val leg">935</div><div class="lb-stat-label">Legendaries</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val g">100656</div><div class="lb-stat-label">Top Gold &middot; flippy00</div></div>
-    <div class="lb-stat-tile"><div class="lb-stat-val">246</div><div class="lb-stat-label">Custom Stream Items</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val t">0</div><div class="lb-stat-label">Total Catches</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Anglers</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Items in Dex</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val g">0</div><div class="lb-stat-label">Top Gold &middot; —</div></div>
+    <div class="lb-stat-tile"><div class="lb-stat-val">0</div><div class="lb-stat-label">Custom Stream Items</div></div>
   </div>
   <div class="lb-timetabs">
-    <button class="lb-timetab" onclick="lbSetTime('daily',this)">Daily</button>
+    <button class="lb-timetab active" onclick="lbSetTime('daily',this)">Daily</button>
     <button class="lb-timetab" onclick="lbSetTime('weekly',this)">Weekly</button>
     <button class="lb-timetab" onclick="lbSetTime('monthly',this)">Monthly</button>
-    <button class="lb-timetab active" onclick="lbSetTime('alltime',this)">All Time</button>
+    <button class="lb-timetab" onclick="lbSetTime('alltime',this)">All Time</button>
   </div>
   <div class="lb-sectabs">
     <button class="lb-sectab active" onclick="lbSetSec('leaderboard',this)">&#127907; Leaderboard</button>
@@ -9581,7 +9586,7 @@ setPage(startPage);
     dex:[],
     recent:[]
   };
-  var lbCurTime='alltime';
+  var lbCurTime='daily';
   var lbDexFilter='All';
   var lbRefreshTimer=null;
 
@@ -9655,7 +9660,7 @@ function lbThumb(name,isCustom){
     if(isCustom) return 'custom_catches_web/'+name.replace(/ /g,'_')+'.webp';
     return 'https://blam.cam/thumbnails/'+name.replace(/ /g,'_')+'_THUMB.png';
   }
-  var lbCurTime='alltime';
+  var lbCurTime='daily';
   var lbDexFilter='All';
   var lbAlltimeVisible=50;
   var lbAlltimeStep=50;
@@ -9737,7 +9742,7 @@ function lbThumb(name,isCustom){
       var col, sz, bg;
       if(rank===1){col='#FF8000';sz='36px';bg='linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)';}
       else if(rank===2){col='#A335EE';sz='28px';bg='linear-gradient(90deg,rgba(163,53,238,0.06) 0%,transparent 60%)';}
-      else if(rank===3){col='#0070DD';sz='28px';bg='linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)';}
+      else if(rank===3){col='#A335EE';sz='28px';bg='linear-gradient(90deg,rgba(0,112,221,0.06) 0%,transparent 60%)';}
       else if(rank<=5){col='#A335EE';sz='28px';bg='';}
       else if(rank<=10){col='#0070DD';sz='26px';bg='';}
       else if(rank<=20){col='#1EFF00';sz='24px';bg='';}
