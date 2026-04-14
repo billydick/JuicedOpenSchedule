@@ -9585,6 +9585,11 @@ setPage(startPage);
 </script>
 <script>
 (function(){
+  function lbKeepScroll(fn){
+    var y=window.scrollY||window.pageYOffset;
+    fn();
+    window.scrollTo(0,y);
+  }
   var RC={Junk:'#888',Common:'#ccc',Uncommon:'#1EFF00',Rare:'#0070DD',Epic:'#A335EE',Legendary:'#FF8000'};
   var RARITY_ORDER=['Legendary','Epic','Rare','Uncommon','Common','Junk'];
   var LB_DB={
@@ -9722,6 +9727,7 @@ function lbThumb(name,isCustom){
   window.lbAlltimeSearchChanged=function(v){ lbAlltimeSearch=(v||'').toLowerCase().trim(); lbRenderLeaderboard(); };
   window.lbLoadMore=function(){ lbAlltimeVisible += lbAlltimeStep; lbRenderLeaderboard(); };
   window.lbSetSec=function(s,btn){
+    var _sy=window.scrollY||window.pageYOffset;
     document.querySelectorAll('.lb-sectab').forEach(function(b){b.classList.remove('active')});
     document.querySelectorAll('#page-lurkbait .lb-panel').forEach(function(p){p.classList.remove('active')});
     btn.classList.add('active');
@@ -9733,6 +9739,7 @@ function lbThumb(name,isCustom){
     if(s==='dex') lbRenderDex();
     if(s==='recent') lbRenderRecent();
     if(s==='newanglers') lbRenderNewAnglers();
+    window.scrollTo(0,_sy);
   };
   function lbRenderBanner(){
     var m=(LB_DB.competition_meta && LB_DB.competition_meta[lbCurTime]) || {label:'Competition',sub:''};
@@ -9767,6 +9774,7 @@ function lbThumb(name,isCustom){
     if(lbl) lbl.textContent='Top Gold' + (top.n ? ' \u00b7 ' + top.n : '');
   }
   function lbRenderLeaderboard(){
+    lbKeepScroll(function(){
     // Period nav
     var nav=document.getElementById('lb-period-nav');
     var prevBtn=document.getElementById('lb-period-prev');
@@ -9839,6 +9847,7 @@ function lbThumb(name,isCustom){
         '<div class="lb-ldr-date">'+(p.l||'')+'</div>'+
       '</div>';
     }).join('');
+    });
   }
   function lbRenderRecords(){
     var ar = LB_DB.angler_records || {};
@@ -9873,6 +9882,7 @@ function lbThumb(name,isCustom){
     lbRenderDex();
   };
   function lbRenderDex(){
+    lbKeepScroll(function(){
     var all=(LB_DB.dex||[]).filter(function(d){return d.r!=='Junk'});
     // Update counts on all filter buttons
     var rarities=['All','Common','Uncommon','Rare','Epic','Legendary'];
@@ -9911,6 +9921,7 @@ function lbThumb(name,isCustom){
         '</div>'+
       '</div>';
     }).join('');
+    });
   }
   function lbRenderRecent(){
     document.getElementById('lb-recent-feed').innerHTML=(LB_DB.recent||[]).map(function(r){
