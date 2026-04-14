@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T01:12:39.066275+00:00",
-    "total_catches": 21107,
+    "generated_at": "2026-04-14T01:17:41.374524+00:00",
+    "total_catches": 21108,
     "unique_catches": 351,
-    "total_players": 715,
+    "total_players": 716,
     "dex_total": 351,
     "caught_total": 351,
     "dex_completion": 100.0,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21107 catches"
+      "sub": "Since launch - 21108 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3426,6 +3426,14 @@
         "l": "Oct 28 2024"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 14 2026"
+      },
+      {
         "u": "jonnykaputt",
         "n": "jonnykaputt",
         "g": 132,
@@ -6060,6 +6068,14 @@
         "l": "Apr 11 2026"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 14 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 101,
@@ -6198,6 +6214,14 @@
         "l": "Apr 14 2026"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 14 2026"
+      },
+      {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 44,
@@ -6213,6 +6237,14 @@
         "g": 268,
         "c": 3,
         "casts": 3,
+        "l": "Apr 14 2026"
+      },
+      {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
         "l": "Apr 14 2026"
       },
       {
@@ -7229,7 +7261,7 @@
       "n": "Next Gen Camry",
       "custom": true,
       "r": "Epic",
-      "c": 39,
+      "c": 40,
       "h": "karnalsanders",
       "v": 169,
       "w": 112.87
@@ -9434,7 +9466,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "rhetti_",
+      "g": 135,
+      "c": 1,
+      "best_n": "Next Gen Camry",
+      "best_r": "Rare",
+      "best_v": 135,
+      "d": "Apr 14 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -11799,7 +11841,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Not as lame as your neigbors Camry",
-      "c": 39,
+      "c": 40,
       "rec": "112.87 lb",
       "v": 169
     },
@@ -12598,6 +12640,14 @@
   ],
   "recent": [
     {
+      "u": "rhetti_",
+      "i": "Next Gen Camry",
+      "w": 90.17,
+      "v": 135,
+      "r": "Rare",
+      "d": "Apr 14 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "KOOLBOX IV DRIVER AC",
       "w": 14.07,
@@ -13188,14 +13238,6 @@
       "v": 93,
       "r": "Rare",
       "d": "Jan 22 2026"
-    },
-    {
-      "u": "showtime_84",
-      "i": "Double Adjustable Steel J-Bar",
-      "w": 2.1,
-      "v": 53,
-      "r": "Uncommon",
-      "d": "Jan 21 2026"
     }
   ]
 }
