@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-04-14T02:08:11.092423+00:00",
-    "total_catches": 21126,
-    "unique_catches": 354,
+    "generated_at": "2026-04-14T02:13:14.035980+00:00",
+    "total_catches": 21127,
+    "unique_catches": 355,
     "total_players": 717,
-    "dex_total": 354,
-    "caught_total": 354,
+    "dex_total": 355,
+    "caught_total": 355,
     "dex_completion": 100.0,
-    "custom_catch_count": 233,
+    "custom_catch_count": 234,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
       "1987_Wrangler.webp",
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21126 catches"
+      "sub": "Since launch - 21127 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -284,9 +284,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 100816,
-        "c": 1510,
-        "casts": 1510,
+        "g": 100868,
+        "c": 1511,
+        "casts": 1511,
         "l": "Apr 14 2026"
       },
       {
@@ -6060,6 +6060,14 @@
         "l": "Apr 14 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 212,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 14 2026"
+      },
+      {
         "u": "polegolf1",
         "n": "polegolf1",
         "g": 207,
@@ -6089,14 +6097,6 @@
         "g": 165,
         "c": 4,
         "casts": 4,
-        "l": "Apr 14 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 160,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 14 2026"
       },
       {
@@ -6248,9 +6248,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 160,
-        "c": 2,
-        "casts": 2,
+        "g": 212,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 14 2026"
       },
       {
@@ -6330,9 +6330,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 160,
-        "c": 2,
-        "casts": 2,
+        "g": 212,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 14 2026"
       },
       {
@@ -8718,6 +8718,15 @@
       "w": 0.22
     },
     {
+      "n": "Garrett Smithley",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 1,
+      "h": "flippy00",
+      "v": 52,
+      "w": 51.56
+    },
+    {
       "n": "Butterfly Fish",
       "custom": false,
       "r": "Uncommon",
@@ -9576,11 +9585,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1510
+      "n": 1511
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 100816
+      "n": 100868
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -9588,7 +9597,7 @@
     },
     "alltime_unique": {
       "u": "flippy00",
-      "n": 312
+      "n": 313
     },
     "best_day_catches": {
       "u": "ironlegacy_",
@@ -12827,9 +12836,26 @@
       "c": 1,
       "rec": "45.51 lb",
       "v": 46
+    },
+    {
+      "n": "Garrett Smithley",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Professional backmarker with a podcast mic ready",
+      "c": 1,
+      "rec": "51.56 lb",
+      "v": 52
     }
   ],
   "recent": [
+    {
+      "u": "flippy00",
+      "i": "Garrett Smithley",
+      "w": 51.56,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Apr 14 2026"
+    },
     {
       "u": "larcen22",
       "i": "Next Gen Camaro",
@@ -13420,14 +13446,6 @@
       "w": 8.91,
       "v": 17,
       "r": "Common",
-      "d": "Feb 06 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "87 Pontiac Gran Prix",
-      "w": 95.69,
-      "v": 120,
-      "r": "Rare",
       "d": "Feb 06 2026"
     }
   ]
