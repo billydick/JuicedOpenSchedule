@@ -1202,11 +1202,6 @@
   </div>
 
   <div class="lb-panel" id="lb-panel-achievements">
-    <div class="lb-ach-search-row">
-      <div class="lb-ach-search-lbl">Look up angler:</div>
-      <input id="lb-ach-search" class="lb-alltime-search" type="text" style="max-width:300px" placeholder="Twitch username..." oninput="lbAchSearch(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-      <div class="lb-alltime-meta" id="lb-ach-search-result"></div>
-    </div>
     <div class="lb-ach-layout">
       <div class="lb-ach-catnav">
         <div class="lb-ach-catnav-title">Category</div>
@@ -1225,6 +1220,10 @@
         <button class="lb-ach-tierbtn t-bronze" id="lb-ach-tier-bronze" onclick="lbAchSetTier('bronze',this)">Bronze <span class="lb-ach-cnt">15</span></button>
       </div>
       <div class="lb-ach-main">
+        <div class="lb-alltime-tools" style="margin-bottom:14px">
+          <input id="lb-ach-search" class="lb-alltime-search" type="text" placeholder="Search anglers..." oninput="lbAchSearch(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          <div class="lb-alltime-meta" id="lb-ach-search-result"></div>
+        </div>
         <div class="lb-sec-label" id="lb-ach-wall-label">All Achievements</div>
         <div class="lb-ach-grid" id="lb-ach-wall"></div>
       </div>
@@ -10207,17 +10206,25 @@ function lbThumb(name,isCustom){
   window.lbAchSearch=function(v){
     lbAchCurUser=(v||'').toLowerCase().trim();
     var result=document.getElementById('lb-ach-search-result');
-    if(!lbAchCurUser){if(result)result.textContent='';lbRenderAchWall();return;}
     var pdata=(LB_DB.achievements&&LB_DB.achievements.players)||{};
-    var player=pdata[lbAchCurUser]||pdata[v]||null;
+    if(!lbAchCurUser){
+      if(result) result.textContent='';
+      lbRenderAchWall();
+      return;
+    }
+    // Partial match — find all players whose name contains the query
+    var matches=Object.keys(pdata).filter(function(u){ return u.toLowerCase().indexOf(lbAchCurUser)!==-1; });
     if(result){
-      if(!player){result.textContent=v+' — not found';}
-      else{
-        var earned=Object.keys(player);
+      if(!matches.length){ result.textContent=v+' — no match'; }
+      else if(matches.length===1){
+        // Exact single match — show their counts
+        var earned=Object.keys(pdata[matches[0]]);
         var g=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='gold';});}).length;
-        var s=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='silver';});}).length;
+        var s2=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='silver';});}).length;
         var b=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='bronze';});}).length;
-        result.innerHTML='<span style="color:#fff;font-weight:800">'+v+'</span> — <span style="color:#FF8000">'+g+' Gold</span> <span style="color:#A335EE">'+s+' Silver</span> <span style="color:#0070DD">'+b+' Bronze</span> <span style="color:rgba(200,200,200,.3)">'+(earned.length)+' total</span>';
+        result.innerHTML='<span style="color:#fff;font-weight:800">'+matches[0]+'</span> — <span style="color:#FF8000">'+g+' Gold</span> <span style="color:#A335EE">'+s2+' Silver</span> <span style="color:#0070DD">'+b+' Bronze</span> <span style="color:rgba(200,200,200,.3)">'+earned.length+' total</span>';
+      } else {
+        result.textContent=matches.length+' anglers match';
       }
     }
     lbRenderAchWall();
@@ -10228,8 +10235,16 @@ function lbThumb(name,isCustom){
     if(!wall) return;
     var stream=(LB_DB.achievements&&LB_DB.achievements.stream)||{};
     var pdata=(LB_DB.achievements&&LB_DB.achievements.players)||{};
-    var player=pdata[lbAchCurUser]||null;
-    var isPersonal=!!player;
+    // Support partial match — find all matching players
+    var matches=lbAchCurUser?Object.keys(pdata).filter(function(u){ return u.toLowerCase().indexOf(lbAchCurUser)!==-1; }):[];
+    var player=null;
+    if(matches.length===1) player=pdata[matches[0]];
+    else if(matches.length>1){
+      // Multi-match: merge earned sets, no personal dates
+      player={};
+      matches.forEach(function(u){ Object.assign(player,pdata[u]); });
+    }
+    var isPersonal=matches.length===1;
     var list=LB_ACH_DEFS.filter(function(a){
       if(lbAchCurCat!=='all'&&a.cat!==lbAchCurCat) return false;
       if(lbAchCurTier!=='all'&&a.t!==lbAchCurTier) return false;
