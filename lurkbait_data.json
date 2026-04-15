@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-15T20:24:03.476196+00:00",
-    "total_catches": 21204,
+    "generated_at": "2026-04-15T22:58:35.755978+00:00",
+    "total_catches": 21205,
     "unique_catches": 357,
     "total_players": 728,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21204 catches"
+      "sub": "Since launch - 21205 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -364,10 +364,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 31751,
-        "c": 483,
-        "casts": 483,
-        "l": "Apr 14 2026"
+        "g": 31813,
+        "c": 484,
+        "casts": 484,
+        "l": "Apr 15 2026"
       },
       {
         "u": "dogger_101",
@@ -6110,10 +6110,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 2716,
-        "c": 35,
-        "casts": 35,
-        "l": "Apr 14 2026"
+        "g": 2778,
+        "c": 36,
+        "casts": 36,
+        "l": "Apr 15 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6312,10 +6312,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 1910,
-        "c": 20,
-        "casts": 20,
-        "l": "Apr 14 2026"
+        "g": 1972,
+        "c": 21,
+        "casts": 21,
+        "l": "Apr 15 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6510,7 +6510,16 @@
         "l": "Apr 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 62,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 15 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9313,7 +9322,15 @@
         "d": "Apr 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Jackson Gibbs",
+        "v": 62,
+        "r": "Rare",
+        "d": "Apr 15 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -20310,7 +20327,7 @@
       "n": "Jackson Gibbs",
       "custom": true,
       "r": "Rare",
-      "c": 37,
+      "c": 38,
       "h": "dontuu",
       "v": 84,
       "w": 56.29
@@ -24494,7 +24511,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Front Changer, Joe Gibbs Racing",
-      "c": 37,
+      "c": 38,
       "rec": "56.29 lb",
       "v": 84
     },
@@ -25004,6 +25021,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "juicedracing",
+      "i": "Jackson Gibbs",
+      "w": 41.43,
+      "v": 62,
+      "r": "Rare",
+      "d": "Apr 15 2026"
+    },
     {
       "u": "juicedracing",
       "i": "Annoying iRacer kid",
@@ -25594,14 +25619,6 @@
       "w": 41.6,
       "v": 62,
       "r": "Rare",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Coffee Cup",
-      "w": 0.17,
-      "v": 2,
-      "r": "Junk",
       "d": "Apr 14 2026"
     }
   ]
