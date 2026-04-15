@@ -1009,6 +1009,74 @@
   .lb-period-btn:hover:not([disabled]){color:#00c8ff;border-color:#00c8ff}
   .lb-period-btn[disabled]{opacity:.2;cursor:default}
   .lb-period-label{font-family:'Barlow Condensed',sans-serif;font-size:16px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#fff;flex:1;text-align:center}
+  .lb-subtabs{display:flex;gap:6px;align-items:center;margin-left:auto}
+  .lb-subtab{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:5px 14px;border-radius:20px;cursor:pointer;background:transparent;border:1px solid rgba(200,200,255,.12);color:rgba(200,200,255,.25);transition:all .15s;white-space:nowrap}
+  .lb-subtab:hover{border-color:rgba(200,200,255,.3);color:rgba(200,200,255,.6)}
+  .lb-subtab.active{background:rgba(0,200,255,.1);border-color:rgba(0,200,255,.4);color:#00c8ff}
+  .lb-ach-layout{display:grid;grid-template-columns:180px 1fr 280px;min-height:400px;margin:-28px -32px -48px}
+  .lb-ach-catnav{padding:20px 0;border-right:1px solid #141414;background:#050505}
+  .lb-ach-catnav-title{font-family:'Barlow Condensed',sans-serif;font-size:8px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:0 16px;margin-bottom:8px}
+  .lb-ach-catbtn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:8px 16px;background:none;border:none;color:rgba(200,200,255,.3);cursor:pointer;transition:all .15s;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-align:left;border-left:3px solid transparent}
+  .lb-ach-catbtn:hover{color:rgba(200,200,255,.7);background:rgba(200,200,255,.03)}
+  .lb-ach-catbtn.active{color:#fff;background:rgba(0,200,255,.06);border-left-color:#00c8ff}
+  .lb-ach-catbtn .lb-ach-cnt{font-size:9px;background:#111;padding:1px 5px;border-radius:10px;color:rgba(200,200,255,.2)}
+  .lb-ach-catbtn.active .lb-ach-cnt{background:rgba(0,200,255,.15);color:rgba(0,200,255,.7)}
+  .lb-ach-catdiv{height:1px;background:#111;margin:8px 16px}
+  .lb-ach-tierbtn{width:100%;display:flex;align-items:center;justify-content:space-between;padding:6px 16px;background:none;border:none;cursor:pointer;font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;border-left:3px solid transparent;transition:all .15s;text-align:left}
+  .lb-ach-tierbtn.t-all{color:rgba(200,200,255,.3)}.lb-ach-tierbtn.t-all:hover{color:rgba(200,200,255,.7)}.lb-ach-tierbtn.t-all.active{color:#fff;border-left-color:#fff;background:rgba(255,255,255,.04)}
+  .lb-ach-tierbtn.t-gold{color:rgba(255,128,0,.4)}.lb-ach-tierbtn.t-gold:hover,.lb-ach-tierbtn.t-gold.active{color:#FF8000;border-left-color:#FF8000;background:rgba(255,128,0,.06)}
+  .lb-ach-tierbtn.t-silver{color:rgba(163,53,238,.4)}.lb-ach-tierbtn.t-silver:hover,.lb-ach-tierbtn.t-silver.active{color:#A335EE;border-left-color:#A335EE;background:rgba(163,53,238,.06)}
+  .lb-ach-tierbtn.t-bronze{color:rgba(0,112,221,.4)}.lb-ach-tierbtn.t-bronze:hover,.lb-ach-tierbtn.t-bronze.active{color:#0070DD;border-left-color:#0070DD;background:rgba(0,112,221,.06)}
+  .lb-ach-tierbtn .lb-ach-cnt{font-size:9px;background:#111;padding:1px 5px;border-radius:10px;color:rgba(200,200,255,.2)}
+  .lb-ach-main{padding:20px 24px 40px;overflow:hidden}
+  .lb-ach-grid{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+  .lb-ach-card{display:grid;grid-template-columns:3px 44px 1fr 64px;align-items:stretch;background:#0d0d0d;border:1px solid #1a1a1a;border-radius:6px;overflow:hidden;transition:background .15s;min-height:82px}
+  .lb-ach-card:hover{background:#111}
+  .lb-ach-card.dim{opacity:.12}
+  .lb-ach-card.earned{border-color:rgba(0,200,255,.2);background:#081520}
+  .lb-ach-card.near{border-color:rgba(255,128,0,.15)}
+  .lb-ach-stripe{min-height:82px}
+  .lb-ach-stripe.gold{background:#FF8000}.lb-ach-stripe.silver{background:#A335EE}.lb-ach-stripe.bronze{background:#0070DD}
+  .lb-ach-icon{display:flex;align-items:center;justify-content:center;font-size:19px;padding:0 2px;flex-shrink:0}
+  .lb-ach-body{padding:9px 6px 9px 4px;min-width:0}
+  .lb-ach-name{font-size:13px;font-weight:900;color:#fff;line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .lb-ach-cond{font-family:'Barlow',sans-serif;font-size:10px;color:rgba(200,200,255,.25);margin-top:3px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .lb-ach-bottom{margin-top:5px}
+  .lb-ach-earn-date{font-size:11px;font-weight:800;letter-spacing:.5px;color:#00c8ff}
+  .lb-ach-earn-lbl{font-size:7px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(0,200,255,.35);margin-top:1px}
+  .lb-ach-holders{font-size:10px;color:rgba(200,200,255,.3);line-height:1.5;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .lb-ach-holders b{color:rgba(255,255,255,.65);font-weight:700}
+  .lb-ach-meta{padding:9px 10px 9px 4px;text-align:right;display:flex;flex-direction:column;justify-content:space-between;flex-shrink:0}
+  .lb-ach-count{font-size:20px;font-weight:900;color:rgba(200,200,255,.1);line-height:1}
+  .lb-ach-count-lbl{font-size:6px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.08)}
+  .lb-ach-badge{font-size:7px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:2px 5px;border-radius:3px;display:inline-block}
+  .lb-ach-badge-earned{background:rgba(0,200,255,.1);border:1px solid rgba(0,200,255,.3);color:#00c8ff}
+  .lb-ach-badge-near{background:rgba(255,128,0,.08);border:1px solid rgba(255,128,0,.2);color:#FF8000}
+  .lb-ach-prog-bar{height:2px;background:#1a1a1a;border-radius:2px;overflow:hidden;margin-top:4px}
+  .lb-ach-prog-fill{height:100%;border-radius:2px}
+  .lb-ach-prog-lbl{font-size:8px;color:rgba(0,200,255,.5);text-align:right;margin-top:2px}
+  .lb-ach-sidebar{padding:20px 16px 40px;background:#050505;border-left:1px solid #141414}
+  .lb-ach-top-card{background:#0a1628;border:1px solid rgba(0,200,255,.08);border-radius:6px;padding:11px 13px;margin-bottom:6px}
+  .lb-ach-top-lbl{font-family:'Barlow Condensed',sans-serif;font-size:7px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(0,200,255,.3);margin-bottom:4px}
+  .lb-ach-top-name{font-family:'Barlow Condensed',sans-serif;font-size:18px;font-weight:900;color:#fff}
+  .lb-ach-top-sub{font-family:'Barlow Condensed',sans-serif;font-size:10px;color:rgba(200,200,255,.3);margin-top:2px}
+  .lb-ach-unlock{display:grid;grid-template-columns:30px 1fr;gap:8px;align-items:start;padding:8px 0;border-bottom:1px solid #0d0d0d}
+  .lb-ach-unlock:last-child{border-bottom:none}
+  .lb-ach-u-icon{width:30px;height:30px;border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+  .lb-ach-u-icon.gold{background:rgba(255,128,0,.1);border:1px solid rgba(255,128,0,.18)}
+  .lb-ach-u-icon.silver{background:rgba(163,53,238,.1);border:1px solid rgba(163,53,238,.18)}
+  .lb-ach-u-icon.bronze{background:rgba(0,112,221,.1);border:1px solid rgba(0,112,221,.18)}
+  .lb-ach-u-user{font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:900;color:#fff;line-height:1}
+  .lb-ach-u-name{font-family:'Barlow Condensed',sans-serif;font-size:10px;color:rgba(200,200,255,.3);margin-top:1px}
+  .lb-ach-u-pip{font-family:'Barlow Condensed',sans-serif;font-size:7px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:1px 4px;border-radius:2px;margin-right:4px}
+  .lb-ach-u-pip.gold{background:rgba(255,128,0,.15);color:#FF8000}
+  .lb-ach-u-pip.silver{background:rgba(163,53,238,.15);color:#A335EE}
+  .lb-ach-u-pip.bronze{background:rgba(0,112,221,.15);color:#0070DD}
+  .lb-ach-u-time{font-family:'Barlow Condensed',sans-serif;font-size:9px;color:rgba(200,200,255,.2)}
+  .lb-ach-search-row{display:flex;align-items:center;gap:12px;margin-bottom:6px;padding:0 24px 16px}
+  .lb-ach-search-lbl{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:rgba(200,200,255,.3);white-space:nowrap;flex-shrink:0}
+  @media(max-width:1100px){.lb-ach-layout{grid-template-columns:160px 1fr}.lb-ach-sidebar{display:none}}
+  @media(max-width:768px){.lb-ach-layout{grid-template-columns:1fr;margin:-20px -16px -40px}.lb-ach-catnav{display:none}.lb-ach-grid{grid-template-columns:1fr}.lb-ach-main{padding:16px 14px 32px}}
   @media(max-width:768px){
     .lb-hero{padding:24px 20px 0}.lb-hero-title{font-size:42px}.lb-hero-fish{font-size:80px;right:16px}
     .lb-timetabs,.lb-sectabs{padding:0 16px;overflow-x:auto}
@@ -1069,10 +1137,15 @@
     <button class="lb-timetab" onclick="lbSetTime('weekly',this)">Weekly</button>
     <button class="lb-timetab" onclick="lbSetTime('monthly',this)">Monthly</button>
     <button class="lb-timetab" onclick="lbSetTime('alltime',this)">All Time</button>
+    <div class="lb-subtabs">
+      <button class="lb-subtab active" id="lb-subtab-gold" onclick="lbSetSub('gold',this)">Gold Earned</button>
+      <button class="lb-subtab" id="lb-subtab-bestcatch" onclick="lbSetSub('bestcatch',this)">Best Single Catch</button>
+    </div>
   </div>
   <div class="lb-sectabs">
     <button class="lb-sectab active" onclick="lbSetSec('leaderboard',this)">&#127907; Leaderboard</button>
     <button class="lb-sectab" onclick="lbSetSec('records',this)">&#127907; Angler Records</button>
+    <button class="lb-sectab" onclick="lbSetSec('achievements',this)">&#127942; Achievements</button>
     <button class="lb-sectab" onclick="lbSetSec('dex',this)">&#128218; Catch Dex</button>
     <button class="lb-sectab" onclick="lbSetSec('recent',this)">&#128336; Recent</button>
     <button class="lb-sectab" onclick="lbSetSec('newanglers',this)">&#127907; New Anglers</button>
@@ -1126,6 +1199,43 @@
   <div class="lb-panel" id="lb-panel-newanglers">
     <div class="lb-sec-label">New Anglers — Last 7 Days</div>
     <div class="lb-recent-feed" id="lb-newanglers-feed"></div>
+  </div>
+
+  <div class="lb-panel" id="lb-panel-achievements">
+    <div class="lb-ach-search-row">
+      <div class="lb-ach-search-lbl">Look up angler:</div>
+      <input id="lb-ach-search" class="lb-alltime-search" type="text" style="max-width:300px" placeholder="Twitch username..." oninput="lbAchSearch(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+      <div class="lb-alltime-meta" id="lb-ach-search-result"></div>
+    </div>
+    <div class="lb-ach-layout">
+      <div class="lb-ach-catnav">
+        <div class="lb-ach-catnav-title">Category</div>
+        <button class="lb-ach-catbtn active" id="lb-ach-cat-all" onclick="lbAchSetCat('all',this)">All <span class="lb-ach-cnt">50</span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-daily" onclick="lbAchSetCat('daily',this)">Daily <span class="lb-ach-cnt" id="lb-ach-cnt-daily"></span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-streak" onclick="lbAchSetCat('streak',this)">Streaks <span class="lb-ach-cnt" id="lb-ach-cnt-streak"></span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-collection" onclick="lbAchSetCat('collection',this)">Collection <span class="lb-ach-cnt" id="lb-ach-cnt-collection"></span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-milestone" onclick="lbAchSetCat('milestone',this)">Milestones <span class="lb-ach-cnt" id="lb-ach-cnt-milestone"></span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-leaderboard" onclick="lbAchSetCat('leaderboard',this)">Leaderboard <span class="lb-ach-cnt" id="lb-ach-cnt-leaderboard"></span></button>
+        <button class="lb-ach-catbtn" id="lb-ach-cat-weight" onclick="lbAchSetCat('weight',this)">Fish Market <span class="lb-ach-cnt" id="lb-ach-cnt-weight"></span></button>
+        <div class="lb-ach-catdiv"></div>
+        <div class="lb-ach-catnav-title" style="margin-top:8px">Tier</div>
+        <button class="lb-ach-tierbtn t-all active" id="lb-ach-tier-all" onclick="lbAchSetTier('all',this)">All <span class="lb-ach-cnt">50</span></button>
+        <button class="lb-ach-tierbtn t-gold" id="lb-ach-tier-gold" onclick="lbAchSetTier('gold',this)">Gold <span class="lb-ach-cnt">13</span></button>
+        <button class="lb-ach-tierbtn t-silver" id="lb-ach-tier-silver" onclick="lbAchSetTier('silver',this)">Silver <span class="lb-ach-cnt">22</span></button>
+        <button class="lb-ach-tierbtn t-bronze" id="lb-ach-tier-bronze" onclick="lbAchSetTier('bronze',this)">Bronze <span class="lb-ach-cnt">15</span></button>
+      </div>
+      <div class="lb-ach-main">
+        <div class="lb-sec-label" id="lb-ach-wall-label">All Achievements</div>
+        <div class="lb-ach-grid" id="lb-ach-wall"></div>
+      </div>
+      <div class="lb-ach-sidebar">
+        <div class="lb-sec-label" style="margin-bottom:12px">Most Decorated</div>
+        <div class="lb-ach-top-card" id="lb-ach-top-total"></div>
+        <div class="lb-ach-top-card" id="lb-ach-top-gold" style="margin-bottom:20px"></div>
+        <div class="lb-sec-label">Recent Unlocks</div>
+        <div id="lb-ach-recent"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -9604,6 +9714,8 @@ setPage(startPage);
     daily_history:[],
     weekly_history:[],
     monthly_history:[],
+    best_catch:{alltime:[],monthly:[],weekly:[],daily:[]},
+    achievements:{stream:{},players:{},recent_unlocks:[]},
     records:[],
     angler_records:{},
     new_anglers:[],
@@ -9690,10 +9802,12 @@ function lbThumb(name,isCustom){
   var lbAlltimeVisible=50;
   var lbAlltimeStep=50;
   var lbAlltimeSearch='';
+  var lbCurSub='gold';
   var lbDailyIdx=0;
   var lbWeeklyIdx=0;
   var lbMonthlyIdx=0;
   function lbGetData(){
+    if(lbCurSub==='bestcatch') return (LB_DB.best_catch||{})[lbCurTime]||[];
     if(lbCurTime==='daily'){
       var dh=LB_DB.daily_history||[];
       if(lbDailyIdx===0) return LB_DB.leaderboards.daily||[];
@@ -9711,6 +9825,12 @@ function lbThumb(name,isCustom){
     }
     return LB_DB.leaderboards.alltime||[];
   }
+  window.lbSetSub=function(sub,btn){
+    lbCurSub=sub;
+    document.querySelectorAll('.lb-subtab').forEach(function(b){b.classList.remove('active')});
+    btn.classList.add('active');
+    lbRenderLeaderboard();
+  };
   window.lbSetTime=function(t,btn){
     lbCurTime=t;
     lbDailyIdx=0;
@@ -9748,6 +9868,7 @@ function lbThumb(name,isCustom){
     if(s==='dex') lbRenderDex();
     if(s==='recent') lbRenderRecent();
     if(s==='newanglers') lbRenderNewAnglers();
+    if(s==='achievements') lbRenderAchievements();
     window.scrollTo(0,_sy);
   };
   function lbRenderBanner(){
@@ -9814,6 +9935,9 @@ function lbThumb(name,isCustom){
       if(prevBtn) prevBtn.disabled=(curIdx>=maxIdx);
       if(nextBtn) nextBtn.disabled=(curIdx<=0);
     }
+    // Update sec label for subtab
+    var secLbl=document.querySelector('#lb-panel-leaderboard .lb-sec-label');
+    if(secLbl) secLbl.textContent=lbCurSub==='bestcatch'?'Best Single Catch':'Gold Rankings';
     lbRenderBanner();
     var data=lbGetData();
     var isAllTime = lbCurTime==='alltime';
@@ -9861,8 +9985,8 @@ function lbThumb(name,isCustom){
           '<div class="lb-ldr-name" style="color:'+col+'">'+(p.n||p.u||'Unknown')+'</div>'+
           '<div class="lb-ldr-bar"><div class="lb-ldr-bar-fill" style="width:'+barW+'%;background:'+col+'"></div></div>'+
         '</div>'+
-        '<div class="lb-ldr-gold" style="color:'+col+'">'+Number(p.g||0).toLocaleString()+'</div>'+
-        '<div class="lb-ldr-casts">'+Number(p.c||0).toLocaleString()+' casts</div>'+
+        '<div class="lb-ldr-gold" style="color:'+(lbCurSub==='bestcatch'?(RC[p.r]||col):col)+'">'+Number(p.g||p.v||0).toLocaleString()+(lbCurSub==='bestcatch'?'g':'')+'</div>'+
+        '<div class="lb-ldr-casts" style="'+(lbCurSub==='bestcatch'?'color:'+(RC[p.r]||'#888')+';font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase':'')+'">'+( lbCurSub==='bestcatch'?(p.r||''):Number(p.c||0).toLocaleString()+' casts')+'</div>'+
         '<div class="lb-ldr-date">'+(p.l||'')+'</div>'+
       '</div>';
     }).join('');
@@ -9998,6 +10122,194 @@ function lbThumb(name,isCustom){
   if(!lbPageActive() && window.location.hash === '#lurkbait'){
     setPage('lurkbait');
   }
+  var LB_ACH_DEFS=[
+    {id:'golden_cast',t:'gold',cat:'milestone',i:'💰',n:'Golden Cast',c:'Single catch worth 500g or more'},
+    {id:'jackpot',t:'gold',cat:'milestone',i:'🎰',n:'Jackpot',c:'Single catch worth 1,000g or more'},
+    {id:'legend_hunter',t:'gold',cat:'collection',i:'🏆',n:'Legend Hunter',c:'Catch your first Legendary'},
+    {id:'legend_collector',t:'gold',cat:'collection',i:'👑',n:'Legend Collector',c:'Catch 10 Legendaries all time'},
+    {id:'perfect_storm',t:'gold',cat:'milestone',i:'⚡',n:'Perfect Storm',c:'Perfect cast (rating 3) on a Legendary'},
+    {id:'fifty_day',t:'gold',cat:'daily',i:'🔥',n:'50 in a Day',c:'50 catches in a single day'},
+    {id:'two_legs_day',t:'gold',cat:'daily',i:'🎯',n:'2 Legendaries in a Day',c:'2 Legendaries in one day'},
+    {id:'three_legs_day',t:'gold',cat:'daily',i:'🌟',n:'3 Legendaries in a Day',c:'3 Legendaries in one day'},
+    {id:'shark_week',t:'gold',cat:'collection',i:'🦈',n:'Shark Week',c:'Catch all 5 shark species'},
+    {id:'licensed',t:'gold',cat:'collection',i:'📋',n:'Licensed to Fish',c:'Catch all 5 iRacing licenses'},
+    {id:'win_week',t:'gold',cat:'leaderboard',i:'🥇',n:'Win the Week',c:'Finish #1 on any weekly leaderboard'},
+    {id:'win_month',t:'gold',cat:'leaderboard',i:'📅',n:'Win the Month',c:'Finish #1 on any monthly leaderboard'},
+    {id:'the_market',t:'gold',cat:'weight',i:'🏪',n:'The Market',c:'50,000 lbs hauled — Go home. You\'ve done enough.'},
+    {id:'grinder',t:'silver',cat:'milestone',i:'⚙',n:'Grinder',c:'500 total casts'},
+    {id:'k_casts',t:'silver',cat:'milestone',i:'🎣',n:'1,000 Casts',c:'1,000 total casts'},
+    {id:'century',t:'silver',cat:'milestone',i:'💯',n:'Century',c:'100 total casts'},
+    {id:'dex_hunter',t:'silver',cat:'collection',i:'📖',n:'Dex Hunter',c:'50 unique items caught'},
+    {id:'completionist',t:'silver',cat:'collection',i:'✅',n:'Completionist',c:'100 unique items caught'},
+    {id:'full_spectrum',t:'silver',cat:'collection',i:'🌈',n:'Full Spectrum',c:'Catch all 5 non-Junk rarities all time'},
+    {id:'custom_club',t:'silver',cat:'collection',i:'🎨',n:'Custom Club',c:'10 unique custom stream items'},
+    {id:'gold_hoarder',t:'silver',cat:'milestone',i:'🏦',n:'Gold Hoarder',c:'10,000g total gold accumulated'},
+    {id:'streak_7',t:'silver',cat:'streak',i:'📆',n:'Streak Angler',c:'Fish on 7 consecutive stream days'},
+    {id:'streak_14',t:'silver',cat:'streak',i:'🗓',n:'Two Week Streak',c:'Fish on 14 consecutive stream days'},
+    {id:'same_again',t:'silver',cat:'collection',i:'🔁',n:'Same Again',c:'Catch the same item 5x all time'},
+    {id:'dedicated',t:'silver',cat:'daily',i:'💎',n:'Dedicated',c:'2,500g earned in a single day'},
+    {id:'twenty_day',t:'silver',cat:'daily',i:'📊',n:'20 in a Day',c:'20 catches in a single day'},
+    {id:'triple_crown',t:'silver',cat:'daily',i:'👑',n:'Triple Crown',c:'Legendary, Epic, and Rare in the same day'},
+    {id:'legend_complete',t:'silver',cat:'collection',i:'📜',n:'Legend Complete',c:'Catch all 46 unique Legendaries'},
+    {id:'epic_collector',t:'silver',cat:'collection',i:'🔮',n:'Epic Collector',c:'25 Epics all time'},
+    {id:'leg_epic_day',t:'silver',cat:'daily',i:'✨',n:'Legendary + Epic Day',c:'Legendary and Epic in the same day'},
+    {id:'all5_day',t:'silver',cat:'daily',i:'🎲',n:'All 5 Rarities in a Day',c:'All 5 non-Junk rarities in one session'},
+    {id:'hat_trick',t:'silver',cat:'daily',i:'🎩',n:'Hat Trick',c:'Same item 3x in a single day'},
+    {id:'two_k_day',t:'silver',cat:'daily',i:'💸',n:'2,000g in a Day',c:'2,000g earned in a single day'},
+    {id:'supplier',t:'silver',cat:'weight',i:'🚛',n:'Supplier',c:'25,000 lbs hauled — We don\'t open until you show up.'},
+    {id:'wholesale',t:'silver',cat:'weight',i:'📦',n:'Wholesale Account',c:'10,000 lbs hauled — You got your own parking spot now.'},
+    {id:'broke_in',t:'bronze',cat:'milestone',i:'🐟',n:'Broke In',c:'First ever catch'},
+    {id:'first_cast',t:'bronze',cat:'daily',i:'🌅',n:'First Cast',c:'First catch of the day after 3AM reset'},
+    {id:'catch_of_day',t:'bronze',cat:'leaderboard',i:'⭐',n:'Catch of the Day',c:'Highest value single catch on any given day'},
+    {id:'win_day',t:'bronze',cat:'leaderboard',i:'🏅',n:'Win the Day',c:'Finish #1 on any daily leaderboard'},
+    {id:'double_down',t:'bronze',cat:'daily',i:'🔂',n:'Double Down',c:'Catch the same item twice in one day'},
+    {id:'junk_master',t:'bronze',cat:'collection',i:'🗑',n:'Junk Master',c:'10 Junk catches all time'},
+    {id:'custom_catch',t:'bronze',cat:'collection',i:'🎭',n:'Custom Catch',c:'Catch your first custom stream item'},
+    {id:'heavy_hauler',t:'bronze',cat:'milestone',i:'🏋',n:'Heavy Hauler',c:'Single catch over 1,000 lbs'},
+    {id:'monster_haul',t:'bronze',cat:'milestone',i:'🐋',n:'Monster Haul',c:'Single catch over 10,000 lbs'},
+    {id:'perfect_cast',t:'bronze',cat:'milestone',i:'🎯',n:'Perfect Cast',c:'Land a perfect rating=3 cast'},
+    {id:'gold_rush',t:'bronze',cat:'daily',i:'⛏',n:'Gold Rush',c:'1,000g earned in a single day'},
+    {id:'the_regulars',t:'bronze',cat:'collection',i:'👥',n:'The Regulars',c:'Catch 5 unique iRacer community member items'},
+    {id:'walk_in',t:'bronze',cat:'weight',i:'🚶',n:'Walk-In',c:'500 lbs hauled — Take a number, we\'ll get to you.'},
+    {id:'regular_weight',t:'bronze',cat:'weight',i:'☕',n:'Regular',c:'2,500 lbs hauled — Hey, look who\'s back.'},
+    {id:'nascar_pass',t:'bronze',cat:'collection',i:'🏁',n:'NASCAR Season Pass',c:'Catch 5 unique track items'},
+  ];
+  var LB_ACH_TC={gold:'#FF8000',silver:'#A335EE',bronze:'#0070DD'};
+  var lbAchCurCat='all', lbAchCurTier='all', lbAchCurUser='';
+
+  // Init category counts
+  (function(){
+    var cats=['daily','streak','collection','milestone','leaderboard','weight'];
+    cats.forEach(function(c){
+      var cnt=LB_ACH_DEFS.filter(function(a){return a.cat===c;}).length;
+      var el=document.getElementById('lb-ach-cnt-'+c);
+      if(el) el.textContent=cnt;
+    });
+  })();
+
+  window.lbAchSetCat=function(cat){
+    lbAchCurCat=cat;
+    document.querySelectorAll('.lb-ach-catbtn').forEach(function(b){b.classList.remove('active');});
+    var btn=document.getElementById('lb-ach-cat-'+cat);
+    if(btn) btn.classList.add('active');
+    var labels={all:'All Achievements',daily:'Daily Achievements',streak:'Streak Achievements',collection:'Collection Achievements',milestone:'Milestone Achievements',leaderboard:'Leaderboard Achievements',weight:'Fish Market Achievements'};
+    var lbl=document.getElementById('lb-ach-wall-label'); if(lbl) lbl.textContent=labels[cat]||'Achievements';
+    lbRenderAchWall();
+  };
+  window.lbAchSetTier=function(tier){
+    lbAchCurTier=tier;
+    ['all','gold','silver','bronze'].forEach(function(t){
+      var btn=document.getElementById('lb-ach-tier-'+t);
+      if(btn) btn.className='lb-ach-tierbtn t-'+t+(t===tier?' active':'');
+    });
+    lbRenderAchWall();
+  };
+  window.lbAchSearch=function(v){
+    lbAchCurUser=(v||'').toLowerCase().trim();
+    var result=document.getElementById('lb-ach-search-result');
+    if(!lbAchCurUser){if(result)result.textContent='';lbRenderAchWall();return;}
+    var pdata=(LB_DB.achievements&&LB_DB.achievements.players)||{};
+    var player=pdata[lbAchCurUser]||pdata[v]||null;
+    if(result){
+      if(!player){result.textContent=v+' — not found';}
+      else{
+        var earned=Object.keys(player);
+        var g=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='gold';});}).length;
+        var s=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='silver';});}).length;
+        var b=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='bronze';});}).length;
+        result.innerHTML='<span style="color:#fff;font-weight:800">'+v+'</span> — <span style="color:#FF8000">'+g+' Gold</span> <span style="color:#A335EE">'+s+' Silver</span> <span style="color:#0070DD">'+b+' Bronze</span> <span style="color:rgba(200,200,200,.3)">'+(earned.length)+' total</span>';
+      }
+    }
+    lbRenderAchWall();
+  };
+
+  function lbRenderAchWall(){
+    var wall=document.getElementById('lb-ach-wall');
+    if(!wall) return;
+    var stream=(LB_DB.achievements&&LB_DB.achievements.stream)||{};
+    var pdata=(LB_DB.achievements&&LB_DB.achievements.players)||{};
+    var player=pdata[lbAchCurUser]||null;
+    var isPersonal=!!player;
+    var list=LB_ACH_DEFS.filter(function(a){
+      if(lbAchCurCat!=='all'&&a.cat!==lbAchCurCat) return false;
+      if(lbAchCurTier!=='all'&&a.t!==lbAchCurTier) return false;
+      return true;
+    });
+    if(isPersonal){
+      list=list.slice().sort(function(a,b){
+        var ae=!!player[a.id],be=!!player[b.id];
+        if(ae&&!be) return -1; if(!ae&&be) return 1;
+        return 0;
+      });
+    }
+    var tc=LB_ACH_TC;
+    wall.innerHTML=list.map(function(a){
+      var sd=stream[a.id]||{total:0,holders:[],latest:{u:'—',d:'—'}};
+      var isEarned=isPersonal&&!!player[a.id];
+      var isDim=isPersonal&&!isEarned;
+      var cls='lb-ach-card'+(isDim?' dim':'')+(isEarned?' earned':'');
+      var badge=isEarned?'<span class="lb-ach-badge lb-ach-badge-earned">✓ Earned</span>':'';
+      var bottom='';
+      if(isPersonal&&isEarned){
+        bottom='<div class="lb-ach-bottom"><div class="lb-ach-earn-date">'+player[a.id]+'</div><div class="lb-ach-earn-lbl">Date earned</div></div>';
+      } else if(!isPersonal){
+        var shown=sd.holders.slice(0,3);
+        var hHtml=shown.length?shown.map(function(h){return '<b>'+h+'</b>';}).join(' · ')+(sd.holders.length>3?' <span style="opacity:.25">+' + (sd.holders.length-3) +'</span>':''):'<span style="opacity:.2">Be first</span>';
+        bottom='<div class="lb-ach-bottom"><div class="lb-ach-holders">'+hHtml+'</div></div>';
+      }
+      return '<div class="'+cls+'">' +
+        '<div class="lb-ach-stripe '+a.t+'"></div>' +
+        '<div class="lb-ach-icon">'+a.i+'</div>' +
+        '<div class="lb-ach-body">' +
+          '<div class="lb-ach-name">'+a.n+' '+badge+'</div>' +
+          '<div class="lb-ach-cond">'+a.c+'</div>' +
+          bottom +
+        '</div>' +
+        '<div class="lb-ach-meta">' +
+          '<div><div class="lb-ach-count">'+sd.total+'</div><div class="lb-ach-count-lbl">earned</div></div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  function lbRenderAchSidebar(){
+    var stream=(LB_DB.achievements&&LB_DB.achievements.stream)||{};
+    // Most decorated: count by player
+    var pdata=(LB_DB.achievements&&LB_DB.achievements.players)||{};
+    var totals={}; var golds={};
+    Object.keys(pdata).forEach(function(u){
+      var achs=Object.keys(pdata[u]);
+      totals[u]=achs.length;
+      golds[u]=achs.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='gold';});}).length;
+    });
+    var topTotal=Object.keys(totals).sort(function(a,b){return totals[b]-totals[a];})[0];
+    var topGold=Object.keys(golds).sort(function(a,b){return golds[b]-golds[a];})[0];
+    var tc=document.getElementById('lb-ach-top-total');
+    var tg=document.getElementById('lb-ach-top-gold');
+    if(tc&&topTotal) tc.innerHTML='<div class="lb-ach-top-lbl">Most achievements earned</div><div class="lb-ach-top-name">'+topTotal+'</div><div class="lb-ach-top-sub">'+totals[topTotal]+' achievements</div>';
+    if(tg&&topGold) tg.innerHTML='<div class="lb-ach-top-lbl">Most gold achievements</div><div class="lb-ach-top-name">'+topGold+'</div><div class="lb-ach-top-sub" style="color:#FF8000">'+golds[topGold]+' Gold</div>';
+    // Recent unlocks
+    var unlocks=(LB_DB.achievements&&LB_DB.achievements.recent_unlocks)||[];
+    var feed=document.getElementById('lb-ach-recent');
+    if(!feed) return;
+    feed.innerHTML=unlocks.slice(0,15).map(function(r){
+      var def=LB_ACH_DEFS.find(function(a){return a.id===r.id;})||{t:'bronze',i:'🎣',n:r.id};
+      return '<div class="lb-ach-unlock">' +
+        '<div class="lb-ach-u-icon '+def.t+'">'+def.i+'</div>' +
+        '<div>' +
+          '<div class="lb-ach-u-user">'+r.u+'</div>' +
+          '<div class="lb-ach-u-name">'+def.n+'</div>' +
+          '<div><span class="lb-ach-u-pip '+def.t+'">'+def.t+'</span><span class="lb-ach-u-time">'+r.d+'</span></div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  function lbRenderAchievements(){
+    lbRenderAchWall();
+    lbRenderAchSidebar();
+  }
+
 })();
 
 </script>
