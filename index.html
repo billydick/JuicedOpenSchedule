@@ -10325,7 +10325,7 @@ function lbThumb(name,isCustom){
     var tc=document.getElementById('lb-ach-top-total');
     var tg=document.getElementById('lb-ach-top-gold');
     if(tc&&topTotal) tc.innerHTML='<div class="lb-ach-top-lbl">Most achievements earned</div><div class="lb-ach-top-name">'+topTotal+'</div><div class="lb-ach-top-sub">'+totals[topTotal]+' achievements</div>';
-    if(tg&&topGold) tg.innerHTML='<div class="lb-ach-top-lbl">Most gold achievements</div><div class="lb-ach-top-name">'+topGold+'</div><div class="lb-ach-top-sub" style="color:#FF8000">'+golds[topGold]+' Gold</div>';
+    if(tg&&topGold) tg.innerHTML='<div class="lb-ach-top-lbl">Most gold achievements</div><div class="lb-ach-top-name">'+topGold+'</div><div class="lb-ach-top-sub" style="color:#FF8000">'+golds[topGold]+' Gold Achievements</div>';
     // Recent unlocks
     var unlocks=(LB_DB.achievements&&LB_DB.achievements.recent_unlocks)||[];
     var feed=document.getElementById('lb-ach-recent');
