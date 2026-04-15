@@ -10252,7 +10252,10 @@ function lbThumb(name,isCustom){
     var g=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='gold';});}).length;
     var sv=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='silver';});}).length;
     var b=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='bronze';});}).length;
-    if(result) result.innerHTML='<span style="color:#fff;font-weight:800">'+u+'</span> — <span style="color:#FF8000">'+g+' Gold</span> <span style="color:#A335EE">'+sv+' Silver</span> <span style="color:#0070DD">'+b+' Bronze</span>';
+    // Get actual gold from alltime leaderboard
+    var atPlayer=(LB_DB.leaderboards.alltime||[]).find(function(p){return (p.n||p.u||'').toLowerCase()===u.toLowerCase();});
+    var goldTotal=atPlayer?atPlayer.g:0;
+    if(result) result.innerHTML='<span style="color:#fff;font-weight:800">'+u+'</span>'      +' — <span style="color:#D4A017">'+goldTotal.toLocaleString()+'g</span>'      +' &middot; <span style="color:#FF8000">'+g+' &#9733; Gold</span>'      +' <span style="color:#A335EE">'+sv+' Silver</span>'      +' <span style="color:#0070DD">'+b+' Bronze</span>'      +' <span style="color:rgba(200,200,200,.3)">('+earned.length+' achievements)</span>';
     var playerList=document.getElementById('lb-ach-player-list');
     if(playerList){ playerList.style.display='none'; playerList.innerHTML=''; }
     lbRenderAchWall();
