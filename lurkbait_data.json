@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T00:34:20.901281+00:00",
-    "total_catches": 21228,
+    "generated_at": "2026-04-16T00:40:30.832185+00:00",
+    "total_catches": 21229,
     "unique_catches": 357,
     "total_players": 729,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21228 catches"
+      "sub": "Since launch - 21229 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2730,6 +2730,14 @@
         "l": "Oct 27 2024"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 250,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "zapicky",
         "n": "zapicky",
         "g": 247,
@@ -2856,14 +2864,6 @@
         "c": 4,
         "casts": 4,
         "l": "Feb 22 2025"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 217,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 14 2026"
       },
       {
         "u": "itz_me_sosa8",
@@ -6172,6 +6172,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 250,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 236,
@@ -6185,14 +6193,6 @@
         "g": 224,
         "c": 1,
         "casts": 1,
-        "l": "Apr 14 2026"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 217,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 14 2026"
       },
       {
@@ -6366,19 +6366,19 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 250,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "percy_o31",
         "n": "percy_o31",
         "g": 224,
         "c": 1,
         "casts": 1,
-        "l": "Apr 14 2026"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 217,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 14 2026"
       },
       {
@@ -6566,6 +6566,14 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 15 2026"
+      },
+      {
+        "u": "rhetti_",
+        "n": "rhetti_",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
       },
       {
         "u": "itzdubsta",
@@ -9428,6 +9436,13 @@
         "v": 76,
         "r": "Rare",
         "d": "Apr 15 2026"
+      },
+      {
+        "n": "rhetti_",
+        "i": "Black Redeye",
+        "v": 33,
+        "r": "Common",
+        "d": "Apr 16 2026"
       },
       {
         "n": "itzdubsta",
@@ -21098,7 +21113,7 @@
       "n": "Black Redeye",
       "custom": false,
       "r": "Common",
-      "c": 154,
+      "c": 155,
       "h": "riflehog",
       "v": 34,
       "w": 44.83
@@ -21812,8 +21827,8 @@
   "new_anglers": [
     {
       "u": "rhetti_",
-      "g": 217,
-      "c": 2,
+      "g": 250,
+      "c": 3,
       "best_n": "Next Gen Camry",
       "best_r": "Rare",
       "best_v": 135,
@@ -22357,7 +22372,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 154,
+      "c": 155,
       "rec": "44.83 lb",
       "v": 34
     },
@@ -25154,6 +25169,14 @@
   ],
   "recent": [
     {
+      "u": "rhetti_",
+      "i": "Black Redeye",
+      "w": 44.02,
+      "v": 33,
+      "r": "Common",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "Sailfish",
       "w": 76.68,
@@ -25743,14 +25766,6 @@
       "w": 1.04,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Foureye Butterflyfish",
-      "w": 0.19,
-      "v": 144,
-      "r": "Epic",
       "d": "Apr 14 2026"
     }
   ]
