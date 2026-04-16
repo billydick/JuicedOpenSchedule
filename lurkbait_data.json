@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T00:18:57.443852+00:00",
-    "total_catches": 21226,
+    "generated_at": "2026-04-16T00:33:17.067358+00:00",
+    "total_catches": 21227,
     "unique_catches": 357,
     "total_players": 729,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21226 catches"
+      "sub": "Since launch - 21227 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1426,6 +1426,14 @@
         "l": "Jan 05 2025"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 1316,
+        "c": 22,
+        "casts": 22,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "high_jack15843",
         "n": "high_jack15843",
         "g": 1307,
@@ -1440,14 +1448,6 @@
         "c": 12,
         "casts": 12,
         "l": "Mar 27 2025"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 1260,
-        "c": 21,
-        "casts": 21,
-        "l": "Apr 16 2026"
       },
       {
         "u": "pitapumpkineater",
@@ -6134,9 +6134,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 1260,
-        "c": 21,
-        "casts": 21,
+        "g": 1316,
+        "c": 22,
+        "casts": 22,
         "l": "Apr 16 2026"
       },
       {
@@ -6336,9 +6336,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 1260,
-        "c": 21,
-        "casts": 21,
+        "g": 1316,
+        "c": 22,
+        "casts": 22,
         "l": "Apr 16 2026"
       },
       {
@@ -6528,19 +6528,19 @@
         "l": "Apr 16 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 241,
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 286,
         "c": 4,
         "casts": 4,
         "l": "Apr 16 2026"
       },
       {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 230,
-        "c": 3,
-        "casts": 3,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 241,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 16 2026"
       },
       {
@@ -20684,10 +20684,10 @@
       "n": "Floor Jack",
       "custom": true,
       "r": "Uncommon",
-      "c": 87,
-      "h": "juicedracing",
+      "c": 88,
+      "h": "ineffabledecibel",
       "v": 56,
-      "w": 40.17
+      "w": 40.35
     },
     {
       "n": "Sway Bar Clamps",
@@ -21821,8 +21821,8 @@
     },
     {
       "u": "ineffabledecibel",
-      "g": 1260,
-      "c": 21,
+      "g": 1316,
+      "c": 22,
       "best_n": "Count Quackula",
       "best_r": "Epic",
       "best_v": 168,
@@ -23293,8 +23293,8 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Need this shit for the pitts",
-      "c": 87,
-      "rec": "40.17 lb",
+      "c": 88,
+      "rec": "40.35 lb",
       "v": 56
     },
     {
@@ -25155,6 +25155,14 @@
   "recent": [
     {
       "u": "ineffabledecibel",
+      "i": "Floor Jack",
+      "w": 40.35,
+      "v": 56,
+      "r": "Uncommon",
+      "d": "Apr 16 2026"
+    },
+    {
+      "u": "ineffabledecibel",
       "i": "Watch",
       "w": 0.22,
       "v": 55,
@@ -25743,14 +25751,6 @@
       "w": 48.69,
       "v": 49,
       "r": "Uncommon",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Erik Jones",
-      "w": 1.03,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 14 2026"
     }
   ]
