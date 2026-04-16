@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T00:49:55.006273+00:00",
-    "total_catches": 21237,
+    "generated_at": "2026-04-16T00:52:00.396612+00:00",
+    "total_catches": 21238,
     "unique_catches": 357,
     "total_players": 729,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21237 catches"
+      "sub": "Since launch - 21238 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -884,10 +884,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 3599,
-        "c": 40,
-        "casts": 40,
-        "l": "Apr 14 2026"
+        "g": 3624,
+        "c": 41,
+        "casts": 41,
+        "l": "Apr 16 2026"
       },
       {
         "u": "greenseyre05",
@@ -6470,6 +6470,14 @@
         "l": "Apr 14 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 58,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "kc_kevtv",
         "n": "kc_kevtv",
         "g": 56,
@@ -6507,14 +6515,6 @@
         "g": 53,
         "c": 1,
         "casts": 1,
-        "l": "Apr 14 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 51,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 14 2026"
       }
     ],
@@ -6603,6 +6603,14 @@
         "u": "rhetti_",
         "n": "rhetti_",
         "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 25,
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
@@ -9493,6 +9501,13 @@
         "n": "rhetti_",
         "i": "Black Redeye",
         "v": 33,
+        "r": "Common",
+        "d": "Apr 16 2026"
+      },
+      {
+        "n": "beliron",
+        "i": "$25 iRacing Creds",
+        "v": 25,
         "r": "Common",
         "d": "Apr 16 2026"
       },
@@ -21284,7 +21299,7 @@
       "n": "$25 iRacing Creds",
       "custom": true,
       "r": "Common",
-      "c": 140,
+      "c": 141,
       "h": "breadandwaturd",
       "v": 28,
       "w": 1.12
@@ -22966,7 +22981,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You can buy 1/2 a track with this.",
-      "c": 140,
+      "c": 141,
       "rec": "1.12 lb",
       "v": 28
     },
@@ -25214,6 +25229,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "$25 iRacing Creds",
+      "w": 0.98,
+      "v": 25,
+      "r": "Common",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "DAYS OF THUNDER VHS tape.",
       "w": 0.95,
@@ -25802,14 +25825,6 @@
       "i": "AJ Rosini",
       "w": 43.7,
       "v": 87,
-      "r": "Rare",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Olive Ridley Turtle",
-      "w": 41.51,
-      "v": 83,
       "r": "Rare",
       "d": "Apr 14 2026"
     }
