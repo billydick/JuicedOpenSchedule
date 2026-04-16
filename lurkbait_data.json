@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T03:40:08.214269+00:00",
-    "total_catches": 21292,
+    "generated_at": "2026-04-16T03:41:12.141828+00:00",
+    "total_catches": 21293,
     "unique_catches": 357,
     "total_players": 732,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21292 catches"
+      "sub": "Since launch - 21293 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -978,20 +978,20 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 2934,
+        "c": 42,
+        "casts": 42,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "freezerdan",
         "n": "freezerdan",
         "g": 2931,
         "c": 42,
         "casts": 42,
         "l": "Mar 08 2025"
-      },
-      {
-        "u": "aquadays",
-        "n": "aquadays",
-        "g": 2905,
-        "c": 41,
-        "casts": 41,
-        "l": "Apr 12 2026"
       },
       {
         "u": "itzdubsta",
@@ -6212,6 +6212,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 265,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 261,
@@ -6234,14 +6242,6 @@
         "c": 3,
         "casts": 3,
         "l": "Apr 16 2026"
-      },
-      {
-        "u": "aquadays",
-        "n": "aquadays",
-        "g": 236,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 12 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6715,6 +6715,14 @@
         "u": "rhetti_",
         "n": "rhetti_",
         "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 29,
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
@@ -9683,6 +9691,13 @@
         "n": "rhetti_",
         "i": "Black Redeye",
         "v": 33,
+        "r": "Common",
+        "d": "Apr 16 2026"
+      },
+      {
+        "n": "aquadays",
+        "i": "Barracuda",
+        "v": 29,
         "r": "Common",
         "d": "Apr 16 2026"
       },
@@ -21419,7 +21434,7 @@
       "n": "Barracuda",
       "custom": false,
       "r": "Common",
-      "c": 156,
+      "c": 157,
       "h": "flippy00",
       "v": 34,
       "w": 10.13
@@ -22444,7 +22459,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 156,
+      "c": 157,
       "rec": "10.13 lb",
       "v": 34
     },
@@ -25493,6 +25508,14 @@
   ],
   "recent": [
     {
+      "u": "aquadays",
+      "i": "Barracuda",
+      "w": 8.74,
+      "v": 29,
+      "r": "Common",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Iowa Speedway",
       "w": 97.3,
@@ -26082,14 +26105,6 @@
       "w": 0.88,
       "v": 22,
       "r": "Common",
-      "d": "Apr 15 2026"
-    },
-    {
-      "u": "grumpymitch1",
-      "i": "Corey LaJoie",
-      "w": 0.9,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 15 2026"
     }
   ]
