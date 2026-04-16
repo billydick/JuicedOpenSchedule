@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T01:18:55.312682+00:00",
-    "total_catches": 21253,
+    "generated_at": "2026-04-16T01:19:59.517822+00:00",
+    "total_catches": 21254,
     "unique_catches": 357,
-    "total_players": 731,
+    "total_players": 732,
     "dex_total": 357,
     "caught_total": 357,
     "dex_completion": 100.0,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21253 catches"
+      "sub": "Since launch - 21254 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -5538,6 +5538,14 @@
         "l": "Apr 12 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "marekk1909",
         "n": "marekk1909",
         "g": 10,
@@ -6675,6 +6683,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 25,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
@@ -9618,6 +9634,13 @@
         "d": "Apr 16 2026"
       },
       {
+        "n": "nellafella",
+        "i": "Caution!",
+        "v": 10,
+        "r": "Junk",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "sparkymotors",
         "i": "Fish Drawing",
         "v": 8,
@@ -9629,7 +9652,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 731,
+        "total": 732,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10361,10 +10384,11 @@
           "oldvirgin_mk",
           "tayrob28",
           "sparkymotors",
-          "kermit4life85"
+          "kermit4life85",
+          "nellafella"
         ],
         "latest": {
-          "u": "kermit4life85",
+          "u": "nellafella",
           "d": "Apr 16 2026"
         }
       },
@@ -10847,7 +10871,7 @@
         }
       },
       "custom_catch": {
-        "total": 606,
+        "total": 607,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11454,10 +11478,11 @@
           "oldvirgin_mk",
           "tayrob28",
           "ikatipoi",
-          "kermit4life85"
+          "kermit4life85",
+          "nellafella"
         ],
         "latest": {
-          "u": "kermit4life85",
+          "u": "nellafella",
           "d": "Apr 16 2026"
         }
       },
@@ -18632,6 +18657,10 @@
       "kermit4life85": {
         "broke_in": "Apr 16 2026",
         "custom_catch": "Apr 16 2026"
+      },
+      "nellafella": {
+        "broke_in": "Apr 16 2026",
+        "custom_catch": "Apr 16 2026"
       }
     },
     "recent_unlocks": [
@@ -21550,7 +21579,7 @@
       "n": "Caution!",
       "custom": true,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "jking9370",
       "v": 11,
       "w": 1.13
@@ -22143,6 +22172,15 @@
       "best_n": "Michael McDowell",
       "best_r": "Uncommon",
       "best_v": 50,
+      "d": "Apr 16 2026"
+    },
+    {
+      "u": "nellafella",
+      "g": 10,
+      "c": 1,
+      "best_n": "Caution!",
+      "best_r": "Junk",
+      "best_v": 10,
       "d": "Apr 16 2026"
     }
   ],
@@ -23016,7 +23054,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Some shitter spun on the restart.",
-      "c": 160,
+      "c": 161,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -25363,6 +25401,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Caution!",
+      "w": 0.99,
+      "v": 10,
+      "r": "Junk",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "flippy00",
       "i": "Darrell Waltrip",
       "w": 118.07,
@@ -25952,14 +25998,6 @@
       "w": 0.82,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "daaarrk7",
-      "i": "Carson Hocevar",
-      "w": 1.04,
-      "v": 78,
-      "r": "Rare",
       "d": "Apr 14 2026"
     }
   ]
