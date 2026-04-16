@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T01:59:14.918928+00:00",
-    "total_catches": 21265,
+    "generated_at": "2026-04-16T02:00:18.790169+00:00",
+    "total_catches": 21266,
     "unique_catches": 357,
     "total_players": 732,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21265 catches"
+      "sub": "Since launch - 21266 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -914,6 +914,14 @@
         "l": "Jan 22 2025"
       },
       {
+        "u": "corndawg3",
+        "n": "corndawg3",
+        "g": 3246,
+        "c": 74,
+        "casts": 74,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "em1_civic_si_racing",
         "n": "em1_civic_si_racing",
         "g": 3246,
@@ -944,14 +952,6 @@
         "c": 48,
         "casts": 48,
         "l": "Jul 20 2025"
-      },
-      {
-        "u": "corndawg3",
-        "n": "corndawg3",
-        "g": 3179,
-        "c": 73,
-        "casts": 73,
-        "l": "Apr 16 2026"
       },
       {
         "u": "dr_chronic",
@@ -6308,6 +6308,14 @@
         "l": "Apr 14 2026"
       },
       {
+        "u": "corndawg3",
+        "n": "corndawg3",
+        "g": 110,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 103,
@@ -6330,14 +6338,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 12 2026"
-      },
-      {
-        "u": "daaarrk7",
-        "n": "daaarrk7",
-        "g": 78,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 14 2026"
       }
     ],
     "weekly": [
@@ -6446,6 +6446,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "corndawg3",
+        "n": "corndawg3",
+        "g": 110,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 103,
@@ -6532,14 +6540,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 14 2026"
-      },
-      {
-        "u": "oldvirgin_mk",
-        "n": "oldvirgin_mk",
-        "g": 54,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 14 2026"
       }
     ],
     "daily": [
@@ -6616,6 +6616,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "corndawg3",
+        "n": "corndawg3",
+        "g": 110,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 90,
@@ -6653,14 +6661,6 @@
         "g": 50,
         "c": 1,
         "casts": 1,
-        "l": "Apr 16 2026"
-      },
-      {
-        "u": "corndawg3",
-        "n": "corndawg3",
-        "g": 43,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 16 2026"
       },
       {
@@ -9451,6 +9451,13 @@
         "d": "Apr 15 2026"
       },
       {
+        "n": "corndawg3",
+        "i": "FUEL CELL TOP",
+        "v": 67,
+        "r": "Rare",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "realiist1",
         "i": "Ian Anderson",
         "v": 66,
@@ -9505,13 +9512,6 @@
         "v": 53,
         "r": "Uncommon",
         "d": "Apr 14 2026"
-      },
-      {
-        "n": "sparkymotors",
-        "i": "MWR BATTERY CONNECTOR WIRING",
-        "v": 50,
-        "r": "Uncommon",
-        "d": "Apr 16 2026"
       }
     ],
     "daily": [
@@ -9593,6 +9593,13 @@
         "d": "Apr 15 2026"
       },
       {
+        "n": "corndawg3",
+        "i": "FUEL CELL TOP",
+        "v": 67,
+        "r": "Rare",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "realiist1",
         "i": "Ian Anderson",
         "v": 66,
@@ -9624,13 +9631,6 @@
         "n": "codycoyoteracing",
         "i": "CSL Pedals",
         "v": 41,
-        "r": "Uncommon",
-        "d": "Apr 16 2026"
-      },
-      {
-        "n": "corndawg3",
-        "i": "Frontosa Cichlid",
-        "v": 37,
         "r": "Uncommon",
         "d": "Apr 16 2026"
       },
@@ -20631,7 +20631,7 @@
       "n": "FUEL CELL TOP",
       "custom": true,
       "r": "Rare",
-      "c": 66,
+      "c": 67,
       "h": "laleb467",
       "v": 85,
       "w": 4.52
@@ -23798,7 +23798,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Late model use only!",
-      "c": 66,
+      "c": 67,
       "rec": "4.52 lb",
       "v": 85
     },
@@ -25434,6 +25434,14 @@
   ],
   "recent": [
     {
+      "u": "corndawg3",
+      "i": "FUEL CELL TOP",
+      "w": 3.56,
+      "v": 67,
+      "r": "Rare",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "ineffabledecibel",
       "i": "Cody Ware",
       "w": 4.27,
@@ -26023,14 +26031,6 @@
       "w": 32.51,
       "v": 54,
       "r": "Uncommon",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "larcen22",
-      "i": "Next Gen Camaro",
-      "w": 1.02,
-      "v": 127,
-      "r": "Rare",
       "d": "Apr 14 2026"
     }
   ]
