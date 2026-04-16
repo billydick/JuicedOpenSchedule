@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T01:04:25.410487+00:00",
-    "total_catches": 21247,
+    "generated_at": "2026-04-16T01:05:29.352361+00:00",
+    "total_catches": 21248,
     "unique_catches": 357,
-    "total_players": 729,
+    "total_players": 730,
     "dex_total": 357,
     "caught_total": 357,
     "dex_completion": 100.0,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21247 catches"
+      "sub": "Since launch - 21248 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -5674,6 +5674,14 @@
         "l": "Oct 29 2024"
       },
       {
+        "u": "sparkymotors",
+        "n": "sparkymotors",
+        "g": 8,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "mugachow",
         "n": "mugachow",
         "g": 8,
@@ -6635,6 +6643,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 25,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
+        "u": "sparkymotors",
+        "n": "sparkymotors",
+        "g": 8,
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
@@ -9557,6 +9573,13 @@
         "d": "Apr 16 2026"
       },
       {
+        "n": "sparkymotors",
+        "i": "Fish Drawing",
+        "v": 8,
+        "r": "Junk",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Corey LaJoie",
         "v": 1,
@@ -9568,7 +9591,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 729,
+        "total": 730,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10298,11 +10321,12 @@
           "huskerdoo13",
           "terio89",
           "oldvirgin_mk",
-          "tayrob28"
+          "tayrob28",
+          "sparkymotors"
         ],
         "latest": {
-          "u": "tayrob28",
-          "d": "Apr 15 2026"
+          "u": "sparkymotors",
+          "d": "Apr 16 2026"
         }
       },
       "first_cast": {
@@ -18561,6 +18585,9 @@
       "tayrob28": {
         "broke_in": "Apr 15 2026",
         "custom_catch": "Apr 15 2026"
+      },
+      "sparkymotors": {
+        "broke_in": "Apr 16 2026"
       }
     },
     "recent_unlocks": [
@@ -21740,7 +21767,7 @@
       "n": "Fish Drawing",
       "custom": false,
       "r": "Junk",
-      "c": 41,
+      "c": 42,
       "h": "dogger_101",
       "v": 11,
       "w": 0.56
@@ -22055,6 +22082,15 @@
       "best_r": "Rare",
       "best_v": 76,
       "d": "Apr 15 2026"
+    },
+    {
+      "u": "sparkymotors",
+      "g": 8,
+      "c": 1,
+      "best_n": "Fish Drawing",
+      "best_r": "Junk",
+      "best_v": 8,
+      "d": "Apr 16 2026"
     }
   ],
   "dex": [
@@ -22666,7 +22702,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 41,
+      "c": 42,
       "rec": "0.56 lb",
       "v": 11
     },
@@ -25274,6 +25310,14 @@
   ],
   "recent": [
     {
+      "u": "sparkymotors",
+      "i": "Fish Drawing",
+      "w": 0.42,
+      "v": 8,
+      "r": "Junk",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "ineffabledecibel",
       "i": "VHS Tape",
       "w": 0.49,
@@ -25863,14 +25907,6 @@
       "w": 0.1,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Joey Logano",
-      "w": 20.3,
-      "v": 162,
-      "r": "Epic",
       "d": "Apr 14 2026"
     }
   ]
