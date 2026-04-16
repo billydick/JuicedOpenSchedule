@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T01:05:29.352361+00:00",
-    "total_catches": 21248,
+    "generated_at": "2026-04-16T01:06:33.167879+00:00",
+    "total_catches": 21249,
     "unique_catches": 357,
     "total_players": 730,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21248 catches"
+      "sub": "Since launch - 21249 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -876,10 +876,10 @@
       {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
-        "g": 3674,
-        "c": 58,
-        "casts": 58,
-        "l": "Apr 15 2026"
+        "g": 3698,
+        "c": 59,
+        "casts": 59,
+        "l": "Apr 16 2026"
       },
       {
         "u": "beliron",
@@ -6220,6 +6220,14 @@
         "l": "Apr 14 2026"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 217,
+        "c": 4,
+        "casts": 4,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 207,
@@ -6234,14 +6242,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 12 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 193,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 15 2026"
       },
       {
         "u": "steelbrigade",
@@ -6640,6 +6640,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 25,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 25,
@@ -6654,14 +6662,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 15 2026"
       }
     ]
   },
@@ -9573,18 +9573,18 @@
         "d": "Apr 16 2026"
       },
       {
+        "n": "grumpymitch1",
+        "i": "Road Race Wiper Motor",
+        "v": 24,
+        "r": "Common",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "sparkymotors",
         "i": "Fish Drawing",
         "v": 8,
         "r": "Junk",
         "d": "Apr 16 2026"
-      },
-      {
-        "n": "grumpymitch1",
-        "i": "Corey LaJoie",
-        "v": 1,
-        "r": "Junk",
-        "d": "Apr 15 2026"
       }
     ]
   },
@@ -21317,7 +21317,7 @@
       "n": "Road Race Wiper Motor",
       "custom": true,
       "r": "Common",
-      "c": 130,
+      "c": 131,
       "h": "flippy00",
       "v": 28,
       "w": 3.38
@@ -23620,7 +23620,7 @@
       "r": "Common",
       "custom": true,
       "desc": "NO ARM, MOTOR ONLY",
-      "c": 130,
+      "c": 131,
       "rec": "3.38 lb",
       "v": 28
     },
@@ -25310,6 +25310,14 @@
   ],
   "recent": [
     {
+      "u": "grumpymitch1",
+      "i": "Road Race Wiper Motor",
+      "w": 2.84,
+      "v": 24,
+      "r": "Common",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "sparkymotors",
       "i": "Fish Drawing",
       "w": 0.42,
@@ -25899,14 +25907,6 @@
       "w": 3.8,
       "v": 29,
       "r": "Common",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Soda Can",
-      "w": 0.1,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 14 2026"
     }
   ]
