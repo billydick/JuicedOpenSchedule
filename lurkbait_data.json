@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T03:41:12.141828+00:00",
-    "total_catches": 21293,
+    "generated_at": "2026-04-16T03:42:16.111328+00:00",
+    "total_catches": 21294,
     "unique_catches": 357,
     "total_players": 732,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21293 catches"
+      "sub": "Since launch - 21294 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3394,6 +3394,14 @@
         "l": "Oct 27 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 148,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "friendlyarrows1",
         "n": "friendlyarrows1",
         "g": 147,
@@ -4080,14 +4088,6 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 18 2024"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 76,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 12 2026"
       },
       {
         "u": "takeru__daw",
@@ -6308,6 +6308,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 148,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 130,
@@ -6329,14 +6337,6 @@
         "g": 103,
         "c": 2,
         "casts": 2,
-        "l": "Apr 14 2026"
-      },
-      {
-        "u": "tocxiz",
-        "n": "tocxiz",
-        "g": 90,
-        "c": 1,
-        "casts": 1,
         "l": "Apr 14 2026"
       }
     ],
@@ -6518,6 +6518,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 72,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 66,
@@ -6532,14 +6540,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 14 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 58,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 16 2026"
       }
     ],
     "daily": [
@@ -6664,6 +6664,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 72,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 66,
@@ -6731,14 +6739,6 @@
         "u": "beliron",
         "n": "beliron",
         "g": 25,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 16 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Apr 16 2026"
@@ -9497,6 +9497,13 @@
         "d": "Apr 15 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "Ian Anderson",
+        "v": 72,
+        "r": "Rare",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "corndawg3",
         "i": "FUEL CELL TOP",
         "v": 67,
@@ -9534,13 +9541,6 @@
       {
         "n": "iitzdooly",
         "i": "Noah Gragson",
-        "v": 54,
-        "r": "Uncommon",
-        "d": "Apr 14 2026"
-      },
-      {
-        "n": "oldvirgin_mk",
-        "i": "Sim Racing Shoes",
         "v": 54,
         "r": "Uncommon",
         "d": "Apr 14 2026"
@@ -9639,6 +9639,13 @@
         "d": "Apr 15 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "Ian Anderson",
+        "v": 72,
+        "r": "Rare",
+        "d": "Apr 16 2026"
+      },
+      {
         "n": "corndawg3",
         "i": "FUEL CELL TOP",
         "v": 67,
@@ -9713,13 +9720,6 @@
         "i": "Road Race Wiper Motor",
         "v": 24,
         "r": "Common",
-        "d": "Apr 16 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Caution!",
-        "v": 10,
-        "r": "Junk",
         "d": "Apr 16 2026"
       }
     ]
@@ -10950,7 +10950,7 @@
         }
       },
       "custom_catch": {
-        "total": 608,
+        "total": 609,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11559,10 +11559,11 @@
           "ikatipoi",
           "kermit4life85",
           "nellafella",
-          "sparkymotors"
+          "sparkymotors",
+          "cattabolic"
         ],
         "latest": {
-          "u": "sparkymotors",
+          "u": "cattabolic",
           "d": "Apr 16 2026"
         }
       },
@@ -18662,7 +18663,8 @@
         "custom_catch": "Apr 12 2026"
       },
       "cattabolic": {
-        "broke_in": "Apr 12 2026"
+        "broke_in": "Apr 12 2026",
+        "custom_catch": "Apr 16 2026"
       },
       "v1per_simr4cin6": {
         "broke_in": "Apr 12 2026",
@@ -20786,7 +20788,7 @@
       "n": "Ian Anderson",
       "custom": true,
       "r": "Rare",
-      "c": 47,
+      "c": 48,
       "h": "pvtcrackpot",
       "v": 84,
       "w": 55.99
@@ -25087,7 +25089,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Gasman, Joe Gibbs Racing",
-      "c": 47,
+      "c": 48,
       "rec": "55.99 lb",
       "v": 84
     },
@@ -25507,6 +25509,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "cattabolic",
+      "i": "Ian Anderson",
+      "w": 47.76,
+      "v": 72,
+      "r": "Rare",
+      "d": "Apr 16 2026"
+    },
     {
       "u": "aquadays",
       "i": "Barracuda",
@@ -26098,14 +26108,6 @@
       "v": 1,
       "r": "Junk",
       "d": "Apr 16 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Rookie License",
-      "w": 0.88,
-      "v": 22,
-      "r": "Common",
-      "d": "Apr 15 2026"
     }
   ]
 }
