@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T02:26:00.449611+00:00",
-    "total_catches": 21271,
+    "generated_at": "2026-04-16T02:27:04.214449+00:00",
+    "total_catches": 21272,
     "unique_catches": 357,
     "total_players": 732,
     "dex_total": 357,
@@ -264,7 +264,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21271 catches"
+      "sub": "Since launch - 21272 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -876,9 +876,9 @@
       {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
-        "g": 3698,
-        "c": 59,
-        "casts": 59,
+        "g": 3706,
+        "c": 60,
+        "casts": 60,
         "l": "Apr 16 2026"
       },
       {
@@ -6228,20 +6228,20 @@
         "l": "Apr 12 2026"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 225,
+        "c": 5,
+        "casts": 5,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "percy_o31",
         "n": "percy_o31",
         "g": 224,
         "c": 1,
         "casts": 1,
         "l": "Apr 14 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 217,
-        "c": 4,
-        "casts": 4,
-        "l": "Apr 16 2026"
       },
       {
         "u": "realiist1",
@@ -6680,19 +6680,19 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 33,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 16 2026"
+      },
+      {
         "u": "rhetti_",
         "n": "rhetti_",
         "g": 33,
         "c": 1,
         "casts": 1,
-        "l": "Apr 16 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 25,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 16 2026"
       },
       {
@@ -10824,7 +10824,7 @@
         }
       },
       "junk_master": {
-        "total": 56,
+        "total": 57,
         "holders": [
           "thebtm1",
           "belyy92",
@@ -10881,10 +10881,11 @@
           "mrdrwaddles",
           "drewieblaster",
           "showtime_84",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "grumpymitch1"
         ],
         "latest": {
-          "u": "ineffabledecibel",
+          "u": "grumpymitch1",
           "d": "Apr 16 2026"
         }
       },
@@ -13783,6 +13784,7 @@
         "first_cast": "Jul 25 2025",
         "win_day": "Jul 25 2025",
         "catch_of_day": "Jul 25 2025",
+        "junk_master": "Apr 16 2026",
         "custom_catch": "Jan 03 2025",
         "walk_in": "Jan 25 2025",
         "dex_hunter": "Apr 11 2026",
@@ -21902,7 +21904,7 @@
       "n": "Keys",
       "custom": false,
       "r": "Junk",
-      "c": 64,
+      "c": 65,
       "h": "flippy00",
       "v": 11,
       "w": 0.23
@@ -23161,7 +23163,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 64,
+      "c": 65,
       "rec": "0.23 lb",
       "v": 11
     },
@@ -25436,6 +25438,14 @@
   ],
   "recent": [
     {
+      "u": "grumpymitch1",
+      "i": "Keys",
+      "w": 0.16,
+      "v": 8,
+      "r": "Junk",
+      "d": "Apr 16 2026"
+    },
+    {
       "u": "itzdubsta",
       "i": "Derek Kraus",
       "w": 0.95,
@@ -26025,14 +26035,6 @@
       "w": 1.07,
       "v": 54,
       "r": "Uncommon",
-      "d": "Apr 14 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Chase Elliott",
-      "w": 26.46,
-      "v": 159,
-      "r": "Rare",
       "d": "Apr 14 2026"
     }
   ]
