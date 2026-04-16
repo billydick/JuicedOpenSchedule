@@ -9124,7 +9124,8 @@ setPage(startPage);
     cars.forEach(function(car, orderIdx) {
       var id    = String(car.custID);
       var nameLow = (car.name||'').toLowerCase();
-      var inDb  = Object.values(STANDINGS_DATA).some(function(v){ return (v.name||'').toLowerCase()===nameLow; });
+      var _activeStandings = (SEASON_DATA[DEFAULT_TAB] || {}).standings || {};
+      var inDb  = Object.values(_activeStandings).some(function(v){ return (v.name||'').toLowerCase()===nameLow; });
       var sel   = (id === String(selID));
       var tc    = car.position===1?'#FF8000':car.position<=5?'#A335EE':car.position<=10?'#0070DD':car.position<=20?'#1EFF00':'#C0C0C0';
       var posD  = car.position > 0 ? String(car.position) : '—';
@@ -9251,11 +9252,12 @@ setPage(startPage);
     var el = document.getElementById('liveDetail');
     var car = null;
     if (last && last.cars) last.cars.forEach(function(c) { if (String(c.custID)===String(id)) car=c; });
-    // Look up standings by driver name from the already-embedded STANDINGS_DATA
+    // Look up standings by driver name from the active season in SEASON_DATA
     var d = null;
     if (car && car.name) {
       var nameLower = car.name.toLowerCase();
-      var entries = Object.values(STANDINGS_DATA);
+      var activeStandings = (SEASON_DATA[DEFAULT_TAB] || {}).standings || {};
+      var entries = Object.values(activeStandings);
       for (var i=0; i<entries.length; i++) {
         if ((entries[i].name||'').toLowerCase() === nameLower) { d = entries[i]; break; }
       }
