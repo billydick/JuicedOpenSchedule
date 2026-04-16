@@ -8577,8 +8577,7 @@ setPage(startPage);
   var POLL_MS_SLOW = 2000;  // full payload — leaderboard, header, detail
   var lbRows = {};         // custID -> row cache for incremental LB updates
   var timer    = null;
-  var meta     = {};
-  var metaDone = false;
+
   var shape    = null;
   var shapeKey = '';
   var selID    = null;
@@ -9124,7 +9123,8 @@ setPage(startPage);
 
     cars.forEach(function(car, orderIdx) {
       var id    = String(car.custID);
-      var inDb  = !!(meta.drivers && meta.drivers[id]);
+      var nameLow = (car.name||'').toLowerCase();
+      var inDb  = Object.values(STANDINGS_DATA).some(function(v){ return (v.name||'').toLowerCase()===nameLow; });
       var sel   = (id === String(selID));
       var tc    = car.position===1?'#FF8000':car.position<=5?'#A335EE':car.position<=10?'#0070DD':car.position<=20?'#1EFF00':'#C0C0C0';
       var posD  = car.position > 0 ? String(car.position) : '—';
@@ -9249,18 +9249,25 @@ setPage(startPage);
   // ── Detail panel ───────────────────────────────────────────────────────────
   function renderDetail(id) {
     var el = document.getElementById('liveDetail');
-    var d = meta.drivers && meta.drivers[String(id)];
     var car = null;
     if (last && last.cars) last.cars.forEach(function(c) { if (String(c.custID)===String(id)) car=c; });
-    if (!d && !car) { el.innerHTML='<div class="live-no-sel">No data</div>'; return; }
+    // Look up standings by driver name from the already-embedded STANDINGS_DATA
+    var d = null;
+    if (car && car.name) {
+      var nameLower = car.name.toLowerCase();
+      var entries = Object.values(STANDINGS_DATA);
+      for (var i=0; i<entries.length; i++) {
+        if ((entries[i].name||'').toLowerCase() === nameLower) { d = entries[i]; break; }
+      }
+    }
+    if (!car) { el.innerHTML='<div class="live-no-sel">No data</div>'; return; }
     var h = '';
-    var name = (d&&d.name)||(car&&car.name)||'Unknown';
-    h += '<div class="live-detail-name">' + hesc(name) + '</div>';
-    if (d) h += '<div class="live-detail-sub">' + hesc(d.archetype||'') + '</div>';
+    h += '<div class="live-detail-name">' + hesc(car.name||'Unknown') + '</div>';
+    if (d) h += '<div class="live-detail-sub">' + hesc((d.arc_emoji||'')+' '+(d.arc_label||'')).trim() + '</div>';
     if (d) {
-      h += stat('Standing', '#'+d.standing_pos);
-      h += stat('Points', d.points);
-      h += stat('Wins', d.wins);
+      h += stat('Standing', '#'+d.pos);
+      h += stat('Points', d.pts);
+      h += stat('Wins', d.jwins);
       h += stat('Starts', d.starts);
       h += stat('Avg Inc', d.avg_inc);
     }
@@ -9270,16 +9277,6 @@ setPage(startPage);
       if (car.lastLap) h += stat('Last Lap', car.lastLap.toFixed(3));
       if (car.bestLap) h += stat('Best Lap', car.bestLap.toFixed(3));
       h += stat('Incidents', car.incidents+'x');
-    }
-    if (d && d.recent && d.recent.length) {
-      h += '<div class="live-recent-title">Last 5 Races</div>';
-      d.recent.forEach(function(r) {
-        h += '<div class="live-recent-row">';
-        h += '<span class="live-recent-pos">P'+r.pos+'</span>';
-        h += '<span class="live-recent-track">'+hesc(r.track||'')+'</span>';
-        h += '<span class="live-recent-pts">'+(r.pts||0)+'pts</span>';
-        h += '</div>';
-      });
     }
     el.innerHTML = h;
   }
@@ -9328,7 +9325,7 @@ setPage(startPage);
       var dotsTop2 = document.getElementById('liveDotsTop'); if (dotsTop2) dotsTop2.innerHTML = '';
       if (labelsG) labelsG.innerHTML = '';
       dots = {}; labels = {}; lastPct = {}; lerpedDir = {}; labelAngles = {};
-      selID = null; metaDone = false; meta = {};
+      selID = null;
       last = null; _failCount = 0;
       var offMsg = document.getElementById('liveOfflineMsg');
       if (offMsg) offMsg.style.display = 'flex';
@@ -9424,15 +9421,6 @@ setPage(startPage);
     if (liveBody) liveBody.style.visibility = '';
   }
 
-  // ── Meta ───────────────────────────────────────────────────────────────────
-  function loadMeta() {
-    if (metaDone) return;
-    fetch(API+'/api/live_meta').then(function(r){return r.json();}).then(function(d){
-      meta=d||{}; metaDone=true;
-      if (selID) renderDetail(selID);
-    }).catch(function(){});
-  }
-
   // ── Poll ───────────────────────────────────────────────────────────────────
   // Fast poll — lapPct + trackSurf + onPit only, drives dot movement
   // Requests a lightweight subset: position data only
@@ -9475,7 +9463,6 @@ setPage(startPage);
           var det = document.getElementById('liveDetail');
           if (det) det.innerHTML = '<div class="live-no-sel">CLICK A DRIVER</div>';
           last = p;
-          loadMeta();
           if (p.trackKey && p.trackKey !== shapeKey) loadShape(p.trackKey);
           updateHeader(p);
           renderLb(p.cars||[]);
@@ -9531,7 +9518,6 @@ setPage(startPage);
       } else {
         // Bootstrap — last is null, do full clean init
         last = p;
-        loadMeta();
         if (p.trackKey && p.trackKey !== shapeKey) loadShape(p.trackKey);
         updateHeader(p);
         renderLb(p.cars||[]);
@@ -9549,7 +9535,6 @@ setPage(startPage);
     if (!active()) return;
     fetch(API+'/api/live_race').then(function(r){return r.json();}).then(function(p){
       if (!p || !p.connected) return;  // pollFast handles offline detection
-      loadMeta();
       if (p.trackKey && p.trackKey!==shapeKey) loadShape(p.trackKey);
       if (!last) {
         last = p;
