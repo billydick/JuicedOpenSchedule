@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-17T00:35:26.271210+00:00",
-    "total_catches": 21334,
+    "generated_at": "2026-04-17T00:38:32.293170+00:00",
+    "total_catches": 21335,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21334 catches"
+      "sub": "Since launch - 21335 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -885,10 +885,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 3624,
-        "c": 41,
-        "casts": 41,
-        "l": "Apr 16 2026"
+        "g": 3643,
+        "c": 42,
+        "casts": 42,
+        "l": "Apr 17 2026"
       },
       {
         "u": "greenseyre05",
@@ -6535,12 +6535,12 @@
         "l": "Apr 14 2026"
       },
       {
-        "u": "tayrob28",
-        "n": "tayrob28",
+        "u": "beliron",
+        "n": "beliron",
         "g": 77,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 16 2026"
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 17 2026"
       }
     ],
     "daily": [
@@ -6572,6 +6572,14 @@
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 17 2026"
+      },
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 19,
         "c": 1,
         "casts": 1,
         "l": "Apr 17 2026"
@@ -9581,6 +9589,13 @@
         "n": "juicedracing",
         "i": "Bubba Wallace",
         "v": 21,
+        "r": "Common",
+        "d": "Apr 17 2026"
+      },
+      {
+        "n": "beliron",
+        "i": "Mackerel",
+        "v": 19,
         "r": "Common",
         "d": "Apr 17 2026"
       }
@@ -21482,7 +21497,7 @@
       "n": "Mackerel",
       "custom": false,
       "r": "Common",
-      "c": 166,
+      "c": 167,
       "h": "sjbhomebrew",
       "v": 22,
       "w": 2.25
@@ -22201,7 +22216,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 166,
+      "c": 167,
       "rec": "2.25 lb",
       "v": 22
     },
@@ -25493,6 +25508,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Mackerel",
+      "w": 1.95,
+      "v": 19,
+      "r": "Common",
+      "d": "Apr 17 2026"
+    },
+    {
       "u": "grumpymitch1",
       "i": "Atlantic Cod",
       "w": 33.26,
@@ -26082,14 +26105,6 @@
       "w": 286.36,
       "v": 95,
       "r": "Rare",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Blue Whale",
-      "w": 123482.2,
-      "v": 950,
-      "r": "Legendary",
       "d": "Apr 16 2026"
     }
   ]
