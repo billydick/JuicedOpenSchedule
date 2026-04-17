@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-16T19:12:04.374410+00:00",
-    "total_catches": 21329,
+    "generated_at": "2026-04-17T00:01:37.132049+00:00",
+    "total_catches": 21330,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21329 catches"
+      "sub": "Since launch - 21330 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -365,10 +365,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 32202,
-        "c": 491,
-        "casts": 491,
-        "l": "Apr 16 2026"
+        "g": 32223,
+        "c": 492,
+        "casts": 492,
+        "l": "Apr 17 2026"
       },
       {
         "u": "dogger_101",
@@ -6151,10 +6151,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 3167,
-        "c": 43,
-        "casts": 43,
-        "l": "Apr 16 2026"
+        "g": 3188,
+        "c": 44,
+        "casts": 44,
+        "l": "Apr 17 2026"
       },
       {
         "u": "flippy00",
@@ -6361,10 +6361,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 2361,
-        "c": 28,
-        "casts": 28,
-        "l": "Apr 16 2026"
+        "g": 2382,
+        "c": 29,
+        "casts": 29,
+        "l": "Apr 17 2026"
       },
       {
         "u": "larcen22",
@@ -6543,7 +6543,16 @@
         "l": "Apr 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 17 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9522,7 +9531,15 @@
         "d": "Apr 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Bubba Wallace",
+        "v": 21,
+        "r": "Common",
+        "d": "Apr 17 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21303,7 +21320,7 @@
       "n": "Bubba Wallace",
       "custom": true,
       "r": "Common",
-      "c": 144,
+      "c": 145,
       "h": "nflxmiller",
       "v": 28,
       "w": 28.15
@@ -23336,7 +23353,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Finished 2024 season 18th in the points",
-      "c": 144,
+      "c": 145,
       "rec": "28.15 lb",
       "v": 28
     },
@@ -25431,6 +25448,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Bubba Wallace",
+      "w": 20.94,
+      "v": 21,
+      "r": "Common",
+      "d": "Apr 17 2026"
+    },
+    {
       "u": "codycoyoteracing",
       "i": "Peyton Moore",
       "w": 48.85,
@@ -26019,14 +26044,6 @@
       "i": "MWR BATTERY CONNECTOR WIRING",
       "w": 1.0,
       "v": 50,
-      "r": "Uncommon",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "JJ Yeley",
-      "w": 56.01,
-      "v": 55,
       "r": "Uncommon",
       "d": "Apr 16 2026"
     }
