@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-17T00:43:43.278812+00:00",
-    "total_catches": 21337,
+    "generated_at": "2026-04-17T00:51:55.366450+00:00",
+    "total_catches": 21338,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21337 catches"
+      "sub": "Since launch - 21338 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -365,9 +365,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 32223,
-        "c": 492,
-        "casts": 492,
+        "g": 32291,
+        "c": 493,
+        "casts": 493,
         "l": "Apr 17 2026"
       },
       {
@@ -6151,9 +6151,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 3188,
-        "c": 44,
-        "casts": 44,
+        "g": 3256,
+        "c": 45,
+        "casts": 45,
         "l": "Apr 17 2026"
       },
       {
@@ -6361,9 +6361,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 2382,
-        "c": 29,
-        "casts": 29,
+        "g": 2450,
+        "c": 30,
+        "casts": 30,
         "l": "Apr 17 2026"
       },
       {
@@ -6553,6 +6553,14 @@
         "l": "Apr 17 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 89,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 17 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 87,
@@ -6564,14 +6572,6 @@
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 43,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 17 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 21,
         "c": 1,
         "casts": 1,
         "l": "Apr 17 2026"
@@ -9587,17 +9587,17 @@
         "d": "Apr 17 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Parrot Fish",
+        "v": 68,
+        "r": "Rare",
+        "d": "Apr 17 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Streaked Spinefoot",
         "v": 43,
         "r": "Uncommon",
-        "d": "Apr 17 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Bubba Wallace",
-        "v": 21,
-        "r": "Common",
         "d": "Apr 17 2026"
       },
       {
@@ -20792,7 +20792,7 @@
       "n": "Parrot Fish",
       "custom": false,
       "r": "Rare",
-      "c": 62,
+      "c": 63,
       "h": "ricofyi",
       "v": 79,
       "w": 2.25
@@ -22654,7 +22654,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 62,
+      "c": 63,
       "rec": "2.25 lb",
       "v": 79
     },
@@ -25523,6 +25523,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Parrot Fish",
+      "w": 1.95,
+      "v": 68,
+      "r": "Rare",
+      "d": "Apr 17 2026"
+    },
+    {
       "u": "codycoyoteracing",
       "i": "Gummy Worms",
       "w": 0.96,
@@ -26112,14 +26120,6 @@
       "w": 57.23,
       "v": 176,
       "r": "Epic",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Tire",
-      "w": 32.32,
-      "v": 11,
-      "r": "Junk",
       "d": "Apr 16 2026"
     }
   ]
