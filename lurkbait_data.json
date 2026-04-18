@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T02:21:15.174355+00:00",
-    "total_catches": 21376,
+    "generated_at": "2026-04-18T02:23:19.243284+00:00",
+    "total_catches": 21378,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21376 catches"
+      "sub": "Since launch - 21378 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -349,9 +349,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 32842,
-        "c": 499,
-        "casts": 499,
+        "g": 32873,
+        "c": 500,
+        "casts": 500,
         "l": "Apr 18 2026"
       },
       {
@@ -2155,6 +2155,14 @@
         "l": "Dec 29 2024"
       },
       {
+        "u": "danfzzl",
+        "n": "danfzzl",
+        "g": 445,
+        "c": 4,
+        "casts": 4,
+        "l": "Apr 18 2026"
+      },
+      {
         "u": "floduehrkop",
         "n": "floduehrkop",
         "g": 443,
@@ -2225,14 +2233,6 @@
         "c": 16,
         "casts": 16,
         "l": "Nov 27 2025"
-      },
-      {
-        "u": "danfzzl",
-        "n": "danfzzl",
-        "g": 421,
-        "c": 3,
-        "casts": 3,
-        "l": "Nov 30 2025"
       },
       {
         "u": "burnoutbandits",
@@ -6143,9 +6143,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 3807,
-        "c": 51,
-        "casts": 51,
+        "g": 3838,
+        "c": 52,
+        "casts": 52,
         "l": "Apr 18 2026"
       },
       {
@@ -6361,9 +6361,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 3001,
-        "c": 36,
-        "casts": 36,
+        "g": 3032,
+        "c": 37,
+        "casts": 37,
         "l": "Apr 18 2026"
       },
       {
@@ -6555,9 +6555,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 332,
-        "c": 4,
-        "casts": 4,
+        "g": 363,
+        "c": 5,
+        "casts": 5,
         "l": "Apr 18 2026"
       },
       {
@@ -6595,6 +6595,14 @@
       {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
+        "g": 24,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 18 2026"
+      },
+      {
+        "u": "danfzzl",
+        "n": "danfzzl",
         "g": 24,
         "c": 1,
         "casts": 1,
@@ -9731,6 +9739,13 @@
         "d": "Apr 18 2026"
       },
       {
+        "n": "danfzzl",
+        "i": "Rookie License",
+        "v": 24,
+        "r": "Common",
+        "d": "Apr 18 2026"
+      },
+      {
         "n": "pvtcrock",
         "i": "Branch",
         "v": 2,
@@ -12135,7 +12150,7 @@
         }
       },
       "grinder": {
-        "total": 8,
+        "total": 9,
         "holders": [
           "wintergofast",
           "flippy00",
@@ -12144,11 +12159,12 @@
           "motionless",
           "pvtcrackpot",
           "benwysard",
-          "jdawg250f"
+          "jdawg250f",
+          "juicedracing"
         ],
         "latest": {
-          "u": "jdawg250f",
-          "d": "Aug 10 2025"
+          "u": "juicedracing",
+          "d": "Apr 18 2026"
         }
       },
       "dex_hunter": {
@@ -13784,6 +13800,7 @@
         "regular_weight": "Sep 30 2024",
         "nascar_pass": "Oct 23 2024",
         "century": "Oct 22 2024",
+        "grinder": "Apr 18 2026",
         "dex_hunter": "Oct 06 2024",
         "completionist": "Oct 27 2024",
         "full_spectrum": "Sep 24 2024",
@@ -21351,7 +21368,7 @@
       "n": "Rabbitfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 72,
+      "c": 73,
       "h": "78motu78",
       "v": 39,
       "w": 2.25
@@ -21603,7 +21620,7 @@
       "n": "Rookie License",
       "custom": true,
       "r": "Common",
-      "c": 101,
+      "c": 102,
       "h": "justingamez",
       "v": 28,
       "w": 1.13
@@ -23753,7 +23770,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 72,
+      "c": 73,
       "rec": "2.25 lb",
       "v": 39
     },
@@ -24464,7 +24481,7 @@
       "r": "Common",
       "custom": true,
       "desc": "This motherfucker probably thinks they're the next Dale Earnhardt",
-      "c": 101,
+      "c": 102,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -25659,6 +25676,22 @@
   ],
   "recent": [
     {
+      "u": "danfzzl",
+      "i": "Rookie License",
+      "w": 0.97,
+      "v": 24,
+      "r": "Common",
+      "d": "Apr 18 2026"
+    },
+    {
+      "u": "juicedracing",
+      "i": "Rabbitfish",
+      "w": 1.76,
+      "v": 31,
+      "r": "Uncommon",
+      "d": "Apr 18 2026"
+    },
+    {
       "u": "ironlegacy_",
       "i": "Have a Yoga Breath",
       "w": 1.1,
@@ -26240,22 +26273,6 @@
       "w": 45.5,
       "v": 91,
       "r": "Rare",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Braxton Brannon",
-      "w": 52.66,
-      "v": 79,
-      "r": "Rare",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Corey LaJoie",
-      "w": 1.03,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 16 2026"
     }
   ]
