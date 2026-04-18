@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-17T23:20:09.677808+00:00",
-    "total_catches": 21352,
+    "generated_at": "2026-04-18T00:05:52.750847+00:00",
+    "total_catches": 21353,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21352 catches"
+      "sub": "Since launch - 21353 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -347,20 +347,20 @@
         "l": "Feb 06 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 32613,
+        "c": 496,
+        "casts": 496,
+        "l": "Apr 18 2026"
+      },
+      {
         "u": "karnalsanders",
         "n": "karnalsanders",
         "g": 32552,
         "c": 480,
         "casts": 480,
         "l": "Oct 02 2025"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 32510,
-        "c": 495,
-        "casts": 495,
-        "l": "Apr 17 2026"
       },
       {
         "u": "dontuu",
@@ -6143,10 +6143,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 3475,
-        "c": 47,
-        "casts": 47,
-        "l": "Apr 17 2026"
+        "g": 3578,
+        "c": 48,
+        "casts": 48,
+        "l": "Apr 18 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6361,10 +6361,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 2669,
-        "c": 32,
-        "casts": 32,
-        "l": "Apr 17 2026"
+        "g": 2772,
+        "c": 33,
+        "casts": 33,
+        "l": "Apr 18 2026"
       },
       {
         "u": "larcen22",
@@ -6543,7 +6543,16 @@
         "l": "Apr 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 103,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 18 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9607,7 +9616,15 @@
         "d": "Apr 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Homestead-Miami Speedway",
+        "v": 103,
+        "r": "Rare",
+        "d": "Apr 18 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -20166,7 +20183,7 @@
       "n": "Homestead-Miami Speedway",
       "custom": true,
       "r": "Rare",
-      "c": 42,
+      "c": 43,
       "h": "riflehog",
       "v": 113,
       "w": 112.69
@@ -24458,7 +24475,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "8th place, way to stay in top 10!",
-      "c": 42,
+      "c": 43,
       "rec": "112.69 lb",
       "v": 113
     },
@@ -25518,6 +25535,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Homestead-Miami Speedway",
+      "w": 102.78,
+      "v": 103,
+      "r": "Rare",
+      "d": "Apr 18 2026"
+    },
+    {
       "u": "flippy00",
       "i": "iRacer Franciso J Villarreal",
       "w": 90.55,
@@ -26107,14 +26132,6 @@
       "w": 2.98,
       "v": 25,
       "r": "Common",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Charlotte Motor Speedway",
-      "w": 1.05,
-      "v": 158,
-      "r": "Rare",
       "d": "Apr 16 2026"
     }
   ]
