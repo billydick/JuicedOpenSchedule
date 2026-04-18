@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T00:42:44.278181+00:00",
-    "total_catches": 21357,
+    "generated_at": "2026-04-18T00:50:55.148524+00:00",
+    "total_catches": 21358,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21357 catches"
+      "sub": "Since launch - 21358 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2139,6 +2139,14 @@
         "l": "Nov 24 2024"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 447,
+        "c": 10,
+        "casts": 10,
+        "l": "Apr 18 2026"
+      },
+      {
         "u": "oddfella9000",
         "n": "oddfella9000",
         "g": 445,
@@ -2169,14 +2177,6 @@
         "c": 8,
         "casts": 8,
         "l": "Mar 10 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 438,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 16 2026"
       },
       {
         "u": "krewneck",
@@ -6223,10 +6223,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 438,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 16 2026"
+        "g": 447,
+        "c": 10,
+        "casts": 10,
+        "l": "Apr 18 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -6409,10 +6409,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 438,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 16 2026"
+        "g": 447,
+        "c": 10,
+        "casts": 10,
+        "l": "Apr 18 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6556,6 +6556,14 @@
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 24,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 18 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 9,
         "c": 1,
         "casts": 1,
         "l": "Apr 18 2026"
@@ -9652,6 +9660,13 @@
         "n": "grumpymitch1",
         "i": "Darlington Raceway",
         "v": 24,
+        "r": "Common",
+        "d": "Apr 18 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "Gummy Worms",
+        "v": 9,
         "r": "Common",
         "d": "Apr 18 2026"
       },
@@ -21688,7 +21703,7 @@
       "n": "Gummy Worms",
       "custom": false,
       "r": "Common",
-      "c": 128,
+      "c": 129,
       "h": "the_moonboy",
       "v": 11,
       "w": 1.12
@@ -22132,8 +22147,8 @@
     },
     {
       "u": "ikatipoi",
-      "g": 438,
-      "c": 9,
+      "g": 447,
+      "c": 10,
       "best_n": "Foureye Butterflyfish",
       "best_r": "Epic",
       "best_v": 144,
@@ -24837,7 +24852,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 128,
+      "c": 129,
       "rec": "1.12 lb",
       "v": 11
     },
@@ -25582,6 +25597,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Gummy Worms",
+      "w": 0.86,
+      "v": 9,
+      "r": "Common",
+      "d": "Apr 18 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Todd Gilliland",
       "w": 0.88,
@@ -26170,14 +26193,6 @@
       "i": "iRacer Kirk Martin",
       "w": 109.2,
       "v": 182,
-      "r": "Epic",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Orange Mandarin Fish",
-      "w": 0.23,
-      "v": 203,
       "r": "Epic",
       "d": "Apr 16 2026"
     }
