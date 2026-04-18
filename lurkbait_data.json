@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T02:07:52.797491+00:00",
-    "total_catches": 21373,
+    "generated_at": "2026-04-18T02:15:03.655956+00:00",
+    "total_catches": 21374,
     "unique_catches": 359,
     "total_players": 732,
     "dex_total": 368,
@@ -265,7 +265,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21373 catches"
+      "sub": "Since launch - 21374 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -309,9 +309,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 54341,
-        "c": 780,
-        "casts": 780,
+        "g": 54453,
+        "c": 781,
+        "casts": 781,
         "l": "Apr 18 2026"
       },
       {
@@ -6181,6 +6181,14 @@
         "l": "Apr 17 2026"
       },
       {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 736,
+        "c": 11,
+        "casts": 11,
+        "l": "Apr 18 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 718,
@@ -6195,14 +6203,6 @@
         "c": 5,
         "casts": 5,
         "l": "Apr 16 2026"
-      },
-      {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 624,
-        "c": 10,
-        "casts": 10,
-        "l": "Apr 18 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6383,6 +6383,14 @@
         "l": "Apr 17 2026"
       },
       {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 736,
+        "c": 11,
+        "casts": 11,
+        "l": "Apr 18 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 705,
@@ -6397,14 +6405,6 @@
         "c": 5,
         "casts": 5,
         "l": "Apr 16 2026"
-      },
-      {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 624,
-        "c": 10,
-        "casts": 10,
-        "l": "Apr 18 2026"
       },
       {
         "u": "brookswhynot",
@@ -6547,9 +6547,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 466,
-        "c": 5,
-        "casts": 5,
+        "g": 578,
+        "c": 6,
+        "casts": 6,
         "l": "Apr 18 2026"
       },
       {
@@ -13182,18 +13182,19 @@
         }
       },
       "supplier": {
-        "total": 6,
+        "total": 7,
         "holders": [
           "flippy00",
           "motionless",
           "pvtcrackpot",
           "karnalsanders",
           "nwoods56",
-          "juicedracing"
+          "juicedracing",
+          "ironlegacy_"
         ],
         "latest": {
-          "u": "juicedracing",
-          "d": "Apr 14 2026"
+          "u": "ironlegacy_",
+          "d": "Apr 18 2026"
         }
       },
       "wholesale": {
@@ -16616,6 +16617,7 @@
         "all5_day": "Jan 05 2025",
         "hat_trick": "Jan 12 2025",
         "two_k_day": "Jan 13 2025",
+        "supplier": "Apr 18 2026",
         "wholesale": "Jan 18 2025",
         "win_week": "Jan 07 2025",
         "win_month": "Jan 04 2025",
@@ -20437,6 +20439,15 @@
       "w": 1010.84
     },
     {
+      "n": "Craftsman Silverado",
+      "custom": true,
+      "r": "Rare",
+      "c": 34,
+      "h": "ironlegacy_",
+      "v": 112,
+      "w": 111.57
+    },
+    {
       "n": "Mike Hicks",
       "custom": true,
       "r": "Rare",
@@ -20570,15 +20581,6 @@
       "h": "eheye",
       "v": 110,
       "w": 54.93
-    },
-    {
-      "n": "Craftsman Silverado",
-      "custom": true,
-      "r": "Rare",
-      "c": 33,
-      "h": "raising_cain_909",
-      "v": 109,
-      "w": 109.1
     },
     {
       "n": "Dylan Dowell",
@@ -24750,9 +24752,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Rattles like the production truck",
-      "c": 33,
-      "rec": "109.10 lb",
-      "v": 109
+      "c": 34,
+      "rec": "111.57 lb",
+      "v": 112
     },
     {
       "n": "87 Le Sabre",
@@ -25658,6 +25660,14 @@
   "recent": [
     {
       "u": "ironlegacy_",
+      "i": "Craftsman Silverado",
+      "w": 111.57,
+      "v": 112,
+      "r": "Rare",
+      "d": "Apr 18 2026"
+    },
+    {
+      "u": "ironlegacy_",
       "i": "Lobster",
       "w": 0.93,
       "v": 65,
@@ -26246,14 +26256,6 @@
       "w": 53.55,
       "v": 80,
       "r": "Rare",
-      "d": "Apr 16 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Justin Haley",
-      "w": 8.16,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 16 2026"
     }
   ]
