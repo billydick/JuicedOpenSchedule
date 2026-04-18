@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-04-18T04:16:36.065035+00:00",
+    "generated_at": "2026-04-18T16:41:33.829399+00:00",
     "total_catches": 21409,
     "unique_catches": 360,
     "total_players": 732,
-    "dex_total": 368,
+    "dex_total": 374,
     "caught_total": 360,
-    "dex_completion": 97.83,
-    "custom_catch_count": 247,
+    "dex_completion": 96.26,
+    "custom_catch_count": 253,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
       "1987_Wrangler.webp",
@@ -87,6 +87,7 @@
       "Devin_Youker.webp",
       "Donnie_Allison.webp",
       "Double_Adjustable_Steel_J-Bar.webp",
+      "Dover.webp",
       "Drew_Baum.webp",
       "Dylan_Dowell.webp",
       "Erik_Jones.webp",
@@ -157,12 +158,15 @@
       "NASCAR_Tickets.webp",
       "NEW_Visual_Flag_System_Full_Package.webp",
       "NOMEX_SFI_SHIFTER_BOOT.webp",
+      "Nashville_Superspeedway.webp",
+      "Natalie_Decker.webp",
       "Next_Gen_Camaro.webp",
       "Next_Gen_Camry.webp",
       "Next_Gen_Mustang.webp",
       "Nick_McBeath.webp",
       "Nick_Sanchez.webp",
       "Noah_Gragson.webp",
+      "North_Wilksboro.webp",
       "PFC_Rear_Calipers.webp",
       "Parker_Kligerman.webp",
       "Parker_Kligerman_.webp",
@@ -171,6 +175,7 @@
       "Phoenix_Raceway.webp",
       "Pit_Crew.webp",
       "Pitt_Box.webp",
+      "Pocono.webp",
       "Race_Suit.webp",
       "Ralph_Moody.webp",
       "Red_Farmer.webp",
@@ -206,6 +211,7 @@
       "THROTTLE_RETURN_SPRING_KIT.webp",
       "TR160_Mk4_Racing_Simulator.webp",
       "Talladega.webp",
+      "Texas_Motor_Speedway.webp",
       "Thomas_Hatcher.webp",
       "Todd_Gilliland.webp",
       "Tony_Stewart.webp",
@@ -276,7 +282,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Apr 17 2026",
+      "label": "Apr 18 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6543,122 +6549,113 @@
         "l": "Apr 14 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 1424,
-        "c": 25,
-        "casts": 25,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 586,
-        "c": 7,
-        "casts": 7,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 324,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 126,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 91,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "larcen22",
-        "n": "larcen22",
-        "g": 85,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 73,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 50,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "aquadays",
-        "n": "aquadays",
-        "g": 45,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 34,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 24,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "danfzzl",
-        "n": "danfzzl",
-        "g": 24,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 2,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      },
-      {
-        "u": "sparkymotors",
-        "n": "sparkymotors",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 18 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Apr 17",
+      "date": "2026-04-17",
+      "leaderboard": [
+        {
+          "n": "ironlegacy_",
+          "u": "ironlegacy_",
+          "g": 1424,
+          "c": 25,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 586,
+          "c": 7,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 324,
+          "c": 3,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "ikatipoi",
+          "u": "ikatipoi",
+          "g": 126,
+          "c": 5,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 91,
+          "c": 3,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "larcen22",
+          "u": "larcen22",
+          "g": 85,
+          "c": 1,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 73,
+          "c": 3,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 50,
+          "c": 2,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "aquadays",
+          "u": "aquadays",
+          "g": 45,
+          "c": 1,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 34,
+          "c": 3,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "grumpymitch1",
+          "u": "grumpymitch1",
+          "g": 24,
+          "c": 1,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "danfzzl",
+          "u": "danfzzl",
+          "g": 24,
+          "c": 1,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "pvtcrock",
+          "u": "pvtcrock",
+          "g": 2,
+          "c": 1,
+          "l": "Apr 18 2026"
+        },
+        {
+          "n": "sparkymotors",
+          "u": "sparkymotors",
+          "g": 1,
+          "c": 1,
+          "l": "Apr 18 2026"
+        }
+      ]
+    },
     {
       "label": "Apr 16",
       "date": "2026-04-16",
@@ -7288,11 +7285,6 @@
           "l": "Apr 12 2026"
         }
       ]
-    },
-    {
-      "label": "Apr 10",
-      "date": "2026-04-10",
-      "leaderboard": []
     }
   ],
   "weekly_history": [
@@ -9720,106 +9712,7 @@
         "d": "Apr 16 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "ironlegacy_",
-        "i": "Ross Chastain",
-        "v": 301,
-        "r": "Epic",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "brookswhynot",
-        "i": "Simucube 2 Ultimate",
-        "v": 228,
-        "r": "Epic",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "3rd @ Sonoma Raceway",
-        "v": 216,
-        "r": "Epic",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "larcen22",
-        "i": "Homestead-Miami Speedway",
-        "v": 85,
-        "r": "Rare",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Used Spek 5inch Tach",
-        "v": 71,
-        "r": "Rare",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "ikatipoi",
-        "i": "USED NASCAR WINDOW NETS",
-        "v": 60,
-        "r": "Rare",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Michael McDowell",
-        "v": 46,
-        "r": "Uncommon",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "MPI Rim",
-        "v": 45,
-        "r": "Uncommon",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "aquadays",
-        "i": "Sim Racing Shoes",
-        "v": 45,
-        "r": "Uncommon",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "v1per_simr4cin6",
-        "i": "Gummy Sharks",
-        "v": 29,
-        "r": "Uncommon",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "grumpymitch1",
-        "i": "Darlington Raceway",
-        "v": 24,
-        "r": "Common",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "danfzzl",
-        "i": "Rookie License",
-        "v": 24,
-        "r": "Common",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "pvtcrock",
-        "i": "Branch",
-        "v": 2,
-        "r": "Junk",
-        "d": "Apr 18 2026"
-      },
-      {
-        "n": "sparkymotors",
-        "i": "Derek Kraus",
-        "v": 1,
-        "r": "Junk",
-        "d": "Apr 18 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
@@ -25738,6 +25631,60 @@
       "r": "Epic",
       "custom": true,
       "desc": "Still faster than your car!",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "Natalie Decker",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Everyone else slows down for caution and she’s like, “nah, let’s keep this interesting.",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "Texas Motor Speedway",
+      "r": "Epic",
+      "custom": true,
+      "desc": "You take 1st place!",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "Dover",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "You get turned on the back stretch but still finish top 10.",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "Nashville Superspeedway",
+      "r": "Epic",
+      "custom": true,
+      "desc": "known as NASCAR's largest all-concrete track.",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "Pocono",
+      "r": "Epic",
+      "custom": true,
+      "desc": "People who can't drive call it the tricky triangle, the extra corner fucks them up.",
+      "c": 0,
+      "rec": "",
+      "v": 0
+    },
+    {
+      "n": "North Wilksboro",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Revived and back in service!",
       "c": 0,
       "rec": "",
       "v": 0
