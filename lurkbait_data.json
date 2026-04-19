@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-19T02:10:22.586602+00:00",
-    "total_catches": 21423,
+    "generated_at": "2026-04-19T02:30:47.819716+00:00",
+    "total_catches": 21424,
     "unique_catches": 360,
     "total_players": 732,
     "dex_total": 374,
@@ -271,7 +271,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21423 catches"
+      "sub": "Since launch - 21424 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3025,6 +3025,14 @@
         "l": "Dec 01 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 200,
+        "c": 5,
+        "casts": 5,
+        "l": "Apr 19 2026"
+      },
+      {
         "u": "will_dames",
         "n": "will_dames",
         "g": 200,
@@ -3063,14 +3071,6 @@
         "c": 1,
         "casts": 1,
         "l": "Mar 19 2025"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 195,
-        "c": 4,
-        "casts": 4,
-        "l": "Apr 17 2026"
       },
       {
         "u": "lethalconnect",
@@ -6317,10 +6317,10 @@
       {
         "u": "cattabolic",
         "n": "cattabolic",
-        "g": 195,
-        "c": 4,
-        "casts": 4,
-        "l": "Apr 17 2026"
+        "g": 200,
+        "c": 5,
+        "casts": 5,
+        "l": "Apr 19 2026"
       },
       {
         "u": "steelbrigade",
@@ -6511,10 +6511,10 @@
       {
         "u": "cattabolic",
         "n": "cattabolic",
-        "g": 119,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 17 2026"
+        "g": 124,
+        "c": 4,
+        "casts": 4,
+        "l": "Apr 19 2026"
       },
       {
         "u": "sparkymotors",
@@ -6602,6 +6602,14 @@
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 19 2026"
+      },
+      {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "Apr 19 2026"
@@ -9825,6 +9833,13 @@
         "i": "Perch",
         "v": 33,
         "r": "Common",
+        "d": "Apr 19 2026"
+      },
+      {
+        "n": "cattabolic",
+        "i": "Can",
+        "v": 5,
+        "r": "Junk",
         "d": "Apr 19 2026"
       },
       {
@@ -22163,7 +22178,7 @@
       "n": "Can",
       "custom": false,
       "r": "Junk",
-      "c": 109,
+      "c": 110,
       "h": "flippy00",
       "v": 6,
       "w": 0.56
@@ -23044,7 +23059,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 109,
+      "c": 110,
       "rec": "0.56 lb",
       "v": 6
     },
@@ -25814,6 +25829,14 @@
   ],
   "recent": [
     {
+      "u": "cattabolic",
+      "i": "Can",
+      "w": 0.55,
+      "v": 5,
+      "r": "Junk",
+      "d": "Apr 19 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Single Seat Radio",
       "w": 1.86,
@@ -26403,14 +26426,6 @@
       "w": 0.56,
       "v": 11,
       "r": "Junk",
-      "d": "Apr 17 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Hermit Crab",
-      "w": 0.89,
-      "v": 18,
-      "r": "Common",
       "d": "Apr 17 2026"
     }
   ]
