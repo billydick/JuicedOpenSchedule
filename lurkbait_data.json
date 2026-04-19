@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-19T03:18:09.446150+00:00",
-    "total_catches": 21437,
+    "generated_at": "2026-04-19T03:19:13.531852+00:00",
+    "total_catches": 21438,
     "unique_catches": 360,
     "total_players": 733,
     "dex_total": 374,
@@ -271,7 +271,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21437 catches"
+      "sub": "Since launch - 21438 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1953,6 +1953,14 @@
         "l": "Nov 04 2024"
       },
       {
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 549,
+        "c": 9,
+        "casts": 9,
+        "l": "Apr 19 2026"
+      },
+      {
         "u": "dcc70",
         "n": "dcc70",
         "g": 545,
@@ -2047,14 +2055,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jan 22 2026"
-      },
-      {
-        "u": "x_killswitch22_x",
-        "n": "x_killswitch22_x",
-        "g": 491,
-        "c": 8,
-        "casts": 8,
-        "l": "Jul 31 2025"
       },
       {
         "u": "bonez_da_killa",
@@ -6631,6 +6631,14 @@
         "l": "Apr 19 2026"
       },
       {
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 58,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 19 2026"
+      },
+      {
         "u": "drybonesmalone",
         "n": "drybonesmalone",
         "g": 45,
@@ -9872,6 +9880,13 @@
         "n": "juicedracing",
         "i": "Braxton Brannon",
         "v": 75,
+        "r": "Rare",
+        "d": "Apr 19 2026"
+      },
+      {
+        "n": "x_killswitch22_x",
+        "i": "Parrot Fish",
+        "v": 58,
         "r": "Rare",
         "d": "Apr 19 2026"
       },
@@ -21113,7 +21128,7 @@
       "n": "Parrot Fish",
       "custom": false,
       "r": "Rare",
-      "c": 63,
+      "c": 64,
       "h": "ricofyi",
       "v": 79,
       "w": 2.25
@@ -22993,7 +23008,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 63,
+      "c": 64,
       "rec": "2.25 lb",
       "v": 79
     },
@@ -25916,6 +25931,14 @@
   ],
   "recent": [
     {
+      "u": "x_killswitch22_x",
+      "i": "Parrot Fish",
+      "w": 1.67,
+      "v": 58,
+      "r": "Rare",
+      "d": "Apr 19 2026"
+    },
+    {
       "u": "drybonesmalone",
       "i": "Michael McDowell",
       "w": 44.51,
@@ -26505,14 +26528,6 @@
       "w": 0.94,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 18 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Billy Dick Cup Regulations",
-      "w": 1.05,
-      "v": 26,
-      "r": "Common",
       "d": "Apr 18 2026"
     }
   ]
