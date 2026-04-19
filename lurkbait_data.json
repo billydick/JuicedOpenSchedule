@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-19T03:12:52.471258+00:00",
-    "total_catches": 21430,
+    "generated_at": "2026-04-19T03:14:57.708515+00:00",
+    "total_catches": 21431,
     "unique_catches": 360,
-    "total_players": 732,
+    "total_players": 733,
     "dex_total": 374,
     "caught_total": 360,
     "dex_completion": 96.26,
@@ -271,7 +271,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21430 catches"
+      "sub": "Since launch - 21431 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -4033,6 +4033,14 @@
         "l": "Nov 12 2025"
       },
       {
+        "u": "bartfalls",
+        "n": "bartfalls",
+        "g": 80,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 19 2026"
+      },
+      {
         "u": "beccamack5",
         "n": "beccamack5",
         "g": 79,
@@ -6596,6 +6604,14 @@
         "g": 87,
         "c": 3,
         "casts": 3,
+        "l": "Apr 19 2026"
+      },
+      {
+        "u": "bartfalls",
+        "n": "bartfalls",
+        "g": 80,
+        "c": 1,
+        "casts": 1,
         "l": "Apr 19 2026"
       },
       {
@@ -9772,6 +9788,13 @@
         "d": "Apr 14 2026"
       },
       {
+        "n": "bartfalls",
+        "i": "Peyton Moore",
+        "v": 80,
+        "r": "Rare",
+        "d": "Apr 19 2026"
+      },
+      {
         "n": "daaarrk7",
         "i": "Carson Hocevar",
         "v": 78,
@@ -9784,13 +9807,6 @@
         "v": 76,
         "r": "Rare",
         "d": "Apr 15 2026"
-      },
-      {
-        "n": "cattabolic",
-        "i": "Ian Anderson",
-        "v": 72,
-        "r": "Rare",
-        "d": "Apr 16 2026"
       }
     ],
     "daily": [
@@ -9819,6 +9835,13 @@
         "n": "rhetti_",
         "i": "Peyton Moore",
         "v": 88,
+        "r": "Rare",
+        "d": "Apr 19 2026"
+      },
+      {
+        "n": "bartfalls",
+        "i": "Peyton Moore",
+        "v": 80,
         "r": "Rare",
         "d": "Apr 19 2026"
       },
@@ -9869,7 +9892,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 732,
+        "total": 733,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10602,11 +10625,12 @@
           "tayrob28",
           "sparkymotors",
           "kermit4life85",
-          "nellafella"
+          "nellafella",
+          "bartfalls"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Apr 16 2026"
+          "u": "bartfalls",
+          "d": "Apr 19 2026"
         }
       },
       "first_cast": {
@@ -11093,7 +11117,7 @@
         }
       },
       "custom_catch": {
-        "total": 609,
+        "total": 610,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11703,11 +11727,12 @@
           "kermit4life85",
           "nellafella",
           "sparkymotors",
-          "cattabolic"
+          "cattabolic",
+          "bartfalls"
         ],
         "latest": {
-          "u": "cattabolic",
-          "d": "Apr 16 2026"
+          "u": "bartfalls",
+          "d": "Apr 19 2026"
         }
       },
       "heavy_hauler": {
@@ -18924,6 +18949,10 @@
       "nellafella": {
         "broke_in": "Apr 16 2026",
         "custom_catch": "Apr 16 2026"
+      },
+      "bartfalls": {
+        "broke_in": "Apr 19 2026",
+        "custom_catch": "Apr 19 2026"
       }
     },
     "recent_unlocks": [
@@ -20456,7 +20485,7 @@
       "n": "Peyton Moore",
       "custom": true,
       "r": "Rare",
-      "c": 33,
+      "c": 34,
       "h": "jking9370",
       "v": 113,
       "w": 56.45
@@ -22472,6 +22501,15 @@
       "best_r": "Junk",
       "best_v": 10,
       "d": "Apr 16 2026"
+    },
+    {
+      "u": "bartfalls",
+      "g": 80,
+      "c": 1,
+      "best_n": "Peyton Moore",
+      "best_r": "Rare",
+      "best_v": 80,
+      "d": "Apr 19 2026"
     }
   ],
   "dex": [
@@ -25261,7 +25299,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#20 Gasman, Joe Gibbs Racing, former college linebacker",
-      "c": 33,
+      "c": 34,
       "rec": "56.45 lb",
       "v": 113
     },
@@ -25843,6 +25881,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "bartfalls",
+      "i": "Peyton Moore",
+      "w": 40.22,
+      "v": 80,
+      "r": "Rare",
+      "d": "Apr 19 2026"
+    },
     {
       "u": "realiist1",
       "i": "Sailfish",
@@ -26433,14 +26479,6 @@
       "w": 0.88,
       "v": 4,
       "r": "Junk",
-      "d": "Apr 18 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Fish Fillet Burger",
-      "w": 0.84,
-      "v": 4,
-      "r": "Uncommon",
       "d": "Apr 18 2026"
     }
   ]
