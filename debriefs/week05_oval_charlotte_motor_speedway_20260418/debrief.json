@@ -1,0 +1,25 @@
+{
+  "week": "05",
+  "season": "Season 1",
+  "date": "2026-04-18",
+  "track": "Charlotte Motor Speedway",
+  "discipline": "Oval",
+  "penalties": "",
+  "race_id": null,
+  "car_map": {},
+  "incidents": [
+    {
+      "num": 1,
+      "lap": "1",
+      "location": "Start Zone",
+      "cars": "#101, #33",
+      "desc": "Check Up before the start, the #101 car runs into the #33 and spins",
+      "ruling": "Race incident no actions",
+      "images": [
+        "inc01_before.webp",
+        "inc01_contact.webp"
+      ]
+    }
+  ],
+  "folder": "week05_oval_charlotte_motor_speedway_20260418"
+}
