@@ -12,12 +12,38 @@
       "num": 1,
       "lap": "1",
       "location": "Start Zone",
-      "cars": "#101, #33",
-      "desc": "Check Up before the start, the #101 car runs into the #33 and spins",
+      "cars": "#101, #33, #12",
+      "desc": "Check up happens before the start, the #101 car runs into the #33 and the #101 car spins on the track, the #12 is involved.",
       "ruling": "Race incident no actions",
       "images": [
         "inc01_before.webp",
-        "inc01_contact.webp"
+        "inc01_contact.webp",
+        "inc01_photo3.webp"
+      ]
+    },
+    {
+      "num": 2,
+      "lap": "3",
+      "location": "Exiting turn 2 on the backstretch",
+      "cars": "#25, #28",
+      "desc": "The #25 car moves a little bit up the track and the  #28 car runs into the #25.  The #28 car then gets into the wall.",
+      "ruling": "Racing Incident, while the #25 made a slight initial error the #28 failed to make room and protect their own car.",
+      "images": [
+        "inc02_before.webp",
+        "inc02_contact.webp",
+        "inc02_photo3.webp"
+      ]
+    },
+    {
+      "num": 3,
+      "lap": "23",
+      "location": "Back stretch by turn 2",
+      "cars": "#787, #12",
+      "desc": "The #12 just fails to avoid the #787, there was no contention leading up to this",
+      "ruling": "#12 is at fault, you need to be aware where other cars are on the track, you cannot run through someone because you're having a good run off the corner.",
+      "images": [
+        "inc03_before.webp",
+        "inc03_contact.webp"
       ]
     }
   ],
