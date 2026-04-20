@@ -8822,7 +8822,7 @@ function setPage(name) {
     tab.classList.add('active');
     tab.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
   }
-  localStorage.setItem('juiced-page', name);
+  if (name !== 'debrief') localStorage.setItem('juiced-page', name);
   if (typeof livePageChange === 'function') livePageChange(name);
   if (typeof lurkbaitPageChange === 'function') lurkbaitPageChange(name);
 }
@@ -8837,6 +8837,7 @@ if (window.innerWidth <= 768) {
 // Init page from hash or localStorage
 var hash = window.location.hash.replace('#','');
 var saved = localStorage.getItem('juiced-page');
+if (saved === 'debrief') { localStorage.removeItem('juiced-page'); saved = null; }
 var startPage = (hash === 'standings' || hash === 'schedule' || hash === 'juicedracing' || hash === 'live' || hash === 'lurkbait') ? hash : (saved || 'schedule');
 if (hash.indexOf('debrief/') !== 0) setPage(startPage);
 
