@@ -128,6 +128,41 @@
       "images": [
         "inc10_before.webp"
       ]
+    },
+    {
+      "num": 11,
+      "lap": "88",
+      "location": "Start Zone",
+      "cars": "#57, #11",
+      "desc": "Car #11 is driving next to car #57 and turns him.",
+      "ruling": "Warning.  Car #11 admitted in chat they were attempting to side draft the #57 however when attempting moves like this you need to have the car control to support such actions.",
+      "images": [
+        "inc11_before.webp",
+        "inc11_contact.webp"
+      ]
+    },
+    {
+      "num": 12,
+      "lap": "89",
+      "location": "Start Zone",
+      "cars": "#14",
+      "desc": "The #14 car self spins under caution and hits the wall",
+      "ruling": "Racing Incident",
+      "images": [
+        "inc12_before.webp"
+      ]
+    },
+    {
+      "num": 13,
+      "lap": "92",
+      "location": "Exit of turn 2",
+      "cars": "#15, #25",
+      "desc": "The #15 was aggressive going door to door with the #25 and the #25 held his line causing the #15 to spin ",
+      "ruling": "Aggressive racing incident",
+      "images": [
+        "inc13_before.webp",
+        "inc13_contact.webp"
+      ]
     }
   ],
   "folder": "week05_oval_charlotte_motor_speedway_20260418"
