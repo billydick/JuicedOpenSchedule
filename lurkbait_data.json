@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T03:59:52.605920+00:00",
-    "total_catches": 21527,
+    "generated_at": "2026-04-21T04:00:55.669499+00:00",
+    "total_catches": 21528,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21527 catches"
+      "sub": "Since launch - 21528 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 90602,
-        "c": 1129,
-        "casts": 1129,
+        "g": 90789,
+        "c": 1130,
+        "casts": 1130,
         "l": "Apr 21 2026"
       },
       {
@@ -6222,9 +6222,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1160,
-        "c": 8,
-        "casts": 8,
+        "g": 1347,
+        "c": 9,
+        "casts": 9,
         "l": "Apr 21 2026"
       },
       {
@@ -6368,9 +6368,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1160,
-        "c": 8,
-        "casts": 8,
+        "g": 1347,
+        "c": 9,
+        "casts": 9,
         "l": "Apr 21 2026"
       },
       {
@@ -6474,9 +6474,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1160,
-        "c": 8,
-        "casts": 8,
+        "g": 1347,
+        "c": 9,
+        "casts": 9,
         "l": "Apr 21 2026"
       },
       {
@@ -21629,6 +21629,15 @@
       "w": 1.12
     },
     {
+      "n": "Carson Hocevar",
+      "custom": true,
+      "r": "Common",
+      "c": 84,
+      "h": "motionless",
+      "v": 187,
+      "w": 93.28
+    },
+    {
       "n": "Jimmie Johnson",
       "custom": true,
       "r": "Common",
@@ -21654,15 +21663,6 @@
       "h": "goonrspecial",
       "v": 105,
       "w": 52.46
-    },
-    {
-      "n": "Carson Hocevar",
-      "custom": true,
-      "r": "Common",
-      "c": 83,
-      "h": "78motu78",
-      "v": 85,
-      "w": 1.13
     },
     {
       "n": "Noah Gragson",
@@ -23880,9 +23880,9 @@
       "r": "Epic",
       "custom": true,
       "desc": "Making a name for himself in NASCAR and an iRacing legend",
-      "c": 83,
-      "rec": "1.13 lb",
-      "v": 85
+      "c": 84,
+      "rec": "93.28 lb",
+      "v": 187
     },
     {
       "n": "Alex Bowman",
@@ -25795,6 +25795,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Carson Hocevar",
+      "w": 93.28,
+      "v": 187,
+      "r": "Epic",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Black Spotted Grunt",
       "w": 5.55,
@@ -26384,14 +26392,6 @@
       "w": 0.88,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Auto Club Speedway",
-      "w": 206.41,
-      "v": 67,
-      "r": "Rare",
       "d": "Apr 19 2026"
     }
   ]
