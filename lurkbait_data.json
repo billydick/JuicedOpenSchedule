@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T00:44:16.552188+00:00",
-    "total_catches": 21479,
+    "generated_at": "2026-04-21T01:00:37.357560+00:00",
+    "total_catches": 21480,
     "unique_catches": 360,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21479 catches"
+      "sub": "Since launch - 21480 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -892,10 +892,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 3716,
-        "c": 45,
-        "casts": 45,
-        "l": "Apr 18 2026"
+        "g": 3844,
+        "c": 46,
+        "casts": 46,
+        "l": "Apr 21 2026"
       },
       {
         "u": "greenseyre05",
@@ -6300,6 +6300,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 278,
+        "c": 7,
+        "casts": 7,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "bartfalls",
         "n": "bartfalls",
         "g": 273,
@@ -6354,17 +6362,17 @@
         "c": 3,
         "casts": 3,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 200,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 19 2026"
       }
     ],
     "weekly": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 128,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
       {
         "u": "aquadays",
         "n": "aquadays",
@@ -6375,6 +6383,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 128,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
       {
         "u": "aquadays",
         "n": "aquadays",
@@ -9547,6 +9563,13 @@
     ],
     "weekly": [
       {
+        "n": "beliron",
+        "i": "Xfinity Mustang",
+        "v": 128,
+        "r": "Rare",
+        "d": "Apr 21 2026"
+      },
+      {
         "n": "aquadays",
         "i": "Todd Gilliland",
         "v": 4,
@@ -9555,6 +9578,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "beliron",
+        "i": "Xfinity Mustang",
+        "v": 128,
+        "r": "Rare",
+        "d": "Apr 21 2026"
+      },
       {
         "n": "aquadays",
         "i": "Todd Gilliland",
@@ -13053,7 +13083,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 26,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13080,12 +13110,11 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams",
-          "aquadays"
+          "reignsstreams"
         ],
         "latest": {
-          "u": "aquadays",
-          "d": "Apr 21 2026"
+          "u": "reignsstreams",
+          "d": "Feb 09 2026"
         }
       },
       "win_month": {
@@ -16831,7 +16860,6 @@
         "full_spectrum": "Feb 23 2025",
         "custom_club": "Mar 21 2025",
         "leg_epic_day": "Jan 16 2025",
-        "win_week": "Apr 21 2026",
         "legend_hunter": "Jan 16 2025"
       },
       "friendlyarrows1": {
@@ -20028,7 +20056,7 @@
       "n": "Xfinity Mustang",
       "custom": true,
       "r": "Epic",
-      "c": 55,
+      "c": 56,
       "h": "goonrspecial",
       "v": 140,
       "w": 111.82
@@ -24436,7 +24464,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "",
-      "c": 55,
+      "c": 56,
       "rec": "111.82 lb",
       "v": 140
     },
@@ -25415,6 +25443,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Xfinity Mustang",
+      "w": 102.55,
+      "v": 128,
+      "r": "Rare",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "aquadays",
       "i": "Todd Gilliland",
       "w": 0.87,
@@ -26004,14 +26040,6 @@
       "w": 1.82,
       "v": 45,
       "r": "Uncommon",
-      "d": "Apr 18 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "CB Longneck",
-      "w": 0.19,
-      "v": 2,
-      "r": "Junk",
       "d": "Apr 18 2026"
     }
   ]
