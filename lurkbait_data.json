@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T02:22:01.419963+00:00",
-    "total_catches": 21493,
+    "generated_at": "2026-04-21T02:28:09.556880+00:00",
+    "total_catches": 21494,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21493 catches"
+      "sub": "Since launch - 21494 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 89442,
-        "c": 1121,
-        "casts": 1121,
-        "l": "Aug 11 2025"
+        "g": 89850,
+        "c": 1122,
+        "casts": 1122,
+        "l": "Apr 21 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6300,6 +6300,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 408,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 363,
@@ -6354,17 +6362,17 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 14 2026"
-      },
-      {
-        "u": "polegolf1",
-        "n": "polegolf1",
-        "g": 207,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 12 2026"
       }
     ],
     "weekly": [
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 408,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
@@ -6431,6 +6439,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 408,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
@@ -9496,6 +9512,13 @@
         "d": "Apr 12 2026"
       },
       {
+        "n": "motionless",
+        "i": "Golden Crown",
+        "v": 408,
+        "r": "Legendary",
+        "d": "Apr 21 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Donnie Allison",
         "v": 336,
@@ -9648,16 +9671,16 @@
         "v": 144,
         "r": "Epic",
         "d": "Apr 14 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Next Gen Camaro",
-        "v": 141,
-        "r": "Rare",
-        "d": "Apr 11 2026"
       }
     ],
     "weekly": [
+      {
+        "n": "motionless",
+        "i": "Golden Crown",
+        "v": 408,
+        "r": "Legendary",
+        "d": "Apr 21 2026"
+      },
       {
         "n": "gatoraintplaying",
         "i": "Corey Heim",
@@ -9716,6 +9739,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "motionless",
+        "i": "Golden Crown",
+        "v": 408,
+        "r": "Legendary",
+        "d": "Apr 21 2026"
+      },
       {
         "n": "gatoraintplaying",
         "i": "Corey Heim",
@@ -19021,7 +19051,7 @@
       "n": "Golden Crown",
       "custom": false,
       "r": "Legendary",
-      "c": 22,
+      "c": 23,
       "h": "motionless",
       "v": 564,
       "w": 1.13
@@ -23474,7 +23504,7 @@
       "r": "Legendary",
       "custom": false,
       "desc": "",
-      "c": 22,
+      "c": 23,
       "rec": "1.13 lb",
       "v": 564
     },
@@ -25641,6 +25671,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Golden Crown",
+      "w": 0.82,
+      "v": 408,
+      "r": "Legendary",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "maden3w",
       "i": "Bubba Wallace",
       "w": 20.22,
@@ -26230,14 +26268,6 @@
       "w": 3.35,
       "v": 112,
       "r": "Rare",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Harrison Burton",
-      "w": 8.33,
-      "v": 42,
-      "r": "Uncommon",
       "d": "Apr 19 2026"
     }
   ]
