@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T04:28:48.098021+00:00",
-    "total_catches": 21539,
+    "generated_at": "2026-04-21T04:33:56.520759+00:00",
+    "total_catches": 21540,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21539 catches"
+      "sub": "Since launch - 21540 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -874,6 +874,14 @@
         "l": "Mar 09 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 4040,
+        "c": 48,
+        "casts": 48,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "rob_pickle12",
         "n": "rob_pickle12",
         "g": 3983,
@@ -888,14 +896,6 @@
         "c": 55,
         "casts": 55,
         "l": "Nov 19 2024"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 3929,
-        "c": 47,
-        "casts": 47,
-        "l": "Apr 21 2026"
       },
       {
         "u": "greenseyre05",
@@ -6292,6 +6292,14 @@
         "l": "Apr 19 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 474,
+        "c": 9,
+        "casts": 9,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "ten23graphics",
         "n": "ten23graphics",
         "g": 450,
@@ -6321,14 +6329,6 @@
         "g": 376,
         "c": 5,
         "casts": 5,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 363,
-        "c": 8,
-        "casts": 8,
         "l": "Apr 21 2026"
       },
       {
@@ -6398,19 +6398,19 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 324,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "sjbhomebrew",
         "n": "sjbhomebrew",
         "g": 229,
         "c": 1,
         "casts": 1,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 213,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -6528,19 +6528,19 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 324,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "sjbhomebrew",
         "n": "sjbhomebrew",
         "g": 229,
         "c": 1,
         "casts": 1,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 213,
-        "c": 2,
-        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -21749,10 +21749,10 @@
       "n": "Josh Berry",
       "custom": true,
       "r": "Common",
-      "c": 129,
-      "h": "goonrspecial",
-      "v": 105,
-      "w": 52.46
+      "c": 130,
+      "h": "beliron",
+      "v": 111,
+      "w": 55.59
     },
     {
       "n": "Noah Gragson",
@@ -23601,9 +23601,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Running better in 2025 got a Win",
-      "c": 129,
-      "rec": "52.46 lb",
-      "v": 105
+      "c": 130,
+      "rec": "55.59 lb",
+      "v": 111
     },
     {
       "n": "Kamui Kobayashi",
@@ -25885,6 +25885,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Josh Berry",
+      "w": 55.59,
+      "v": 111,
+      "r": "Rare",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Darlington Raceway",
       "w": 102.84,
@@ -26473,14 +26481,6 @@
       "i": "Castrol SRF Racing Brake Fluid",
       "w": 0.96,
       "v": 10,
-      "r": "Junk",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Derek Kraus",
-      "w": 0.82,
-      "v": 1,
       "r": "Junk",
       "d": "Apr 19 2026"
     }
