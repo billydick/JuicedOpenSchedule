@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T03:20:52.867914+00:00",
-    "total_catches": 21519,
+    "generated_at": "2026-04-21T03:26:01.230890+00:00",
+    "total_catches": 21520,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21519 catches"
+      "sub": "Since launch - 21520 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2274,6 +2274,14 @@
         "l": "Sep 05 2025"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 405,
+        "c": 10,
+        "casts": 10,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "andruboring",
         "n": "andruboring",
         "g": 403,
@@ -2304,14 +2312,6 @@
         "c": 9,
         "casts": 9,
         "l": "Jan 28 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 384,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 21 2026"
       },
       {
         "u": "stiggy_icky_icky",
@@ -6310,9 +6310,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 384,
-        "c": 9,
-        "casts": 9,
+        "g": 405,
+        "c": 10,
+        "casts": 10,
         "l": "Apr 21 2026"
       },
       {
@@ -6424,9 +6424,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 139,
-        "c": 3,
-        "casts": 3,
+        "g": 160,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 21 2026"
       },
       {
@@ -6530,9 +6530,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 139,
-        "c": 3,
-        "casts": 3,
+        "g": 160,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 21 2026"
       },
       {
@@ -21785,7 +21785,7 @@
       "n": "Fire Bottle Nozzle",
       "custom": true,
       "r": "Common",
-      "c": 138,
+      "c": 139,
       "h": "lishogunil",
       "v": 28,
       "w": 2.26
@@ -23934,7 +23934,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Nozzle for a Fire Bottle",
-      "c": 138,
+      "c": 139,
       "rec": "2.26 lb",
       "v": 28
     },
@@ -25795,6 +25795,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Fire Bottle Nozzle",
+      "w": 1.7,
+      "v": 21,
+      "r": "Common",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "motionless",
       "i": "Peacock Bass",
       "w": 8.11,
@@ -26384,14 +26392,6 @@
       "w": 21.79,
       "v": 11,
       "r": "Junk",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Austin Dillon",
-      "w": 13.61,
-      "v": 23,
-      "r": "Common",
       "d": "Apr 19 2026"
     }
   ]
