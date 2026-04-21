@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T02:36:28.333176+00:00",
-    "total_catches": 21501,
+    "generated_at": "2026-04-21T02:39:34.186493+00:00",
+    "total_catches": 21502,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21501 catches"
+      "sub": "Since launch - 21502 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -4218,6 +4218,14 @@
         "l": "Jan 04 2025"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 66,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "itscherg",
         "n": "itscherg",
         "g": 66,
@@ -5256,14 +5264,6 @@
         "c": 1,
         "casts": 1,
         "l": "Mar 28 2025"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 20,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 19 2026"
       },
       {
         "u": "hotdogwater9999",
@@ -6446,6 +6446,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 46,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 4,
@@ -6531,6 +6539,14 @@
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
+      {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 46,
         "c": 1,
         "casts": 1,
         "l": "Apr 21 2026"
@@ -9770,6 +9786,13 @@
         "d": "Apr 21 2026"
       },
       {
+        "n": "azsuperbeast",
+        "i": "Carb Spacer Plates",
+        "v": 46,
+        "r": "Uncommon",
+        "d": "Apr 21 2026"
+      },
+      {
         "n": "drewieblaster",
         "i": "Noah Gragson",
         "v": 43,
@@ -9845,6 +9868,13 @@
         "n": "ikatipoi",
         "i": "Ryan Truex",
         "v": 48,
+        "r": "Uncommon",
+        "d": "Apr 21 2026"
+      },
+      {
+        "n": "azsuperbeast",
+        "i": "Carb Spacer Plates",
+        "v": 46,
         "r": "Uncommon",
         "d": "Apr 21 2026"
       },
@@ -11093,7 +11123,7 @@
         }
       },
       "custom_catch": {
-        "total": 610,
+        "total": 611,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11704,11 +11734,12 @@
           "nellafella",
           "sparkymotors",
           "cattabolic",
-          "bartfalls"
+          "bartfalls",
+          "azsuperbeast"
         ],
         "latest": {
-          "u": "bartfalls",
-          "d": "Apr 19 2026"
+          "u": "azsuperbeast",
+          "d": "Apr 21 2026"
         }
       },
       "heavy_hauler": {
@@ -18937,7 +18968,8 @@
         "custom_catch": "Apr 19 2026"
       },
       "azsuperbeast": {
-        "broke_in": "Apr 19 2026"
+        "broke_in": "Apr 19 2026",
+        "custom_catch": "Apr 21 2026"
       }
     },
     "recent_unlocks": [
@@ -21280,7 +21312,7 @@
       "n": "Carb Spacer Plates",
       "custom": true,
       "r": "Uncommon",
-      "c": 73,
+      "c": 74,
       "h": "dentedcan",
       "v": 56,
       "w": 3.38
@@ -24293,7 +24325,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Spacer Plates for your carbs",
-      "c": 73,
+      "c": 74,
       "rec": "3.38 lb",
       "v": 56
     },
@@ -25731,6 +25763,14 @@
   ],
   "recent": [
     {
+      "u": "azsuperbeast",
+      "i": "Carb Spacer Plates",
+      "w": 2.75,
+      "v": 46,
+      "r": "Uncommon",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Noah Gragson",
       "w": 25.69,
@@ -26320,14 +26360,6 @@
       "w": 0.92,
       "v": 5,
       "r": "Junk",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Atlantic Cod",
-      "w": 41.27,
-      "v": 31,
-      "r": "Common",
       "d": "Apr 19 2026"
     }
   ]
