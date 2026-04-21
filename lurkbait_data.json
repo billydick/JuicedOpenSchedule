@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T03:52:41.317081+00:00",
-    "total_catches": 21525,
+    "generated_at": "2026-04-21T03:54:45.408137+00:00",
+    "total_catches": 21526,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21525 catches"
+      "sub": "Since launch - 21526 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 90171,
-        "c": 1128,
-        "casts": 1128,
+        "g": 90602,
+        "c": 1129,
+        "casts": 1129,
         "l": "Apr 21 2026"
       },
       {
@@ -6220,6 +6220,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 1160,
+        "c": 8,
+        "casts": 8,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 1110,
@@ -6241,14 +6249,6 @@
         "g": 740,
         "c": 12,
         "casts": 12,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 729,
-        "c": 7,
-        "casts": 7,
         "l": "Apr 21 2026"
       },
       {
@@ -6368,9 +6368,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 729,
-        "c": 7,
-        "casts": 7,
+        "g": 1160,
+        "c": 8,
+        "casts": 8,
         "l": "Apr 21 2026"
       },
       {
@@ -6474,9 +6474,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 729,
-        "c": 7,
-        "casts": 7,
+        "g": 1160,
+        "c": 8,
+        "casts": 8,
         "l": "Apr 21 2026"
       },
       {
@@ -9577,8 +9577,8 @@
       },
       {
         "n": "motionless",
-        "i": "Golden Crown",
-        "v": 408,
+        "i": "Simagic Alpha U",
+        "v": 431,
         "r": "Legendary",
         "d": "Apr 21 2026"
       },
@@ -9740,8 +9740,8 @@
     "weekly": [
       {
         "n": "motionless",
-        "i": "Golden Crown",
-        "v": 408,
+        "i": "Simagic Alpha U",
+        "v": 431,
         "r": "Legendary",
         "d": "Apr 21 2026"
       },
@@ -9833,8 +9833,8 @@
     "daily": [
       {
         "n": "motionless",
-        "i": "Golden Crown",
-        "v": 408,
+        "i": "Simagic Alpha U",
+        "v": 431,
         "r": "Legendary",
         "d": "Apr 21 2026"
       },
@@ -19532,6 +19532,15 @@
       "w": 4.23
     },
     {
+      "n": "Simagic Alpha U",
+      "custom": true,
+      "r": "Epic",
+      "c": 46,
+      "h": "motionless",
+      "v": 431,
+      "w": 8.59
+    },
+    {
       "n": "muk",
       "custom": false,
       "r": "Epic",
@@ -19611,15 +19620,6 @@
       "h": "motionless",
       "v": 226,
       "w": 28.23
-    },
-    {
-      "n": "Simagic Alpha U",
-      "custom": true,
-      "r": "Epic",
-      "c": 45,
-      "h": "casperfrnk09",
-      "v": 226,
-      "w": 11.28
     },
     {
       "n": "Stange Oval-Kera Dirt Late Model Gun Drilled Axle",
@@ -23367,9 +23367,9 @@
       "r": "Legendary",
       "custom": true,
       "desc": "You're still slow AF",
-      "c": 45,
-      "rec": "11.28 lb",
-      "v": 226
+      "c": 46,
+      "rec": "8.59 lb",
+      "v": 431
     },
     {
       "n": "Electric Catfish",
@@ -25795,6 +25795,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Simagic Alpha U",
+      "w": 8.59,
+      "v": 431,
+      "r": "Legendary",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Erik Jones",
       "w": 0.96,
@@ -26384,14 +26392,6 @@
       "w": 0.84,
       "v": 42,
       "r": "Uncommon",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "leviticus141",
-      "i": "Tire",
-      "w": 33.85,
-      "v": 11,
-      "r": "Junk",
       "d": "Apr 19 2026"
     }
   ]
