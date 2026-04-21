@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T05:47:04.001200+00:00",
-    "total_catches": 21562,
+    "generated_at": "2026-04-21T05:52:12.768608+00:00",
+    "total_catches": 21563,
     "unique_catches": 362,
     "total_players": 735,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21562 catches"
+      "sub": "Since launch - 21563 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3266,6 +3266,14 @@
         "l": "Dec 01 2025"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 168,
+        "c": 6,
+        "casts": 6,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "murkmarr",
         "n": "murkmarr",
         "g": 168,
@@ -3496,14 +3504,6 @@
         "c": 3,
         "casts": 3,
         "l": "Oct 28 2024"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 134,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 21 2026"
       },
       {
         "u": "jonnykaputt",
@@ -6462,19 +6462,19 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 148,
+        "c": 5,
+        "casts": 5,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 123,
         "c": 2,
         "casts": 2,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 114,
-        "c": 4,
-        "casts": 4,
         "l": "Apr 21 2026"
       },
       {
@@ -6616,19 +6616,19 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 148,
+        "c": 5,
+        "casts": 5,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 123,
         "c": 2,
         "casts": 2,
-        "l": "Apr 21 2026"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 114,
-        "c": 4,
-        "casts": 4,
         "l": "Apr 21 2026"
       },
       {
@@ -21810,8 +21810,8 @@
       "n": "Starfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 66,
-      "h": "wintergofast",
+      "c": 67,
+      "h": "azsuperbeast",
       "v": 34,
       "w": 0.11
     },
@@ -22691,7 +22691,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 66,
+      "c": 67,
       "rec": "0.11 lb",
       "v": 34
     },
@@ -26001,6 +26001,14 @@
   ],
   "recent": [
     {
+      "u": "azsuperbeast",
+      "i": "Starfish",
+      "w": 0.11,
+      "v": 34,
+      "r": "Uncommon",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Mahi Mahi",
       "w": 13.41,
@@ -26590,14 +26598,6 @@
       "w": 47.83,
       "v": 48,
       "r": "Uncommon",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Daniel Hermic",
-      "w": 1.04,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 21 2026"
     }
   ]
