@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T04:51:30.441572+00:00",
-    "total_catches": 21548,
+    "generated_at": "2026-04-21T04:59:42.505957+00:00",
+    "total_catches": 21549,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21548 catches"
+      "sub": "Since launch - 21549 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1100,10 +1100,10 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 2413,
-        "c": 32,
-        "casts": 32,
-        "l": "Apr 19 2026"
+        "g": 2453,
+        "c": 33,
+        "casts": 33,
+        "l": "Apr 21 2026"
       },
       {
         "u": "larcen22",
@@ -6238,10 +6238,10 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 898,
-        "c": 12,
-        "casts": 12,
-        "l": "Apr 19 2026"
+        "g": 938,
+        "c": 13,
+        "casts": 13,
+        "l": "Apr 21 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -6470,6 +6470,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 40,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "luxer01",
         "n": "luxer01",
         "g": 30,
@@ -6605,6 +6613,14 @@
         "g": 73,
         "c": 2,
         "casts": 2,
+        "l": "Apr 21 2026"
+      },
+      {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 40,
+        "c": 1,
+        "casts": 1,
         "l": "Apr 21 2026"
       },
       {
@@ -9894,6 +9910,13 @@
         "d": "Apr 21 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "JJ Yeley",
+        "v": 40,
+        "r": "Uncommon",
+        "d": "Apr 21 2026"
+      },
+      {
         "n": "luxer01",
         "i": "Rabbitfish",
         "v": 30,
@@ -10011,6 +10034,13 @@
         "n": "azsuperbeast",
         "i": "Carb Spacer Plates",
         "v": 46,
+        "r": "Uncommon",
+        "d": "Apr 21 2026"
+      },
+      {
+        "n": "thesaucypanda2",
+        "i": "JJ Yeley",
+        "v": 40,
         "r": "Uncommon",
         "d": "Apr 21 2026"
       },
@@ -12094,7 +12124,7 @@
         }
       },
       "walk_in": {
-        "total": 143,
+        "total": 144,
         "holders": [
           "gh0std0g90",
           "belyy92",
@@ -12238,11 +12268,12 @@
           "gzmoneyyyy",
           "larcen22",
           "ineffabledecibel",
-          "leviticus141"
+          "leviticus141",
+          "thesaucypanda2"
         ],
         "latest": {
-          "u": "leviticus141",
-          "d": "Apr 19 2026"
+          "u": "thesaucypanda2",
+          "d": "Apr 21 2026"
         }
       },
       "regular_weight": {
@@ -17939,6 +17970,7 @@
         "broke_in": "Mar 18 2025",
         "catch_of_day": "Mar 27 2025",
         "custom_catch": "Mar 18 2025",
+        "walk_in": "Apr 21 2026",
         "full_spectrum": "Mar 27 2025",
         "custom_club": "Mar 27 2025",
         "leg_epic_day": "Mar 27 2025",
@@ -21599,7 +21631,7 @@
       "n": "JJ Yeley",
       "custom": true,
       "r": "Uncommon",
-      "c": 5,
+      "c": 6,
       "h": "ineffabledecibel",
       "v": 55,
       "w": 56.01
@@ -25746,7 +25778,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "If there’s a seat open, JJ’s already in it",
-      "c": 5,
+      "c": 6,
       "rec": "56.01 lb",
       "v": 55
     },
@@ -25914,6 +25946,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "thesaucypanda2",
+      "i": "JJ Yeley",
+      "w": 40.57,
+      "v": 40,
+      "r": "Uncommon",
+      "d": "Apr 21 2026"
+    },
     {
       "u": "motionless",
       "i": "Peacock Bass",
@@ -26504,14 +26544,6 @@
       "w": 0.95,
       "v": 119,
       "r": "Rare",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Vape",
-      "w": 0.16,
-      "v": 8,
-      "r": "Junk",
       "d": "Apr 19 2026"
     }
   ]
