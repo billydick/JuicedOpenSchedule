@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T00:00:37.217059+00:00",
-    "total_catches": 21478,
+    "generated_at": "2026-04-21T00:44:16.552188+00:00",
+    "total_catches": 21479,
     "unique_catches": 360,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21478 catches"
+      "sub": "Since launch - 21479 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -988,10 +988,10 @@
       {
         "u": "aquadays",
         "n": "aquadays",
-        "g": 3077,
-        "c": 44,
-        "casts": 44,
-        "l": "Apr 19 2026"
+        "g": 3081,
+        "c": 45,
+        "casts": 45,
+        "l": "Apr 21 2026"
       },
       {
         "u": "freezerdan",
@@ -6294,10 +6294,10 @@
       {
         "u": "aquadays",
         "n": "aquadays",
-        "g": 408,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 19 2026"
+        "g": 412,
+        "c": 6,
+        "casts": 6,
+        "l": "Apr 21 2026"
       },
       {
         "u": "bartfalls",
@@ -6364,8 +6364,26 @@
         "l": "Apr 19 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 4,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 4,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 21 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9527,8 +9545,24 @@
         "d": "Apr 11 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "aquadays",
+        "i": "Todd Gilliland",
+        "v": 4,
+        "r": "Junk",
+        "d": "Apr 21 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "aquadays",
+        "i": "Todd Gilliland",
+        "v": 4,
+        "r": "Junk",
+        "d": "Apr 21 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -13019,7 +13053,7 @@
         }
       },
       "win_week": {
-        "total": 26,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13046,11 +13080,12 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams"
+          "reignsstreams",
+          "aquadays"
         ],
         "latest": {
-          "u": "reignsstreams",
-          "d": "Feb 09 2026"
+          "u": "aquadays",
+          "d": "Apr 21 2026"
         }
       },
       "win_month": {
@@ -16796,6 +16831,7 @@
         "full_spectrum": "Feb 23 2025",
         "custom_club": "Mar 21 2025",
         "leg_epic_day": "Jan 16 2025",
+        "win_week": "Apr 21 2026",
         "legend_hunter": "Jan 16 2025"
       },
       "friendlyarrows1": {
@@ -21630,7 +21666,7 @@
       "n": "Todd Gilliland",
       "custom": true,
       "r": "Common",
-      "c": 145,
+      "c": 146,
       "h": "justingamez",
       "v": 6,
       "w": 1.13
@@ -23113,7 +23149,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Racing every week, noticed by nobody",
-      "c": 145,
+      "c": 146,
       "rec": "1.13 lb",
       "v": 6
     },
@@ -25379,6 +25415,14 @@
   ],
   "recent": [
     {
+      "u": "aquadays",
+      "i": "Todd Gilliland",
+      "w": 0.87,
+      "v": 4,
+      "r": "Junk",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Jackson Gibbs",
       "w": 51.37,
@@ -25968,14 +26012,6 @@
       "w": 0.19,
       "v": 2,
       "r": "Junk",
-      "d": "Apr 18 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Oreochromis",
-      "w": 2.45,
-      "v": 82,
-      "r": "Rare",
       "d": "Apr 18 2026"
     }
   ]
