@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T03:28:06.213207+00:00",
-    "total_catches": 21522,
+    "generated_at": "2026-04-21T03:41:23.970321+00:00",
+    "total_catches": 21523,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21522 catches"
+      "sub": "Since launch - 21523 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3914,6 +3914,14 @@
         "l": "Mar 13 2025"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 93,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "ruptured_aorta",
         "n": "ruptured_aorta",
         "g": 93,
@@ -4216,14 +4224,6 @@
         "c": 5,
         "casts": 5,
         "l": "Jan 04 2025"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 66,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 21 2026"
       },
       {
         "u": "itscherg",
@@ -6456,9 +6456,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 46,
-        "c": 1,
-        "casts": 1,
+        "g": 73,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -6562,9 +6562,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 46,
-        "c": 1,
-        "casts": 1,
+        "g": 73,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -21731,7 +21731,7 @@
       "n": "Perch",
       "custom": false,
       "r": "Common",
-      "c": 171,
+      "c": 172,
       "h": "rms_racing",
       "v": 34,
       "w": 3.39
@@ -22980,7 +22980,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 171,
+      "c": 172,
       "rec": "3.39 lb",
       "v": 34
     },
@@ -25795,6 +25795,14 @@
   ],
   "recent": [
     {
+      "u": "azsuperbeast",
+      "i": "Perch",
+      "w": 2.67,
+      "v": 27,
+      "r": "Common",
+      "d": "Apr 21 2026"
+    },
+    {
       "u": "motionless",
       "i": "Auto Club Speedway",
       "w": 190.21,
@@ -26384,14 +26392,6 @@
       "w": 26.09,
       "v": 104,
       "r": "Rare",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Gummy Worms",
-      "w": 0.98,
-      "v": 10,
-      "r": "Common",
       "d": "Apr 19 2026"
     }
   ]
