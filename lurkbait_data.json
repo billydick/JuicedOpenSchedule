@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-21T02:45:48.383385+00:00",
-    "total_catches": 21507,
+    "generated_at": "2026-04-21T02:48:54.409787+00:00",
+    "total_catches": 21508,
     "unique_catches": 362,
     "total_players": 734,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21507 catches"
+      "sub": "Since launch - 21508 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2306,6 +2306,14 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 383,
+        "c": 8,
+        "casts": 8,
+        "l": "Apr 21 2026"
+      },
+      {
         "u": "stiggy_icky_icky",
         "n": "stiggy_icky_icky",
         "g": 382,
@@ -2448,14 +2456,6 @@
         "c": 3,
         "casts": 3,
         "l": "May 31 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 331,
-        "c": 7,
-        "casts": 7,
-        "l": "Apr 21 2026"
       },
       {
         "u": "pintobeandeluxe",
@@ -6308,19 +6308,19 @@
         "l": "Apr 21 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 363,
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 383,
         "c": 8,
         "casts": 8,
         "l": "Apr 21 2026"
       },
       {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 331,
-        "c": 7,
-        "casts": 7,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 363,
+        "c": 8,
+        "casts": 8,
         "l": "Apr 21 2026"
       },
       {
@@ -6422,19 +6422,19 @@
         "l": "Apr 21 2026"
       },
       {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 123,
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 138,
         "c": 2,
         "casts": 2,
         "l": "Apr 21 2026"
       },
       {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 86,
-        "c": 1,
-        "casts": 1,
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 123,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -6528,19 +6528,19 @@
         "l": "Apr 21 2026"
       },
       {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 123,
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 138,
         "c": 2,
         "casts": 2,
         "l": "Apr 21 2026"
       },
       {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 86,
-        "c": 1,
-        "casts": 1,
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 123,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 21 2026"
       },
       {
@@ -21492,6 +21492,15 @@
       "w": 53.41
     },
     {
+      "n": "Ty Dillon",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 2,
+      "h": "v1per_simr4cin6",
+      "v": 52,
+      "w": 52.35
+    },
+    {
       "n": "Garrett Smithley",
       "custom": true,
       "r": "Uncommon",
@@ -21517,15 +21526,6 @@
       "h": "rms_racing",
       "v": 49,
       "w": 48.69
-    },
-    {
-      "n": "Ty Dillon",
-      "custom": true,
-      "r": "Uncommon",
-      "c": 1,
-      "h": "rms_racing",
-      "v": 46,
-      "w": 45.51
     },
     {
       "n": "Golden Redeye Rudd",
@@ -25597,9 +25597,9 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "That one Dillon that ain’t Austin",
-      "c": 1,
-      "rec": "45.51 lb",
-      "v": 46
+      "c": 2,
+      "rec": "52.35 lb",
+      "v": 52
     },
     {
       "n": "Garrett Smithley",
@@ -25792,6 +25792,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "v1per_simr4cin6",
+      "i": "Ty Dillon",
+      "w": 52.35,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Apr 21 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "Jellyfish Plushie",
@@ -26382,14 +26390,6 @@
       "w": 5.57,
       "v": 445,
       "r": "Legendary",
-      "d": "Apr 19 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Braxton Brannon",
-      "w": 50.07,
-      "v": 75,
-      "r": "Rare",
       "d": "Apr 19 2026"
     }
   ]
