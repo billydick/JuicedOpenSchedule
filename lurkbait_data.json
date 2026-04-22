@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-22T23:42:35.530807+00:00",
-    "total_catches": 21567,
+    "generated_at": "2026-04-22T23:58:52.823220+00:00",
+    "total_catches": 21568,
     "unique_catches": 362,
     "total_players": 735,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21567 catches"
+      "sub": "Since launch - 21568 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1460,10 +1460,10 @@
       {
         "u": "darkhorizon35",
         "n": "darkhorizon35",
-        "g": 1248,
-        "c": 12,
-        "casts": 12,
-        "l": "Apr 17 2026"
+        "g": 1254,
+        "c": 13,
+        "casts": 13,
+        "l": "Apr 22 2026"
       },
       {
         "u": "pitapumpkineater",
@@ -6518,6 +6518,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "darkhorizon35",
+        "n": "darkhorizon35",
+        "g": 6,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 22 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 4,
@@ -6526,7 +6534,16 @@
         "l": "Apr 21 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "darkhorizon35",
+        "n": "darkhorizon35",
+        "g": 6,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 22 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9766,6 +9783,13 @@
         "d": "Apr 21 2026"
       },
       {
+        "n": "darkhorizon35",
+        "i": "Cody Ware",
+        "v": 6,
+        "r": "Junk",
+        "d": "Apr 22 2026"
+      },
+      {
         "n": "aquadays",
         "i": "Todd Gilliland",
         "v": 4,
@@ -9773,7 +9797,15 @@
         "d": "Apr 21 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "darkhorizon35",
+        "i": "Cody Ware",
+        "v": 6,
+        "r": "Junk",
+        "d": "Apr 22 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -12469,7 +12501,7 @@
         }
       },
       "custom_club": {
-        "total": 159,
+        "total": 160,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12629,11 +12661,12 @@
           "yoitsdlowe",
           "simoyd",
           "larcen22",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "darkhorizon35"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 15 2026"
+          "u": "darkhorizon35",
+          "d": "Apr 22 2026"
         }
       },
       "gold_hoarder": {
@@ -17776,7 +17809,8 @@
         "win_day": "Dec 03 2025",
         "catch_of_day": "Dec 03 2025",
         "custom_catch": "Jun 01 2025",
-        "walk_in": "Nov 30 2025"
+        "walk_in": "Nov 30 2025",
+        "custom_club": "Apr 22 2026"
       },
       "normalsyntax": {
         "broke_in": "May 31 2025",
@@ -21887,7 +21921,7 @@
       "n": "Cody Ware",
       "custom": true,
       "r": "Common",
-      "c": 153,
+      "c": 154,
       "h": "loosewheel0",
       "v": 8,
       "w": 4.52
@@ -23515,7 +23549,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Still trying to figure out Ware he is in the points",
-      "c": 153,
+      "c": 154,
       "rec": "4.52 lb",
       "v": 8
     },
@@ -25664,6 +25698,14 @@
   ],
   "recent": [
     {
+      "u": "darkhorizon35",
+      "i": "Cody Ware",
+      "w": 3.38,
+      "v": 6,
+      "r": "Junk",
+      "d": "Apr 22 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Simagic - Alpha Mounting bracket",
       "w": 0.98,
@@ -26253,14 +26295,6 @@
       "w": 0.82,
       "v": 408,
       "r": "Legendary",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "maden3w",
-      "i": "Bubba Wallace",
-      "w": 20.22,
-      "v": 20,
-      "r": "Common",
       "d": "Apr 21 2026"
     }
   ]
