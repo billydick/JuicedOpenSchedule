@@ -1098,7 +1098,6 @@
     .lb-recent-row{grid-template-columns:10px 110px 1fr 55px 70px;gap:8px}.lb-recent-wt{display:none}
   }
 
-
   /* ── DEBRIEF PAGE ── */
   #page-debrief{padding:0;background:var(--bg)}
   .db-header{background:var(--surface);border-bottom:2px solid var(--red);padding:0;position:sticky;top:0;z-index:50}
@@ -1161,9 +1160,8 @@
     <a class="nav-tab" href="#standings" onclick="setPage('standings')">Standings</a>
     <a class="nav-tab" href="#juicedracing" onclick="setPage('juicedracing')">Juiced Racing</a>
     <a class="nav-tab live-tab live-offline" id="liveNavTab" href="#live" onclick="setPage('live')"><span class="live-nav-dot">&#9679;</span> Live</a>
-<div class="nav-tab-sep"></div>
+    <div class="nav-tab-sep"></div>
     <a class="nav-tab lurkbait-nav-tab" href="#lurkbait" onclick="setPage('lurkbait')">&#127907; LurkBait</a>
-
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
@@ -1292,7 +1290,6 @@
     </div>
   </div>
 </div>
-
 
 <!-- DEBRIEF PAGE -->
 <div class="page" id="page-debrief">
@@ -10243,7 +10240,7 @@ function lbThumb(name,isCustom){
     set('lb-stat-gold', (top.g||0).toLocaleString());
     set('lb-stat-custom', m.custom_catch_count||0);
     var lbl=document.getElementById('lb-stat-gold-label');
-    if(lbl) lbl.textContent='Top Gold' + (top.n ? ' · ' + top.n : '');
+    if(lbl) lbl.textContent='Top Gold' + (top.n ? ' \u00b7 ' + top.n : '');
   }
   function lbRenderLeaderboard(){
     lbKeepScroll(function(){
@@ -10305,7 +10302,7 @@ function lbThumb(name,isCustom){
     }
     var maxG = filtered[0]?filtered[0].g:1;
     if(visible.length===0){
-      document.getElementById('lb-ldr-body').innerHTML='<div style="font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:40px 20px;text-align:center">No catches for this period</div>';
+      document.getElementById('lb-ldr-body').innerHTML='<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:40px 20px;text-align:center">No catches for this period</div>';
       if(loadWrap) loadWrap.style.display='none';
       return;
     }
@@ -10358,7 +10355,7 @@ function lbThumb(name,isCustom){
     html += card('Most Gold — Single Day', ar.best_day_gold&&ar.best_day_gold.u, fmt(ar.best_day_gold&&ar.best_day_gold.n)+' g', ar.best_day_gold&&ar.best_day_gold.period);
     html += card('Most Gold — Single Week', ar.best_week_gold&&ar.best_week_gold.u, fmt(ar.best_week_gold&&ar.best_week_gold.n)+' g', 'Week of '+(ar.best_week_gold&&ar.best_week_gold.period));
     html += card('Most Gold — Single Month', ar.best_month_gold&&ar.best_month_gold.u, fmt(ar.best_month_gold&&ar.best_month_gold.n)+' g', ar.best_month_gold&&ar.best_month_gold.period);
-    document.getElementById('lb-ar-grid').innerHTML = html || '<div style="color:rgba(200,200,255,.2);font-family:'Barlow Condensed',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No data yet</div>';
+    document.getElementById('lb-ar-grid').innerHTML = html || '<div style="color:rgba(200,200,255,.2);font-family:\'Barlow Condensed\',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No data yet</div>';
   }
   window.lbFilterDex=function(r,btn){
     lbDexFilter=r;
@@ -10389,7 +10386,7 @@ function lbThumb(name,isCustom){
       return '<div class="lb-dex-card">'+
         '<div class="lb-dex-img">'+
           '<div class="lb-dex-img-bg"></div>'+
-          '<img src="'+img+'" alt="" loading="lazy" onerror="this.style.display='none'">'+
+          '<img src="'+img+'" alt="" loading="lazy" onerror="this.style.display=\'none\'">'+
           '<div class="lb-dex-rpip" style="background:'+col+'22;color:'+col+';border:1px solid '+col+'44">'+d.r+'</div>'+
           (d.custom?'<div class="lb-dex-cpip">custom</div>':'')+
         '</div>'+
@@ -10424,7 +10421,7 @@ function lbThumb(name,isCustom){
   function lbRenderNewAnglers(){
     var anglers = LB_DB.new_anglers || [];
     document.getElementById('lb-newanglers-feed').innerHTML = anglers.length === 0
-      ? '<div style="color:rgba(200,200,255,.2);font-family:'Barlow Condensed',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No new anglers this week</div>'
+      ? '<div style="color:rgba(200,200,255,.2);font-family:\'Barlow Condensed\',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No new anglers this week</div>'
       : anglers.map(function(a){
           var col = RC[a.best_r] || '#888';
           return '<div class="lb-recent-row">'+
@@ -10477,7 +10474,7 @@ function lbThumb(name,isCustom){
     {id:'licensed',t:'gold',cat:'collection',i:'📋',n:'Licensed to Fish',c:'Catch all 5 iRacing licenses'},
     {id:'win_week',t:'gold',cat:'leaderboard',i:'🥇',n:'Win the Week',c:'Finish #1 on any weekly leaderboard'},
     {id:'win_month',t:'gold',cat:'leaderboard',i:'📅',n:'Win the Month',c:'Finish #1 on any monthly leaderboard'},
-    {id:'the_market',t:'gold',cat:'weight',i:'🏪',n:'The Market',c:'50,000 lbs hauled — Go home. You've done enough.'},
+    {id:'the_market',t:'gold',cat:'weight',i:'🏪',n:'The Market',c:'50,000 lbs hauled — Go home. You\'ve done enough.'},
     {id:'grinder',t:'silver',cat:'milestone',i:'⚙',n:'Grinder',c:'500 total casts'},
     {id:'k_casts',t:'silver',cat:'milestone',i:'🎣',n:'1,000 Casts',c:'1,000 total casts'},
     {id:'century',t:'silver',cat:'milestone',i:'💯',n:'Century',c:'100 total casts'},
@@ -10498,7 +10495,7 @@ function lbThumb(name,isCustom){
     {id:'all5_day',t:'silver',cat:'daily',i:'🎲',n:'All 5 Rarities in a Day',c:'All 5 non-Junk rarities in one session'},
     {id:'hat_trick',t:'silver',cat:'daily',i:'🎩',n:'Hat Trick',c:'Same item 3x in a single day'},
     {id:'two_k_day',t:'silver',cat:'daily',i:'💸',n:'2,000g in a Day',c:'2,000g earned in a single day'},
-    {id:'supplier',t:'silver',cat:'weight',i:'🚛',n:'Supplier',c:'25,000 lbs hauled — We don't open until you show up.'},
+    {id:'supplier',t:'silver',cat:'weight',i:'🚛',n:'Supplier',c:'25,000 lbs hauled — We don\'t open until you show up.'},
     {id:'wholesale',t:'silver',cat:'weight',i:'📦',n:'Wholesale Account',c:'10,000 lbs hauled — You got your own parking spot now.'},
     {id:'broke_in',t:'bronze',cat:'milestone',i:'🐟',n:'Broke In',c:'First ever catch'},
     {id:'first_cast',t:'bronze',cat:'daily',i:'🌅',n:'First Cast',c:'First catch of the day after 3AM reset'},
@@ -10512,8 +10509,8 @@ function lbThumb(name,isCustom){
     {id:'perfect_cast',t:'bronze',cat:'milestone',i:'🎯',n:'Perfect Cast',c:'Land a perfect rating=3 cast'},
     {id:'gold_rush',t:'bronze',cat:'daily',i:'⛏',n:'Gold Rush',c:'1,000g earned in a single day'},
     {id:'the_regulars',t:'bronze',cat:'collection',i:'👥',n:'The Regulars',c:'Catch 5 unique iRacer community member items'},
-    {id:'walk_in',t:'bronze',cat:'weight',i:'🚶',n:'Walk-In',c:'500 lbs hauled — Take a number, we'll get to you.'},
-    {id:'regular_weight',t:'bronze',cat:'weight',i:'☕',n:'Regular',c:'2,500 lbs hauled — Hey, look who's back.'},
+    {id:'walk_in',t:'bronze',cat:'weight',i:'🚶',n:'Walk-In',c:'500 lbs hauled — Take a number, we\'ll get to you.'},
+    {id:'regular_weight',t:'bronze',cat:'weight',i:'☕',n:'Regular',c:'2,500 lbs hauled — Hey, look who\'s back.'},
     {id:'nascar_pass',t:'bronze',cat:'collection',i:'🏁',n:'NASCAR Season Pass',c:'Catch 5 unique track items'},
   ];
   var LB_ACH_TC={gold:'#FF8000',silver:'#A335EE',bronze:'#0070DD'};
@@ -10572,7 +10569,7 @@ function lbThumb(name,isCustom){
           var g=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='gold';});}).length;
           var sv=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='silver';});}).length;
           var b=earned.filter(function(id){return LB_ACH_DEFS.find(function(a){return a.id===id&&a.t==='bronze';});}).length;
-          return '<div class="lb-ach-player-row" onclick="lbAchSelectPlayer(''+u+'')">'+            '<div class="lb-ach-player-name">'+u+'</div>'+            '<div class="lb-ach-player-counts"><span class="pg">'+g+'g</span> <span class="ps">'+sv+'s</span> <span class="pb">'+b+'b</span></div>'+          '</div>';
+          return '<div class="lb-ach-player-row" onclick="lbAchSelectPlayer(\''+u+'\')">'+            '<div class="lb-ach-player-name">'+u+'</div>'+            '<div class="lb-ach-player-counts"><span class="pg">'+g+'g</span> <span class="ps">'+sv+'s</span> <span class="pb">'+b+'b</span></div>'+          '</div>';
         }).join('');
       }
     }
@@ -10693,7 +10690,6 @@ function lbThumb(name,isCustom){
 })();
 
 </script>
-
 <script>
 (function() {
   var _dbFolder = null;
