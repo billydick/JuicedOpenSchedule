@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T00:01:59.562038+00:00",
-    "total_catches": 21570,
-    "unique_catches": 362,
+    "generated_at": "2026-04-23T00:07:06.860127+00:00",
+    "total_catches": 21571,
+    "unique_catches": 363,
     "total_players": 735,
     "dex_total": 375,
-    "caught_total": 362,
-    "dex_completion": 96.53,
+    "caught_total": 363,
+    "dex_completion": 96.8,
     "custom_catch_count": 254,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21570 catches"
+      "sub": "Since launch - 21571 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -850,6 +850,14 @@
         "l": "Jan 22 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 4085,
+        "c": 49,
+        "casts": 49,
+        "l": "Apr 23 2026"
+      },
+      {
         "u": "zedtox",
         "n": "zedtox",
         "g": 4083,
@@ -872,14 +880,6 @@
         "c": 55,
         "casts": 55,
         "l": "Mar 09 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 4040,
-        "c": 48,
-        "casts": 48,
-        "l": "Apr 21 2026"
       },
       {
         "u": "rob_pickle12",
@@ -6300,20 +6300,20 @@
         "l": "Apr 19 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 519,
+        "c": 10,
+        "casts": 10,
+        "l": "Apr 23 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 494,
         "c": 5,
         "casts": 5,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 474,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 21 2026"
       },
       {
         "u": "ten23graphics",
@@ -6416,10 +6416,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 324,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 21 2026"
+        "g": 369,
+        "c": 4,
+        "casts": 4,
+        "l": "Apr 23 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -6535,6 +6535,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 23 2026"
+      },
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
@@ -9814,6 +9822,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "beliron",
+        "i": "Dover",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Apr 23 2026"
+      },
       {
         "n": "gatoraintplaying",
         "i": "Carp",
@@ -21453,6 +21468,15 @@
       "w": 48.69
     },
     {
+      "n": "Dover",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 1,
+      "h": "beliron",
+      "v": 45,
+      "w": 90.9
+    },
+    {
       "n": "Golden Redeye Rudd",
       "custom": false,
       "r": "Uncommon",
@@ -25609,6 +25633,15 @@
       "v": 164
     },
     {
+      "n": "Dover",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "You get turned on the back stretch but still finish top 10.",
+      "c": 1,
+      "rec": "90.90 lb",
+      "v": 45
+    },
+    {
       "n": "Shane Van Gisbergen_",
       "r": "Epic",
       "custom": true,
@@ -25690,15 +25723,6 @@
       "v": 0
     },
     {
-      "n": "Dover",
-      "r": "Uncommon",
-      "custom": true,
-      "desc": "You get turned on the back stretch but still finish top 10.",
-      "c": 0,
-      "rec": "",
-      "v": 0
-    },
-    {
       "n": "Pocono",
       "r": "Rare",
       "custom": true,
@@ -25727,6 +25751,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "Dover",
+      "w": 90.9,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Apr 23 2026"
+    },
     {
       "u": "ironlegacy_",
       "i": "Erik Jones",
@@ -26317,14 +26349,6 @@
       "w": 0.18,
       "v": 36,
       "r": "Uncommon",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "iRacer - Kyle Terczak",
-      "w": 113.68,
-      "v": 171,
-      "r": "Rare",
       "d": "Apr 21 2026"
     }
   ]
