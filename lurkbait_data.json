@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T00:10:18.482782+00:00",
-    "total_catches": 21575,
+    "generated_at": "2026-04-23T00:15:26.916343+00:00",
+    "total_catches": 21577,
     "unique_catches": 363,
     "total_players": 735,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21575 catches"
+      "sub": "Since launch - 21577 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,17 +300,17 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 91303,
-        "c": 1139,
-        "casts": 1139,
+        "g": 91476,
+        "c": 1140,
+        "casts": 1140,
         "l": "Apr 23 2026"
       },
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 56711,
-        "c": 816,
-        "casts": 816,
+        "g": 56721,
+        "c": 817,
+        "casts": 817,
         "l": "Apr 23 2026"
       },
       {
@@ -6198,9 +6198,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 2994,
-        "c": 46,
-        "casts": 46,
+        "g": 3004,
+        "c": 47,
+        "casts": 47,
         "l": "Apr 23 2026"
       },
       {
@@ -6212,20 +6212,20 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 2034,
+        "c": 19,
+        "casts": 19,
+        "l": "Apr 23 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 1985,
         "c": 13,
         "casts": 13,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 1861,
-        "c": 18,
-        "casts": 18,
-        "l": "Apr 23 2026"
       },
       {
         "u": "larcen22",
@@ -6376,9 +6376,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1861,
-        "c": 18,
-        "casts": 18,
+        "g": 2034,
+        "c": 19,
+        "casts": 19,
         "l": "Apr 23 2026"
       },
       {
@@ -6400,9 +6400,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 539,
-        "c": 3,
-        "casts": 3,
+        "g": 549,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 23 2026"
       },
       {
@@ -6554,7 +6554,15 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 462,
+        "g": 472,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 23 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 193,
         "c": 2,
         "casts": 2,
         "l": "Apr 23 2026"
@@ -6571,14 +6579,6 @@
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
         "g": 22,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 23 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 20,
         "c": 1,
         "casts": 1,
         "l": "Apr 23 2026"
@@ -9884,6 +9884,13 @@
         "d": "Apr 23 2026"
       },
       {
+        "n": "motionless",
+        "i": "Pit Crew",
+        "v": 173,
+        "r": "Rare",
+        "d": "Apr 23 2026"
+      },
+      {
         "n": "beliron",
         "i": "Dover",
         "v": 45,
@@ -9894,13 +9901,6 @@
         "n": "ineffabledecibel",
         "i": "NOMEX SFI SHIFTER BOOT",
         "v": 22,
-        "r": "Common",
-        "d": "Apr 23 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "2 TO 1 Y FITTING",
-        "v": 20,
         "r": "Common",
         "d": "Apr 23 2026"
       },
@@ -20079,7 +20079,7 @@
       "n": "Pit Crew",
       "custom": true,
       "r": "Epic",
-      "c": 34,
+      "c": 35,
       "h": "karnalsanders",
       "v": 197,
       "w": 11.24
@@ -21987,7 +21987,7 @@
       "n": "Caution!",
       "custom": true,
       "r": "Common",
-      "c": 163,
+      "c": 164,
       "h": "jking9370",
       "v": 11,
       "w": 1.13
@@ -23282,7 +23282,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Starting to look like a real race team!",
-      "c": 34,
+      "c": 35,
       "rec": "11.24 lb",
       "v": 197
     },
@@ -23318,7 +23318,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Some shitter spun on the restart.",
-      "c": 163,
+      "c": 164,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -25827,6 +25827,22 @@
   ],
   "recent": [
     {
+      "u": "ironlegacy_",
+      "i": "Caution!",
+      "w": 0.97,
+      "v": 10,
+      "r": "Junk",
+      "d": "Apr 23 2026"
+    },
+    {
+      "u": "motionless",
+      "i": "Pit Crew",
+      "w": 9.91,
+      "v": 173,
+      "r": "Rare",
+      "d": "Apr 23 2026"
+    },
+    {
       "u": "ineffabledecibel",
       "i": "NOMEX SFI SHIFTER BOOT",
       "w": 0.88,
@@ -26408,22 +26424,6 @@
       "w": 1.08,
       "v": 86,
       "r": "Rare",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "azsuperbeast",
-      "i": "Carb Spacer Plates",
-      "w": 2.75,
-      "v": 46,
-      "r": "Uncommon",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Noah Gragson",
-      "w": 25.69,
-      "v": 43,
-      "r": "Uncommon",
       "d": "Apr 21 2026"
     }
   ]
