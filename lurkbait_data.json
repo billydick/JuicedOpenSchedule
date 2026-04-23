@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T02:59:47.869193+00:00",
-    "total_catches": 21645,
+    "generated_at": "2026-04-23T03:00:51.898017+00:00",
+    "total_catches": 21646,
     "unique_catches": 367,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21645 catches"
+      "sub": "Since launch - 21646 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 33671,
-        "c": 512,
-        "casts": 512,
-        "l": "Apr 21 2026"
+        "g": 33672,
+        "c": 513,
+        "casts": 513,
+        "l": "Apr 23 2026"
       },
       {
         "u": "karnalsanders",
@@ -6182,10 +6182,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 4636,
-        "c": 64,
-        "casts": 64,
-        "l": "Apr 21 2026"
+        "g": 4637,
+        "c": 65,
+        "casts": 65,
+        "l": "Apr 23 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6448,10 +6448,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 412,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 21 2026"
+        "g": 413,
+        "c": 6,
+        "casts": 6,
+        "l": "Apr 23 2026"
       },
       {
         "u": "beliron",
@@ -6699,6 +6699,14 @@
         "u": "turbosnail87",
         "n": "turbosnail87",
         "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 23 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "Apr 23 2026"
@@ -10095,6 +10103,13 @@
         "n": "turbosnail87",
         "i": "Nugget",
         "v": 2,
+        "r": "Junk",
+        "d": "Apr 23 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Derek Kraus",
+        "v": 1,
         "r": "Junk",
         "d": "Apr 23 2026"
       }
@@ -22350,7 +22365,7 @@
       "n": "Derek Kraus",
       "custom": true,
       "r": "Common",
-      "c": 151,
+      "c": 152,
       "h": "riflehog",
       "v": 1,
       "w": 1.13
@@ -23726,7 +23741,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Out here logging laps like it’s community service",
-      "c": 151,
+      "c": 152,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26055,6 +26070,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Derek Kraus",
+      "w": 1.0,
+      "v": 1,
+      "r": "Junk",
+      "d": "Apr 23 2026"
+    },
+    {
       "u": "beliron",
       "i": "Blue Discus",
       "w": 0.19,
@@ -26644,14 +26667,6 @@
       "w": 0.95,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Dover",
-      "w": 90.9,
-      "v": 45,
-      "r": "Uncommon",
       "d": "Apr 23 2026"
     }
   ]
