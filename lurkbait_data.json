@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-23T00:39:17.013986+00:00",
-    "total_catches": 21590,
+    "generated_at": "2026-04-23T00:40:20.822316+00:00",
+    "total_catches": 21591,
     "unique_catches": 363,
-    "total_players": 735,
+    "total_players": 736,
     "dex_total": 375,
     "caught_total": 363,
     "dex_completion": 96.8,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21590 catches"
+      "sub": "Since launch - 21591 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -5898,6 +5898,14 @@
         "l": "Feb 02 2025"
       },
       {
+        "u": "turbosnail87",
+        "n": "turbosnail87",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 23 2026"
+      },
+      {
         "u": "truckinneeun",
         "n": "truckinneeun",
         "g": 2,
@@ -6558,6 +6566,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "turbosnail87",
+        "n": "turbosnail87",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 23 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 1,
@@ -6630,6 +6646,14 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 22 2026"
+      },
+      {
+        "u": "turbosnail87",
+        "n": "turbosnail87",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 23 2026"
       },
       {
         "u": "pvtcrock",
@@ -9914,6 +9938,13 @@
         "d": "Apr 21 2026"
       },
       {
+        "n": "turbosnail87",
+        "i": "Nugget",
+        "v": 2,
+        "r": "Junk",
+        "d": "Apr 23 2026"
+      },
+      {
         "n": "pvtcrock",
         "i": "Erik Jones",
         "v": 1,
@@ -9979,6 +10010,13 @@
         "d": "Apr 22 2026"
       },
       {
+        "n": "turbosnail87",
+        "i": "Nugget",
+        "v": 2,
+        "r": "Junk",
+        "d": "Apr 23 2026"
+      },
+      {
         "n": "pvtcrock",
         "i": "Erik Jones",
         "v": 1,
@@ -9990,7 +10028,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 735,
+        "total": 736,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10726,11 +10764,12 @@
           "nellafella",
           "bartfalls",
           "azsuperbeast",
-          "evangel0203"
+          "evangel0203",
+          "turbosnail87"
         ],
         "latest": {
-          "u": "evangel0203",
-          "d": "Apr 21 2026"
+          "u": "turbosnail87",
+          "d": "Apr 23 2026"
         }
       },
       "first_cast": {
@@ -19075,6 +19114,9 @@
       },
       "evangel0203": {
         "broke_in": "Apr 21 2026"
+      },
+      "turbosnail87": {
+        "broke_in": "Apr 23 2026"
       }
     },
     "recent_unlocks": [
@@ -22416,7 +22458,7 @@
       "n": "Nugget",
       "custom": false,
       "r": "Junk",
-      "c": 92,
+      "c": 93,
       "h": "motionless",
       "v": 2,
       "w": 0.23
@@ -22506,6 +22548,15 @@
       "best_r": "Epic",
       "best_v": 198,
       "d": "Apr 21 2026"
+    },
+    {
+      "u": "turbosnail87",
+      "g": 2,
+      "c": 1,
+      "best_n": "Nugget",
+      "best_r": "Junk",
+      "best_v": 2,
+      "d": "Apr 23 2026"
     }
   ],
   "dex": [
@@ -23018,7 +23069,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 92,
+      "c": 93,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -25887,6 +25938,14 @@
   ],
   "recent": [
     {
+      "u": "turbosnail87",
+      "i": "Nugget",
+      "w": 0.2,
+      "v": 2,
+      "r": "Junk",
+      "d": "Apr 23 2026"
+    },
+    {
       "u": "tayrob28",
       "i": "CSL Pedals",
       "w": 4.26,
@@ -26476,14 +26535,6 @@
       "w": 1.03,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 21 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "USED NASCAR WINDOW NETS",
-      "w": 1.77,
-      "v": 67,
-      "r": "Rare",
       "d": "Apr 21 2026"
     }
   ]
