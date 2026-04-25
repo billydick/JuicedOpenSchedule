@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T01:31:14.402659+00:00",
-    "total_catches": 21688,
+    "generated_at": "2026-04-25T01:32:18.176144+00:00",
+    "total_catches": 21689,
     "unique_catches": 368,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21688 catches"
+      "sub": "Since launch - 21689 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -818,20 +818,20 @@
         "l": "Nov 23 2025"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 4652,
+        "c": 68,
+        "casts": 68,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "som3th1ng_",
         "n": "som3th1ng_",
         "g": 4615,
         "c": 85,
         "casts": 85,
         "l": "Aug 23 2025"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 4581,
-        "c": 67,
-        "casts": 67,
-        "l": "Apr 25 2026"
       },
       {
         "u": "whisky_runner",
@@ -6180,20 +6180,20 @@
     ],
     "monthly": [
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 4652,
+        "c": 68,
+        "casts": 68,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 4637,
         "c": 65,
         "casts": 65,
         "l": "Apr 23 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 4581,
-        "c": 67,
-        "casts": 67,
-        "l": "Apr 25 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6400,9 +6400,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 1292,
-        "c": 21,
-        "casts": 21,
+        "g": 1363,
+        "c": 22,
+        "casts": 22,
         "l": "Apr 25 2026"
       },
       {
@@ -6600,19 +6600,19 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 221,
+        "c": 6,
+        "casts": 6,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 172,
         "c": 3,
         "casts": 3,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 150,
-        "c": 5,
-        "casts": 5,
         "l": "Apr 25 2026"
       },
       {
@@ -13415,11 +13415,11 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "juicedracing"
+          "ineffabledecibel"
         ],
         "latest": {
-          "u": "juicedracing",
-          "d": "Apr 11 2026"
+          "u": "ineffabledecibel",
+          "d": "Apr 14 2026"
         }
       },
       "the_market": {
@@ -13940,7 +13940,6 @@
         "supplier": "Apr 14 2026",
         "wholesale": "Sep 30 2024",
         "win_week": "Jun 05 2025",
-        "win_month": "Apr 11 2026",
         "golden_cast": "Sep 30 2024",
         "legend_hunter": "Sep 24 2024",
         "legend_collector": "Nov 15 2024",
@@ -18893,6 +18892,7 @@
         "leg_epic_day": "Apr 15 2026",
         "all5_day": "Apr 15 2026",
         "two_k_day": "Apr 15 2026",
+        "win_month": "Apr 14 2026",
         "golden_cast": "Apr 16 2026",
         "legend_hunter": "Apr 16 2026"
       },
@@ -21031,7 +21031,7 @@
       "n": "Jackson Gibbs",
       "custom": true,
       "r": "Rare",
-      "c": 39,
+      "c": 40,
       "h": "dontuu",
       "v": 84,
       "w": 56.29
@@ -25161,7 +25161,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Front Changer, Joe Gibbs Racing",
-      "c": 39,
+      "c": 40,
       "rec": "56.29 lb",
       "v": 84
     },
@@ -25834,6 +25834,14 @@
   ],
   "recent": [
     {
+      "u": "ineffabledecibel",
+      "i": "Jackson Gibbs",
+      "w": 47.0,
+      "v": 71,
+      "r": "Rare",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "motionless",
       "i": "Golden Redeye Rudd",
       "w": 0.82,
@@ -26423,14 +26431,6 @@
       "w": 0.94,
       "v": 47,
       "r": "Uncommon",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Fire Bottle Nozzle",
-      "w": 1.86,
-      "v": 23,
-      "r": "Common",
       "d": "Apr 23 2026"
     }
   ]
