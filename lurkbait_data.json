@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T02:54:28.824884+00:00",
-    "total_catches": 21744,
+    "generated_at": "2026-04-25T02:55:32.658954+00:00",
+    "total_catches": 21745,
     "unique_catches": 369,
     "total_players": 737,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21744 catches"
+      "sub": "Since launch - 21745 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2386,6 +2386,14 @@
         "l": "May 29 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 350,
+        "c": 7,
+        "casts": 7,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "nukacolahunter2",
         "n": "nukacolahunter2",
         "g": 346,
@@ -2888,14 +2896,6 @@
         "c": 2,
         "casts": 2,
         "l": "Jan 07 2025"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 217,
-        "c": 6,
-        "casts": 6,
-        "l": "Apr 25 2026"
       },
       {
         "u": "banishedmallard",
@@ -6372,20 +6372,20 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 350,
+        "c": 7,
+        "casts": 7,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "bartfalls",
         "n": "bartfalls",
         "g": 273,
         "c": 2,
         "casts": 2,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 261,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 16 2026"
       }
     ],
     "weekly": [
@@ -6550,6 +6550,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 150,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
         "g": 148,
@@ -6580,14 +6588,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 23 2026"
-      },
-      {
-        "u": "luxer01",
-        "n": "luxer01",
-        "g": 30,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 21 2026"
       }
     ],
     "daily": [
@@ -6648,6 +6648,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 150,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 149,
@@ -6683,14 +6691,6 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 18,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 17,
         "c": 1,
         "casts": 1,
         "l": "Apr 25 2026"
@@ -9804,6 +9804,13 @@
         "d": "Apr 23 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "Nashville Superspeedway",
+        "v": 133,
+        "r": "Rare",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "beliron",
         "i": "Xfinity Mustang",
         "v": 128,
@@ -9872,13 +9879,6 @@
         "v": 46,
         "r": "Uncommon",
         "d": "Apr 21 2026"
-      },
-      {
-        "n": "luxer01",
-        "i": "Rabbitfish",
-        "v": 30,
-        "r": "Uncommon",
-        "d": "Apr 21 2026"
       }
     ],
     "daily": [
@@ -9915,6 +9915,13 @@
         "i": "Simucube ActivePedal",
         "v": 184,
         "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
+        "n": "cattabolic",
+        "i": "Nashville Superspeedway",
+        "v": 133,
+        "r": "Rare",
         "d": "Apr 25 2026"
       },
       {
@@ -9963,13 +9970,6 @@
         "n": "gatoraintplaying",
         "i": "Bubbly",
         "v": 18,
-        "r": "Common",
-        "d": "Apr 25 2026"
-      },
-      {
-        "n": "cattabolic",
-        "i": "Bristol Motor Speedway",
-        "v": 17,
         "r": "Common",
         "d": "Apr 25 2026"
       },
@@ -20600,7 +20600,7 @@
       "n": "Nashville Superspeedway",
       "custom": true,
       "r": "Rare",
-      "c": 1,
+      "c": 2,
       "h": "brookswhynot",
       "v": 164,
       "w": 109.18
@@ -25864,7 +25864,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "known as NASCAR's largest all-concrete track.",
-      "c": 1,
+      "c": 2,
       "rec": "109.18 lb",
       "v": 164
     },
@@ -25987,6 +25987,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "cattabolic",
+      "i": "Nashville Superspeedway",
+      "w": 88.73,
+      "v": 133,
+      "r": "Rare",
+      "d": "Apr 25 2026"
+    },
     {
       "u": "ineffabledecibel",
       "i": "Rookie License",
@@ -26577,14 +26585,6 @@
       "w": 0.19,
       "v": 37,
       "r": "Uncommon",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "ineffabledecibel",
-      "i": "Gummy Worms",
-      "w": 0.92,
-      "v": 9,
-      "r": "Common",
       "d": "Apr 25 2026"
     }
   ]
