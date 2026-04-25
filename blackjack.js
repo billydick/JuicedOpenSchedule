@@ -10,14 +10,21 @@
 
   // ── Data store (mirrors LB_DB shape) ─────────────────────────
   var BJ_DB = {
-    meta:         {},
-    leaderboards: {alltime:[], monthly:[], weekly:[], daily:[]},
-    achievements: {stream:{}, players:{}, recent_unlocks:[]},
-    catalog:      [],
-    recent_hands: [],
+    meta:             {},
+    competition_meta: {},
+    leaderboards:     {alltime:[], monthly:[], weekly:[], daily:[]},
+    daily_history:    [],
+    weekly_history:   [],
+    monthly_history:  [],
+    achievements:     {stream:{}, players:{}, recent_unlocks:[]},
+    catalog:          [],
+    recent_hands:     [],
   };
 
   var bjCurTime        = 'daily';
+  var bjDailyIdx       = 0;
+  var bjWeeklyIdx      = 0;
+  var bjMonthlyIdx     = 0;
   var bjAlltimeSearch  = '';
   var bjAlltimeVisible = 50;
   var bjAlltimeStep    = 50;
@@ -79,11 +86,15 @@
       var res = await fetch('/blackjack_data.json?ts=' + Date.now(), {cache:'no-store'});
       if(!res.ok) throw new Error('HTTP ' + res.status);
       var data = await res.json();
-      BJ_DB.meta         = data.meta         || {};
-      BJ_DB.leaderboards = data.leaderboards  || {alltime:[],monthly:[],weekly:[],daily:[]};
-      BJ_DB.achievements = data.achievements  || {stream:{},players:{},recent_unlocks:[]};
-      BJ_DB.catalog      = data.catalog       || [];
-      BJ_DB.recent_hands = data.recent_hands  || [];
+      BJ_DB.meta             = data.meta             || {};
+      BJ_DB.competition_meta = data.competition_meta || {};
+      BJ_DB.leaderboards     = data.leaderboards      || {alltime:[],monthly:[],weekly:[],daily:[]};
+      BJ_DB.daily_history    = data.daily_history     || [];
+      BJ_DB.weekly_history   = data.weekly_history    || [];
+      BJ_DB.monthly_history  = data.monthly_history   || [];
+      BJ_DB.achievements     = data.achievements      || {stream:{},players:{},recent_unlocks:[]};
+      BJ_DB.catalog          = data.catalog           || [];
+      BJ_DB.recent_hands     = data.recent_hands      || [];
       bjRenderStats();
       bjRenderLeaderboard();
       bjRenderAchievements();
@@ -117,11 +128,26 @@
   // ── Time tabs (direct lurkbait port) ─────────────────────────
   window.bjSetTime = function(t, btn){
     bjCurTime = t;
+    bjDailyIdx = 0; bjWeeklyIdx = 0; bjMonthlyIdx = 0;
     bjAlltimeSearch = '';
     var s = document.getElementById('bj-alltime-search');
     if(s) s.value = '';
     document.querySelectorAll('.bj-timetab').forEach(function(b){ b.classList.remove('active'); });
     btn.classList.add('active');
+    bjRenderLeaderboard();
+  };
+
+  window.bjPeriodPrev = function(){
+    if(bjCurTime==='daily')   bjDailyIdx   = Math.min(bjDailyIdx+1,   (BJ_DB.daily_history||[]).length-1);
+    if(bjCurTime==='weekly')  bjWeeklyIdx  = Math.min(bjWeeklyIdx+1,  (BJ_DB.weekly_history||[]).length-1);
+    if(bjCurTime==='monthly') bjMonthlyIdx = Math.min(bjMonthlyIdx+1, (BJ_DB.monthly_history||[]).length-1);
+    bjRenderLeaderboard();
+  };
+
+  window.bjPeriodNext = function(){
+    if(bjCurTime==='daily')   bjDailyIdx   = Math.max(bjDailyIdx-1,   0);
+    if(bjCurTime==='weekly')  bjWeeklyIdx  = Math.max(bjWeeklyIdx-1,  0);
+    if(bjCurTime==='monthly') bjMonthlyIdx = Math.max(bjMonthlyIdx-1, 0);
     bjRenderLeaderboard();
   };
 
@@ -135,7 +161,24 @@
     bjRenderLeaderboard();
   };
 
-  // ── Section tabs (direct lurkbait port) ──────────────────────
+  function bjGetData(){
+    if(bjCurTime==='daily'){
+      var dh=BJ_DB.daily_history||[];
+      if(bjDailyIdx===0) return BJ_DB.leaderboards.daily||[];
+      var dp=dh[bjDailyIdx-1]; return dp?dp.leaderboard||[]:[];
+    }
+    if(bjCurTime==='weekly'){
+      var wh=BJ_DB.weekly_history||[];
+      if(bjWeeklyIdx===0) return BJ_DB.leaderboards.weekly||[];
+      var wp=wh[bjWeeklyIdx-1]; return wp?wp.leaderboard||[]:[];
+    }
+    if(bjCurTime==='monthly'){
+      var mh=BJ_DB.monthly_history||[];
+      if(bjMonthlyIdx===0) return BJ_DB.leaderboards.monthly||[];
+      var mp=mh[bjMonthlyIdx-1]; return mp?mp.leaderboard||[]:[];
+    }
+    return BJ_DB.leaderboards.alltime||[];
+  }
   window.bjSetSec = function(s, btn){
     var _sy = window.scrollY || window.pageYOffset;
     document.querySelectorAll('.bj-sectab').forEach(function(b){ b.classList.remove('active'); });
@@ -163,6 +206,30 @@
       var meta     = document.getElementById('bj-alltime-meta');
       var loadWrap = document.getElementById('bj-loadmore-wrap');
       var hcell    = document.getElementById('bj-ldr-hcell-val');
+
+      // Period nav
+      var nav         = document.getElementById('bj-period-nav');
+      var prevBtn     = document.getElementById('bj-period-prev');
+      var nextBtn     = document.getElementById('bj-period-next');
+      var periodLabel = document.getElementById('bj-period-label');
+      var showNav     = (bjCurTime==='daily'||bjCurTime==='weekly'||bjCurTime==='monthly');
+      if(nav) nav.style.display = showNav ? 'flex' : 'none';
+      if(showNav){
+        var label='', maxIdx=0, curIdx=0;
+        if(bjCurTime==='daily'){
+          var dh=BJ_DB.daily_history||[]; maxIdx=dh.length; curIdx=bjDailyIdx;
+          label = bjDailyIdx===0 ? ((BJ_DB.competition_meta&&BJ_DB.competition_meta.daily&&BJ_DB.competition_meta.daily.label)||'Today') : (dh[bjDailyIdx-1]?dh[bjDailyIdx-1].label:'');
+        } else if(bjCurTime==='weekly'){
+          var wh=BJ_DB.weekly_history||[]; maxIdx=wh.length; curIdx=bjWeeklyIdx;
+          label = bjWeeklyIdx===0 ? ((BJ_DB.competition_meta&&BJ_DB.competition_meta.weekly&&BJ_DB.competition_meta.weekly.label)||'This Week') : (wh[bjWeeklyIdx-1]?wh[bjWeeklyIdx-1].label:'');
+        } else {
+          var mh=BJ_DB.monthly_history||[]; maxIdx=mh.length; curIdx=bjMonthlyIdx;
+          label = bjMonthlyIdx===0 ? ((BJ_DB.competition_meta&&BJ_DB.competition_meta.monthly&&BJ_DB.competition_meta.monthly.label)||'This Month') : (mh[bjMonthlyIdx-1]?mh[bjMonthlyIdx-1].label:'');
+        }
+        if(periodLabel) periodLabel.textContent = label;
+        if(prevBtn) prevBtn.disabled = (curIdx >= maxIdx);
+        if(nextBtn) nextBtn.disabled = (curIdx <= 0);
+      }
 
       if(tools) tools.style.display = isAllTime ? 'flex' : 'none';
       if(hcell) hcell.textContent   = isAllTime ? 'Chips' : 'Net Chips';
