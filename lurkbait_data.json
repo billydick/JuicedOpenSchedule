@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T03:31:53.374064+00:00",
-    "total_catches": 21768,
+    "generated_at": "2026-04-25T03:32:57.043534+00:00",
+    "total_catches": 21769,
     "unique_catches": 369,
     "total_players": 737,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21768 catches"
+      "sub": "Since launch - 21769 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -420,9 +420,9 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 19305,
-        "c": 292,
-        "casts": 292,
+        "g": 19853,
+        "c": 293,
+        "casts": 293,
         "l": "Apr 25 2026"
       },
       {
@@ -6244,6 +6244,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 2176,
+        "c": 22,
+        "casts": 22,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 2081,
@@ -6258,14 +6266,6 @@
         "c": 27,
         "casts": 27,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 1628,
-        "c": 21,
-        "casts": 21,
-        "l": "Apr 25 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -6424,9 +6424,9 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 1087,
-        "c": 11,
-        "casts": 11,
+        "g": 1635,
+        "c": 12,
+        "casts": 12,
         "l": "Apr 25 2026"
       },
       {
@@ -6624,6 +6624,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 566,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 490,
@@ -6715,14 +6723,6 @@
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 25,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 18,
         "c": 1,
         "casts": 1,
         "l": "Apr 25 2026"
@@ -9552,6 +9552,13 @@
         "d": "Apr 18 2026"
       },
       {
+        "n": "gatoraintplaying",
+        "i": "iRacer Jesse Winslow",
+        "v": 548,
+        "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "Denny Hamlin",
         "v": 461,
@@ -9599,13 +9606,6 @@
         "v": 334,
         "r": "Legendary",
         "d": "Apr 17 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Donnie Allison",
-        "v": 321,
-        "r": "Epic",
-        "d": "Apr 23 2026"
       },
       {
         "n": "drewieblaster",
@@ -9722,6 +9722,13 @@
     ],
     "weekly": [
       {
+        "n": "gatoraintplaying",
+        "i": "iRacer Jesse Winslow",
+        "v": 548,
+        "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "Denny Hamlin",
         "v": 461,
@@ -9741,13 +9748,6 @@
         "v": 431,
         "r": "Legendary",
         "d": "Apr 21 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Donnie Allison",
-        "v": 321,
-        "r": "Epic",
-        "d": "Apr 23 2026"
       },
       {
         "n": "ineffabledecibel",
@@ -9899,6 +9899,13 @@
     ],
     "daily": [
       {
+        "n": "gatoraintplaying",
+        "i": "iRacer Jesse Winslow",
+        "v": 548,
+        "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "ineffabledecibel",
         "i": "Simucube ActivePedal",
         "v": 236,
@@ -10007,13 +10014,6 @@
         "n": "v1per_simr4cin6",
         "i": "Hermit Crab",
         "v": 22,
-        "r": "Common",
-        "d": "Apr 25 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Bubbly",
-        "v": 18,
         "r": "Common",
         "d": "Apr 25 2026"
       },
@@ -19334,7 +19334,7 @@
       "n": "iRacer Jesse Winslow",
       "custom": true,
       "r": "Legendary",
-      "c": 9,
+      "c": 10,
       "h": "fjvgaming",
       "v": 559,
       "w": 134.17
@@ -25606,7 +25606,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "BDC Season 1 Champion",
-      "c": 9,
+      "c": 10,
       "rec": "134.17 lb",
       "v": 559
     },
@@ -26017,6 +26017,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "gatoraintplaying",
+      "i": "iRacer Jesse Winslow",
+      "w": 131.51,
+      "v": 548,
+      "r": "Epic",
+      "d": "Apr 25 2026"
+    },
     {
       "u": "motionless",
       "i": "D License",
@@ -26606,14 +26614,6 @@
       "i": "Nick McBeath",
       "w": 42.68,
       "v": 107,
-      "r": "Rare",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Jellyfish Plushie",
-      "w": 0.52,
-      "v": 94,
       "r": "Rare",
       "d": "Apr 25 2026"
     }
