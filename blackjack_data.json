@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T21:59:06Z",
+  "generated_at": "2026-04-25T22:00:23Z",
   "leaderboard": [
     {
       "user": "ikatipoi",
@@ -129,9 +129,9 @@
     },
     {
       "user": "juicedracing",
-      "chips": 36120,
-      "net": -1663412,
-      "hands": 1,
+      "chips": 36117,
+      "net": -1663415,
+      "hands": 2,
       "ach": 0
     },
     {
@@ -1199,7 +1199,7 @@
     },
     "most_hands": {
       "user": "juicedracing",
-      "amount": 1
+      "amount": 2
     },
     "most_ach": {
       "user": "ikatipoi",
@@ -1215,6 +1215,34 @@
     }
   },
   "recent_hands": [
+    {
+      "ts": 1777154423.6713994,
+      "date": "2026-04-25",
+      "player": "juicedracing",
+      "bet": 3,
+      "balance_before": 36120,
+      "result": "lose",
+      "net_delta": -3,
+      "player_cards": [
+        "Q♥",
+        "2♠",
+        "7♠"
+      ],
+      "player_total": 19,
+      "hit_count": 1,
+      "dealer_cards": [
+        "K♣",
+        "Q♠"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777154346.4384203,
       "date": "2026-04-25",
