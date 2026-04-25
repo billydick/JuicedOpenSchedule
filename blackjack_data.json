@@ -1,532 +1,113 @@
 {
-  "generated_at": "2026-04-25T12:00:00Z",
-  "meta": {
-    "total_hands": 847,
-    "total_players": 23,
-    "biggest_bet": {
-      "user": "ikatipoi",
-      "amount": 50000
-    },
-    "biggest_win": {
-      "user": "zerosugarnobrakes",
-      "amount": 75000
-    },
-    "top_chips": 275152,
-    "top_player": "ikatipoi"
-  },
-  "leaderboards": {
-    "daily": [
-      {
-        "u": "ikatipoi",
-        "chips": 275152,
-        "net": 12500,
-        "hands": 8,
-        "ach": 4
-      },
-      {
-        "u": "zerosugarnobrakes",
-        "chips": 173061,
-        "net": 9200,
-        "hands": 6,
-        "ach": 2
-      },
-      {
-        "u": "corndawg3",
-        "chips": 181890,
-        "net": 4100,
-        "hands": 4,
-        "ach": 1
-      }
-    ],
-    "weekly": [
-      {
-        "u": "ikatipoi",
-        "chips": 275152,
-        "net": 45000,
-        "hands": 31,
-        "ach": 4
-      },
-      {
-        "u": "zerosugarnobrakes",
-        "chips": 173061,
-        "net": 32000,
-        "hands": 24,
-        "ach": 2
-      },
-      {
-        "u": "corndawg3",
-        "chips": 181890,
-        "net": 18000,
-        "hands": 19,
-        "ach": 1
-      },
-      {
-        "u": "motionless",
-        "chips": 94000,
-        "net": 11000,
-        "hands": 14,
-        "ach": 3
-      },
-      {
-        "u": "azsuperbeast",
-        "chips": 350,
-        "net": -8500,
-        "hands": 12,
-        "ach": 4
-      }
-    ],
-    "monthly": [
-      {
-        "u": "ikatipoi",
-        "chips": 275152,
-        "net": 93000,
-        "hands": 87,
-        "ach": 4
-      },
-      {
-        "u": "zerosugarnobrakes",
-        "chips": 173061,
-        "net": 76000,
-        "hands": 71,
-        "ach": 2
-      },
-      {
-        "u": "corndawg3",
-        "chips": 181890,
-        "net": 54000,
-        "hands": 62,
-        "ach": 1
-      },
-      {
-        "u": "motionless",
-        "chips": 94000,
-        "net": 38000,
-        "hands": 55,
-        "ach": 3
-      },
-      {
-        "u": "azsuperbeast",
-        "chips": 350,
-        "net": -22000,
-        "hands": 48,
-        "ach": 4
-      },
-      {
-        "u": "dougiracing",
-        "chips": 76843,
-        "net": 31000,
-        "hands": 43,
-        "ach": 0
-      },
-      {
-        "u": "aquadays",
-        "chips": 46800,
-        "net": 18000,
-        "hands": 38,
-        "ach": 0
-      }
-    ],
-    "alltime": [
-      {
-        "u": "ikatipoi",
-        "chips": 275152,
-        "net": 16602,
-        "hands": 110,
-        "ach": 4
-      },
-      {
-        "u": "thebtm1",
-        "chips": 183474,
-        "net": 0,
-        "hands": 0,
-        "ach": 1
-      },
-      {
-        "u": "corndawg3",
-        "chips": 181890,
-        "net": 4925,
-        "hands": 62,
-        "ach": 1
-      },
-      {
-        "u": "drewieblaster",
-        "chips": 179897,
-        "net": 0,
-        "hands": 0,
-        "ach": 1
-      },
-      {
-        "u": "zerosugarnobrakes",
-        "chips": 173061,
-        "net": 93222,
-        "hands": 71,
-        "ach": 2
-      },
-      {
-        "u": "iitstech",
-        "chips": 166797,
-        "net": 85847,
-        "hands": 0,
-        "ach": 1
-      },
-      {
-        "u": "showtime_84",
-        "chips": 145439,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "diehllane",
-        "chips": 119200,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "flippy00",
-        "chips": 111040,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "mrdrwaddles",
-        "chips": 107151,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "motionless",
-        "chips": 94000,
-        "net": 0,
-        "hands": 55,
-        "ach": 3
-      },
-      {
-        "u": "pvtcrock",
-        "chips": 99150,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "dougiracing",
-        "chips": 76843,
-        "net": 65743,
-        "hands": 43,
-        "ach": 0
-      },
-      {
-        "u": "sykadelic_eyez",
-        "chips": 62050,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "aquadays",
-        "chips": 46800,
-        "net": 27100,
-        "hands": 38,
-        "ach": 0
-      },
-      {
-        "u": "azsuperbeast",
-        "chips": 350,
-        "net": -8500,
-        "hands": 48,
-        "ach": 4
-      },
-      {
-        "u": "juicedracing",
-        "chips": 36150,
-        "net": -320,
-        "hands": 12,
-        "ach": 1
-      }
-    ]
-  },
-  "achievements": {
-    "stream": {
-      "bank_builder_100k": {
-        "total": 8,
-        "holders": [
-          "ikatipoi",
-          "thebtm1",
-          "corndawg3",
-          "drewieblaster",
-          "iitstech",
-          "showtime_84",
-          "diehllane",
-          "flippy00"
-        ],
-        "latest": {
-          "u": "flippy00",
-          "d": "2026-04-24"
-        }
-      },
-      "high_roller_50k": {
-        "total": 3,
-        "holders": [
-          "ikatipoi",
-          "zerosugarnobrakes",
-          "motionless"
-        ],
-        "latest": {
-          "u": "motionless",
-          "d": "2026-04-23"
-        }
-      },
-      "big_nerve_win": {
-        "total": 5,
-        "holders": [
-          "ikatipoi",
-          "azsuperbeast",
-          "motionless",
-          "juicedracing",
-          "corndawg3"
-        ],
-        "latest": {
-          "u": "corndawg3",
-          "d": "2026-04-25"
-        }
-      },
-      "exact_change_win": {
-        "total": 2,
-        "holders": [
-          "azsuperbeast",
-          "ikatipoi"
-        ],
-        "latest": {
-          "u": "ikatipoi",
-          "d": "2026-04-22"
-        }
-      },
-      "hot_streak_3": {
-        "total": 4,
-        "holders": [
-          "ikatipoi",
-          "azsuperbeast",
-          "motionless",
-          "zerosugarnobrakes"
-        ],
-        "latest": {
-          "u": "zerosugarnobrakes",
-          "d": "2026-04-25"
-        }
-      },
-      "hot_streak_5": {
-        "total": 2,
-        "holders": [
-          "ikatipoi",
-          "azsuperbeast"
-        ],
-        "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-04-21"
-        }
-      },
-      "poker_pair_any": {
-        "total": 6,
-        "holders": [
-          "ikatipoi",
-          "azsuperbeast",
-          "motionless",
-          "juicedracing",
-          "corndawg3",
-          "zerosugarnobrakes"
-        ],
-        "latest": {
-          "u": "zerosugarnobrakes",
-          "d": "2026-04-25"
-        }
-      },
-      "big_swing_session_50k": {
-        "total": 3,
-        "holders": [
-          "ikatipoi",
-          "motionless",
-          "azsuperbeast"
-        ],
-        "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-04-21"
-        }
-      },
-      "rags_to_riches_session": {
-        "total": 2,
-        "holders": [
-          "motionless",
-          "juicedracing"
-        ],
-        "latest": {
-          "u": "juicedracing",
-          "d": "2026-04-21"
-        }
-      },
-      "lucky_escape": {
-        "total": 1,
-        "holders": [
-          "azsuperbeast"
-        ],
-        "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-04-21"
-        }
-      },
-      "five_card_charlie": {
-        "total": 0,
-        "holders": [],
-        "latest": {
-          "u": "\u2014",
-          "d": "\u2014"
-        }
-      },
-      "poker_straight_flush_any": {
-        "total": 0,
-        "holders": [],
-        "latest": {
-          "u": "\u2014",
-          "d": "\u2014"
-        }
-      }
-    },
-    "players": {
-      "ikatipoi": {
-        "bank_builder_100k": "2026-04-20",
-        "high_roller_50k": "2026-04-21",
-        "hot_streak_3": "2026-04-22",
-        "hot_streak_5": "2026-04-23",
-        "big_nerve_win": "2026-04-21",
-        "exact_change_win": "2026-04-22",
-        "poker_pair_any": "2026-04-21",
-        "big_swing_session_50k": "2026-04-22"
-      },
-      "azsuperbeast": {
-        "hot_streak_3": "2026-04-21",
-        "hot_streak_5": "2026-04-21",
-        "big_nerve_win": "2026-04-21",
-        "exact_change_win": "2026-04-21",
-        "poker_pair_any": "2026-04-21",
-        "big_swing_session_50k": "2026-04-21",
-        "lucky_escape": "2026-04-21",
-        "rags_to_riches_session": "earned"
-      },
-      "motionless": {
-        "high_roller_50k": "2026-04-23",
-        "hot_streak_3": "2026-04-23",
-        "big_swing_session_50k": "2026-04-23",
-        "rags_to_riches_session": "2026-04-21",
-        "poker_pair_any": "2026-04-23",
-        "big_nerve_win": "2026-04-23"
-      },
-      "juicedracing": {
-        "poker_pair_any": "2026-04-25",
-        "big_nerve_win": "2026-04-25",
-        "rags_to_riches_session": "2026-04-21"
-      },
-      "zerosugarnobrakes": {
-        "hot_streak_3": "2026-04-25",
-        "poker_pair_any": "2026-04-25",
-        "high_roller_50k": "2026-04-20"
-      },
-      "corndawg3": {
-        "bank_builder_100k": "2026-04-18",
-        "big_nerve_win": "2026-04-25",
-        "poker_pair_any": "2026-04-19"
-      },
-      "thebtm1": {
-        "bank_builder_100k": "2026-04-15"
-      },
-      "drewieblaster": {
-        "bank_builder_100k": "2026-04-16"
-      },
-      "iitstech": {
-        "bank_builder_100k": "2026-04-17"
-      },
-      "showtime_84": {
-        "bank_builder_100k": "2026-04-18"
-      },
-      "diehllane": {
-        "bank_builder_100k": "2026-04-19"
-      },
-      "flippy00": {
-        "bank_builder_100k": "2026-04-24"
-      }
-    },
-    "recent_unlocks": [
-      {
-        "id": "hot_streak_3",
-        "u": "zerosugarnobrakes",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "zerosugarnobrakes",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "corndawg3",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "corndawg3",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "juicedracing",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "bank_builder_100k",
-        "u": "flippy00",
-        "d": "2026-04-24"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "motionless",
-        "d": "2026-04-23"
-      }
-    ]
-  },
+  "generated_at": "2026-04-25T23:21:04Z",
+  "leaderboard": [
+    {
+      "user": "juicedracing",
+      "chips": 36077,
+      "net": -10,
+      "hands": 1,
+      "ach": 0
+    }
+  ],
+  "achievements": {},
   "catalog": [
     {
-      "id": "bank_builder_100k",
-      "title": "Bank Builder I",
-      "cat": "balance",
-      "tier": "bronze",
-      "rule": "Reach a balance of 100,000."
-    },
-    {
-      "id": "high_roller_50k",
-      "title": "High Roller I",
-      "cat": "betting",
-      "tier": "bronze",
-      "rule": "Place a >=50,000 bet."
-    },
-    {
-      "id": "big_nerve_win",
-      "title": "Big Nerve",
-      "cat": "betting",
-      "tier": "silver",
-      "rule": "Bet >=50% of balance and win."
-    },
-    {
-      "id": "exact_change_win",
-      "title": "Exact Change",
-      "cat": "betting",
+      "id": "five_card_charlie",
+      "title": "Five-Card Charlie",
+      "cat": "naturals",
       "tier": "gold",
-      "rule": "Bet exactly your balance and win."
+      "rule": "Finish with 5+ cards without busting."
+    },
+    {
+      "id": "natural_collector_10",
+      "title": "Natural I",
+      "cat": "naturals",
+      "tier": "bronze",
+      "rule": "10 natural blackjacks lifetime."
+    },
+    {
+      "id": "natural_collector_25",
+      "title": "Natural II",
+      "cat": "naturals",
+      "tier": "silver",
+      "rule": "25 natural blackjacks lifetime."
+    },
+    {
+      "id": "natural_collector_50",
+      "title": "Natural III",
+      "cat": "naturals",
+      "tier": "gold",
+      "rule": "50 natural blackjacks lifetime."
+    },
+    {
+      "id": "natural_collector_100",
+      "title": "Natural IV",
+      "cat": "naturals",
+      "tier": "gold",
+      "rule": "100 natural blackjacks lifetime."
+    },
+    {
+      "id": "exact21_hits_10",
+      "title": "Exact 21 I",
+      "cat": "naturals",
+      "tier": "bronze",
+      "rule": "Reach 21 via hits 10 times (not natural)."
+    },
+    {
+      "id": "exact21_hits_30",
+      "title": "Exact 21 II",
+      "cat": "naturals",
+      "tier": "silver",
+      "rule": "Reach 21 via hits 30 times."
+    },
+    {
+      "id": "exact21_hits_75",
+      "title": "Exact 21 III",
+      "cat": "naturals",
+      "tier": "gold",
+      "rule": "Reach 21 via hits 75 times."
+    },
+    {
+      "id": "twenty_winner_5",
+      "title": "Twenty Winner I",
+      "cat": "naturals",
+      "tier": "bronze",
+      "rule": "Win with total 20 five times."
+    },
+    {
+      "id": "twenty_winner_20",
+      "title": "Twenty Winner II",
+      "cat": "naturals",
+      "tier": "silver",
+      "rule": "Win with total 20 twenty times."
+    },
+    {
+      "id": "twenty_winner_50",
+      "title": "Twenty Winner III",
+      "cat": "naturals",
+      "tier": "gold",
+      "rule": "Win with total 20 fifty times."
+    },
+    {
+      "id": "pushes_5",
+      "title": "Push It I",
+      "cat": "naturals",
+      "tier": "bronze",
+      "rule": "Record 5 pushes."
+    },
+    {
+      "id": "pushes_20",
+      "title": "Push It II",
+      "cat": "naturals",
+      "tier": "silver",
+      "rule": "Record 20 pushes."
+    },
+    {
+      "id": "pushes_50",
+      "title": "Push It III",
+      "cat": "naturals",
+      "tier": "gold",
+      "rule": "Record 50 pushes."
     },
     {
       "id": "hot_streak_3",
@@ -543,6 +124,384 @@
       "rule": "5 wins in a row in a session."
     },
     {
+      "id": "hot_streak_8",
+      "title": "Hot Streak III",
+      "cat": "streaks",
+      "tier": "gold",
+      "rule": "8 wins in a row in a session."
+    },
+    {
+      "id": "hot_streak_12",
+      "title": "Hot Streak IV",
+      "cat": "streaks",
+      "tier": "gold",
+      "rule": "12 wins in a row in a session."
+    },
+    {
+      "id": "cold_spell_5",
+      "title": "Cold Spell I",
+      "cat": "streaks",
+      "tier": "bronze",
+      "rule": "5 losses in a row in a session."
+    },
+    {
+      "id": "cold_spell_10",
+      "title": "Cold Spell II",
+      "cat": "streaks",
+      "tier": "silver",
+      "rule": "10 losses in a row in a session."
+    },
+    {
+      "id": "comeback_3",
+      "title": "The Comeback",
+      "cat": "streaks",
+      "tier": "silver",
+      "rule": "Lose 3 in a row then win 3 in a row in the same session."
+    },
+    {
+      "id": "feast_or_famine",
+      "title": "Feast or Famine",
+      "cat": "streaks",
+      "tier": "gold",
+      "rule": "Hit Hot Streak III and Cold Spell I in the same session."
+    },
+    {
+      "id": "high_roller_50k",
+      "title": "High Roller I",
+      "cat": "betting",
+      "tier": "bronze",
+      "rule": "Place a ≥50,000 bet."
+    },
+    {
+      "id": "high_roller_100k",
+      "title": "High Roller II",
+      "cat": "betting",
+      "tier": "silver",
+      "rule": "Place a ≥100,000 bet."
+    },
+    {
+      "id": "high_roller_250k",
+      "title": "High Roller III",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Place a ≥250,000 bet."
+    },
+    {
+      "id": "high_roller_500k",
+      "title": "High Roller IV",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Place a ≥500,000 bet."
+    },
+    {
+      "id": "min_bet_master",
+      "title": "Min-Bet Master",
+      "cat": "betting",
+      "tier": "bronze",
+      "rule": "Win with a ≤1,000 bet."
+    },
+    {
+      "id": "exact_change_win",
+      "title": "Exact Change",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Bet exactly your balance and win."
+    },
+    {
+      "id": "big_nerve_win",
+      "title": "Big Nerve",
+      "cat": "betting",
+      "tier": "silver",
+      "rule": "Bet ≥50% of your balance and win."
+    },
+    {
+      "id": "steady_grinder_session_10",
+      "title": "Steady Grinder",
+      "cat": "betting",
+      "tier": "silver",
+      "rule": "Win 10 hands with 1k–5k bets in one session."
+    },
+    {
+      "id": "double_or_nothing",
+      "title": "Double or Nothing",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Bet your entire balance and win twice in one session."
+    },
+    {
+      "id": "patient_money",
+      "title": "Patient Money",
+      "cat": "betting",
+      "tier": "silver",
+      "rule": "Win 20 hands with ≤1,000 bets lifetime."
+    },
+    {
+      "id": "escalator",
+      "title": "Escalator",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Place bets of 1k, 5k, 10k, and 50k in a single session."
+    },
+    {
+      "id": "chip_tipper",
+      "title": "Chip Tipper",
+      "cat": "betting",
+      "tier": "gold",
+      "rule": "Place a bet of exactly 69,420."
+    },
+    {
+      "id": "bank_builder_100k",
+      "title": "Bank Builder I",
+      "cat": "balance",
+      "tier": "bronze",
+      "rule": "Reach a balance of 100,000."
+    },
+    {
+      "id": "bank_builder_250k",
+      "title": "Bank Builder II",
+      "cat": "balance",
+      "tier": "silver",
+      "rule": "Reach a balance of 250,000."
+    },
+    {
+      "id": "bank_builder_500k",
+      "title": "Bank Builder III",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Reach a balance of 500,000."
+    },
+    {
+      "id": "bank_builder_1m",
+      "title": "Bank Builder IV",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Reach a balance of 1,000,000."
+    },
+    {
+      "id": "bank_builder_10m",
+      "title": "Bank Builder V",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Reach a balance of 10,000,000."
+    },
+    {
+      "id": "bank_builder_100m",
+      "title": "Bank Builder VI",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Reach a balance of 100,000,000."
+    },
+    {
+      "id": "rags_to_riches_session",
+      "title": "Riches to Rags",
+      "cat": "balance",
+      "tier": "silver",
+      "rule": "Within 24h: from ≥20,000 down to <500."
+    },
+    {
+      "id": "riches_to_rags_session",
+      "title": "Rags to Riches",
+      "cat": "balance",
+      "tier": "silver",
+      "rule": "Within 24h: from <500 up to ≥20,000."
+    },
+    {
+      "id": "roller_coaster_session",
+      "title": "Roller Coaster",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Within 24h: drop ≥50% from peak then recover to ≥90%."
+    },
+    {
+      "id": "big_swing_session_50k",
+      "title": "Big Swing I",
+      "cat": "balance",
+      "tier": "bronze",
+      "rule": "Session max−min ≥50,000."
+    },
+    {
+      "id": "big_swing_session_200k",
+      "title": "Big Swing II",
+      "cat": "balance",
+      "tier": "silver",
+      "rule": "Session max−min ≥200,000."
+    },
+    {
+      "id": "big_swing_session_500k",
+      "title": "Big Swing III",
+      "cat": "balance",
+      "tier": "gold",
+      "rule": "Session max−min ≥500,000."
+    },
+    {
+      "id": "marathoner_25",
+      "title": "Marathoner I",
+      "cat": "volume",
+      "tier": "bronze",
+      "rule": "Play 25 hands in one session."
+    },
+    {
+      "id": "marathoner_50",
+      "title": "Marathoner II",
+      "cat": "volume",
+      "tier": "silver",
+      "rule": "Play 50 hands in one session."
+    },
+    {
+      "id": "marathoner_100",
+      "title": "Marathoner III",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play 100 hands in one session."
+    },
+    {
+      "id": "grinder_50",
+      "title": "Grinder I",
+      "cat": "volume",
+      "tier": "bronze",
+      "rule": "Play 50 hands lifetime."
+    },
+    {
+      "id": "grinder_200",
+      "title": "Grinder II",
+      "cat": "volume",
+      "tier": "silver",
+      "rule": "Play 200 hands lifetime."
+    },
+    {
+      "id": "grinder_500",
+      "title": "Grinder III",
+      "cat": "volume",
+      "tier": "silver",
+      "rule": "Play 500 hands lifetime."
+    },
+    {
+      "id": "grinder_1000",
+      "title": "Grinder IV",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play 1,000 hands lifetime."
+    },
+    {
+      "id": "grinder_5000",
+      "title": "Grinder V",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play 5,000 hands lifetime."
+    },
+    {
+      "id": "grinder_10000",
+      "title": "Grinder VI",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play 10,000 hands lifetime."
+    },
+    {
+      "id": "regular_days_3",
+      "title": "Regular I",
+      "cat": "volume",
+      "tier": "bronze",
+      "rule": "Play on 3 different days lifetime."
+    },
+    {
+      "id": "regular_days_7",
+      "title": "Regular II",
+      "cat": "volume",
+      "tier": "silver",
+      "rule": "Play on 7 different days lifetime."
+    },
+    {
+      "id": "regular_days_14",
+      "title": "Regular III",
+      "cat": "volume",
+      "tier": "silver",
+      "rule": "Play on 14 different days lifetime."
+    },
+    {
+      "id": "regular_days_30",
+      "title": "Regular IV",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play on 30 different days lifetime."
+    },
+    {
+      "id": "regular_days_100",
+      "title": "Regular V",
+      "cat": "volume",
+      "tier": "gold",
+      "rule": "Play on 100 different days lifetime."
+    },
+    {
+      "id": "two_card_20_win_10",
+      "title": "Two-Card 20",
+      "cat": "situational",
+      "tier": "silver",
+      "rule": "Start at 20 and win 10 times."
+    },
+    {
+      "id": "triple_hit_win",
+      "title": "Triple Hit Win",
+      "cat": "situational",
+      "tier": "bronze",
+      "rule": "Win after exactly 3 hits."
+    },
+    {
+      "id": "quad_hit_win",
+      "title": "Quad Hit Win",
+      "cat": "situational",
+      "tier": "silver",
+      "rule": "Win after exactly 4 hits."
+    },
+    {
+      "id": "lucky_escape",
+      "title": "Lucky Escape I",
+      "cat": "situational",
+      "tier": "bronze",
+      "rule": "Hit from ≤15 to a winning total."
+    },
+    {
+      "id": "lucky_escape_50",
+      "title": "Lucky Escape II",
+      "cat": "situational",
+      "tier": "silver",
+      "rule": "Lucky Escape 50 times lifetime."
+    },
+    {
+      "id": "crowd_pleaser_10",
+      "title": "Crowd Pleaser I",
+      "cat": "situational",
+      "tier": "bronze",
+      "rule": "Win in a round with ≥3 players 10 times."
+    },
+    {
+      "id": "crowd_pleaser_50",
+      "title": "Crowd Pleaser II",
+      "cat": "situational",
+      "tier": "silver",
+      "rule": "Win in a round with ≥3 players 50 times."
+    },
+    {
+      "id": "table_dominator",
+      "title": "Table Dominator I",
+      "cat": "situational",
+      "tier": "silver",
+      "rule": "Win a round where all other players lost."
+    },
+    {
+      "id": "table_dominator_25",
+      "title": "Table Dominator II",
+      "cat": "situational",
+      "tier": "gold",
+      "rule": "Table Dominator 25 times lifetime."
+    },
+    {
+      "id": "last_one_standing",
+      "title": "Last One Standing",
+      "cat": "situational",
+      "tier": "gold",
+      "rule": "Be the only player not to bust in a full table (5 player) round."
+    },
+    {
       "id": "poker_pair_any",
       "title": "Pair",
       "cat": "poker",
@@ -550,32 +509,46 @@
       "rule": "Make a Pair in your final hand."
     },
     {
-      "id": "big_swing_session_50k",
-      "title": "Big Swing I",
-      "cat": "balance",
+      "id": "poker_two_pair_any",
+      "title": "Two Pair",
+      "cat": "poker",
       "tier": "bronze",
-      "rule": "Session max-min >=50,000."
+      "rule": "Make Two Pair in your final hand."
     },
     {
-      "id": "rags_to_riches_session",
-      "title": "Rags to Riches",
-      "cat": "balance",
+      "id": "poker_trips_any",
+      "title": "Three of a Kind",
+      "cat": "poker",
       "tier": "silver",
-      "rule": "From <500 up to >=20,000 in 24h."
+      "rule": "Make Three of a Kind in your final hand."
     },
     {
-      "id": "lucky_escape",
-      "title": "Lucky Escape I",
-      "cat": "situational",
-      "tier": "bronze",
-      "rule": "Hit from <=15 to a winning total."
+      "id": "poker_straight_any",
+      "title": "Straight",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Make a Straight in your final hand."
     },
     {
-      "id": "five_card_charlie",
-      "title": "Five-Card Charlie",
-      "cat": "naturals",
+      "id": "poker_flush_any",
+      "title": "Flush",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Make a Flush in your final hand."
+    },
+    {
+      "id": "poker_full_house_any",
+      "title": "Full House",
+      "cat": "poker",
       "tier": "gold",
-      "rule": "Finish with 5+ cards without busting."
+      "rule": "Make a Full House in your final hand."
+    },
+    {
+      "id": "poker_quads_any",
+      "title": "Four of a Kind",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make Four of a Kind in your final hand."
     },
     {
       "id": "poker_straight_flush_any",
@@ -583,148 +556,225 @@
       "cat": "poker",
       "tier": "gold",
       "rule": "Make a Straight Flush in your final hand."
+    },
+    {
+      "id": "poker_vol_10",
+      "title": "Poker Apprentice",
+      "cat": "poker",
+      "tier": "bronze",
+      "rule": "10 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_50",
+      "title": "Poker Player",
+      "cat": "poker",
+      "tier": "bronze",
+      "rule": "50 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_100",
+      "title": "Poker Regular",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "100 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_250",
+      "title": "Poker Veteran",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "250 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_500",
+      "title": "Poker Shark",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "500 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_1000",
+      "title": "Poker Pro",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "1,000 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_2500",
+      "title": "Poker Master",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "2,500 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_5000",
+      "title": "Poker Legend",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "5,000 poker hands lifetime."
+    },
+    {
+      "id": "poker_vol_10000",
+      "title": "Poker God",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "10,000 poker hands lifetime."
+    },
+    {
+      "id": "poker_straight_5",
+      "title": "Straight x5",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Make a Straight 5 times lifetime."
+    },
+    {
+      "id": "poker_straight_25",
+      "title": "Straight x25",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make a Straight 25 times lifetime."
+    },
+    {
+      "id": "poker_full_house_5",
+      "title": "Full House x5",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Make a Full House 5 times lifetime."
+    },
+    {
+      "id": "poker_full_house_25",
+      "title": "Full House x25",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make a Full House 25 times lifetime."
+    },
+    {
+      "id": "poker_quads_3",
+      "title": "Quads x3",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make Four of a Kind 3 times lifetime."
+    },
+    {
+      "id": "poker_quads_10",
+      "title": "Quads x10",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make Four of a Kind 10 times lifetime."
+    },
+    {
+      "id": "poker_sf_3",
+      "title": "Straight Flush x3",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make a Straight Flush 3 times lifetime."
+    },
+    {
+      "id": "poker_sf_10",
+      "title": "Straight Flush x10",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Make a Straight Flush 10 times lifetime."
+    },
+    {
+      "id": "poker_bonus_50",
+      "title": "Poker Bonus 50",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Get ≥50% poker modifier in one hand."
+    },
+    {
+      "id": "poker_bonus_100",
+      "title": "Poker Bonus 100",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Get ≥100% poker modifier in one hand."
+    },
+    {
+      "id": "poker_salvation",
+      "title": "Poker Salvation I",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Win a hand you would have lost without the relief modifier."
+    },
+    {
+      "id": "poker_salvation_25",
+      "title": "Poker Salvation II",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Poker Salvation 25 times lifetime."
+    },
+    {
+      "id": "clean_poker_win",
+      "title": "Clean Poker Win I",
+      "cat": "poker",
+      "tier": "silver",
+      "rule": "Win a hand AND hit a poker bonus in the same hand."
+    },
+    {
+      "id": "clean_poker_win_25",
+      "title": "Clean Poker Win II",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Clean Poker Win 25 times lifetime."
+    },
+    {
+      "id": "royal_treatment",
+      "title": "Royal Treatment",
+      "cat": "poker",
+      "tier": "gold",
+      "rule": "Hit Quads or Straight Flush twice in one session."
     }
   ],
+  "hof": {
+    "biggest_stack": {
+      "user": "juicedracing",
+      "amount": 36077
+    },
+    "best_net": {
+      "user": "juicedracing",
+      "amount": -10
+    },
+    "most_hands": {
+      "user": "juicedracing",
+      "amount": 1
+    },
+    "most_ach": {
+      "user": null,
+      "amount": 0
+    },
+    "biggest_bet": {
+      "user": "juicedracing",
+      "amount": 10
+    },
+    "biggest_win": {
+      "user": null,
+      "amount": 0
+    }
+  },
   "recent_hands": [
     {
-      "ts": 1777140493,
+      "ts": 1777159264.9681542,
       "date": "2026-04-25",
       "player": "juicedracing",
-      "bet": 50,
-      "balance_before": 36200,
+      "bet": 10,
+      "balance_before": 36087,
       "result": "bust",
-      "net_delta": -50,
+      "net_delta": -10,
       "player_cards": [
-        "8\u2660",
-        "7\u2665",
-        "10\u2660"
+        "5♣",
+        "J♥",
+        "7♦"
       ],
-      "player_total": 25,
+      "player_total": 22,
       "hit_count": 1,
       "dealer_cards": [
-        "6\u2660",
-        "9\u2660",
-        "K\u2666"
+        "2♥",
+        "8♠",
+        "5♠",
+        "2♠"
       ],
-      "dealer_total": 25,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777140400,
-      "date": "2026-04-25",
-      "player": "ikatipoi",
-      "bet": 50000,
-      "balance_before": 225000,
-      "result": "blackjack",
-      "net_delta": 75000,
-      "player_cards": [
-        "A\u2660",
-        "K\u2665"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "7\u2666",
-        "9\u2660",
-        "6\u2663"
-      ],
-      "dealer_total": 22,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "high_roller_50k"
-      ]
-    },
-    {
-      "ts": 1777140300,
-      "date": "2026-04-25",
-      "player": "azsuperbeast",
-      "bet": 5000,
-      "balance_before": 15000,
-      "result": "win",
-      "net_delta": 5000,
-      "player_cards": [
-        "K\u2660",
-        "7\u2665",
-        "4\u2663"
-      ],
-      "player_total": 21,
-      "hit_count": 1,
-      "dealer_cards": [
-        "Q\u2666",
-        "6\u2660",
-        "9\u2665"
-      ],
-      "dealer_total": 25,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 0,
-      "poker_bonus": 500,
-      "achievements_earned": [
-        "poker_pair_any"
-      ]
-    },
-    {
-      "ts": 1777140200,
-      "date": "2026-04-25",
-      "player": "zerosugarnobrakes",
-      "bet": 10000,
-      "balance_before": 160000,
-      "result": "win",
-      "net_delta": 10000,
-      "player_cards": [
-        "J\u2660",
-        "9\u2665"
-      ],
-      "player_total": 19,
-      "hit_count": 0,
-      "dealer_cards": [
-        "Q\u2666",
-        "6\u2660",
-        "8\u2663"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "hot_streak_3"
-      ]
-    },
-    {
-      "ts": 1777140100,
-      "date": "2026-04-25",
-      "player": "motionless",
-      "bet": 10000,
-      "balance_before": 90000,
-      "result": "blackjack",
-      "net_delta": 15000,
-      "player_cards": [
-        "A\u2665",
-        "K\u2663"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "8\u2660",
-        "J\u2666"
-      ],
-      "dealer_total": 18,
+      "dealer_total": 17,
       "dealer_bust": false,
       "table_size": 1,
       "poker_rank": null,
@@ -733,5 +783,6 @@
       "poker_bonus": 0,
       "achievements_earned": []
     }
-  ]
+  ],
+  "recent_unlocks": []
 }
