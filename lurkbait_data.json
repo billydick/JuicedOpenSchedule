@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T04:25:51.170176+00:00",
-    "total_catches": 21795,
+    "generated_at": "2026-04-25T04:27:56.063766+00:00",
+    "total_catches": 21797,
     "unique_catches": 369,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21795 catches"
+      "sub": "Since launch - 21797 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2314,6 +2314,14 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 385,
+        "c": 9,
+        "casts": 9,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "stiggy_icky_icky",
         "n": "stiggy_icky_icky",
         "g": 382,
@@ -2360,14 +2368,6 @@
         "c": 6,
         "casts": 6,
         "l": "Mar 10 2025"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 360,
-        "c": 8,
-        "casts": 8,
-        "l": "Apr 25 2026"
       },
       {
         "u": "dw43_",
@@ -5042,6 +5042,14 @@
         "l": "Jan 17 2025"
       },
       {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 27,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "dankoctane",
         "n": "dankoctane",
         "g": 27,
@@ -5624,14 +5632,6 @@
         "c": 1,
         "casts": 1,
         "l": "Mar 22 2025"
-      },
-      {
-        "u": "forthe_lul",
-        "n": "forthe_lul",
-        "g": 10,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 25 2026"
       },
       {
         "u": "fatslothslim",
@@ -6382,9 +6382,9 @@
       {
         "u": "cattabolic",
         "n": "cattabolic",
-        "g": 360,
-        "c": 8,
-        "casts": 8,
+        "g": 385,
+        "c": 9,
+        "casts": 9,
         "l": "Apr 25 2026"
       },
       {
@@ -6568,9 +6568,9 @@
       {
         "u": "cattabolic",
         "n": "cattabolic",
-        "g": 160,
-        "c": 3,
-        "casts": 3,
+        "g": 185,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 25 2026"
       },
       {
@@ -6664,17 +6664,17 @@
         "l": "Apr 25 2026"
       },
       {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 172,
-        "c": 3,
-        "casts": 3,
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 185,
+        "c": 4,
+        "casts": 4,
         "l": "Apr 25 2026"
       },
       {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 160,
+        "u": "pvtcrock",
+        "n": "pvtcrock",
+        "g": 172,
         "c": 3,
         "casts": 3,
         "l": "Apr 25 2026"
@@ -6746,9 +6746,9 @@
       {
         "u": "forthe_lul",
         "n": "forthe_lul",
-        "g": 10,
-        "c": 1,
-        "casts": 1,
+        "g": 27,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 25 2026"
       },
       {
@@ -10050,9 +10050,9 @@
       },
       {
         "n": "forthe_lul",
-        "i": "Trolley",
-        "v": 10,
-        "r": "Junk",
+        "i": "Bubbly",
+        "v": 17,
+        "r": "Common",
         "d": "Apr 25 2026"
       },
       {
@@ -11297,7 +11297,7 @@
         }
       },
       "custom_catch": {
-        "total": 612,
+        "total": 613,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11910,10 +11910,11 @@
           "cattabolic",
           "bartfalls",
           "azsuperbeast",
-          "iz1ggy"
+          "iz1ggy",
+          "forthe_lul"
         ],
         "latest": {
-          "u": "iz1ggy",
+          "u": "forthe_lul",
           "d": "Apr 25 2026"
         }
       },
@@ -19175,7 +19176,8 @@
         "custom_catch": "Apr 25 2026"
       },
       "forthe_lul": {
-        "broke_in": "Apr 25 2026"
+        "broke_in": "Apr 25 2026",
+        "custom_catch": "Apr 25 2026"
       }
     },
     "recent_unlocks": [
@@ -22004,7 +22006,7 @@
       "n": "Austin Dillon",
       "custom": true,
       "r": "Common",
-      "c": 114,
+      "c": 115,
       "h": "motionless",
       "v": 28,
       "w": 16.86
@@ -22085,7 +22087,7 @@
       "n": "Bubbly",
       "custom": true,
       "r": "Common",
-      "c": 131,
+      "c": 132,
       "h": "skeeter1029",
       "v": 23,
       "w": 1.13
@@ -22682,11 +22684,11 @@
     },
     {
       "u": "forthe_lul",
-      "g": 10,
-      "c": 1,
-      "best_n": "Trolley",
-      "best_r": "Junk",
-      "best_v": 10,
+      "g": 27,
+      "c": 2,
+      "best_n": "Bubbly",
+      "best_r": "Common",
+      "best_v": 17,
       "d": "Apr 25 2026"
     }
   ],
@@ -23515,7 +23517,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Stay hydrated yo!",
-      "c": 131,
+      "c": 132,
       "rec": "1.13 lb",
       "v": 23
     },
@@ -24127,7 +24129,7 @@
       "r": "Common",
       "custom": true,
       "desc": "I spin people to win, so what?",
-      "c": 114,
+      "c": 115,
       "rec": "16.86 lb",
       "v": 28
     },
@@ -26069,6 +26071,22 @@
   ],
   "recent": [
     {
+      "u": "forthe_lul",
+      "i": "Bubbly",
+      "w": 0.86,
+      "v": 17,
+      "r": "Common",
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "cattabolic",
+      "i": "Austin Dillon",
+      "w": 15.08,
+      "v": 25,
+      "r": "Common",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "ineffabledecibel",
       "i": "Bubbly",
       "w": 0.94,
@@ -26649,22 +26667,6 @@
       "i": "Branch",
       "w": 0.53,
       "v": 2,
-      "r": "Junk",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Rabbitfish",
-      "w": 1.69,
-      "v": 30,
-      "r": "Uncommon",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Can",
-      "w": 0.5,
-      "v": 5,
       "r": "Junk",
       "d": "Apr 25 2026"
     }
