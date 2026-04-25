@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T03:16:21.653610+00:00",
-    "total_catches": 21760,
+    "generated_at": "2026-04-25T03:17:24.573996+00:00",
+    "total_catches": 21761,
     "unique_catches": 369,
     "total_players": 737,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21760 catches"
+      "sub": "Since launch - 21761 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -762,20 +762,20 @@
         "l": "Apr 23 2026"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 5523,
+        "c": 80,
+        "casts": 80,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "phantommarine",
         "n": "phantommarine",
         "g": 5511,
         "c": 88,
         "casts": 88,
         "l": "Jan 25 2025"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 5448,
-        "c": 79,
-        "casts": 79,
-        "l": "Apr 25 2026"
       },
       {
         "u": "o7buck",
@@ -6190,9 +6190,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 5448,
-        "c": 79,
-        "casts": 79,
+        "g": 5523,
+        "c": 80,
+        "casts": 80,
         "l": "Apr 25 2026"
       },
       {
@@ -6408,9 +6408,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 2159,
-        "c": 33,
-        "casts": 33,
+        "g": 2234,
+        "c": 34,
+        "casts": 34,
         "l": "Apr 25 2026"
       },
       {
@@ -6602,9 +6602,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 1017,
-        "c": 17,
-        "casts": 17,
+        "g": 1092,
+        "c": 18,
+        "casts": 18,
         "l": "Apr 25 2026"
       },
       {
@@ -21314,7 +21314,7 @@
       "n": "Emperor Angelfish",
       "custom": false,
       "r": "Rare",
-      "c": 67,
+      "c": 68,
       "h": "maden3w",
       "v": 79,
       "w": 1.69
@@ -23923,7 +23923,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 67,
+      "c": 68,
       "rec": "1.69 lb",
       "v": 79
     },
@@ -26018,6 +26018,14 @@
   ],
   "recent": [
     {
+      "u": "ineffabledecibel",
+      "i": "Emperor Angelfish",
+      "w": 1.6,
+      "v": 75,
+      "r": "Rare",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "motionless",
       "i": "Hershel McGriff",
       "w": 22.77,
@@ -26607,14 +26615,6 @@
       "w": 0.16,
       "v": 2,
       "r": "Junk",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Natalie Decker",
-      "w": 64.86,
-      "v": 59,
-      "r": "Uncommon",
       "d": "Apr 25 2026"
     }
   ]
