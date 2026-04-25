@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T00:57:06.898178+00:00",
-    "total_catches": 21674,
+    "generated_at": "2026-04-25T00:58:10.612932+00:00",
+    "total_catches": 21675,
     "unique_catches": 367,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21674 catches"
+      "sub": "Since launch - 21675 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1778,6 +1778,14 @@
         "l": "Dec 05 2025"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 718,
+        "c": 17,
+        "casts": 17,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "ztrain9000",
         "n": "ztrain9000",
         "g": 715,
@@ -1800,14 +1808,6 @@
         "c": 9,
         "casts": 9,
         "l": "Feb 07 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 687,
-        "c": 16,
-        "casts": 16,
-        "l": "Apr 21 2026"
       },
       {
         "u": "itsanikiller",
@@ -6286,10 +6286,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 687,
-        "c": 16,
-        "casts": 16,
-        "l": "Apr 21 2026"
+        "g": 718,
+        "c": 17,
+        "casts": 17,
+        "l": "Apr 25 2026"
       },
       {
         "u": "rms_racing",
@@ -6510,6 +6510,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 154,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 150,
@@ -6532,14 +6540,6 @@
         "c": 3,
         "casts": 3,
         "l": "Apr 23 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 123,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 21 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6603,6 +6603,14 @@
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 37,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 25 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 31,
         "c": 1,
         "casts": 1,
         "l": "Apr 25 2026"
@@ -9804,6 +9812,13 @@
         "n": "pvtcrock",
         "i": "Scrapermouth Mbun",
         "v": 37,
+        "r": "Uncommon",
+        "d": "Apr 25 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "Rabbitfish",
+        "v": 31,
         "r": "Uncommon",
         "d": "Apr 25 2026"
       },
@@ -21542,7 +21557,7 @@
       "n": "Rabbitfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 75,
+      "c": 76,
       "h": "78motu78",
       "v": 39,
       "w": 2.25
@@ -23809,7 +23824,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 75,
+      "c": 76,
       "rec": "2.25 lb",
       "v": 39
     },
@@ -25778,6 +25793,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Rabbitfish",
+      "w": 1.8,
+      "v": 31,
+      "r": "Uncommon",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "motionless",
       "i": "Black Flag",
       "w": 0.99,
@@ -26366,14 +26389,6 @@
       "i": "Bike",
       "w": 8.44,
       "v": 25,
-      "r": "Junk",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Trolley",
-      "w": 18.39,
-      "v": 9,
       "r": "Junk",
       "d": "Apr 23 2026"
     }
