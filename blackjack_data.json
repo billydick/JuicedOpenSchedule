@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-25T23:32:17Z",
+  "generated_at": "2026-04-25T23:53:51Z",
   "meta": {
-    "total_hands": 2,
+    "total_hands": 3,
     "total_players": 1,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,7 +11,7 @@
       "user": "juicedracing",
       "amount": 20
     },
-    "top_chips": 36097,
+    "top_chips": 36137,
     "top_player": "juicedracing"
   },
   "competition_meta": {
@@ -36,37 +36,37 @@
     "alltime": [
       {
         "u": "juicedracing",
-        "chips": 36097,
-        "net": 10,
+        "chips": 36137,
+        "net": 0,
         "hands": 1,
-        "ach": 1
+        "ach": 0
       }
     ],
     "monthly": [
       {
         "u": "juicedracing",
-        "chips": 36097,
-        "net": 10,
-        "hands": 2,
-        "ach": 1
+        "chips": 36137,
+        "net": 0,
+        "hands": 3,
+        "ach": 0
       }
     ],
     "weekly": [
       {
         "u": "juicedracing",
-        "chips": 36097,
-        "net": 10,
-        "hands": 2,
-        "ach": 1
+        "chips": 36137,
+        "net": 0,
+        "hands": 3,
+        "ach": 0
       }
     ],
     "daily": [
       {
         "u": "juicedracing",
-        "chips": 36097,
-        "net": 10,
-        "hands": 2,
-        "ach": 1
+        "chips": 36137,
+        "net": 0,
+        "hands": 3,
+        "ach": 0
       }
     ]
   },
@@ -284,10 +284,8 @@
         }
       },
       "min_bet_master": {
-        "total": 1,
-        "holders": [
-          "juicedracing"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "juicedracing",
           "d": "2026-04-25"
@@ -894,11 +892,7 @@
         }
       }
     },
-    "players": {
-      "juicedracing": {
-        "min_bet_master": "2026-04-25"
-      }
-    },
+    "players": {},
     "recent_unlocks": [
       {
         "id": "min_bet_master",
@@ -1624,6 +1618,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777161231.1549096,
+      "date": "2026-04-25",
+      "player": "juicedracing",
+      "bet": 10,
+      "balance_before": 36147,
+      "result": "lose",
+      "net_delta": -10,
+      "player_cards": [
+        "4♠",
+        "7♥",
+        "6♣"
+      ],
+      "player_total": 17,
+      "hit_count": 1,
+      "dealer_cards": [
+        "A♥",
+        "2♦",
+        "10♠",
+        "7♦"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777159937.216597,
       "date": "2026-04-25",
