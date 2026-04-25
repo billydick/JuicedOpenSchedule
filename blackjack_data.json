@@ -1,15 +1,912 @@
 {
-  "generated_at": "2026-04-25T23:21:04Z",
-  "leaderboard": [
-    {
+  "generated_at": "2026-04-25T23:32:17Z",
+  "meta": {
+    "total_hands": 2,
+    "total_players": 1,
+    "biggest_bet": {
       "user": "juicedracing",
-      "chips": 36077,
-      "net": -10,
-      "hands": 1,
-      "ach": 0
+      "amount": 20
+    },
+    "biggest_win": {
+      "user": "juicedracing",
+      "amount": 20
+    },
+    "top_chips": 36097,
+    "top_player": "juicedracing"
+  },
+  "competition_meta": {
+    "daily": {
+      "label": "Today",
+      "sub": "2026-04-25"
+    },
+    "weekly": {
+      "label": "This Week",
+      "sub": "Week of 2026-04-20"
+    },
+    "monthly": {
+      "label": "This Month",
+      "sub": "2026-04"
+    },
+    "alltime": {
+      "label": "All Time",
+      "sub": "Historical leaderboard"
     }
-  ],
-  "achievements": {},
+  },
+  "leaderboards": {
+    "alltime": [
+      {
+        "u": "juicedracing",
+        "chips": 36097,
+        "net": 10,
+        "hands": 1,
+        "ach": 1
+      }
+    ],
+    "monthly": [
+      {
+        "u": "juicedracing",
+        "chips": 36097,
+        "net": 10,
+        "hands": 2,
+        "ach": 1
+      }
+    ],
+    "weekly": [
+      {
+        "u": "juicedracing",
+        "chips": 36097,
+        "net": 10,
+        "hands": 2,
+        "ach": 1
+      }
+    ],
+    "daily": [
+      {
+        "u": "juicedracing",
+        "chips": 36097,
+        "net": 10,
+        "hands": 2,
+        "ach": 1
+      }
+    ]
+  },
+  "daily_history": [],
+  "weekly_history": [],
+  "monthly_history": [],
+  "achievements": {
+    "stream": {
+      "five_card_charlie": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "natural_collector_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "natural_collector_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "natural_collector_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "natural_collector_100": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "exact21_hits_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "exact21_hits_30": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "exact21_hits_75": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "twenty_winner_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "twenty_winner_20": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "twenty_winner_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "pushes_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "pushes_20": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "pushes_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "hot_streak_3": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "hot_streak_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "hot_streak_8": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "hot_streak_12": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "cold_spell_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "cold_spell_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "comeback_3": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "feast_or_famine": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "high_roller_50k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "high_roller_100k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "high_roller_250k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "high_roller_500k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "min_bet_master": {
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
+        "latest": {
+          "u": "juicedracing",
+          "d": "2026-04-25"
+        }
+      },
+      "exact_change_win": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "big_nerve_win": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "steady_grinder_session_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "double_or_nothing": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "patient_money": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "escalator": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "chip_tipper": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_100k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_250k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_500k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_1m": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_10m": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "bank_builder_100m": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "rags_to_riches_session": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "riches_to_rags_session": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "roller_coaster_session": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "big_swing_session_50k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "big_swing_session_200k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "big_swing_session_500k": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "marathoner_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "marathoner_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "marathoner_100": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_200": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_500": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_1000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_5000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "grinder_10000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "regular_days_3": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "regular_days_7": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "regular_days_14": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "regular_days_30": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "regular_days_100": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "two_card_20_win_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "triple_hit_win": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "quad_hit_win": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "lucky_escape": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "lucky_escape_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "crowd_pleaser_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "crowd_pleaser_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "table_dominator": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "table_dominator_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "last_one_standing": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_pair_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_two_pair_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_trips_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_straight_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_flush_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_full_house_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_quads_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_straight_flush_any": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_100": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_250": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_500": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_1000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_2500": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_5000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_vol_10000": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_straight_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_straight_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_full_house_5": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_full_house_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_quads_3": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_quads_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_sf_3": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_sf_10": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_bonus_50": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_bonus_100": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_salvation": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "poker_salvation_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "clean_poker_win": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "clean_poker_win_25": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      },
+      "royal_treatment": {
+        "total": 0,
+        "holders": [],
+        "latest": {
+          "u": "—",
+          "d": "—"
+        }
+      }
+    },
+    "players": {
+      "juicedracing": {
+        "min_bet_master": "2026-04-25"
+      }
+    },
+    "recent_unlocks": [
+      {
+        "id": "min_bet_master",
+        "u": "juicedracing",
+        "d": "2026-04-25"
+      }
+    ]
+  },
   "catalog": [
     {
       "id": "five_card_charlie",
@@ -726,33 +1623,36 @@
       "rule": "Hit Quads or Straight Flush twice in one session."
     }
   ],
-  "hof": {
-    "biggest_stack": {
-      "user": "juicedracing",
-      "amount": 36077
-    },
-    "best_net": {
-      "user": "juicedracing",
-      "amount": -10
-    },
-    "most_hands": {
-      "user": "juicedracing",
-      "amount": 1
-    },
-    "most_ach": {
-      "user": null,
-      "amount": 0
-    },
-    "biggest_bet": {
-      "user": "juicedracing",
-      "amount": 10
-    },
-    "biggest_win": {
-      "user": null,
-      "amount": 0
-    }
-  },
   "recent_hands": [
+    {
+      "ts": 1777159937.216597,
+      "date": "2026-04-25",
+      "player": "juicedracing",
+      "bet": 20,
+      "balance_before": 36077,
+      "result": "win",
+      "net_delta": 20,
+      "player_cards": [
+        "10♥",
+        "J♣"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "6♠",
+        "A♣"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "min_bet_master"
+      ]
+    },
     {
       "ts": 1777159264.9681542,
       "date": "2026-04-25",
@@ -783,6 +1683,5 @@
       "poker_bonus": 0,
       "achievements_earned": []
     }
-  ],
-  "recent_unlocks": []
+  ]
 }
