@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T02:25:18.493051+00:00",
-    "total_catches": 21723,
+    "generated_at": "2026-04-25T02:30:27.122586+00:00",
+    "total_catches": 21725,
     "unique_catches": 368,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21723 catches"
+      "sub": "Since launch - 21725 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 93740,
-        "c": 1176,
-        "casts": 1176,
+        "g": 93922,
+        "c": 1177,
+        "casts": 1177,
         "l": "Apr 25 2026"
       },
       {
@@ -2890,6 +2890,14 @@
         "l": "Jan 07 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 217,
+        "c": 6,
+        "casts": 6,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "banishedmallard",
         "n": "banishedmallard",
         "g": 217,
@@ -3040,14 +3048,6 @@
         "c": 1,
         "casts": 1,
         "l": "Dec 01 2025"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 200,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 19 2026"
       },
       {
         "u": "will_dames",
@@ -6196,19 +6196,19 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 4480,
+        "c": 56,
+        "casts": 56,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
         "g": 4380,
         "c": 73,
         "casts": 73,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 4298,
-        "c": 55,
-        "casts": 55,
         "l": "Apr 25 2026"
       },
       {
@@ -6384,9 +6384,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 4298,
-        "c": 55,
-        "casts": 55,
+        "g": 4480,
+        "c": 56,
+        "casts": 56,
         "l": "Apr 25 2026"
       },
       {
@@ -6574,21 +6574,21 @@
         "l": "Apr 21 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 10,
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 17,
         "c": 1,
         "casts": 1,
-        "l": "Apr 21 2026"
+        "l": "Apr 25 2026"
       }
     ],
     "daily": [
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 806,
-        "c": 15,
-        "casts": 15,
+        "g": 988,
+        "c": 16,
+        "casts": 16,
         "l": "Apr 25 2026"
       },
       {
@@ -6667,6 +6667,14 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 25 2026"
+      },
+      {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 17,
         "c": 1,
         "casts": 1,
         "l": "Apr 25 2026"
@@ -9850,11 +9858,11 @@
         "d": "Apr 21 2026"
       },
       {
-        "n": "nellafella",
-        "i": "Single Seat Radio",
-        "v": 10,
-        "r": "Junk",
-        "d": "Apr 21 2026"
+        "n": "cattabolic",
+        "i": "Bristol Motor Speedway",
+        "v": 17,
+        "r": "Common",
+        "d": "Apr 25 2026"
       }
     ],
     "daily": [
@@ -9932,6 +9940,13 @@
         "n": "gatoraintplaying",
         "i": "Bubbly",
         "v": 18,
+        "r": "Common",
+        "d": "Apr 25 2026"
+      },
+      {
+        "n": "cattabolic",
+        "i": "Bristol Motor Speedway",
+        "v": 17,
         "r": "Common",
         "d": "Apr 25 2026"
       },
@@ -20088,7 +20103,7 @@
       "n": "Duck Duck Ghoul",
       "custom": false,
       "r": "Epic",
-      "c": 23,
+      "c": 24,
       "h": "notori0usxtkt",
       "v": 200,
       "w": 2.22
@@ -22005,7 +22020,7 @@
       "n": "Bristol Motor Speedway",
       "custom": true,
       "r": "Common",
-      "c": 125,
+      "c": 126,
       "h": "scriptedpr",
       "v": 17,
       "w": 225.65
@@ -24821,7 +24836,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You wrecked in turn 1, fuck this track!",
-      "c": 125,
+      "c": 126,
       "rec": "225.65 lb",
       "v": 17
     },
@@ -25127,7 +25142,7 @@
       "r": "Epic",
       "custom": false,
       "desc": "",
-      "c": 23,
+      "c": 24,
       "rec": "2.22 lb",
       "v": 200
     },
@@ -25927,6 +25942,22 @@
   "recent": [
     {
       "u": "motionless",
+      "i": "Duck Duck Ghoul",
+      "w": 2.02,
+      "v": 182,
+      "r": "Epic",
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "cattabolic",
+      "i": "Bristol Motor Speedway",
+      "w": 221.06,
+      "v": 17,
+      "r": "Common",
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "motionless",
       "i": "Branch",
       "w": 0.53,
       "v": 2,
@@ -26507,22 +26538,6 @@
       "w": 108.76,
       "v": 109,
       "r": "Rare",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Duck Duck Ghoul",
-      "w": 2.05,
-      "v": 185,
-      "r": "Epic",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Rookie License",
-      "w": 0.99,
-      "v": 25,
-      "r": "Common",
       "d": "Apr 23 2026"
     }
   ]
