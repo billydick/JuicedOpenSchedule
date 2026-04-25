@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T03:56:49.232230+00:00",
-    "total_catches": 21783,
+    "generated_at": "2026-04-25T03:57:53.563178+00:00",
+    "total_catches": 21784,
     "unique_catches": 369,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21783 catches"
+      "sub": "Since launch - 21784 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -2106,6 +2106,14 @@
         "l": "May 29 2025"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 472,
+        "c": 15,
+        "casts": 15,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "redline_will",
         "n": "redline_will",
         "g": 472,
@@ -2168,14 +2176,6 @@
         "c": 4,
         "casts": 4,
         "l": "Nov 24 2024"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 447,
-        "c": 14,
-        "casts": 14,
-        "l": "Apr 25 2026"
       },
       {
         "u": "oddfella9000",
@@ -6356,20 +6356,20 @@
         "l": "Apr 23 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 472,
+        "c": 15,
+        "casts": 15,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "ten23graphics",
         "n": "ten23graphics",
         "g": 450,
         "c": 1,
         "casts": 1,
         "l": "Apr 12 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 447,
-        "c": 14,
-        "casts": 14,
-        "l": "Apr 25 2026"
       },
       {
         "u": "aquadays",
@@ -6542,6 +6542,14 @@
         "l": "Apr 21 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 227,
+        "c": 9,
+        "casts": 9,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 209,
@@ -6555,14 +6563,6 @@
         "g": 208,
         "c": 1,
         "casts": 1,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 202,
-        "c": 8,
-        "casts": 8,
         "l": "Apr 25 2026"
       },
       {
@@ -6696,6 +6696,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 59,
+        "c": 4,
+        "casts": 4,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 59,
@@ -6725,14 +6733,6 @@
         "g": 44,
         "c": 2,
         "casts": 2,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 34,
-        "c": 3,
-        "casts": 3,
         "l": "Apr 25 2026"
       },
       {
@@ -10020,16 +10020,16 @@
         "d": "Apr 25 2026"
       },
       {
-        "n": "evangel0203",
-        "i": "Barracuda",
+        "n": "v1per_simr4cin6",
+        "i": "Black Redeye",
         "v": 25,
         "r": "Common",
         "d": "Apr 25 2026"
       },
       {
-        "n": "v1per_simr4cin6",
-        "i": "Hermit Crab",
-        "v": 22,
+        "n": "evangel0203",
+        "i": "Barracuda",
+        "v": 25,
         "r": "Common",
         "d": "Apr 25 2026"
       },
@@ -21926,7 +21926,7 @@
       "n": "Black Redeye",
       "custom": false,
       "r": "Common",
-      "c": 156,
+      "c": 157,
       "h": "riflehog",
       "v": 34,
       "w": 44.83
@@ -23095,7 +23095,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 156,
+      "c": 157,
       "rec": "44.83 lb",
       "v": 34
     },
@@ -26054,6 +26054,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Black Redeye",
+      "w": 33.14,
+      "v": 25,
+      "r": "Common",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "kermit4life85",
       "i": "Oyster",
       "w": 0.46,
@@ -26643,14 +26651,6 @@
       "w": 24.95,
       "v": 42,
       "r": "Uncommon",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Keys",
-      "w": 0.18,
-      "v": 9,
-      "r": "Junk",
       "d": "Apr 25 2026"
     }
   ]
