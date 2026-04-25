@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T02:19:06.052632+00:00",
-    "total_catches": 21718,
+    "generated_at": "2026-04-25T02:20:09.775520+00:00",
+    "total_catches": 21720,
     "unique_catches": 368,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21718 catches"
+      "sub": "Since launch - 21720 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -716,10 +716,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 6060,
-        "c": 81,
-        "casts": 81,
-        "l": "Apr 23 2026"
+        "g": 6071,
+        "c": 82,
+        "casts": 82,
+        "l": "Apr 25 2026"
       },
       {
         "u": "loosewheel0",
@@ -1732,9 +1732,9 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 812,
-        "c": 18,
-        "casts": 18,
+        "g": 819,
+        "c": 19,
+        "casts": 19,
         "l": "Apr 25 2026"
       },
       {
@@ -6286,9 +6286,9 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 812,
-        "c": 18,
-        "casts": 18,
+        "g": 819,
+        "c": 19,
+        "casts": 19,
         "l": "Apr 25 2026"
       },
       {
@@ -6302,10 +6302,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 644,
-        "c": 6,
-        "casts": 6,
-        "l": "Apr 23 2026"
+        "g": 655,
+        "c": 7,
+        "casts": 7,
+        "l": "Apr 25 2026"
       },
       {
         "u": "rhetti_",
@@ -6496,9 +6496,9 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 248,
-        "c": 4,
-        "casts": 4,
+        "g": 255,
+        "c": 5,
+        "casts": 5,
         "l": "Apr 25 2026"
       },
       {
@@ -6528,10 +6528,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 150,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 23 2026"
+        "g": 161,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 25 2026"
       },
       {
         "u": "azsuperbeast",
@@ -6634,9 +6634,9 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 125,
-        "c": 2,
-        "casts": 2,
+        "g": 132,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 25 2026"
       },
       {
@@ -6677,6 +6677,14 @@
         "g": 12,
         "c": 2,
         "casts": 2,
+        "l": "Apr 25 2026"
+      },
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
         "l": "Apr 25 2026"
       },
       {
@@ -9925,6 +9933,13 @@
         "i": "Bubbly",
         "v": 18,
         "r": "Common",
+        "d": "Apr 25 2026"
+      },
+      {
+        "n": "rms_racing",
+        "i": "Safety Wire",
+        "v": 11,
+        "r": "Junk",
         "d": "Apr 25 2026"
       },
       {
@@ -22023,6 +22038,15 @@
       "w": 1.13
     },
     {
+      "n": "Safety Wire",
+      "custom": true,
+      "r": "Common",
+      "c": 152,
+      "h": "rms_racing",
+      "v": 11,
+      "w": 2.26
+    },
+    {
       "n": "Single Seat Radio",
       "custom": true,
       "r": "Common",
@@ -22030,15 +22054,6 @@
       "h": "1disruptiveduck",
       "v": 11,
       "w": 2.26
-    },
-    {
-      "n": "Safety Wire",
-      "custom": true,
-      "r": "Common",
-      "c": 151,
-      "h": "stiggy_icky_icky",
-      "v": 11,
-      "w": 2.25
     },
     {
       "n": "Annoying iRacer kid",
@@ -22368,7 +22383,7 @@
       "n": "Traffic Cone",
       "custom": false,
       "r": "Junk",
-      "c": 108,
+      "c": 109,
       "h": "benwysard",
       "v": 9,
       "w": 1.13
@@ -22754,7 +22769,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 108,
+      "c": 109,
       "rec": "1.13 lb",
       "v": 9
     },
@@ -24077,8 +24092,8 @@
       "r": "Junk",
       "custom": true,
       "desc": "1 lb. spool of .032″ diameter stainless wire",
-      "c": 151,
-      "rec": "2.25 lb",
+      "c": 152,
+      "rec": "2.26 lb",
       "v": 11
     },
     {
@@ -25911,6 +25926,22 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Safety Wire",
+      "w": 2.26,
+      "v": 11,
+      "r": "Junk",
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "ikatipoi",
+      "i": "Traffic Cone",
+      "w": 0.91,
+      "v": 7,
+      "r": "Junk",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "ironlegacy_",
       "i": "Harrison Burton",
       "w": 10.69,
@@ -26492,22 +26523,6 @@
       "w": 1.0,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Blue Discus",
-      "w": 0.19,
-      "v": 19,
-      "r": "Common",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Peacock Bass",
-      "w": 7.72,
-      "v": 48,
-      "r": "Uncommon",
       "d": "Apr 23 2026"
     }
   ]
