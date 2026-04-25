@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T00:12:07.436095+00:00",
-    "total_catches": 21666,
+    "generated_at": "2026-04-25T00:41:38.659014+00:00",
+    "total_catches": 21667,
     "unique_catches": 367,
     "total_players": 736,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21666 catches"
+      "sub": "Since launch - 21667 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 92934,
-        "c": 1161,
-        "casts": 1161,
-        "l": "Apr 23 2026"
+        "g": 92943,
+        "c": 1162,
+        "casts": 1162,
+        "l": "Apr 25 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6206,10 +6206,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 3492,
-        "c": 40,
-        "casts": 40,
-        "l": "Apr 23 2026"
+        "g": 3501,
+        "c": 41,
+        "casts": 41,
+        "l": "Apr 25 2026"
       },
       {
         "u": "flippy00",
@@ -6384,10 +6384,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 3492,
-        "c": 40,
-        "casts": 40,
-        "l": "Apr 23 2026"
+        "g": 3501,
+        "c": 41,
+        "casts": 41,
+        "l": "Apr 25 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6582,7 +6582,16 @@
         "l": "Apr 22 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 9,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 25 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9744,7 +9753,15 @@
         "d": "Apr 22 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "motionless",
+        "i": "Castrol SRF Racing Brake Fluid",
+        "v": 9,
+        "r": "Junk",
+        "d": "Apr 25 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21843,7 +21860,7 @@
       "n": "Castrol SRF Racing Brake Fluid",
       "custom": true,
       "r": "Common",
-      "c": 171,
+      "c": 172,
       "h": "pvtcrackpot",
       "v": 11,
       "w": 1.13
@@ -23885,7 +23902,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Used in racing, from Formula One, sports cars, V8 Supercar and Grand Prix and Superbikes",
-      "c": 171,
+      "c": 172,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -25701,6 +25718,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Castrol SRF Racing Brake Fluid",
+      "w": 0.94,
+      "v": 9,
+      "r": "Junk",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "AJ Rosini",
       "w": 51.47,
@@ -26290,14 +26315,6 @@
       "w": 120.65,
       "v": 200,
       "r": "Rare",
-      "d": "Apr 23 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Keys",
-      "w": 0.22,
-      "v": 11,
-      "r": "Junk",
       "d": "Apr 23 2026"
     }
   ]
