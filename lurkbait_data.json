@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T03:02:51.339577+00:00",
-    "total_catches": 21751,
+    "generated_at": "2026-04-25T03:03:55.025237+00:00",
+    "total_catches": 21752,
     "unique_catches": 369,
     "total_players": 737,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21751 catches"
+      "sub": "Since launch - 21752 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -770,6 +770,14 @@
         "l": "Jan 25 2025"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 5447,
+        "c": 78,
+        "casts": 78,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "o7buck",
         "n": "o7buck",
         "g": 5426,
@@ -784,14 +792,6 @@
         "c": 69,
         "casts": 69,
         "l": "Jan 02 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 5211,
-        "c": 77,
-        "casts": 77,
-        "l": "Apr 25 2026"
       },
       {
         "u": "the_miggi",
@@ -6190,9 +6190,9 @@
       {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
-        "g": 5211,
-        "c": 77,
-        "casts": 77,
+        "g": 5447,
+        "c": 78,
+        "casts": 78,
         "l": "Apr 25 2026"
       },
       {
@@ -6406,19 +6406,19 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 2158,
+        "c": 32,
+        "casts": 32,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 1936,
         "c": 28,
         "casts": 28,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 1922,
-        "c": 31,
-        "casts": 31,
         "l": "Apr 25 2026"
       },
       {
@@ -6600,19 +6600,19 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "ineffabledecibel",
+        "n": "ineffabledecibel",
+        "g": 1016,
+        "c": 16,
+        "casts": 16,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 927,
         "c": 10,
         "casts": 10,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 780,
-        "c": 15,
-        "casts": 15,
         "l": "Apr 25 2026"
       },
       {
@@ -9607,6 +9607,13 @@
         "d": "Apr 17 2026"
       },
       {
+        "n": "ineffabledecibel",
+        "i": "Simucube ActivePedal",
+        "v": 236,
+        "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "sjbhomebrew",
         "i": "Frankie Muniz",
         "v": 229,
@@ -9633,13 +9640,6 @@
         "v": 224,
         "r": "Epic",
         "d": "Apr 14 2026"
-      },
-      {
-        "n": "ineffabledecibel",
-        "i": "Talladega",
-        "v": 223,
-        "r": "Epic",
-        "d": "Apr 25 2026"
       },
       {
         "n": "aquadays",
@@ -9742,6 +9742,13 @@
         "d": "Apr 23 2026"
       },
       {
+        "n": "ineffabledecibel",
+        "i": "Simucube ActivePedal",
+        "v": 236,
+        "r": "Epic",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "sjbhomebrew",
         "i": "Frankie Muniz",
         "v": 229,
@@ -9754,13 +9761,6 @@
         "v": 224,
         "r": "Rare",
         "d": "Apr 21 2026"
-      },
-      {
-        "n": "ineffabledecibel",
-        "i": "Talladega",
-        "v": 223,
-        "r": "Epic",
-        "d": "Apr 25 2026"
       },
       {
         "n": "brookswhynot",
@@ -9892,8 +9892,8 @@
     "daily": [
       {
         "n": "ineffabledecibel",
-        "i": "Talladega",
-        "v": 223,
+        "i": "Simucube ActivePedal",
+        "v": 236,
         "r": "Epic",
         "d": "Apr 25 2026"
       },
@@ -19625,10 +19625,10 @@
       "n": "Simucube ActivePedal",
       "custom": true,
       "r": "Legendary",
-      "c": 36,
-      "h": "dontuu",
-      "v": 235,
-      "w": 3.35
+      "c": 37,
+      "h": "ineffabledecibel",
+      "v": 236,
+      "w": 3.37
     },
     {
       "n": "Singing Fish",
@@ -24646,9 +24646,9 @@
       "r": "Epic",
       "custom": true,
       "desc": "Designed to cater to the sim racing enthusiast’s needs.",
-      "c": 36,
-      "rec": "3.35 lb",
-      "v": 235
+      "c": 37,
+      "rec": "3.37 lb",
+      "v": 236
     },
     {
       "n": "Double Adjustable Steel J-Bar",
@@ -26003,6 +26003,14 @@
   ],
   "recent": [
     {
+      "u": "ineffabledecibel",
+      "i": "Simucube ActivePedal",
+      "w": 3.37,
+      "v": 236,
+      "r": "Epic",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "Black Flag",
       "w": 0.85,
@@ -26592,14 +26600,6 @@
       "w": 0.11,
       "v": 11,
       "r": "Common",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Bonytail Chub",
-      "w": 3.16,
-      "v": 84,
-      "r": "Rare",
       "d": "Apr 25 2026"
     }
   ]
