@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-25T03:40:12.966596+00:00",
-    "total_catches": 21773,
+    "generated_at": "2026-04-25T03:45:21.516037+00:00",
+    "total_catches": 21775,
     "unique_catches": 369,
-    "total_players": 737,
+    "total_players": 738,
     "dex_total": 375,
     "caught_total": 369,
     "dex_completion": 98.4,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21773 catches"
+      "sub": "Since launch - 21775 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 94663,
-        "c": 1188,
-        "casts": 1188,
+        "g": 94830,
+        "c": 1189,
+        "casts": 1189,
         "l": "Apr 25 2026"
       },
       {
@@ -5626,6 +5626,14 @@
         "l": "Mar 22 2025"
       },
       {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 25 2026"
+      },
+      {
         "u": "fatslothslim",
         "n": "fatslothslim",
         "g": 10,
@@ -6198,9 +6206,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 5221,
-        "c": 67,
-        "casts": 67,
+        "g": 5388,
+        "c": 68,
+        "casts": 68,
         "l": "Apr 25 2026"
       },
       {
@@ -6392,9 +6400,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 5221,
-        "c": 67,
-        "casts": 67,
+        "g": 5388,
+        "c": 68,
+        "casts": 68,
         "l": "Apr 25 2026"
       },
       {
@@ -6594,9 +6602,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1729,
-        "c": 27,
-        "casts": 27,
+        "g": 1896,
+        "c": 28,
+        "casts": 28,
         "l": "Apr 25 2026"
       },
       {
@@ -6723,6 +6731,14 @@
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 25,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 25 2026"
+      },
+      {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Apr 25 2026"
@@ -10018,6 +10034,13 @@
         "d": "Apr 25 2026"
       },
       {
+        "n": "forthe_lul",
+        "i": "Trolley",
+        "v": 10,
+        "r": "Junk",
+        "d": "Apr 25 2026"
+      },
+      {
         "n": "darkhorizon35",
         "i": "Coffee Cup",
         "v": 2,
@@ -10029,7 +10052,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 737,
+        "total": 738,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10767,10 +10790,11 @@
           "azsuperbeast",
           "evangel0203",
           "turbosnail87",
-          "iz1ggy"
+          "iz1ggy",
+          "forthe_lul"
         ],
         "latest": {
-          "u": "iz1ggy",
+          "u": "forthe_lul",
           "d": "Apr 25 2026"
         }
       },
@@ -19134,6 +19158,9 @@
       "iz1ggy": {
         "broke_in": "Apr 25 2026",
         "custom_catch": "Apr 25 2026"
+      },
+      "forthe_lul": {
+        "broke_in": "Apr 25 2026"
       }
     },
     "recent_unlocks": [
@@ -19856,7 +19883,7 @@
       "n": "Buddy Baker",
       "custom": true,
       "r": "Epic",
-      "c": 42,
+      "c": 43,
       "h": "flippy00",
       "v": 224,
       "w": 28.19
@@ -22412,7 +22439,7 @@
       "n": "Trolley",
       "custom": false,
       "r": "Junk",
-      "c": 140,
+      "c": 141,
       "h": "thebtm1",
       "v": 11,
       "w": 22.57
@@ -22636,6 +22663,15 @@
       "best_n": "Phoenix Raceway",
       "best_r": "Epic",
       "best_v": 208,
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "forthe_lul",
+      "g": 10,
+      "c": 1,
+      "best_n": "Trolley",
+      "best_r": "Junk",
+      "best_v": 10,
       "d": "Apr 25 2026"
     }
   ],
@@ -23419,7 +23455,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 140,
+      "c": 141,
       "rec": "22.57 lb",
       "v": 11
     },
@@ -24409,7 +24445,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Dude was fast as shit, nickname was \"Lead Foot\"",
-      "c": 42,
+      "c": 43,
       "rec": "28.19 lb",
       "v": 224
     },
@@ -26018,6 +26054,22 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Buddy Baker",
+      "w": 20.93,
+      "v": 167,
+      "r": "Rare",
+      "d": "Apr 25 2026"
+    },
+    {
+      "u": "forthe_lul",
+      "i": "Trolley",
+      "w": 20.7,
+      "v": 10,
+      "r": "Junk",
+      "d": "Apr 25 2026"
+    },
+    {
       "u": "kermit4life85",
       "i": "Pineapple",
       "w": 0.93,
@@ -26599,22 +26651,6 @@
       "w": 8.15,
       "v": 164,
       "r": "Epic",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Double Adjustable Steel J-Bar",
-      "w": 2.0,
-      "v": 50,
-      "r": "Uncommon",
-      "d": "Apr 25 2026"
-    },
-    {
-      "u": "kermit4life85",
-      "i": "Streaked Spinefoot",
-      "w": 0.16,
-      "v": 32,
-      "r": "Uncommon",
       "d": "Apr 25 2026"
     }
   ]
