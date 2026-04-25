@@ -180,7 +180,7 @@ function lbThumb(name,isCustom){
     var data=lbGetData();
     var tg=data.reduce(function(a,p){return a+p.g},0);
     var tc=data.reduce(function(a,p){return a+p.c},0);
-    document.getElementById('lb-comp-banner').innerHTML=
+    var _banner=document.getElementById('lb-comp-banner'); if(_banner) _banner.innerHTML=
       '<div class="lb-comp-banner">'+
         '<div>'+
           '<div class="lb-comp-eyebrow">Competition Window</div>'+
@@ -267,11 +267,11 @@ function lbThumb(name,isCustom){
     }
     var maxG = filtered[0]?filtered[0].g:1;
     if(visible.length===0){
-      document.getElementById('lb-ldr-body').innerHTML='<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:40px 20px;text-align:center">No catches for this period</div>';
+      var _ldrBody=document.getElementById('lb-ldr-body'); if(_ldrBody) _ldrBody.innerHTML='<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,255,.2);padding:40px 20px;text-align:center">No catches for this period</div>';
       if(loadWrap) loadWrap.style.display='none';
       return;
     }
-    document.getElementById('lb-ldr-body').innerHTML=visible.map(function(p,i){
+    var _ldrBody2=document.getElementById('lb-ldr-body'); if(_ldrBody2) _ldrBody2.innerHTML=visible.map(function(p,i){
       var rank=i+1;
       var col, sz, bg;
       if(rank===1){col='#FF8000';sz='36px';bg='linear-gradient(90deg,rgba(255,128,0,0.08) 0%,transparent 60%)';}
@@ -320,7 +320,7 @@ function lbThumb(name,isCustom){
     html += card('Most Gold — Single Day', ar.best_day_gold&&ar.best_day_gold.u, fmt(ar.best_day_gold&&ar.best_day_gold.n)+' g', ar.best_day_gold&&ar.best_day_gold.period);
     html += card('Most Gold — Single Week', ar.best_week_gold&&ar.best_week_gold.u, fmt(ar.best_week_gold&&ar.best_week_gold.n)+' g', 'Week of '+(ar.best_week_gold&&ar.best_week_gold.period));
     html += card('Most Gold — Single Month', ar.best_month_gold&&ar.best_month_gold.u, fmt(ar.best_month_gold&&ar.best_month_gold.n)+' g', ar.best_month_gold&&ar.best_month_gold.period);
-    document.getElementById('lb-ar-grid').innerHTML = html || '<div style="color:rgba(200,200,255,.2);font-family:\'Barlow Condensed\',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No data yet</div>';
+    var _arGrid=document.getElementById('lb-ar-grid'); if(_arGrid) _arGrid.innerHTML = html || '<div style="color:rgba(200,200,255,.2);font-family:\'Barlow Condensed\',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No data yet</div>';
   }
   window.lbFilterDex=function(r,btn){
     lbDexFilter=r;
@@ -345,7 +345,7 @@ function lbThumb(name,isCustom){
       var ra=RARITY_ORDER.indexOf(a.r),rb=RARITY_ORDER.indexOf(b.r);
       return ra!==rb?ra-rb:a.n.localeCompare(b.n);
     });
-    document.getElementById('lb-dex-grid').innerHTML=items.map(function(d){
+    var _dexGrid=document.getElementById('lb-dex-grid'); if(_dexGrid) _dexGrid.innerHTML=items.map(function(d){
       var col=RC[d.r]||'#888';
       var img=lbThumb(d.n,d.custom);
       return '<div class="lb-dex-card">'+
@@ -371,7 +371,7 @@ function lbThumb(name,isCustom){
     });
   }
   function lbRenderRecent(){
-    document.getElementById('lb-recent-feed').innerHTML=(LB_DB.recent||[]).map(function(r){
+    var _recentFeed=document.getElementById('lb-recent-feed'); if(_recentFeed) _recentFeed.innerHTML=(LB_DB.recent||[]).map(function(r){
       var col=RC[r.r]||'#888';
       return '<div class="lb-recent-row">'+
         '<div class="lb-recent-dot" style="background:'+col+';box-shadow:0 0 6px '+col+'66"></div>'+
@@ -385,7 +385,7 @@ function lbThumb(name,isCustom){
   }
   function lbRenderNewAnglers(){
     var anglers = LB_DB.new_anglers || [];
-    document.getElementById('lb-newanglers-feed').innerHTML = anglers.length === 0
+    var _newFeed=document.getElementById('lb-newanglers-feed'); if(_newFeed) _newFeed.innerHTML = anglers.length === 0
       ? '<div style="color:rgba(200,200,255,.2);font-family:\'Barlow Condensed\',sans-serif;padding:40px;letter-spacing:2px;text-transform:uppercase;font-size:12px">No new anglers this week</div>'
       : anglers.map(function(a){
           var col = RC[a.best_r] || '#888';
