@@ -176,11 +176,13 @@ function lbThumb(name,isCustom){
     window.scrollTo(0,_sy);
   };
   function lbRenderBanner(){
+    var _banner=document.getElementById('lb-comp-banner');
+    if(!_banner) return;
     var m=(LB_DB.competition_meta && LB_DB.competition_meta[lbCurTime]) || {label:'Competition',sub:''};
     var data=lbGetData();
     var tg=data.reduce(function(a,p){return a+p.g},0);
     var tc=data.reduce(function(a,p){return a+p.c},0);
-    var _banner=document.getElementById('lb-comp-banner'); if(_banner) _banner.innerHTML=
+    _banner.innerHTML=
       '<div class="lb-comp-banner">'+
         '<div>'+
           '<div class="lb-comp-eyebrow">Competition Window</div>'+
