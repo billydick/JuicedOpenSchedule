@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T03:33:43Z",
+  "generated_at": "2026-04-26T03:34:38Z",
   "meta": {
-    "total_hands": 18,
+    "total_hands": 19,
     "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -57,10 +57,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5050,
-        "net": -1000,
-        "hands": 3,
-        "ach": 3
+        "chips": 5550,
+        "net": -550,
+        "hands": 4,
+        "ach": 4
       },
       {
         "u": "brookswhynot",
@@ -80,10 +80,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5050,
-        "net": -1000,
-        "hands": 3,
-        "ach": 3
+        "chips": 5550,
+        "net": -550,
+        "hands": 4,
+        "ach": 4
       },
       {
         "u": "ironlegacy_",
@@ -117,10 +117,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5050,
-        "net": -1000,
-        "hands": 3,
-        "ach": 3
+        "chips": 5550,
+        "net": -550,
+        "hands": 4,
+        "ach": 4
       },
       {
         "u": "ironlegacy_",
@@ -159,10 +159,10 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 5050,
-          "net": -1000,
-          "hands": 3,
-          "ach": 3
+          "chips": 5550,
+          "net": -550,
+          "hands": 4,
+          "ach": 4
         },
         {
           "u": "ironlegacy_",
@@ -406,10 +406,12 @@
         }
       },
       "min_bet_master": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "azsuperbeast"
+        ],
         "latest": {
-          "u": "juicedracing",
+          "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
@@ -1083,10 +1085,16 @@
       "azsuperbeast": {
         "poker_pair_any": "2026-04-25",
         "poker_salvation": "2026-04-25",
-        "roller_coaster_session": "2026-04-25"
+        "roller_coaster_session": "2026-04-25",
+        "min_bet_master": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "min_bet_master",
+        "u": "azsuperbeast",
+        "d": "2026-04-25"
+      },
       {
         "id": "roller_coaster_session",
         "u": "azsuperbeast",
@@ -1179,11 +1187,6 @@
       },
       {
         "id": "poker_pair_any",
-        "u": "ironlegacy_",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_salvation",
         "u": "ironlegacy_",
         "d": "2026-04-25"
       }
@@ -1906,6 +1909,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174478.9267921,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 450,
+      "balance_before": 5050,
+      "result": "win",
+      "net_delta": 450,
+      "player_cards": [
+        "10♦",
+        "6♥"
+      ],
+      "player_total": 16,
+      "hit_count": 0,
+      "dealer_cards": [
+        "3♣",
+        "A♦",
+        "2♠",
+        "10♣",
+        "6♣"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "min_bet_master"
+      ]
+    },
     {
       "ts": 1777174423.7805183,
       "date": "2026-04-25",
