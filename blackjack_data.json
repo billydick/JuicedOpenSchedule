@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T03:34:38Z",
+  "generated_at": "2026-04-26T03:36:41Z",
   "meta": {
-    "total_hands": 19,
+    "total_hands": 20,
     "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -57,9 +57,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5550,
-        "net": -550,
-        "hands": 4,
+        "chips": 5500,
+        "net": -700,
+        "hands": 5,
         "ach": 4
       },
       {
@@ -80,9 +80,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5550,
-        "net": -550,
-        "hands": 4,
+        "chips": 5500,
+        "net": -700,
+        "hands": 5,
         "ach": 4
       },
       {
@@ -117,9 +117,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5550,
-        "net": -550,
-        "hands": 4,
+        "chips": 5500,
+        "net": -700,
+        "hands": 5,
         "ach": 4
       },
       {
@@ -159,9 +159,9 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 5550,
-          "net": -550,
-          "hands": 4,
+          "chips": 5500,
+          "net": -700,
+          "hands": 5,
           "ach": 4
         },
         {
@@ -1909,6 +1909,34 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174601.1866226,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 150,
+      "balance_before": 5600,
+      "result": "lose",
+      "net_delta": -150,
+      "player_cards": [
+        "J♦",
+        "4♦"
+      ],
+      "player_total": 14,
+      "hit_count": 0,
+      "dealer_cards": [
+        "K♥",
+        "2♣",
+        "5♠"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777174478.9267921,
       "date": "2026-04-25",
