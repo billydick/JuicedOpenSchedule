@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T04:04:24Z",
+  "generated_at": "2026-04-26T04:05:33Z",
   "meta": {
-    "total_hands": 28,
+    "total_hands": 29,
     "total_players": 6,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -63,18 +63,18 @@
         "ach": 0
       },
       {
-        "u": "azsuperbeast",
-        "chips": 5759,
-        "net": -1691,
-        "hands": 12,
-        "ach": 4
-      },
-      {
         "u": "brookswhynot",
         "chips": 3750,
         "net": -24875,
         "hands": 4,
         "ach": 9
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 50,
+        "net": -7500,
+        "hands": 13,
+        "ach": 4
       }
     ],
     "monthly": [
@@ -86,18 +86,18 @@
         "ach": 6
       },
       {
-        "u": "azsuperbeast",
-        "chips": 5759,
-        "net": -1691,
-        "hands": 12,
-        "ach": 4
-      },
-      {
         "u": "ironlegacy_",
         "chips": 21051,
         "net": -5000,
         "hands": 2,
         "ach": 2
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 50,
+        "net": -7500,
+        "hands": 13,
+        "ach": 4
       },
       {
         "u": "thesaucypanda2",
@@ -130,18 +130,18 @@
         "ach": 6
       },
       {
-        "u": "azsuperbeast",
-        "chips": 5759,
-        "net": -1691,
-        "hands": 12,
-        "ach": 4
-      },
-      {
         "u": "ironlegacy_",
         "chips": 21051,
         "net": -5000,
         "hands": 2,
         "ach": 2
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 50,
+        "net": -7500,
+        "hands": 13,
+        "ach": 4
       },
       {
         "u": "thesaucypanda2",
@@ -179,18 +179,18 @@
           "ach": 6
         },
         {
-          "u": "azsuperbeast",
-          "chips": 5759,
-          "net": -1691,
-          "hands": 12,
-          "ach": 4
-        },
-        {
           "u": "ironlegacy_",
           "chips": 21051,
           "net": -5000,
           "hands": 2,
           "ach": 2
+        },
+        {
+          "u": "azsuperbeast",
+          "chips": 50,
+          "net": -7500,
+          "hands": 13,
+          "ach": 4
         },
         {
           "u": "thesaucypanda2",
@@ -1937,6 +1937,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777176333.6406202,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 5809,
+      "balance_before": 5809,
+      "result": "lose",
+      "net_delta": -5809,
+      "player_cards": [
+        "5♠",
+        "7♦",
+        "3♠"
+      ],
+      "player_total": 15,
+      "hit_count": 1,
+      "dealer_cards": [
+        "6♥",
+        "6♠",
+        "A♥",
+        "A♣",
+        "5♣"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777176264.439138,
       "date": "2026-04-25",
