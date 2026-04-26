@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T05:02:49Z",
+  "generated_at": "2026-04-26T16:55:55Z",
   "meta": {
-    "total_hands": 32,
+    "total_hands": 33,
     "total_players": 7,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -38,50 +38,50 @@
         "u": "gatoraintplaying",
         "chips": 46200,
         "net": 36100,
-        "hands": 3,
-        "ach": 6
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "larcen22",
         "chips": 43354,
         "net": -3000,
-        "hands": 1,
+        "hands": 0,
         "ach": 0
       },
       {
         "u": "ironlegacy_",
         "chips": 21051,
         "net": -5000,
-        "hands": 2,
-        "ach": 2
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "juicedracing",
-        "chips": 10037,
-        "net": -41000,
-        "hands": 4,
-        "ach": 6
+        "chips": 10087,
+        "net": -41030,
+        "hands": 1,
+        "ach": 0
       },
       {
         "u": "thesaucypanda2",
         "chips": 7598,
         "net": -20000,
-        "hands": 1,
+        "hands": 0,
         "ach": 0
       },
       {
         "u": "brookswhynot",
-        "chips": 5200,
+        "chips": 5850,
         "net": -24875,
-        "hands": 4,
-        "ach": 9
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "azsuperbeast",
-        "chips": 3460,
+        "chips": 3710,
         "net": -6690,
-        "hands": 15,
-        "ach": 5
+        "hands": 0,
+        "ach": 0
       }
     ],
     "monthly": [
@@ -90,7 +90,7 @@
         "chips": 46200,
         "net": 36100,
         "hands": 3,
-        "ach": 6
+        "ach": 0
       },
       {
         "u": "larcen22",
@@ -104,14 +104,14 @@
         "chips": 21051,
         "net": -5000,
         "hands": 2,
-        "ach": 2
+        "ach": 0
       },
       {
         "u": "azsuperbeast",
-        "chips": 3460,
+        "chips": 3710,
         "net": -6690,
         "hands": 15,
-        "ach": 5
+        "ach": 0
       },
       {
         "u": "thesaucypanda2",
@@ -122,17 +122,17 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 5200,
+        "chips": 5850,
         "net": -24875,
         "hands": 4,
-        "ach": 9
+        "ach": 0
       },
       {
         "u": "juicedracing",
-        "chips": 10037,
-        "net": -41000,
-        "hands": 6,
-        "ach": 6
+        "chips": 10087,
+        "net": -41030,
+        "hands": 7,
+        "ach": 0
       }
     ],
     "weekly": [
@@ -141,7 +141,7 @@
         "chips": 46200,
         "net": 36100,
         "hands": 3,
-        "ach": 6
+        "ach": 0
       },
       {
         "u": "larcen22",
@@ -155,14 +155,14 @@
         "chips": 21051,
         "net": -5000,
         "hands": 2,
-        "ach": 2
+        "ach": 0
       },
       {
         "u": "azsuperbeast",
-        "chips": 3460,
+        "chips": 3710,
         "net": -6690,
         "hands": 15,
-        "ach": 5
+        "ach": 0
       },
       {
         "u": "thesaucypanda2",
@@ -173,20 +173,28 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 5200,
+        "chips": 5850,
         "net": -24875,
         "hands": 4,
-        "ach": 9
+        "ach": 0
       },
       {
         "u": "juicedracing",
-        "chips": 10037,
-        "net": -41000,
-        "hands": 6,
-        "ach": 6
+        "chips": 10087,
+        "net": -41030,
+        "hands": 7,
+        "ach": 0
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "chips": 10087,
+        "net": -30,
+        "hands": 1,
+        "ach": 0
+      }
+    ]
   },
   "daily_history": [
     {
@@ -197,7 +205,7 @@
           "chips": 46200,
           "net": 36100,
           "hands": 3,
-          "ach": 6
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -211,14 +219,14 @@
           "chips": 21051,
           "net": -5000,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "azsuperbeast",
-          "chips": 3460,
+          "chips": 3710,
           "net": -6690,
           "hands": 15,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "thesaucypanda2",
@@ -229,17 +237,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 5200,
+          "chips": 5850,
           "net": -24875,
           "hands": 4,
-          "ach": 9
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 10037,
+          "chips": 10087,
           "net": -41000,
           "hands": 6,
-          "ach": 6
+          "ach": 0
         }
       ]
     }
@@ -361,10 +369,8 @@
         }
       },
       "hot_streak_3": {
-        "total": 1,
-        "holders": [
-          "gatoraintplaying"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "gatoraintplaying",
           "d": "2026-04-25"
@@ -427,11 +433,8 @@
         }
       },
       "high_roller_50k": {
-        "total": 2,
-        "holders": [
-          "juicedracing",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -462,33 +465,24 @@
         }
       },
       "min_bet_master": {
-        "total": 1,
-        "holders": [
-          "azsuperbeast"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
       "exact_change_win": {
-        "total": 2,
-        "holders": [
-          "gatoraintplaying",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
         }
       },
       "big_nerve_win": {
-        "total": 3,
-        "holders": [
-          "juicedracing",
-          "gatoraintplaying",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -519,11 +513,8 @@
         }
       },
       "escalator": {
-        "total": 2,
-        "holders": [
-          "juicedracing",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -586,11 +577,8 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 2,
-        "holders": [
-          "juicedracing",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -605,23 +593,16 @@
         }
       },
       "roller_coaster_session": {
-        "total": 3,
-        "holders": [
-          "juicedracing",
-          "brookswhynot",
-          "azsuperbeast"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
       "big_swing_session_50k": {
-        "total": 2,
-        "holders": [
-          "juicedracing",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -780,11 +761,8 @@
         }
       },
       "lucky_escape": {
-        "total": 2,
-        "holders": [
-          "gatoraintplaying",
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-04-25"
@@ -815,11 +793,8 @@
         }
       },
       "table_dominator": {
-        "total": 2,
-        "holders": [
-          "brookswhynot",
-          "azsuperbeast"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "azsuperbeast",
           "d": "2026-04-25"
@@ -842,12 +817,8 @@
         }
       },
       "poker_pair_any": {
-        "total": 3,
-        "holders": [
-          "gatoraintplaying",
-          "ironlegacy_",
-          "azsuperbeast"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "azsuperbeast",
           "d": "2026-04-25"
@@ -1062,11 +1033,8 @@
         }
       },
       "poker_salvation": {
-        "total": 2,
-        "holders": [
-          "ironlegacy_",
-          "azsuperbeast"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "azsuperbeast",
           "d": "2026-04-25"
@@ -1081,10 +1049,8 @@
         }
       },
       "clean_poker_win": {
-        "total": 1,
-        "holders": [
-          "gatoraintplaying"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "gatoraintplaying",
           "d": "2026-04-25"
@@ -1107,46 +1073,7 @@
         }
       }
     },
-    "players": {
-      "juicedracing": {
-        "big_nerve_win": "2026-04-25",
-        "high_roller_50k": "2026-04-25",
-        "rags_to_riches_session": "2026-04-25",
-        "roller_coaster_session": "2026-04-25",
-        "big_swing_session_50k": "2026-04-25",
-        "escalator": "2026-04-25"
-      },
-      "gatoraintplaying": {
-        "exact_change_win": "2026-04-25",
-        "big_nerve_win": "2026-04-25",
-        "lucky_escape": "2026-04-25",
-        "poker_pair_any": "2026-04-25",
-        "clean_poker_win": "2026-04-25",
-        "hot_streak_3": "2026-04-25"
-      },
-      "ironlegacy_": {
-        "poker_pair_any": "2026-04-25",
-        "poker_salvation": "2026-04-25"
-      },
-      "brookswhynot": {
-        "exact_change_win": "2026-04-25",
-        "big_nerve_win": "2026-04-25",
-        "lucky_escape": "2026-04-25",
-        "table_dominator": "2026-04-25",
-        "rags_to_riches_session": "2026-04-25",
-        "roller_coaster_session": "2026-04-25",
-        "big_swing_session_50k": "2026-04-25",
-        "high_roller_50k": "2026-04-25",
-        "escalator": "2026-04-25"
-      },
-      "azsuperbeast": {
-        "poker_pair_any": "2026-04-25",
-        "poker_salvation": "2026-04-25",
-        "roller_coaster_session": "2026-04-25",
-        "min_bet_master": "2026-04-25",
-        "table_dominator": "2026-04-25"
-      }
-    },
+    "players": {},
     "recent_unlocks": [
       {
         "id": "table_dominator",
@@ -1967,6 +1894,35 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777222555.4887977,
+      "date": "2026-04-26",
+      "player": "juicedracing",
+      "bet": 30,
+      "balance_before": 10087,
+      "result": "bust",
+      "net_delta": -30,
+      "player_cards": [
+        "J♣",
+        "9♠",
+        "3♦"
+      ],
+      "player_total": 22,
+      "hit_count": 1,
+      "dealer_cards": [
+        "3♠",
+        "Q♥",
+        "Q♣"
+      ],
+      "dealer_total": 23,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777179769.287447,
       "date": "2026-04-25",
