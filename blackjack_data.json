@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-26T01:45:45Z",
+  "generated_at": "2026-04-26T03:29:52Z",
   "meta": {
-    "total_hands": 15,
-    "total_players": 4,
+    "total_hands": 16,
+    "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
       "amount": 99251
@@ -50,17 +50,24 @@
       },
       {
         "u": "juicedracing",
-        "chips": 287,
+        "chips": 5587,
         "net": -41000,
         "hands": 4,
         "ach": 6
       },
       {
         "u": "brookswhynot",
-        "chips": 50,
+        "chips": 3500,
         "net": -24875,
         "hands": 4,
         "ach": 9
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 73,
+        "net": -777,
+        "hands": 1,
+        "ach": 0
       }
     ],
     "monthly": [
@@ -72,6 +79,13 @@
         "ach": 6
       },
       {
+        "u": "azsuperbeast",
+        "chips": 73,
+        "net": -777,
+        "hands": 1,
+        "ach": 0
+      },
+      {
         "u": "ironlegacy_",
         "chips": 21051,
         "net": -5000,
@@ -80,14 +94,14 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 50,
+        "chips": 3500,
         "net": -24875,
         "hands": 4,
         "ach": 9
       },
       {
         "u": "juicedracing",
-        "chips": 287,
+        "chips": 5587,
         "net": -41000,
         "hands": 6,
         "ach": 6
@@ -102,6 +116,13 @@
         "ach": 6
       },
       {
+        "u": "azsuperbeast",
+        "chips": 73,
+        "net": -777,
+        "hands": 1,
+        "ach": 0
+      },
+      {
         "u": "ironlegacy_",
         "chips": 21051,
         "net": -5000,
@@ -110,14 +131,14 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 50,
+        "chips": 3500,
         "net": -24875,
         "hands": 4,
         "ach": 9
       },
       {
         "u": "juicedracing",
-        "chips": 287,
+        "chips": 5587,
         "net": -41000,
         "hands": 6,
         "ach": 6
@@ -137,6 +158,13 @@
           "ach": 6
         },
         {
+          "u": "azsuperbeast",
+          "chips": 73,
+          "net": -777,
+          "hands": 1,
+          "ach": 0
+        },
+        {
           "u": "ironlegacy_",
           "chips": 21051,
           "net": -5000,
@@ -145,14 +173,14 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3500,
           "net": -24875,
           "hands": 4,
           "ach": 9
         },
         {
           "u": "juicedracing",
-          "chips": 287,
+          "chips": 5587,
           "net": -41000,
           "hands": 6,
           "ach": 6
@@ -1870,6 +1898,35 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174192.0218709,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 777,
+      "balance_before": 800,
+      "result": "bust",
+      "net_delta": -777,
+      "player_cards": [
+        "5♥",
+        "10♦",
+        "J♦"
+      ],
+      "player_total": 25,
+      "hit_count": 1,
+      "dealer_cards": [
+        "3♣",
+        "K♣",
+        "Q♥"
+      ],
+      "dealer_total": 23,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777167945.574559,
       "date": "2026-04-25",
