@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T03:36:41Z",
+  "generated_at": "2026-04-26T03:37:48Z",
   "meta": {
-    "total_hands": 20,
+    "total_hands": 21,
     "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -49,18 +49,18 @@
         "ach": 2
       },
       {
+        "u": "azsuperbeast",
+        "chips": 5999,
+        "net": -251,
+        "hands": 6,
+        "ach": 4
+      },
+      {
         "u": "juicedracing",
         "chips": 5837,
         "net": -41000,
         "hands": 4,
         "ach": 6
-      },
-      {
-        "u": "azsuperbeast",
-        "chips": 5500,
-        "net": -700,
-        "hands": 5,
-        "ach": 4
       },
       {
         "u": "brookswhynot",
@@ -80,9 +80,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5500,
-        "net": -700,
-        "hands": 5,
+        "chips": 5999,
+        "net": -251,
+        "hands": 6,
         "ach": 4
       },
       {
@@ -117,9 +117,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 5500,
-        "net": -700,
-        "hands": 5,
+        "chips": 5999,
+        "net": -251,
+        "hands": 6,
         "ach": 4
       },
       {
@@ -159,9 +159,9 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 5500,
-          "net": -700,
-          "hands": 5,
+          "chips": 5999,
+          "net": -251,
+          "hands": 6,
           "ach": 4
         },
         {
@@ -1909,6 +1909,34 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174668.419086,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 449,
+      "balance_before": 5500,
+      "result": "win",
+      "net_delta": 449,
+      "player_cards": [
+        "K♦",
+        "9♦"
+      ],
+      "player_total": 19,
+      "hit_count": 0,
+      "dealer_cards": [
+        "2♦",
+        "8♥",
+        "7♥"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777174601.1866226,
       "date": "2026-04-25",
