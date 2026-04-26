@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-04-25T23:53:51Z",
+  "generated_at": "2026-04-26T00:17:00Z",
   "meta": {
-    "total_hands": 3,
+    "total_hands": 4,
     "total_players": 1,
     "biggest_bet": {
       "user": "juicedracing",
-      "amount": 20
+      "amount": 30000
     },
     "biggest_win": {
       "user": "juicedracing",
-      "amount": 20
+      "amount": 30000
     },
-    "top_chips": 36137,
+    "top_chips": 6187,
     "top_player": "juicedracing"
   },
   "competition_meta": {
     "daily": {
       "label": "Today",
-      "sub": "2026-04-25"
+      "sub": "2026-04-26"
     },
     "weekly": {
       "label": "This Week",
@@ -36,41 +36,46 @@
     "alltime": [
       {
         "u": "juicedracing",
-        "chips": 36137,
-        "net": 0,
-        "hands": 1,
-        "ach": 0
+        "chips": 6187,
+        "net": 30000,
+        "hands": 2,
+        "ach": 1
       }
     ],
     "monthly": [
       {
         "u": "juicedracing",
-        "chips": 36137,
-        "net": 0,
-        "hands": 3,
-        "ach": 0
+        "chips": 6187,
+        "net": 30000,
+        "hands": 4,
+        "ach": 1
       }
     ],
     "weekly": [
       {
         "u": "juicedracing",
-        "chips": 36137,
-        "net": 0,
-        "hands": 3,
-        "ach": 0
+        "chips": 6187,
+        "net": 30000,
+        "hands": 4,
+        "ach": 1
       }
     ],
-    "daily": [
-      {
-        "u": "juicedracing",
-        "chips": 36137,
-        "net": 0,
-        "hands": 3,
-        "ach": 0
-      }
-    ]
+    "daily": []
   },
-  "daily_history": [],
+  "daily_history": [
+    {
+      "label": "2026-04-25",
+      "leaderboard": [
+        {
+          "u": "juicedracing",
+          "chips": 6187,
+          "net": 30000,
+          "hands": 4,
+          "ach": 1
+        }
+      ]
+    }
+  ],
   "weekly_history": [],
   "monthly_history": [],
   "achievements": {
@@ -300,11 +305,13 @@
         }
       },
       "big_nerve_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "juicedracing",
+          "d": "2026-04-25"
         }
       },
       "steady_grinder_session_10": {
@@ -892,8 +899,17 @@
         }
       }
     },
-    "players": {},
+    "players": {
+      "juicedracing": {
+        "big_nerve_win": "2026-04-25"
+      }
+    },
     "recent_unlocks": [
+      {
+        "id": "big_nerve_win",
+        "u": "juicedracing",
+        "d": "2026-04-25"
+      },
       {
         "id": "min_bet_master",
         "u": "juicedracing",
@@ -1618,6 +1634,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777162620.7657204,
+      "date": "2026-04-25",
+      "player": "juicedracing",
+      "bet": 30000,
+      "balance_before": 36137,
+      "result": "win",
+      "net_delta": 30000,
+      "player_cards": [
+        "8♥",
+        "9♥"
+      ],
+      "player_total": 17,
+      "hit_count": 0,
+      "dealer_cards": [
+        "9♣",
+        "7♥",
+        "6♠"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "big_nerve_win"
+      ]
+    },
     {
       "ts": 1777161231.1549096,
       "date": "2026-04-25",
