@@ -427,7 +427,7 @@
     overlay.style.display='block';
     modal.style.display='block';
     document.body.style.overflow='hidden';
-  }
+  };
 
   // Event delegation for player name clicks
   (function(){
