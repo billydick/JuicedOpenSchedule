@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T00:35:39Z",
+  "generated_at": "2026-04-26T00:38:19Z",
   "meta": {
-    "total_hands": 6,
+    "total_hands": 7,
     "total_players": 2,
     "biggest_bet": {
       "user": "juicedracing",
@@ -43,42 +43,42 @@
       },
       {
         "u": "gatoraintplaying",
-        "chips": 31200,
-        "net": 21100,
-        "hands": 2,
-        "ach": 5
+        "chips": 46200,
+        "net": 36100,
+        "hands": 3,
+        "ach": 6
       }
     ],
     "monthly": [
       {
+        "u": "gatoraintplaying",
+        "chips": 46200,
+        "net": 36100,
+        "hands": 3,
+        "ach": 6
+      },
+      {
         "u": "juicedracing",
         "chips": 66187,
         "net": 30000,
         "hands": 4,
         "ach": 1
-      },
-      {
-        "u": "gatoraintplaying",
-        "chips": 31200,
-        "net": 21100,
-        "hands": 2,
-        "ach": 5
       }
     ],
     "weekly": [
       {
+        "u": "gatoraintplaying",
+        "chips": 46200,
+        "net": 36100,
+        "hands": 3,
+        "ach": 6
+      },
+      {
         "u": "juicedracing",
         "chips": 66187,
         "net": 30000,
         "hands": 4,
         "ach": 1
-      },
-      {
-        "u": "gatoraintplaying",
-        "chips": 31200,
-        "net": 21100,
-        "hands": 2,
-        "ach": 5
       }
     ],
     "daily": []
@@ -88,18 +88,18 @@
       "label": "2026-04-25",
       "leaderboard": [
         {
+          "u": "gatoraintplaying",
+          "chips": 46200,
+          "net": 36100,
+          "hands": 3,
+          "ach": 6
+        },
+        {
           "u": "juicedracing",
           "chips": 66187,
           "net": 30000,
           "hands": 4,
           "ach": 1
-        },
-        {
-          "u": "gatoraintplaying",
-          "chips": 31200,
-          "net": 21100,
-          "hands": 2,
-          "ach": 5
         }
       ]
     }
@@ -221,11 +221,13 @@
         }
       },
       "hot_streak_3": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "gatoraintplaying"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "gatoraintplaying",
+          "d": "2026-04-25"
         }
       },
       "hot_streak_5": {
@@ -945,10 +947,16 @@
         "big_nerve_win": "2026-04-25",
         "lucky_escape": "2026-04-25",
         "poker_pair_any": "2026-04-25",
-        "clean_poker_win": "2026-04-25"
+        "clean_poker_win": "2026-04-25",
+        "hot_streak_3": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "hot_streak_3",
+        "u": "gatoraintplaying",
+        "d": "2026-04-25"
+      },
       {
         "id": "poker_pair_any",
         "u": "gatoraintplaying",
@@ -1703,6 +1711,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777163899.4311662,
+      "date": "2026-04-25",
+      "player": "gatoraintplaying",
+      "bet": 15000,
+      "balance_before": 31200,
+      "result": "win",
+      "net_delta": 15000,
+      "player_cards": [
+        "5♣",
+        "K♣",
+        "2♦",
+        "3♦"
+      ],
+      "player_total": 20,
+      "hit_count": 2,
+      "dealer_cards": [
+        "5♥",
+        "K♥",
+        "K♠"
+      ],
+      "dealer_total": 25,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "hot_streak_3"
+      ]
+    },
     {
       "ts": 1777163739.3650446,
       "date": "2026-04-25",
