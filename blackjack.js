@@ -331,7 +331,7 @@
         return '<div class="bj-ldr-row" style="background:'+bg+'">'+
           '<div class="bj-ldr-rank" style="color:'+col+';font-size:'+sz+'">'+rank+'</div>'+
           '<div class="bj-ldr-name-col">'+
-            '<div class="bj-ldr-name" style="color:'+col+'">'+p.u+'</div>'+
+            '<div class="bj-ldr-name" style="color:'+col+';cursor:pointer" onclick="bjModalOpen(\''+p.u+'\')">'+p.u+'</div>'+
             '<div class="bj-ldr-bar"><div class="bj-ldr-bar-fill" style="width:'+barW+'%;background:'+col+'"></div></div>'+
             '<div class="bj-tier-pip '+tp.cls+'">'+tp.label+'</div>'+
           '</div>'+
@@ -345,6 +345,99 @@
       bjRenderHighlights();
     });
   }
+
+
+  // ── Player Modal ──────────────────────────────────────────────
+  function bjModalOpen(username){
+    var u = username.toLowerCase();
+    var overlay = document.getElementById('bj-modal-overlay');
+    var modal   = document.getElementById('bj-modal');
+    if(!overlay||!modal) return;
+
+    // Compute stats from hand log data
+    var hands = (BJ_DB.recent_hands||[]).filter(function(h){ return (h.player||'').toLowerCase()===u; });
+    // Also pull from all daily history hands if available
+    var allHands = hands;
+
+    var totalHands = allHands.length;
+    var wins   = allHands.filter(function(h){ return h.result==='win'||h.result==='blackjack'; }).length;
+    var busts  = allHands.filter(function(h){ return h.result==='bust'; }).length;
+    var bjs    = allHands.filter(function(h){ return h.result==='blackjack'; }).length;
+    var winRate= totalHands ? Math.round(wins/totalHands*100) : 0;
+    var bustRate= totalHands ? Math.round(busts/totalHands*100) : 0;
+    var totalBet = allHands.reduce(function(a,h){ return a+(h.bet||0); },0);
+    var avgBet   = totalHands ? Math.round(totalBet/totalHands) : 0;
+    var biggestWin  = allHands.reduce(function(a,h){ return h.net_delta>a?h.net_delta:a; }, 0);
+    var biggestLoss = allHands.reduce(function(a,h){ return h.net_delta<a?h.net_delta:a; }, 0);
+
+    // Chip balance + ach count from leaderboard data
+    var atRow = (BJ_DB.leaderboards.alltime||[]).find(function(p){ return (p.u||'').toLowerCase()===u; });
+    var chips = atRow ? atRow.chips : 0;
+    var achCount = atRow ? atRow.ach : 0;
+    var tp = tierPip(chips);
+
+    // Render header
+    var nameEl = document.getElementById('bj-modal-name');
+    var tierEl = document.getElementById('bj-modal-tier');
+    var chipsEl= document.getElementById('bj-modal-chips');
+    var achEl  = document.getElementById('bj-modal-ach-count');
+    if(nameEl) nameEl.textContent = username;
+    if(tierEl){ tierEl.textContent=tp.label; tierEl.className='bj-modal-tier '+tp.cls; }
+    if(chipsEl) chipsEl.textContent = chips.toLocaleString()+' chips';
+    if(achEl)   achEl.textContent   = achCount+' achievement'+(achCount!==1?'s':'');
+
+    // Stats grid
+    var statsEl = document.getElementById('bj-modal-stats');
+    if(statsEl) statsEl.innerHTML = [
+      {val: totalHands,         label:'Hands Played'},
+      {val: winRate+'%',        label:'Win Rate'},
+      {val: bustRate+'%',       label:'Bust Rate'},
+      {val: bjs,                label:'Blackjacks'},
+      {val: fmt(avgBet),        label:'Avg Bet'},
+      {val: '+'+fmt(biggestWin),label:'Biggest Win',  col:'#40dd80'},
+      {val: fmt(biggestLoss),   label:'Biggest Loss', col:'#e05555'},
+      {val: fmt(totalBet),      label:'Total Wagered'},
+    ].map(function(s){
+      return '<div class="bj-modal-stat">'+
+        '<div class="bj-modal-stat-val" style="'+(s.col?'color:'+s.col:'')+'">'+s.val+'</div>'+
+        '<div class="bj-modal-stat-label">'+s.label+'</div>'+
+        '</div>';
+    }).join('');
+
+    // Recent hands
+    var handsEl = document.getElementById('bj-modal-hands');
+    if(handsEl){
+      if(!allHands.length){
+        handsEl.innerHTML='<div style="color:rgba(200,200,200,.2);font-family:Barlow Condensed,sans-serif;font-size:13px;letter-spacing:2px;text-transform:uppercase;padding:20px 0">No hands recorded</div>';
+      } else {
+        handsEl.innerHTML = allHands.slice(0,15).map(function(h){
+          var delta = h.net_delta||0;
+          var dSign = delta>0?'+':'';
+          var dCol  = delta>0?'#40dd80':delta<0?'#e05555':'rgba(200,200,200,.4)';
+          return '<div class="bj-modal-hand-row">'+
+            '<div class="bj-modal-hand-result '+h.result+'">'+h.result+'</div>'+
+            '<div class="bj-modal-hand-cards">'+bjHandHtml(h.player_cards||[],32)+'</div>'+
+            '<div class="bj-modal-hand-delta" style="color:'+dCol+'">'+dSign+fmt(delta)+'</div>'+
+            '</div>';
+        }).join('');
+      }
+    }
+
+    overlay.style.display='block';
+    modal.style.display='block';
+    document.body.style.overflow='hidden';
+  }
+
+  window.bjModalClose = function(){
+    var overlay=document.getElementById('bj-modal-overlay');
+    var modal=document.getElementById('bj-modal');
+    if(overlay) overlay.style.display='none';
+    if(modal)   modal.style.display='none';
+    document.body.style.overflow='';
+  };
+
+  // Close on Escape
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') window.bjModalClose(); });
 
   // ── Achievements ──────────────────────────────────────────────
   function bjInitCatCounts(){
@@ -554,7 +647,7 @@
       var dtCls=dtotal>21?'bust':dtotal===21?'max':'';
       return '<div class="bj-recent-row">'+
         '<div class="bj-result-pip pip-'+result+'">'+result+'</div>'+
-        '<div class="bj-recent-player">'+h.player+'</div>'+
+        '<div class="bj-recent-player" style="cursor:pointer" onclick="bjModalOpen(\''+h.player+'\')">'+(h.player||'')+'</div>'+
         '<div class="bj-recent-cards-img">'+
           '<div style="display:flex;align-items:center;gap:3px">'+bjHandHtml(playerCards,48)+'</div>'+
           '<div class="bj-recent-total '+ptCls+'">'+ptotal+'</div>'+
