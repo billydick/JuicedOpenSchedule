@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T00:50:56Z",
+  "generated_at": "2026-04-26T00:51:55Z",
   "meta": {
-    "total_hands": 8,
+    "total_hands": 9,
     "total_players": 3,
     "biggest_bet": {
       "user": "juicedracing",
@@ -51,8 +51,8 @@
       {
         "u": "ironlegacy_",
         "chips": 21051,
-        "net": -4500,
-        "hands": 1,
+        "net": -5000,
+        "hands": 2,
         "ach": 2
       }
     ],
@@ -74,8 +74,8 @@
       {
         "u": "ironlegacy_",
         "chips": 21051,
-        "net": -4500,
-        "hands": 1,
+        "net": -5000,
+        "hands": 2,
         "ach": 2
       }
     ],
@@ -97,8 +97,8 @@
       {
         "u": "ironlegacy_",
         "chips": 21051,
-        "net": -4500,
-        "hands": 1,
+        "net": -5000,
+        "hands": 2,
         "ach": 2
       }
     ],
@@ -125,8 +125,8 @@
         {
           "u": "ironlegacy_",
           "chips": 21051,
-          "net": -4500,
-          "hands": 1,
+          "net": -5000,
+          "hands": 2,
           "ach": 2
         }
       ]
@@ -1756,6 +1756,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777164715.8672345,
+      "date": "2026-04-25",
+      "player": "ironlegacy_",
+      "bet": 500,
+      "balance_before": 21551,
+      "result": "lose",
+      "net_delta": -500,
+      "player_cards": [
+        "5♣",
+        "J♠"
+      ],
+      "player_total": 15,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♣",
+        "2♦",
+        "9♥",
+        "4♦",
+        "5♥"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777164656.2103264,
       "date": "2026-04-25",
