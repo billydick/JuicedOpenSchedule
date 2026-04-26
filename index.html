@@ -10262,7 +10262,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     link.rel = 'stylesheet'; link.href = 'lurkbait.css';
     document.head.appendChild(link);
     var script = document.createElement('script');
-    script.src = 'lurkbait.js';
+    script.src = 'lurkbait.js?v=' + Date.now();
     if(callback) script.onload = callback;
     document.head.appendChild(script);
   }
@@ -10309,7 +10309,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     link.rel = 'stylesheet'; link.href = 'blackjack.css';
     document.head.appendChild(link);
     var script = document.createElement('script');
-    script.src = 'blackjack.js';
+    script.src = 'blackjack.js?v=' + Date.now();
     if(callback) script.onload = callback;
     document.head.appendChild(script);
   }
