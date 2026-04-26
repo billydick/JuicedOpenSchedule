@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-26T01:42:49Z",
+  "generated_at": "2026-04-26T01:44:12Z",
   "meta": {
-    "total_hands": 13,
+    "total_hands": 14,
     "total_players": 4,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 66000
     },
     "biggest_win": {
-      "user": "juicedracing",
-      "amount": 30000
+      "user": "brookswhynot",
+      "amount": 49601
     },
-    "top_chips": 46200,
-    "top_player": "gatoraintplaying"
+    "top_chips": 99251,
+    "top_player": "brookswhynot"
   },
   "competition_meta": {
     "daily": {
@@ -35,6 +35,13 @@
   "leaderboards": {
     "alltime": [
       {
+        "u": "brookswhynot",
+        "chips": 99251,
+        "net": 74376,
+        "hands": 3,
+        "ach": 7
+      },
+      {
         "u": "gatoraintplaying",
         "chips": 46200,
         "net": 36100,
@@ -54,29 +61,22 @@
         "net": -41000,
         "hands": 4,
         "ach": 6
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 50,
-        "net": 24775,
-        "hands": 2,
-        "ach": 5
       }
     ],
     "monthly": [
+      {
+        "u": "brookswhynot",
+        "chips": 99251,
+        "net": 74376,
+        "hands": 3,
+        "ach": 7
+      },
       {
         "u": "gatoraintplaying",
         "chips": 46200,
         "net": 36100,
         "hands": 3,
         "ach": 6
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 50,
-        "net": 24775,
-        "hands": 2,
-        "ach": 5
       },
       {
         "u": "ironlegacy_",
@@ -95,18 +95,18 @@
     ],
     "weekly": [
       {
+        "u": "brookswhynot",
+        "chips": 99251,
+        "net": 74376,
+        "hands": 3,
+        "ach": 7
+      },
+      {
         "u": "gatoraintplaying",
         "chips": 46200,
         "net": 36100,
         "hands": 3,
         "ach": 6
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 50,
-        "net": 24775,
-        "hands": 2,
-        "ach": 5
       },
       {
         "u": "ironlegacy_",
@@ -130,18 +130,18 @@
       "label": "2026-04-25",
       "leaderboard": [
         {
+          "u": "brookswhynot",
+          "chips": 99251,
+          "net": 74376,
+          "hands": 3,
+          "ach": 7
+        },
+        {
           "u": "gatoraintplaying",
           "chips": 46200,
           "net": 36100,
           "hands": 3,
           "ach": 6
-        },
-        {
-          "u": "brookswhynot",
-          "chips": 50,
-          "net": 24775,
-          "hands": 2,
-          "ach": 5
         },
         {
           "u": "ironlegacy_",
@@ -517,22 +517,24 @@
         }
       },
       "roller_coaster_session": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "brookswhynot"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "brookswhynot",
           "d": "2026-04-25"
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "brookswhynot"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "brookswhynot",
           "d": "2026-04-25"
         }
       },
@@ -1039,10 +1041,27 @@
         "big_nerve_win": "2026-04-25",
         "lucky_escape": "2026-04-25",
         "table_dominator": "2026-04-25",
-        "rags_to_riches_session": "2026-04-25"
+        "rags_to_riches_session": "2026-04-25",
+        "roller_coaster_session": "2026-04-25",
+        "big_swing_session_50k": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "big_nerve_win",
+        "u": "brookswhynot",
+        "d": "2026-04-25"
+      },
+      {
+        "id": "roller_coaster_session",
+        "u": "brookswhynot",
+        "d": "2026-04-25"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "brookswhynot",
+        "d": "2026-04-25"
+      },
       {
         "id": "rags_to_riches_session",
         "u": "brookswhynot",
@@ -1126,21 +1145,6 @@
       {
         "id": "big_nerve_win",
         "u": "gatoraintplaying",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "gatoraintplaying",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "min_bet_master",
-        "u": "juicedracing",
         "d": "2026-04-25"
       }
     ]
@@ -1862,6 +1866,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777167852.8086615,
+      "date": "2026-04-25",
+      "player": "brookswhynot",
+      "bet": 49601,
+      "balance_before": 49650,
+      "result": "win",
+      "net_delta": 49601,
+      "player_cards": [
+        "A♠",
+        "4♦",
+        "6♦"
+      ],
+      "player_total": 21,
+      "hit_count": 1,
+      "dealer_cards": [
+        "10♠",
+        "K♠"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "big_nerve_win",
+        "roller_coaster_session",
+        "big_swing_session_50k"
+      ]
+    },
     {
       "ts": 1777167769.3458529,
       "date": "2026-04-25",
