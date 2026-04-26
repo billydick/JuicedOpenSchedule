@@ -328,10 +328,10 @@
         var tp    =tierPip(p.chips||0);
         var hands =p.hands>0?fmt(p.hands):'<span style="color:rgba(200,200,200,.2)">—</span>';
 
-        return '<div class="bj-ldr-row" style="background:'+bg+'">'+
+        return '<div class="bj-ldr-row" style="background:'+bg+';cursor:pointer" data-bj-player="'+p.u+'">'+
           '<div class="bj-ldr-rank" style="color:'+col+';font-size:'+sz+'">'+rank+'</div>'+
           '<div class="bj-ldr-name-col">'+
-            '<div class="bj-ldr-name" style="color:'+col+';cursor:pointer" data-bj-player="'+p.u+'">'+p.u+'</div>'+
+            '<div class="bj-ldr-name" style="color:'+col+'">'+p.u+'</div>'+
             '<div class="bj-ldr-bar"><div class="bj-ldr-bar-fill" style="width:'+barW+'%;background:'+col+'"></div></div>'+
             '<div class="bj-tier-pip '+tp.cls+'">'+tp.label+'</div>'+
           '</div>'+
