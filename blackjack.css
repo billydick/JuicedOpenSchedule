@@ -278,7 +278,7 @@
 
 /* ── SESSION HIGHLIGHTS ── */
 .bj-highlights{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
-  .bj-hl-card{display:flex;align-items:flex-start;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:12px 16px;flex:1 1 220px;min-width:200px;max-width:340px}
+  .bj-hl-card{display:flex;align-items:flex-start;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:12px 16px;width:calc(25% - 8px);min-width:220px;box-sizing:border-box}
   .bj-hl-icon{font-size:22px;line-height:1;flex-shrink:0;margin-top:1px}
   .bj-hl-body{display:flex;flex-direction:column;gap:2px;min-width:0}
   .bj-hl-label{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,200,.4)}
