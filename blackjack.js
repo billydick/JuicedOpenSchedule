@@ -79,7 +79,7 @@
   }
 
   // ── Data load ─────────────────────────────────────────────────
-  async function bjLoadData(){
+  window.bjLoadData = async function bjLoadData(){
     try{
       var res=await fetch('/blackjack_data.json?ts='+Date.now(),{cache:'no-store'});
       if(!res.ok) throw new Error('HTTP '+res.status);

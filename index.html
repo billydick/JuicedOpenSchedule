@@ -10335,11 +10335,8 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   window.blackjackPageChange = function(name){
     if(name === 'blackjack'){
       _loadBlackjack(function(){
-        // blackjack.js has now replaced blackjackPageChange with the real one —
-        // call it so it starts the data fetch and refresh timer
-        if(typeof window.blackjackPageChange === 'function'){
-          window.blackjackPageChange('blackjack');
-        }
+        // blackjack.js loaded — call bjLoadData directly to avoid re-entrancy
+        if(typeof window.bjLoadData === 'function') window.bjLoadData();
       });
     }
   };
