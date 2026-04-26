@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T03:31:11Z",
+  "generated_at": "2026-04-26T03:33:43Z",
   "meta": {
-    "total_hands": 17,
+    "total_hands": 18,
     "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -50,10 +50,17 @@
       },
       {
         "u": "juicedracing",
-        "chips": 5587,
+        "chips": 5837,
         "net": -41000,
         "hands": 4,
         "ach": 6
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 5050,
+        "net": -1000,
+        "hands": 3,
+        "ach": 3
       },
       {
         "u": "brookswhynot",
@@ -61,13 +68,6 @@
         "net": -24875,
         "hands": 4,
         "ach": 9
-      },
-      {
-        "u": "azsuperbeast",
-        "chips": 53,
-        "net": -840,
-        "hands": 2,
-        "ach": 2
       }
     ],
     "monthly": [
@@ -80,10 +80,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 53,
-        "net": -840,
-        "hands": 2,
-        "ach": 2
+        "chips": 5050,
+        "net": -1000,
+        "hands": 3,
+        "ach": 3
       },
       {
         "u": "ironlegacy_",
@@ -101,7 +101,7 @@
       },
       {
         "u": "juicedracing",
-        "chips": 5587,
+        "chips": 5837,
         "net": -41000,
         "hands": 6,
         "ach": 6
@@ -117,10 +117,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 53,
-        "net": -840,
-        "hands": 2,
-        "ach": 2
+        "chips": 5050,
+        "net": -1000,
+        "hands": 3,
+        "ach": 3
       },
       {
         "u": "ironlegacy_",
@@ -138,7 +138,7 @@
       },
       {
         "u": "juicedracing",
-        "chips": 5587,
+        "chips": 5837,
         "net": -41000,
         "hands": 6,
         "ach": 6
@@ -159,10 +159,10 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 53,
-          "net": -840,
-          "hands": 2,
-          "ach": 2
+          "chips": 5050,
+          "net": -1000,
+          "hands": 3,
+          "ach": 3
         },
         {
           "u": "ironlegacy_",
@@ -180,7 +180,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 5587,
+          "chips": 5837,
           "net": -41000,
           "hands": 6,
           "ach": 6
@@ -547,13 +547,14 @@
         }
       },
       "roller_coaster_session": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "juicedracing",
-          "brookswhynot"
+          "brookswhynot",
+          "azsuperbeast"
         ],
         "latest": {
-          "u": "brookswhynot",
+          "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
@@ -1081,10 +1082,16 @@
       },
       "azsuperbeast": {
         "poker_pair_any": "2026-04-25",
-        "poker_salvation": "2026-04-25"
+        "poker_salvation": "2026-04-25",
+        "roller_coaster_session": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "roller_coaster_session",
+        "u": "azsuperbeast",
+        "d": "2026-04-25"
+      },
       {
         "id": "poker_pair_any",
         "u": "azsuperbeast",
@@ -1178,11 +1185,6 @@
       {
         "id": "poker_salvation",
         "u": "ironlegacy_",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "hot_streak_3",
-        "u": "gatoraintplaying",
         "d": "2026-04-25"
       }
     ]
@@ -1904,6 +1906,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174423.7805183,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 160,
+      "balance_before": 5160,
+      "result": "lose",
+      "net_delta": -160,
+      "player_cards": [
+        "J♠",
+        "2♠"
+      ],
+      "player_total": 12,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♠",
+        "5♠",
+        "3♦",
+        "4♠"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "roller_coaster_session"
+      ]
+    },
     {
       "ts": 1777174271.3315637,
       "date": "2026-04-25",
