@@ -686,7 +686,7 @@
     }
   };
 
-  if(bjPageActive()) window.blackjackPageChange('blackjack');
+  if(bjPageActive()) bjLoadData();
   if(!bjPageActive()&&window.location.hash==='#blackjack') setPage('blackjack');
   document.addEventListener('visibilitychange',function(){
     if(document.hidden) return;
