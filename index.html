@@ -1115,8 +1115,6 @@
   <!-- TIME TABS (above sectabs, same as lurkbait) -->
   <div class="bj-timetabs">
     <button class="bj-timetab active" onclick="bjSetTime('daily',this)">Daily</button>
-    <button class="bj-timetab" onclick="bjSetTime('weekly',this)">Weekly</button>
-    <button class="bj-timetab" onclick="bjSetTime('monthly',this)">Monthly</button>
     <button class="bj-timetab" onclick="bjSetTime('alltime',this)">All Time</button>
   </div>
 
@@ -1134,6 +1132,7 @@
       <div class="bj-period-label" id="bj-period-label"></div>
       <button class="bj-period-btn" id="bj-period-next" onclick="bjPeriodNext()">&#8250;</button>
     </div>
+    <div id="bj-highlights" class="bj-highlights" style="display:none"></div>
     <div class="bj-sec-label">Chip Rankings</div>
     <div class="bj-alltime-tools" id="bj-alltime-tools" style="display:none">
       <input id="bj-alltime-search" class="bj-alltime-search" type="text"

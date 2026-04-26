@@ -16,10 +16,9 @@
       weekly:{label:'This Week',sub:'Weekly Competition'},
       daily:{label:'Today',sub:"Today's Competition"}
     },
-    leaderboards:{alltime:[],monthly:[],weekly:[],daily:[]},
+    leaderboards:{alltime:[],daily:[]},
+    daily_highlights:{},
     daily_history:[],
-    weekly_history:[],
-    monthly_history:[],
     achievements:{stream:{},players:{},recent_unlocks:[]},
     catalog:[],
     recent_hands:[]
@@ -87,10 +86,9 @@
       var data=await res.json();
       BJ_DB.meta            =data.meta            ||{};
       BJ_DB.competition_meta=data.competition_meta||BJ_DB.competition_meta;
-      BJ_DB.leaderboards    =data.leaderboards     ||{alltime:[],monthly:[],weekly:[],daily:[]};
+      BJ_DB.leaderboards    =data.leaderboards     ||{alltime:[],daily:[]};
+      BJ_DB.daily_highlights=data.daily_highlights ||{};
       BJ_DB.daily_history   =data.daily_history    ||[];
-      BJ_DB.weekly_history  =data.weekly_history   ||[];
-      BJ_DB.monthly_history =data.monthly_history  ||[];
       BJ_DB.achievements    =data.achievements     ||{stream:{},players:{},recent_unlocks:[]};
       BJ_DB.catalog         =data.catalog          ||[];
       BJ_DB.recent_hands    =data.recent_hands     ||[];
@@ -131,23 +129,20 @@
       if(bjDailyIdx===0) return BJ_DB.leaderboards.daily||[];
       var dp=dh[bjDailyIdx-1]; return dp?dp.leaderboard||[]:[];
     }
-    if(bjCurTime==='weekly'){
-      var wh=BJ_DB.weekly_history||[];
-      if(bjWeeklyIdx===0) return BJ_DB.leaderboards.weekly||[];
-      var wp=wh[bjWeeklyIdx-1]; return wp?wp.leaderboard||[]:[];
-    }
-    if(bjCurTime==='monthly'){
-      var mh=BJ_DB.monthly_history||[];
-      if(bjMonthlyIdx===0) return BJ_DB.leaderboards.monthly||[];
-      var mp=mh[bjMonthlyIdx-1]; return mp?mp.leaderboard||[]:[];
-    }
     return BJ_DB.leaderboards.alltime||[];
+  }
+
+  function bjGetHighlights(){
+    if(bjCurTime!=='daily') return null;
+    if(bjDailyIdx===0) return BJ_DB.daily_highlights||null;
+    var dh=BJ_DB.daily_history||[];
+    var dp=dh[bjDailyIdx-1]; return dp?dp.highlights||null:null;
   }
 
   // ── Time tabs ─────────────────────────────────────────────────
   window.bjSetTime=function(t,btn){
     bjCurTime=t;
-    bjDailyIdx=0; bjWeeklyIdx=0; bjMonthlyIdx=0;
+    bjDailyIdx=0;
     bjAlltimeSearch='';
     var s=document.getElementById('bj-alltime-search'); if(s) s.value='';
     document.querySelectorAll('.bj-timetab').forEach(function(b){b.classList.remove('active');});
@@ -157,16 +152,12 @@
 
   // ── Period nav — clamp to length (not length-1), matching lurkbait exactly
   window.bjPeriodPrev=function(){
-    if(bjCurTime==='daily')   bjDailyIdx  =Math.min(bjDailyIdx+1,  (BJ_DB.daily_history  ||[]).length);
-    if(bjCurTime==='weekly')  bjWeeklyIdx =Math.min(bjWeeklyIdx+1, (BJ_DB.weekly_history ||[]).length);
-    if(bjCurTime==='monthly') bjMonthlyIdx=Math.min(bjMonthlyIdx+1,(BJ_DB.monthly_history||[]).length);
+    if(bjCurTime==='daily') bjDailyIdx=Math.min(bjDailyIdx+1,(BJ_DB.daily_history||[]).length);
     bjRenderLeaderboard();
   };
 
   window.bjPeriodNext=function(){
-    if(bjCurTime==='daily')   bjDailyIdx  =Math.max(bjDailyIdx-1,  0);
-    if(bjCurTime==='weekly')  bjWeeklyIdx =Math.max(bjWeeklyIdx-1, 0);
-    if(bjCurTime==='monthly') bjMonthlyIdx=Math.max(bjMonthlyIdx-1,0);
+    if(bjCurTime==='daily') bjDailyIdx=Math.max(bjDailyIdx-1,0);
     bjRenderLeaderboard();
   };
 
@@ -196,6 +187,75 @@
     window.scrollTo(0,_sy);
   };
 
+
+  // ── Session Highlights ────────────────────────────────────────
+  var POKER_RANK_LABELS={
+    'straight_flush':'Straight Flush','quads':'Four of a Kind',
+    'full_house':'Full House','flush':'Flush','straight':'Straight',
+    'trips':'Three of a Kind','two_pair':'Two Pair','pair':'Pair'
+  };
+
+  function bjRenderHighlights(){
+    var wrap=document.getElementById('bj-highlights');
+    if(!wrap) return;
+    var hl=bjGetHighlights();
+    if(!hl||!Object.keys(hl).length){ wrap.style.display='none'; return; }
+    wrap.style.display='';
+
+    function card(icon, label, val, sub, col){
+      col=col||'var(--gold)';
+      return '<div class="bj-hl-card">'+
+        '<div class="bj-hl-icon">'+icon+'</div>'+
+        '<div class="bj-hl-body">'+
+          '<div class="bj-hl-label">'+label+'</div>'+
+          '<div class="bj-hl-val" style="color:'+col+'">'+val+'</div>'+
+          (sub?'<div class="bj-hl-sub">'+sub+'</div>':'')+
+        '</div>'+
+        '</div>';
+    }
+
+    function cardImg(icon, label, val, cards, col){
+      var cardHtml=cards&&cards.length?'<div class="bj-hl-cards">'+bjHandHtml(cards,28)+'</div>':'';
+      col=col||'var(--gold)';
+      return '<div class="bj-hl-card">'+
+        '<div class="bj-hl-icon">'+icon+'</div>'+
+        '<div class="bj-hl-body">'+
+          '<div class="bj-hl-label">'+label+'</div>'+
+          '<div class="bj-hl-val" style="color:'+col+'">'+val+'</div>'+
+          cardHtml+
+        '</div>'+
+        '</div>';
+    }
+
+    var html='';
+    var h=hl;
+
+    if(h.biggest_win)
+      html+=cardImg('🏆','Biggest Win','+'+fmt(h.biggest_win.net)+' chips by '+h.biggest_win.u, h.biggest_win.cards,'#40dd80');
+    if(h.biggest_loss)
+      html+=cardImg('💀','Biggest Loss',fmt(h.biggest_loss.net)+' chips by '+h.biggest_loss.u, h.biggest_loss.cards,'#e05555');
+    if(h.biggest_bet)
+      html+=cardImg('💰','Biggest Bet',fmt(h.biggest_bet.bet)+' chips by '+h.biggest_bet.u, h.biggest_bet.cards,'#FF8000');
+    if(h.best_streak&&h.best_streak.n>1)
+      html+=card('🔥','Best Win Streak',h.best_streak.n+' in a row',''+h.best_streak.u,'#FF8000');
+    if(h.worst_streak&&h.worst_streak.n>1)
+      html+=card('🥶','Worst Loss Streak',h.worst_streak.n+' in a row',''+h.worst_streak.u,'#e05555');
+    if(h.most_blackjacks&&h.most_blackjacks.n>0)
+      html+=card('🃏','Most Blackjacks',h.most_blackjacks.n+'x natural',''+h.most_blackjacks.u,'#A335EE');
+    if(h.most_busts&&h.most_busts.n>0)
+      html+=card('💥','Most Busts',h.most_busts.n+'x bust',''+h.most_busts.u,'#e05555');
+    if(h.best_win_rate&&h.best_win_rate.pct>0)
+      html+=card('🎯','Best Win Rate',h.best_win_rate.pct+'%',''+h.best_win_rate.u+' (min 5 hands)','#40dd80');
+    if(h.most_hands)
+      html+=card('📋','Most Hands',h.most_hands.n+' hands',''+h.most_hands.u,'#0070DD');
+    if(h.best_poker)
+      html+=cardImg('♠','Best Poker Hand',(POKER_RANK_LABELS[h.best_poker.rank]||h.best_poker.rank)+' — '+h.best_poker.u, h.best_poker.cards,'#A335EE');
+    if(h.most_cards_win)
+      html+=cardImg('🃏','Most Cards to Win',h.most_cards_win.cards.length+' cards — '+h.most_cards_win.u, h.most_cards_win.cards,'#FF8000');
+
+    wrap.innerHTML=html;
+  }
+
   // ── Leaderboard ───────────────────────────────────────────────
   function bjRenderLeaderboard(){
     bjKeepScroll(function(){
@@ -213,20 +273,8 @@
       var showNav=(bjCurTime==='daily'||bjCurTime==='weekly'||bjCurTime==='monthly');
       if(nav) nav.style.display=showNav?'flex':'none';
       if(showNav){
-        var label='',maxIdx=0,curIdx=0;
-        if(bjCurTime==='daily'){
-          var dh=BJ_DB.daily_history||[]; maxIdx=dh.length; curIdx=bjDailyIdx;
-          if(bjDailyIdx===0){ label=(BJ_DB.competition_meta&&BJ_DB.competition_meta.daily&&BJ_DB.competition_meta.daily.label)||'Today'; }
-          else{ var dp=dh[bjDailyIdx-1]; label=dp?dp.label:''; }
-        } else if(bjCurTime==='weekly'){
-          var wh=BJ_DB.weekly_history||[]; maxIdx=wh.length; curIdx=bjWeeklyIdx;
-          if(bjWeeklyIdx===0){ label=(BJ_DB.competition_meta&&BJ_DB.competition_meta.weekly&&BJ_DB.competition_meta.weekly.label)||'This Week'; }
-          else{ var wp=wh[bjWeeklyIdx-1]; label=wp?wp.label:''; }
-        } else {
-          var mh=BJ_DB.monthly_history||[]; maxIdx=mh.length; curIdx=bjMonthlyIdx;
-          if(bjMonthlyIdx===0){ label=(BJ_DB.competition_meta&&BJ_DB.competition_meta.monthly&&BJ_DB.competition_meta.monthly.label)||'This Month'; }
-          else{ var mp=mh[bjMonthlyIdx-1]; label=mp?mp.label:''; }
-        }
+        var dh=BJ_DB.daily_history||[]; var maxIdx=dh.length; var curIdx=bjDailyIdx;
+        var label=bjDailyIdx===0?((BJ_DB.competition_meta&&BJ_DB.competition_meta.daily&&BJ_DB.competition_meta.daily.label)||'Today'):(dh[bjDailyIdx-1]?dh[bjDailyIdx-1].label:'');
         if(periodLabel) periodLabel.textContent=label;
         if(prevBtn) prevBtn.disabled=(curIdx>=maxIdx);
         if(nextBtn) nextBtn.disabled=(curIdx<=0);
@@ -254,6 +302,7 @@
       if(!visible.length){
         var body=document.getElementById('bj-ldr-body');
         if(body) body.innerHTML='<div style="font-family:\'Barlow Condensed\',sans-serif;font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:rgba(200,200,200,.2);padding:40px 20px;text-align:center">No hands played this period</div>';
+        bjRenderHighlights();
         return;
       }
 
@@ -293,6 +342,7 @@
 
       var body=document.getElementById('bj-ldr-body');
       if(body) body.innerHTML=html;
+      bjRenderHighlights();
     });
   }
 
