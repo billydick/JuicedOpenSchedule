@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-26T00:38:19Z",
+  "generated_at": "2026-04-26T00:50:56Z",
   "meta": {
-    "total_hands": 7,
-    "total_players": 2,
+    "total_hands": 8,
+    "total_players": 3,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 30000
@@ -47,6 +47,13 @@
         "net": 36100,
         "hands": 3,
         "ach": 6
+      },
+      {
+        "u": "ironlegacy_",
+        "chips": 21051,
+        "net": -4500,
+        "hands": 1,
+        "ach": 2
       }
     ],
     "monthly": [
@@ -63,6 +70,13 @@
         "net": 30000,
         "hands": 4,
         "ach": 1
+      },
+      {
+        "u": "ironlegacy_",
+        "chips": 21051,
+        "net": -4500,
+        "hands": 1,
+        "ach": 2
       }
     ],
     "weekly": [
@@ -79,6 +93,13 @@
         "net": 30000,
         "hands": 4,
         "ach": 1
+      },
+      {
+        "u": "ironlegacy_",
+        "chips": 21051,
+        "net": -4500,
+        "hands": 1,
+        "ach": 2
       }
     ],
     "daily": []
@@ -100,6 +121,13 @@
           "net": 30000,
           "hands": 4,
           "ach": 1
+        },
+        {
+          "u": "ironlegacy_",
+          "chips": 21051,
+          "net": -4500,
+          "hands": 1,
+          "ach": 2
         }
       ]
     }
@@ -678,12 +706,13 @@
         }
       },
       "poker_pair_any": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "gatoraintplaying"
+          "gatoraintplaying",
+          "ironlegacy_"
         ],
         "latest": {
-          "u": "gatoraintplaying",
+          "u": "ironlegacy_",
           "d": "2026-04-25"
         }
       },
@@ -896,11 +925,13 @@
         }
       },
       "poker_salvation": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ironlegacy_"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "ironlegacy_",
+          "d": "2026-04-25"
         }
       },
       "poker_salvation_25": {
@@ -949,9 +980,23 @@
         "poker_pair_any": "2026-04-25",
         "clean_poker_win": "2026-04-25",
         "hot_streak_3": "2026-04-25"
+      },
+      "ironlegacy_": {
+        "poker_pair_any": "2026-04-25",
+        "poker_salvation": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "ironlegacy_",
+        "d": "2026-04-25"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "ironlegacy_",
+        "d": "2026-04-25"
+      },
       {
         "id": "hot_streak_3",
         "u": "gatoraintplaying",
@@ -1711,6 +1756,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777164656.2103264,
+      "date": "2026-04-25",
+      "player": "ironlegacy_",
+      "bet": 5000,
+      "balance_before": 26051,
+      "result": "lose",
+      "net_delta": -4500,
+      "player_cards": [
+        "6♠",
+        "6♦",
+        "5♥"
+      ],
+      "player_total": 17,
+      "hit_count": 1,
+      "dealer_cards": [
+        "2♣",
+        "K♦",
+        "9♥"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 500,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1777163899.4311662,
       "date": "2026-04-25",
