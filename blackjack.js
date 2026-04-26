@@ -194,11 +194,7 @@
     window.scrollTo(0, _sy);
   };
 
-  // ── Leaderboard (direct lurkbait port) ───────────────────────
-  function bjGetData(){
-    return BJ_DB.leaderboards[bjCurTime] || [];
-  }
-
+  // ── Leaderboard ───────────────────────────────────────────────
   function bjRenderLeaderboard(){
     bjKeepScroll(function(){
       var isAllTime = bjCurTime === 'alltime';
