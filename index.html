@@ -9027,7 +9027,7 @@ function setPage(name) {
     tab.classList.add('active');
     tab.scrollIntoView({behavior:'smooth', block:'nearest', inline:'center'});
   }
-  if (name !== 'debrief') localStorage.setItem('juiced-page', name);
+  if (name !== 'debrief' && name !== 'lurkbait' && name !== 'blackjack') localStorage.setItem('juiced-page', name);
   if (typeof livePageChange === 'function') livePageChange(name);
   if (typeof lurkbaitPageChange === 'function') lurkbaitPageChange(name);
   if (typeof blackjackPageChange === 'function') blackjackPageChange(name);
