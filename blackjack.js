@@ -592,7 +592,7 @@
           bottom+
         '</div>'+
         '<div class="bj-ach-meta">'+
-          (sd.total>0?'<div><div class="bj-ach-count">'+sd.total+'</div><div class="bj-ach-count-lbl">holder'+(sd.total!==1?'s':'')+'</div></div>':'')+
+          (sd.total>0?'<div class="bj-ach-count-inline">'+sd.total+' holder'+(sd.total!==1?'s':'')+'</div>':'')+
         '</div>'+
         '</div>';
     }).join('');
