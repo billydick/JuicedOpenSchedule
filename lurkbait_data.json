@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-26T04:41:29.989444+00:00",
-    "total_catches": 21902,
+    "generated_at": "2026-04-26T04:42:33.784838+00:00",
+    "total_catches": 21904,
     "unique_catches": 370,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21902 catches"
+      "sub": "Since launch - 21904 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1690,6 +1690,14 @@
         "l": "Feb 27 2025"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 884,
+        "c": 22,
+        "casts": 22,
+        "l": "Apr 26 2026"
+      },
+      {
         "u": "rmboliveira",
         "n": "rmboliveira",
         "g": 862,
@@ -1712,14 +1720,6 @@
         "c": 8,
         "casts": 8,
         "l": "May 31 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 837,
-        "c": 21,
-        "casts": 21,
-        "l": "Apr 25 2026"
       },
       {
         "u": "turbo_l",
@@ -2156,9 +2156,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 459,
-        "c": 11,
-        "casts": 11,
+        "g": 460,
+        "c": 12,
+        "casts": 12,
         "l": "Apr 26 2026"
       },
       {
@@ -6302,10 +6302,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 837,
-        "c": 21,
-        "casts": 21,
-        "l": "Apr 25 2026"
+        "g": 884,
+        "c": 22,
+        "casts": 22,
+        "l": "Apr 26 2026"
       },
       {
         "u": "rms_racing",
@@ -6366,9 +6366,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 459,
-        "c": 11,
-        "casts": 11,
+        "g": 460,
+        "c": 12,
+        "casts": 12,
         "l": "Apr 26 2026"
       },
       {
@@ -6504,9 +6504,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 439,
-        "c": 10,
-        "casts": 10,
+        "g": 440,
+        "c": 11,
+        "casts": 11,
         "l": "Apr 26 2026"
       },
       {
@@ -6542,19 +6542,19 @@
         "l": "Apr 26 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 320,
+        "c": 8,
+        "casts": 8,
+        "l": "Apr 26 2026"
+      },
+      {
         "u": "sjbhomebrew",
         "n": "sjbhomebrew",
         "g": 296,
         "c": 2,
         "casts": 2,
-        "l": "Apr 25 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 273,
-        "c": 7,
-        "casts": 7,
         "l": "Apr 25 2026"
       },
       {
@@ -6650,9 +6650,9 @@
       {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
-        "g": 291,
-        "c": 5,
-        "casts": 5,
+        "g": 292,
+        "c": 6,
+        "casts": 6,
         "l": "Apr 26 2026"
       },
       {
@@ -6723,6 +6723,14 @@
         "u": "drewieblaster",
         "n": "drewieblaster",
         "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 26 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 47,
         "c": 1,
         "casts": 1,
         "l": "Apr 26 2026"
@@ -10072,6 +10080,13 @@
         "n": "drewieblaster",
         "i": "Double Adjustable Steel J-Bar",
         "v": 48,
+        "r": "Uncommon",
+        "d": "Apr 26 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "CHEVY SB-2 INTAKE",
+        "v": 47,
         "r": "Uncommon",
         "d": "Apr 26 2026"
       },
@@ -21598,7 +21613,7 @@
       "n": "CHEVY SB-2 INTAKE",
       "custom": true,
       "r": "Uncommon",
-      "c": 73,
+      "c": 74,
       "h": "wintergofast",
       "v": 56,
       "w": 5.62
@@ -22381,7 +22396,7 @@
       "n": "Daniel Hermic",
       "custom": true,
       "r": "Common",
-      "c": 147,
+      "c": 148,
       "h": "scriptedpr",
       "v": 1,
       "w": 1.13
@@ -23865,7 +23880,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "",
-      "c": 147,
+      "c": 148,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -24450,7 +24465,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "CHEVY SB-2 INTAKE FROM NASCAR TEAM",
-      "c": 73,
+      "c": 74,
       "rec": "5.62 lb",
       "v": 56
     },
@@ -26122,6 +26137,22 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "CHEVY SB-2 INTAKE",
+      "w": 4.69,
+      "v": 47,
+      "r": "Uncommon",
+      "d": "Apr 26 2026"
+    },
+    {
+      "u": "azsuperbeast",
+      "i": "Daniel Hermic",
+      "w": 1.0,
+      "v": 1,
+      "r": "Junk",
+      "d": "Apr 26 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Annoying iRacer kid",
       "w": 1.01,
@@ -26702,22 +26733,6 @@
       "i": "Jellyfish Plushie",
       "w": 0.51,
       "v": 92,
-      "r": "Rare",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Atlantic Cod",
-      "w": 38.1,
-      "v": 29,
-      "r": "Common",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "iRacer_Jesse Winslow",
-      "w": 130.05,
-      "v": 216,
       "r": "Rare",
       "d": "Apr 26 2026"
     }
