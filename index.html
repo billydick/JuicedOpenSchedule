@@ -10277,7 +10277,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     if(_lbLoaded){ if(callback) callback(); return; }
     _lbLoaded = true;
     var link = document.createElement('link');
-    link.rel = 'stylesheet'; link.href = 'lurkbait.css';
+    link.rel = 'stylesheet'; link.href = 'lurkbait.css?v=' + Date.now();
     document.head.appendChild(link);
     var script = document.createElement('script');
     script.src = 'lurkbait.js?v=' + Date.now();
@@ -10315,7 +10315,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   // Stub all bj* functions called via onclick in blackjack_page.html.
   // The real implementations in blackjack.js overwrite these on window once loaded.
   var _bjStubs = ['bjSetSec','bjSetTime','bjPeriodPrev','bjPeriodNext','bjAlltimeSearchChanged','bjLoadMore',
-                  'bjAchSetCat','bjAchSetTier','bjAchSearch','bjAchSelectPlayer'];
+                  'bjAchSetCat','bjAchSetTier','bjAchSearch','bjAchSelectPlayer','bjModalOpen','bjModalClose'];
   _bjStubs.forEach(function(fn){
     if(!window[fn]) window[fn] = function(){};
   });
@@ -10324,7 +10324,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     if(_bjLoaded){ if(callback) callback(); return; }
     _bjLoaded = true;
     var link = document.createElement('link');
-    link.rel = 'stylesheet'; link.href = 'blackjack.css';
+    link.rel = 'stylesheet'; link.href = 'blackjack.css?v=' + Date.now();
     document.head.appendChild(link);
     var script = document.createElement('script');
     script.src = 'blackjack.js?v=' + Date.now();

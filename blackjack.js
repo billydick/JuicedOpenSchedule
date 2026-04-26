@@ -348,7 +348,7 @@
 
 
   // ── Player Modal ──────────────────────────────────────────────
-  function bjModalOpen(username){
+  window.bjModalOpen = function bjModalOpen(username){
     var u = username.toLowerCase();
     var overlay = document.getElementById('bj-modal-overlay');
     var modal   = document.getElementById('bj-modal');
