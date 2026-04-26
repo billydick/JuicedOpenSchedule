@@ -331,7 +331,7 @@
         return '<div class="bj-ldr-row" style="background:'+bg+'">'+
           '<div class="bj-ldr-rank" style="color:'+col+';font-size:'+sz+'">'+rank+'</div>'+
           '<div class="bj-ldr-name-col">'+
-            '<div class="bj-ldr-name" style="color:'+col+';cursor:pointer" onclick="bjModalOpen(\''+p.u+'\')">'+p.u+'</div>'+
+            '<div class="bj-ldr-name" style="color:'+col+';cursor:pointer" data-bj-player="'+p.u+'">'+p.u+'</div>'+
             '<div class="bj-ldr-bar"><div class="bj-ldr-bar-fill" style="width:'+barW+'%;background:'+col+'"></div></div>'+
             '<div class="bj-tier-pip '+tp.cls+'">'+tp.label+'</div>'+
           '</div>'+
@@ -428,6 +428,15 @@
     document.body.style.overflow='hidden';
   }
 
+  // Event delegation for player name clicks
+  (function(){
+    var page = document.getElementById('page-blackjack');
+    if(page) page.addEventListener('click', function(e){
+      var el = e.target.closest('[data-bj-player]');
+      if(el) window.bjModalOpen(el.getAttribute('data-bj-player'));
+    });
+  })();
+
   window.bjModalClose = function(){
     var overlay=document.getElementById('bj-modal-overlay');
     var modal=document.getElementById('bj-modal');
@@ -479,6 +488,9 @@
     var result    =document.getElementById('bj-ach-search-result');
     var playerList=document.getElementById('bj-ach-player-list');
     var pdata=(BJ_DB.achievements&&BJ_DB.achievements.players)||{};
+    // Search all known players, not just those with achievements
+    var allPlayers=(BJ_DB.leaderboards.alltime||[]).map(function(p){return p.u;});
+    Object.keys(pdata).forEach(function(u){ if(allPlayers.indexOf(u)===-1) allPlayers.push(u); });
     if(!q){
       bjAchCurUser='';
       if(result) result.textContent='';
@@ -486,7 +498,7 @@
       bjRenderAchWall();
       return;
     }
-    var matches=Object.keys(pdata).filter(function(u){return u.toLowerCase().indexOf(q)!==-1;});
+    var matches=allPlayers.filter(function(u){return u.toLowerCase().indexOf(q)!==-1;});
     if(result) result.textContent=matches.length+' PLAYER'+(matches.length!==1?'S':'');
     if(playerList){
       if(!matches.length){playerList.style.display='none';playerList.innerHTML='';}
@@ -647,7 +659,7 @@
       var dtCls=dtotal>21?'bust':dtotal===21?'max':'';
       return '<div class="bj-recent-row">'+
         '<div class="bj-result-pip pip-'+result+'">'+result+'</div>'+
-        '<div class="bj-recent-player" style="cursor:pointer" onclick="bjModalOpen(\''+h.player+'\')">'+(h.player||'')+'</div>'+
+        '<div class="bj-recent-player" style="cursor:pointer" data-bj-player="'+(h.player||'')+'">'+( h.player||'')+'</div>'+
         '<div class="bj-recent-cards-img">'+
           '<div style="display:flex;align-items:center;gap:3px">'+bjHandHtml(playerCards,48)+'</div>'+
           '<div class="bj-recent-total '+ptCls+'">'+ptotal+'</div>'+
