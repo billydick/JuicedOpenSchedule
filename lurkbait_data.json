@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-26T04:53:03.966705+00:00",
-    "total_catches": 21912,
+    "generated_at": "2026-04-26T04:55:08.827572+00:00",
+    "total_catches": 21913,
     "unique_catches": 370,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21912 catches"
+      "sub": "Since launch - 21913 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 104079,
-        "c": 1550,
-        "casts": 1550,
-        "l": "Apr 19 2026"
+        "g": 104089,
+        "c": 1551,
+        "casts": 1551,
+        "l": "Apr 26 2026"
       },
       {
         "u": "motionless",
@@ -6238,10 +6238,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 3423,
-        "c": 42,
-        "casts": 42,
-        "l": "Apr 19 2026"
+        "g": 3433,
+        "c": 43,
+        "casts": 43,
+        "l": "Apr 26 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -6747,6 +6747,14 @@
         "u": "turbosnail87",
         "n": "turbosnail87",
         "g": 15,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 26 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Apr 26 2026"
@@ -10110,6 +10118,13 @@
         "i": "Carp",
         "v": 15,
         "r": "Common",
+        "d": "Apr 26 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Annoying iRacer kid",
+        "v": 10,
+        "r": "Junk",
         "d": "Apr 26 2026"
       },
       {
@@ -22267,7 +22282,7 @@
       "n": "Annoying iRacer kid",
       "custom": true,
       "r": "Common",
-      "c": 146,
+      "c": 147,
       "h": "riflehog",
       "v": 11,
       "w": 1.13
@@ -22690,11 +22705,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1550
+      "n": 1551
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 104079
+      "n": 104089
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -23454,7 +23469,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "This kid sucks.",
-      "c": 146,
+      "c": 147,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -26152,6 +26167,14 @@
   ],
   "recent": [
     {
+      "u": "flippy00",
+      "i": "Annoying iRacer kid",
+      "w": 1.02,
+      "v": 10,
+      "r": "Junk",
+      "d": "Apr 26 2026"
+    },
+    {
       "u": "motionless",
       "i": "Sponge",
       "w": 0.1,
@@ -26740,14 +26763,6 @@
       "i": "Bubba Wallace",
       "w": 26.7,
       "v": 27,
-      "r": "Common",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Pike",
-      "w": 0.85,
-      "v": 8,
       "r": "Common",
       "d": "Apr 26 2026"
     }
