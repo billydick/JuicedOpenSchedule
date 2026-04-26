@@ -200,7 +200,7 @@
     if(!wrap) return;
     var hl=bjGetHighlights();
     if(!hl||!Object.keys(hl).length){ wrap.style.display='none'; return; }
-    wrap.style.display='';
+    wrap.style.display='grid';
 
     function card(icon, label, val, sub, col){
       col=col||'var(--gold)';
