@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-26T05:00:22.647322+00:00",
-    "total_catches": 21918,
+    "generated_at": "2026-04-26T05:08:34.598903+00:00",
+    "total_catches": 21920,
     "unique_catches": 370,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21918 catches"
+      "sub": "Since launch - 21920 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,17 +300,17 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 95664,
-        "c": 1209,
-        "casts": 1209,
+        "g": 95766,
+        "c": 1210,
+        "casts": 1210,
         "l": "Apr 26 2026"
       },
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 60555,
-        "c": 878,
-        "casts": 878,
+        "g": 60577,
+        "c": 879,
+        "casts": 879,
         "l": "Apr 26 2026"
       },
       {
@@ -6198,9 +6198,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 6838,
-        "c": 108,
-        "casts": 108,
+        "g": 6860,
+        "c": 109,
+        "casts": 109,
         "l": "Apr 26 2026"
       },
       {
@@ -6214,9 +6214,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 6222,
-        "c": 88,
-        "casts": 88,
+        "g": 6324,
+        "c": 89,
+        "casts": 89,
         "l": "Apr 26 2026"
       },
       {
@@ -6400,17 +6400,17 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 6222,
-        "c": 88,
-        "casts": 88,
+        "g": 6324,
+        "c": 89,
+        "casts": 89,
         "l": "Apr 26 2026"
       },
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 4383,
-        "c": 65,
-        "casts": 65,
+        "g": 4405,
+        "c": 66,
+        "casts": 66,
         "l": "Apr 26 2026"
       },
       {
@@ -6602,9 +6602,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 1665,
-        "c": 20,
-        "casts": 20,
+        "g": 1687,
+        "c": 21,
+        "casts": 21,
         "l": "Apr 26 2026"
       },
       {
@@ -6624,6 +6624,14 @@
         "l": "Apr 26 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 431,
+        "c": 12,
+        "casts": 12,
+        "l": "Apr 26 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 349,
@@ -6637,14 +6645,6 @@
         "g": 338,
         "c": 6,
         "casts": 6,
-        "l": "Apr 26 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 329,
-        "c": 11,
-        "casts": 11,
         "l": "Apr 26 2026"
       },
       {
@@ -21519,10 +21519,10 @@
       "n": "Triggerfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 85,
-      "h": "brookswhynot",
-      "v": 101,
-      "w": 22.49
+      "c": 86,
+      "h": "motionless",
+      "v": 102,
+      "w": 22.57
     },
     {
       "n": "Lobster",
@@ -22104,7 +22104,7 @@
       "n": "Austin Dillon",
       "custom": true,
       "r": "Common",
-      "c": 116,
+      "c": 117,
       "h": "motionless",
       "v": 28,
       "w": 16.86
@@ -23003,9 +23003,9 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 85,
-      "rec": "22.49 lb",
-      "v": 101
+      "c": 86,
+      "rec": "22.57 lb",
+      "v": 102
     },
     {
       "n": "Traffic Cone",
@@ -24227,7 +24227,7 @@
       "r": "Common",
       "custom": true,
       "desc": "I spin people to win, so what?",
-      "c": 116,
+      "c": 117,
       "rec": "16.86 lb",
       "v": 28
     },
@@ -26169,6 +26169,22 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Triggerfish",
+      "w": 22.57,
+      "v": 102,
+      "r": "Uncommon",
+      "d": "Apr 26 2026"
+    },
+    {
+      "u": "ironlegacy_",
+      "i": "Austin Dillon",
+      "w": 13.05,
+      "v": 22,
+      "r": "Common",
+      "d": "Apr 26 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Devin Youker",
       "w": 46.99,
@@ -26749,22 +26765,6 @@
       "i": "Red Discus",
       "w": 0.33,
       "v": 75,
-      "r": "Rare",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Black Flag",
-      "w": 0.98,
-      "v": 1,
-      "r": "Junk",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "THROTTLE RETURN SPRING KIT",
-      "w": 2.09,
-      "v": 79,
       "r": "Rare",
       "d": "Apr 26 2026"
     }
