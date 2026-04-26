@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26T03:29:52Z",
+  "generated_at": "2026-04-26T03:31:11Z",
   "meta": {
-    "total_hands": 16,
+    "total_hands": 17,
     "total_players": 5,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -64,10 +64,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 73,
-        "net": -777,
-        "hands": 1,
-        "ach": 0
+        "chips": 53,
+        "net": -840,
+        "hands": 2,
+        "ach": 2
       }
     ],
     "monthly": [
@@ -80,10 +80,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 73,
-        "net": -777,
-        "hands": 1,
-        "ach": 0
+        "chips": 53,
+        "net": -840,
+        "hands": 2,
+        "ach": 2
       },
       {
         "u": "ironlegacy_",
@@ -117,10 +117,10 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 73,
-        "net": -777,
-        "hands": 1,
-        "ach": 0
+        "chips": 53,
+        "net": -840,
+        "hands": 2,
+        "ach": 2
       },
       {
         "u": "ironlegacy_",
@@ -159,10 +159,10 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 73,
-          "net": -777,
-          "hands": 1,
-          "ach": 0
+          "chips": 53,
+          "net": -840,
+          "hands": 2,
+          "ach": 2
         },
         {
           "u": "ironlegacy_",
@@ -782,13 +782,14 @@
         }
       },
       "poker_pair_any": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "gatoraintplaying",
-          "ironlegacy_"
+          "ironlegacy_",
+          "azsuperbeast"
         ],
         "latest": {
-          "u": "ironlegacy_",
+          "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
@@ -1001,12 +1002,13 @@
         }
       },
       "poker_salvation": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "ironlegacy_"
+          "ironlegacy_",
+          "azsuperbeast"
         ],
         "latest": {
-          "u": "ironlegacy_",
+          "u": "azsuperbeast",
           "d": "2026-04-25"
         }
       },
@@ -1076,9 +1078,23 @@
         "big_swing_session_50k": "2026-04-25",
         "high_roller_50k": "2026-04-25",
         "escalator": "2026-04-25"
+      },
+      "azsuperbeast": {
+        "poker_pair_any": "2026-04-25",
+        "poker_salvation": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "azsuperbeast",
+        "d": "2026-04-25"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "azsuperbeast",
+        "d": "2026-04-25"
+      },
       {
         "id": "high_roller_50k",
         "u": "brookswhynot",
@@ -1166,16 +1182,6 @@
       },
       {
         "id": "hot_streak_3",
-        "u": "gatoraintplaying",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "gatoraintplaying",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "clean_poker_win",
         "u": "gatoraintplaying",
         "d": "2026-04-25"
       }
@@ -1898,6 +1904,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777174271.3315637,
+      "date": "2026-04-25",
+      "player": "azsuperbeast",
+      "bet": 70,
+      "balance_before": 73,
+      "result": "bust",
+      "net_delta": -63,
+      "player_cards": [
+        "K♣",
+        "3♥",
+        "K♠"
+      ],
+      "player_total": 23,
+      "hit_count": 1,
+      "dealer_cards": [
+        "9♠",
+        "Q♣"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 7,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1777174192.0218709,
       "date": "2026-04-25",
