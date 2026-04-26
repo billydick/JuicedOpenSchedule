@@ -257,7 +257,9 @@
         return;
       }
 
-      var maxVal=visible[0]?(isAllTime?visible[0].chips:Math.max(1,Math.abs(visible[0].net))):1;
+      var maxVal=visible[0]?(isAllTime?visible[0].chips:Math.max(1,visible[0].net||0)):1;
+      var minVal=isAllTime?0:(visible.length?visible[visible.length-1].net||0:0);
+      var rangeVal=Math.max(1,maxVal-minVal);
 
       var html=visible.map(function(p,i){
         var rank=i+1;
@@ -273,7 +275,7 @@
         var val   =isAllTime?p.chips:p.net;
         var valStr=isAllTime?fmt(p.chips):((p.net||0)>=0?'+':'')+fmt(p.net);
         var valCol=isAllTime?col:(p.net||0)>=0?'#40dd80':'#e05555';
-        var barW  =maxVal?Math.round((Math.abs(val||0)/maxVal)*100):0;
+        var barW  =Math.round(((val||0)-minVal)/rangeVal*100);
         var tp    =tierPip(p.chips||0);
         var hands =p.hands>0?fmt(p.hands):'<span style="color:rgba(200,200,200,.2)">—</span>';
 
