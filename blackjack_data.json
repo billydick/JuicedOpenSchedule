@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T02:49:06Z",
+  "generated_at": "2026-04-28T02:50:54Z",
   "meta": {
-    "total_hands": 47,
+    "total_hands": 48,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -11,7 +11,7 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 112201,
+    "top_chips": 117636,
     "top_player": "mrdrwaddles"
   },
   "competition_meta": {
@@ -36,10 +36,10 @@
     "alltime": [
       {
         "u": "mrdrwaddles",
-        "chips": 112201,
-        "net": 0,
-        "hands": 0,
-        "ach": 1
+        "chips": 117636,
+        "net": 5435,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "larcen22",
@@ -111,6 +111,13 @@
         "chips": 80050,
         "net": 31596,
         "hands": 3,
+        "ach": 2
+      },
+      {
+        "u": "mrdrwaddles",
+        "chips": 117636,
+        "net": 5435,
+        "hands": 1,
         "ach": 2
       },
       {
@@ -962,13 +969,14 @@
         }
       },
       "lucky_escape": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "juicedracing",
-          "sille_94"
+          "sille_94",
+          "mrdrwaddles"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "mrdrwaddles",
           "d": "2026-04-27"
         }
       },
@@ -1309,10 +1317,16 @@
         "clean_poker_win": "2026-04-27"
       },
       "mrdrwaddles": {
-        "bank_builder_100k": "earned"
+        "bank_builder_100k": "earned",
+        "lucky_escape": "2026-04-27"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "lucky_escape",
+        "u": "mrdrwaddles",
+        "d": "2026-04-27"
+      },
       {
         "id": "big_nerve_win",
         "u": "juicedracing",
@@ -1405,11 +1419,6 @@
       },
       {
         "id": "min_bet_master",
-        "u": "juicedracing",
-        "d": "2026-04-26"
-      },
-      {
-        "id": "lucky_escape",
         "u": "juicedracing",
         "d": "2026-04-26"
       }
@@ -2132,6 +2141,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777344654.3654892,
+      "date": "2026-04-27",
+      "player": "mrdrwaddles",
+      "bet": 5435,
+      "balance_before": 112201,
+      "result": "win",
+      "net_delta": 5435,
+      "player_cards": [
+        "6♠",
+        "4♥",
+        "Q♥"
+      ],
+      "player_total": 20,
+      "hit_count": 1,
+      "dealer_cards": [
+        "7♠",
+        "10♥"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "lucky_escape"
+      ]
+    },
     {
       "ts": 1777344546.4769945,
       "date": "2026-04-27",
