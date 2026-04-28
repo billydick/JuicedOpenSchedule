@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T00:12:38.066323+00:00",
-    "total_catches": 21927,
+    "generated_at": "2026-04-28T00:13:42.333121+00:00",
+    "total_catches": 21928,
     "unique_catches": 370,
-    "total_players": 738,
+    "total_players": 739,
     "dex_total": 375,
     "caught_total": 370,
     "dex_completion": 98.67,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21927 catches"
+      "sub": "Since launch - 21928 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3722,6 +3722,14 @@
         "l": "Dec 30 2024"
       },
       {
+        "u": "sille_94",
+        "n": "sille_94",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "jettshim",
         "n": "jettshim",
         "g": 112,
@@ -6406,6 +6414,14 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "sille_94",
+        "n": "sille_94",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 34,
@@ -6419,6 +6435,14 @@
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 229,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
+        "u": "sille_94",
+        "n": "sille_94",
+        "g": 112,
         "c": 1,
         "casts": 1,
         "l": "Apr 28 2026"
@@ -9650,6 +9674,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "sille_94",
+        "i": "Rubber Ducky",
+        "v": 112,
+        "r": "Rare",
+        "d": "Apr 28 2026"
+      },
+      {
         "n": "motionless",
         "i": "Atlantic Cod",
         "v": 34,
@@ -9666,6 +9697,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "sille_94",
+        "i": "Rubber Ducky",
+        "v": 112,
+        "r": "Rare",
+        "d": "Apr 28 2026"
+      },
+      {
         "n": "motionless",
         "i": "Atlantic Cod",
         "v": 34,
@@ -9677,7 +9715,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 738,
+        "total": 739,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10416,11 +10454,12 @@
           "evangel0203",
           "turbosnail87",
           "iz1ggy",
-          "forthe_lul"
+          "forthe_lul",
+          "sille_94"
         ],
         "latest": {
-          "u": "forthe_lul",
-          "d": "Apr 25 2026"
+          "u": "sille_94",
+          "d": "Apr 28 2026"
         }
       },
       "first_cast": {
@@ -18806,6 +18845,9 @@
       "forthe_lul": {
         "broke_in": "Apr 25 2026",
         "custom_catch": "Apr 25 2026"
+      },
+      "sille_94": {
+        "broke_in": "Apr 28 2026"
       }
     },
     "recent_unlocks": [
@@ -20473,7 +20515,7 @@
       "n": "Rubber Ducky",
       "custom": false,
       "r": "Rare",
-      "c": 51,
+      "c": 52,
       "h": "karnalsanders",
       "v": 113,
       "w": 0.11
@@ -22291,7 +22333,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "sille_94",
+      "g": 112,
+      "c": 1,
+      "best_n": "Rubber Ducky",
+      "best_r": "Rare",
+      "best_v": 112,
+      "d": "Apr 28 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -23279,7 +23331,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 51,
+      "c": 52,
       "rec": "0.11 lb",
       "v": 113
     },
@@ -25671,6 +25723,14 @@
   ],
   "recent": [
     {
+      "u": "sille_94",
+      "i": "Rubber Ducky",
+      "w": 0.11,
+      "v": 112,
+      "r": "Rare",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "v1per_simr4cin6",
       "i": "Hershel McGriff",
       "w": 26.01,
@@ -26259,14 +26319,6 @@
       "i": "Austin Dillon",
       "w": 15.88,
       "v": 26,
-      "r": "Common",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Fire Bottle Nozzle",
-      "w": 2.24,
-      "v": 28,
       "r": "Common",
       "d": "Apr 26 2026"
     }
