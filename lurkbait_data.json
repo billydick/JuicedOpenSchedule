@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T02:13:25.960941+00:00",
-    "total_catches": 21974,
+    "generated_at": "2026-04-28T02:14:30.000891+00:00",
+    "total_catches": 21976,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21974 catches"
+      "sub": "Since launch - 21976 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -938,6 +938,14 @@
         "l": "Jan 22 2025"
       },
       {
+        "u": "raising_cain_909",
+        "n": "raising_cain_909",
+        "g": 3302,
+        "c": 49,
+        "casts": 49,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "corndawg3",
         "n": "corndawg3",
         "g": 3246,
@@ -968,14 +976,6 @@
         "c": 77,
         "casts": 77,
         "l": "Oct 25 2024"
-      },
-      {
-        "u": "raising_cain_909",
-        "n": "raising_cain_909",
-        "g": 3213,
-        "c": 48,
-        "casts": 48,
-        "l": "Jul 20 2025"
       },
       {
         "u": "dr_chronic",
@@ -1370,20 +1370,20 @@
         "l": "Aug 04 2025"
       },
       {
+        "u": "pvtcrock",
+        "n": "pvtcrock",
+        "g": 1586,
+        "c": 32,
+        "casts": 32,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "brian_wertman_74",
         "n": "brian_wertman_74",
         "g": 1579,
         "c": 18,
         "casts": 18,
         "l": "Mar 27 2025"
-      },
-      {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 1561,
-        "c": 31,
-        "casts": 31,
-        "l": "Apr 28 2026"
       },
       {
         "u": "scandrol420",
@@ -6318,9 +6318,9 @@
       {
         "u": "pvtcrock",
         "n": "pvtcrock",
-        "g": 1403,
-        "c": 29,
-        "casts": 29,
+        "g": 1428,
+        "c": 30,
+        "casts": 30,
         "l": "Apr 28 2026"
       },
       {
@@ -6478,6 +6478,14 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "raising_cain_909",
+        "n": "raising_cain_909",
+        "g": 89,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "tayrob28",
         "n": "tayrob28",
         "g": 70,
@@ -6488,9 +6496,9 @@
       {
         "u": "pvtcrock",
         "n": "pvtcrock",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "g": 67,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 28 2026"
       },
       {
@@ -6592,6 +6600,14 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "raising_cain_909",
+        "n": "raising_cain_909",
+        "g": 89,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "tayrob28",
         "n": "tayrob28",
         "g": 70,
@@ -6602,9 +6618,9 @@
       {
         "u": "pvtcrock",
         "n": "pvtcrock",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "g": 67,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 28 2026"
       },
       {
@@ -9893,6 +9909,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "raising_cain_909",
+        "i": "Button Box",
+        "v": 89,
+        "r": "Rare",
+        "d": "Apr 28 2026"
+      },
+      {
         "n": "mrdrwaddles",
         "i": "Craftsman Silverado",
         "v": 84,
@@ -9989,6 +10012,13 @@
         "n": "evangel0203",
         "i": "Ricky Bobby",
         "v": 110,
+        "r": "Rare",
+        "d": "Apr 28 2026"
+      },
+      {
+        "n": "raising_cain_909",
+        "i": "Button Box",
+        "v": 89,
         "r": "Rare",
         "d": "Apr 28 2026"
       },
@@ -20921,7 +20951,7 @@
       "n": "Button Box",
       "custom": true,
       "r": "Rare",
-      "c": 48,
+      "c": 49,
       "h": "pvtcrackpot",
       "v": 112,
       "w": 3.37
@@ -22055,7 +22085,7 @@
       "n": "Road Race Wiper Motor",
       "custom": true,
       "r": "Common",
-      "c": 135,
+      "c": 136,
       "h": "flippy00",
       "v": 28,
       "w": 3.38
@@ -24241,7 +24271,7 @@
       "r": "Common",
       "custom": true,
       "desc": "NO ARM, MOTOR ONLY",
-      "c": 135,
+      "c": 136,
       "rec": "3.38 lb",
       "v": 28
     },
@@ -24574,7 +24604,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Mah immersions",
-      "c": 48,
+      "c": 49,
       "rec": "3.37 lb",
       "v": 112
     },
@@ -26093,6 +26123,22 @@
   ],
   "recent": [
     {
+      "u": "raising_cain_909",
+      "i": "Button Box",
+      "w": 2.66,
+      "v": 89,
+      "r": "Rare",
+      "d": "Apr 28 2026"
+    },
+    {
+      "u": "pvtcrock",
+      "i": "Road Race Wiper Motor",
+      "w": 2.94,
+      "v": 25,
+      "r": "Common",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Todd Gilliland",
       "w": 0.85,
@@ -26674,22 +26720,6 @@
       "w": 1.01,
       "v": 10,
       "r": "Junk",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Fish Cracker",
-      "w": 0.45,
-      "v": 4,
-      "r": "Junk",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Double Adjustable Steel J-Bar",
-      "w": 1.9,
-      "v": 48,
-      "r": "Uncommon",
       "d": "Apr 26 2026"
     }
   ]
