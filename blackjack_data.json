@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T04:17:45Z",
+  "generated_at": "2026-04-28T04:20:08Z",
   "meta": {
-    "total_hands": 62,
+    "total_hands": 63,
     "total_players": 11,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -43,10 +43,10 @@
       },
       {
         "u": "aquadays",
-        "chips": 93850,
-        "net": 46900,
-        "hands": 1,
-        "ach": 4
+        "chips": 101851,
+        "net": 54901,
+        "hands": 2,
+        "ach": 7
       },
       {
         "u": "larcen22",
@@ -115,10 +115,10 @@
     "daily": [
       {
         "u": "aquadays",
-        "chips": 93850,
-        "net": 46900,
-        "hands": 1,
-        "ach": 4
+        "chips": 101851,
+        "net": 54901,
+        "hands": 2,
+        "ach": 7
       },
       {
         "u": "larcen22",
@@ -757,9 +757,10 @@
         }
       },
       "bank_builder_100k": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "mrdrwaddles"
+          "mrdrwaddles",
+          "aquadays"
         ],
         "latest": {
           "u": "—",
@@ -828,22 +829,24 @@
         }
       },
       "roller_coaster_session": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "aquadays"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "aquadays",
           "d": "2026-04-27"
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "mrdrwaddles"
+          "mrdrwaddles",
+          "aquadays"
         ],
         "latest": {
-          "u": "mrdrwaddles",
+          "u": "aquadays",
           "d": "2026-04-27"
         }
       },
@@ -1363,10 +1366,23 @@
         "exact_change_win": "2026-04-27",
         "big_nerve_win": "2026-04-27",
         "rags_to_riches_session": "2026-04-27",
-        "table_dominator": "2026-04-27"
+        "table_dominator": "2026-04-27",
+        "bank_builder_100k": "earned",
+        "roller_coaster_session": "2026-04-27",
+        "big_swing_session_50k": "2026-04-27"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "roller_coaster_session",
+        "u": "aquadays",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "aquadays",
+        "d": "2026-04-27"
+      },
       {
         "id": "poker_pair_any",
         "u": "mrdrwaddles",
@@ -1455,16 +1471,6 @@
       {
         "id": "big_nerve_win",
         "u": "larcen22",
-        "d": "2026-04-27"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-27"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "juicedracing",
         "d": "2026-04-27"
       }
     ]
@@ -2186,6 +2192,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777350008.6626112,
+      "date": "2026-04-27",
+      "player": "aquadays",
+      "bet": 8001,
+      "balance_before": 93850,
+      "result": "win",
+      "net_delta": 8001,
+      "player_cards": [
+        "6♠",
+        "5♠"
+      ],
+      "player_total": 11,
+      "hit_count": 0,
+      "dealer_cards": [
+        "7♠",
+        "7♣",
+        "8♣"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "roller_coaster_session",
+        "big_swing_session_50k"
+      ]
+    },
     {
       "ts": 1777349865.208082,
       "date": "2026-04-27",
@@ -3649,35 +3686,6 @@
         "roller_coaster_session",
         "big_swing_session_50k"
       ]
-    },
-    {
-      "ts": 1777167769.3458529,
-      "date": "2026-04-25",
-      "player": "juicedracing",
-      "bet": 5000,
-      "balance_before": 5237,
-      "result": "lose",
-      "net_delta": -5000,
-      "player_cards": [
-        "2♣",
-        "10♦",
-        "6♥"
-      ],
-      "player_total": 18,
-      "hit_count": 1,
-      "dealer_cards": [
-        "7♥",
-        "3♠",
-        "J♠"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
