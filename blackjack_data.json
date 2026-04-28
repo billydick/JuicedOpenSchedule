@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T00:22:01Z",
+  "generated_at": "2026-04-28T00:40:22Z",
   "meta": {
-    "total_hands": 40,
+    "total_hands": 41,
     "total_players": 9,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -57,10 +57,10 @@
       },
       {
         "u": "sille_94",
-        "chips": 14000,
-        "net": -1000,
-        "hands": 1,
-        "ach": 0
+        "chips": 15000,
+        "net": 100,
+        "hands": 2,
+        "ach": 4
       },
       {
         "u": "juicedracing",
@@ -78,7 +78,7 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 6100,
+        "chips": 6400,
         "net": -24875,
         "hands": 0,
         "ach": 0
@@ -92,7 +92,7 @@
       },
       {
         "u": "evangel0203",
-        "chips": 50,
+        "chips": 650,
         "net": -20150,
         "hands": 1,
         "ach": 1
@@ -101,10 +101,10 @@
     "daily": [
       {
         "u": "sille_94",
-        "chips": 14000,
-        "net": -1000,
-        "hands": 1,
-        "ach": 0
+        "chips": 15000,
+        "net": 100,
+        "hands": 2,
+        "ach": 4
       },
       {
         "u": "larcen22",
@@ -122,7 +122,7 @@
       },
       {
         "u": "evangel0203",
-        "chips": 50,
+        "chips": 650,
         "net": -20150,
         "hands": 1,
         "ach": 1
@@ -130,6 +130,18 @@
     ]
   },
   "daily_highlights": {
+    "biggest_win": {
+      "u": "sille_94",
+      "cards": [
+        "J♣",
+        "4♦",
+        "4♣"
+      ],
+      "total": 18,
+      "bet": 1000,
+      "net": 1100,
+      "result": "win"
+    },
     "biggest_loss": {
       "u": "evangel0203",
       "cards": [
@@ -153,7 +165,11 @@
       "result": "lose"
     },
     "most_hands": {
-      "u": "juicedracing",
+      "u": "sille_94",
+      "n": 2
+    },
+    "best_streak": {
+      "u": "sille_94",
       "n": 1
     },
     "worst_streak": {
@@ -167,6 +183,18 @@
         "10♠",
         "10♥"
       ]
+    },
+    "most_cards_win": {
+      "u": "sille_94",
+      "cards": [
+        "J♣",
+        "4♦",
+        "4♣"
+      ],
+      "total": 18,
+      "bet": 1000,
+      "net": 1100,
+      "result": "win"
     }
   },
   "daily_history": [
@@ -301,7 +329,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6100,
+          "chips": 6400,
           "net": -24875,
           "hands": 4,
           "ach": 0
@@ -609,11 +637,13 @@
         }
       },
       "min_bet_master": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "sille_94"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-04-26"
+          "u": "sille_94",
+          "d": "2026-04-27"
         }
       },
       "exact_change_win": {
@@ -907,11 +937,13 @@
         }
       },
       "lucky_escape": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "sille_94"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-04-26"
+          "u": "sille_94",
+          "d": "2026-04-27"
         }
       },
       "lucky_escape_50": {
@@ -963,12 +995,13 @@
         }
       },
       "poker_pair_any": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "sille_94"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "sille_94",
           "d": "2026-04-27"
         }
       },
@@ -1199,11 +1232,13 @@
         }
       },
       "clean_poker_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "sille_94"
+        ],
         "latest": {
-          "u": "gatoraintplaying",
-          "d": "2026-04-25"
+          "u": "sille_94",
+          "d": "2026-04-27"
         }
       },
       "clean_poker_win_25": {
@@ -1230,9 +1265,35 @@
       },
       "evangel0203": {
         "rags_to_riches_session": "2026-04-27"
+      },
+      "sille_94": {
+        "min_bet_master": "2026-04-27",
+        "lucky_escape": "2026-04-27",
+        "poker_pair_any": "2026-04-27",
+        "clean_poker_win": "2026-04-27"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "min_bet_master",
+        "u": "sille_94",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "lucky_escape",
+        "u": "sille_94",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "poker_pair_any",
+        "u": "sille_94",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "clean_poker_win",
+        "u": "sille_94",
+        "d": "2026-04-27"
+      },
       {
         "id": "rags_to_riches_session",
         "u": "evangel0203",
@@ -1311,26 +1372,6 @@
       {
         "id": "roller_coaster_session",
         "u": "brookswhynot",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "brookswhynot",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "brookswhynot",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "juicedracing",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "juicedracing",
         "d": "2026-04-25"
       }
     ]
@@ -2052,6 +2093,40 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777336822.8639064,
+      "date": "2026-04-27",
+      "player": "sille_94",
+      "bet": 1000,
+      "balance_before": 14000,
+      "result": "win",
+      "net_delta": 1100,
+      "player_cards": [
+        "J♣",
+        "4♦",
+        "4♣"
+      ],
+      "player_total": 18,
+      "hit_count": 1,
+      "dealer_cards": [
+        "5♠",
+        "9♣",
+        "9♥"
+      ],
+      "dealer_total": 23,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 0,
+      "poker_bonus": 100,
+      "achievements_earned": [
+        "min_bet_master",
+        "lucky_escape",
+        "poker_pair_any",
+        "clean_poker_win"
+      ]
+    },
     {
       "ts": 1777335721.2488043,
       "date": "2026-04-27",
