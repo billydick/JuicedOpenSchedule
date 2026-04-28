@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T04:31:55Z",
+  "generated_at": "2026-04-28T05:13:19Z",
   "meta": {
-    "total_hands": 65,
+    "total_hands": 66,
     "total_players": 11,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -11,7 +11,7 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 111792,
+    "top_chips": 106480,
     "top_player": "mrdrwaddles"
   },
   "competition_meta": {
@@ -36,9 +36,9 @@
     "alltime": [
       {
         "u": "mrdrwaddles",
-        "chips": 111792,
-        "net": -409,
-        "hands": 8,
+        "chips": 106480,
+        "net": -5721,
+        "hands": 9,
         "ach": 5
       },
       {
@@ -78,7 +78,7 @@
       },
       {
         "u": "evangel0203",
-        "chips": 8300,
+        "chips": 9150,
         "net": -20150,
         "hands": 1,
         "ach": 1
@@ -98,18 +98,18 @@
         "ach": 0
       },
       {
+        "u": "juicedracing",
+        "chips": 2050,
+        "net": -71717,
+        "hands": 11,
+        "ach": 8
+      },
+      {
         "u": "brookswhynot",
         "chips": 950,
         "net": -34875,
         "hands": 1,
         "ach": 0
-      },
-      {
-        "u": "juicedracing",
-        "chips": 50,
-        "net": -71717,
-        "hands": 11,
-        "ach": 8
       }
     ],
     "daily": [
@@ -136,9 +136,9 @@
       },
       {
         "u": "mrdrwaddles",
-        "chips": 111792,
-        "net": -409,
-        "hands": 8,
+        "chips": 106480,
+        "net": -5721,
+        "hands": 9,
         "ach": 5
       },
       {
@@ -150,14 +150,14 @@
       },
       {
         "u": "evangel0203",
-        "chips": 8300,
+        "chips": 9150,
         "net": -20150,
         "hands": 1,
         "ach": 1
       },
       {
         "u": "juicedracing",
-        "chips": 50,
+        "chips": 2050,
         "net": -30699,
         "hands": 11,
         "ach": 8
@@ -216,7 +216,7 @@
     },
     "most_busts": {
       "u": "mrdrwaddles",
-      "n": 4
+      "n": 5
     },
     "best_win_rate": {
       "u": "juicedracing",
@@ -250,7 +250,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 2050,
           "net": -18,
           "hands": 4,
           "ach": 8
@@ -382,7 +382,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 2050,
           "net": -41000,
           "hands": 6,
           "ach": 8
@@ -2193,6 +2193,36 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777353199.1789303,
+      "date": "2026-04-27",
+      "player": "mrdrwaddles",
+      "bet": 5312,
+      "balance_before": 111792,
+      "result": "bust",
+      "net_delta": -5312,
+      "player_cards": [
+        "8♦",
+        "5♣",
+        "10♦"
+      ],
+      "player_total": 23,
+      "hit_count": 1,
+      "dealer_cards": [
+        "6♥",
+        "5♦",
+        "A♦",
+        "9♦"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777350715.7909732,
       "date": "2026-04-27",
       "player": "juicedracing",
@@ -3647,35 +3677,6 @@
         "poker_pair_any",
         "poker_salvation"
       ]
-    },
-    {
-      "ts": 1777174192.0218709,
-      "date": "2026-04-25",
-      "player": "azsuperbeast",
-      "bet": 777,
-      "balance_before": 800,
-      "result": "bust",
-      "net_delta": -777,
-      "player_cards": [
-        "5♥",
-        "10♦",
-        "J♦"
-      ],
-      "player_total": 25,
-      "hit_count": 1,
-      "dealer_cards": [
-        "3♣",
-        "K♣",
-        "Q♥"
-      ],
-      "dealer_total": 23,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
