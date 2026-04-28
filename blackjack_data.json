@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-28T00:46:36Z",
+  "generated_at": "2026-04-28T01:23:49Z",
   "meta": {
-    "total_hands": 42,
-    "total_players": 9,
+    "total_hands": 43,
+    "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
       "amount": 99251
@@ -11,8 +11,8 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 46200,
-    "top_player": "gatoraintplaying"
+    "top_chips": 107201,
+    "top_player": "mrdrwaddles"
   },
   "competition_meta": {
     "daily": {
@@ -34,6 +34,13 @@
   },
   "leaderboards": {
     "alltime": [
+      {
+        "u": "mrdrwaddles",
+        "chips": 107201,
+        "net": 0,
+        "hands": 0,
+        "ach": 1
+      },
       {
         "u": "gatoraintplaying",
         "chips": 46200,
@@ -63,16 +70,16 @@
         "ach": 4
       },
       {
-        "u": "thesaucypanda2",
-        "chips": 7598,
-        "net": -20000,
+        "u": "brookswhynot",
+        "chips": 7600,
+        "net": -24875,
         "hands": 0,
         "ach": 0
       },
       {
-        "u": "brookswhynot",
-        "chips": 6650,
-        "net": -24875,
+        "u": "thesaucypanda2",
+        "chips": 7598,
+        "net": -20000,
         "hands": 0,
         "ach": 0
       },
@@ -84,18 +91,18 @@
         "ach": 0
       },
       {
-        "u": "juicedracing",
-        "chips": 699,
-        "net": -55518,
-        "hands": 2,
-        "ach": 2
-      },
-      {
         "u": "evangel0203",
-        "chips": 650,
+        "chips": 1350,
         "net": -20150,
         "hands": 1,
         "ach": 1
+      },
+      {
+        "u": "juicedracing",
+        "chips": 50,
+        "net": -58017,
+        "hands": 3,
+        "ach": 2
       }
     ],
     "daily": [
@@ -115,14 +122,14 @@
       },
       {
         "u": "juicedracing",
-        "chips": 699,
-        "net": -14500,
-        "hands": 2,
+        "chips": 50,
+        "net": -16999,
+        "hands": 3,
         "ach": 2
       },
       {
         "u": "evangel0203",
-        "chips": 650,
+        "chips": 1350,
         "net": -20150,
         "hands": 1,
         "ach": 1
@@ -166,7 +173,7 @@
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "sille_94",
@@ -174,7 +181,7 @@
     },
     "worst_streak": {
       "u": "juicedracing",
-      "n": 2
+      "n": 3
     },
     "most_busts": {
       "u": "juicedracing",
@@ -208,7 +215,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 699,
+          "chips": 50,
           "net": -18,
           "hands": 4,
           "ach": 2
@@ -333,14 +340,14 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6650,
+          "chips": 7600,
           "net": -24875,
           "hands": 4,
           "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 699,
+          "chips": 50,
           "net": -41000,
           "hands": 6,
           "ach": 2
@@ -707,8 +714,10 @@
         }
       },
       "bank_builder_100k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "mrdrwaddles"
+        ],
         "latest": {
           "u": "—",
           "d": "—"
@@ -1275,6 +1284,9 @@
         "lucky_escape": "2026-04-27",
         "poker_pair_any": "2026-04-27",
         "clean_poker_win": "2026-04-27"
+      },
+      "mrdrwaddles": {
+        "bank_builder_100k": "earned"
       }
     },
     "recent_unlocks": [
@@ -2097,6 +2109,35 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777339429.0151868,
+      "date": "2026-04-27",
+      "player": "juicedracing",
+      "bet": 2499,
+      "balance_before": 2499,
+      "result": "lose",
+      "net_delta": -2499,
+      "player_cards": [
+        "2♣",
+        "8♥",
+        "7♣"
+      ],
+      "player_total": 17,
+      "hit_count": 1,
+      "dealer_cards": [
+        "4♦",
+        "4♣",
+        "Q♣"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777337196.176474,
       "date": "2026-04-27",
