@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T04:25:26.199316+00:00",
-    "total_catches": 22022,
+    "generated_at": "2026-04-28T04:26:30.051368+00:00",
+    "total_catches": 22023,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22022 catches"
+      "sub": "Since launch - 22023 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -706,20 +706,20 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "mrdrwaddles",
+        "n": "mrdrwaddles",
+        "g": 6362,
+        "c": 82,
+        "casts": 82,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "foxxtruckin",
         "n": "foxxtruckin",
         "g": 6292,
         "c": 118,
         "casts": 118,
         "l": "Jan 27 2025"
-      },
-      {
-        "u": "mrdrwaddles",
-        "n": "mrdrwaddles",
-        "g": 6280,
-        "c": 81,
-        "casts": 81,
-        "l": "Apr 28 2026"
       },
       {
         "u": "rms_racing",
@@ -6334,9 +6334,9 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 962,
-        "c": 12,
-        "casts": 12,
+        "g": 1044,
+        "c": 13,
+        "casts": 13,
         "l": "Apr 28 2026"
       },
       {
@@ -6424,9 +6424,9 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 962,
-        "c": 12,
-        "casts": 12,
+        "g": 1044,
+        "c": 13,
+        "casts": 13,
         "l": "Apr 28 2026"
       },
       {
@@ -6578,9 +6578,9 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 962,
-        "c": 12,
-        "casts": 12,
+        "g": 1044,
+        "c": 13,
+        "casts": 13,
         "l": "Apr 28 2026"
       },
       {
@@ -12144,7 +12144,7 @@
         }
       },
       "gold_rush": {
-        "total": 70,
+        "total": 71,
         "holders": [
           "belyy92",
           "dan_2012",
@@ -12215,11 +12215,12 @@
           "drewieblaster",
           "brookswhynot",
           "ineffabledecibel",
-          "grumpymitch1"
+          "grumpymitch1",
+          "mrdrwaddles"
         ],
         "latest": {
-          "u": "grumpymitch1",
-          "d": "Apr 18 2026"
+          "u": "mrdrwaddles",
+          "d": "Apr 28 2026"
         }
       },
       "the_regulars": {
@@ -18730,6 +18731,7 @@
         "catch_of_day": "Aug 01 2025",
         "junk_master": "Sep 13 2025",
         "custom_catch": "Jul 30 2025",
+        "gold_rush": "Apr 28 2026",
         "the_regulars": "Oct 01 2025",
         "walk_in": "Aug 01 2025",
         "regular_weight": "Apr 28 2026",
@@ -21228,7 +21230,7 @@
       "n": "Wahoo",
       "custom": false,
       "r": "Rare",
-      "c": 68,
+      "c": 69,
       "h": "rmboliveira",
       "v": 101,
       "w": 15.66
@@ -23306,7 +23308,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 68,
+      "c": 69,
       "rec": "15.66 lb",
       "v": 101
     },
@@ -26247,6 +26249,14 @@
   ],
   "recent": [
     {
+      "u": "mrdrwaddles",
+      "i": "Wahoo",
+      "w": 12.69,
+      "v": 82,
+      "r": "Rare",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Oreochromis",
       "w": 2.51,
@@ -26835,14 +26845,6 @@
       "i": "Bike",
       "w": 8.65,
       "v": 26,
-      "r": "Junk",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "evangel0203",
-      "i": "Caution!",
-      "w": 0.82,
-      "v": 8,
       "r": "Junk",
       "d": "Apr 28 2026"
     }
