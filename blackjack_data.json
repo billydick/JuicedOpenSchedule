@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T02:50:54Z",
+  "generated_at": "2026-04-28T02:52:52Z",
   "meta": {
-    "total_hands": 48,
+    "total_hands": 49,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -11,7 +11,7 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 117636,
+    "top_chips": 112414,
     "top_player": "mrdrwaddles"
   },
   "competition_meta": {
@@ -36,9 +36,9 @@
     "alltime": [
       {
         "u": "mrdrwaddles",
-        "chips": 117636,
-        "net": 5435,
-        "hands": 1,
+        "chips": 112414,
+        "net": 213,
+        "hands": 2,
         "ach": 2
       },
       {
@@ -114,18 +114,18 @@
         "ach": 2
       },
       {
-        "u": "mrdrwaddles",
-        "chips": 117636,
-        "net": 5435,
-        "hands": 1,
-        "ach": 2
-      },
-      {
         "u": "juicedracing",
         "chips": 28150,
         "net": 3001,
         "hands": 5,
         "ach": 7
+      },
+      {
+        "u": "mrdrwaddles",
+        "chips": 112414,
+        "net": 213,
+        "hands": 2,
+        "ach": 2
       },
       {
         "u": "sille_94",
@@ -2141,6 +2141,35 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777344772.1778972,
+      "date": "2026-04-27",
+      "player": "mrdrwaddles",
+      "bet": 5222,
+      "balance_before": 117636,
+      "result": "bust",
+      "net_delta": -5222,
+      "player_cards": [
+        "4♠",
+        "K♥",
+        "2♣",
+        "7♦"
+      ],
+      "player_total": 23,
+      "hit_count": 2,
+      "dealer_cards": [
+        "7♣",
+        "A♣"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777344654.3654892,
       "date": "2026-04-27",
