@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T03:52:19.479716+00:00",
-    "total_catches": 22008,
+    "generated_at": "2026-04-28T03:54:24.430239+00:00",
+    "total_catches": 22009,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22008 catches"
+      "sub": "Since launch - 22009 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1450,6 +1450,14 @@
         "l": "Apr 23 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 1369,
+        "c": 26,
+        "casts": 26,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 1363,
@@ -1496,14 +1504,6 @@
         "c": 14,
         "casts": 14,
         "l": "Feb 17 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 1287,
-        "c": 25,
-        "casts": 25,
-        "l": "Apr 28 2026"
       },
       {
         "u": "darkhorizon35",
@@ -6326,9 +6326,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1287,
-        "c": 25,
-        "casts": 25,
+        "g": 1369,
+        "c": 26,
+        "casts": 26,
         "l": "Apr 28 2026"
       },
       {
@@ -6456,9 +6456,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 477,
-        "c": 4,
-        "casts": 4,
+        "g": 559,
+        "c": 5,
+        "casts": 5,
         "l": "Apr 28 2026"
       },
       {
@@ -6602,9 +6602,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 477,
-        "c": 4,
-        "casts": 4,
+        "g": 559,
+        "c": 5,
+        "casts": 5,
         "l": "Apr 28 2026"
       },
       {
@@ -21572,7 +21572,7 @@
       "n": "Triggerfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 86,
+      "c": 87,
       "h": "motionless",
       "v": 102,
       "w": 22.57
@@ -23047,7 +23047,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 86,
+      "c": 87,
       "rec": "22.57 lb",
       "v": 102
     },
@@ -26213,6 +26213,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Triggerfish",
+      "w": 18.2,
+      "v": 82,
+      "r": "Uncommon",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "HANS Device",
       "w": 2.13,
@@ -26802,14 +26810,6 @@
       "w": 54.03,
       "v": 54,
       "r": "Uncommon",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "HELLRAIZER DEMON JACK",
-      "w": 23.03,
-      "v": 184,
-      "r": "Epic",
       "d": "Apr 28 2026"
     }
   ]
