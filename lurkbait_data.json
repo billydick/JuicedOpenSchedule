@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-27T23:34:52.789109+00:00",
-    "total_catches": 21925,
+    "generated_at": "2026-04-28T00:09:31.542034+00:00",
+    "total_catches": 21926,
     "unique_catches": 370,
     "total_players": 738,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21925 catches"
+      "sub": "Since launch - 21926 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 95766,
-        "c": 1210,
-        "casts": 1210,
-        "l": "Apr 26 2026"
+        "g": 95800,
+        "c": 1211,
+        "casts": 1211,
+        "l": "Apr 28 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6214,10 +6214,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 6324,
-        "c": 89,
-        "casts": 89,
-        "l": "Apr 26 2026"
+        "g": 6358,
+        "c": 90,
+        "casts": 90,
+        "l": "Apr 28 2026"
       },
       {
         "u": "juicedracing",
@@ -6396,8 +6396,26 @@
         "l": "Apr 26 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9607,8 +9625,24 @@
         "d": "Apr 12 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "motionless",
+        "i": "Atlantic Cod",
+        "v": 34,
+        "r": "Common",
+        "d": "Apr 28 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "motionless",
+        "i": "Atlantic Cod",
+        "v": 34,
+        "r": "Common",
+        "d": "Apr 28 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21501,7 +21535,7 @@
       "n": "Atlantic Cod",
       "custom": false,
       "r": "Common",
-      "c": 150,
+      "c": 151,
       "h": "wintergofast",
       "v": 34,
       "w": 45.19
@@ -22372,7 +22406,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 150,
+      "c": 151,
       "rec": "45.19 lb",
       "v": 34
     },
@@ -25601,6 +25635,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Atlantic Cod",
+      "w": 45.11,
+      "v": 34,
+      "r": "Common",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "flippy00",
       "i": "Streaked Spinefoot",
       "w": 0.16,
@@ -26189,14 +26231,6 @@
       "i": "Jackson Gibbs",
       "w": 51.68,
       "v": 78,
-      "r": "Rare",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "AC RACING BRAKE",
-      "w": 1.77,
-      "v": 66,
       "r": "Rare",
       "d": "Apr 26 2026"
     }
