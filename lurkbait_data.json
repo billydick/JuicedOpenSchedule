@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T00:13:42.333121+00:00",
-    "total_catches": 21928,
+    "generated_at": "2026-04-28T00:14:46.277099+00:00",
+    "total_catches": 21929,
     "unique_catches": 370,
-    "total_players": 739,
+    "total_players": 740,
     "dex_total": 375,
     "caught_total": 370,
     "dex_completion": 98.67,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21928 catches"
+      "sub": "Since launch - 21929 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -5106,6 +5106,14 @@
         "l": "Jun 13 2025"
       },
       {
+        "u": "jaapoo",
+        "n": "jaapoo",
+        "g": 26,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "alistairvictor7",
         "n": "alistairvictor7",
         "g": 26,
@@ -6428,6 +6436,14 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 28 2026"
+      },
+      {
+        "u": "jaapoo",
+        "n": "jaapoo",
+        "g": 26,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
       }
     ],
     "daily": [
@@ -6451,6 +6467,14 @@
         "u": "motionless",
         "n": "motionless",
         "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 28 2026"
+      },
+      {
+        "u": "jaapoo",
+        "n": "jaapoo",
+        "g": 26,
         "c": 1,
         "casts": 1,
         "l": "Apr 28 2026"
@@ -9686,6 +9710,13 @@
         "v": 34,
         "r": "Common",
         "d": "Apr 28 2026"
+      },
+      {
+        "n": "jaapoo",
+        "i": "Barracuda",
+        "v": 26,
+        "r": "Common",
+        "d": "Apr 28 2026"
       }
     ],
     "daily": [
@@ -9709,13 +9740,20 @@
         "v": 34,
         "r": "Common",
         "d": "Apr 28 2026"
+      },
+      {
+        "n": "jaapoo",
+        "i": "Barracuda",
+        "v": 26,
+        "r": "Common",
+        "d": "Apr 28 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 739,
+        "total": 740,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10455,10 +10493,11 @@
           "turbosnail87",
           "iz1ggy",
           "forthe_lul",
-          "sille_94"
+          "sille_94",
+          "jaapoo"
         ],
         "latest": {
-          "u": "sille_94",
+          "u": "jaapoo",
           "d": "Apr 28 2026"
         }
       },
@@ -18848,6 +18887,9 @@
       },
       "sille_94": {
         "broke_in": "Apr 28 2026"
+      },
+      "jaapoo": {
+        "broke_in": "Apr 28 2026"
       }
     },
     "recent_unlocks": [
@@ -21631,7 +21673,7 @@
       "n": "Barracuda",
       "custom": false,
       "r": "Common",
-      "c": 163,
+      "c": 164,
       "h": "flippy00",
       "v": 34,
       "w": 10.13
@@ -22342,6 +22384,15 @@
       "best_r": "Rare",
       "best_v": 112,
       "d": "Apr 28 2026"
+    },
+    {
+      "u": "jaapoo",
+      "g": 26,
+      "c": 1,
+      "best_n": "Barracuda",
+      "best_r": "Common",
+      "best_v": 26,
+      "d": "Apr 28 2026"
     }
   ],
   "dex": [
@@ -22512,7 +22563,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 163,
+      "c": 164,
       "rec": "10.13 lb",
       "v": 34
     },
@@ -25723,6 +25774,14 @@
   ],
   "recent": [
     {
+      "u": "jaapoo",
+      "i": "Barracuda",
+      "w": 7.87,
+      "v": 26,
+      "r": "Common",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "sille_94",
       "i": "Rubber Ducky",
       "w": 0.11,
@@ -26311,14 +26370,6 @@
       "i": "NOMEX SFI SHIFTER BOOT",
       "w": 0.91,
       "v": 23,
-      "r": "Common",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Austin Dillon",
-      "w": 15.88,
-      "v": 26,
       "r": "Common",
       "d": "Apr 26 2026"
     }
