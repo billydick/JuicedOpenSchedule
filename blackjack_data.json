@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T02:46:29Z",
+  "generated_at": "2026-04-28T02:47:49Z",
   "meta": {
-    "total_hands": 44,
+    "total_hands": 45,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -51,8 +51,8 @@
       {
         "u": "larcen22",
         "chips": 40000,
-        "net": -6404,
-        "hands": 1,
+        "net": -11404,
+        "hands": 2,
         "ach": 0
       },
       {
@@ -114,18 +114,18 @@
         "ach": 4
       },
       {
-        "u": "larcen22",
-        "chips": 40000,
-        "net": -3404,
-        "hands": 1,
-        "ach": 0
-      },
-      {
         "u": "juicedracing",
         "chips": 150,
         "net": -7999,
         "hands": 4,
         "ach": 4
+      },
+      {
+        "u": "larcen22",
+        "chips": 40000,
+        "net": -8404,
+        "hands": 2,
+        "ach": 0
       },
       {
         "u": "evangel0203",
@@ -2114,6 +2114,35 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777344469.5124393,
+      "date": "2026-04-27",
+      "player": "larcen22",
+      "bet": 5000,
+      "balance_before": 45000,
+      "result": "lose",
+      "net_delta": -5000,
+      "player_cards": [
+        "3♣",
+        "8♣",
+        "7♥"
+      ],
+      "player_total": 18,
+      "hit_count": 1,
+      "dealer_cards": [
+        "5♠",
+        "K♠",
+        "6♠"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1777344389.352926,
       "date": "2026-04-27",
