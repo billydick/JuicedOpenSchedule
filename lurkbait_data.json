@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T00:23:03.065125+00:00",
-    "total_catches": 21934,
+    "generated_at": "2026-04-28T00:28:11.785996+00:00",
+    "total_catches": 21935,
     "unique_catches": 370,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21934 catches"
+      "sub": "Since launch - 21935 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 95809,
-        "c": 1212,
-        "casts": 1212,
+        "g": 95863,
+        "c": 1213,
+        "casts": 1213,
         "l": "Apr 28 2026"
       },
       {
@@ -6230,9 +6230,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 6367,
-        "c": 91,
-        "casts": 91,
+        "g": 6421,
+        "c": 92,
+        "casts": 92,
         "l": "Apr 28 2026"
       },
       {
@@ -6448,9 +6448,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 43,
-        "c": 2,
-        "casts": 2,
+        "g": 97,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 28 2026"
       },
       {
@@ -6506,9 +6506,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 43,
-        "c": 2,
-        "casts": 2,
+        "g": 97,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 28 2026"
       },
       {
@@ -9768,9 +9768,9 @@
       },
       {
         "n": "motionless",
-        "i": "Atlantic Cod",
-        "v": 34,
-        "r": "Common",
+        "i": "Garrett Smithley",
+        "v": 54,
+        "r": "Uncommon",
         "d": "Apr 28 2026"
       },
       {
@@ -9819,9 +9819,9 @@
       },
       {
         "n": "motionless",
-        "i": "Atlantic Cod",
-        "v": 34,
-        "r": "Common",
+        "i": "Garrett Smithley",
+        "v": 54,
+        "r": "Uncommon",
         "d": "Apr 28 2026"
       },
       {
@@ -21526,6 +21526,15 @@
       "w": 55.3
     },
     {
+      "n": "Garrett Smithley",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 7,
+      "h": "motionless",
+      "v": 54,
+      "w": 54.03
+    },
+    {
       "n": "Parker Kligerman ",
       "custom": true,
       "r": "Uncommon",
@@ -21533,15 +21542,6 @@
       "h": "ironlegacy_",
       "v": 53,
       "w": 53.41
-    },
-    {
-      "n": "Garrett Smithley",
-      "custom": true,
-      "r": "Uncommon",
-      "c": 6,
-      "h": "flippy00",
-      "v": 52,
-      "w": 51.56
     },
     {
       "n": "Butterfly Fish",
@@ -25677,9 +25677,9 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Professional backmarker with a podcast mic ready",
-      "c": 6,
-      "rec": "51.56 lb",
-      "v": 52
+      "c": 7,
+      "rec": "54.03 lb",
+      "v": 54
     },
     {
       "n": "Ryan Truex",
@@ -25863,6 +25863,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "motionless",
+      "i": "Garrett Smithley",
+      "w": 54.03,
+      "v": 54,
+      "r": "Uncommon",
+      "d": "Apr 28 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "HELLRAIZER DEMON JACK",
@@ -26453,14 +26461,6 @@
       "w": 0.89,
       "v": 1,
       "r": "Junk",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Sim Racing Gloves",
-      "w": 1.05,
-      "v": 52,
-      "r": "Uncommon",
       "d": "Apr 26 2026"
     }
   ]
