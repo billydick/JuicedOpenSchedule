@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T03:42:50Z",
+  "generated_at": "2026-04-28T03:49:51Z",
   "meta": {
-    "total_hands": 57,
+    "total_hands": 58,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -11,8 +11,8 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 87739,
-    "top_player": "mrdrwaddles"
+    "top_chips": 80050,
+    "top_player": "larcen22"
   },
   "competition_meta": {
     "daily": {
@@ -35,17 +35,17 @@
   "leaderboards": {
     "alltime": [
       {
-        "u": "mrdrwaddles",
-        "chips": 87739,
-        "net": -24462,
-        "hands": 5,
-        "ach": 2
-      },
-      {
         "u": "larcen22",
         "chips": 80050,
         "net": 28596,
         "hands": 3,
+        "ach": 2
+      },
+      {
+        "u": "mrdrwaddles",
+        "chips": 67739,
+        "net": 5538,
+        "hands": 6,
         "ach": 2
       },
       {
@@ -99,7 +99,7 @@
       },
       {
         "u": "juicedracing",
-        "chips": 100,
+        "chips": 350,
         "net": -69167,
         "hands": 10,
         "ach": 8
@@ -111,6 +111,13 @@
         "chips": 80050,
         "net": 31596,
         "hands": 3,
+        "ach": 2
+      },
+      {
+        "u": "mrdrwaddles",
+        "chips": 67739,
+        "net": 5538,
+        "hands": 6,
         "ach": 2
       },
       {
@@ -128,15 +135,8 @@
         "ach": 1
       },
       {
-        "u": "mrdrwaddles",
-        "chips": 87739,
-        "net": -24462,
-        "hands": 5,
-        "ach": 2
-      },
-      {
         "u": "juicedracing",
-        "chips": 100,
+        "chips": 350,
         "net": -28149,
         "hands": 10,
         "ach": 8
@@ -189,13 +189,17 @@
       "u": "mrdrwaddles",
       "n": 4
     },
+    "most_blackjacks": {
+      "u": "mrdrwaddles",
+      "n": 1
+    },
     "most_busts": {
       "u": "mrdrwaddles",
       "n": 3
     },
     "best_win_rate": {
-      "u": "juicedracing",
-      "pct": 30.0
+      "u": "mrdrwaddles",
+      "pct": 33.3
     },
     "best_poker": {
       "u": "juicedracing",
@@ -225,7 +229,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 100,
+          "chips": 350,
           "net": -18,
           "hands": 4,
           "ach": 8
@@ -357,7 +361,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 100,
+          "chips": 350,
           "net": -41000,
           "hands": 6,
           "ach": 8
@@ -2144,6 +2148,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777348191.524969,
+      "date": "2026-04-27",
+      "player": "mrdrwaddles",
+      "bet": 20000,
+      "balance_before": 87739,
+      "result": "blackjack",
+      "net_delta": 30000,
+      "player_cards": [
+        "Q♥",
+        "A♠"
+      ],
+      "player_total": 21,
+      "hit_count": 0,
+      "dealer_cards": [
+        "10♣",
+        "9♥"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777347770.1752343,
       "date": "2026-04-27",
       "player": "mrdrwaddles",
@@ -3617,38 +3648,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777164656.2103264,
-      "date": "2026-04-25",
-      "player": "ironlegacy_",
-      "bet": 5000,
-      "balance_before": 26051,
-      "result": "lose",
-      "net_delta": -4500,
-      "player_cards": [
-        "6♠",
-        "6♦",
-        "5♥"
-      ],
-      "player_total": 17,
-      "hit_count": 1,
-      "dealer_cards": [
-        "2♣",
-        "K♦",
-        "9♥"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 500,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any",
-        "poker_salvation"
-      ]
     }
   ]
 }
