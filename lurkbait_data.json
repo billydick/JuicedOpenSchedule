@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T04:37:53.549807+00:00",
-    "total_catches": 22027,
+    "generated_at": "2026-04-28T04:44:03.801604+00:00",
+    "total_catches": 22029,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22027 catches"
+      "sub": "Since launch - 22029 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -690,6 +690,14 @@
         "l": "Aug 19 2025"
       },
       {
+        "u": "mrdrwaddles",
+        "n": "mrdrwaddles",
+        "g": 6544,
+        "c": 84,
+        "casts": 84,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "mildgooses",
         "n": "mildgooses",
         "g": 6495,
@@ -704,14 +712,6 @@
         "c": 91,
         "casts": 91,
         "l": "Apr 25 2026"
-      },
-      {
-        "u": "mrdrwaddles",
-        "n": "mrdrwaddles",
-        "g": 6386,
-        "c": 83,
-        "casts": 83,
-        "l": "Apr 28 2026"
       },
       {
         "u": "foxxtruckin",
@@ -836,9 +836,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 4512,
-        "c": 54,
-        "casts": 54,
+        "g": 4555,
+        "c": 55,
+        "casts": 55,
         "l": "Apr 28 2026"
       },
       {
@@ -6334,17 +6334,17 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 1068,
-        "c": 14,
-        "casts": 14,
+        "g": 1226,
+        "c": 15,
+        "casts": 15,
         "l": "Apr 28 2026"
       },
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 946,
-        "c": 15,
-        "casts": 15,
+        "g": 989,
+        "c": 16,
+        "casts": 16,
         "l": "Apr 28 2026"
       },
       {
@@ -6424,9 +6424,9 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 1068,
-        "c": 14,
-        "casts": 14,
+        "g": 1226,
+        "c": 15,
+        "casts": 15,
         "l": "Apr 28 2026"
       },
       {
@@ -6478,17 +6478,17 @@
         "l": "Apr 28 2026"
       },
       {
-        "u": "aquadays",
-        "n": "aquadays",
-        "g": 225,
-        "c": 2,
-        "casts": 2,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 252,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 28 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 209,
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 225,
         "c": 2,
         "casts": 2,
         "l": "Apr 28 2026"
@@ -6578,9 +6578,9 @@
       {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
-        "g": 1068,
-        "c": 14,
-        "casts": 14,
+        "g": 1226,
+        "c": 15,
+        "casts": 15,
         "l": "Apr 28 2026"
       },
       {
@@ -6632,17 +6632,17 @@
         "l": "Apr 28 2026"
       },
       {
-        "u": "aquadays",
-        "n": "aquadays",
-        "g": 225,
-        "c": 2,
-        "casts": 2,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 252,
+        "c": 3,
+        "casts": 3,
         "l": "Apr 28 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 209,
+        "u": "aquadays",
+        "n": "aquadays",
+        "g": 225,
         "c": 2,
         "casts": 2,
         "l": "Apr 28 2026"
@@ -12633,7 +12633,7 @@
         }
       },
       "dex_hunter": {
-        "total": 78,
+        "total": 79,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12712,11 +12712,12 @@
           "drewieblaster",
           "showtime_84",
           "grumpymitch1",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "beliron"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 23 2026"
+          "u": "beliron",
+          "d": "Apr 28 2026"
         }
       },
       "completionist": {
@@ -18111,6 +18112,7 @@
         "catch_of_day": "Jun 08 2025",
         "custom_catch": "Mar 15 2025",
         "walk_in": "Jun 08 2025",
+        "dex_hunter": "Apr 28 2026",
         "custom_club": "Aug 02 2025",
         "win_week": "Nov 05 2025",
         "golden_cast": "Jun 08 2025"
@@ -20861,10 +20863,10 @@
       "n": "North Wilksboro",
       "custom": true,
       "r": "Rare",
-      "c": 1,
-      "h": "ineffabledecibel",
-      "v": 153,
-      "w": 87.16
+      "c": 2,
+      "h": "mrdrwaddles",
+      "v": 158,
+      "w": 90.55
     },
     {
       "n": "Tuna",
@@ -21959,7 +21961,7 @@
       "n": "Golden Redeye Rudd",
       "custom": false,
       "r": "Uncommon",
-      "c": 93,
+      "c": 94,
       "h": "78motu78",
       "v": 45,
       "w": 0.9
@@ -23389,7 +23391,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 93,
+      "c": 94,
       "rec": "0.90 lb",
       "v": 45
     },
@@ -26143,9 +26145,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Revived and back in service!",
-      "c": 1,
-      "rec": "87.16 lb",
-      "v": 153
+      "c": 2,
+      "rec": "90.55 lb",
+      "v": 158
     },
     {
       "n": "We're Gonna Lose!",
@@ -26248,6 +26250,22 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "Golden Redeye Rudd",
+      "w": 0.87,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "Apr 28 2026"
+    },
+    {
+      "u": "mrdrwaddles",
+      "i": "North Wilksboro",
+      "w": 90.55,
+      "v": 158,
+      "r": "Rare",
+      "d": "Apr 28 2026"
+    },
     {
       "u": "mrdrwaddles",
       "i": "Katherine Legge",
@@ -26830,22 +26848,6 @@
       "w": 66.59,
       "v": 67,
       "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "mrdrwaddles",
-      "i": "Sway Bar Clamps",
-      "w": 8.26,
-      "v": 41,
-      "r": "Uncommon",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "evangel0203",
-      "i": "Caution!",
-      "w": 0.95,
-      "v": 10,
-      "r": "Junk",
       "d": "Apr 28 2026"
     }
   ]
