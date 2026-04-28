@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T03:41:36Z",
+  "generated_at": "2026-04-28T03:42:50Z",
   "meta": {
-    "total_hands": 56,
+    "total_hands": 57,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -11,7 +11,7 @@
       "user": "brookswhynot",
       "amount": 49601
     },
-    "top_chips": 99860,
+    "top_chips": 87739,
     "top_player": "mrdrwaddles"
   },
   "competition_meta": {
@@ -36,9 +36,9 @@
     "alltime": [
       {
         "u": "mrdrwaddles",
-        "chips": 99860,
-        "net": -12341,
-        "hands": 4,
+        "chips": 87739,
+        "net": -24462,
+        "hands": 5,
         "ach": 2
       },
       {
@@ -121,18 +121,18 @@
         "ach": 4
       },
       {
-        "u": "mrdrwaddles",
-        "chips": 99860,
-        "net": -12341,
-        "hands": 4,
-        "ach": 2
-      },
-      {
         "u": "evangel0203",
         "chips": 8300,
         "net": -20150,
         "hands": 1,
         "ach": 1
+      },
+      {
+        "u": "mrdrwaddles",
+        "chips": 87739,
+        "net": -24462,
+        "hands": 5,
+        "ach": 2
       },
       {
         "u": "juicedracing",
@@ -186,12 +186,12 @@
       "n": 2
     },
     "worst_streak": {
-      "u": "juicedracing",
-      "n": 3
+      "u": "mrdrwaddles",
+      "n": 4
     },
     "most_busts": {
-      "u": "juicedracing",
-      "n": 2
+      "u": "mrdrwaddles",
+      "n": 3
     },
     "best_win_rate": {
       "u": "juicedracing",
@@ -2144,6 +2144,38 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777347770.1752343,
+      "date": "2026-04-27",
+      "player": "mrdrwaddles",
+      "bet": 12121,
+      "balance_before": 99860,
+      "result": "bust",
+      "net_delta": -12121,
+      "player_cards": [
+        "K♥",
+        "2♠",
+        "Q♠"
+      ],
+      "player_total": 22,
+      "hit_count": 1,
+      "dealer_cards": [
+        "4♥",
+        "7♠",
+        "2♣",
+        "A♥",
+        "A♣",
+        "5♠"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777347696.272915,
       "date": "2026-04-27",
       "player": "juicedracing",
@@ -3616,38 +3648,6 @@
       "achievements_earned": [
         "poker_pair_any",
         "poker_salvation"
-      ]
-    },
-    {
-      "ts": 1777163899.4311662,
-      "date": "2026-04-25",
-      "player": "gatoraintplaying",
-      "bet": 15000,
-      "balance_before": 31200,
-      "result": "win",
-      "net_delta": 15000,
-      "player_cards": [
-        "5♣",
-        "K♣",
-        "2♦",
-        "3♦"
-      ],
-      "player_total": 20,
-      "hit_count": 2,
-      "dealer_cards": [
-        "5♥",
-        "K♥",
-        "K♠"
-      ],
-      "dealer_total": 25,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "hot_streak_3"
       ]
     }
   ]
