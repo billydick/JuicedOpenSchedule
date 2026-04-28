@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T00:18:53.634326+00:00",
-    "total_catches": 21932,
+    "generated_at": "2026-04-28T00:20:57.801447+00:00",
+    "total_catches": 21933,
     "unique_catches": 370,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21932 catches"
+      "sub": "Since launch - 21933 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1538,6 +1538,14 @@
         "l": "Dec 31 2024"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 1133,
+        "c": 23,
+        "casts": 23,
+        "l": "Apr 28 2026"
+      },
+      {
         "u": "xxyinnxx",
         "n": "xxyinnxx",
         "g": 1130,
@@ -1592,14 +1600,6 @@
         "c": 21,
         "casts": 21,
         "l": "Jan 14 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 1039,
-        "c": 22,
-        "casts": 22,
-        "l": "Apr 28 2026"
       },
       {
         "u": "rjarcamo",
@@ -6318,9 +6318,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1039,
-        "c": 22,
-        "casts": 22,
+        "g": 1133,
+        "c": 23,
+        "casts": 23,
         "l": "Apr 28 2026"
       },
       {
@@ -6416,9 +6416,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 229,
-        "c": 1,
-        "casts": 1,
+        "g": 323,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 28 2026"
       },
       {
@@ -6466,9 +6466,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 229,
-        "c": 1,
-        "casts": 1,
+        "g": 323,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 28 2026"
       },
       {
@@ -21685,6 +21685,15 @@
       "w": 55.59
     },
     {
+      "n": "Zane Smith",
+      "custom": true,
+      "r": "Common",
+      "c": 131,
+      "h": "v1per_simr4cin6",
+      "v": 94,
+      "w": 47.05
+    },
+    {
       "n": "Noah Gragson",
       "custom": true,
       "r": "Common",
@@ -21701,15 +21710,6 @@
       "h": "grumpymitch1",
       "v": 54,
       "w": 53.97
-    },
-    {
-      "n": "Zane Smith",
-      "custom": true,
-      "r": "Common",
-      "c": 130,
-      "h": "drswank",
-      "v": 51,
-      "w": 4.05
     },
     {
       "n": "Atlantic Cod",
@@ -23541,9 +23541,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Truck champ still trying to translate it upstairs",
-      "c": 130,
-      "rec": "4.05 lb",
-      "v": 51
+      "c": 131,
+      "rec": "47.05 lb",
+      "v": 94
     },
     {
       "n": "Josh Berry",
@@ -25834,6 +25834,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Zane Smith",
+      "w": 47.05,
+      "v": 94,
+      "r": "Rare",
+      "d": "Apr 28 2026"
+    },
+    {
       "u": "itzdubsta",
       "i": "Frontosa Cichlid",
       "w": 0.45,
@@ -26422,14 +26430,6 @@
       "i": "Garrett Smithley",
       "w": 45.23,
       "v": 45,
-      "r": "Uncommon",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "evangel0203",
-      "i": "Watch",
-      "w": 0.16,
-      "v": 40,
       "r": "Uncommon",
       "d": "Apr 26 2026"
     }
