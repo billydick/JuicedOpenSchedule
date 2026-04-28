@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-28T02:47:49Z",
+  "generated_at": "2026-04-28T02:49:06Z",
   "meta": {
-    "total_hands": 45,
+    "total_hands": 47,
     "total_players": 10,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -42,6 +42,13 @@
         "ach": 1
       },
       {
+        "u": "larcen22",
+        "chips": 80050,
+        "net": 28596,
+        "hands": 3,
+        "ach": 2
+      },
+      {
         "u": "gatoraintplaying",
         "chips": 46200,
         "net": 36100,
@@ -49,11 +56,11 @@
         "ach": 0
       },
       {
-        "u": "larcen22",
-        "chips": 40000,
-        "net": -11404,
-        "hands": 2,
-        "ach": 0
+        "u": "juicedracing",
+        "chips": 28150,
+        "net": -38017,
+        "hands": 5,
+        "ach": 7
       },
       {
         "u": "ironlegacy_",
@@ -96,36 +103,29 @@
         "net": -6690,
         "hands": 0,
         "ach": 0
-      },
-      {
-        "u": "juicedracing",
-        "chips": 150,
-        "net": -49017,
-        "hands": 4,
-        "ach": 4
       }
     ],
     "daily": [
+      {
+        "u": "larcen22",
+        "chips": 80050,
+        "net": 31596,
+        "hands": 3,
+        "ach": 2
+      },
+      {
+        "u": "juicedracing",
+        "chips": 28150,
+        "net": 3001,
+        "hands": 5,
+        "ach": 7
+      },
       {
         "u": "sille_94",
         "chips": 15100,
         "net": 100,
         "hands": 2,
         "ach": 4
-      },
-      {
-        "u": "juicedracing",
-        "chips": 150,
-        "net": -7999,
-        "hands": 4,
-        "ach": 4
-      },
-      {
-        "u": "larcen22",
-        "chips": 40000,
-        "net": -8404,
-        "hands": 2,
-        "ach": 0
       },
       {
         "u": "evangel0203",
@@ -138,15 +138,14 @@
   },
   "daily_highlights": {
     "biggest_win": {
-      "u": "juicedracing",
+      "u": "larcen22",
       "cards": [
-        "4♠",
-        "8♦",
-        "9♠"
+        "Q♠",
+        "7♠"
       ],
-      "total": 21,
-      "bet": 9000,
-      "net": 9000,
+      "total": 17,
+      "bet": 40000,
+      "net": 40000,
       "result": "win"
     },
     "biggest_loss": {
@@ -161,23 +160,23 @@
       "result": "lose"
     },
     "biggest_bet": {
-      "u": "evangel0203",
+      "u": "larcen22",
       "cards": [
-        "7♦",
-        "10♠"
+        "Q♠",
+        "7♠"
       ],
       "total": 17,
-      "bet": 20150,
-      "net": -20150,
-      "result": "lose"
+      "bet": 40000,
+      "net": 40000,
+      "result": "win"
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 4
+      "n": 5
     },
     "best_streak": {
       "u": "juicedracing",
-      "n": 1
+      "n": 2
     },
     "worst_streak": {
       "u": "juicedracing",
@@ -186,6 +185,10 @@
     "most_busts": {
       "u": "juicedracing",
       "n": 1
+    },
+    "best_win_rate": {
+      "u": "juicedracing",
+      "pct": 40.0
     },
     "best_poker": {
       "u": "juicedracing",
@@ -215,10 +218,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 150,
+          "chips": 28150,
           "net": -18,
           "hands": 4,
-          "ach": 4
+          "ach": 7
         }
       ],
       "highlights": {
@@ -312,10 +315,10 @@
         },
         {
           "u": "larcen22",
-          "chips": 40000,
+          "chips": 80050,
           "net": -3000,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "ironlegacy_",
@@ -347,10 +350,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 150,
+          "chips": 28150,
           "net": -41000,
           "hands": 6,
-          "ach": 4
+          "ach": 7
         }
       ],
       "highlights": {
@@ -658,17 +661,20 @@
         }
       },
       "exact_change_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "larcen22"
+        ],
         "latest": {
-          "u": "brookswhynot",
-          "d": "2026-04-25"
+          "u": "larcen22",
+          "d": "2026-04-27"
         }
       },
       "big_nerve_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "larcen22"
         ],
         "latest": {
           "u": "juicedracing",
@@ -776,19 +782,23 @@
         }
       },
       "riches_to_rags_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "juicedracing",
+          "d": "2026-04-27"
         }
       },
       "roller_coaster_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-04-25"
+          "u": "juicedracing",
+          "d": "2026-04-27"
         }
       },
       "big_swing_session_50k": {
@@ -1017,7 +1027,7 @@
           "sille_94"
         ],
         "latest": {
-          "u": "sille_94",
+          "u": "juicedracing",
           "d": "2026-04-27"
         }
       },
@@ -1248,12 +1258,13 @@
         }
       },
       "clean_poker_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
+          "juicedracing",
           "sille_94"
         ],
         "latest": {
-          "u": "sille_94",
+          "u": "juicedracing",
           "d": "2026-04-27"
         }
       },
@@ -1279,7 +1290,14 @@
         "poker_pair_any": "2026-04-26",
         "poker_salvation": "2026-04-26",
         "big_nerve_win": "2026-04-25",
-        "lucky_escape": "2026-04-26"
+        "lucky_escape": "2026-04-26",
+        "clean_poker_win": "2026-04-27",
+        "riches_to_rags_session": "2026-04-27",
+        "roller_coaster_session": "2026-04-25"
+      },
+      "larcen22": {
+        "exact_change_win": "2026-04-27",
+        "big_nerve_win": "2026-04-27"
       },
       "evangel0203": {
         "rags_to_riches_session": "2026-04-27"
@@ -1295,6 +1313,41 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "big_nerve_win",
+        "u": "juicedracing",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "poker_pair_any",
+        "u": "juicedracing",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "clean_poker_win",
+        "u": "juicedracing",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "riches_to_rags_session",
+        "u": "juicedracing",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "roller_coaster_session",
+        "u": "juicedracing",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "exact_change_win",
+        "u": "larcen22",
+        "d": "2026-04-27"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "larcen22",
+        "d": "2026-04-27"
+      },
       {
         "id": "big_nerve_win",
         "u": "juicedracing",
@@ -1359,41 +1412,6 @@
         "id": "lucky_escape",
         "u": "juicedracing",
         "d": "2026-04-26"
-      },
-      {
-        "id": "table_dominator",
-        "u": "azsuperbeast",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "min_bet_master",
-        "u": "azsuperbeast",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "roller_coaster_session",
-        "u": "azsuperbeast",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "azsuperbeast",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "poker_salvation",
-        "u": "azsuperbeast",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "brookswhynot",
-        "d": "2026-04-25"
-      },
-      {
-        "id": "escalator",
-        "u": "brookswhynot",
-        "d": "2026-04-25"
       }
     ]
   },
@@ -2114,6 +2132,71 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777344546.4769945,
+      "date": "2026-04-27",
+      "player": "juicedracing",
+      "bet": 10000,
+      "balance_before": 18150,
+      "result": "win",
+      "net_delta": 11000,
+      "player_cards": [
+        "Q♦",
+        "Q♣"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♠",
+        "8♣",
+        "8♦"
+      ],
+      "dealer_total": 24,
+      "dealer_bust": true,
+      "table_size": 2,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 0,
+      "poker_bonus": 1000,
+      "achievements_earned": [
+        "big_nerve_win",
+        "poker_pair_any",
+        "clean_poker_win",
+        "riches_to_rags_session",
+        "roller_coaster_session"
+      ]
+    },
+    {
+      "ts": 1777344546.476663,
+      "date": "2026-04-27",
+      "player": "larcen22",
+      "bet": 40000,
+      "balance_before": 40000,
+      "result": "win",
+      "net_delta": 40000,
+      "player_cards": [
+        "Q♠",
+        "7♠"
+      ],
+      "player_total": 17,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♠",
+        "8♣",
+        "8♦"
+      ],
+      "dealer_total": 24,
+      "dealer_bust": true,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "exact_change_win",
+        "big_nerve_win"
+      ]
+    },
     {
       "ts": 1777344469.5124393,
       "date": "2026-04-27",
