@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-04-28T01:28:58.699871+00:00",
-    "total_catches": 21958,
-    "unique_catches": 370,
+    "generated_at": "2026-04-28T01:32:04.123520+00:00",
+    "total_catches": 21959,
+    "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
-    "caught_total": 370,
-    "dex_completion": 98.67,
+    "caught_total": 371,
+    "dex_completion": 98.93,
     "custom_catch_count": 254,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 21958 catches"
+      "sub": "Since launch - 21959 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -476,9 +476,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 14643,
-        "c": 168,
-        "casts": 168,
+        "g": 14691,
+        "c": 169,
+        "casts": 169,
         "l": "Apr 28 2026"
       },
       {
@@ -6238,9 +6238,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 4706,
-        "c": 68,
-        "casts": 68,
+        "g": 4754,
+        "c": 69,
+        "casts": 69,
         "l": "Apr 28 2026"
       },
       {
@@ -6416,9 +6416,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 914,
-        "c": 7,
-        "casts": 7,
+        "g": 962,
+        "c": 8,
+        "casts": 8,
         "l": "Apr 28 2026"
       },
       {
@@ -6506,9 +6506,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 914,
-        "c": 7,
-        "casts": 7,
+        "g": 962,
+        "c": 8,
+        "casts": 8,
         "l": "Apr 28 2026"
       },
       {
@@ -21690,6 +21690,15 @@
       "w": 48.69
     },
     {
+      "n": "Brennan Poole",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 1,
+      "h": "brookswhynot",
+      "v": 48,
+      "w": 48.06
+    },
+    {
       "n": "Dover",
       "custom": true,
       "r": "Uncommon",
@@ -25945,19 +25954,19 @@
       "v": 42
     },
     {
-      "n": "Shane Van Gisbergen_",
-      "r": "Epic",
-      "custom": true,
-      "desc": "Will he get an oval win this year?",
-      "c": 0,
-      "rec": "",
-      "v": 0
-    },
-    {
       "n": "Brennan Poole",
       "r": "Uncommon",
       "custom": true,
       "desc": "Dude sat under a dryer at a salon to bleach that hair lol",
+      "c": 1,
+      "rec": "48.06 lb",
+      "v": 48
+    },
+    {
+      "n": "Shane Van Gisbergen_",
+      "r": "Epic",
+      "custom": true,
+      "desc": "Will he get an oval win this year?",
       "c": 0,
       "rec": "",
       "v": 0
@@ -25991,6 +26000,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "brookswhynot",
+      "i": "Brennan Poole",
+      "w": 48.06,
+      "v": 48,
+      "r": "Uncommon",
+      "d": "Apr 28 2026"
+    },
     {
       "u": "v1per_simr4cin6",
       "i": "Bubbly",
@@ -26581,14 +26598,6 @@
       "w": 42.36,
       "v": 42,
       "r": "Uncommon",
-      "d": "Apr 26 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Jake Holmes",
-      "w": 40.81,
-      "v": 82,
-      "r": "Rare",
       "d": "Apr 26 2026"
     }
   ]
