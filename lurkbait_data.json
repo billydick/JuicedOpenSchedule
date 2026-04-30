@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-29T23:53:20.174262+00:00",
-    "total_catches": 22036,
+    "generated_at": "2026-04-30T00:26:25.292987+00:00",
+    "total_catches": 22037,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22036 catches"
+      "sub": "Since launch - 22037 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -460,10 +460,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 15965,
-        "c": 188,
-        "casts": 188,
-        "l": "Apr 28 2026"
+        "g": 15979,
+        "c": 189,
+        "casts": 189,
+        "l": "Apr 30 2026"
       },
       {
         "u": "eheye",
@@ -6238,10 +6238,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 6028,
-        "c": 88,
-        "casts": 88,
-        "l": "Apr 28 2026"
+        "g": 6042,
+        "c": 89,
+        "casts": 89,
+        "l": "Apr 30 2026"
       },
       {
         "u": "juicedracing",
@@ -6416,10 +6416,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2236,
-        "c": 27,
-        "casts": 27,
-        "l": "Apr 28 2026"
+        "g": 2250,
+        "c": 28,
+        "casts": 28,
+        "l": "Apr 30 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6566,7 +6566,16 @@
         "l": "Apr 28 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 14,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 30 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9911,7 +9920,15 @@
         "d": "Apr 28 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Carp",
+        "v": 14,
+        "r": "Common",
+        "d": "Apr 30 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22052,7 +22069,7 @@
       "n": "Carp",
       "custom": false,
       "r": "Common",
-      "c": 157,
+      "c": 158,
       "h": "78motu78",
       "v": 17,
       "w": 9.03
@@ -23059,7 +23076,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 157,
+      "c": 158,
       "rec": "9.03 lb",
       "v": 17
     },
@@ -25964,6 +25981,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Carp",
+      "w": 7.25,
+      "v": 14,
+      "r": "Common",
+      "d": "Apr 30 2026"
+    },
+    {
       "u": "beliron",
       "i": "Bonytail Chub",
       "w": 2.73,
@@ -26553,14 +26578,6 @@
       "w": 9.75,
       "v": 33,
       "r": "Common",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "NASCAR Tickets",
-      "w": 1.12,
-      "v": 56,
-      "r": "Uncommon",
       "d": "Apr 28 2026"
     }
   ]
