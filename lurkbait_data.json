@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-30T02:03:08.304108+00:00",
-    "total_catches": 22069,
+    "generated_at": "2026-04-30T02:07:16.071412+00:00",
+    "total_catches": 22070,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22069 catches"
+      "sub": "Since launch - 22070 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 96396,
-        "c": 1225,
-        "casts": 1225,
+        "g": 96734,
+        "c": 1226,
+        "casts": 1226,
         "l": "Apr 30 2026"
       },
       {
@@ -6214,9 +6214,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 6954,
-        "c": 104,
-        "casts": 104,
+        "g": 7292,
+        "c": 105,
+        "casts": 105,
         "l": "Apr 30 2026"
       },
       {
@@ -6438,6 +6438,14 @@
         "l": "Apr 30 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 968,
+        "c": 16,
+        "casts": 16,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 779,
@@ -6452,14 +6460,6 @@
         "c": 7,
         "casts": 7,
         "l": "Apr 28 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 630,
-        "c": 15,
-        "casts": 15,
-        "l": "Apr 30 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6616,6 +6616,14 @@
     ],
     "daily": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 380,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 343,
@@ -6693,14 +6701,6 @@
         "g": 100,
         "c": 3,
         "casts": 3,
-        "l": "Apr 30 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
         "l": "Apr 30 2026"
       },
       {
@@ -9975,6 +9975,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "motionless",
+        "i": "87 Monte Carlo",
+        "v": 338,
+        "r": "Epic",
+        "d": "Apr 30 2026"
+      },
+      {
         "n": "v1per_simr4cin6",
         "i": "Hershel McGriff",
         "v": 229,
@@ -10029,13 +10036,6 @@
         "v": 157,
         "r": "Rare",
         "d": "Apr 30 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Foureye Butterflyfish",
-        "v": 142,
-        "r": "Epic",
-        "d": "Apr 28 2026"
       },
       {
         "n": "pvtcrock",
@@ -10124,6 +10124,13 @@
     ],
     "daily": [
       {
+        "n": "motionless",
+        "i": "87 Monte Carlo",
+        "v": 338,
+        "r": "Epic",
+        "d": "Apr 30 2026"
+      },
+      {
         "n": "ikatipoi",
         "i": "TR160 Mk4 Racing Simulator",
         "v": 203,
@@ -10196,13 +10203,6 @@
       {
         "n": "forthe_lul",
         "i": "Dover",
-        "v": 42,
-        "r": "Uncommon",
-        "d": "Apr 30 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Carb Spacer Plates",
         "v": 42,
         "r": "Uncommon",
         "d": "Apr 30 2026"
@@ -11208,7 +11208,7 @@
         }
       },
       "win_day": {
-        "total": 90,
+        "total": 89,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11298,12 +11298,11 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel",
-          "ikatipoi"
+          "ineffabledecibel"
         ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "Apr 30 2026"
+          "u": "ineffabledecibel",
+          "d": "Apr 15 2026"
         }
       },
       "double_down": {
@@ -19302,7 +19301,6 @@
       },
       "ikatipoi": {
         "broke_in": "Apr 14 2026",
-        "win_day": "Apr 30 2026",
         "catch_of_day": "Apr 28 2026",
         "junk_master": "Apr 30 2026",
         "custom_catch": "Apr 15 2026",
@@ -19710,6 +19708,15 @@
       "w": 112.81
     },
     {
+      "n": "87 Monte Carlo",
+      "custom": true,
+      "r": "Legendary",
+      "c": 26,
+      "h": "motionless",
+      "v": 338,
+      "w": 112.55
+    },
+    {
       "n": "Andrews 4 Speed Transmission",
       "custom": true,
       "r": "Legendary",
@@ -19717,15 +19724,6 @@
       "h": "wintergofast",
       "v": 337,
       "w": 112.44
-    },
-    {
-      "n": "87 Monte Carlo",
-      "custom": true,
-      "r": "Legendary",
-      "c": 25,
-      "h": "dogger_101",
-      "v": 337,
-      "w": 112.28
     },
     {
       "n": "Dale Earnhardt Jr.",
@@ -25292,9 +25290,9 @@
       "r": "Epic",
       "custom": true,
       "desc": "Better than the sandwich...a lot!",
-      "c": 25,
-      "rec": "112.28 lb",
-      "v": 337
+      "c": 26,
+      "rec": "112.55 lb",
+      "v": 338
     },
     {
       "n": "Talladega",
@@ -26289,6 +26287,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "87 Monte Carlo",
+      "w": 112.55,
+      "v": 338,
+      "r": "Epic",
+      "d": "Apr 30 2026"
+    },
+    {
       "u": "ricofyi",
       "i": "Perch",
       "w": 2.81,
@@ -26878,14 +26884,6 @@
       "w": 46.33,
       "v": 93,
       "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "larcen22",
-      "i": "DAYS OF THUNDER VHS tape.",
-      "w": 1.03,
-      "v": 21,
-      "r": "Common",
       "d": "Apr 28 2026"
     }
   ]
