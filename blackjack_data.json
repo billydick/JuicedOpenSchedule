@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-30T02:06:41Z",
+  "generated_at": "2026-04-30T02:08:47Z",
   "meta": {
-    "total_hands": 72,
-    "total_players": 11,
+    "total_hands": 73,
+    "total_players": 12,
     "biggest_bet": {
       "user": "brookswhynot",
       "amount": 99251
@@ -47,6 +47,13 @@
         "net": 54901,
         "hands": 0,
         "ach": 1
+      },
+      {
+        "u": "motionless",
+        "chips": 94150,
+        "net": -4500,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "larcen22",
@@ -126,6 +133,13 @@
         "net": 0,
         "hands": 1,
         "ach": 0
+      },
+      {
+        "u": "motionless",
+        "chips": 94150,
+        "net": -4500,
+        "hands": 1,
+        "ach": 2
       }
     ]
   },
@@ -142,16 +156,17 @@
       "result": "win"
     },
     "biggest_loss": {
-      "u": "azsuperbeast",
+      "u": "motionless",
       "cards": [
-        "2♠",
-        "6♠",
-        "9♦"
+        "3♦",
+        "2♣",
+        "9♦",
+        "9♠"
       ],
-      "total": 17,
-      "bet": 1338,
-      "net": -1338,
-      "result": "lose"
+      "total": 23,
+      "bet": 5000,
+      "net": -4500,
+      "result": "bust"
     },
     "biggest_bet": {
       "u": "juicedracing",
@@ -178,9 +193,23 @@
       "u": "azsuperbeast",
       "n": 1
     },
+    "most_busts": {
+      "u": "motionless",
+      "n": 1
+    },
     "best_win_rate": {
       "u": "azsuperbeast",
       "pct": 60.0
+    },
+    "best_poker": {
+      "u": "motionless",
+      "rank": "pair",
+      "cards": [
+        "3♦",
+        "2♣",
+        "9♦",
+        "9♠"
+      ]
     },
     "most_cards_win": {
       "u": "azsuperbeast",
@@ -1132,11 +1161,13 @@
         }
       },
       "poker_pair_any": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "motionless"
+        ],
         "latest": {
-          "u": "mrdrwaddles",
-          "d": "2026-04-27"
+          "u": "motionless",
+          "d": "2026-04-29"
         }
       },
       "poker_two_pair_any": {
@@ -1348,11 +1379,13 @@
         }
       },
       "poker_salvation": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "motionless"
+        ],
         "latest": {
-          "u": "mrdrwaddles",
-          "d": "2026-04-27"
+          "u": "motionless",
+          "d": "2026-04-29"
         }
       },
       "poker_salvation_25": {
@@ -1400,9 +1433,23 @@
         "big_nerve_win": "2026-04-29",
         "roller_coaster_session": "2026-04-25",
         "lucky_escape": "2026-04-29"
+      },
+      "motionless": {
+        "poker_pair_any": "2026-04-29",
+        "poker_salvation": "2026-04-29"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "motionless",
+        "d": "2026-04-29"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "motionless",
+        "d": "2026-04-29"
+      },
       {
         "id": "lucky_escape",
         "u": "azsuperbeast",
@@ -1490,16 +1537,6 @@
       },
       {
         "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-27"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "juicedracing",
-        "d": "2026-04-27"
-      },
-      {
-        "id": "clean_poker_win",
         "u": "juicedracing",
         "d": "2026-04-27"
       }
@@ -2222,6 +2259,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777514927.8534765,
+      "date": "2026-04-29",
+      "player": "motionless",
+      "bet": 5000,
+      "balance_before": 99150,
+      "result": "bust",
+      "net_delta": -4500,
+      "player_cards": [
+        "3♦",
+        "2♣",
+        "9♦",
+        "9♠"
+      ],
+      "player_total": 23,
+      "hit_count": 2,
+      "dealer_cards": [
+        "A♣",
+        "5♣",
+        "4♣"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 500,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1777514801.6862886,
       "date": "2026-04-29",
@@ -3670,35 +3740,6 @@
       ],
       "dealer_total": 26,
       "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777175355.0641358,
-      "date": "2026-04-25",
-      "player": "azsuperbeast",
-      "bet": 201,
-      "balance_before": 6399,
-      "result": "lose",
-      "net_delta": -201,
-      "player_cards": [
-        "2♦",
-        "6♥",
-        "10♦"
-      ],
-      "player_total": 18,
-      "hit_count": 1,
-      "dealer_cards": [
-        "2♣",
-        "8♠",
-        "K♣"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
       "table_size": 1,
       "poker_rank": null,
       "poker_pct": null,
