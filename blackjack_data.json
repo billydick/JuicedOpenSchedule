@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-30T02:00:06Z",
+  "generated_at": "2026-04-30T02:04:03Z",
   "meta": {
-    "total_hands": 69,
+    "total_hands": 70,
     "total_players": 11,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -78,9 +78,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 10770,
+        "chips": 10820,
         "net": -430,
-        "hands": 2,
+        "hands": 3,
         "ach": 3
       },
       {
@@ -115,9 +115,9 @@
     "daily": [
       {
         "u": "azsuperbeast",
-        "chips": 10770,
+        "chips": 10820,
         "net": 6260,
-        "hands": 2,
+        "hands": 3,
         "ach": 3
       },
       {
@@ -156,7 +156,7 @@
     },
     "most_hands": {
       "u": "azsuperbeast",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "azsuperbeast",
@@ -426,7 +426,7 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 10770,
+          "chips": 10820,
           "net": -6690,
           "hands": 15,
           "ach": 3
@@ -2199,6 +2199,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777514643.4049566,
+      "date": "2026-04-29",
+      "player": "azsuperbeast",
+      "bet": 1337,
+      "balance_before": 10770,
+      "result": "push",
+      "net_delta": 0,
+      "player_cards": [
+        "J♥",
+        "10♠"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "J♠",
+        "10♣"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777514406.6371737,
       "date": "2026-04-29",
       "player": "azsuperbeast",
@@ -3641,34 +3668,6 @@
         "2♦",
         "8♥",
         "7♥"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777174601.1866226,
-      "date": "2026-04-25",
-      "player": "azsuperbeast",
-      "bet": 150,
-      "balance_before": 5600,
-      "result": "lose",
-      "net_delta": -150,
-      "player_cards": [
-        "J♦",
-        "4♦"
-      ],
-      "player_total": 14,
-      "hit_count": 0,
-      "dealer_cards": [
-        "K♥",
-        "2♣",
-        "5♠"
       ],
       "dealer_total": 17,
       "dealer_bust": false,
