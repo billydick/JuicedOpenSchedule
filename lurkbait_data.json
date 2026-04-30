@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-30T00:29:31.889342+00:00",
-    "total_catches": 22040,
+    "generated_at": "2026-04-30T00:30:35.525205+00:00",
+    "total_catches": 22042,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22040 catches"
+      "sub": "Since launch - 22042 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 104121,
-        "c": 1552,
-        "casts": 1552,
-        "l": "Apr 26 2026"
+        "g": 104136,
+        "c": 1553,
+        "casts": 1553,
+        "l": "Apr 30 2026"
       },
       {
         "u": "motionless",
@@ -4210,6 +4210,14 @@
         "l": "Jun 12 2025"
       },
       {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 69,
+        "c": 3,
+        "casts": 3,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "yourloosebowels",
         "n": "yourloosebowels",
         "g": 69,
@@ -5056,14 +5064,6 @@
         "c": 3,
         "casts": 3,
         "l": "Jan 17 2025"
-      },
-      {
-        "u": "forthe_lul",
-        "n": "forthe_lul",
-        "g": 27,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 25 2026"
       },
       {
         "u": "dankoctane",
@@ -6254,10 +6254,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 3465,
-        "c": 44,
-        "casts": 44,
-        "l": "Apr 26 2026"
+        "g": 3480,
+        "c": 45,
+        "casts": 45,
+        "l": "Apr 30 2026"
       },
       {
         "u": "drewieblaster",
@@ -6558,6 +6558,14 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 42,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 33,
@@ -6580,6 +6588,14 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 30 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 15,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 30 2026"
       }
     ],
     "daily": [
@@ -6587,6 +6603,14 @@
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 96,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 30 2026"
+      },
+      {
+        "u": "forthe_lul",
+        "n": "forthe_lul",
+        "g": 42,
         "c": 1,
         "casts": 1,
         "l": "Apr 30 2026"
@@ -6602,6 +6626,14 @@
       {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
+        "g": 15,
+        "c": 1,
+        "casts": 1,
+        "l": "Apr 30 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
         "g": 15,
         "c": 1,
         "casts": 1,
@@ -9953,6 +9985,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "forthe_lul",
+        "i": "Dover",
+        "v": 42,
+        "r": "Uncommon",
+        "d": "Apr 30 2026"
+      },
+      {
         "n": "realiist1",
         "i": "Barracuda",
         "v": 33,
@@ -9972,6 +10011,13 @@
         "v": 15,
         "r": "Common",
         "d": "Apr 30 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Carp",
+        "v": 15,
+        "r": "Common",
+        "d": "Apr 30 2026"
       }
     ],
     "daily": [
@@ -9980,6 +10026,13 @@
         "i": "Kansas Speedway",
         "v": 96,
         "r": "Rare",
+        "d": "Apr 30 2026"
+      },
+      {
+        "n": "forthe_lul",
+        "i": "Dover",
+        "v": 42,
+        "r": "Uncommon",
         "d": "Apr 30 2026"
       },
       {
@@ -9992,6 +10045,13 @@
       {
         "n": "grumpymitch1",
         "i": "Trout",
+        "v": 15,
+        "r": "Common",
+        "d": "Apr 30 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Carp",
         "v": 15,
         "r": "Common",
         "d": "Apr 30 2026"
@@ -21757,7 +21817,7 @@
       "n": "Dover",
       "custom": true,
       "r": "Uncommon",
-      "c": 1,
+      "c": 2,
       "h": "beliron",
       "v": 45,
       "w": 90.9
@@ -22144,7 +22204,7 @@
       "n": "Carp",
       "custom": false,
       "r": "Common",
-      "c": 158,
+      "c": 159,
       "h": "78motu78",
       "v": 17,
       "w": 9.03
@@ -22612,11 +22672,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1552
+      "n": 1553
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 104121
+      "n": 104136
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -23151,7 +23211,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 158,
+      "c": 159,
       "rec": "9.03 lb",
       "v": 17
     },
@@ -25941,7 +26001,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "You get turned on the back stretch but still finish top 10.",
-      "c": 1,
+      "c": 2,
       "rec": "90.90 lb",
       "v": 45
     },
@@ -26055,6 +26115,22 @@
     }
   ],
   "recent": [
+    {
+      "u": "forthe_lul",
+      "i": "Dover",
+      "w": 83.13,
+      "v": 42,
+      "r": "Uncommon",
+      "d": "Apr 30 2026"
+    },
+    {
+      "u": "flippy00",
+      "i": "Carp",
+      "w": 8.09,
+      "v": 15,
+      "r": "Common",
+      "d": "Apr 30 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "Hermit Crab",
@@ -26636,22 +26712,6 @@
       "i": "Rookie License",
       "w": 0.98,
       "v": 24,
-      "r": "Common",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Austin Cindric",
-      "w": 28.21,
-      "v": 113,
-      "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Rookie License",
-      "w": 0.8,
-      "v": 20,
       "r": "Common",
       "d": "Apr 28 2026"
     }
