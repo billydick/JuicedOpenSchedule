@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-30T01:51:36.726564+00:00",
-    "total_catches": 22057,
+    "generated_at": "2026-04-30T01:52:40.566019+00:00",
+    "total_catches": 22058,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22057 catches"
+      "sub": "Since launch - 22058 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -714,20 +714,20 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 6425,
+        "c": 88,
+        "casts": 88,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "foxxtruckin",
         "n": "foxxtruckin",
         "g": 6292,
         "c": 118,
         "casts": 118,
         "l": "Jan 27 2025"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 6268,
-        "c": 87,
-        "casts": 87,
-        "l": "Apr 30 2026"
       },
       {
         "u": "ricofyi",
@@ -6350,9 +6350,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 852,
-        "c": 12,
-        "casts": 12,
+        "g": 1009,
+        "c": 13,
+        "casts": 13,
         "l": "Apr 30 2026"
       },
       {
@@ -6510,6 +6510,14 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 184,
+        "c": 2,
+        "casts": 2,
+        "l": "Apr 30 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 147,
@@ -6590,14 +6598,6 @@
         "l": "Apr 30 2026"
       },
       {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 27,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 30 2026"
-      },
-      {
         "u": "jaapoo",
         "n": "jaapoo",
         "g": 26,
@@ -6621,6 +6621,14 @@
         "g": 305,
         "c": 4,
         "casts": 4,
+        "l": "Apr 30 2026"
+      },
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 184,
+        "c": 2,
+        "casts": 2,
         "l": "Apr 30 2026"
       },
       {
@@ -6683,14 +6691,6 @@
         "u": "azsuperbeast",
         "n": "azsuperbeast",
         "g": 41,
-        "c": 1,
-        "casts": 1,
-        "l": "Apr 30 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 27,
         "c": 1,
         "casts": 1,
         "l": "Apr 30 2026"
@@ -9978,6 +9978,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "rms_racing",
+        "i": "North Wilksboro",
+        "v": 157,
+        "r": "Rare",
+        "d": "Apr 30 2026"
+      },
+      {
         "n": "motionless",
         "i": "Foureye Butterflyfish",
         "v": 142,
@@ -10069,13 +10076,6 @@
         "d": "Apr 30 2026"
       },
       {
-        "n": "rms_racing",
-        "i": "Road Race Wiper Motor",
-        "v": 27,
-        "r": "Common",
-        "d": "Apr 30 2026"
-      },
-      {
         "n": "jaapoo",
         "i": "Barracuda",
         "v": 26,
@@ -10096,6 +10096,13 @@
         "i": "TR160 Mk4 Racing Simulator",
         "v": 203,
         "r": "Epic",
+        "d": "Apr 30 2026"
+      },
+      {
+        "n": "rms_racing",
+        "i": "North Wilksboro",
+        "v": 157,
+        "r": "Rare",
         "d": "Apr 30 2026"
       },
       {
@@ -10152,13 +10159,6 @@
         "i": "Have a Yoga Breath",
         "v": 41,
         "r": "Uncommon",
-        "d": "Apr 30 2026"
-      },
-      {
-        "n": "rms_racing",
-        "i": "Road Race Wiper Motor",
-        "v": 27,
-        "r": "Common",
         "d": "Apr 30 2026"
       },
       {
@@ -20837,7 +20837,7 @@
       "n": "North Wilksboro",
       "custom": true,
       "r": "Rare",
-      "c": 2,
+      "c": 3,
       "h": "mrdrwaddles",
       "v": 158,
       "w": 90.55
@@ -26119,7 +26119,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Revived and back in service!",
-      "c": 2,
+      "c": 3,
       "rec": "90.55 lb",
       "v": 158
     },
@@ -26224,6 +26224,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "rms_racing",
+      "i": "North Wilksboro",
+      "w": 89.82,
+      "v": 157,
+      "r": "Rare",
+      "d": "Apr 30 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "Pickle",
@@ -26814,14 +26822,6 @@
       "w": 24.33,
       "v": 194,
       "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Salmon",
-      "w": 3.77,
-      "v": 28,
-      "r": "Common",
       "d": "Apr 28 2026"
     }
   ]
