@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T01:45:42Z",
+  "generated_at": "2026-05-01T01:55:15Z",
   "meta": {
-    "total_hands": 78,
+    "total_hands": 79,
     "total_players": 13,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -99,7 +99,7 @@
       },
       {
         "u": "forthe_lul",
-        "chips": 9625,
+        "chips": 9875,
         "net": -450,
         "hands": 1,
         "ach": 2
@@ -113,32 +113,32 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 3950,
+        "chips": 4250,
         "net": -34875,
         "hands": 0,
         "ach": 0
       },
       {
         "u": "juicedracing",
-        "chips": 2650,
-        "net": -81717,
-        "hands": 1,
+        "chips": 100,
+        "net": -89717,
+        "hands": 2,
         "ach": 0
       }
     ],
     "daily": [
       {
         "u": "forthe_lul",
-        "chips": 9625,
+        "chips": 9875,
         "net": -450,
         "hands": 1,
         "ach": 2
       },
       {
         "u": "juicedracing",
-        "chips": 2650,
-        "net": -10000,
-        "hands": 1,
+        "chips": 100,
+        "net": -18000,
+        "hands": 2,
         "ach": 0
       }
     ]
@@ -170,11 +170,11 @@
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 1
+      "n": 2
     },
     "worst_streak": {
       "u": "juicedracing",
-      "n": 1
+      "n": 2
     },
     "most_busts": {
       "u": "juicedracing",
@@ -211,7 +211,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2650,
+          "chips": 100,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -340,7 +340,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 3950,
+          "chips": 4250,
           "net": -10000,
           "hands": 1,
           "ach": 0
@@ -354,7 +354,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2650,
+          "chips": 100,
           "net": -30699,
           "hands": 11,
           "ach": 0
@@ -446,7 +446,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2650,
+          "chips": 100,
           "net": -18,
           "hands": 4,
           "ach": 0
@@ -571,14 +571,14 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 3950,
+          "chips": 4250,
           "net": -24875,
           "hands": 4,
           "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 2650,
+          "chips": 100,
           "net": -41000,
           "hands": 6,
           "ach": 0
@@ -2331,6 +2331,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777600515.8554232,
+      "date": "2026-04-30",
+      "player": "juicedracing",
+      "bet": 8000,
+      "balance_before": 8100,
+      "result": "lose",
+      "net_delta": -8000,
+      "player_cards": [
+        "8♠",
+        "J♠"
+      ],
+      "player_total": 18,
+      "hit_count": 0,
+      "dealer_cards": [
+        "Q♦",
+        "10♥"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777599942.6261475,
       "date": "2026-04-30",
       "player": "forthe_lul",
@@ -3788,37 +3815,6 @@
       "dealer_cards": [
         "J♦",
         "9♥"
-      ],
-      "dealer_total": 19,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777176333.6406202,
-      "date": "2026-04-25",
-      "player": "azsuperbeast",
-      "bet": 5809,
-      "balance_before": 5809,
-      "result": "lose",
-      "net_delta": -5809,
-      "player_cards": [
-        "5♠",
-        "7♦",
-        "3♠"
-      ],
-      "player_total": 15,
-      "hit_count": 1,
-      "dealer_cards": [
-        "6♥",
-        "6♠",
-        "A♥",
-        "A♣",
-        "5♣"
       ],
       "dealer_total": 19,
       "dealer_bust": false,
