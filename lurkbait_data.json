@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T00:32:04.168196+00:00",
-    "total_catches": 22081,
+    "generated_at": "2026-05-01T00:35:10.632044+00:00",
+    "total_catches": 22083,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22081 catches"
+      "sub": "Since launch - 22083 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1218,6 +1218,14 @@
         "l": "Sep 02 2025"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 2034,
+        "c": 33,
+        "casts": 33,
+        "l": "May 01 2026"
+      },
+      {
         "u": "shanechas",
         "n": "shanechas",
         "g": 2022,
@@ -1232,14 +1240,6 @@
         "c": 30,
         "casts": 30,
         "l": "Feb 23 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 1960,
-        "c": 32,
-        "casts": 32,
-        "l": "Apr 30 2026"
       },
       {
         "u": "pvtcrock",
@@ -1434,6 +1434,14 @@
         "l": "Apr 16 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 1428,
+        "c": 27,
+        "casts": 27,
+        "l": "May 01 2026"
+      },
+      {
         "u": "boyle609",
         "n": "boyle609",
         "g": 1411,
@@ -1456,14 +1464,6 @@
         "c": 12,
         "casts": 12,
         "l": "Apr 23 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 1369,
-        "c": 26,
-        "casts": 26,
-        "l": "Apr 28 2026"
       },
       {
         "u": "cheechill",
@@ -6294,10 +6294,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 1960,
-        "c": 32,
-        "casts": 32,
-        "l": "Apr 30 2026"
+        "g": 2034,
+        "c": 33,
+        "casts": 33,
+        "l": "May 01 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -6334,10 +6334,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1369,
-        "c": 26,
-        "casts": 26,
-        "l": "Apr 28 2026"
+        "g": 1428,
+        "c": 27,
+        "casts": 27,
+        "l": "May 01 2026"
       },
       {
         "u": "rms_racing",
@@ -6430,20 +6430,20 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 1149,
+        "c": 10,
+        "casts": 10,
+        "l": "May 01 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 1097,
         "c": 19,
         "casts": 19,
         "l": "May 01 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 1075,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 30 2026"
       },
       {
         "u": "larcen22",
@@ -6462,20 +6462,20 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 618,
+        "c": 6,
+        "casts": 6,
+        "l": "May 01 2026"
+      },
+      {
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 613,
         "c": 8,
         "casts": 8,
         "l": "May 01 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 559,
-        "c": 5,
-        "casts": 5,
-        "l": "Apr 28 2026"
       },
       {
         "u": "pvtcrock",
@@ -6635,6 +6635,22 @@
         "u": "larcen22",
         "n": "larcen22",
         "g": 81,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 74,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 59,
         "c": 1,
         "casts": 1,
         "l": "May 01 2026"
@@ -10041,6 +10057,20 @@
         "n": "larcen22",
         "i": "Mini Stock",
         "v": 81,
+        "r": "Rare",
+        "d": "May 01 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "FUEL CELL TOP",
+        "v": 74,
+        "r": "Rare",
+        "d": "May 01 2026"
+      },
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Red-knobbed Starfish",
+        "v": 59,
         "r": "Rare",
         "d": "May 01 2026"
       },
@@ -21226,7 +21256,7 @@
       "n": "FUEL CELL TOP",
       "custom": true,
       "r": "Rare",
-      "c": 67,
+      "c": 68,
       "h": "laleb467",
       "v": 85,
       "w": 4.52
@@ -21433,7 +21463,7 @@
       "n": "Red-knobbed Starfish",
       "custom": false,
       "r": "Rare",
-      "c": 61,
+      "c": 62,
       "h": "dr_chronic",
       "v": 79,
       "w": 0.11
@@ -23052,7 +23082,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 61,
+      "c": 62,
       "rec": "0.11 lb",
       "v": 79
     },
@@ -24330,7 +24360,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Late model use only!",
-      "c": 67,
+      "c": 68,
       "rec": "4.52 lb",
       "v": 85
     },
@@ -26128,6 +26158,22 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "FUEL CELL TOP",
+      "w": 3.94,
+      "v": 74,
+      "r": "Rare",
+      "d": "May 01 2026"
+    },
+    {
+      "u": "v1per_simr4cin6",
+      "i": "Red-knobbed Starfish",
+      "w": 0.08,
+      "v": 59,
+      "r": "Rare",
+      "d": "May 01 2026"
+    },
+    {
       "u": "motionless",
       "i": "Michael McDowell",
       "w": 43.83,
@@ -26709,22 +26755,6 @@
       "w": 18.2,
       "v": 82,
       "r": "Uncommon",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "HANS Device",
-      "w": 2.13,
-      "v": 53,
-      "r": "Uncommon",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "mrdrwaddles",
-      "i": "Buddy Baker",
-      "w": 26.39,
-      "v": 210,
-      "r": "Rare",
       "d": "Apr 28 2026"
     }
   ]
