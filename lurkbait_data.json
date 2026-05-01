@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T23:24:17.017787+00:00",
-    "total_catches": 22201,
+    "generated_at": "2026-05-01T23:25:20.935401+00:00",
+    "total_catches": 22202,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22201 catches"
+      "sub": "Since launch - 22202 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -356,9 +356,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 34225,
-        "c": 526,
-        "casts": 526,
+        "g": 34227,
+        "c": 527,
+        "casts": 527,
         "l": "May 01 2026"
       },
       {
@@ -6292,6 +6292,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
         "u": "sparkymotors",
         "n": "sparkymotors",
         "g": 1,
@@ -6400,9 +6408,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 505,
-        "c": 10,
-        "casts": 10,
+        "g": 507,
+        "c": 11,
+        "casts": 11,
         "l": "May 01 2026"
       },
       {
@@ -6571,6 +6579,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 41,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 2,
         "c": 1,
         "casts": 1,
         "l": "May 01 2026"
@@ -9977,6 +9993,13 @@
         "d": "May 01 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Nugget",
+        "v": 2,
+        "r": "Junk",
+        "d": "May 01 2026"
+      },
+      {
         "n": "sparkymotors",
         "i": "Kamui Kobayashi",
         "v": 1,
@@ -10223,6 +10246,13 @@
         "i": "BJ McLeod",
         "v": 41,
         "r": "Uncommon",
+        "d": "May 01 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Nugget",
+        "v": 2,
+        "r": "Junk",
         "d": "May 01 2026"
       },
       {
@@ -22847,7 +22877,7 @@
       "n": "Nugget",
       "custom": false,
       "r": "Junk",
-      "c": 98,
+      "c": 99,
       "h": "motionless",
       "v": 2,
       "w": 0.23
@@ -23467,7 +23497,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 98,
+      "c": 99,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -26336,6 +26366,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Nugget",
+      "w": 0.2,
+      "v": 2,
+      "r": "Junk",
+      "d": "May 01 2026"
+    },
+    {
       "u": "motionless",
       "i": "Craftman F100",
       "w": 92.69,
@@ -26925,14 +26963,6 @@
       "w": 1.06,
       "v": 11,
       "r": "Junk",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Bubba Wallace",
-      "w": 23.83,
-      "v": 24,
-      "r": "Common",
       "d": "May 01 2026"
     }
   ]
