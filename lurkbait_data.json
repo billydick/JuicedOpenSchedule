@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T03:13:04.231219+00:00",
-    "total_catches": 22137,
+    "generated_at": "2026-05-01T03:14:08.174402+00:00",
+    "total_catches": 22138,
     "unique_catches": 371,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22137 catches"
+      "sub": "Since launch - 22138 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1106,6 +1106,14 @@
         "l": "Jan 04 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 2502,
+        "c": 35,
+        "casts": 35,
+        "l": "May 01 2026"
+      },
+      {
         "u": "lurkm0de",
         "n": "lurkm0de",
         "g": 2501,
@@ -1208,14 +1216,6 @@
         "c": 30,
         "casts": 30,
         "l": "Jan 11 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 2063,
-        "c": 34,
-        "casts": 34,
-        "l": "May 01 2026"
       },
       {
         "u": "garchr",
@@ -6284,6 +6284,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 2502,
+        "c": 35,
+        "casts": 35,
+        "l": "May 01 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 2420,
@@ -6298,14 +6306,6 @@
         "c": 17,
         "casts": 17,
         "l": "Apr 30 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 2063,
-        "c": 34,
-        "casts": 34,
-        "l": "May 01 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6430,6 +6430,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 1617,
+        "c": 12,
+        "casts": 12,
+        "l": "May 01 2026"
+      },
+      {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
         "g": 1542,
@@ -6443,14 +6451,6 @@
         "g": 1372,
         "c": 22,
         "casts": 22,
-        "l": "May 01 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 1178,
-        "c": 11,
-        "casts": 11,
         "l": "May 01 2026"
       },
       {
@@ -6640,6 +6640,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 542,
+        "c": 3,
+        "casts": 3,
+        "l": "May 01 2026"
+      },
+      {
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 455,
@@ -6709,14 +6717,6 @@
         "g": 111,
         "c": 1,
         "casts": 1,
-        "l": "May 01 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 103,
-        "c": 2,
-        "casts": 2,
         "l": "May 01 2026"
       },
       {
@@ -10151,6 +10151,13 @@
         "d": "May 01 2026"
       },
       {
+        "n": "ikatipoi",
+        "i": "Dale Earnhardt Jr.",
+        "v": 439,
+        "r": "Legendary",
+        "d": "May 01 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Simucube ActivePedal",
         "v": 222,
@@ -10224,13 +10231,6 @@
         "n": "larcen22",
         "i": "Mini Stock",
         "v": 81,
-        "r": "Rare",
-        "d": "May 01 2026"
-      },
-      {
-        "n": "ikatipoi",
-        "i": "FUEL CELL TOP",
-        "v": 74,
         "r": "Rare",
         "d": "May 01 2026"
       },
@@ -12353,7 +12353,7 @@
         }
       },
       "walk_in": {
-        "total": 148,
+        "total": 149,
         "holders": [
           "gh0std0g90",
           "belyy92",
@@ -12502,10 +12502,11 @@
           "v1per_simr4cin6",
           "pvtcrock",
           "realiist1",
-          "codycoyoteracing"
+          "codycoyoteracing",
+          "ikatipoi"
         ],
         "latest": {
-          "u": "codycoyoteracing",
+          "u": "ikatipoi",
           "d": "May 01 2026"
         }
       },
@@ -19368,6 +19369,7 @@
         "catch_of_day": "Apr 28 2026",
         "junk_master": "Apr 30 2026",
         "custom_catch": "Apr 15 2026",
+        "walk_in": "May 01 2026",
         "full_spectrum": "Apr 28 2026",
         "custom_club": "Apr 26 2026",
         "leg_epic_day": "Apr 28 2026",
@@ -19732,6 +19734,15 @@
       "w": 5.57
     },
     {
+      "n": "Dale Earnhardt Jr.",
+      "custom": true,
+      "r": "Legendary",
+      "c": 37,
+      "h": "ikatipoi",
+      "v": 439,
+      "w": 4.38
+    },
+    {
       "n": "Ricky Rudd",
       "custom": true,
       "r": "Legendary",
@@ -19793,15 +19804,6 @@
       "h": "wintergofast",
       "v": 337,
       "w": 112.44
-    },
-    {
-      "n": "Dale Earnhardt Jr.",
-      "custom": true,
-      "r": "Legendary",
-      "c": 36,
-      "h": "justingamez",
-      "v": 337,
-      "w": 5.61
     },
     {
       "n": "Joel the Sturgeon",
@@ -23757,9 +23759,9 @@
       "r": "Legendary",
       "custom": true,
       "desc": "Spawn of GOAT, can also drive.",
-      "c": 36,
-      "rec": "5.61 lb",
-      "v": 337
+      "c": 37,
+      "rec": "4.38 lb",
+      "v": 439
     },
     {
       "n": "Trolley",
@@ -26365,6 +26367,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Dale Earnhardt Jr.",
+      "w": 4.38,
+      "v": 439,
+      "r": "Legendary",
+      "d": "May 01 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Electric Catfish",
       "w": 18.65,
@@ -26954,14 +26964,6 @@
       "w": 107.24,
       "v": 165,
       "r": "Rare",
-      "d": "Apr 30 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Frontosa Cichlid",
-      "w": 0.54,
-      "v": 38,
-      "r": "Uncommon",
       "d": "Apr 30 2026"
     }
   ]
