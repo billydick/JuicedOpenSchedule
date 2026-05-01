@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T21:13:48.684040+00:00",
-    "total_catches": 22171,
-    "unique_catches": 371,
+    "generated_at": "2026-05-01T21:41:18.967359+00:00",
+    "total_catches": 22172,
+    "unique_catches": 372,
     "total_players": 741,
     "dex_total": 375,
-    "caught_total": 371,
-    "dex_completion": 98.93,
+    "caught_total": 372,
+    "dex_completion": 99.2,
     "custom_catch_count": 254,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22171 catches"
+      "sub": "Since launch - 22172 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -428,9 +428,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 17758,
-        "c": 219,
-        "casts": 219,
+        "g": 17928,
+        "c": 220,
+        "casts": 220,
         "l": "May 01 2026"
       },
       {
@@ -6218,14 +6218,23 @@
         "l": "Nov 09 2025"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 170,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      }
+    ],
     "weekly": [
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 4029,
-        "c": 58,
-        "casts": 58,
+        "g": 4199,
+        "c": 59,
+        "casts": 59,
         "l": "May 01 2026"
       },
       {
@@ -6421,7 +6430,16 @@
         "l": "May 01 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 170,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9750,7 +9768,15 @@
         "d": "Dec 29 2024"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "n": "brookswhynot",
+        "i": "NASCAR Pace Car",
+        "v": 170,
+        "r": "Rare",
+        "d": "May 01 2026"
+      }
+    ],
     "weekly": [
       {
         "n": "v1per_simr4cin6",
@@ -9928,7 +9954,15 @@
         "d": "Apr 30 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "NASCAR Pace Car",
+        "v": 170,
+        "r": "Rare",
+        "d": "May 01 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -20605,6 +20639,15 @@
       "w": 0.11
     },
     {
+      "n": "NASCAR Pace Car",
+      "custom": true,
+      "r": "Rare",
+      "c": 1,
+      "h": "brookswhynot",
+      "v": 170,
+      "w": 170.43
+    },
+    {
       "n": "Nashville Superspeedway",
       "custom": true,
       "r": "Rare",
@@ -25976,6 +26019,15 @@
       "v": 48
     },
     {
+      "n": "NASCAR Pace Car",
+      "r": "Rare",
+      "custom": true,
+      "desc": "Still faster than your car!",
+      "c": 1,
+      "rec": "170.43 lb",
+      "v": 170
+    },
+    {
       "n": "Shane Van Gisbergen_",
       "r": "Epic",
       "custom": true,
@@ -25994,15 +26046,6 @@
       "v": 0
     },
     {
-      "n": "NASCAR Pace Car",
-      "r": "Rare",
-      "custom": true,
-      "desc": "Still faster than your car!",
-      "c": 0,
-      "rec": "",
-      "v": 0
-    },
-    {
       "n": "Texas Motor Speedway",
       "r": "Epic",
       "custom": true,
@@ -26013,6 +26056,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "brookswhynot",
+      "i": "NASCAR Pace Car",
+      "w": 170.43,
+      "v": 170,
+      "r": "Rare",
+      "d": "May 01 2026"
+    },
     {
       "u": "beliron",
       "i": "FUEL CELL TOP",
@@ -26603,14 +26654,6 @@
       "w": 32.38,
       "v": 24,
       "r": "Common",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "mrbrowz_fdm",
-      "i": "Streaked Spinefoot",
-      "w": 0.21,
-      "v": 42,
-      "r": "Uncommon",
       "d": "May 01 2026"
     }
   ]
