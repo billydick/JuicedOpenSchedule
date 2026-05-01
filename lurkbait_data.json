@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T02:33:49.753140+00:00",
-    "total_catches": 22122,
+    "generated_at": "2026-05-01T02:37:57.061523+00:00",
+    "total_catches": 22123,
     "unique_catches": 371,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22122 catches"
+      "sub": "Since launch - 22123 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -356,9 +356,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 34040,
-        "c": 521,
-        "casts": 521,
+        "g": 34151,
+        "c": 522,
+        "casts": 522,
         "l": "May 01 2026"
       },
       {
@@ -6254,9 +6254,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 5005,
-        "c": 73,
-        "casts": 73,
+        "g": 5116,
+        "c": 74,
+        "casts": 74,
         "l": "May 01 2026"
       },
       {
@@ -6510,6 +6510,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 431,
+        "c": 6,
+        "casts": 6,
+        "l": "May 01 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 383,
@@ -6531,14 +6539,6 @@
         "g": 339,
         "c": 2,
         "casts": 2,
-        "l": "May 01 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 320,
-        "c": 5,
-        "casts": 5,
         "l": "May 01 2026"
       },
       {
@@ -6680,6 +6680,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 168,
+        "c": 3,
+        "casts": 3,
+        "l": "May 01 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 161,
@@ -6707,14 +6715,6 @@
         "u": "realiist1",
         "n": "realiist1",
         "g": 70,
-        "c": 2,
-        "casts": 2,
-        "l": "May 01 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 57,
         "c": 2,
         "casts": 2,
         "l": "May 01 2026"
@@ -10155,6 +10155,13 @@
         "d": "May 01 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "VNM handbrake V1",
+        "v": 111,
+        "r": "Rare",
+        "d": "May 01 2026"
+      },
+      {
         "n": "beliron",
         "i": "Peyton Moore",
         "v": 107,
@@ -10194,13 +10201,6 @@
         "i": "Green Sea Turtle",
         "v": 56,
         "r": "Rare",
-        "d": "May 01 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Murex Shellfish",
-        "v": 43,
-        "r": "Uncommon",
         "d": "May 01 2026"
       },
       {
@@ -21148,7 +21148,7 @@
       "n": "VNM handbrake V1",
       "custom": true,
       "r": "Rare",
-      "c": 39,
+      "c": 40,
       "h": "flippy00",
       "v": 112,
       "w": 3.37
@@ -24981,7 +24981,7 @@
       "r": "Rare",
       "custom": true,
       "desc": " TrakRacer designed for rally and drifting simulator drivers. Designed to look and feel like the real thing,",
-      "c": 39,
+      "c": 40,
       "rec": "3.37 lb",
       "v": 112
     },
@@ -26320,6 +26320,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "VNM handbrake V1",
+      "w": 3.32,
+      "v": 111,
+      "r": "Rare",
+      "d": "May 01 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Streaked Spinefoot",
       "w": 0.17,
@@ -26909,14 +26917,6 @@
       "w": 9.28,
       "v": 139,
       "r": "Epic",
-      "d": "Apr 30 2026"
-    },
-    {
-      "u": "rms_racing",
-      "i": "Road Race Wiper Motor",
-      "w": 3.24,
-      "v": 27,
-      "r": "Common",
       "d": "Apr 30 2026"
     }
   ]
