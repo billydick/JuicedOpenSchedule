@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T00:44:30.218297+00:00",
-    "total_catches": 22086,
+    "generated_at": "2026-05-01T00:46:35.268525+00:00",
+    "total_catches": 22087,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22086 catches"
+      "sub": "Since launch - 22087 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1362,6 +1362,14 @@
         "l": "Jun 29 2025"
       },
       {
+        "u": "codycoyoteracing",
+        "n": "codycoyoteracing",
+        "g": 1619,
+        "c": 20,
+        "casts": 20,
+        "l": "May 01 2026"
+      },
+      {
         "u": "scaryfr0",
         "n": "scaryfr0",
         "g": 1616,
@@ -1392,14 +1400,6 @@
         "c": 18,
         "casts": 18,
         "l": "Mar 27 2025"
-      },
-      {
-        "u": "codycoyoteracing",
-        "n": "codycoyoteracing",
-        "g": 1563,
-        "c": 19,
-        "casts": 19,
-        "l": "Apr 30 2026"
       },
       {
         "u": "scandrol420",
@@ -6366,10 +6366,10 @@
       {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
-        "g": 925,
-        "c": 14,
-        "casts": 14,
-        "l": "Apr 30 2026"
+        "g": 981,
+        "c": 15,
+        "casts": 15,
+        "l": "May 01 2026"
       },
       {
         "u": "rhetti_",
@@ -6486,20 +6486,20 @@
         "l": "Apr 30 2026"
       },
       {
+        "u": "codycoyoteracing",
+        "n": "codycoyoteracing",
+        "g": 383,
+        "c": 3,
+        "casts": 3,
+        "l": "May 01 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 379,
         "c": 5,
         "casts": 5,
         "l": "May 01 2026"
-      },
-      {
-        "u": "codycoyoteracing",
-        "n": "codycoyoteracing",
-        "g": 327,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 30 2026"
       },
       {
         "u": "juicedracing",
@@ -6658,6 +6658,14 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
+        "u": "codycoyoteracing",
+        "n": "codycoyoteracing",
         "g": 56,
         "c": 1,
         "casts": 1,
@@ -10098,6 +10106,13 @@
         "d": "May 01 2026"
       },
       {
+        "n": "codycoyoteracing",
+        "i": "Green Sea Turtle",
+        "v": 56,
+        "r": "Rare",
+        "d": "May 01 2026"
+      },
+      {
         "n": "beliron",
         "i": "Double Adjustable Steel J-Bar",
         "v": 54,
@@ -12194,7 +12209,7 @@
         }
       },
       "walk_in": {
-        "total": 147,
+        "total": 148,
         "holders": [
           "gh0std0g90",
           "belyy92",
@@ -12342,11 +12357,12 @@
           "thesaucypanda2",
           "v1per_simr4cin6",
           "pvtcrock",
-          "realiist1"
+          "realiist1",
+          "codycoyoteracing"
         ],
         "latest": {
-          "u": "realiist1",
-          "d": "Apr 28 2026"
+          "u": "codycoyoteracing",
+          "d": "May 01 2026"
         }
       },
       "regular_weight": {
@@ -17534,6 +17550,7 @@
         "broke_in": "Jan 16 2025",
         "catch_of_day": "May 29 2025",
         "custom_catch": "Jan 16 2025",
+        "walk_in": "May 01 2026",
         "custom_club": "Apr 30 2026"
       },
       "fanaticmoon409": {
@@ -21448,7 +21465,7 @@
       "n": "Green Sea Turtle",
       "custom": false,
       "r": "Rare",
-      "c": 66,
+      "c": 67,
       "h": "belyy92",
       "v": 79,
       "w": 180.05
@@ -24012,7 +24029,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 66,
+      "c": 67,
       "rec": "180.05 lb",
       "v": 79
     },
@@ -26188,6 +26205,14 @@
   ],
   "recent": [
     {
+      "u": "codycoyoteracing",
+      "i": "Green Sea Turtle",
+      "w": 128.16,
+      "v": 56,
+      "r": "Rare",
+      "d": "May 01 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Erik Jones",
       "w": 1.09,
@@ -26777,14 +26802,6 @@
       "w": 24.98,
       "v": 200,
       "r": "Epic",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Soda Can",
-      "w": 0.11,
-      "v": 1,
-      "r": "Junk",
       "d": "Apr 28 2026"
     }
   ]
