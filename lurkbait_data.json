@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T01:11:28.083180+00:00",
-    "total_catches": 22100,
+    "generated_at": "2026-05-01T01:13:33.249802+00:00",
+    "total_catches": 22101,
     "unique_catches": 371,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22100 catches"
+      "sub": "Since launch - 22101 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -1210,20 +1210,20 @@
         "l": "Jan 11 2025"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 2063,
+        "c": 34,
+        "casts": 34,
+        "l": "May 01 2026"
+      },
+      {
         "u": "garchr",
         "n": "garchr",
         "g": 2051,
         "c": 18,
         "casts": 18,
         "l": "Sep 02 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 2034,
-        "c": 33,
-        "casts": 33,
-        "l": "May 01 2026"
       },
       {
         "u": "shanechas",
@@ -6302,9 +6302,9 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 2034,
-        "c": 33,
-        "casts": 33,
+        "g": 2063,
+        "c": 34,
+        "casts": 34,
         "l": "May 01 2026"
       },
       {
@@ -6438,19 +6438,19 @@
         "l": "Apr 28 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 1178,
+        "c": 11,
+        "casts": 11,
+        "l": "May 01 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 1170,
         "c": 8,
         "casts": 8,
-        "l": "May 01 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 1149,
-        "c": 10,
-        "casts": 10,
         "l": "May 01 2026"
       },
       {
@@ -6656,17 +6656,17 @@
         "l": "May 01 2026"
       },
       {
-        "u": "larcen22",
-        "n": "larcen22",
-        "g": 81,
-        "c": 1,
-        "casts": 1,
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 103,
+        "c": 2,
+        "casts": 2,
         "l": "May 01 2026"
       },
       {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 74,
+        "u": "larcen22",
+        "n": "larcen22",
+        "g": 81,
         "c": 1,
         "casts": 1,
         "l": "May 01 2026"
@@ -22169,7 +22169,7 @@
       "n": "Black Redeye",
       "custom": false,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "riflehog",
       "v": 34,
       "w": 44.83
@@ -23329,7 +23329,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 160,
+      "c": 161,
       "rec": "44.83 lb",
       "v": 34
     },
@@ -26288,6 +26288,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Black Redeye",
+      "w": 38.26,
+      "v": 29,
+      "r": "Common",
+      "d": "May 01 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Traffic Cone",
       "w": 1.02,
@@ -26877,14 +26885,6 @@
       "w": 48.27,
       "v": 24,
       "r": "Common",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "larcen22",
-      "i": "Kieston France",
-      "w": 48.08,
-      "v": 96,
-      "r": "Rare",
       "d": "Apr 28 2026"
     }
   ]
