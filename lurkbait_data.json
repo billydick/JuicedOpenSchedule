@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T00:15:40.040550+00:00",
-    "total_catches": 22078,
+    "generated_at": "2026-05-01T00:22:50.130512+00:00",
+    "total_catches": 22080,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22078 catches"
+      "sub": "Since launch - 22080 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 96817,
-        "c": 1227,
-        "casts": 1227,
+        "g": 96819,
+        "c": 1228,
+        "casts": 1228,
         "l": "May 01 2026"
       },
       {
@@ -1378,6 +1378,14 @@
         "l": "Aug 04 2025"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 1593,
+        "c": 25,
+        "casts": 25,
+        "l": "May 01 2026"
+      },
+      {
         "u": "brian_wertman_74",
         "n": "brian_wertman_74",
         "g": 1579,
@@ -1391,14 +1399,6 @@
         "g": 1563,
         "c": 19,
         "casts": 19,
-        "l": "Apr 30 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 1552,
-        "c": 24,
-        "casts": 24,
         "l": "Apr 30 2026"
       },
       {
@@ -6214,9 +6214,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 7375,
-        "c": 106,
-        "casts": 106,
+        "g": 7377,
+        "c": 107,
+        "casts": 107,
         "l": "May 01 2026"
       },
       {
@@ -6318,10 +6318,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 1552,
-        "c": 24,
-        "casts": 24,
-        "l": "Apr 30 2026"
+        "g": 1593,
+        "c": 25,
+        "casts": 25,
+        "l": "May 01 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6440,9 +6440,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1051,
-        "c": 17,
-        "casts": 17,
+        "g": 1053,
+        "c": 18,
+        "casts": 18,
         "l": "May 01 2026"
       },
       {
@@ -6536,10 +6536,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 147,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 30 2026"
+        "g": 188,
+        "c": 4,
+        "casts": 4,
+        "l": "May 01 2026"
       },
       {
         "u": "itzdubsta",
@@ -6626,9 +6626,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 83,
-        "c": 1,
-        "casts": 1,
+        "g": 85,
+        "c": 2,
+        "casts": 2,
         "l": "May 01 2026"
       },
       {
@@ -6643,6 +6643,14 @@
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      },
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 41,
         "c": 1,
         "casts": 1,
         "l": "May 01 2026"
@@ -10040,6 +10048,13 @@
         "n": "rms_racing",
         "i": "Sim Racing Shoes",
         "v": 56,
+        "r": "Uncommon",
+        "d": "May 01 2026"
+      },
+      {
+        "n": "realiist1",
+        "i": "Gas Can",
+        "v": 41,
         "r": "Uncommon",
         "d": "May 01 2026"
       },
@@ -21589,7 +21604,7 @@
       "n": "Gas Can",
       "custom": true,
       "r": "Uncommon",
-      "c": 80,
+      "c": 81,
       "h": "karnalsanders",
       "v": 56,
       "w": 5.63
@@ -22651,7 +22666,7 @@
       "n": "Funny Metal Tubes",
       "custom": false,
       "r": "Junk",
-      "c": 58,
+      "c": 59,
       "h": "wintergofast",
       "v": 2,
       "w": 0.22
@@ -23451,7 +23466,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Not water!",
-      "c": 80,
+      "c": 81,
       "rec": "5.63 lb",
       "v": 56
     },
@@ -23487,7 +23502,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 58,
+      "c": 59,
       "rec": "0.22 lb",
       "v": 2
     },
@@ -26113,6 +26128,22 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Gas Can",
+      "w": 4.1,
+      "v": 41,
+      "r": "Uncommon",
+      "d": "May 01 2026"
+    },
+    {
+      "u": "motionless",
+      "i": "Funny Metal Tubes",
+      "w": 0.21,
+      "v": 2,
+      "r": "Junk",
+      "d": "May 01 2026"
+    },
+    {
       "u": "larcen22",
       "i": "Mini Stock",
       "w": 1.08,
@@ -26693,22 +26724,6 @@
       "i": "Alex Bowman",
       "w": 43.01,
       "v": 86,
-      "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "mrdrwaddles",
-      "i": "Matt Kenseth",
-      "w": 27.13,
-      "v": 216,
-      "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "John H. Nemechek",
-      "w": 0.87,
-      "v": 87,
       "r": "Rare",
       "d": "Apr 28 2026"
     }
