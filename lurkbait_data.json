@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-04-30T23:51:09.351999+00:00",
-    "total_catches": 22073,
+    "generated_at": "2026-05-01T00:13:33.750289+00:00",
+    "total_catches": 22074,
     "unique_catches": 371,
     "total_players": 740,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22073 catches"
+      "sub": "Since launch - 22074 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -420,10 +420,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 20071,
-        "c": 299,
-        "casts": 299,
-        "l": "Apr 26 2026"
+        "g": 20097,
+        "c": 300,
+        "casts": 300,
+        "l": "May 01 2026"
       },
       {
         "u": "thebtm1",
@@ -6278,10 +6278,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 2394,
-        "c": 28,
-        "casts": 28,
-        "l": "Apr 26 2026"
+        "g": 2420,
+        "c": 29,
+        "casts": 29,
+        "l": "May 01 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6614,7 +6614,16 @@
         "l": "Apr 28 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 26,
+        "c": 1,
+        "casts": 1,
+        "l": "May 01 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9973,7 +9982,15 @@
         "d": "Apr 28 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "2 TO 1 Y FITTING",
+        "v": 26,
+        "r": "Common",
+        "d": "May 01 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22021,7 +22038,7 @@
       "n": "2 TO 1 Y FITTING",
       "custom": true,
       "r": "Common",
-      "c": 141,
+      "c": 142,
       "h": "dontuu",
       "v": 28,
       "w": 1.13
@@ -24279,7 +24296,7 @@
       "r": "Common",
       "custom": true,
       "desc": "",
-      "c": 141,
+      "c": 142,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -26032,6 +26049,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "2 TO 1 Y FITTING",
+      "w": 1.03,
+      "v": 26,
+      "r": "Common",
+      "d": "May 01 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Orangespined Unicornfish",
       "w": 0.9,
@@ -26620,14 +26645,6 @@
       "i": "Olive Ridley Turtle",
       "w": 35.34,
       "v": 71,
-      "r": "Rare",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Chris Buescher",
-      "w": 28.41,
-      "v": 142,
       "r": "Rare",
       "d": "Apr 28 2026"
     }
