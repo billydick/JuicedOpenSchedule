@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-01T05:00:12Z",
+  "generated_at": "2026-05-01T05:01:59Z",
   "meta": {
-    "total_hands": 96,
+    "total_hands": 97,
     "total_players": 14,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -119,18 +119,18 @@
         "ach": 0
       },
       {
+        "u": "larcen22",
+        "chips": 249,
+        "net": -56505,
+        "hands": 5,
+        "ach": 5
+      },
+      {
         "u": "juicedracing",
         "chips": 100,
         "net": -90717,
         "hands": 12,
         "ach": 10
-      },
-      {
-        "u": "larcen22",
-        "chips": 100,
-        "net": -56554,
-        "hands": 4,
-        "ach": 4
       }
     ],
     "daily": [
@@ -171,10 +171,10 @@
       },
       {
         "u": "larcen22",
-        "chips": 100,
-        "net": -80149,
-        "hands": 4,
-        "ach": 4
+        "chips": 249,
+        "net": -80100,
+        "hands": 5,
+        "ach": 5
       }
     ]
   },
@@ -384,10 +384,10 @@
         },
         {
           "u": "larcen22",
-          "chips": 100,
+          "chips": 249,
           "net": 26595,
           "hands": 4,
-          "ach": 4
+          "ach": 5
         },
         {
           "u": "sille_94",
@@ -608,10 +608,10 @@
         },
         {
           "u": "larcen22",
-          "chips": 100,
+          "chips": 249,
           "net": -3000,
           "hands": 1,
-          "ach": 4
+          "ach": 5
         },
         {
           "u": "ironlegacy_",
@@ -950,12 +950,13 @@
         }
       },
       "min_bet_master": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "larcen22"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "larcen22",
           "d": "2026-04-30"
         }
       },
@@ -1620,7 +1621,8 @@
         "high_roller_50k": "2026-04-30",
         "rags_to_riches_session": "2026-04-30",
         "big_swing_session_50k": "2026-04-30",
-        "escalator": "2026-04-30"
+        "escalator": "2026-04-30",
+        "min_bet_master": "2026-04-30"
       },
       "ikatipoi": {
         "bank_builder_100k": "earned",
@@ -1628,6 +1630,11 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "min_bet_master",
+        "u": "larcen22",
+        "d": "2026-04-30"
+      },
       {
         "id": "big_nerve_win",
         "u": "juicedracing",
@@ -1720,11 +1727,6 @@
       },
       {
         "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "lucky_escape",
         "u": "juicedracing",
         "d": "2026-04-30"
       }
@@ -2447,6 +2449,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777611719.3636546,
+      "date": "2026-04-30",
+      "player": "larcen22",
+      "bet": 49,
+      "balance_before": 150,
+      "result": "win",
+      "net_delta": 49,
+      "player_cards": [
+        "J♦",
+        "K♠"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "Q♦",
+        "4♦",
+        "3♦"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "min_bet_master"
+      ]
+    },
     {
       "ts": 1777611612.274639,
       "date": "2026-04-30",
@@ -3903,40 +3935,6 @@
       "poker_bonus": 0,
       "achievements_earned": [
         "lucky_escape"
-      ]
-    },
-    {
-      "ts": 1777344546.4769945,
-      "date": "2026-04-27",
-      "player": "juicedracing",
-      "bet": 10000,
-      "balance_before": 18150,
-      "result": "win",
-      "net_delta": 11000,
-      "player_cards": [
-        "Q♦",
-        "Q♣"
-      ],
-      "player_total": 20,
-      "hit_count": 0,
-      "dealer_cards": [
-        "8♠",
-        "8♣",
-        "8♦"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 0,
-      "poker_bonus": 1000,
-      "achievements_earned": [
-        "big_nerve_win",
-        "poker_pair_any",
-        "clean_poker_win",
-        "riches_to_rags_session",
-        "roller_coaster_session"
       ]
     }
   ]
