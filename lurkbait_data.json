@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T01:16:39.589700+00:00",
-    "total_catches": 22102,
+    "generated_at": "2026-05-01T01:17:43.481972+00:00",
+    "total_catches": 22103,
     "unique_catches": 371,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22102 catches"
+      "sub": "Since launch - 22103 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -4730,6 +4730,14 @@
         "l": "Jan 26 2025"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 43,
+        "c": 2,
+        "casts": 2,
+        "l": "May 01 2026"
+      },
+      {
         "u": "justinlovesracing",
         "n": "justinlovesracing",
         "g": 43,
@@ -4768,14 +4776,6 @@
         "c": 1,
         "casts": 1,
         "l": "Sep 28 2024"
-      },
-      {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
-        "l": "May 01 2026"
       },
       {
         "u": "josh0224",
@@ -6608,9 +6608,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "g": 43,
+        "c": 2,
+        "casts": 2,
         "l": "May 01 2026"
       },
       {
@@ -6714,9 +6714,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "g": 43,
+        "c": 2,
+        "casts": 2,
         "l": "May 01 2026"
       },
       {
@@ -11453,7 +11453,7 @@
         }
       },
       "custom_catch": {
-        "total": 614,
+        "total": 615,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12068,11 +12068,12 @@
           "azsuperbeast",
           "iz1ggy",
           "forthe_lul",
-          "evangel0203"
+          "evangel0203",
+          "mrbrowz_fdm"
         ],
         "latest": {
-          "u": "evangel0203",
-          "d": "Apr 26 2026"
+          "u": "mrbrowz_fdm",
+          "d": "May 01 2026"
         }
       },
       "heavy_hauler": {
@@ -19385,7 +19386,8 @@
         "broke_in": "Apr 28 2026"
       },
       "mrbrowz_fdm": {
-        "broke_in": "May 01 2026"
+        "broke_in": "May 01 2026",
+        "custom_catch": "May 01 2026"
       }
     },
     "recent_unlocks": [
@@ -22601,7 +22603,7 @@
       "n": "Kamui Kobayashi",
       "custom": true,
       "r": "Common",
-      "c": 134,
+      "c": 135,
       "h": "karnalsanders",
       "v": 1,
       "w": 1.13
@@ -22901,8 +22903,8 @@
     },
     {
       "u": "mrbrowz_fdm",
-      "g": 42,
-      "c": 1,
+      "g": 43,
+      "c": 2,
       "best_n": "Streaked Spinefoot",
       "best_r": "Uncommon",
       "best_v": 42,
@@ -24013,7 +24015,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Same dude that eats hot dogs in contests",
-      "c": 134,
+      "c": 135,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26288,6 +26290,14 @@
   ],
   "recent": [
     {
+      "u": "mrbrowz_fdm",
+      "i": "Kamui Kobayashi",
+      "w": 0.91,
+      "v": 1,
+      "r": "Junk",
+      "d": "May 01 2026"
+    },
+    {
       "u": "rms_racing",
       "i": "Ty Gibbs",
       "w": 26.55,
@@ -26877,14 +26887,6 @@
       "w": 0.87,
       "v": 43,
       "r": "Uncommon",
-      "d": "Apr 28 2026"
-    },
-    {
-      "u": "mrdrwaddles",
-      "i": "North Wilksboro",
-      "w": 90.55,
-      "v": 158,
-      "r": "Rare",
       "d": "Apr 28 2026"
     }
   ]
