@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-01T03:45:13.771070+00:00",
-    "total_catches": 22150,
+    "generated_at": "2026-05-01T03:46:16.794105+00:00",
+    "total_catches": 22151,
     "unique_catches": 371,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22150 catches"
+      "sub": "Since launch - 22151 catches"
     },
     "monthly": {
       "label": "April 2026",
@@ -3434,6 +3434,14 @@
         "l": "Dec 19 2025"
       },
       {
+        "u": "matt_zilla",
+        "n": "matt_zilla",
+        "g": 154,
+        "c": 3,
+        "casts": 3,
+        "l": "May 01 2026"
+      },
+      {
         "u": "chipdiamnd",
         "n": "chipdiamnd",
         "g": 152,
@@ -3504,14 +3512,6 @@
         "c": 3,
         "casts": 3,
         "l": "Feb 01 2025"
-      },
-      {
-        "u": "matt_zilla",
-        "n": "matt_zilla",
-        "g": 145,
-        "c": 2,
-        "casts": 2,
-        "l": "May 01 2026"
       },
       {
         "u": "guisantosracing",
@@ -6574,6 +6574,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "matt_zilla",
+        "n": "matt_zilla",
+        "g": 120,
+        "c": 2,
+        "casts": 2,
+        "l": "May 01 2026"
+      },
+      {
         "u": "azsuperbeast",
         "n": "azsuperbeast",
         "g": 115,
@@ -6588,14 +6596,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 28 2026"
-      },
-      {
-        "u": "matt_zilla",
-        "n": "matt_zilla",
-        "g": 111,
-        "c": 1,
-        "casts": 1,
-        "l": "May 01 2026"
       },
       {
         "u": "flippy00",
@@ -6730,9 +6730,9 @@
       {
         "u": "matt_zilla",
         "n": "matt_zilla",
-        "g": 111,
-        "c": 1,
-        "casts": 1,
+        "g": 120,
+        "c": 2,
+        "casts": 2,
         "l": "May 01 2026"
       },
       {
@@ -11542,7 +11542,7 @@
         }
       },
       "custom_catch": {
-        "total": 615,
+        "total": 616,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12158,10 +12158,11 @@
           "iz1ggy",
           "forthe_lul",
           "evangel0203",
-          "mrbrowz_fdm"
+          "mrbrowz_fdm",
+          "matt_zilla"
         ],
         "latest": {
-          "u": "mrbrowz_fdm",
+          "u": "matt_zilla",
           "d": "May 01 2026"
         }
       },
@@ -19104,7 +19105,8 @@
       "matt_zilla": {
         "broke_in": "Nov 29 2025",
         "win_day": "Nov 29 2025",
-        "catch_of_day": "Nov 29 2025"
+        "catch_of_day": "Nov 29 2025",
+        "custom_catch": "May 01 2026"
       },
       "reggaeshark4812": {
         "broke_in": "Nov 30 2025",
@@ -22560,7 +22562,7 @@
       "n": "iRacing Protest",
       "custom": true,
       "r": "Common",
-      "c": 121,
+      "c": 122,
       "h": "tressler1987",
       "v": 11,
       "w": 1.12
@@ -25376,7 +25378,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Loser protests you cause you said you banged his sister and mom at Talladega",
-      "c": 121,
+      "c": 122,
       "rec": "1.12 lb",
       "v": 11
     },
@@ -26382,6 +26384,14 @@
   ],
   "recent": [
     {
+      "u": "matt_zilla",
+      "i": "iRacing Protest",
+      "w": 0.89,
+      "v": 9,
+      "r": "Junk",
+      "d": "May 01 2026"
+    },
+    {
       "u": "maden3w",
       "i": "Button Box",
       "w": 3.07,
@@ -26971,14 +26981,6 @@
       "w": 5.52,
       "v": 83,
       "r": "Rare",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "rms_racing",
-      "i": "Sim Racing Shoes",
-      "w": 1.13,
-      "v": 56,
-      "r": "Uncommon",
       "d": "May 01 2026"
     }
   ]
