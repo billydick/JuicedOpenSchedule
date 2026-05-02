@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T00:01:12.836246+00:00",
-    "total_catches": 22207,
+    "generated_at": "2026-05-02T00:02:16.602529+00:00",
+    "total_catches": 22208,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22207 catches"
+      "sub": "Since launch - 22208 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1952,6 +1952,14 @@
         "c": 5,
         "casts": 5,
         "l": "Oct 23 2024"
+      },
+      {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 600,
+        "c": 3,
+        "casts": 3,
+        "l": "May 02 2026"
       },
       {
         "u": "rausch87",
@@ -4738,14 +4746,6 @@
         "l": "Jan 26 2025"
       },
       {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 43,
-        "c": 2,
-        "casts": 2,
-        "l": "May 01 2026"
-      },
-      {
         "u": "justinlovesracing",
         "n": "justinlovesracing",
         "g": 43,
@@ -6228,6 +6228,14 @@
         "l": "May 02 2026"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 557,
+        "c": 1,
+        "casts": 1,
+        "l": "May 02 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 489,
@@ -6398,6 +6406,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 600,
+        "c": 3,
+        "casts": 3,
+        "l": "May 02 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 580,
@@ -6500,14 +6516,6 @@
         "c": 1,
         "casts": 1,
         "l": "Apr 28 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 101,
-        "c": 2,
-        "casts": 2,
-        "l": "Apr 30 2026"
       }
     ],
     "daily": [
@@ -6517,6 +6525,14 @@
         "g": 1351,
         "c": 15,
         "casts": 15,
+        "l": "May 02 2026"
+      },
+      {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 557,
+        "c": 1,
+        "casts": 1,
         "l": "May 02 2026"
       },
       {
@@ -9930,6 +9946,13 @@
     ],
     "monthly": [
       {
+        "n": "mrbrowz_fdm",
+        "i": "Martin Truex Jr",
+        "v": 557,
+        "r": "Legendary",
+        "d": "May 02 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Texas Motor Speedway",
         "v": 224,
@@ -10008,6 +10031,13 @@
       }
     ],
     "weekly": [
+      {
+        "n": "mrbrowz_fdm",
+        "i": "Martin Truex Jr",
+        "v": 557,
+        "r": "Legendary",
+        "d": "May 02 2026"
+      },
       {
         "n": "v1per_simr4cin6",
         "i": "Kyle Busch",
@@ -10175,16 +10205,16 @@
         "v": 86,
         "r": "Epic",
         "d": "Apr 30 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Genesis Series Adjustable Shocks",
-        "v": 82,
-        "r": "Rare",
-        "d": "May 01 2026"
       }
     ],
     "daily": [
+      {
+        "n": "mrbrowz_fdm",
+        "i": "Martin Truex Jr",
+        "v": 557,
+        "r": "Legendary",
+        "d": "May 02 2026"
+      },
       {
         "n": "brookswhynot",
         "i": "Texas Motor Speedway",
@@ -11112,7 +11142,7 @@
         }
       },
       "catch_of_day": {
-        "total": 123,
+        "total": 124,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11236,11 +11266,12 @@
           "ten23graphics",
           "ineffabledecibel",
           "ikatipoi",
-          "v1per_simr4cin6"
+          "v1per_simr4cin6",
+          "mrbrowz_fdm"
         ],
         "latest": {
-          "u": "v1per_simr4cin6",
-          "d": "May 01 2026"
+          "u": "mrbrowz_fdm",
+          "d": "May 02 2026"
         }
       },
       "win_day": {
@@ -13862,7 +13893,7 @@
         }
       },
       "golden_cast": {
-        "total": 76,
+        "total": 77,
         "holders": [
           "zee20ate",
           "karnalsanders",
@@ -13939,11 +13970,12 @@
           "ineffabledecibel",
           "grumpymitch1",
           "ikatipoi",
-          "v1per_simr4cin6"
+          "v1per_simr4cin6",
+          "mrbrowz_fdm"
         ],
         "latest": {
-          "u": "v1per_simr4cin6",
-          "d": "May 01 2026"
+          "u": "mrbrowz_fdm",
+          "d": "May 02 2026"
         }
       },
       "jackpot": {
@@ -13976,7 +14008,7 @@
         }
       },
       "legend_hunter": {
-        "total": 181,
+        "total": 182,
         "holders": [
           "community_patroll",
           "gh0std0g90",
@@ -14158,11 +14190,12 @@
           "lemathewtv",
           "brookswhynot",
           "ineffabledecibel",
-          "ikatipoi"
+          "ikatipoi",
+          "mrbrowz_fdm"
         ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "Apr 28 2026"
+          "u": "mrbrowz_fdm",
+          "d": "May 02 2026"
         }
       },
       "legend_collector": {
@@ -19445,7 +19478,10 @@
       },
       "mrbrowz_fdm": {
         "broke_in": "May 01 2026",
-        "custom_catch": "May 01 2026"
+        "catch_of_day": "May 02 2026",
+        "custom_catch": "May 01 2026",
+        "golden_cast": "May 02 2026",
+        "legend_hunter": "May 02 2026"
       }
     },
     "recent_unlocks": [
@@ -19965,6 +20001,15 @@
       "h": "jonwinston2",
       "v": 223,
       "w": 5.57
+    },
+    {
+      "n": "Martin Truex Jr",
+      "custom": true,
+      "r": "Epic",
+      "c": 47,
+      "h": "mrbrowz_fdm",
+      "v": 557,
+      "w": 11.12
     },
     {
       "n": "We're Gonna Lose!",
@@ -20649,15 +20694,6 @@
       "h": "riflehog",
       "v": 169,
       "w": 11.29
-    },
-    {
-      "n": "Martin Truex Jr",
-      "custom": true,
-      "r": "Epic",
-      "c": 46,
-      "h": "juicedracing",
-      "v": 169,
-      "w": 11.28
     },
     {
       "n": "PFC Rear Calipers",
@@ -22979,11 +23015,11 @@
     },
     {
       "u": "mrbrowz_fdm",
-      "g": 43,
-      "c": 2,
-      "best_n": "Streaked Spinefoot",
-      "best_r": "Uncommon",
-      "best_v": 42,
+      "g": 600,
+      "c": 3,
+      "best_n": "Martin Truex Jr",
+      "best_r": "Legendary",
+      "best_v": 557,
       "d": "May 01 2026"
     }
   ],
@@ -23803,9 +23839,9 @@
       "r": "Legendary",
       "custom": true,
       "desc": "Can get angry",
-      "c": 46,
-      "rec": "11.28 lb",
-      "v": 169
+      "c": 47,
+      "rec": "11.12 lb",
+      "v": 557
     },
     {
       "n": "Bubbly",
@@ -26366,6 +26402,14 @@
   ],
   "recent": [
     {
+      "u": "mrbrowz_fdm",
+      "i": "Martin Truex Jr",
+      "w": 11.12,
+      "v": 557,
+      "r": "Legendary",
+      "d": "May 02 2026"
+    },
+    {
       "u": "realiist1",
       "i": "AC RACING BRAKE",
       "w": 2.12,
@@ -26955,14 +26999,6 @@
       "w": 102.66,
       "v": 154,
       "r": "Rare",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Simucube ActivePedal",
-      "w": 3.17,
-      "v": 222,
-      "r": "Epic",
       "d": "May 01 2026"
     }
   ]
