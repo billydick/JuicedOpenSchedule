@@ -961,7 +961,6 @@
   </div>
 </nav>
 
-<!-- LURKBAIT PAGE -->
 <div class="page" id="page-lurkbait">
   <div class="lb-hero">
     <div class="lb-hero-inner">
@@ -1080,7 +1079,27 @@
       </div>
     </div>
   </div>
+
+  <!-- PLAYER MODAL -->
+  <div id="lb-player-modal-overlay" class="lb-player-modal-overlay" onclick="lbModalClose()" style="display:none"></div>
+  <div id="lb-player-modal" class="lb-player-modal" style="display:none">
+    <div class="lb-player-modal-header" id="lb-player-modal-header">
+      <div class="lb-player-modal-name-row">
+        <div class="lb-player-modal-name" id="lb-player-modal-name"></div>
+        <div class="lb-player-modal-atrank" id="lb-player-modal-atrank"></div>
+      </div>
+      <div class="lb-player-modal-period-pills" id="lb-player-modal-pills"></div>
+      <button class="lb-player-modal-close" onclick="lbModalClose()">&#10005;</button>
+    </div>
+    <div class="lb-player-modal-stats" id="lb-player-modal-stats"></div>
+    <div id="lb-player-modal-records"></div>
+    <div id="lb-player-modal-achs"></div>
+    <div class="lb-pm-section-label">Recent Catches in Feed</div>
+    <div class="lb-player-modal-catches" id="lb-player-modal-catches"></div>
+  </div>
+
 </div>
+
 
 <div class="page" id="page-blackjack">
 
@@ -9864,11 +9883,20 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     if (car) {
       h += stat('Position', 'P'+car.position);
       h += stat('Gap', car.gap||'—');
-      if (car.lastLap) h += stat('Last Lap', car.lastLap.toFixed(3));
-      if (car.bestLap) h += stat('Best Lap', car.bestLap.toFixed(3));
+      if (car.lastLap) h += stat('Last Lap', fmtLapTime(car.lastLap));
+      if (car.bestLap) h += stat('Best Lap', fmtLapTime(car.bestLap));
       h += stat('Incidents', car.incidents+'x');
     }
     el.innerHTML = h;
+  }
+
+  function fmtLapTime(s) {
+    if (!s || s <= 0) return '—';
+    var m   = Math.floor(s / 60);
+    var sec = s - m * 60;
+    var ss  = Math.floor(sec);
+    var ms  = Math.round((sec - ss) * 1000);
+    return m + ':' + (ss < 10 ? '0' : '') + ss + '.' + (ms < 100 ? (ms < 10 ? '00' : '0') : '') + ms;
   }
 
   function stat(label, val) {

@@ -285,7 +285,7 @@ function lbThumb(name,isCustom){
       else{col='#FFF';sz='24px';bg='';}
       var you=(p.n||'').toLowerCase()==='juicedracing'?' lb-ldr-you':'';
       var barW = maxG ? Math.round((p.g/maxG)*100) : 0;
-      return '<div class="lb-ldr-row'+you+'" style="background:'+bg+'">'+
+      return '<div class="lb-ldr-row'+you+'" style="background:'+bg+';cursor:pointer" data-lb-player="'+(p.n||p.u||'')+'">'+
         '<div class="lb-ldr-rank" style="color:'+col+';font-size:'+sz+'">'+rank+'</div>'+
         '<div class="lb-ldr-name-col">'+
           '<div class="lb-ldr-name" style="color:'+col+'">'+(p.n||p.u||'Unknown')+'</div>'+
@@ -402,6 +402,230 @@ function lbThumb(name,isCustom){
         }).join('');
   }
   lbLoadData();
+
+  // ── Player Modal — event delegation, blackjack pattern ───────────────────
+  (function(){
+    var page = document.getElementById('page-lurkbait');
+    if(page) page.addEventListener('click', function(e){
+      var el = e.target.closest('[data-lb-player]');
+      if(el) lbModalOpen(el.getAttribute('data-lb-player'));
+    });
+  })();
+
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') lbModalClose();
+  });
+
+  function lbAtRankColor(rank){
+    if(rank===1)   return '#FF8000';
+    if(rank<=5)    return '#A335EE';
+    if(rank<=10)   return '#0070DD';
+    if(rank<=20)   return '#1EFF00';
+    return '#ffffff';
+  }
+
+  window.lbModalOpen = function(username){
+    if(!username || typeof username !== 'string') return;
+    var u = username.toLowerCase();
+
+    var overlay = document.getElementById('lb-player-modal-overlay');
+    var modal   = document.getElementById('lb-player-modal');
+    if(!overlay || !modal) return;
+
+    // All-time rank + entry
+    var at = LB_DB.leaderboards.alltime || [];
+    var atIdx = -1, atEntry = null;
+    for(var i=0;i<at.length;i++){
+      if((at[i].n||at[i].u||'').toLowerCase()===u){ atIdx=i; atEntry=at[i]; break; }
+    }
+    var atRank = atIdx >= 0 ? atIdx+1 : null;
+    var rankColor = atRank ? lbAtRankColor(atRank) : '#ffffff';
+
+    // Header accent
+    var header = document.getElementById('lb-player-modal-header');
+    if(header) header.style.borderTopColor = rankColor;
+
+    // Name + rank
+    var nameEl  = document.getElementById('lb-player-modal-name');
+    var rankEl  = document.getElementById('lb-player-modal-atrank');
+    var isNew   = (LB_DB.new_anglers||[]).some(function(a){ return (a.u||'').toLowerCase()===u; });
+    if(nameEl){
+      nameEl.textContent = atEntry ? (atEntry.n||atEntry.u) : username;
+      nameEl.style.color = rankColor;
+      if(isNew) nameEl.innerHTML += ' <span class="lb-pm-new-badge">NEW</span>';
+    }
+    if(rankEl){
+      rankEl.textContent = atRank ? '#'+atRank+' All Time' : 'Unranked';
+      rankEl.style.color = rankColor+'88';
+    }
+
+    // Period rank pills
+    function findInList(list){ for(var j=0;j<list.length;j++){ if((list[j].n||list[j].u||'').toLowerCase()===u) return j+1; } return null; }
+    var dailyRank   = findInList(LB_DB.leaderboards.daily   || []);
+    var weeklyRank  = findInList(LB_DB.leaderboards.weekly  || []);
+    var monthlyRank = findInList(LB_DB.leaderboards.monthly || []);
+    var pillsEl = document.getElementById('lb-player-modal-pills');
+    if(pillsEl){
+      var pills = '';
+      function pill(rank, label){
+        if(!rank) return '';
+        var c = lbAtRankColor(rank);
+        return '<div class="lb-pm-period-pill" style="border-color:'+c+'44;color:'+c+'">'+
+          '<span class="lb-pm-period-label">'+label+'</span>'+
+          '<span class="lb-pm-period-rank">#'+rank+'</span>'+
+        '</div>';
+      }
+      pills += pill(dailyRank,'Today') + pill(weeklyRank,'This Week') + pill(monthlyRank,'This Month');
+      pillsEl.innerHTML = pills;
+      pillsEl.style.display = pills ? 'flex' : 'none';
+    }
+
+    // Stat tiles
+    var gold   = atEntry ? atEntry.g : 0;
+    var casts  = atEntry ? atEntry.c : 0;
+    var last   = atEntry ? atEntry.l : '';
+    var gpc    = casts > 0 ? (gold/casts).toFixed(1) : '—';
+
+    // Achievement counts
+    var pdata = (LB_DB.achievements && LB_DB.achievements.players) || {};
+    var pKey  = Object.keys(pdata).find(function(k){ return k.toLowerCase()===u; }) || '';
+    var playerAchs = pdata[pKey] || {};
+    var earnedIds  = Object.keys(playerAchs);
+    var achG=0, achS=0, achB=0;
+    earnedIds.forEach(function(id){
+      var def = LB_ACH_DEFS.find(function(a){return a.id===id;});
+      if(!def) return;
+      if(def.t==='gold') achG++; else if(def.t==='silver') achS++; else achB++;
+    });
+
+    var statsEl = document.getElementById('lb-player-modal-stats');
+    if(statsEl) statsEl.innerHTML = [
+      {val: gold.toLocaleString(),  label:'All-Time Gold',  col:'#D4A017'},
+      {val: casts.toLocaleString(), label:'Total Casts',    col:'#00c8ff'},
+      {val: gpc,                    label:'Gold / Cast',    col:'#ffffff'},
+      {val: '<span style="color:#FF8000">'+achG+'</span><span style="color:rgba(255,255,255,.15);font-size:14px;margin:0 4px">/</span><span style="color:#A335EE">'+achS+'</span><span style="color:rgba(255,255,255,.15);font-size:14px;margin:0 4px">/</span><span style="color:#0070DD">'+achB+'</span>', label:'Achievements G/S/B', col:''},
+      (last ? {val: last, label:'Last Seen', col:'rgba(200,200,255,.5)'} : null)
+    ].filter(Boolean).map(function(s){
+      return '<div class="lb-pm-stat">'+
+        '<div class="lb-pm-stat-val"'+(s.col?' style="color:'+s.col+'"':'')+'>'+s.val+'</div>'+
+        '<div class="lb-pm-stat-label">'+s.label+'</div>'+
+      '</div>';
+    }).join('');
+
+    // Records held
+    var ar = LB_DB.angler_records || {};
+    var recordChecks = [
+      {key:'alltime_catches',    label:'Most Catches — All Time'},
+      {key:'alltime_gold',       label:'Most Gold — All Time'},
+      {key:'alltime_legendaries',label:'Most Legendaries — All Time'},
+      {key:'alltime_unique',     label:'Widest Dex — All Time'},
+      {key:'best_day_catches',   label:'Most Catches — Single Day'},
+      {key:'best_week_catches',  label:'Most Catches — Single Week'},
+      {key:'best_month_catches', label:'Most Catches — Single Month'},
+      {key:'best_day_gold',      label:'Most Gold — Single Day'},
+      {key:'best_week_gold',     label:'Most Gold — Single Week'},
+      {key:'best_month_gold',    label:'Most Gold — Single Month'}
+    ];
+    var recordsHeld = [];
+    recordChecks.forEach(function(rc){
+      var r = ar[rc.key];
+      if(r && (r.u||'').toLowerCase()===u) recordsHeld.push({label:rc.label, val:r.n, period:r.period||''});
+    });
+    var bc = LB_DB.best_catch || {};
+    ['alltime','monthly','weekly','daily'].forEach(function(period){
+      var list = bc[period] || [];
+      if(list.length && (list[0].n||'').toLowerCase()===u)
+        recordsHeld.push({label:'Best Single Catch — '+period.charAt(0).toUpperCase()+period.slice(1), val:list[0].v+'g', period:list[0].i||''});
+    });
+    var recsEl = document.getElementById('lb-player-modal-records');
+    if(recsEl){
+      if(recordsHeld.length){
+        recsEl.innerHTML =
+          '<div class="lb-pm-section-label">Stream Records Held</div>'+
+          '<div class="lb-pm-records">'+
+          recordsHeld.map(function(rec){
+            return '<div class="lb-pm-record-row">'+
+              '<div class="lb-pm-record-icon">&#127942;</div>'+
+              '<div style="flex:1">'+
+                '<div class="lb-pm-record-label">'+rec.label+'</div>'+
+                (rec.period?'<div class="lb-pm-record-period">'+rec.period+'</div>':'')+
+              '</div>'+
+              '<div class="lb-pm-record-val">'+Number(rec.val).toLocaleString()+'</div>'+
+            '</div>';
+          }).join('')+
+          '</div>';
+      } else {
+        recsEl.innerHTML = '';
+      }
+    }
+
+    // Achievement strip — gold first, then silver, then bronze
+    var achsEl = document.getElementById('lb-player-modal-achs');
+    if(achsEl){
+      if(earnedIds.length){
+        var tierOrder = ['gold','silver','bronze'];
+        var ACH_TC = {gold:'#FF8000',silver:'#A335EE',bronze:'#0070DD'};
+        var sortedAchs = earnedIds
+          .map(function(id){ return LB_ACH_DEFS.find(function(a){return a.id===id;}); })
+          .filter(Boolean)
+          .sort(function(a,b){ return tierOrder.indexOf(a.t)-tierOrder.indexOf(b.t); });
+        achsEl.innerHTML =
+          '<div class="lb-pm-section-label">Achievements ('+earnedIds.length+')</div>'+
+          '<div class="lb-pm-ach-strip">'+
+          sortedAchs.map(function(a){
+            var tc = ACH_TC[a.t]||'#888';
+            var date = playerAchs[a.id]||'';
+            var tipText = a.n + (date ? ' · ' + date : '');
+            return '<div class="lb-pm-ach-pip" style="background:'+tc+'18;border-color:'+tc+'44;--pip-col:'+tc+'" data-tip-name="'+a.n+'" data-tip-date="'+(date||'')+'" data-tip-cond="'+a.c.replace(/"/g,'&quot;')+'">'+
+              '<span>'+a.i+'</span>'+
+              '<div class="lb-pm-ach-tip">'+
+                '<div class="lb-pm-ach-tip-name" style="color:'+tc+'">'+a.n+'</div>'+
+                (date?'<div class="lb-pm-ach-tip-date">'+date+'</div>':'')+
+                '<div class="lb-pm-ach-tip-cond">'+a.c+'</div>'+
+              '</div>'+
+            '</div>';
+          }).join('')+
+          '</div>';
+      } else {
+        achsEl.innerHTML = '';
+      }
+    }
+
+    // Recent catches filtered to this player
+    var recentCatches = (LB_DB.recent||[]).filter(function(r){ return (r.u||'').toLowerCase()===u; });
+    var catchesEl = document.getElementById('lb-player-modal-catches');
+    if(catchesEl){
+      if(!recentCatches.length){
+        catchesEl.innerHTML = '<div class="lb-pm-empty">No recent catches in feed</div>';
+      } else {
+        catchesEl.innerHTML = recentCatches.map(function(r){
+          var col = RC[r.r]||'#888';
+          return '<div class="lb-pm-catch-row">'+
+            '<div class="lb-pm-catch-dot" style="background:'+col+';box-shadow:0 0 5px '+col+'66"></div>'+
+            '<div class="lb-pm-catch-item">'+r.i+'</div>'+
+            '<div class="lb-pm-catch-rarity" style="color:'+col+'">'+r.r+'</div>'+
+            '<div class="lb-pm-catch-wt">'+r.w.toFixed(2)+' lb</div>'+
+            '<div class="lb-pm-catch-val">'+r.v+'g</div>'+
+            '<div class="lb-pm-catch-date">'+r.d+'</div>'+
+          '</div>';
+        }).join('');
+      }
+    }
+
+    overlay.style.display = 'block';
+    modal.style.display   = 'block';
+    document.body.style.overflow = 'hidden';
+  };
+
+  window.lbModalClose = function(){
+    var overlay = document.getElementById('lb-player-modal-overlay');
+    var modal   = document.getElementById('lb-player-modal');
+    if(overlay) overlay.style.display = 'none';
+    if(modal)   modal.style.display   = 'none';
+    document.body.style.overflow = '';
+  };
+  // ── End Player Modal ──────────────────────────────────────────────────────
+
   var _initTimetabs = document.querySelector('.lb-timetabs');
   if(_initTimetabs) _initTimetabs.classList.add('visible');
   document.addEventListener('visibilitychange', function(){
