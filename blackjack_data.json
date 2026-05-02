@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-02T01:27:36Z",
+  "generated_at": "2026-05-02T01:33:08Z",
   "meta": {
-    "total_hands": 103,
+    "total_hands": 104,
     "total_players": 15,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -70,10 +70,17 @@
         "ach": 0
       },
       {
+        "u": "larcen22",
+        "chips": 30148,
+        "net": -36456,
+        "hands": 2,
+        "ach": 3
+      },
+      {
         "u": "juicedracing",
-        "chips": 26070,
-        "net": -84597,
-        "hands": 3,
+        "chips": 22370,
+        "net": -89597,
+        "hands": 4,
         "ach": 5
       },
       {
@@ -131,28 +138,21 @@
         "net": -41075,
         "hands": 0,
         "ach": 0
-      },
-      {
-        "u": "larcen22",
-        "chips": 50,
-        "net": -36456,
-        "hands": 2,
-        "ach": 3
       }
     ],
     "daily": [
       {
         "u": "larcen22",
-        "chips": 50,
+        "chips": 30148,
         "net": 20049,
         "hands": 2,
         "ach": 3
       },
       {
         "u": "juicedracing",
-        "chips": 26070,
-        "net": 6120,
-        "hands": 3,
+        "chips": 22370,
+        "net": 1120,
+        "hands": 4,
         "ach": 5
       },
       {
@@ -202,7 +202,7 @@
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 3
+      "n": 4
     },
     "best_streak": {
       "u": "juicedracing",
@@ -262,7 +262,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 26070,
+          "chips": 22370,
           "net": -19000,
           "hands": 12,
           "ach": 5
@@ -276,7 +276,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 50,
+          "chips": 30148,
           "net": -80100,
           "hands": 5,
           "ach": 3
@@ -380,7 +380,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 26070,
+          "chips": 22370,
           "net": 0,
           "hands": 1,
           "ach": 5
@@ -488,7 +488,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 50,
+          "chips": 30148,
           "net": 26595,
           "hands": 4,
           "ach": 3
@@ -523,7 +523,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 26070,
+          "chips": 22370,
           "net": -30699,
           "hands": 11,
           "ach": 5
@@ -615,7 +615,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 26070,
+          "chips": 22370,
           "net": -18,
           "hands": 4,
           "ach": 5
@@ -712,7 +712,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 50,
+          "chips": 30148,
           "net": -3000,
           "hands": 1,
           "ach": 3
@@ -747,7 +747,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 26070,
+          "chips": 22370,
           "net": -41000,
           "hands": 6,
           "ach": 5
@@ -2524,6 +2524,38 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777685588.8669393,
+      "date": "2026-05-01",
+      "player": "juicedracing",
+      "bet": 5000,
+      "balance_before": 27370,
+      "result": "lose",
+      "net_delta": -5000,
+      "player_cards": [
+        "7♣",
+        "8♥",
+        "5♥"
+      ],
+      "player_total": 20,
+      "hit_count": 1,
+      "dealer_cards": [
+        "4♠",
+        "5♦",
+        "3♠",
+        "A♣",
+        "2♣",
+        "6♠"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777685256.8182745,
       "date": "2026-05-01",
       "player": "larcen22",
@@ -3990,37 +4022,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777346346.2658088,
-      "date": "2026-04-27",
-      "player": "juicedracing",
-      "bet": 20000,
-      "balance_before": 20050,
-      "result": "push",
-      "net_delta": 0,
-      "player_cards": [
-        "2♥",
-        "Q♣",
-        "2♣",
-        "4♥"
-      ],
-      "player_total": 18,
-      "hit_count": 2,
-      "dealer_cards": [
-        "A♥",
-        "7♠"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any"
-      ]
     }
   ]
 }
