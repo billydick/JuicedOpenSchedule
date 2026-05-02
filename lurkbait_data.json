@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T01:26:17.352882+00:00",
-    "total_catches": 22216,
+    "generated_at": "2026-05-02T01:28:22.788195+00:00",
+    "total_catches": 22217,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22216 catches"
+      "sub": "Since launch - 22217 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1714,20 +1714,20 @@
         "l": "Feb 27 2025"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 886,
+        "c": 6,
+        "casts": 6,
+        "l": "May 02 2026"
+      },
+      {
         "u": "rmboliveira",
         "n": "rmboliveira",
         "g": 862,
         "c": 16,
         "casts": 16,
         "l": "Sep 28 2024"
-      },
-      {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 860,
-        "c": 5,
-        "casts": 5,
-        "l": "May 02 2026"
       },
       {
         "u": "agent_gib",
@@ -6230,9 +6230,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 817,
-        "c": 3,
-        "casts": 3,
+        "g": 843,
+        "c": 4,
+        "casts": 4,
         "l": "May 02 2026"
       },
       {
@@ -6376,9 +6376,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 860,
-        "c": 5,
-        "casts": 5,
+        "g": 886,
+        "c": 6,
+        "casts": 6,
         "l": "May 02 2026"
       },
       {
@@ -6538,9 +6538,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 817,
-        "c": 3,
-        "casts": 3,
+        "g": 843,
+        "c": 4,
+        "casts": 4,
         "l": "May 02 2026"
       },
       {
@@ -22216,7 +22216,7 @@
       "n": "Sea Urchin",
       "custom": false,
       "r": "Uncommon",
-      "c": 104,
+      "c": 105,
       "h": "casperfrnk09",
       "v": 34,
       "w": 0.23
@@ -23047,8 +23047,8 @@
     },
     {
       "u": "mrbrowz_fdm",
-      "g": 860,
-      "c": 5,
+      "g": 886,
+      "c": 6,
       "best_n": "Martin Truex Jr",
       "best_r": "Legendary",
       "best_v": 557,
@@ -23304,7 +23304,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 104,
+      "c": 105,
       "rec": "0.23 lb",
       "v": 34
     },
@@ -26434,6 +26434,14 @@
   ],
   "recent": [
     {
+      "u": "mrbrowz_fdm",
+      "i": "Sea Urchin",
+      "w": 0.18,
+      "v": 26,
+      "r": "Uncommon",
+      "d": "May 02 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Kansas Speedway",
       "w": 87.25,
@@ -27023,14 +27031,6 @@
       "w": 0.85,
       "v": 43,
       "r": "Uncommon",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Next Gen Camaro",
-      "w": 1.04,
-      "v": 130,
-      "r": "Rare",
       "d": "May 01 2026"
     }
   ]
