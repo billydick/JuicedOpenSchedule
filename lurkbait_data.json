@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T02:21:13.341249+00:00",
-    "total_catches": 22242,
+    "generated_at": "2026-05-02T02:23:18.468750+00:00",
+    "total_catches": 22243,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22242 catches"
+      "sub": "Since launch - 22243 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -3154,6 +3154,14 @@
         "l": "Mar 19 2025"
       },
       {
+        "u": "brokenanklesracing",
+        "n": "brokenanklesracing",
+        "g": 196,
+        "c": 2,
+        "casts": 2,
+        "l": "May 02 2026"
+      },
+      {
         "u": "lethalconnect",
         "n": "lethalconnect",
         "g": 195,
@@ -3752,14 +3760,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jan 31 2026"
-      },
-      {
-        "u": "brokenanklesracing",
-        "n": "brokenanklesracing",
-        "g": 112,
-        "c": 1,
-        "casts": 1,
-        "l": "Dec 25 2025"
       },
       {
         "u": "azaaw",
@@ -6332,6 +6332,14 @@
         "l": "May 02 2026"
       },
       {
+        "u": "brokenanklesracing",
+        "n": "brokenanklesracing",
+        "g": 84,
+        "c": 1,
+        "casts": 1,
+        "l": "May 02 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 82,
@@ -6677,6 +6685,14 @@
         "g": 105,
         "c": 2,
         "casts": 2,
+        "l": "May 02 2026"
+      },
+      {
+        "u": "brokenanklesracing",
+        "n": "brokenanklesracing",
+        "g": 84,
+        "c": 1,
+        "casts": 1,
         "l": "May 02 2026"
       },
       {
@@ -10140,6 +10156,13 @@
         "d": "May 02 2026"
       },
       {
+        "n": "brokenanklesracing",
+        "i": "Austin Hill",
+        "v": 84,
+        "r": "Rare",
+        "d": "May 02 2026"
+      },
+      {
         "n": "rms_racing",
         "i": "Pickle",
         "v": 82,
@@ -10441,6 +10464,13 @@
         "n": "juicedracing",
         "i": "Kansas Speedway",
         "v": 87,
+        "r": "Rare",
+        "d": "May 02 2026"
+      },
+      {
+        "n": "brokenanklesracing",
+        "i": "Austin Hill",
+        "v": 84,
         "r": "Rare",
         "d": "May 02 2026"
       },
@@ -21746,6 +21776,15 @@
       "w": 84.31
     },
     {
+      "n": "Austin Hill",
+      "custom": true,
+      "r": "Rare",
+      "c": 3,
+      "h": "brokenanklesracing",
+      "v": 84,
+      "w": 84.01
+    },
+    {
       "n": "Ian Anderson",
       "custom": true,
       "r": "Rare",
@@ -21924,15 +21963,6 @@
       "h": "realiist1",
       "v": 68,
       "w": 68.15
-    },
-    {
-      "n": "Austin Hill",
-      "custom": true,
-      "r": "Rare",
-      "c": 2,
-      "h": "brookswhynot",
-      "v": 68,
-      "w": 67.98
     },
     {
       "n": "Triggerfish",
@@ -26509,9 +26539,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Wins at Daytona, ghosts the rest of the schedule",
-      "c": 2,
-      "rec": "67.98 lb",
-      "v": 68
+      "c": 3,
+      "rec": "84.01 lb",
+      "v": 84
     },
     {
       "n": "Natalie Decker",
@@ -26587,6 +26617,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "brokenanklesracing",
+      "i": "Austin Hill",
+      "w": 84.01,
+      "v": 84,
+      "r": "Rare",
+      "d": "May 02 2026"
+    },
     {
       "u": "itzdubsta",
       "i": "Emperor Angelfish",
@@ -27177,14 +27215,6 @@
       "w": 14.45,
       "v": 24,
       "r": "Common",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Annoying iRacer kid",
-      "w": 1.12,
-      "v": 11,
-      "r": "Junk",
       "d": "May 01 2026"
     }
   ]
