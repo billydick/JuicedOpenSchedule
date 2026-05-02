@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T01:32:33.830771+00:00",
-    "total_catches": 22219,
+    "generated_at": "2026-05-02T01:34:39.183458+00:00",
+    "total_catches": 22220,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22219 catches"
+      "sub": "Since launch - 22220 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1202,6 +1202,14 @@
         "l": "Apr 26 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 2158,
+        "c": 31,
+        "casts": 31,
+        "l": "May 02 2026"
+      },
+      {
         "u": "curs1ve",
         "n": "curs1ve",
         "g": 2116,
@@ -1224,14 +1232,6 @@
         "c": 30,
         "casts": 30,
         "l": "Jan 11 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 2061,
-        "c": 30,
-        "casts": 30,
-        "l": "May 01 2026"
       },
       {
         "u": "garchr",
@@ -6292,6 +6292,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 97,
+        "c": 1,
+        "casts": 1,
+        "l": "May 02 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 82,
@@ -6360,10 +6368,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1251,
-        "c": 9,
-        "casts": 9,
-        "l": "May 01 2026"
+        "g": 1348,
+        "c": 10,
+        "casts": 10,
+        "l": "May 02 2026"
       },
       {
         "u": "larcen22",
@@ -6598,6 +6606,14 @@
         "c": 2,
         "casts": 2,
         "l": "May 01 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 97,
+        "c": 1,
+        "casts": 1,
+        "l": "May 02 2026"
       },
       {
         "u": "rms_racing",
@@ -10018,6 +10034,13 @@
         "d": "May 01 2026"
       },
       {
+        "n": "v1per_simr4cin6",
+        "i": "Orange Discus",
+        "v": 97,
+        "r": "Epic",
+        "d": "May 02 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Kansas Speedway",
         "v": 87,
@@ -10286,6 +10309,13 @@
         "v": 99,
         "r": "Rare",
         "d": "May 01 2026"
+      },
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Orange Discus",
+        "v": 97,
+        "r": "Epic",
+        "d": "May 02 2026"
       },
       {
         "n": "juicedracing",
@@ -20974,7 +21004,7 @@
       "n": "Orange Discus",
       "custom": false,
       "r": "Epic",
-      "c": 35,
+      "c": 36,
       "h": "pvtcrackpot",
       "v": 124,
       "w": 0.34
@@ -24294,7 +24324,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 35,
+      "c": 36,
       "rec": "0.34 lb",
       "v": 124
     },
@@ -26434,6 +26464,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Orange Discus",
+      "w": 0.27,
+      "v": 97,
+      "r": "Epic",
+      "d": "May 02 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Black Redeye",
       "w": 39.31,
@@ -27023,14 +27061,6 @@
       "w": 0.48,
       "v": 5,
       "r": "Junk",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "maden3w",
-      "i": "NEW Visual Flag System Full Package",
-      "w": 1.04,
-      "v": 78,
-      "r": "Rare",
       "d": "May 01 2026"
     }
   ]
