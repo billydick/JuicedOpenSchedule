@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-02T01:41:32Z",
+  "generated_at": "2026-05-02T01:43:02Z",
   "meta": {
-    "total_hands": 107,
+    "total_hands": 108,
     "total_players": 16,
     "biggest_bet": {
       "user": "brookswhynot",
@@ -42,6 +42,13 @@
         "ach": 2
       },
       {
+        "u": "flippy00",
+        "chips": 107380,
+        "net": -18810,
+        "hands": 2,
+        "ach": 3
+      },
+      {
         "u": "mrdrwaddles",
         "chips": 106480,
         "net": -5721,
@@ -54,13 +61,6 @@
         "net": 500,
         "hands": 0,
         "ach": 1
-      },
-      {
-        "u": "flippy00",
-        "chips": 103690,
-        "net": -22500,
-        "hands": 1,
-        "ach": 3
       },
       {
         "u": "aquadays",
@@ -163,18 +163,18 @@
         "ach": 0
       },
       {
+        "u": "flippy00",
+        "chips": 107380,
+        "net": -18810,
+        "hands": 2,
+        "ach": 3
+      },
+      {
         "u": "juicedracing",
         "chips": 0,
         "net": -21600,
         "hands": 6,
         "ach": 6
-      },
-      {
-        "u": "flippy00",
-        "chips": 103690,
-        "net": -22500,
-        "hands": 1,
-        "ach": 3
       }
     ]
   },
@@ -2559,6 +2559,35 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777686182.119919,
+      "date": "2026-05-01",
+      "player": "flippy00",
+      "bet": 3690,
+      "balance_before": 103690,
+      "result": "win",
+      "net_delta": 3690,
+      "player_cards": [
+        "6♦",
+        "J♣"
+      ],
+      "player_total": 16,
+      "hit_count": 0,
+      "dealer_cards": [
+        "Q♦",
+        "5♣",
+        "A♠",
+        "6♣"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777686092.8507638,
       "date": "2026-05-01",
       "player": "juicedracing",
@@ -4032,33 +4061,6 @@
         "rags_to_riches_session",
         "table_dominator"
       ]
-    },
-    {
-      "ts": 1777348191.524969,
-      "date": "2026-04-27",
-      "player": "mrdrwaddles",
-      "bet": 20000,
-      "balance_before": 87739,
-      "result": "blackjack",
-      "net_delta": 30000,
-      "player_cards": [
-        "Q♥",
-        "A♠"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "10♣",
-        "9♥"
-      ],
-      "dealer_total": 19,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
