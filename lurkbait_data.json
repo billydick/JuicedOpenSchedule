@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-02T00:08:31.908502+00:00",
-    "total_catches": 22211,
+    "generated_at": "2026-05-02T00:14:41.590647+00:00",
+    "total_catches": 22212,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22211 catches"
+      "sub": "Since launch - 22212 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1722,6 +1722,14 @@
         "l": "Sep 28 2024"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 860,
+        "c": 5,
+        "casts": 5,
+        "l": "May 02 2026"
+      },
+      {
         "u": "agent_gib",
         "n": "agent_gib",
         "g": 858,
@@ -1896,14 +1904,6 @@
         "c": 12,
         "casts": 12,
         "l": "Feb 22 2025"
-      },
-      {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 647,
-        "c": 4,
-        "casts": 4,
-        "l": "May 02 2026"
       },
       {
         "u": "jaysteez_607",
@@ -6230,9 +6230,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 604,
-        "c": 2,
-        "casts": 2,
+        "g": 817,
+        "c": 3,
+        "casts": 3,
         "l": "May 02 2026"
       },
       {
@@ -6366,6 +6366,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 860,
+        "c": 5,
+        "casts": 5,
+        "l": "May 02 2026"
+      },
+      {
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 855,
@@ -6396,14 +6404,6 @@
         "c": 13,
         "casts": 13,
         "l": "May 01 2026"
-      },
-      {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 647,
-        "c": 4,
-        "casts": 4,
-        "l": "May 02 2026"
       },
       {
         "u": "beliron",
@@ -6530,9 +6530,9 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 604,
-        "c": 2,
-        "casts": 2,
+        "g": 817,
+        "c": 3,
+        "casts": 3,
         "l": "May 02 2026"
       },
       {
@@ -13548,7 +13548,7 @@
         }
       },
       "leg_epic_day": {
-        "total": 96,
+        "total": 97,
         "holders": [
           "dan_2012",
           "juicedracing",
@@ -13645,11 +13645,12 @@
           "dogger_101",
           "drewieblaster",
           "ineffabledecibel",
-          "ikatipoi"
+          "ikatipoi",
+          "mrbrowz_fdm"
         ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "Apr 28 2026"
+          "u": "mrbrowz_fdm",
+          "d": "May 02 2026"
         }
       },
       "all5_day": {
@@ -19480,6 +19481,7 @@
         "broke_in": "May 01 2026",
         "catch_of_day": "May 02 2026",
         "custom_catch": "May 01 2026",
+        "leg_epic_day": "May 02 2026",
         "golden_cast": "May 02 2026",
         "legend_hunter": "May 02 2026"
       }
@@ -20411,7 +20413,7 @@
       "n": "Jaime Little",
       "custom": true,
       "r": "Epic",
-      "c": 10,
+      "c": 11,
       "h": "motionless",
       "v": 218,
       "w": 70.72
@@ -23015,8 +23017,8 @@
     },
     {
       "u": "mrbrowz_fdm",
-      "g": 647,
-      "c": 4,
+      "g": 860,
+      "c": 5,
       "best_n": "Martin Truex Jr",
       "best_r": "Legendary",
       "best_v": 557,
@@ -26080,7 +26082,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "NASCAR Pit Reporter and Sportscaster",
-      "c": 10,
+      "c": 11,
       "rec": "70.72 lb",
       "v": 218
     },
@@ -26401,6 +26403,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "mrbrowz_fdm",
+      "i": "Jaime Little",
+      "w": 69.09,
+      "v": 213,
+      "r": "Epic",
+      "d": "May 02 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Keys",
@@ -26991,14 +27001,6 @@
       "w": 4.38,
       "v": 439,
       "r": "Legendary",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Electric Catfish",
-      "w": 18.65,
-      "v": 49,
-      "r": "Uncommon",
       "d": "May 01 2026"
     }
   ]
