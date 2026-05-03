@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T02:49:13.590220+00:00",
-    "total_catches": 22308,
+    "generated_at": "2026-05-03T02:50:18.245450+00:00",
+    "total_catches": 22309,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22308 catches"
+      "sub": "Since launch - 22309 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1714,6 +1714,14 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 898,
+        "c": 7,
+        "casts": 7,
+        "l": "May 03 2026"
+      },
+      {
         "u": "billlangofgpl",
         "n": "billlangofgpl",
         "g": 895,
@@ -1728,14 +1736,6 @@
         "c": 16,
         "casts": 16,
         "l": "Feb 27 2025"
-      },
-      {
-        "u": "mrbrowz_fdm",
-        "n": "mrbrowz_fdm",
-        "g": 886,
-        "c": 6,
-        "casts": 6,
-        "l": "May 02 2026"
       },
       {
         "u": "rmboliveira",
@@ -6254,10 +6254,10 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 843,
-        "c": 4,
-        "casts": 4,
-        "l": "May 02 2026"
+        "g": 855,
+        "c": 5,
+        "casts": 5,
+        "l": "May 03 2026"
       },
       {
         "u": "motionless",
@@ -6520,10 +6520,10 @@
       {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
-        "g": 886,
-        "c": 6,
-        "casts": 6,
-        "l": "May 02 2026"
+        "g": 898,
+        "c": 7,
+        "casts": 7,
+        "l": "May 03 2026"
       },
       {
         "u": "nellafella",
@@ -6765,6 +6765,14 @@
         "g": 42,
         "c": 2,
         "casts": 2,
+        "l": "May 03 2026"
+      },
+      {
+        "u": "mrbrowz_fdm",
+        "n": "mrbrowz_fdm",
+        "g": 12,
+        "c": 1,
+        "casts": 1,
         "l": "May 03 2026"
       }
     ]
@@ -10546,6 +10554,13 @@
         "n": "v1per_simr4cin6",
         "i": "Perch",
         "v": 27,
+        "r": "Common",
+        "d": "May 03 2026"
+      },
+      {
+        "n": "mrbrowz_fdm",
+        "i": "Trout",
+        "v": 12,
         "r": "Common",
         "d": "May 03 2026"
       }
@@ -22782,7 +22797,7 @@
       "n": "Trout",
       "custom": false,
       "r": "Common",
-      "c": 177,
+      "c": 178,
       "h": "flippy00",
       "v": 17,
       "w": 1.13
@@ -23298,8 +23313,8 @@
     },
     {
       "u": "mrbrowz_fdm",
-      "g": 886,
-      "c": 6,
+      "g": 898,
+      "c": 7,
       "best_n": "Martin Truex Jr",
       "best_r": "Legendary",
       "best_v": 557,
@@ -23483,7 +23498,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 177,
+      "c": 178,
       "rec": "1.13 lb",
       "v": 17
     },
@@ -26703,6 +26718,14 @@
   ],
   "recent": [
     {
+      "u": "mrbrowz_fdm",
+      "i": "Trout",
+      "w": 0.82,
+      "v": 12,
+      "r": "Common",
+      "d": "May 03 2026"
+    },
+    {
       "u": "pvtcrock",
       "i": "Castrol SRF Racing Brake Fluid",
       "w": 0.99,
@@ -27292,14 +27315,6 @@
       "w": 51.1,
       "v": 51,
       "r": "Uncommon",
-      "d": "May 02 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Coffee Cup",
-      "w": 0.16,
-      "v": 2,
-      "r": "Junk",
       "d": "May 02 2026"
     }
   ]
