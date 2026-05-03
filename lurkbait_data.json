@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T01:32:31.656426+00:00",
-    "total_catches": 22267,
+    "generated_at": "2026-05-03T01:35:38.000037+00:00",
+    "total_catches": 22269,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22267 catches"
+      "sub": "Since launch - 22269 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1242,20 +1242,20 @@
         "l": "Sep 02 2025"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 2043,
+        "c": 36,
+        "casts": 36,
+        "l": "May 03 2026"
+      },
+      {
         "u": "shanechas",
         "n": "shanechas",
         "g": 2022,
         "c": 34,
         "casts": 34,
         "l": "Jan 25 2025"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 2017,
-        "c": 35,
-        "casts": 35,
-        "l": "May 03 2026"
       },
       {
         "u": "callmedeutsch",
@@ -2682,6 +2682,14 @@
         "l": "Mar 09 2025"
       },
       {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 287,
+        "c": 2,
+        "casts": 2,
+        "l": "May 03 2026"
+      },
+      {
         "u": "fr_e_sh",
         "n": "fr_e_sh",
         "g": 287,
@@ -2904,14 +2912,6 @@
         "c": 4,
         "casts": 4,
         "l": "Nov 13 2024"
-      },
-      {
-        "u": "jukebox373",
-        "n": "jukebox373",
-        "g": 227,
-        "c": 1,
-        "casts": 1,
-        "l": "May 03 2026"
       },
       {
         "u": "neootic",
@@ -6262,9 +6262,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 358,
-        "c": 8,
-        "casts": 8,
+        "g": 384,
+        "c": 9,
+        "casts": 9,
         "l": "May 03 2026"
       },
       {
@@ -6284,19 +6284,19 @@
         "l": "May 03 2026"
       },
       {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 287,
+        "c": 2,
+        "casts": 2,
+        "l": "May 03 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 251,
         "c": 6,
         "casts": 6,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "jukebox373",
-        "n": "jukebox373",
-        "g": 227,
-        "c": 1,
-        "casts": 1,
         "l": "May 03 2026"
       },
       {
@@ -6528,9 +6528,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 612,
-        "c": 14,
-        "casts": 14,
+        "g": 638,
+        "c": 15,
+        "casts": 15,
         "l": "May 03 2026"
       },
       {
@@ -6584,9 +6584,9 @@
       {
         "u": "jukebox373",
         "n": "jukebox373",
-        "g": 227,
-        "c": 1,
-        "casts": 1,
+        "g": 287,
+        "c": 2,
+        "casts": 2,
         "l": "May 03 2026"
       },
       {
@@ -6626,9 +6626,9 @@
       {
         "u": "jukebox373",
         "n": "jukebox373",
-        "g": 227,
-        "c": 1,
-        "casts": 1,
+        "g": 287,
+        "c": 2,
+        "casts": 2,
         "l": "May 03 2026"
       },
       {
@@ -6648,6 +6648,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 67,
+        "c": 3,
+        "casts": 3,
+        "l": "May 03 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 49,
@@ -6659,14 +6667,6 @@
         "u": "nellafella",
         "n": "nellafella",
         "g": 44,
-        "c": 2,
-        "casts": 2,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 41,
         "c": 2,
         "casts": 2,
         "l": "May 03 2026"
@@ -10388,9 +10388,9 @@
       },
       {
         "n": "realiist1",
-        "i": "Austin Dillon",
-        "v": 24,
-        "r": "Common",
+        "i": "Starfish",
+        "v": 26,
+        "r": "Uncommon",
         "d": "May 03 2026"
       },
       {
@@ -21761,7 +21761,7 @@
       "n": "Atlanta Motor Speedway",
       "custom": true,
       "r": "Rare",
-      "c": 48,
+      "c": 49,
       "h": "pvtcrackpot",
       "v": 84,
       "w": 1.12
@@ -22337,7 +22337,7 @@
       "n": "Starfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 68,
+      "c": 69,
       "h": "azsuperbeast",
       "v": 34,
       "w": 0.11
@@ -23177,8 +23177,8 @@
     },
     {
       "u": "jukebox373",
-      "g": 227,
-      "c": 1,
+      "g": 287,
+      "c": 2,
       "best_n": "Micro Sprint Chassis",
       "best_r": "Epic",
       "best_v": 227,
@@ -23254,7 +23254,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 68,
+      "c": 69,
       "rec": "0.11 lb",
       "v": 34
     },
@@ -25477,7 +25477,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "11th place, almost a top 10, keep grindin.",
-      "c": 48,
+      "c": 49,
       "rec": "1.12 lb",
       "v": 84
     },
@@ -26564,6 +26564,22 @@
   ],
   "recent": [
     {
+      "u": "jukebox373",
+      "i": "Atlanta Motor Speedway",
+      "w": 0.8,
+      "v": 60,
+      "r": "Rare",
+      "d": "May 03 2026"
+    },
+    {
+      "u": "realiist1",
+      "i": "Starfish",
+      "w": 0.09,
+      "v": 26,
+      "r": "Uncommon",
+      "d": "May 03 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Leatherback Turtle",
       "w": 367.68,
@@ -27144,22 +27160,6 @@
       "i": "Ricky Stenhouse Jr",
       "w": 8.75,
       "v": 131,
-      "r": "Rare",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "D License",
-      "w": 1.0,
-      "v": 50,
-      "r": "Uncommon",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Arapaima",
-      "w": 90.42,
-      "v": 90,
       "r": "Rare",
       "d": "May 01 2026"
     }
