@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T04:38:31.134732+00:00",
-    "total_catches": 22334,
+    "generated_at": "2026-05-03T04:41:36.345307+00:00",
+    "total_catches": 22335,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22334 catches"
+      "sub": "Since launch - 22335 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1042,20 +1042,20 @@
         "l": "May 01 2026"
       },
       {
+        "u": "kgabbs",
+        "n": "kgabbs",
+        "g": 2832,
+        "c": 51,
+        "casts": 51,
+        "l": "May 03 2026"
+      },
+      {
         "u": "kanetcrawford",
         "n": "kanetcrawford",
         "g": 2775,
         "c": 36,
         "casts": 36,
         "l": "Dec 12 2024"
-      },
-      {
-        "u": "kgabbs",
-        "n": "kgabbs",
-        "g": 2767,
-        "c": 50,
-        "casts": 50,
-        "l": "Jan 04 2026"
       },
       {
         "u": "k3nwoodszn",
@@ -6428,12 +6428,12 @@
         "l": "May 02 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 41,
+        "u": "kgabbs",
+        "n": "kgabbs",
+        "g": 65,
         "c": 1,
         "casts": 1,
-        "l": "May 01 2026"
+        "l": "May 03 2026"
       }
     ],
     "weekly": [
@@ -6747,6 +6747,14 @@
         "u": "evangel0203",
         "n": "evangel0203",
         "g": 66,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
+        "u": "kgabbs",
+        "n": "kgabbs",
+        "g": 65,
         "c": 1,
         "casts": 1,
         "l": "May 03 2026"
@@ -10276,11 +10284,11 @@
         "d": "May 03 2026"
       },
       {
-        "n": "beliron",
-        "i": "BJ McLeod",
-        "v": 41,
-        "r": "Uncommon",
-        "d": "May 01 2026"
+        "n": "kgabbs",
+        "i": "Cole Custer",
+        "v": 65,
+        "r": "Rare",
+        "d": "May 03 2026"
       }
     ],
     "weekly": [
@@ -10556,6 +10564,13 @@
         "n": "evangel0203",
         "i": "FUEL CELL TOP",
         "v": 66,
+        "r": "Rare",
+        "d": "May 03 2026"
+      },
+      {
+        "n": "kgabbs",
+        "i": "Cole Custer",
+        "v": 65,
         "r": "Rare",
         "d": "May 03 2026"
       },
@@ -21596,7 +21611,7 @@
       "n": "Cole Custer",
       "custom": true,
       "r": "Rare",
-      "c": 5,
+      "c": 6,
       "h": "mrdrwaddles",
       "v": 111,
       "w": 111.41
@@ -26500,7 +26515,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Sent back to Xfinity and turned into a boss fight",
-      "c": 5,
+      "c": 6,
       "rec": "111.41 lb",
       "v": 111
     },
@@ -26749,6 +26764,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "kgabbs",
+      "i": "Cole Custer",
+      "w": 43.2,
+      "v": 65,
+      "r": "Rare",
+      "d": "May 03 2026"
+    },
     {
       "u": "thesaucypanda2",
       "i": "Black Flag",
@@ -27339,14 +27362,6 @@
       "w": 1.0,
       "v": 5,
       "r": "Junk",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "smallsanders",
-      "i": "Used 2022 Alex Bowman Ally Hood",
-      "w": 8.12,
-      "v": 122,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
