@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T01:24:10.679532+00:00",
-    "total_catches": 22263,
+    "generated_at": "2026-05-03T01:25:14.886920+00:00",
+    "total_catches": 22264,
     "unique_catches": 373,
-    "total_players": 742,
+    "total_players": 743,
     "dex_total": 375,
     "caught_total": 373,
     "dex_completion": 99.47,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22263 catches"
+      "sub": "Since launch - 22264 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -2904,6 +2904,14 @@
         "c": 4,
         "casts": 4,
         "l": "Nov 13 2024"
+      },
+      {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 227,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
       },
       {
         "u": "neootic",
@@ -6276,6 +6284,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 227,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
         "u": "flippy00",
         "n": "flippy00",
         "g": 223,
@@ -6558,6 +6574,14 @@
         "l": "May 01 2026"
       },
       {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 227,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 225,
@@ -6588,17 +6612,17 @@
         "c": 4,
         "casts": 4,
         "l": "May 03 2026"
-      },
-      {
-        "u": "smallsanders",
-        "n": "smallsanders",
-        "g": 122,
-        "c": 1,
-        "casts": 1,
-        "l": "May 03 2026"
       }
     ],
     "daily": [
+      {
+        "u": "jukebox373",
+        "n": "jukebox373",
+        "g": 227,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
@@ -9987,6 +10011,13 @@
         "d": "May 02 2026"
       },
       {
+        "n": "jukebox373",
+        "i": "Micro Sprint Chassis",
+        "v": 227,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Texas Motor Speedway",
         "v": 224,
@@ -10178,6 +10209,13 @@
         "d": "Apr 30 2026"
       },
       {
+        "n": "jukebox373",
+        "i": "Micro Sprint Chassis",
+        "v": 227,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
+      {
         "n": "mrdrwaddles",
         "i": "Matt Kenseth",
         "v": 216,
@@ -10295,16 +10333,16 @@
         "v": 111,
         "r": "Epic",
         "d": "May 01 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Pocono",
-        "v": 104,
-        "r": "Rare",
-        "d": "May 02 2026"
       }
     ],
     "daily": [
+      {
+        "n": "jukebox373",
+        "i": "Micro Sprint Chassis",
+        "v": 227,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
       {
         "n": "ironlegacy_",
         "i": "Craftsman Tundra",
@@ -10366,7 +10404,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 742,
+        "total": 743,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11109,10 +11147,11 @@
           "sille_94",
           "jaapoo",
           "mrbrowz_fdm",
-          "smallsanders"
+          "smallsanders",
+          "jukebox373"
         ],
         "latest": {
-          "u": "smallsanders",
+          "u": "jukebox373",
           "d": "May 03 2026"
         }
       },
@@ -11212,7 +11251,7 @@
         }
       },
       "catch_of_day": {
-        "total": 124,
+        "total": 125,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11337,15 +11376,16 @@
           "ineffabledecibel",
           "ikatipoi",
           "v1per_simr4cin6",
-          "mrbrowz_fdm"
+          "mrbrowz_fdm",
+          "jukebox373"
         ],
         "latest": {
-          "u": "mrbrowz_fdm",
-          "d": "May 02 2026"
+          "u": "jukebox373",
+          "d": "May 03 2026"
         }
       },
       "win_day": {
-        "total": 89,
+        "total": 90,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11435,11 +11475,12 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "jukebox373"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 15 2026"
+          "u": "jukebox373",
+          "d": "May 03 2026"
         }
       },
       "double_down": {
@@ -11607,7 +11648,7 @@
         }
       },
       "custom_catch": {
-        "total": 617,
+        "total": 618,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12225,10 +12266,11 @@
           "evangel0203",
           "mrbrowz_fdm",
           "matt_zilla",
-          "smallsanders"
+          "smallsanders",
+          "jukebox373"
         ],
         "latest": {
-          "u": "smallsanders",
+          "u": "jukebox373",
           "d": "May 03 2026"
         }
       },
@@ -19565,6 +19607,12 @@
       "smallsanders": {
         "broke_in": "May 03 2026",
         "custom_catch": "May 03 2026"
+      },
+      "jukebox373": {
+        "broke_in": "May 03 2026",
+        "win_day": "May 03 2026",
+        "catch_of_day": "May 03 2026",
+        "custom_catch": "May 03 2026"
       }
     },
     "recent_unlocks": [
@@ -20035,7 +20083,7 @@
       "n": "Micro Sprint Chassis",
       "custom": true,
       "r": "Legendary",
-      "c": 24,
+      "c": 25,
       "h": "rob_pickle12",
       "v": 248,
       "w": 56.29
@@ -23113,6 +23161,15 @@
       "best_r": "Rare",
       "best_v": 122,
       "d": "May 03 2026"
+    },
+    {
+      "u": "jukebox373",
+      "g": 227,
+      "c": 1,
+      "best_n": "Micro Sprint Chassis",
+      "best_r": "Epic",
+      "best_v": 227,
+      "d": "May 03 2026"
     }
   ],
   "dex": [
@@ -25191,7 +25248,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Start your own race car build!",
-      "c": 24,
+      "c": 25,
       "rec": "56.29 lb",
       "v": 248
     },
@@ -26494,6 +26551,14 @@
   ],
   "recent": [
     {
+      "u": "jukebox373",
+      "i": "Micro Sprint Chassis",
+      "w": 51.69,
+      "v": 227,
+      "r": "Epic",
+      "d": "May 03 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Black Redeye",
       "w": 40.43,
@@ -27083,14 +27148,6 @@
       "w": 2.11,
       "v": 37,
       "r": "Uncommon",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "87 Le Sabre",
-      "w": 101.9,
-      "v": 153,
-      "r": "Rare",
       "d": "May 01 2026"
     }
   ]
