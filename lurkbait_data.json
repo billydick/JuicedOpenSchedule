@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T02:30:39.062351+00:00",
-    "total_catches": 22299,
+    "generated_at": "2026-05-03T02:31:42.071268+00:00",
+    "total_catches": 22300,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22299 catches"
+      "sub": "Since launch - 22300 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1690,6 +1690,14 @@
         "l": "Feb 18 2025"
       },
       {
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 933,
+        "c": 13,
+        "casts": 13,
+        "l": "May 03 2026"
+      },
+      {
         "u": "laeaglescout",
         "n": "laeaglescout",
         "g": 930,
@@ -1752,14 +1760,6 @@
         "c": 8,
         "casts": 8,
         "l": "May 31 2025"
-      },
-      {
-        "u": "x_killswitch22_x",
-        "n": "x_killswitch22_x",
-        "g": 850,
-        "c": 12,
-        "casts": 12,
-        "l": "May 03 2026"
       },
       {
         "u": "sparkymotors",
@@ -6300,6 +6300,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 384,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 365,
@@ -6313,14 +6321,6 @@
         "g": 303,
         "c": 5,
         "casts": 5,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "x_killswitch22_x",
-        "n": "x_killswitch22_x",
-        "g": 301,
-        "c": 3,
-        "casts": 3,
         "l": "May 03 2026"
       },
       {
@@ -6606,20 +6606,20 @@
         "l": "May 03 2026"
       },
       {
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 384,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "flippy00",
         "n": "flippy00",
         "g": 324,
         "c": 6,
         "casts": 6,
         "l": "May 02 2026"
-      },
-      {
-        "u": "x_killswitch22_x",
-        "n": "x_killswitch22_x",
-        "g": 301,
-        "c": 3,
-        "casts": 3,
-        "l": "May 03 2026"
       },
       {
         "u": "maden3w",
@@ -6688,19 +6688,19 @@
         "l": "May 03 2026"
       },
       {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 199,
+        "u": "x_killswitch22_x",
+        "n": "x_killswitch22_x",
+        "g": 279,
         "c": 2,
         "casts": 2,
         "l": "May 03 2026"
       },
       {
-        "u": "x_killswitch22_x",
-        "n": "x_killswitch22_x",
-        "g": 196,
-        "c": 1,
-        "casts": 1,
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 199,
+        "c": 2,
+        "casts": 2,
         "l": "May 03 2026"
       },
       {
@@ -13283,7 +13283,7 @@
         }
       },
       "custom_club": {
-        "total": 167,
+        "total": 168,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13451,10 +13451,11 @@
           "ikatipoi",
           "codycoyoteracing",
           "nellafella",
-          "sparkymotors"
+          "sparkymotors",
+          "x_killswitch22_x"
         ],
         "latest": {
-          "u": "sparkymotors",
+          "u": "x_killswitch22_x",
           "d": "May 03 2026"
         }
       },
@@ -18172,7 +18173,8 @@
       "x_killswitch22_x": {
         "broke_in": "Feb 02 2025",
         "custom_catch": "Feb 02 2025",
-        "walk_in": "May 02 2026"
+        "walk_in": "May 02 2026",
+        "custom_club": "May 03 2026"
       },
       "laleb467": {
         "broke_in": "Feb 02 2025",
@@ -21511,7 +21513,7 @@
       "n": "VNM handbrake V1",
       "custom": true,
       "r": "Rare",
-      "c": 41,
+      "c": 42,
       "h": "flippy00",
       "v": 112,
       "w": 3.37
@@ -25362,7 +25364,7 @@
       "r": "Rare",
       "custom": true,
       "desc": " TrakRacer designed for rally and drifting simulator drivers. Designed to look and feel like the real thing,",
-      "c": 41,
+      "c": 42,
       "rec": "3.37 lb",
       "v": 112
     },
@@ -26701,6 +26703,14 @@
   ],
   "recent": [
     {
+      "u": "x_killswitch22_x",
+      "i": "VNM handbrake V1",
+      "w": 2.5,
+      "v": 83,
+      "r": "Rare",
+      "d": "May 03 2026"
+    },
+    {
       "u": "smallsanders",
       "i": "MPI Rim",
       "w": 1.78,
@@ -27290,14 +27300,6 @@
       "w": 1.0,
       "v": 1,
       "r": "Junk",
-      "d": "May 02 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Bubbly",
-      "w": 0.98,
-      "v": 20,
-      "r": "Common",
       "d": "May 02 2026"
     }
   ]
