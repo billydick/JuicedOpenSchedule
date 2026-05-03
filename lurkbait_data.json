@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T00:13:24.006479+00:00",
-    "total_catches": 22248,
+    "generated_at": "2026-05-03T00:23:37.590365+00:00",
+    "total_catches": 22249,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22248 catches"
+      "sub": "Since launch - 22249 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 34470,
-        "c": 531,
-        "casts": 531,
-        "l": "May 02 2026"
+        "g": 34476,
+        "c": 532,
+        "casts": 532,
+        "l": "May 03 2026"
       },
       {
         "u": "karnalsanders",
@@ -6262,10 +6262,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 245,
-        "c": 5,
-        "casts": 5,
-        "l": "May 02 2026"
+        "g": 251,
+        "c": 6,
+        "casts": 6,
+        "l": "May 03 2026"
       },
       {
         "u": "flippy00",
@@ -6448,10 +6448,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 750,
-        "c": 15,
-        "casts": 15,
-        "l": "May 02 2026"
+        "g": 756,
+        "c": 16,
+        "casts": 16,
+        "l": "May 03 2026"
       },
       {
         "u": "drewieblaster",
@@ -6574,7 +6574,16 @@
         "l": "Apr 30 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 6,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10201,7 +10210,15 @@
         "d": "May 01 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Kaz Grala",
+        "v": 6,
+        "r": "Junk",
+        "d": "May 03 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22531,7 +22548,7 @@
       "n": "Kaz Grala",
       "custom": true,
       "r": "Common",
-      "c": 161,
+      "c": 162,
       "h": "fjvgaming",
       "v": 6,
       "w": 11.3
@@ -24312,7 +24329,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Random pop-in driver you forgot existed",
-      "c": 161,
+      "c": 162,
       "rec": "11.30 lb",
       "v": 6
     },
@@ -26317,6 +26334,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Kaz Grala",
+      "w": 11.15,
+      "v": 6,
+      "r": "Junk",
+      "d": "May 03 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Sim Racing Gloves",
       "w": 1.03,
@@ -26905,14 +26930,6 @@
       "i": "Talladega",
       "w": 239.66,
       "v": 218,
-      "r": "Epic",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "iRacer - Kirk Martin",
-      "w": 118.31,
-      "v": 197,
       "r": "Epic",
       "d": "May 01 2026"
     }
