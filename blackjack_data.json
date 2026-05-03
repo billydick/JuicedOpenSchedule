@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-05-03T01:55:12Z",
+  "generated_at": "2026-05-03T01:56:38Z",
   "meta": {
-    "total_hands": 109,
-    "total_players": 16,
+    "total_hands": 110,
+    "total_players": 17,
     "biggest_bet": {
-      "user": "brookswhynot",
-      "amount": 99251
+      "user": "corndawg3",
+      "amount": 196990
     },
     "biggest_win": {
       "user": "brookswhynot",
@@ -140,6 +140,13 @@
         "ach": 0
       },
       {
+        "u": "corndawg3",
+        "chips": 50,
+        "net": -196990,
+        "hands": 1,
+        "ach": 6
+      },
+      {
         "u": "brookswhynot",
         "chips": 50,
         "net": -56025,
@@ -154,30 +161,37 @@
         "net": -14950,
         "hands": 1,
         "ach": 0
+      },
+      {
+        "u": "corndawg3",
+        "chips": 50,
+        "net": -196990,
+        "hands": 1,
+        "ach": 6
       }
     ]
   },
   "daily_highlights": {
     "biggest_loss": {
-      "u": "brookswhynot",
+      "u": "corndawg3",
       "cards": [
         "Q♣",
-        "3♦"
+        "10♠"
       ],
-      "total": 13,
-      "bet": 14950,
-      "net": -14950,
+      "total": 20,
+      "bet": 196990,
+      "net": -196990,
       "result": "lose"
     },
     "biggest_bet": {
-      "u": "brookswhynot",
+      "u": "corndawg3",
       "cards": [
         "Q♣",
-        "3♦"
+        "10♠"
       ],
-      "total": 13,
-      "bet": 14950,
-      "net": -14950,
+      "total": 20,
+      "bet": 196990,
+      "net": -196990,
       "result": "lose"
     },
     "most_hands": {
@@ -1084,19 +1098,23 @@
         }
       },
       "high_roller_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "corndawg3"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-04-30"
+          "u": "corndawg3",
+          "d": "2026-05-02"
         }
       },
       "high_roller_100k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "corndawg3"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "corndawg3",
+          "d": "2026-05-02"
         }
       },
       "high_roller_250k": {
@@ -1164,11 +1182,13 @@
         }
       },
       "escalator": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "corndawg3"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-04-30"
+          "u": "corndawg3",
+          "d": "2026-05-02"
         }
       },
       "chip_tipper": {
@@ -1180,13 +1200,14 @@
         }
       },
       "bank_builder_100k": {
-        "total": 5,
+        "total": 6,
         "holders": [
           "aquadays",
           "mrdrwaddles",
           "motionless",
           "ikatipoi",
-          "flippy00"
+          "flippy00",
+          "corndawg3"
         ],
         "latest": {
           "u": "—",
@@ -1236,11 +1257,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "corndawg3"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-05-01"
+          "u": "corndawg3",
+          "d": "2026-05-02"
         }
       },
       "riches_to_rags_session": {
@@ -1260,11 +1283,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "corndawg3"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-04-30"
+          "u": "corndawg3",
+          "d": "2026-05-02"
         }
       },
       "big_swing_session_200k": {
@@ -1748,9 +1773,42 @@
       },
       "flippy00": {
         "bank_builder_100k": "earned"
+      },
+      "corndawg3": {
+        "bank_builder_100k": "earned",
+        "high_roller_50k": "2026-05-02",
+        "high_roller_100k": "2026-05-02",
+        "rags_to_riches_session": "2026-05-02",
+        "big_swing_session_50k": "2026-05-02",
+        "escalator": "2026-05-02"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "corndawg3",
+        "d": "2026-05-02"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "corndawg3",
+        "d": "2026-05-02"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "corndawg3",
+        "d": "2026-05-02"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "corndawg3",
+        "d": "2026-05-02"
+      },
+      {
+        "id": "escalator",
+        "u": "corndawg3",
+        "d": "2026-05-02"
+      },
       {
         "id": "poker_pair_any",
         "u": "flippy00",
@@ -1823,31 +1881,6 @@
       },
       {
         "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "larcen22",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "larcen22",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "larcen22",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "escalator",
-        "u": "larcen22",
-        "d": "2026-04-30"
-      },
-      {
-        "id": "hot_streak_5",
         "u": "juicedracing",
         "d": "2026-04-30"
       }
@@ -2570,6 +2603,40 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777773398.4653313,
+      "date": "2026-05-02",
+      "player": "corndawg3",
+      "bet": 196990,
+      "balance_before": 196990,
+      "result": "lose",
+      "net_delta": -196990,
+      "player_cards": [
+        "Q♣",
+        "10♠"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "7♣",
+        "8♠",
+        "6♠"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "rags_to_riches_session",
+        "big_swing_session_50k",
+        "escalator"
+      ]
+    },
     {
       "ts": 1777773312.2817268,
       "date": "2026-05-02",
@@ -4033,40 +4100,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777349330.185215,
-      "date": "2026-04-27",
-      "player": "mrdrwaddles",
-      "bet": 4002,
-      "balance_before": 117739,
-      "result": "bust",
-      "net_delta": -3602,
-      "player_cards": [
-        "2♥",
-        "K♦",
-        "K♠"
-      ],
-      "player_total": 22,
-      "hit_count": 1,
-      "dealer_cards": [
-        "A♥",
-        "3♠",
-        "J♣",
-        "9♦"
-      ],
-      "dealer_total": 23,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 400,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any",
-        "poker_salvation",
-        "big_swing_session_50k"
-      ]
     }
   ]
 }
