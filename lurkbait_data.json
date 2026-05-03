@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T02:40:57.452791+00:00",
-    "total_catches": 22305,
+    "generated_at": "2026-05-03T02:42:01.867368+00:00",
+    "total_catches": 22306,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22305 catches"
+      "sub": "Since launch - 22306 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -2562,6 +2562,14 @@
         "l": "Mar 09 2025"
       },
       {
+        "u": "smallsanders",
+        "n": "smallsanders",
+        "g": 323,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "chithole",
         "n": "chithole",
         "g": 321,
@@ -2720,14 +2728,6 @@
         "c": 2,
         "casts": 2,
         "l": "Sep 12 2025"
-      },
-      {
-        "u": "smallsanders",
-        "n": "smallsanders",
-        "g": 282,
-        "c": 3,
-        "casts": 3,
-        "l": "May 03 2026"
       },
       {
         "u": "fitztheg9",
@@ -6324,19 +6324,19 @@
         "l": "May 03 2026"
       },
       {
+        "u": "smallsanders",
+        "n": "smallsanders",
+        "g": 323,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 303,
         "c": 5,
         "casts": 5,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "smallsanders",
-        "n": "smallsanders",
-        "g": 282,
-        "c": 3,
-        "casts": 3,
         "l": "May 03 2026"
       },
       {
@@ -6622,20 +6622,20 @@
         "l": "May 02 2026"
       },
       {
+        "u": "smallsanders",
+        "n": "smallsanders",
+        "g": 323,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "maden3w",
         "n": "maden3w",
         "g": 299,
         "c": 5,
         "casts": 5,
         "l": "May 01 2026"
-      },
-      {
-        "u": "smallsanders",
-        "n": "smallsanders",
-        "g": 282,
-        "c": 3,
-        "casts": 3,
-        "l": "May 03 2026"
       }
     ],
     "daily": [
@@ -6672,17 +6672,17 @@
         "l": "May 03 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 296,
-        "c": 3,
-        "casts": 3,
+        "u": "smallsanders",
+        "n": "smallsanders",
+        "g": 323,
+        "c": 4,
+        "casts": 4,
         "l": "May 03 2026"
       },
       {
-        "u": "smallsanders",
-        "n": "smallsanders",
-        "g": 282,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 296,
         "c": 3,
         "casts": 3,
         "l": "May 03 2026"
@@ -21576,7 +21576,7 @@
       "n": "Harrison Burton",
       "custom": true,
       "r": "Rare",
-      "c": 51,
+      "c": 52,
       "h": "ironlegacy_",
       "v": 111,
       "w": 11.14
@@ -23307,8 +23307,8 @@
     },
     {
       "u": "smallsanders",
-      "g": 282,
-      "c": 3,
+      "g": 323,
+      "c": 4,
       "best_n": "Used 2022 Alex Bowman Ally Hood",
       "best_r": "Rare",
       "best_v": 122,
@@ -24590,7 +24590,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "It's Harrison Burton!",
-      "c": 51,
+      "c": 52,
       "rec": "11.14 lb",
       "v": 111
     },
@@ -26703,6 +26703,14 @@
   ],
   "recent": [
     {
+      "u": "smallsanders",
+      "i": "Harrison Burton",
+      "w": 8.17,
+      "v": 41,
+      "r": "Uncommon",
+      "d": "May 03 2026"
+    },
+    {
       "u": "pvtcrock",
       "i": "NASCAR Tickets",
       "w": 1.03,
@@ -27292,14 +27300,6 @@
       "w": 2.26,
       "v": 32,
       "r": "Uncommon",
-      "d": "May 02 2026"
-    },
-    {
-      "u": "evangel0203",
-      "i": "Tire",
-      "w": 24.37,
-      "v": 8,
-      "r": "Junk",
       "d": "May 02 2026"
     }
   ]
