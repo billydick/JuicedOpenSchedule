@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T01:27:20.003554+00:00",
-    "total_catches": 22265,
+    "generated_at": "2026-05-03T01:31:27.785718+00:00",
+    "total_catches": 22266,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22265 catches"
+      "sub": "Since launch - 22266 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -308,9 +308,9 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 60756,
-        "c": 883,
-        "casts": 883,
+        "g": 60911,
+        "c": 884,
+        "casts": 884,
         "l": "May 03 2026"
       },
       {
@@ -6268,6 +6268,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 334,
+        "c": 5,
+        "casts": 5,
+        "l": "May 03 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 303,
@@ -6322,14 +6330,6 @@
         "c": 4,
         "casts": 4,
         "l": "May 02 2026"
-      },
-      {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 179,
-        "c": 4,
-        "casts": 4,
-        "l": "May 03 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6558,6 +6558,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 334,
+        "c": 5,
+        "casts": 5,
+        "l": "May 03 2026"
+      },
+      {
         "u": "flippy00",
         "n": "flippy00",
         "g": 324,
@@ -6598,14 +6606,6 @@
         "l": "May 01 2026"
       },
       {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 179,
-        "c": 4,
-        "casts": 4,
-        "l": "May 03 2026"
-      },
-      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 156,
@@ -6616,19 +6616,19 @@
     ],
     "daily": [
       {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 334,
+        "c": 5,
+        "casts": 5,
+        "l": "May 03 2026"
+      },
+      {
         "u": "jukebox373",
         "n": "jukebox373",
         "g": 227,
         "c": 1,
         "casts": 1,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "ironlegacy_",
-        "n": "ironlegacy_",
-        "g": 179,
-        "c": 4,
-        "casts": 4,
         "l": "May 03 2026"
       },
       {
@@ -11400,7 +11400,7 @@
         }
       },
       "win_day": {
-        "total": 90,
+        "total": 89,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11490,12 +11490,11 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel",
-          "jukebox373"
+          "ineffabledecibel"
         ],
         "latest": {
-          "u": "jukebox373",
-          "d": "May 03 2026"
+          "u": "ineffabledecibel",
+          "d": "Apr 15 2026"
         }
       },
       "double_down": {
@@ -19625,7 +19624,6 @@
       },
       "jukebox373": {
         "broke_in": "May 03 2026",
-        "win_day": "May 03 2026",
         "catch_of_day": "May 03 2026",
         "custom_catch": "May 03 2026"
       }
@@ -20809,7 +20807,7 @@
       "n": "Chris Buescher",
       "custom": true,
       "r": "Epic",
-      "c": 40,
+      "c": 41,
       "h": "ricofyi",
       "v": 169,
       "w": 33.77
@@ -24993,7 +24991,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Punted Shane van Gisbergen to win at Watkins Glen in 2024",
-      "c": 40,
+      "c": 41,
       "rec": "33.77 lb",
       "v": 169
     },
@@ -26566,6 +26564,14 @@
   ],
   "recent": [
     {
+      "u": "ironlegacy_",
+      "i": "Chris Buescher",
+      "w": 30.97,
+      "v": 155,
+      "r": "Rare",
+      "d": "May 03 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Blake Houston",
       "w": 46.35,
@@ -27155,14 +27161,6 @@
       "w": 0.22,
       "v": 99,
       "r": "Rare",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Texas Motor Speedway",
-      "w": 111.94,
-      "v": 224,
-      "r": "Epic",
       "d": "May 01 2026"
     }
   ]
