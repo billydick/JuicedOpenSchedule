@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T00:23:37.590365+00:00",
-    "total_catches": 22249,
+    "generated_at": "2026-05-03T00:36:55.078152+00:00",
+    "total_catches": 22251,
     "unique_catches": 373,
     "total_players": 741,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22249 catches"
+      "sub": "Since launch - 22251 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -308,10 +308,10 @@
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
-        "g": 60577,
-        "c": 879,
-        "casts": 879,
-        "l": "Apr 26 2026"
+        "g": 60578,
+        "c": 880,
+        "casts": 880,
+        "l": "May 03 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -1252,10 +1252,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 1976,
-        "c": 33,
-        "casts": 33,
-        "l": "May 02 2026"
+        "g": 2000,
+        "c": 34,
+        "casts": 34,
+        "l": "May 03 2026"
       },
       {
         "u": "callmedeutsch",
@@ -6246,10 +6246,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 317,
-        "c": 6,
-        "casts": 6,
-        "l": "May 02 2026"
+        "g": 341,
+        "c": 7,
+        "casts": 7,
+        "l": "May 03 2026"
       },
       {
         "u": "nellafella",
@@ -6370,6 +6370,14 @@
         "c": 2,
         "casts": 2,
         "l": "May 02 2026"
+      },
+      {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
       }
     ],
     "weekly": [
@@ -6488,10 +6496,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 571,
-        "c": 12,
-        "casts": 12,
-        "l": "May 02 2026"
+        "g": 595,
+        "c": 13,
+        "casts": 13,
+        "l": "May 03 2026"
       },
       {
         "u": "rms_racing",
@@ -6576,9 +6584,25 @@
     ],
     "daily": [
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 24,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 6,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
+        "u": "ironlegacy_",
+        "n": "ironlegacy_",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "May 03 2026"
@@ -10031,6 +10055,13 @@
         "v": 34,
         "r": "Uncommon",
         "d": "May 02 2026"
+      },
+      {
+        "n": "ironlegacy_",
+        "i": "Richmond Raceway",
+        "v": 1,
+        "r": "Junk",
+        "d": "May 03 2026"
       }
     ],
     "weekly": [
@@ -10212,9 +10243,23 @@
     ],
     "daily": [
       {
+        "n": "realiist1",
+        "i": "Austin Dillon",
+        "v": 24,
+        "r": "Common",
+        "d": "May 03 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Kaz Grala",
         "v": 6,
+        "r": "Junk",
+        "d": "May 03 2026"
+      },
+      {
+        "n": "ironlegacy_",
+        "i": "Richmond Raceway",
+        "v": 1,
         "r": "Junk",
         "d": "May 03 2026"
       }
@@ -11068,7 +11113,7 @@
         }
       },
       "catch_of_day": {
-        "total": 124,
+        "total": 125,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11193,15 +11238,16 @@
           "ineffabledecibel",
           "ikatipoi",
           "v1per_simr4cin6",
-          "mrbrowz_fdm"
+          "mrbrowz_fdm",
+          "realiist1"
         ],
         "latest": {
-          "u": "mrbrowz_fdm",
-          "d": "May 02 2026"
+          "u": "realiist1",
+          "d": "May 03 2026"
         }
       },
       "win_day": {
-        "total": 89,
+        "total": 90,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11291,11 +11337,12 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "realiist1"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 15 2026"
+          "u": "realiist1",
+          "d": "May 03 2026"
         }
       },
       "double_down": {
@@ -19226,6 +19273,8 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
+        "win_day": "May 03 2026",
+        "catch_of_day": "May 03 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
         "custom_club": "Apr 25 2026"
@@ -22278,7 +22327,7 @@
       "n": "Austin Dillon",
       "custom": true,
       "r": "Common",
-      "c": 119,
+      "c": 120,
       "h": "motionless",
       "v": 28,
       "w": 16.86
@@ -22566,7 +22615,7 @@
       "n": "Richmond Raceway",
       "custom": true,
       "r": "Common",
-      "c": 135,
+      "c": 136,
       "h": "benwysard",
       "v": 1,
       "w": 225.18
@@ -24392,7 +24441,7 @@
       "r": "Common",
       "custom": true,
       "desc": "I spin people to win, so what?",
-      "c": 119,
+      "c": 120,
       "rec": "16.86 lb",
       "v": 28
     },
@@ -25121,7 +25170,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "You wreck at Richmond, better luck next time!",
-      "c": 135,
+      "c": 136,
       "rec": "225.18 lb",
       "v": 1
     },
@@ -26334,6 +26383,22 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Austin Dillon",
+      "w": 14.42,
+      "v": 24,
+      "r": "Common",
+      "d": "May 03 2026"
+    },
+    {
+      "u": "ironlegacy_",
+      "i": "Richmond Raceway",
+      "w": 170.49,
+      "v": 1,
+      "r": "Junk",
+      "d": "May 03 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Kaz Grala",
       "w": 11.15,
@@ -26915,22 +26980,6 @@
       "w": 42.34,
       "v": 41,
       "r": "Uncommon",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Vape",
-      "w": 0.2,
-      "v": 10,
-      "r": "Junk",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Talladega",
-      "w": 239.66,
-      "v": 218,
-      "r": "Epic",
       "d": "May 01 2026"
     }
   ]
