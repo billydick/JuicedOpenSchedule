@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T02:35:48.140802+00:00",
-    "total_catches": 22303,
+    "generated_at": "2026-05-03T02:39:54.368349+00:00",
+    "total_catches": 22304,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22303 catches"
+      "sub": "Since launch - 22304 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -932,9 +932,9 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 3399,
-        "c": 46,
-        "casts": 46,
+        "g": 3442,
+        "c": 47,
+        "casts": 47,
         "l": "May 03 2026"
       },
       {
@@ -6420,20 +6420,20 @@
         "l": "May 02 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 44,
+        "c": 2,
+        "casts": 2,
+        "l": "May 03 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 41,
         "c": 1,
         "casts": 1,
         "l": "May 01 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "May 03 2026"
       }
     ],
     "weekly": [
@@ -6744,6 +6744,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 44,
+        "c": 2,
+        "casts": 2,
+        "l": "May 03 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 44,
@@ -6757,14 +6765,6 @@
         "g": 42,
         "c": 2,
         "casts": 2,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
         "l": "May 03 2026"
       }
     ]
@@ -10245,18 +10245,18 @@
         "d": "May 02 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "MWR BATTERY CONNECTOR WIRING",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "May 03 2026"
+      },
+      {
         "n": "beliron",
         "i": "BJ McLeod",
         "v": 41,
         "r": "Uncommon",
         "d": "May 01 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Joey Hand",
-        "v": 1,
-        "r": "Junk",
-        "d": "May 03 2026"
       }
     ],
     "weekly": [
@@ -10522,6 +10522,13 @@
         "d": "May 03 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "MWR BATTERY CONNECTOR WIRING",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "May 03 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Golden Redeye Rudd",
         "v": 40,
@@ -10540,13 +10547,6 @@
         "i": "Perch",
         "v": 27,
         "r": "Common",
-        "d": "May 03 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Joey Hand",
-        "v": 1,
-        "r": "Junk",
         "d": "May 03 2026"
       }
     ]
@@ -22296,7 +22296,7 @@
       "n": "MWR BATTERY CONNECTOR WIRING",
       "custom": true,
       "r": "Uncommon",
-      "c": 84,
+      "c": 85,
       "h": "goetzlife",
       "v": 56,
       "w": 1.12
@@ -25085,7 +25085,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "",
-      "c": 84,
+      "c": 85,
       "rec": "1.12 lb",
       "v": 56
     },
@@ -26703,6 +26703,14 @@
   ],
   "recent": [
     {
+      "u": "thesaucypanda2",
+      "i": "MWR BATTERY CONNECTOR WIRING",
+      "w": 0.86,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "May 03 2026"
+    },
+    {
       "u": "realiist1",
       "i": "MWR BATTERY CONNECTOR WIRING",
       "w": 0.89,
@@ -27292,14 +27300,6 @@
       "w": 1.01,
       "v": 10,
       "r": "Junk",
-      "d": "May 02 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Pocono",
-      "w": 83.39,
-      "v": 104,
-      "r": "Rare",
       "d": "May 02 2026"
     }
   ]
