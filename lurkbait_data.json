@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T04:50:56.878895+00:00",
-    "total_catches": 22340,
+    "generated_at": "2026-05-03T04:52:00.680250+00:00",
+    "total_catches": 22341,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22340 catches"
+      "sub": "Since launch - 22341 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1042,6 +1042,14 @@
         "l": "Mar 08 2025"
       },
       {
+        "u": "pvtcrock",
+        "n": "pvtcrock",
+        "g": 2875,
+        "c": 53,
+        "casts": 53,
+        "l": "May 03 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 2860,
@@ -1072,14 +1080,6 @@
         "c": 45,
         "casts": 45,
         "l": "Mar 09 2025"
-      },
-      {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 2651,
-        "c": 52,
-        "casts": 52,
-        "l": "May 03 2026"
       },
       {
         "u": "apsychictaco",
@@ -6252,6 +6252,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "pvtcrock",
+        "n": "pvtcrock",
+        "g": 875,
+        "c": 12,
+        "casts": 12,
+        "l": "May 03 2026"
+      },
+      {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
         "g": 855,
@@ -6265,14 +6273,6 @@
         "g": 827,
         "c": 17,
         "casts": 17,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 651,
-        "c": 11,
-        "casts": 11,
         "l": "May 03 2026"
       },
       {
@@ -6480,9 +6480,9 @@
       {
         "u": "pvtcrock",
         "n": "pvtcrock",
-        "g": 1132,
-        "c": 22,
-        "casts": 22,
+        "g": 1356,
+        "c": 23,
+        "casts": 23,
         "l": "May 03 2026"
       },
       {
@@ -6648,6 +6648,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "pvtcrock",
+        "n": "pvtcrock",
+        "g": 676,
+        "c": 10,
+        "casts": 10,
+        "l": "May 03 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 625,
@@ -6669,14 +6677,6 @@
         "g": 457,
         "c": 1,
         "casts": 1,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "pvtcrock",
-        "n": "pvtcrock",
-        "g": 452,
-        "c": 9,
-        "casts": 9,
         "l": "May 03 2026"
       },
       {
@@ -10144,18 +10144,18 @@
         "d": "May 01 2026"
       },
       {
+        "n": "pvtcrock",
+        "i": "iRacer - Jeff Purchatzke",
+        "v": 224,
+        "r": "Rare",
+        "d": "May 03 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "Christopher Bell",
         "v": 219,
         "r": "Epic",
         "d": "May 03 2026"
-      },
-      {
-        "n": "pvtcrock",
-        "i": "iRacer - Kirk Martin",
-        "v": 197,
-        "r": "Epic",
-        "d": "May 01 2026"
       },
       {
         "n": "x_killswitch22_x",
@@ -10356,6 +10356,13 @@
         "d": "May 03 2026"
       },
       {
+        "n": "pvtcrock",
+        "i": "iRacer - Jeff Purchatzke",
+        "v": 224,
+        "r": "Rare",
+        "d": "May 03 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "Christopher Bell",
         "v": 219,
@@ -10389,13 +10396,6 @@
         "v": 200,
         "r": "Epic",
         "d": "Apr 28 2026"
-      },
-      {
-        "n": "pvtcrock",
-        "i": "iRacer - Kirk Martin",
-        "v": 197,
-        "r": "Epic",
-        "d": "May 01 2026"
       },
       {
         "n": "x_killswitch22_x",
@@ -10484,6 +10484,13 @@
         "d": "May 03 2026"
       },
       {
+        "n": "pvtcrock",
+        "i": "iRacer - Jeff Purchatzke",
+        "v": 224,
+        "r": "Rare",
+        "d": "May 03 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "Christopher Bell",
         "v": 219,
@@ -10508,13 +10515,6 @@
         "n": "juicedracing",
         "i": "iRacer - Jeff Purchatzke",
         "v": 184,
-        "r": "Rare",
-        "d": "May 03 2026"
-      },
-      {
-        "n": "pvtcrock",
-        "i": "Nashville Superspeedway",
-        "v": 166,
         "r": "Rare",
         "d": "May 03 2026"
       },
@@ -20519,6 +20519,15 @@
       "w": 224.34
     },
     {
+      "n": "iRacer - Jeff Purchatzke",
+      "custom": true,
+      "r": "Epic",
+      "c": 23,
+      "h": "pvtcrock",
+      "v": 224,
+      "w": 135.33
+    },
+    {
       "n": "iRacer - Jesse Winslow",
       "custom": true,
       "r": "Epic",
@@ -20526,15 +20535,6 @@
       "h": "simonmark21",
       "v": 224,
       "w": 134.92
-    },
-    {
-      "n": "iRacer - Jeff Purchatzke",
-      "custom": true,
-      "r": "Epic",
-      "c": 22,
-      "h": "krueger1981",
-      "v": 224,
-      "w": 134.84
     },
     {
       "n": "iRacer - Kirk Martin",
@@ -26380,8 +26380,8 @@
       "r": "Rare",
       "custom": true,
       "desc": "Race Winner BDC S1R11 Indianapolis Motor Speedway",
-      "c": 22,
-      "rec": "134.84 lb",
+      "c": 23,
+      "rec": "135.33 lb",
       "v": 224
     },
     {
@@ -26764,6 +26764,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "pvtcrock",
+      "i": "iRacer - Jeff Purchatzke",
+      "w": 135.33,
+      "v": 224,
+      "r": "Rare",
+      "d": "May 03 2026"
+    },
     {
       "u": "x_killswitch22_x",
       "i": "Kamui Kobayashi",
@@ -27354,14 +27362,6 @@
       "w": 367.68,
       "v": 129,
       "r": "Epic",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Chris Buescher",
-      "w": 30.97,
-      "v": 155,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
