@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-03T01:35:38.000037+00:00",
-    "total_catches": 22269,
+    "generated_at": "2026-05-03T01:36:41.839456+00:00",
+    "total_catches": 22270,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22269 catches"
+      "sub": "Since launch - 22270 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -2018,6 +2018,14 @@
         "l": "Feb 02 2025"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 577,
+        "c": 4,
+        "casts": 4,
+        "l": "May 03 2026"
+      },
+      {
         "u": "denault279",
         "n": "denault279",
         "g": 563,
@@ -3680,14 +3688,6 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 14 2024"
-      },
-      {
-        "u": "dvn_immortalflame",
-        "n": "dvn_immortalflame",
-        "g": 120,
-        "c": 3,
-        "casts": 3,
-        "l": "Apr 14 2026"
       },
       {
         "u": "rollinnolan35",
@@ -6260,6 +6260,14 @@
         "l": "May 02 2026"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 457,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 384,
@@ -6550,6 +6558,14 @@
         "l": "May 02 2026"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 457,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
+      {
         "u": "sparkymotors",
         "n": "sparkymotors",
         "g": 386,
@@ -6604,17 +6620,17 @@
         "c": 2,
         "casts": 2,
         "l": "May 01 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 156,
-        "c": 4,
-        "casts": 4,
-        "l": "May 03 2026"
       }
     ],
     "daily": [
+      {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 457,
+        "c": 1,
+        "casts": 1,
+        "l": "May 03 2026"
+      },
       {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
@@ -10019,6 +10035,13 @@
         "d": "May 02 2026"
       },
       {
+        "n": "dvn_immortalflame",
+        "i": "Michael Jordan",
+        "v": 457,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
+      {
         "n": "jukebox373",
         "i": "Micro Sprint Chassis",
         "v": 227,
@@ -10203,6 +10226,13 @@
         "d": "Apr 28 2026"
       },
       {
+        "n": "dvn_immortalflame",
+        "i": "Michael Jordan",
+        "v": 457,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
+      {
         "n": "larcen22",
         "i": "iRacer Jesse Winslow",
         "v": 416,
@@ -10334,16 +10364,16 @@
         "v": 112,
         "r": "Rare",
         "d": "Apr 28 2026"
-      },
-      {
-        "n": "matt_zilla",
-        "i": "Lion Fish",
-        "v": 111,
-        "r": "Epic",
-        "d": "May 01 2026"
       }
     ],
     "daily": [
+      {
+        "n": "dvn_immortalflame",
+        "i": "Michael Jordan",
+        "v": 457,
+        "r": "Epic",
+        "d": "May 03 2026"
+      },
       {
         "n": "jukebox373",
         "i": "Micro Sprint Chassis",
@@ -11392,15 +11422,15 @@
           "ikatipoi",
           "v1per_simr4cin6",
           "mrbrowz_fdm",
-          "jukebox373"
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "jukebox373",
+          "u": "dvn_immortalflame",
           "d": "May 03 2026"
         }
       },
       "win_day": {
-        "total": 89,
+        "total": 90,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11490,11 +11520,12 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 15 2026"
+          "u": "dvn_immortalflame",
+          "d": "May 03 2026"
         }
       },
       "double_down": {
@@ -19187,6 +19218,8 @@
       },
       "dvn_immortalflame": {
         "broke_in": "Nov 13 2025",
+        "win_day": "May 03 2026",
+        "catch_of_day": "May 03 2026",
         "custom_catch": "Apr 13 2026"
       },
       "pvtcrock": {
@@ -19624,7 +19657,6 @@
       },
       "jukebox373": {
         "broke_in": "May 03 2026",
-        "catch_of_day": "May 03 2026",
         "custom_catch": "May 03 2026"
       }
     },
@@ -19859,6 +19891,15 @@
       "w": 26.7
     },
     {
+      "n": "Michael Jordan",
+      "custom": true,
+      "r": "Legendary",
+      "c": 18,
+      "h": "dvn_immortalflame",
+      "v": 457,
+      "w": 91.41
+    },
+    {
       "n": "Pitt Box",
       "custom": true,
       "r": "Legendary",
@@ -20001,15 +20042,6 @@
       "h": "pintouc",
       "v": 322,
       "w": 26.85
-    },
-    {
-      "n": "Michael Jordan",
-      "custom": true,
-      "r": "Legendary",
-      "c": 17,
-      "h": "karnalsanders",
-      "v": 320,
-      "w": 106.62
     },
     {
       "n": "Circuit Of The Americas",
@@ -25720,9 +25752,9 @@
       "r": "Epic",
       "custom": true,
       "desc": "Owner of 23XI and making an impact on NASCAR",
-      "c": 17,
-      "rec": "106.62 lb",
-      "v": 320
+      "c": 18,
+      "rec": "91.41 lb",
+      "v": 457
     },
     {
       "n": "Gummy Sharks",
@@ -26564,6 +26596,14 @@
   ],
   "recent": [
     {
+      "u": "dvn_immortalflame",
+      "i": "Michael Jordan",
+      "w": 91.41,
+      "v": 457,
+      "r": "Epic",
+      "d": "May 03 2026"
+    },
+    {
       "u": "jukebox373",
       "i": "Atlanta Motor Speedway",
       "w": 0.8,
@@ -27153,14 +27193,6 @@
       "w": 20.08,
       "v": 20,
       "r": "Common",
-      "d": "May 01 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Ricky Stenhouse Jr",
-      "w": 8.75,
-      "v": 131,
-      "r": "Rare",
       "d": "May 01 2026"
     }
   ]
