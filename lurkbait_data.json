@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T23:19:53.270533+00:00",
-    "total_catches": 22357,
+    "generated_at": "2026-05-04T23:30:07.587398+00:00",
+    "total_catches": 22358,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22357 catches"
+      "sub": "Since launch - 22358 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1954,6 +1954,14 @@
         "l": "Jan 11 2025"
       },
       {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 604,
+        "c": 17,
+        "casts": 17,
+        "l": "May 04 2026"
+      },
+      {
         "u": "theshorterbomb",
         "n": "theshorterbomb",
         "g": 602,
@@ -1984,14 +1992,6 @@
         "c": 9,
         "casts": 9,
         "l": "Jun 30 2025"
-      },
-      {
-        "u": "azsuperbeast",
-        "n": "azsuperbeast",
-        "g": 590,
-        "c": 16,
-        "casts": 16,
-        "l": "Apr 30 2026"
       },
       {
         "u": "tackolish",
@@ -6492,6 +6492,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
+      },
+      {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 14,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
       }
     ],
     "daily": [
@@ -6547,6 +6555,14 @@
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
+      {
+        "u": "azsuperbeast",
+        "n": "azsuperbeast",
+        "g": 14,
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
@@ -10261,6 +10277,13 @@
         "v": 34,
         "r": "Common",
         "d": "May 04 2026"
+      },
+      {
+        "n": "azsuperbeast",
+        "i": "Carp",
+        "v": 14,
+        "r": "Common",
+        "d": "May 04 2026"
       }
     ],
     "daily": [
@@ -10310,6 +10333,13 @@
         "n": "grumpymitch1",
         "i": "Atlantic Cod",
         "v": 34,
+        "r": "Common",
+        "d": "May 04 2026"
+      },
+      {
+        "n": "azsuperbeast",
+        "i": "Carp",
+        "v": 14,
         "r": "Common",
         "d": "May 04 2026"
       }
@@ -22534,7 +22564,7 @@
       "n": "Carp",
       "custom": false,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "78motu78",
       "v": 17,
       "w": 9.03
@@ -23522,7 +23552,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 160,
+      "c": 161,
       "rec": "9.03 lb",
       "v": 17
     },
@@ -26427,6 +26457,14 @@
   ],
   "recent": [
     {
+      "u": "azsuperbeast",
+      "i": "Carp",
+      "w": 7.68,
+      "v": 14,
+      "r": "Common",
+      "d": "May 04 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "Tuna",
       "w": 248.74,
@@ -27016,14 +27054,6 @@
       "w": 0.92,
       "v": 65,
       "r": "Uncommon",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Black Redeye",
-      "w": 40.24,
-      "v": 30,
-      "r": "Common",
       "d": "May 03 2026"
     }
   ]
