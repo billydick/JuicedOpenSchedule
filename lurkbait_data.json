@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T22:12:15.194846+00:00",
-    "total_catches": 22350,
+    "generated_at": "2026-05-04T22:13:19.236089+00:00",
+    "total_catches": 22351,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22350 catches"
+      "sub": "Since launch - 22351 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -676,10 +676,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 6961,
-        "c": 95,
-        "casts": 95,
-        "l": "May 03 2026"
+        "g": 7130,
+        "c": 96,
+        "casts": 96,
+        "l": "May 04 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6292,6 +6292,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 534,
+        "c": 5,
+        "casts": 5,
+        "l": "May 04 2026"
+      },
+      {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 457,
@@ -6321,14 +6329,6 @@
         "g": 396,
         "c": 3,
         "casts": 3,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 365,
-        "c": 4,
-        "casts": 4,
         "l": "May 03 2026"
       },
       {
@@ -6438,6 +6438,14 @@
     ],
     "weekly": [
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 111,
@@ -6471,6 +6479,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
       {
         "u": "motionless",
         "n": "motionless",
@@ -10166,6 +10182,13 @@
     ],
     "weekly": [
       {
+        "n": "rms_racing",
+        "i": "Ricky Stenhouse Jr",
+        "v": 169,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
+      {
         "n": "realiist1",
         "i": "Kevon Jackson",
         "v": 70,
@@ -10195,6 +10218,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "rms_racing",
+        "i": "Ricky Stenhouse Jr",
+        "v": 169,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
       {
         "n": "realiist1",
         "i": "Kevon Jackson",
@@ -11075,7 +11105,7 @@
         }
       },
       "catch_of_day": {
-        "total": 126,
+        "total": 125,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11201,12 +11231,11 @@
           "ikatipoi",
           "v1per_simr4cin6",
           "mrbrowz_fdm",
-          "dvn_immortalflame",
-          "realiist1"
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "realiist1",
-          "d": "May 04 2026"
+          "u": "dvn_immortalflame",
+          "d": "May 03 2026"
         }
       },
       "win_day": {
@@ -13773,7 +13802,7 @@
         }
       },
       "win_week": {
-        "total": 26,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13800,11 +13829,12 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams"
+          "reignsstreams",
+          "rms_racing"
         ],
         "latest": {
-          "u": "reignsstreams",
-          "d": "Feb 09 2026"
+          "u": "rms_racing",
+          "d": "May 04 2026"
         }
       },
       "win_month": {
@@ -17008,6 +17038,7 @@
         "custom_club": "Jan 09 2025",
         "streak_7": "Jan 01 2025",
         "leg_epic_day": "Feb 02 2025",
+        "win_week": "May 04 2026",
         "golden_cast": "Jan 07 2025",
         "legend_hunter": "Jan 07 2025"
       },
@@ -19244,7 +19275,6 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
-        "catch_of_day": "May 04 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
         "custom_club": "Apr 25 2026"
@@ -20657,6 +20687,15 @@
       "w": 11.29
     },
     {
+      "n": "Ricky Stenhouse Jr",
+      "custom": true,
+      "r": "Epic",
+      "c": 48,
+      "h": "rms_racing",
+      "v": 169,
+      "w": 11.28
+    },
+    {
       "n": "PFC Rear Calipers",
       "custom": true,
       "r": "Epic",
@@ -20736,15 +20775,6 @@
       "h": "lispyinfamous",
       "v": 168,
       "w": 27.94
-    },
-    {
-      "n": "Ricky Stenhouse Jr",
-      "custom": true,
-      "r": "Epic",
-      "c": 47,
-      "h": "pony_r6",
-      "v": 168,
-      "w": 11.23
     },
     {
       "n": "Octopus",
@@ -24213,9 +24243,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "My dad and I just beat up Kyle Busch!",
-      "c": 47,
-      "rec": "11.23 lb",
-      "v": 168
+      "c": 48,
+      "rec": "11.28 lb",
+      "v": 169
     },
     {
       "n": "Harrison Burton",
@@ -26335,6 +26365,14 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Ricky Stenhouse Jr",
+      "w": 11.28,
+      "v": 169,
+      "r": "Rare",
+      "d": "May 04 2026"
+    },
+    {
       "u": "motionless",
       "i": "Will Brown",
       "w": 6.62,
@@ -26924,14 +26962,6 @@
       "w": 211.03,
       "v": 190,
       "r": "Epic",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "sparkymotors",
-      "i": "Kenneth Purcell",
-      "w": 55.13,
-      "v": 110,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
