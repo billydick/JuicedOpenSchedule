@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T21:06:43.732355+00:00",
-    "total_catches": 22344,
+    "generated_at": "2026-05-04T21:29:10.437064+00:00",
+    "total_catches": 22345,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22344 catches"
+      "sub": "Since launch - 22345 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -810,20 +810,20 @@
         "l": "Jul 04 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 4998,
+        "c": 63,
+        "casts": 63,
+        "l": "May 04 2026"
+      },
+      {
         "u": "esox71",
         "n": "esox71",
         "g": 4997,
         "c": 73,
         "casts": 73,
         "l": "Feb 24 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 4946,
-        "c": 62,
-        "casts": 62,
-        "l": "May 03 2026"
       },
       {
         "u": "vanilia27xxx",
@@ -6428,16 +6428,34 @@
         "l": "May 03 2026"
       },
       {
-        "u": "brokenanklesracing",
-        "n": "brokenanklesracing",
-        "g": 84,
-        "c": 1,
-        "casts": 1,
-        "l": "May 02 2026"
+        "u": "beliron",
+        "n": "beliron",
+        "g": 97,
+        "c": 3,
+        "casts": 3,
+        "l": "May 04 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10098,8 +10116,24 @@
         "d": "May 03 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "beliron",
+        "i": "Harrison Burton",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "May 04 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "beliron",
+        "i": "Harrison Burton",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "May 04 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21128,7 +21162,7 @@
       "n": "Harrison Burton",
       "custom": true,
       "r": "Rare",
-      "c": 52,
+      "c": 53,
       "h": "ironlegacy_",
       "v": 111,
       "w": 11.14
@@ -24096,7 +24130,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "It's Harrison Burton!",
-      "c": 52,
+      "c": 53,
       "rec": "11.14 lb",
       "v": 111
     },
@@ -26209,6 +26243,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Harrison Burton",
+      "w": 10.5,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "May 04 2026"
+    },
+    {
       "u": "x_killswitch22_x",
       "i": "Billy Dick Cup Regulations",
       "w": 0.86,
@@ -26798,14 +26840,6 @@
       "w": 0.54,
       "v": 11,
       "r": "Junk",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "dvn_immortalflame",
-      "i": "Michael Jordan",
-      "w": 91.41,
-      "v": 457,
-      "r": "Epic",
       "d": "May 03 2026"
     }
   ]
