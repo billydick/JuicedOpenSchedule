@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T21:42:33.704732+00:00",
-    "total_catches": 22348,
+    "generated_at": "2026-05-04T22:08:07.615951+00:00",
+    "total_catches": 22349,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22348 catches"
+      "sub": "Since launch - 22349 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -754,20 +754,20 @@
         "l": "Jan 29 2025"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 5956,
+        "c": 77,
+        "casts": 77,
+        "l": "May 04 2026"
+      },
+      {
         "u": "drybonesmalone",
         "n": "drybonesmalone",
         "g": 5933,
         "c": 85,
         "casts": 85,
         "l": "Apr 19 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 5922,
-        "c": 76,
-        "casts": 76,
-        "l": "May 03 2026"
       },
       {
         "u": "robbievrabeljr",
@@ -6372,6 +6372,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 215,
+        "c": 5,
+        "casts": 5,
+        "l": "May 04 2026"
+      },
+      {
         "u": "kgabbs",
         "n": "kgabbs",
         "g": 204,
@@ -6386,14 +6394,6 @@
         "c": 4,
         "casts": 4,
         "l": "May 02 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 181,
-        "c": 4,
-        "casts": 4,
-        "l": "May 03 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6460,6 +6460,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
+      },
+      {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 34,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
       }
     ],
     "daily": [
@@ -6483,6 +6491,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
+      {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 34,
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
@@ -10169,6 +10185,13 @@
         "v": 52,
         "r": "Uncommon",
         "d": "May 04 2026"
+      },
+      {
+        "n": "grumpymitch1",
+        "i": "Atlantic Cod",
+        "v": 34,
+        "r": "Common",
+        "d": "May 04 2026"
       }
     ],
     "daily": [
@@ -10191,6 +10214,13 @@
         "i": "Harrison Burton",
         "v": 52,
         "r": "Uncommon",
+        "d": "May 04 2026"
+      },
+      {
+        "n": "grumpymitch1",
+        "i": "Atlantic Cod",
+        "v": 34,
+        "r": "Common",
         "d": "May 04 2026"
       }
     ]
@@ -22205,7 +22235,7 @@
       "n": "Atlantic Cod",
       "custom": false,
       "r": "Common",
-      "c": 154,
+      "c": 155,
       "h": "wintergofast",
       "v": 34,
       "w": 45.19
@@ -23076,7 +23106,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 154,
+      "c": 155,
       "rec": "45.19 lb",
       "v": 34
     },
@@ -26305,6 +26335,14 @@
   ],
   "recent": [
     {
+      "u": "grumpymitch1",
+      "i": "Atlantic Cod",
+      "w": 45.13,
+      "v": 34,
+      "r": "Common",
+      "d": "May 04 2026"
+    },
+    {
       "u": "motionless",
       "i": "Finnish Fish",
       "w": 1.99,
@@ -26894,14 +26932,6 @@
       "w": 0.82,
       "v": 8,
       "r": "Junk",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "x_killswitch22_x",
-      "i": "Buddy Baker",
-      "w": 24.56,
-      "v": 196,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
