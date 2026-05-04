@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-04T23:32:16Z",
+  "generated_at": "2026-05-04T23:48:16Z",
   "meta": {
-    "total_hands": 117,
+    "total_hands": 118,
     "total_players": 19,
     "biggest_bet": {
       "user": "corndawg3",
@@ -99,9 +99,9 @@
       },
       {
         "u": "azsuperbeast",
-        "chips": 21100,
-        "net": 8412,
-        "hands": 1,
+        "chips": 20212,
+        "net": 7524,
+        "hands": 2,
         "ach": 0
       },
       {
@@ -115,6 +115,13 @@
         "u": "sille_94",
         "chips": 15100,
         "net": 100,
+        "hands": 0,
+        "ach": 0
+      },
+      {
+        "u": "juicedracing",
+        "chips": 15000,
+        "net": -127317,
         "hands": 0,
         "ach": 0
       },
@@ -133,13 +140,6 @@
         "ach": 0
       },
       {
-        "u": "juicedracing",
-        "chips": 10000,
-        "net": -127317,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "skeeter1029",
         "chips": 9450,
         "net": -1000,
@@ -154,26 +154,26 @@
         "ach": 0
       },
       {
+        "u": "darkhorizon35",
+        "chips": 2050,
+        "net": -10500,
+        "hands": 2,
+        "ach": 2
+      },
+      {
         "u": "corndawg3",
         "chips": 300,
         "net": -196990,
         "hands": 0,
         "ach": 0
-      },
-      {
-        "u": "darkhorizon35",
-        "chips": 250,
-        "net": -10500,
-        "hands": 2,
-        "ach": 2
       }
     ],
     "daily": [
       {
         "u": "azsuperbeast",
-        "chips": 21100,
-        "net": 5050,
-        "hands": 1,
+        "chips": 20212,
+        "net": 4162,
+        "hands": 2,
         "ach": 0
       },
       {
@@ -185,7 +185,7 @@
       },
       {
         "u": "darkhorizon35",
-        "chips": 250,
+        "chips": 2050,
         "net": -10500,
         "hands": 2,
         "ach": 2
@@ -230,7 +230,7 @@
       "result": "push"
     },
     "most_hands": {
-      "u": "darkhorizon35",
+      "u": "azsuperbeast",
       "n": 2
     },
     "best_streak": {
@@ -295,7 +295,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -15000,
           "hands": 1,
           "ach": 0
@@ -372,7 +372,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -21600,
           "hands": 6,
           "ach": 0
@@ -485,7 +485,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -19000,
           "hands": 12,
           "ach": 0
@@ -589,7 +589,7 @@
       "leaderboard": [
         {
           "u": "azsuperbeast",
-          "chips": 21100,
+          "chips": 20212,
           "net": 10052,
           "hands": 7,
           "ach": 0
@@ -603,7 +603,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -746,7 +746,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -30699,
           "hands": 11,
           "ach": 0
@@ -838,7 +838,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -18,
           "hands": 4,
           "ach": 0
@@ -949,7 +949,7 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 21100,
+          "chips": 20212,
           "net": -6690,
           "hands": 15,
           "ach": 0
@@ -970,7 +970,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 10000,
+          "chips": 15000,
           "net": -41000,
           "hands": 6,
           "ach": 0
@@ -2738,6 +2738,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777938496.2606306,
+      "date": "2026-05-04",
+      "player": "azsuperbeast",
+      "bet": 888,
+      "balance_before": 21100,
+      "result": "lose",
+      "net_delta": -888,
+      "player_cards": [
+        "5♠",
+        "J♦"
+      ],
+      "player_total": 15,
+      "hit_count": 0,
+      "dealer_cards": [
+        "7♥",
+        "4♣",
+        "10♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777937536.4545567,
       "date": "2026-05-04",
       "player": "darkhorizon35",
@@ -4212,35 +4240,6 @@
       "achievements_earned": [
         "roller_coaster_session"
       ]
-    },
-    {
-      "ts": 1777513142.9103327,
-      "date": "2026-04-29",
-      "player": "juicedracing",
-      "bet": 6000,
-      "balance_before": 6450,
-      "result": "push",
-      "net_delta": 0,
-      "player_cards": [
-        "7♦",
-        "4♦",
-        "A♦",
-        "8♦"
-      ],
-      "player_total": 20,
-      "hit_count": 2,
-      "dealer_cards": [
-        "Q♣",
-        "K♥"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
