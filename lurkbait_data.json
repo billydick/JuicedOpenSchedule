@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T21:33:17.884851+00:00",
-    "total_catches": 22346,
+    "generated_at": "2026-05-04T21:39:27.059214+00:00",
+    "total_catches": 22347,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22346 catches"
+      "sub": "Since launch - 22347 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1098,6 +1098,14 @@
         "l": "Mar 11 2025"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 2556,
+        "c": 45,
+        "casts": 45,
+        "l": "May 04 2026"
+      },
+      {
         "u": "jxhnonsaturn",
         "n": "jxhnonsaturn",
         "g": 2550,
@@ -1128,14 +1136,6 @@
         "c": 24,
         "casts": 24,
         "l": "Mar 10 2025"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 2486,
-        "c": 44,
-        "casts": 44,
-        "l": "May 03 2026"
       },
       {
         "u": "plane_lol",
@@ -6252,6 +6252,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 897,
+        "c": 18,
+        "casts": 18,
+        "l": "May 04 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 875,
@@ -6265,14 +6273,6 @@
         "g": 855,
         "c": 5,
         "casts": 5,
-        "l": "May 03 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 827,
-        "c": 17,
-        "casts": 17,
         "l": "May 03 2026"
       },
       {
@@ -6438,6 +6438,14 @@
     ],
     "weekly": [
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 70,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 52,
@@ -6455,6 +6463,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 70,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
       {
         "u": "beliron",
         "n": "beliron",
@@ -10134,6 +10150,13 @@
     ],
     "weekly": [
       {
+        "n": "realiist1",
+        "i": "Kevon Jackson",
+        "v": 70,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
+      {
         "n": "beliron",
         "i": "Harrison Burton",
         "v": 52,
@@ -10149,6 +10172,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "realiist1",
+        "i": "Kevon Jackson",
+        "v": 70,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
       {
         "n": "beliron",
         "i": "Harrison Burton",
@@ -11015,7 +11045,7 @@
         }
       },
       "catch_of_day": {
-        "total": 125,
+        "total": 126,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11141,15 +11171,16 @@
           "ikatipoi",
           "v1per_simr4cin6",
           "mrbrowz_fdm",
-          "dvn_immortalflame"
+          "dvn_immortalflame",
+          "realiist1"
         ],
         "latest": {
-          "u": "dvn_immortalflame",
-          "d": "May 03 2026"
+          "u": "realiist1",
+          "d": "May 04 2026"
         }
       },
       "win_day": {
-        "total": 89,
+        "total": 90,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11239,11 +11270,12 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel"
+          "ineffabledecibel",
+          "realiist1"
         ],
         "latest": {
-          "u": "ineffabledecibel",
-          "d": "Apr 15 2026"
+          "u": "realiist1",
+          "d": "May 04 2026"
         }
       },
       "double_down": {
@@ -13712,7 +13744,7 @@
         }
       },
       "win_week": {
-        "total": 26,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13739,11 +13771,12 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams"
+          "reignsstreams",
+          "realiist1"
         ],
         "latest": {
-          "u": "reignsstreams",
-          "d": "Feb 09 2026"
+          "u": "realiist1",
+          "d": "May 04 2026"
         }
       },
       "win_month": {
@@ -19183,9 +19216,12 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
+        "win_day": "May 04 2026",
+        "catch_of_day": "May 04 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
-        "custom_club": "Apr 25 2026"
+        "custom_club": "Apr 25 2026",
+        "win_week": "May 04 2026"
       },
       "polegolf1": {
         "broke_in": "Apr 12 2026",
@@ -21489,7 +21525,7 @@
       "n": "Kevon Jackson",
       "custom": true,
       "r": "Rare",
-      "c": 44,
+      "c": 45,
       "h": "krueger1981",
       "v": 84,
       "w": 55.73
@@ -25582,7 +25618,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Rear Changer, Joe Gibbs Racing",
-      "c": 44,
+      "c": 45,
       "rec": "55.73 lb",
       "v": 84
     },
@@ -26273,6 +26309,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Kevon Jackson",
+      "w": 46.76,
+      "v": 70,
+      "r": "Rare",
+      "d": "May 04 2026"
+    },
+    {
       "u": "motionless",
       "i": "Katherine Legge",
       "w": 55.68,
@@ -26862,14 +26906,6 @@
       "w": 0.9,
       "v": 4,
       "r": "Uncommon",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "ironlegacy_",
-      "i": "Atlanta Motor Speedway",
-      "w": 0.92,
-      "v": 69,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
