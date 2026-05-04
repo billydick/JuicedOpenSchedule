@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T23:36:16.667918+00:00",
-    "total_catches": 22359,
+    "generated_at": "2026-05-04T23:45:30.065513+00:00",
+    "total_catches": 22360,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22359 catches"
+      "sub": "Since launch - 22360 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 98000,
-        "c": 1247,
-        "casts": 1247,
+        "g": 98550,
+        "c": 1248,
+        "casts": 1248,
         "l": "May 04 2026"
       },
       {
@@ -6244,6 +6244,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 1314,
+        "c": 13,
+        "casts": 13,
+        "l": "May 04 2026"
+      },
+      {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
         "g": 1064,
@@ -6274,14 +6282,6 @@
         "c": 5,
         "casts": 5,
         "l": "May 03 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 764,
-        "c": 12,
-        "casts": 12,
-        "l": "May 04 2026"
       },
       {
         "u": "juicedracing",
@@ -6438,19 +6438,19 @@
     ],
     "weekly": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 746,
+        "c": 6,
+        "casts": 6,
+        "l": "May 04 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 371,
         "c": 2,
         "casts": 2,
-        "l": "May 04 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 196,
-        "c": 5,
-        "casts": 5,
         "l": "May 04 2026"
       },
       {
@@ -6504,19 +6504,19 @@
     ],
     "daily": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 746,
+        "c": 6,
+        "casts": 6,
+        "l": "May 04 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 371,
         "c": 2,
         "casts": 2,
-        "l": "May 04 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 196,
-        "c": 5,
-        "casts": 5,
         "l": "May 04 2026"
       },
       {
@@ -10060,6 +10060,13 @@
         "d": "May 02 2026"
       },
       {
+        "n": "motionless",
+        "i": "Carl Edwards",
+        "v": 550,
+        "r": "Legendary",
+        "d": "May 04 2026"
+      },
+      {
         "n": "dvn_immortalflame",
         "i": "Michael Jordan",
         "v": 457,
@@ -10107,13 +10114,6 @@
         "v": 196,
         "r": "Rare",
         "d": "May 03 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "HELLRAIZER DEMON JACK",
-        "v": 195,
-        "r": "Epic",
-        "d": "May 01 2026"
       },
       {
         "n": "rms_racing",
@@ -10230,6 +10230,13 @@
     ],
     "weekly": [
       {
+        "n": "motionless",
+        "i": "Carl Edwards",
+        "v": 550,
+        "r": "Legendary",
+        "d": "May 04 2026"
+      },
+      {
         "n": "beliron",
         "i": "Tiger Shark",
         "v": 319,
@@ -10261,13 +10268,6 @@
         "n": "realiist1",
         "i": "Kevon Jackson",
         "v": 70,
-        "r": "Rare",
-        "d": "May 04 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Finnish Fish",
-        "v": 69,
         "r": "Rare",
         "d": "May 04 2026"
       },
@@ -10288,6 +10288,13 @@
     ],
     "daily": [
       {
+        "n": "motionless",
+        "i": "Carl Edwards",
+        "v": 550,
+        "r": "Legendary",
+        "d": "May 04 2026"
+      },
+      {
         "n": "beliron",
         "i": "Tiger Shark",
         "v": 319,
@@ -10319,13 +10326,6 @@
         "n": "realiist1",
         "i": "Kevon Jackson",
         "v": 70,
-        "r": "Rare",
-        "d": "May 04 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Finnish Fish",
-        "v": 69,
         "r": "Rare",
         "d": "May 04 2026"
       },
@@ -19792,10 +19792,10 @@
       "n": "Carl Edwards",
       "custom": true,
       "r": "Legendary",
-      "c": 34,
-      "h": "ikatipoi",
-      "v": 535,
-      "w": 26.7
+      "c": 35,
+      "h": "motionless",
+      "v": 550,
+      "w": 27.43
     },
     {
       "n": "Michael Jordan",
@@ -24470,9 +24470,9 @@
       "r": "Legendary",
       "custom": true,
       "desc": "“If you’re looking for a driver, you’re looking for me.”",
-      "c": 34,
-      "rec": "26.70 lb",
-      "v": 535
+      "c": 35,
+      "rec": "27.43 lb",
+      "v": 550
     },
     {
       "n": "Daniel Suarez",
@@ -26458,6 +26458,14 @@
   "recent": [
     {
       "u": "motionless",
+      "i": "Carl Edwards",
+      "w": 27.43,
+      "v": 550,
+      "r": "Legendary",
+      "d": "May 04 2026"
+    },
+    {
+      "u": "motionless",
       "i": "Daytona International Speedway",
       "w": 1.98,
       "v": 50,
@@ -27046,14 +27054,6 @@
       "w": 34.47,
       "v": 48,
       "r": "Uncommon",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Ricky Bobby",
-      "w": 2.12,
-      "v": 106,
-      "r": "Rare",
       "d": "May 03 2026"
     }
   ]
