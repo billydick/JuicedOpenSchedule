@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T21:29:10.437064+00:00",
-    "total_catches": 22345,
+    "generated_at": "2026-05-04T21:33:17.884851+00:00",
+    "total_catches": 22346,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22345 catches"
+      "sub": "Since launch - 22346 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 97804,
-        "c": 1242,
-        "casts": 1242,
-        "l": "May 02 2026"
+        "g": 97832,
+        "c": 1243,
+        "casts": 1243,
+        "l": "May 04 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6278,10 +6278,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 568,
-        "c": 7,
-        "casts": 7,
-        "l": "May 02 2026"
+        "g": 596,
+        "c": 8,
+        "casts": 8,
+        "l": "May 04 2026"
       },
       {
         "u": "juicedracing",
@@ -6444,6 +6444,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
       }
     ],
     "daily": [
@@ -6451,6 +6459,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "May 04 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 28,
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
@@ -10123,6 +10139,13 @@
         "v": 52,
         "r": "Uncommon",
         "d": "May 04 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Katherine Legge",
+        "v": 28,
+        "r": "Common",
+        "d": "May 04 2026"
       }
     ],
     "daily": [
@@ -10131,6 +10154,13 @@
         "i": "Harrison Burton",
         "v": 52,
         "r": "Uncommon",
+        "d": "May 04 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Katherine Legge",
+        "v": 28,
+        "r": "Common",
         "d": "May 04 2026"
       }
     ]
@@ -22197,10 +22227,10 @@
       "n": "Katherine Legge",
       "custom": true,
       "r": "Common",
-      "c": 21,
-      "h": "x_killswitch22_x",
+      "c": 22,
+      "h": "motionless",
       "v": 28,
-      "w": 55.26
+      "w": 55.68
     },
     {
       "n": "Bubba Wallace",
@@ -25984,8 +26014,8 @@
       "r": "Common",
       "custom": true,
       "desc": "1st Cup Seaon, has an uphill battle",
-      "c": 21,
-      "rec": "55.26 lb",
+      "c": 22,
+      "rec": "55.68 lb",
       "v": 28
     },
     {
@@ -26242,6 +26272,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "motionless",
+      "i": "Katherine Legge",
+      "w": 55.68,
+      "v": 28,
+      "r": "Common",
+      "d": "May 04 2026"
+    },
     {
       "u": "beliron",
       "i": "Harrison Burton",
@@ -26832,14 +26870,6 @@
       "w": 0.92,
       "v": 69,
       "r": "Rare",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Strange Vase",
-      "w": 0.54,
-      "v": 11,
-      "r": "Junk",
       "d": "May 03 2026"
     }
   ]
