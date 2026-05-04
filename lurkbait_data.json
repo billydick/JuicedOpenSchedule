@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-04T21:39:27.059214+00:00",
-    "total_catches": 22347,
+    "generated_at": "2026-05-04T21:42:33.704732+00:00",
+    "total_catches": 22348,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22347 catches"
+      "sub": "Since launch - 22348 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 97832,
-        "c": 1243,
-        "casts": 1243,
+        "g": 97901,
+        "c": 1244,
+        "casts": 1244,
         "l": "May 04 2026"
       },
       {
@@ -6278,9 +6278,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 596,
-        "c": 8,
-        "casts": 8,
+        "g": 665,
+        "c": 9,
+        "casts": 9,
         "l": "May 04 2026"
       },
       {
@@ -6438,6 +6438,14 @@
     ],
     "weekly": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 97,
+        "c": 2,
+        "casts": 2,
+        "l": "May 04 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 70,
@@ -6449,14 +6457,6 @@
         "u": "beliron",
         "n": "beliron",
         "g": 52,
-        "c": 1,
-        "casts": 1,
-        "l": "May 04 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 28,
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
@@ -6464,6 +6464,14 @@
     ],
     "daily": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 97,
+        "c": 2,
+        "casts": 2,
+        "l": "May 04 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 70,
@@ -6475,14 +6483,6 @@
         "u": "beliron",
         "n": "beliron",
         "g": 52,
-        "c": 1,
-        "casts": 1,
-        "l": "May 04 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 28,
         "c": 1,
         "casts": 1,
         "l": "May 04 2026"
@@ -10157,17 +10157,17 @@
         "d": "May 04 2026"
       },
       {
+        "n": "motionless",
+        "i": "Finnish Fish",
+        "v": 69,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
+      {
         "n": "beliron",
         "i": "Harrison Burton",
         "v": 52,
         "r": "Uncommon",
-        "d": "May 04 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Katherine Legge",
-        "v": 28,
-        "r": "Common",
         "d": "May 04 2026"
       }
     ],
@@ -10180,17 +10180,17 @@
         "d": "May 04 2026"
       },
       {
+        "n": "motionless",
+        "i": "Finnish Fish",
+        "v": 69,
+        "r": "Rare",
+        "d": "May 04 2026"
+      },
+      {
         "n": "beliron",
         "i": "Harrison Burton",
         "v": 52,
         "r": "Uncommon",
-        "d": "May 04 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Katherine Legge",
-        "v": 28,
-        "r": "Common",
         "d": "May 04 2026"
       }
     ]
@@ -11180,7 +11180,7 @@
         }
       },
       "win_day": {
-        "total": 90,
+        "total": 89,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11270,12 +11270,11 @@
           "jettshim",
           "george_wiseman",
           "reignsstreams",
-          "ineffabledecibel",
-          "realiist1"
+          "ineffabledecibel"
         ],
         "latest": {
-          "u": "realiist1",
-          "d": "May 04 2026"
+          "u": "ineffabledecibel",
+          "d": "Apr 15 2026"
         }
       },
       "double_down": {
@@ -13744,7 +13743,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 26,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13771,12 +13770,11 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams",
-          "realiist1"
+          "reignsstreams"
         ],
         "latest": {
-          "u": "realiist1",
-          "d": "May 04 2026"
+          "u": "reignsstreams",
+          "d": "Feb 09 2026"
         }
       },
       "win_month": {
@@ -19216,12 +19214,10 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
-        "win_day": "May 04 2026",
         "catch_of_day": "May 04 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
-        "custom_club": "Apr 25 2026",
-        "win_week": "May 04 2026"
+        "custom_club": "Apr 25 2026"
       },
       "polegolf1": {
         "broke_in": "Apr 12 2026",
@@ -21606,7 +21602,7 @@
       "n": "Finnish Fish",
       "custom": false,
       "r": "Rare",
-      "c": 33,
+      "c": 34,
       "h": "jxhnonsaturn",
       "v": 79,
       "w": 2.25
@@ -25672,7 +25668,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 33,
+      "c": 34,
       "rec": "2.25 lb",
       "v": 79
     },
@@ -26309,6 +26305,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Finnish Fish",
+      "w": 1.99,
+      "v": 69,
+      "r": "Rare",
+      "d": "May 04 2026"
+    },
+    {
       "u": "realiist1",
       "i": "Kevon Jackson",
       "w": 46.76,
@@ -26898,14 +26902,6 @@
       "w": 24.56,
       "v": 196,
       "r": "Rare",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Fish Fillet Burger",
-      "w": 0.9,
-      "v": 4,
-      "r": "Uncommon",
       "d": "May 03 2026"
     }
   ]
