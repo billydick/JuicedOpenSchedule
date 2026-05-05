@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-05T00:03:18Z",
+  "generated_at": "2026-05-05T00:29:22Z",
   "meta": {
-    "total_hands": 127,
+    "total_hands": 128,
     "total_players": 19,
     "biggest_bet": {
       "user": "corndawg3",
@@ -141,14 +141,14 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 6575,
+        "chips": 7225,
         "net": -32500,
         "hands": 3,
         "ach": 12
       },
       {
         "u": "darkhorizon35",
-        "chips": 2800,
+        "chips": 3550,
         "net": -10500,
         "hands": 2,
         "ach": 2
@@ -163,15 +163,15 @@
       {
         "u": "azsuperbeast",
         "chips": 50,
-        "net": -13238,
-        "hands": 7,
+        "net": -14238,
+        "hands": 8,
         "ach": 6
       }
     ],
     "daily": [
       {
         "u": "brookswhynot",
-        "chips": 6575,
+        "chips": 7225,
         "net": 23525,
         "hands": 3,
         "ach": 12
@@ -192,7 +192,7 @@
       },
       {
         "u": "darkhorizon35",
-        "chips": 2800,
+        "chips": 3550,
         "net": -10500,
         "hands": 2,
         "ach": 2
@@ -200,8 +200,8 @@
       {
         "u": "azsuperbeast",
         "chips": 50,
-        "net": -16600,
-        "hands": 7,
+        "net": -17600,
+        "hands": 8,
         "ach": 6
       }
     ]
@@ -247,7 +247,7 @@
     },
     "most_hands": {
       "u": "azsuperbeast",
-      "n": 7
+      "n": 8
     },
     "best_streak": {
       "u": "azsuperbeast",
@@ -255,7 +255,7 @@
     },
     "worst_streak": {
       "u": "azsuperbeast",
-      "n": 2
+      "n": 3
     },
     "most_busts": {
       "u": "darkhorizon35",
@@ -263,7 +263,7 @@
     },
     "best_win_rate": {
       "u": "azsuperbeast",
-      "pct": 42.9
+      "pct": 37.5
     },
     "best_poker": {
       "u": "brookswhynot",
@@ -312,7 +312,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6575,
+          "chips": 7225,
           "net": -14950,
           "hands": 1,
           "ach": 12
@@ -502,7 +502,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6575,
+          "chips": 7225,
           "net": -6200,
           "hands": 1,
           "ach": 12
@@ -756,7 +756,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6575,
+          "chips": 7225,
           "net": -10000,
           "hands": 1,
           "ach": 12
@@ -987,7 +987,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 6575,
+          "chips": 7225,
           "net": -24875,
           "hands": 4,
           "ach": 12
@@ -2817,6 +2817,35 @@
   ],
   "recent_hands": [
     {
+      "ts": 1777940962.2278807,
+      "date": "2026-05-04",
+      "player": "azsuperbeast",
+      "bet": 1000,
+      "balance_before": 1050,
+      "result": "lose",
+      "net_delta": -1000,
+      "player_cards": [
+        "A♦",
+        "6♣"
+      ],
+      "player_total": 17,
+      "hit_count": 0,
+      "dealer_cards": [
+        "3♠",
+        "J♠",
+        "3♣",
+        "4♣"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1777939398.8779168,
       "date": "2026-05-04",
       "player": "azsuperbeast",
@@ -4296,39 +4325,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777599942.6261475,
-      "date": "2026-04-30",
-      "player": "forthe_lul",
-      "bet": 500,
-      "balance_before": 10025,
-      "result": "bust",
-      "net_delta": -450,
-      "player_cards": [
-        "10♥",
-        "4♦",
-        "10♠"
-      ],
-      "player_total": 24,
-      "hit_count": 1,
-      "dealer_cards": [
-        "3♦",
-        "5♥",
-        "7♥",
-        "9♠"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 50,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any",
-        "poker_salvation"
-      ]
     }
   ]
 }
