@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-05T00:01:04Z",
+  "generated_at": "2026-05-05T00:03:18Z",
   "meta": {
-    "total_hands": 125,
+    "total_hands": 127,
     "total_players": 19,
     "biggest_bet": {
       "user": "corndawg3",
@@ -141,14 +141,14 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 8051,
-        "net": -52075,
-        "hands": 2,
-        "ach": 4
+        "chips": 6575,
+        "net": -32500,
+        "hands": 3,
+        "ach": 12
       },
       {
         "u": "darkhorizon35",
-        "chips": 2550,
+        "chips": 2800,
         "net": -10500,
         "hands": 2,
         "ach": 2
@@ -163,25 +163,25 @@
       {
         "u": "azsuperbeast",
         "chips": 50,
-        "net": -13138,
-        "hands": 6,
+        "net": -13238,
+        "hands": 7,
         "ach": 6
       }
     ],
     "daily": [
+      {
+        "u": "brookswhynot",
+        "chips": 6575,
+        "net": 23525,
+        "hands": 3,
+        "ach": 12
+      },
       {
         "u": "motionless",
         "chips": 109800,
         "net": 5000,
         "hands": 1,
         "ach": 2
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 8051,
-        "net": 3950,
-        "hands": 2,
-        "ach": 4
       },
       {
         "u": "grumpymitch1",
@@ -192,7 +192,7 @@
       },
       {
         "u": "darkhorizon35",
-        "chips": 2550,
+        "chips": 2800,
         "net": -10500,
         "hands": 2,
         "ach": 2
@@ -200,22 +200,25 @@
       {
         "u": "azsuperbeast",
         "chips": 50,
-        "net": -16500,
-        "hands": 6,
+        "net": -16600,
+        "hands": 7,
         "ach": 6
       }
     ]
   },
   "daily_highlights": {
     "biggest_win": {
-      "u": "azsuperbeast",
+      "u": "brookswhynot",
       "cards": [
-        "6♣",
-        "Q♥"
+        "2♦",
+        "7♣",
+        "3♣",
+        "2♠",
+        "7♦"
       ],
-      "total": 16,
-      "bet": 5050,
-      "net": 5050,
+      "total": 21,
+      "bet": 13050,
+      "net": 19575,
       "result": "win"
     },
     "biggest_loss": {
@@ -244,14 +247,14 @@
     },
     "most_hands": {
       "u": "azsuperbeast",
-      "n": 6
+      "n": 7
     },
     "best_streak": {
       "u": "azsuperbeast",
       "n": 1
     },
     "worst_streak": {
-      "u": "darkhorizon35",
+      "u": "azsuperbeast",
       "n": 2
     },
     "most_busts": {
@@ -260,28 +263,31 @@
     },
     "best_win_rate": {
       "u": "azsuperbeast",
-      "pct": 50.0
+      "pct": 42.9
     },
     "best_poker": {
-      "u": "grumpymitch1",
-      "rank": "pair",
+      "u": "brookswhynot",
+      "rank": "two_pair",
       "cards": [
-        "A♠",
-        "A♦",
-        "5♣",
-        "3♥"
+        "2♦",
+        "7♣",
+        "3♣",
+        "2♠",
+        "7♦"
       ]
     },
     "most_cards_win": {
-      "u": "motionless",
+      "u": "brookswhynot",
       "cards": [
-        "4♦",
-        "J♣",
-        "7♥"
+        "2♦",
+        "7♣",
+        "3♣",
+        "2♠",
+        "7♦"
       ],
       "total": 21,
-      "bet": 5000,
-      "net": 5000,
+      "bet": 13050,
+      "net": 19575,
       "result": "win"
     }
   },
@@ -306,10 +312,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 8051,
+          "chips": 6575,
           "net": -14950,
           "hands": 1,
-          "ach": 4
+          "ach": 12
         },
         {
           "u": "juicedracing",
@@ -496,10 +502,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 8051,
+          "chips": 6575,
           "net": -6200,
           "hands": 1,
-          "ach": 4
+          "ach": 12
         },
         {
           "u": "juicedracing",
@@ -750,10 +756,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 8051,
+          "chips": 6575,
           "net": -10000,
           "hands": 1,
-          "ach": 4
+          "ach": 12
         },
         {
           "u": "evangel0203",
@@ -981,10 +987,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 8051,
+          "chips": 6575,
           "net": -24875,
           "hands": 4,
-          "ach": 4
+          "ach": 12
         },
         {
           "u": "juicedracing",
@@ -1081,11 +1087,13 @@
   "achievements": {
     "stream": {
       "five_card_charlie": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "natural_collector_10": {
@@ -1305,7 +1313,7 @@
           "brookswhynot"
         ],
         "latest": {
-          "u": "azsuperbeast",
+          "u": "brookswhynot",
           "d": "2026-05-04"
         }
       },
@@ -1316,7 +1324,7 @@
           "brookswhynot"
         ],
         "latest": {
-          "u": "azsuperbeast",
+          "u": "brookswhynot",
           "d": "2026-05-04"
         }
       },
@@ -1329,11 +1337,13 @@
         }
       },
       "double_or_nothing": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "patient_money": {
@@ -1589,11 +1599,13 @@
         }
       },
       "triple_hit_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "quad_hit_win": {
@@ -1605,12 +1617,13 @@
         }
       },
       "lucky_escape": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "motionless"
+          "motionless",
+          "brookswhynot"
         ],
         "latest": {
-          "u": "motionless",
+          "u": "brookswhynot",
           "d": "2026-05-04"
         }
       },
@@ -1639,11 +1652,13 @@
         }
       },
       "table_dominator": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "motionless",
-          "d": "2026-04-29"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "table_dominator_25": {
@@ -1676,11 +1691,13 @@
         }
       },
       "poker_two_pair_any": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "poker_trips_any": {
@@ -1868,11 +1885,13 @@
         }
       },
       "poker_bonus_50": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "—",
-          "d": "—"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "poker_bonus_100": {
@@ -1903,11 +1922,13 @@
         }
       },
       "clean_poker_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-05-01"
+          "u": "brookswhynot",
+          "d": "2026-05-04"
         }
       },
       "clean_poker_win_25": {
@@ -1964,10 +1985,68 @@
         "exact_change_win": "2026-04-25",
         "big_nerve_win": "2026-04-25",
         "poker_pair_any": "2026-05-04",
-        "roller_coaster_session": "2026-04-25"
+        "roller_coaster_session": "2026-04-25",
+        "five_card_charlie": "2026-05-04",
+        "triple_hit_win": "2026-05-04",
+        "lucky_escape": "2026-04-25",
+        "poker_two_pair_any": "2026-05-04",
+        "poker_bonus_50": "2026-05-04",
+        "clean_poker_win": "2026-05-04",
+        "double_or_nothing": "2026-05-04",
+        "table_dominator": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "five_card_charlie",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "exact_change_win",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "triple_hit_win",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "lucky_escape",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "poker_two_pair_any",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "poker_bonus_50",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "clean_poker_win",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "double_or_nothing",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
+      {
+        "id": "table_dominator",
+        "u": "brookswhynot",
+        "d": "2026-05-04"
+      },
       {
         "id": "poker_pair_any",
         "u": "brookswhynot",
@@ -2017,56 +2096,6 @@
         "id": "rags_to_riches_session",
         "u": "azsuperbeast",
         "d": "2026-05-04"
-      },
-      {
-        "id": "min_bet_master",
-        "u": "azsuperbeast",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "darkhorizon35",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "poker_salvation",
-        "u": "darkhorizon35",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "grumpymitch1",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "corndawg3",
-        "d": "2026-05-02"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "corndawg3",
-        "d": "2026-05-02"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "corndawg3",
-        "d": "2026-05-02"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "corndawg3",
-        "d": "2026-05-02"
-      },
-      {
-        "id": "escalator",
-        "u": "corndawg3",
-        "d": "2026-05-02"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "flippy00",
-        "d": "2026-05-01"
       }
     ]
   },
@@ -2787,6 +2816,75 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1777939398.8779168,
+      "date": "2026-05-04",
+      "player": "azsuperbeast",
+      "bet": 100,
+      "balance_before": 100,
+      "result": "bust",
+      "net_delta": -100,
+      "player_cards": [
+        "Q♣",
+        "6♠",
+        "8♠"
+      ],
+      "player_total": 24,
+      "hit_count": 1,
+      "dealer_cards": [
+        "J♣",
+        "9♥"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
+      "ts": 1777939398.877562,
+      "date": "2026-05-04",
+      "player": "brookswhynot",
+      "bet": 13050,
+      "balance_before": 13050,
+      "result": "win",
+      "net_delta": 19575,
+      "player_cards": [
+        "2♦",
+        "7♣",
+        "3♣",
+        "2♠",
+        "7♦"
+      ],
+      "player_total": 21,
+      "hit_count": 3,
+      "dealer_cards": [
+        "J♣",
+        "9♥"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": "two_pair",
+      "poker_pct": 50,
+      "poker_relief": 0,
+      "poker_bonus": 6525,
+      "achievements_earned": [
+        "five_card_charlie",
+        "exact_change_win",
+        "big_nerve_win",
+        "triple_hit_win",
+        "lucky_escape",
+        "poker_two_pair_any",
+        "poker_bonus_50",
+        "clean_poker_win",
+        "double_or_nothing",
+        "table_dominator"
+      ]
+    },
     {
       "ts": 1777939264.3492494,
       "date": "2026-05-04",
@@ -4231,64 +4329,6 @@
         "poker_pair_any",
         "poker_salvation"
       ]
-    },
-    {
-      "ts": 1777599942.6254413,
-      "date": "2026-04-30",
-      "player": "juicedracing",
-      "bet": 10000,
-      "balance_before": 12600,
-      "result": "bust",
-      "net_delta": -10000,
-      "player_cards": [
-        "3♠",
-        "Q♥",
-        "9♣"
-      ],
-      "player_total": 22,
-      "hit_count": 1,
-      "dealer_cards": [
-        "3♦",
-        "5♥",
-        "7♥",
-        "9♠"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777515104.0107272,
-      "date": "2026-04-29",
-      "player": "azsuperbeast",
-      "bet": 2000,
-      "balance_before": 13000,
-      "result": "blackjack",
-      "net_delta": 3000,
-      "player_cards": [
-        "A♣",
-        "K♠"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "5♦",
-        "J♦",
-        "K♦"
-      ],
-      "dealer_total": 25,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
