@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-06T23:15:43.544881+00:00",
-    "total_catches": 22390,
+    "generated_at": "2026-05-06T23:23:55.789079+00:00",
+    "total_catches": 22391,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22390 catches"
+      "sub": "Since launch - 22391 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1114,6 +1114,14 @@
         "l": "Jan 16 2025"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 2528,
+        "c": 37,
+        "casts": 37,
+        "l": "May 06 2026"
+      },
+      {
         "u": "ng_cynic",
         "n": "ng_cynic",
         "g": 2527,
@@ -1136,14 +1144,6 @@
         "c": 24,
         "casts": 24,
         "l": "Mar 10 2025"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 2487,
-        "c": 36,
-        "casts": 36,
-        "l": "May 06 2026"
       },
       {
         "u": "plane_lol",
@@ -6316,20 +6316,20 @@
         "l": "May 03 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 467,
+        "c": 7,
+        "casts": 7,
+        "l": "May 06 2026"
+      },
+      {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 457,
         "c": 1,
         "casts": 1,
         "l": "May 03 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 426,
-        "c": 6,
-        "casts": 6,
-        "l": "May 06 2026"
       },
       {
         "u": "x_killswitch22_x",
@@ -6478,20 +6478,20 @@
         "l": "May 05 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 289,
+        "c": 3,
+        "casts": 3,
+        "l": "May 06 2026"
+      },
+      {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
         "g": 265,
         "c": 4,
         "casts": 4,
         "l": "May 05 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 248,
-        "c": 2,
-        "casts": 2,
-        "l": "May 06 2026"
       },
       {
         "u": "rms_racing",
@@ -6554,9 +6554,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 31,
-        "c": 1,
-        "casts": 1,
+        "g": 72,
+        "c": 2,
+        "casts": 2,
         "l": "May 06 2026"
       },
       {
@@ -10289,9 +10289,9 @@
       },
       {
         "n": "v1per_simr4cin6",
-        "i": "Barracuda",
-        "v": 31,
-        "r": "Common",
+        "i": "Sim Racing Gloves",
+        "v": 41,
+        "r": "Uncommon",
         "d": "May 06 2026"
       },
       {
@@ -22069,7 +22069,7 @@
       "n": "Sim Racing Gloves",
       "custom": true,
       "r": "Uncommon",
-      "c": 93,
+      "c": 94,
       "h": "ironlegacy_",
       "v": 56,
       "w": 1.12
@@ -24119,7 +24119,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Nerd Shit",
-      "c": 93,
+      "c": 94,
       "rec": "1.12 lb",
       "v": 56
     },
@@ -26421,6 +26421,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Sim Racing Gloves",
+      "w": 0.82,
+      "v": 41,
+      "r": "Uncommon",
+      "d": "May 06 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "Bike",
       "w": 9.0,
@@ -27009,14 +27017,6 @@
       "i": "Coffee Cup",
       "w": 0.19,
       "v": 2,
-      "r": "Junk",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Derek Kraus",
-      "w": 0.84,
-      "v": 1,
       "r": "Junk",
       "d": "May 03 2026"
     }
