@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-06T23:40:26.990167+00:00",
-    "total_catches": 22396,
+    "generated_at": "2026-05-06T23:43:33.098360+00:00",
+    "total_catches": 22397,
     "unique_catches": 373,
     "total_players": 743,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22396 catches"
+      "sub": "Since launch - 22397 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 98714,
-        "c": 1250,
-        "casts": 1250,
-        "l": "May 05 2026"
+        "g": 98903,
+        "c": 1251,
+        "casts": 1251,
+        "l": "May 06 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6246,10 +6246,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1478,
-        "c": 15,
-        "casts": 15,
-        "l": "May 05 2026"
+        "g": 1667,
+        "c": 16,
+        "casts": 16,
+        "l": "May 06 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6440,10 +6440,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 910,
-        "c": 8,
-        "casts": 8,
-        "l": "May 05 2026"
+        "g": 1099,
+        "c": 9,
+        "casts": 9,
+        "l": "May 06 2026"
       },
       {
         "u": "brookswhynot",
@@ -6549,6 +6549,14 @@
         "g": 301,
         "c": 5,
         "casts": 5,
+        "l": "May 06 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 189,
+        "c": 1,
+        "casts": 1,
         "l": "May 06 2026"
       },
       {
@@ -10288,6 +10296,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "motionless",
+        "i": "NASCAR Pace Car",
+        "v": 189,
+        "r": "Rare",
+        "d": "May 06 2026"
+      },
       {
         "n": "brookswhynot",
         "i": "Christopher Bell",
@@ -21058,10 +21073,10 @@
       "n": "NASCAR Pace Car",
       "custom": true,
       "r": "Rare",
-      "c": 1,
-      "h": "brookswhynot",
-      "v": 170,
-      "w": 170.43
+      "c": 2,
+      "h": "motionless",
+      "v": 189,
+      "w": 189.91
     },
     {
       "n": "Nashville Superspeedway",
@@ -23023,7 +23038,7 @@
     },
     "alltime_unique": {
       "u": "motionless",
-      "n": 319
+      "n": 320
     },
     "best_day_catches": {
       "u": "ironlegacy_",
@@ -26402,9 +26417,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Still faster than your car!",
-      "c": 1,
-      "rec": "170.43 lb",
-      "v": 170
+      "c": 2,
+      "rec": "189.91 lb",
+      "v": 189
     },
     {
       "n": "Texas Motor Speedway",
@@ -26435,6 +26450,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "motionless",
+      "i": "NASCAR Pace Car",
+      "w": 189.91,
+      "v": 189,
+      "r": "Rare",
+      "d": "May 06 2026"
+    },
     {
       "u": "nellafella",
       "i": "Cody Ware",
@@ -27025,14 +27048,6 @@
       "w": 3.5,
       "v": 66,
       "r": "Rare",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Justin Haley",
-      "w": 10.66,
-      "v": 1,
-      "r": "Junk",
       "d": "May 03 2026"
     }
   ]
