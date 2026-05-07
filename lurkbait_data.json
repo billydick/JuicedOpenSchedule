@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T01:15:14.301210+00:00",
-    "total_catches": 22424,
+    "generated_at": "2026-05-07T01:18:19.818575+00:00",
+    "total_catches": 22425,
     "unique_catches": 373,
     "total_players": 744,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22424 catches"
+      "sub": "Since launch - 22425 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1794,6 +1794,14 @@
         "l": "Mar 18 2025"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 788,
+        "c": 11,
+        "casts": 11,
+        "l": "May 07 2026"
+      },
+      {
         "u": "rhetti_",
         "n": "rhetti_",
         "g": 787,
@@ -2024,14 +2032,6 @@
         "c": 4,
         "casts": 4,
         "l": "May 03 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 575,
-        "c": 10,
-        "casts": 10,
-        "l": "May 07 2026"
       },
       {
         "u": "denault279",
@@ -6372,6 +6372,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 403,
+        "c": 2,
+        "casts": 2,
+        "l": "May 07 2026"
+      },
+      {
         "u": "jukebox373",
         "n": "jukebox373",
         "g": 396,
@@ -6426,14 +6434,6 @@
         "c": 2,
         "casts": 2,
         "l": "May 03 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 190,
-        "c": 1,
-        "casts": 1,
-        "l": "May 07 2026"
       },
       {
         "u": "larcen22",
@@ -6494,6 +6494,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 403,
+        "c": 2,
+        "casts": 2,
+        "l": "May 07 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 392,
@@ -6524,14 +6532,6 @@
         "c": 4,
         "casts": 4,
         "l": "May 05 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 190,
-        "c": 1,
-        "casts": 1,
-        "l": "May 07 2026"
       },
       {
         "u": "realiist1",
@@ -6592,6 +6592,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 403,
+        "c": 2,
+        "casts": 2,
+        "l": "May 07 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 364,
@@ -6621,14 +6629,6 @@
         "g": 224,
         "c": 4,
         "casts": 4,
-        "l": "May 07 2026"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 190,
-        "c": 1,
-        "casts": 1,
         "l": "May 07 2026"
       },
       {
@@ -10162,6 +10162,13 @@
         "d": "May 05 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "William Byron",
+        "v": 213,
+        "r": "Epic",
+        "d": "May 07 2026"
+      },
+      {
         "n": "x_killswitch22_x",
         "i": "Buddy Baker",
         "v": 196,
@@ -10174,13 +10181,6 @@
         "v": 190,
         "r": "Epic",
         "d": "May 03 2026"
-      },
-      {
-        "n": "cattabolic",
-        "i": "iRacer Kirk Martin",
-        "v": 190,
-        "r": "Epic",
-        "d": "May 07 2026"
       },
       {
         "n": "juicedracing",
@@ -10304,18 +10304,18 @@
         "d": "May 05 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "William Byron",
+        "v": 213,
+        "r": "Epic",
+        "d": "May 07 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "iRacer - Kirk Martin",
         "v": 210,
         "r": "Epic",
         "d": "May 05 2026"
-      },
-      {
-        "n": "cattabolic",
-        "i": "iRacer Kirk Martin",
-        "v": 190,
-        "r": "Epic",
-        "d": "May 07 2026"
       },
       {
         "n": "itzdubsta",
@@ -10391,8 +10391,8 @@
     "daily": [
       {
         "n": "cattabolic",
-        "i": "iRacer Kirk Martin",
-        "v": 190,
+        "i": "William Byron",
+        "v": 213,
         "r": "Epic",
         "d": "May 07 2026"
       },
@@ -20331,7 +20331,7 @@
       "n": "William Byron",
       "custom": true,
       "r": "Epic",
-      "c": 34,
+      "c": 35,
       "h": "motionless",
       "v": 226,
       "w": 28.23
@@ -24650,7 +24650,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "I like iRacing and Legos",
-      "c": 34,
+      "c": 35,
       "rec": "28.23 lb",
       "v": 226
     },
@@ -26601,6 +26601,14 @@
   ],
   "recent": [
     {
+      "u": "cattabolic",
+      "i": "William Byron",
+      "w": 26.62,
+      "v": 213,
+      "r": "Epic",
+      "d": "May 07 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "87 Le Sabre",
       "w": 112.05,
@@ -27190,14 +27198,6 @@
       "w": 11.28,
       "v": 169,
       "r": "Rare",
-      "d": "May 04 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Will Brown",
-      "w": 6.62,
-      "v": 14,
-      "r": "Common",
       "d": "May 04 2026"
     }
   ]
