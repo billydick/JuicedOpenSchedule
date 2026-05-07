@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T00:58:39.550078+00:00",
-    "total_catches": 22417,
+    "generated_at": "2026-05-07T00:59:43.461202+00:00",
+    "total_catches": 22418,
     "unique_catches": 373,
     "total_players": 744,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22417 catches"
+      "sub": "Since launch - 22418 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -2026,6 +2026,14 @@
         "l": "May 03 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 575,
+        "c": 10,
+        "casts": 10,
+        "l": "May 07 2026"
+      },
+      {
         "u": "denault279",
         "n": "denault279",
         "g": 563,
@@ -2368,14 +2376,6 @@
         "c": 9,
         "casts": 9,
         "l": "Jan 28 2025"
-      },
-      {
-        "u": "cattabolic",
-        "n": "cattabolic",
-        "g": 385,
-        "c": 9,
-        "casts": 9,
-        "l": "Apr 25 2026"
       },
       {
         "u": "stiggy_icky_icky",
@@ -6428,20 +6428,20 @@
         "l": "May 03 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 190,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 172,
         "c": 2,
         "casts": 2,
         "l": "May 03 2026"
-      },
-      {
-        "u": "tayrob28",
-        "n": "tayrob28",
-        "g": 150,
-        "c": 1,
-        "casts": 1,
-        "l": "May 01 2026"
       }
     ],
     "weekly": [
@@ -6526,6 +6526,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 190,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 120,
@@ -6605,6 +6613,14 @@
         "g": 202,
         "c": 2,
         "casts": 2,
+        "l": "May 07 2026"
+      },
+      {
+        "u": "cattabolic",
+        "n": "cattabolic",
+        "g": 190,
+        "c": 1,
+        "casts": 1,
         "l": "May 07 2026"
       },
       {
@@ -10152,6 +10168,13 @@
         "d": "May 03 2026"
       },
       {
+        "n": "cattabolic",
+        "i": "iRacer Kirk Martin",
+        "v": 190,
+        "r": "Epic",
+        "d": "May 07 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "iRacer - Jeff Purchatzke",
         "v": 184,
@@ -10241,13 +10264,6 @@
         "v": 110,
         "r": "Rare",
         "d": "May 03 2026"
-      },
-      {
-        "n": "grumpymitch1",
-        "i": "Clownfish",
-        "v": 99,
-        "r": "Rare",
-        "d": "May 01 2026"
       }
     ],
     "weekly": [
@@ -10285,6 +10301,13 @@
         "v": 210,
         "r": "Epic",
         "d": "May 05 2026"
+      },
+      {
+        "n": "cattabolic",
+        "i": "iRacer Kirk Martin",
+        "v": 190,
+        "r": "Epic",
+        "d": "May 07 2026"
       },
       {
         "n": "itzdubsta",
@@ -10358,6 +10381,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "cattabolic",
+        "i": "iRacer Kirk Martin",
+        "v": 190,
+        "r": "Epic",
+        "d": "May 07 2026"
+      },
       {
         "n": "motionless",
         "i": "NASCAR Pace Car",
@@ -11267,7 +11297,7 @@
         }
       },
       "catch_of_day": {
-        "total": 125,
+        "total": 126,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11393,11 +11423,12 @@
           "ikatipoi",
           "v1per_simr4cin6",
           "mrbrowz_fdm",
-          "dvn_immortalflame"
+          "dvn_immortalflame",
+          "cattabolic"
         ],
         "latest": {
-          "u": "dvn_immortalflame",
-          "d": "May 03 2026"
+          "u": "cattabolic",
+          "d": "May 07 2026"
         }
       },
       "win_day": {
@@ -12495,7 +12526,7 @@
         }
       },
       "walk_in": {
-        "total": 152,
+        "total": 153,
         "holders": [
           "gh0std0g90",
           "belyy92",
@@ -12648,11 +12679,12 @@
           "ikatipoi",
           "nellafella",
           "x_killswitch22_x",
-          "evangel0203"
+          "evangel0203",
+          "cattabolic"
         ],
         "latest": {
-          "u": "evangel0203",
-          "d": "May 05 2026"
+          "u": "cattabolic",
+          "d": "May 07 2026"
         }
       },
       "regular_weight": {
@@ -19475,7 +19507,9 @@
       },
       "cattabolic": {
         "broke_in": "Apr 12 2026",
-        "custom_catch": "Apr 16 2026"
+        "catch_of_day": "May 07 2026",
+        "custom_catch": "Apr 16 2026",
+        "walk_in": "May 07 2026"
       },
       "v1per_simr4cin6": {
         "broke_in": "Apr 12 2026",
@@ -20435,7 +20469,7 @@
       "n": "iRacer Kirk Martin",
       "custom": true,
       "r": "Epic",
-      "c": 23,
+      "c": 24,
       "h": "vanilia27xxx",
       "v": 223,
       "w": 133.65
@@ -26104,7 +26138,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Race Winner BDC S1R12 Watkins Glen",
-      "c": 23,
+      "c": 24,
       "rec": "133.65 lb",
       "v": 223
     },
@@ -26551,6 +26585,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "cattabolic",
+      "i": "iRacer Kirk Martin",
+      "w": 114.07,
+      "v": 190,
+      "r": "Epic",
+      "d": "May 07 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Eagle Ray",
@@ -27141,14 +27183,6 @@
       "w": 0.86,
       "v": 21,
       "r": "Common",
-      "d": "May 03 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Henrys Shoe",
-      "w": 1.68,
-      "v": 4,
-      "r": "Junk",
       "d": "May 03 2026"
     }
   ]
