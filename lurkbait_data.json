@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T02:49:46.715505+00:00",
-    "total_catches": 22444,
+    "generated_at": "2026-05-07T03:02:04.327090+00:00",
+    "total_catches": 22445,
     "unique_catches": 374,
-    "total_players": 745,
+    "total_players": 746,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22444 catches"
+      "sub": "Since launch - 22445 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -5714,6 +5714,14 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "allmy4xsliveintexas",
+        "n": "allmy4xsliveintexas",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "o1mythical",
         "n": "o1mythical",
         "g": 9,
@@ -6614,6 +6622,14 @@
         "l": "May 06 2026"
       },
       {
+        "u": "allmy4xsliveintexas",
+        "n": "allmy4xsliveintexas",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 1,
@@ -6758,6 +6774,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 06 2026"
+      },
+      {
+        "u": "allmy4xsliveintexas",
+        "n": "allmy4xsliveintexas",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -10544,6 +10568,13 @@
         "d": "May 06 2026"
       },
       {
+        "n": "allmy4xsliveintexas",
+        "i": "Annoying iRacer kid",
+        "v": 10,
+        "r": "Junk",
+        "d": "May 07 2026"
+      },
+      {
         "n": "evangel0203",
         "i": "Richmond Raceway",
         "v": 1,
@@ -10672,6 +10703,13 @@
         "d": "May 06 2026"
       },
       {
+        "n": "allmy4xsliveintexas",
+        "i": "Annoying iRacer kid",
+        "v": 10,
+        "r": "Junk",
+        "d": "May 07 2026"
+      },
+      {
         "n": "beliron",
         "i": "Daniel Hermic",
         "v": 1,
@@ -10697,7 +10735,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 745,
+        "total": 746,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11443,10 +11481,11 @@
           "smallsanders",
           "jukebox373",
           "goatmilkcheez",
-          "budd_heavy"
+          "budd_heavy",
+          "allmy4xsliveintexas"
         ],
         "latest": {
-          "u": "budd_heavy",
+          "u": "allmy4xsliveintexas",
           "d": "May 07 2026"
         }
       },
@@ -11945,7 +11984,7 @@
         }
       },
       "custom_catch": {
-        "total": 619,
+        "total": 620,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12565,11 +12604,12 @@
           "matt_zilla",
           "smallsanders",
           "jukebox373",
-          "goatmilkcheez"
+          "goatmilkcheez",
+          "allmy4xsliveintexas"
         ],
         "latest": {
-          "u": "goatmilkcheez",
-          "d": "May 06 2026"
+          "u": "allmy4xsliveintexas",
+          "d": "May 07 2026"
         }
       },
       "heavy_hauler": {
@@ -19950,6 +19990,10 @@
       },
       "budd_heavy": {
         "broke_in": "May 07 2026"
+      },
+      "allmy4xsliveintexas": {
+        "broke_in": "May 07 2026",
+        "custom_catch": "May 07 2026"
       }
     },
     "recent_unlocks": [
@@ -23003,7 +23047,7 @@
       "n": "Annoying iRacer kid",
       "custom": true,
       "r": "Common",
-      "c": 150,
+      "c": 151,
       "h": "riflehog",
       "v": 11,
       "w": 1.13
@@ -23488,6 +23532,15 @@
       "best_n": "Black Spotted Grunt",
       "best_r": "Common",
       "best_v": 18,
+      "d": "May 07 2026"
+    },
+    {
+      "u": "allmy4xsliveintexas",
+      "g": 10,
+      "c": 1,
+      "best_n": "Annoying iRacer kid",
+      "best_r": "Junk",
+      "best_v": 10,
       "d": "May 07 2026"
     }
   ],
@@ -24172,7 +24225,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "This kid sucks.",
-      "c": 150,
+      "c": 151,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -26870,6 +26923,14 @@
   ],
   "recent": [
     {
+      "u": "allmy4xsliveintexas",
+      "i": "Annoying iRacer kid",
+      "w": 0.98,
+      "v": 10,
+      "r": "Junk",
+      "d": "May 07 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Ryan Preece",
       "w": 0.88,
@@ -27459,14 +27520,6 @@
       "w": 17.51,
       "v": 175,
       "r": "Epic",
-      "d": "May 05 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Soda Can",
-      "w": 0.08,
-      "v": 1,
-      "r": "Junk",
       "d": "May 05 2026"
     }
   ]
