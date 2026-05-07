@@ -1,12 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T01:38:56.592545+00:00",
-    "total_catches": 22433,
-    "unique_catches": 373,
+    "generated_at": "2026-05-07T01:45:06.764758+00:00",
+    "total_catches": 22434,
+    "unique_catches": 374,
     "total_players": 745,
     "dex_total": 375,
-    "caught_total": 373,
-    "dex_completion": 99.47,
+    "caught_total": 374,
+    "dex_completion": 99.73,
     "custom_catch_count": 254,
     "custom_catch_files": [
       "$25_iRacing_Creds.webp",
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22433 catches"
+      "sub": "Since launch - 22434 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 34766,
-        "c": 534,
-        "casts": 534,
-        "l": "May 03 2026"
+        "g": 34809,
+        "c": 535,
+        "casts": 535,
+        "l": "May 07 2026"
       },
       {
         "u": "karnalsanders",
@@ -6332,6 +6332,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 584,
+        "c": 9,
+        "casts": 9,
+        "l": "May 07 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 555,
@@ -6346,14 +6354,6 @@
         "c": 7,
         "casts": 7,
         "l": "May 07 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 541,
-        "c": 8,
-        "casts": 8,
-        "l": "May 03 2026"
       },
       {
         "u": "dvn_immortalflame",
@@ -6566,6 +6566,14 @@
         "l": "May 05 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "budd_heavy",
         "n": "budd_heavy",
         "g": 18,
@@ -6659,6 +6667,14 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 43,
         "c": 1,
         "casts": 1,
         "l": "May 07 2026"
@@ -10399,6 +10415,13 @@
         "d": "May 07 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Sam Mayer",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "May 07 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Atlantic Cod",
         "v": 34,
@@ -10488,6 +10511,13 @@
         "n": "gatoraintplaying",
         "i": "KEISER FUEL REGULATOR & FILTER",
         "v": 49,
+        "r": "Uncommon",
+        "d": "May 07 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Sam Mayer",
+        "v": 43,
         "r": "Uncommon",
         "d": "May 07 2026"
       },
@@ -22412,6 +22442,15 @@
       "w": 0.23
     },
     {
+      "n": "Sam Mayer",
+      "custom": true,
+      "r": "Uncommon",
+      "c": 1,
+      "h": "juicedracing",
+      "v": 43,
+      "w": 43.44
+    },
+    {
       "n": "BJ McLeod",
       "custom": true,
       "r": "Uncommon",
@@ -26649,6 +26688,15 @@
       "v": 224
     },
     {
+      "n": "Sam Mayer",
+      "r": "Uncommon",
+      "custom": true,
+      "desc": "Finally winning races after wrecking half the field to get there",
+      "c": 1,
+      "rec": "43.44 lb",
+      "v": 43
+    },
+    {
       "n": "Shane Van Gisbergen_",
       "r": "Epic",
       "custom": true,
@@ -26656,18 +26704,17 @@
       "c": 0,
       "rec": "",
       "v": 0
-    },
-    {
-      "n": "Sam Mayer",
-      "r": "Uncommon",
-      "custom": true,
-      "desc": "Finally winning races after wrecking half the field to get there",
-      "c": 0,
-      "rec": "",
-      "v": 0
     }
   ],
   "recent": [
+    {
+      "u": "juicedracing",
+      "i": "Sam Mayer",
+      "w": 43.44,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "May 07 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Frontosa Cichlid",
@@ -27258,14 +27305,6 @@
       "w": 27.43,
       "v": 550,
       "r": "Legendary",
-      "d": "May 04 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Daytona International Speedway",
-      "w": 1.98,
-      "v": 50,
-      "r": "Uncommon",
       "d": "May 04 2026"
     }
   ]
