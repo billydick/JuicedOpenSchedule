@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-07T01:23:29.829198+00:00",
-    "total_catches": 22427,
+    "generated_at": "2026-05-07T01:27:37.411131+00:00",
+    "total_catches": 22429,
     "unique_catches": 373,
-    "total_players": 744,
+    "total_players": 745,
     "dex_total": 375,
     "caught_total": 373,
     "dex_completion": 99.47,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22427 catches"
+      "sub": "Since launch - 22429 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -660,10 +660,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 7353,
-        "c": 98,
-        "casts": 98,
-        "l": "May 06 2026"
+        "g": 7354,
+        "c": 99,
+        "casts": 99,
+        "l": "May 07 2026"
       },
       {
         "u": "dentedcan",
@@ -5354,6 +5354,14 @@
         "l": "Nov 28 2025"
       },
       {
+        "u": "budd_heavy",
+        "n": "budd_heavy",
+        "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
         "u": "blitzwarrior48",
         "n": "blitzwarrior48",
         "g": 18,
@@ -6302,10 +6310,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 757,
-        "c": 7,
-        "casts": 7,
-        "l": "May 06 2026"
+        "g": 758,
+        "c": 8,
+        "casts": 8,
+        "l": "May 07 2026"
       },
       {
         "u": "ikatipoi",
@@ -6504,10 +6512,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 392,
-        "c": 3,
-        "casts": 3,
-        "l": "May 06 2026"
+        "g": 393,
+        "c": 4,
+        "casts": 4,
+        "l": "May 07 2026"
       },
       {
         "u": "itzdubsta",
@@ -6556,6 +6564,14 @@
         "c": 2,
         "casts": 2,
         "l": "May 05 2026"
+      },
+      {
+        "u": "budd_heavy",
+        "n": "budd_heavy",
+        "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
       },
       {
         "u": "goatmilkcheez",
@@ -6634,15 +6650,23 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 148,
-        "c": 1,
-        "casts": 1,
-        "l": "May 06 2026"
+        "g": 149,
+        "c": 2,
+        "casts": 2,
+        "l": "May 07 2026"
       },
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "May 07 2026"
+      },
+      {
+        "u": "budd_heavy",
+        "n": "budd_heavy",
+        "g": 18,
         "c": 1,
         "casts": 1,
         "l": "May 07 2026"
@@ -10374,6 +10398,13 @@
         "d": "May 04 2026"
       },
       {
+        "n": "budd_heavy",
+        "i": "Black Spotted Grunt",
+        "v": 18,
+        "r": "Common",
+        "d": "May 07 2026"
+      },
+      {
         "n": "goatmilkcheez",
         "i": "Single Seat Radio",
         "v": 11,
@@ -10453,6 +10484,13 @@
         "d": "May 07 2026"
       },
       {
+        "n": "budd_heavy",
+        "i": "Black Spotted Grunt",
+        "v": 18,
+        "r": "Common",
+        "d": "May 07 2026"
+      },
+      {
         "n": "goatmilkcheez",
         "i": "Single Seat Radio",
         "v": 11,
@@ -10464,7 +10502,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 744,
+        "total": 745,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11209,11 +11247,12 @@
           "mrbrowz_fdm",
           "smallsanders",
           "jukebox373",
-          "goatmilkcheez"
+          "goatmilkcheez",
+          "budd_heavy"
         ],
         "latest": {
-          "u": "goatmilkcheez",
-          "d": "May 06 2026"
+          "u": "budd_heavy",
+          "d": "May 07 2026"
         }
       },
       "first_cast": {
@@ -19701,6 +19740,9 @@
       "goatmilkcheez": {
         "broke_in": "May 06 2026",
         "custom_catch": "May 06 2026"
+      },
+      "budd_heavy": {
+        "broke_in": "May 07 2026"
       }
     },
     "recent_unlocks": [
@@ -22637,7 +22679,7 @@
       "n": "Black Spotted Grunt",
       "custom": false,
       "r": "Common",
-      "c": 172,
+      "c": 173,
       "h": "justingamez",
       "v": 23,
       "w": 5.64
@@ -22880,7 +22922,7 @@
       "n": "Corey LaJoie",
       "custom": true,
       "r": "Common",
-      "c": 168,
+      "c": 169,
       "h": "ogbanana3036",
       "v": 1,
       "w": 1.13
@@ -23222,6 +23264,15 @@
       "best_r": "Junk",
       "best_v": 11,
       "d": "May 06 2026"
+    },
+    {
+      "u": "budd_heavy",
+      "g": 18,
+      "c": 1,
+      "best_n": "Black Spotted Grunt",
+      "best_r": "Common",
+      "best_v": 18,
+      "d": "May 07 2026"
     }
   ],
   "dex": [
@@ -23626,7 +23677,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 172,
+      "c": 173,
       "rec": "5.64 lb",
       "v": 23
     },
@@ -24256,7 +24307,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Talks like a contender, runs like a backmarker",
-      "c": 168,
+      "c": 169,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26603,6 +26654,22 @@
   ],
   "recent": [
     {
+      "u": "budd_heavy",
+      "i": "Black Spotted Grunt",
+      "w": 4.48,
+      "v": 18,
+      "r": "Common",
+      "d": "May 07 2026"
+    },
+    {
+      "u": "rms_racing",
+      "i": "Corey LaJoie",
+      "w": 0.97,
+      "v": 1,
+      "r": "Junk",
+      "d": "May 07 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Bubba Wallace",
       "w": 23.45,
@@ -27184,22 +27251,6 @@
       "w": 530.99,
       "v": 319,
       "r": "Legendary",
-      "d": "May 04 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Joe Gibbs",
-      "w": 23.15,
-      "v": 139,
-      "r": "Rare",
-      "d": "May 04 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Scrapermouth Mbun",
-      "w": 0.17,
-      "v": 35,
-      "r": "Uncommon",
       "d": "May 04 2026"
     }
   ]
