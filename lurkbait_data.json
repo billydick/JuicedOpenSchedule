@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T03:36:39.478572+00:00",
-    "total_catches": 22486,
+    "generated_at": "2026-05-08T03:37:43.549818+00:00",
+    "total_catches": 22487,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22486 catches"
+      "sub": "Since launch - 22487 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -924,10 +924,10 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 3802,
-        "c": 54,
-        "casts": 54,
-        "l": "May 07 2026"
+        "g": 3803,
+        "c": 55,
+        "casts": 55,
+        "l": "May 08 2026"
       },
       {
         "u": "ikatipoi",
@@ -6422,10 +6422,10 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 404,
-        "c": 9,
-        "casts": 9,
-        "l": "May 07 2026"
+        "g": 405,
+        "c": 10,
+        "casts": 10,
+        "l": "May 08 2026"
       },
       {
         "u": "jukebox373",
@@ -6787,6 +6787,14 @@
         "u": "x_killswitch22_x",
         "n": "x_killswitch22_x",
         "g": 14,
+        "c": 1,
+        "casts": 1,
+        "l": "May 08 2026"
+      },
+      {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "May 08 2026"
@@ -10728,6 +10736,13 @@
         "v": 1,
         "r": "Junk",
         "d": "May 08 2026"
+      },
+      {
+        "n": "thesaucypanda2",
+        "i": "Ryan Preece",
+        "v": 1,
+        "r": "Junk",
+        "d": "May 08 2026"
       }
     ]
   },
@@ -11917,7 +11932,7 @@
         }
       },
       "junk_master": {
-        "total": 60,
+        "total": 61,
         "holders": [
           "thebtm1",
           "belyy92",
@@ -11978,11 +11993,12 @@
           "grumpymitch1",
           "ikatipoi",
           "itzdubsta",
-          "pvtcrock"
+          "pvtcrock",
+          "thesaucypanda2"
         ],
         "latest": {
-          "u": "pvtcrock",
-          "d": "May 03 2026"
+          "u": "thesaucypanda2",
+          "d": "May 08 2026"
         }
       },
       "custom_catch": {
@@ -18725,6 +18741,7 @@
       "thesaucypanda2": {
         "broke_in": "Mar 18 2025",
         "catch_of_day": "Mar 27 2025",
+        "junk_master": "May 08 2026",
         "custom_catch": "Mar 18 2025",
         "walk_in": "Apr 21 2026",
         "full_spectrum": "Mar 27 2025",
@@ -23268,7 +23285,7 @@
       "n": "Ryan Preece",
       "custom": true,
       "r": "Common",
-      "c": 172,
+      "c": 173,
       "h": "dripnrip",
       "v": 1,
       "w": 1.13
@@ -25004,7 +25021,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "The Doom Marine got fucking lost",
-      "c": 172,
+      "c": 173,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26964,6 +26981,14 @@
   ],
   "recent": [
     {
+      "u": "thesaucypanda2",
+      "i": "Ryan Preece",
+      "w": 0.9,
+      "v": 1,
+      "r": "Junk",
+      "d": "May 08 2026"
+    },
+    {
       "u": "larcen22",
       "i": "Golden Redeye Rudd",
       "w": 0.83,
@@ -27553,14 +27578,6 @@
       "w": 10.35,
       "v": 31,
       "r": "Junk",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Corey Heim",
-      "w": 45.35,
-      "v": 181,
-      "r": "Epic",
       "d": "May 07 2026"
     }
   ]
