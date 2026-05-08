@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T00:05:54Z",
+  "generated_at": "2026-05-08T00:55:20Z",
   "meta": {
-    "total_hands": 134,
+    "total_hands": 135,
     "total_players": 19,
     "biggest_bet": {
       "user": "corndawg3",
@@ -9,7 +9,7 @@
     },
     "biggest_win": {
       "user": "juicedracing",
-      "amount": 71460
+      "amount": 132970
     },
     "top_chips": 265552,
     "top_player": "ikatipoi"
@@ -40,13 +40,6 @@
         "net": -25000,
         "hands": 0,
         "ach": 2
-      },
-      {
-        "u": "juicedracing",
-        "chips": 132970,
-        "net": -14597,
-        "hands": 2,
-        "ach": 6
       },
       {
         "u": "motionless",
@@ -85,7 +78,7 @@
       },
       {
         "u": "evangel0203",
-        "chips": 39650,
+        "chips": 39700,
         "net": -20150,
         "hands": 0,
         "ach": 0
@@ -126,6 +119,13 @@
         "ach": 0
       },
       {
+        "u": "darkhorizon35",
+        "chips": 10750,
+        "net": -10500,
+        "hands": 0,
+        "ach": 0
+      },
+      {
         "u": "thesaucypanda2",
         "chips": 10098,
         "net": -20000,
@@ -147,13 +147,6 @@
         "ach": 0
       },
       {
-        "u": "darkhorizon35",
-        "chips": 5700,
-        "net": -10500,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "azsuperbeast",
         "chips": 2100,
         "net": -13738,
@@ -166,15 +159,22 @@
         "net": -196990,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "juicedracing",
+        "chips": 0,
+        "net": 118373,
+        "hands": 3,
+        "ach": 10
       }
     ],
     "daily": [
       {
         "u": "juicedracing",
-        "chips": 132970,
-        "net": 61460,
-        "hands": 2,
-        "ach": 6
+        "chips": 0,
+        "net": 194430,
+        "hands": 3,
+        "ach": 10
       }
     ]
   },
@@ -182,12 +182,13 @@
     "biggest_win": {
       "u": "juicedracing",
       "cards": [
-        "10♦",
-        "7♥"
+        "J♥",
+        "5♦",
+        "6♠"
       ],
-      "total": 17,
-      "bet": 71460,
-      "net": 71460,
+      "total": 21,
+      "bet": 132970,
+      "net": 132970,
       "result": "win"
     },
     "biggest_loss": {
@@ -205,17 +206,18 @@
     "biggest_bet": {
       "u": "juicedracing",
       "cards": [
-        "10♦",
-        "7♥"
+        "J♥",
+        "5♦",
+        "6♠"
       ],
-      "total": 17,
-      "bet": 71460,
-      "net": 71460,
+      "total": 21,
+      "bet": 132970,
+      "net": 132970,
       "result": "win"
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "juicedracing",
@@ -232,12 +234,13 @@
     "most_cards_win": {
       "u": "juicedracing",
       "cards": [
-        "10♦",
-        "7♥"
+        "J♥",
+        "5♦",
+        "6♠"
       ],
-      "total": 17,
-      "bet": 71460,
-      "net": 71460,
+      "total": 21,
+      "bet": 132970,
+      "net": 132970,
       "result": "win"
     }
   },
@@ -248,10 +251,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": 51260,
           "hands": 2,
-          "ach": 6
+          "ach": 10
         },
         {
           "u": "brookswhynot",
@@ -343,7 +346,7 @@
         },
         {
           "u": "darkhorizon35",
-          "chips": 5700,
+          "chips": 10750,
           "net": -10500,
           "hands": 2,
           "ach": 0
@@ -469,10 +472,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -15000,
           "hands": 1,
-          "ach": 6
+          "ach": 10
         },
         {
           "u": "corndawg3",
@@ -546,10 +549,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -21600,
           "hands": 6,
-          "ach": 6
+          "ach": 10
         }
       ],
       "highlights": {
@@ -638,7 +641,7 @@
       "leaderboard": [
         {
           "u": "evangel0203",
-          "chips": 39650,
+          "chips": 39700,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -659,10 +662,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -19000,
           "hands": 12,
-          "ach": 6
+          "ach": 10
         },
         {
           "u": "ikatipoi",
@@ -777,10 +780,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": 0,
           "hands": 1,
-          "ach": 6
+          "ach": 10
         }
       ],
       "highlights": {
@@ -913,17 +916,17 @@
         },
         {
           "u": "evangel0203",
-          "chips": 39650,
+          "chips": 39700,
           "net": -20150,
           "hands": 1,
           "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -30699,
           "hands": 11,
-          "ach": 6
+          "ach": 10
         }
       ],
       "highlights": {
@@ -1012,10 +1015,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -18,
           "hands": 4,
-          "ach": 6
+          "ach": 10
         }
       ],
       "highlights": {
@@ -1144,10 +1147,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 132970,
+          "chips": 0,
           "net": -41000,
           "hands": 6,
-          "ach": 6
+          "ach": 10
         }
       ],
       "highlights": {
@@ -1423,11 +1426,13 @@
         }
       },
       "high_roller_100k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "corndawg3",
-          "d": "2026-05-02"
+          "u": "juicedracing",
+          "d": "2026-05-07"
         }
       },
       "high_roller_250k": {
@@ -1483,11 +1488,13 @@
         }
       },
       "double_or_nothing": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-05-04"
+          "u": "juicedracing",
+          "d": "2026-05-07"
         }
       },
       "patient_money": {
@@ -1574,11 +1581,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
-          "u": "azsuperbeast",
-          "d": "2026-05-04"
+          "u": "juicedracing",
+          "d": "2026-05-07"
         }
       },
       "riches_to_rags_session": {
@@ -1760,11 +1769,13 @@
         }
       },
       "lucky_escape": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
           "u": "juicedracing",
-          "d": "2026-05-06"
+          "d": "2026-05-07"
         }
       },
       "lucky_escape_50": {
@@ -2095,10 +2106,49 @@
         "big_nerve_win": "2026-04-25",
         "bank_builder_100k": "earned",
         "big_swing_session_50k": "2026-04-25",
-        "escalator": "2026-04-25"
+        "escalator": "2026-04-25",
+        "high_roller_100k": "2026-05-07",
+        "lucky_escape": "2026-04-26",
+        "rags_to_riches_session": "2026-04-25",
+        "double_or_nothing": "2026-05-07"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "exact_change_win",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "lucky_escape",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
+      {
+        "id": "double_or_nothing",
+        "u": "juicedracing",
+        "d": "2026-05-07"
+      },
       {
         "id": "high_roller_50k",
         "u": "juicedracing",
@@ -2163,41 +2213,6 @@
         "id": "big_nerve_win",
         "u": "juicedracing",
         "d": "2026-05-06"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "juicedracing",
-        "d": "2026-05-06"
-      },
-      {
-        "id": "clean_poker_win",
-        "u": "juicedracing",
-        "d": "2026-05-06"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "azsuperbeast",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "azsuperbeast",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "double_or_nothing",
-        "u": "azsuperbeast",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "five_card_charlie",
-        "u": "brookswhynot",
-        "d": "2026-05-04"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "brookswhynot",
-        "d": "2026-05-04"
       }
     ]
   },
@@ -2918,6 +2933,43 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778201720.70672,
+      "date": "2026-05-07",
+      "player": "juicedracing",
+      "bet": 132970,
+      "balance_before": 132970,
+      "result": "win",
+      "net_delta": 132970,
+      "player_cards": [
+        "J♥",
+        "5♦",
+        "6♠"
+      ],
+      "player_total": 21,
+      "hit_count": 1,
+      "dealer_cards": [
+        "8♠",
+        "2♠",
+        "K♦"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "exact_change_win",
+        "big_nerve_win",
+        "lucky_escape",
+        "rags_to_riches_session",
+        "double_or_nothing"
+      ]
+    },
     {
       "ts": 1778198754.4656062,
       "date": "2026-05-07",
@@ -4412,38 +4464,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777604289.696254,
-      "date": "2026-04-30",
-      "player": "juicedracing",
-      "bet": 4150,
-      "balance_before": 4200,
-      "result": "win",
-      "net_delta": 4150,
-      "player_cards": [
-        "K♥",
-        "J♥"
-      ],
-      "player_total": 20,
-      "hit_count": 0,
-      "dealer_cards": [
-        "7♠",
-        "4♠",
-        "2♣",
-        "9♦"
-      ],
-      "dealer_total": 22,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "hot_streak_3",
-        "big_nerve_win"
-      ]
     }
   ]
 }
