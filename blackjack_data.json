@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T03:04:50Z",
+  "generated_at": "2026-05-08T03:47:43Z",
   "meta": {
-    "total_hands": 141,
+    "total_hands": 142,
     "total_players": 20,
     "biggest_bet": {
       "user": "corndawg3",
@@ -78,9 +78,9 @@
       },
       {
         "u": "larcen22",
-        "chips": 48079,
-        "net": -23773,
-        "hands": 4,
+        "chips": 60081,
+        "net": -21773,
+        "hands": 5,
         "ach": 6
       },
       {
@@ -134,7 +134,7 @@
       },
       {
         "u": "thesaucypanda2",
-        "chips": 10098,
+        "chips": 10148,
         "net": -20000,
         "hands": 0,
         "ach": 0
@@ -154,18 +154,18 @@
         "ach": 0
       },
       {
+        "u": "brookswhynot",
+        "chips": 2200,
+        "net": -47575,
+        "hands": 1,
+        "ach": 1
+      },
+      {
         "u": "azsuperbeast",
         "chips": 2100,
         "net": -13738,
         "hands": 0,
         "ach": 0
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 1850,
-        "net": -47575,
-        "hands": 1,
-        "ach": 1
       },
       {
         "u": "corndawg3",
@@ -185,9 +185,9 @@
       },
       {
         "u": "larcen22",
-        "chips": 48079,
-        "net": 17881,
-        "hands": 4,
+        "chips": 60081,
+        "net": 19881,
+        "hands": 5,
         "ach": 6
       },
       {
@@ -199,7 +199,7 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 1850,
+        "chips": 2200,
         "net": -30100,
         "hands": 1,
         "ach": 1
@@ -246,11 +246,11 @@
     },
     "most_hands": {
       "u": "larcen22",
-      "n": 4
+      "n": 5
     },
     "best_streak": {
       "u": "larcen22",
-      "n": 3
+      "n": 4
     },
     "worst_streak": {
       "u": "juicedracing",
@@ -259,6 +259,10 @@
     "most_busts": {
       "u": "juicedracing",
       "n": 1
+    },
+    "best_win_rate": {
+      "u": "larcen22",
+      "pct": 80.0
     },
     "best_poker": {
       "u": "larcen22",
@@ -297,7 +301,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": 15025,
           "hands": 1,
           "ach": 1
@@ -364,7 +368,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": 23525,
           "hands": 3,
           "ach": 1
@@ -497,14 +501,14 @@
         },
         {
           "u": "larcen22",
-          "chips": 48079,
+          "chips": 60081,
           "net": -5198,
           "hands": 1,
           "ach": 6
         },
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": -14950,
           "hands": 1,
           "ach": 1
@@ -567,7 +571,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 48079,
+          "chips": 60081,
           "net": 20049,
           "hands": 2,
           "ach": 6
@@ -694,7 +698,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": -6200,
           "hands": 1,
           "ach": 1
@@ -715,7 +719,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 48079,
+          "chips": 60081,
           "net": -80100,
           "hands": 5,
           "ach": 6
@@ -927,7 +931,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 48079,
+          "chips": 60081,
           "net": 26595,
           "hands": 4,
           "ach": 6
@@ -948,7 +952,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": -10000,
           "hands": 1,
           "ach": 1
@@ -1151,7 +1155,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 48079,
+          "chips": 60081,
           "net": -3000,
           "hands": 1,
           "ach": 6
@@ -1172,14 +1176,14 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 10098,
+          "chips": 10148,
           "net": -20000,
           "hands": 1,
           "ach": 0
         },
         {
           "u": "brookswhynot",
-          "chips": 1850,
+          "chips": 2200,
           "net": -24875,
           "hands": 4,
           "ach": 1
@@ -2996,6 +3000,35 @@
   ],
   "recent_hands": [
     {
+      "ts": 1778212063.5220213,
+      "date": "2026-05-07",
+      "player": "larcen22",
+      "bet": 2000,
+      "balance_before": 58081,
+      "result": "win",
+      "net_delta": 2000,
+      "player_cards": [
+        "4♥",
+        "5♣",
+        "K♠"
+      ],
+      "player_total": 19,
+      "hit_count": 1,
+      "dealer_cards": [
+        "8♦",
+        "4♣",
+        "10♠"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1778209490.7499106,
       "date": "2026-05-07",
       "player": "larcen22",
@@ -4499,35 +4532,6 @@
       "dealer_total": 20,
       "dealer_bust": false,
       "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777611458.2161958,
-      "date": "2026-04-30",
-      "player": "larcen22",
-      "bet": 10149,
-      "balance_before": 60149,
-      "result": "bust",
-      "net_delta": -10149,
-      "player_cards": [
-        "8♠",
-        "5♥",
-        "2♠",
-        "7♣"
-      ],
-      "player_total": 22,
-      "hit_count": 2,
-      "dealer_cards": [
-        "10♠",
-        "8♥"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
       "poker_rank": null,
       "poker_pct": null,
       "poker_relief": 0,
