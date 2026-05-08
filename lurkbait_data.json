@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T02:18:36.803489+00:00",
-    "total_catches": 22473,
+    "generated_at": "2026-05-08T02:28:51.767571+00:00",
+    "total_catches": 22474,
     "unique_catches": 374,
     "total_players": 747,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22473 catches"
+      "sub": "Since launch - 22474 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -778,20 +778,20 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 5520,
+        "c": 68,
+        "casts": 68,
+        "l": "May 08 2026"
+      },
+      {
         "u": "phantommarine",
         "n": "phantommarine",
         "g": 5511,
         "c": 88,
         "casts": 88,
         "l": "Jan 25 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 5467,
-        "c": 67,
-        "casts": 67,
-        "l": "May 08 2026"
       },
       {
         "u": "o7buck",
@@ -6356,20 +6356,20 @@
         "l": "May 07 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 619,
+        "c": 8,
+        "casts": 8,
+        "l": "May 08 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 584,
         "c": 9,
         "casts": 9,
         "l": "May 07 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 566,
-        "c": 7,
-        "casts": 7,
-        "l": "May 08 2026"
       },
       {
         "u": "itzdubsta",
@@ -6510,20 +6510,20 @@
         "l": "May 08 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 574,
+        "c": 6,
+        "casts": 6,
+        "l": "May 08 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 526,
         "c": 7,
         "casts": 7,
         "l": "May 07 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 521,
-        "c": 5,
-        "casts": 5,
-        "l": "May 08 2026"
       },
       {
         "u": "cattabolic",
@@ -6720,6 +6720,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
+        "l": "May 08 2026"
+      },
+      {
         "u": "mo_dank",
         "n": "mo_dank",
         "g": 56,
@@ -6747,14 +6755,6 @@
         "u": "x_killswitch22_x",
         "n": "x_killswitch22_x",
         "g": 14,
-        "c": 1,
-        "casts": 1,
-        "l": "May 08 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 11,
         "c": 1,
         "casts": 1,
         "l": "May 08 2026"
@@ -10643,6 +10643,13 @@
         "d": "May 08 2026"
       },
       {
+        "n": "beliron",
+        "i": "Ryan Truex",
+        "v": 53,
+        "r": "Uncommon",
+        "d": "May 08 2026"
+      },
+      {
         "n": "larcen22",
         "i": "Have a Yoga Breath",
         "v": 52,
@@ -10667,13 +10674,6 @@
         "n": "x_killswitch22_x",
         "i": "Will Brown",
         "v": 14,
-        "r": "Common",
-        "d": "May 08 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "Gummy Worms",
-        "v": 11,
         "r": "Common",
         "d": "May 08 2026"
       },
@@ -22561,10 +22561,10 @@
       "n": "Ryan Truex",
       "custom": true,
       "r": "Uncommon",
-      "c": 6,
-      "h": "evangel0203",
-      "v": 51,
-      "w": 51.1
+      "c": 7,
+      "h": "beliron",
+      "v": 53,
+      "w": 52.78
     },
     {
       "n": "Butterfly Fish",
@@ -26727,9 +26727,9 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Got the last name, still waiting on the career",
-      "c": 6,
-      "rec": "51.10 lb",
-      "v": 51
+      "c": 7,
+      "rec": "52.78 lb",
+      "v": 53
     },
     {
       "n": "JJ Yeley",
@@ -26904,6 +26904,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "Ryan Truex",
+      "w": 52.78,
+      "v": 53,
+      "r": "Uncommon",
+      "d": "May 08 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Keys",
@@ -27493,14 +27501,6 @@
       "i": "Pike",
       "w": 1.02,
       "v": 10,
-      "r": "Common",
-      "d": "May 06 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Darlington Raceway",
-      "w": 85.25,
-      "v": 21,
       "r": "Common",
       "d": "May 06 2026"
     }
