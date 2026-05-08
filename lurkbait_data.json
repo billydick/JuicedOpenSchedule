@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T01:44:44.553271+00:00",
-    "total_catches": 22468,
+    "generated_at": "2026-05-08T01:45:48.814633+00:00",
+    "total_catches": 22469,
     "unique_catches": 374,
     "total_players": 747,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22468 catches"
+      "sub": "Since launch - 22469 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -3178,20 +3178,20 @@
         "l": "Aug 02 2025"
       },
       {
+        "u": "brokenanklesracing",
+        "n": "brokenanklesracing",
+        "g": 197,
+        "c": 3,
+        "casts": 3,
+        "l": "May 08 2026"
+      },
+      {
         "u": "chikymcnuggs",
         "n": "chikymcnuggs",
         "g": 197,
         "c": 1,
         "casts": 1,
         "l": "Mar 19 2025"
-      },
-      {
-        "u": "brokenanklesracing",
-        "n": "brokenanklesracing",
-        "g": 196,
-        "c": 2,
-        "casts": 2,
-        "l": "May 02 2026"
       },
       {
         "u": "lethalconnect",
@@ -6762,6 +6762,14 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "May 08 2026"
+      },
+      {
+        "u": "brokenanklesracing",
+        "n": "brokenanklesracing",
         "g": 1,
         "c": 1,
         "casts": 1,
@@ -10672,6 +10680,13 @@
       {
         "n": "itzdubsta",
         "i": "Ryan Preece",
+        "v": 1,
+        "r": "Junk",
+        "d": "May 08 2026"
+      },
+      {
+        "n": "brokenanklesracing",
+        "i": "Corey LaJoie",
         "v": 1,
         "r": "Junk",
         "d": "May 08 2026"
@@ -23136,7 +23151,7 @@
       "n": "Corey LaJoie",
       "custom": true,
       "r": "Common",
-      "c": 170,
+      "c": 171,
       "h": "ogbanana3036",
       "v": 1,
       "w": 1.13
@@ -24539,7 +24554,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Talks like a contender, runs like a backmarker",
-      "c": 170,
+      "c": 171,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26886,6 +26901,14 @@
   ],
   "recent": [
     {
+      "u": "brokenanklesracing",
+      "i": "Corey LaJoie",
+      "w": 0.88,
+      "v": 1,
+      "r": "Junk",
+      "d": "May 08 2026"
+    },
+    {
       "u": "cattabolic",
       "i": "Rabbitfish",
       "w": 2.16,
@@ -27475,14 +27498,6 @@
       "w": 174.01,
       "v": 13,
       "r": "Common",
-      "d": "May 06 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Ryan Preece",
-      "w": 0.92,
-      "v": 1,
-      "r": "Junk",
       "d": "May 06 2026"
     }
   ]
