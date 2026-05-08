@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-07T23:30:38Z",
+  "generated_at": "2026-05-08T00:05:54Z",
   "meta": {
-    "total_hands": 133,
+    "total_hands": 134,
     "total_players": 19,
     "biggest_bet": {
       "user": "corndawg3",
@@ -43,9 +43,9 @@
       },
       {
         "u": "juicedracing",
-        "chips": 142970,
-        "net": -4597,
-        "hands": 1,
+        "chips": 132970,
+        "net": -14597,
+        "hands": 2,
         "ach": 6
       },
       {
@@ -171,9 +171,9 @@
     "daily": [
       {
         "u": "juicedracing",
-        "chips": 142970,
-        "net": 71460,
-        "hands": 1,
+        "chips": 132970,
+        "net": 61460,
+        "hands": 2,
         "ach": 6
       }
     ]
@@ -190,6 +190,18 @@
       "net": 71460,
       "result": "win"
     },
+    "biggest_loss": {
+      "u": "juicedracing",
+      "cards": [
+        "10♠",
+        "6♠",
+        "K♠"
+      ],
+      "total": 26,
+      "bet": 10000,
+      "net": -10000,
+      "result": "bust"
+    },
     "biggest_bet": {
       "u": "juicedracing",
       "cards": [
@@ -203,9 +215,17 @@
     },
     "most_hands": {
       "u": "juicedracing",
-      "n": 1
+      "n": 2
     },
     "best_streak": {
+      "u": "juicedracing",
+      "n": 1
+    },
+    "worst_streak": {
+      "u": "juicedracing",
+      "n": 1
+    },
+    "most_busts": {
       "u": "juicedracing",
       "n": 1
     },
@@ -228,7 +248,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": 51260,
           "hands": 2,
           "ach": 6
@@ -449,7 +469,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -15000,
           "hands": 1,
           "ach": 6
@@ -526,7 +546,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -21600,
           "hands": 6,
           "ach": 6
@@ -639,7 +659,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -19000,
           "hands": 12,
           "ach": 6
@@ -757,7 +777,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": 0,
           "hands": 1,
           "ach": 6
@@ -900,7 +920,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -30699,
           "hands": 11,
           "ach": 6
@@ -992,7 +1012,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -18,
           "hands": 4,
           "ach": 6
@@ -1124,7 +1144,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 142970,
+          "chips": 132970,
           "net": -41000,
           "hands": 6,
           "ach": 6
@@ -2899,6 +2919,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1778198754.4656062,
+      "date": "2026-05-07",
+      "player": "juicedracing",
+      "bet": 10000,
+      "balance_before": 142970,
+      "result": "bust",
+      "net_delta": -10000,
+      "player_cards": [
+        "10♠",
+        "6♠",
+        "K♠"
+      ],
+      "player_total": 26,
+      "hit_count": 1,
+      "dealer_cards": [
+        "8♥",
+        "A♦"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1778196638.8770146,
       "date": "2026-05-07",
       "player": "juicedracing",
@@ -4394,38 +4442,6 @@
       "poker_bonus": 0,
       "achievements_earned": [
         "hot_streak_3",
-        "big_nerve_win"
-      ]
-    },
-    {
-      "ts": 1777604216.943421,
-      "date": "2026-04-30",
-      "player": "juicedracing",
-      "bet": 2050,
-      "balance_before": 2050,
-      "result": "win",
-      "net_delta": 2050,
-      "player_cards": [
-        "5♦",
-        "7♦",
-        "9♠"
-      ],
-      "player_total": 21,
-      "hit_count": 1,
-      "dealer_cards": [
-        "8♥",
-        "6♠",
-        "10♠"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
         "big_nerve_win"
       ]
     }
