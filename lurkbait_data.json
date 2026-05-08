@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-08T01:16:55.180653+00:00",
-    "total_catches": 22462,
+    "generated_at": "2026-05-08T01:19:00.398215+00:00",
+    "total_catches": 22463,
     "unique_catches": 374,
-    "total_players": 746,
+    "total_players": 747,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22462 catches"
+      "sub": "Since launch - 22463 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -4466,6 +4466,14 @@
         "l": "Jan 08 2025"
       },
       {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 08 2026"
+      },
+      {
         "u": "kc_kevtv",
         "n": "kc_kevtv",
         "g": 56,
@@ -6598,6 +6606,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 08 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 44,
@@ -6652,14 +6668,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 08 2026"
-      },
-      {
-        "u": "goatmilkcheez",
-        "n": "goatmilkcheez",
-        "g": 11,
-        "c": 1,
-        "casts": 1,
-        "l": "May 06 2026"
       }
     ],
     "daily": [
@@ -6694,6 +6702,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 07 2026"
+      },
+      {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 08 2026"
       },
       {
         "u": "larcen22",
@@ -10489,6 +10505,13 @@
         "d": "May 04 2026"
       },
       {
+        "n": "mo_dank",
+        "i": "KEISER FUEL REGULATOR & FILTER",
+        "v": 56,
+        "r": "Uncommon",
+        "d": "May 08 2026"
+      },
+      {
         "n": "larcen22",
         "i": "Have a Yoga Breath",
         "v": 52,
@@ -10550,13 +10573,6 @@
         "v": 14,
         "r": "Common",
         "d": "May 08 2026"
-      },
-      {
-        "n": "goatmilkcheez",
-        "i": "Single Seat Radio",
-        "v": 11,
-        "r": "Junk",
-        "d": "May 06 2026"
       }
     ],
     "daily": [
@@ -10587,6 +10603,13 @@
         "v": 65,
         "r": "Rare",
         "d": "May 07 2026"
+      },
+      {
+        "n": "mo_dank",
+        "i": "KEISER FUEL REGULATOR & FILTER",
+        "v": 56,
+        "r": "Uncommon",
+        "d": "May 08 2026"
       },
       {
         "n": "larcen22",
@@ -10628,7 +10651,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 746,
+        "total": 747,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11375,11 +11398,12 @@
           "jukebox373",
           "goatmilkcheez",
           "budd_heavy",
-          "allmy4xsliveintexas"
+          "allmy4xsliveintexas",
+          "mo_dank"
         ],
         "latest": {
-          "u": "allmy4xsliveintexas",
-          "d": "May 07 2026"
+          "u": "mo_dank",
+          "d": "May 08 2026"
         }
       },
       "first_cast": {
@@ -11880,7 +11904,7 @@
         }
       },
       "custom_catch": {
-        "total": 620,
+        "total": 621,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12501,11 +12525,12 @@
           "smallsanders",
           "jukebox373",
           "goatmilkcheez",
-          "allmy4xsliveintexas"
+          "allmy4xsliveintexas",
+          "mo_dank"
         ],
         "latest": {
-          "u": "allmy4xsliveintexas",
-          "d": "May 07 2026"
+          "u": "mo_dank",
+          "d": "May 08 2026"
         }
       },
       "heavy_hauler": {
@@ -19893,6 +19918,10 @@
       "allmy4xsliveintexas": {
         "broke_in": "May 07 2026",
         "custom_catch": "May 07 2026"
+      },
+      "mo_dank": {
+        "broke_in": "May 08 2026",
+        "custom_catch": "May 08 2026"
       }
     },
     "recent_unlocks": [
@@ -22352,7 +22381,7 @@
       "n": "KEISER FUEL REGULATOR & FILTER",
       "custom": true,
       "r": "Uncommon",
-      "c": 80,
+      "c": 81,
       "h": "motionless",
       "v": 56,
       "w": 2.26
@@ -23441,6 +23470,15 @@
       "best_r": "Rare",
       "best_v": 105,
       "d": "May 07 2026"
+    },
+    {
+      "u": "mo_dank",
+      "g": 56,
+      "c": 1,
+      "best_n": "KEISER FUEL REGULATOR & FILTER",
+      "best_r": "Uncommon",
+      "best_v": 56,
+      "d": "May 08 2026"
     }
   ],
   "dex": [
@@ -25060,7 +25098,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "KEISER FUEL REGULATOR AND FUEL FILTER FROM NASCAR CUP TEAM",
-      "c": 80,
+      "c": 81,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -26822,6 +26860,14 @@
   ],
   "recent": [
     {
+      "u": "mo_dank",
+      "i": "KEISER FUEL REGULATOR & FILTER",
+      "w": 2.23,
+      "v": 56,
+      "r": "Uncommon",
+      "d": "May 08 2026"
+    },
+    {
       "u": "x_killswitch22_x",
       "i": "Will Brown",
       "w": 6.6,
@@ -27410,14 +27456,6 @@
       "i": "Barracuda",
       "w": 9.2,
       "v": 31,
-      "r": "Common",
-      "d": "May 06 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Blue Discus",
-      "w": 0.22,
-      "v": 22,
       "r": "Common",
       "d": "May 06 2026"
     }
