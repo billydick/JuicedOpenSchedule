@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-08T03:52:29Z",
+  "generated_at": "2026-05-08T03:53:37Z",
   "meta": {
-    "total_hands": 143,
+    "total_hands": 145,
     "total_players": 20,
     "biggest_bet": {
       "user": "corndawg3",
@@ -78,9 +78,9 @@
       },
       {
         "u": "larcen22",
-        "chips": 60081,
-        "net": -21773,
-        "hands": 6,
+        "chips": 58079,
+        "net": -23775,
+        "hands": 7,
         "ach": 6
       },
       {
@@ -133,13 +133,6 @@
         "ach": 0
       },
       {
-        "u": "thesaucypanda2",
-        "chips": 10148,
-        "net": -20000,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "forthe_lul",
         "chips": 10075,
         "net": -450,
@@ -173,6 +166,13 @@
         "net": -196990,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "thesaucypanda2",
+        "chips": 198,
+        "net": -30000,
+        "hands": 1,
+        "ach": 0
       }
     ],
     "daily": [
@@ -185,15 +185,22 @@
       },
       {
         "u": "larcen22",
-        "chips": 60081,
-        "net": 19881,
-        "hands": 6,
+        "chips": 58079,
+        "net": 17879,
+        "hands": 7,
         "ach": 6
       },
       {
         "u": "cattabolic",
         "chips": 19209,
         "net": 1009,
+        "hands": 1,
+        "ach": 0
+      },
+      {
+        "u": "thesaucypanda2",
+        "chips": 198,
+        "net": -10000,
         "hands": 1,
         "ach": 0
       },
@@ -246,7 +253,7 @@
     },
     "most_hands": {
       "u": "larcen22",
-      "n": 6
+      "n": 7
     },
     "best_streak": {
       "u": "larcen22",
@@ -257,12 +264,12 @@
       "n": 1
     },
     "most_busts": {
-      "u": "juicedracing",
-      "n": 1
+      "u": "larcen22",
+      "n": 2
     },
     "best_win_rate": {
       "u": "larcen22",
-      "pct": 66.7
+      "pct": 57.1
     },
     "best_poker": {
       "u": "larcen22",
@@ -501,7 +508,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 60081,
+          "chips": 58079,
           "net": -5198,
           "hands": 1,
           "ach": 6
@@ -571,7 +578,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 60081,
+          "chips": 58079,
           "net": 20049,
           "hands": 2,
           "ach": 6
@@ -719,7 +726,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 60081,
+          "chips": 58079,
           "net": -80100,
           "hands": 5,
           "ach": 6
@@ -931,7 +938,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 60081,
+          "chips": 58079,
           "net": 26595,
           "hands": 4,
           "ach": 6
@@ -1155,7 +1162,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 60081,
+          "chips": 58079,
           "net": -3000,
           "hands": 1,
           "ach": 6
@@ -1176,7 +1183,7 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 10148,
+          "chips": 198,
           "net": -20000,
           "hands": 1,
           "ach": 0
@@ -3000,6 +3007,63 @@
   ],
   "recent_hands": [
     {
+      "ts": 1778212417.859744,
+      "date": "2026-05-07",
+      "player": "thesaucypanda2",
+      "bet": 10000,
+      "balance_before": 10148,
+      "result": "bust",
+      "net_delta": -10000,
+      "player_cards": [
+        "3♦",
+        "Q♣",
+        "K♥"
+      ],
+      "player_total": 23,
+      "hit_count": 1,
+      "dealer_cards": [
+        "9♥",
+        "9♦"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
+      "ts": 1778212417.8593943,
+      "date": "2026-05-07",
+      "player": "larcen22",
+      "bet": 2002,
+      "balance_before": 60081,
+      "result": "bust",
+      "net_delta": -2002,
+      "player_cards": [
+        "3♠",
+        "2♣",
+        "8♠",
+        "J♦"
+      ],
+      "player_total": 23,
+      "hit_count": 2,
+      "dealer_cards": [
+        "9♥",
+        "9♦"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1778212349.0439966,
       "date": "2026-05-07",
       "player": "larcen22",
@@ -4475,70 +4539,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777611612.2741492,
-      "date": "2026-04-30",
-      "player": "juicedracing",
-      "bet": 3100,
-      "balance_before": 3150,
-      "result": "win",
-      "net_delta": 3100,
-      "player_cards": [
-        "9♠",
-        "6♦",
-        "3♥"
-      ],
-      "player_total": 18,
-      "hit_count": 1,
-      "dealer_cards": [
-        "J♥",
-        "3♠",
-        "4♦"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "big_nerve_win"
-      ]
-    },
-    {
-      "ts": 1777611516.762081,
-      "date": "2026-04-30",
-      "player": "larcen22",
-      "bet": 50000,
-      "balance_before": 50000,
-      "result": "lose",
-      "net_delta": -50000,
-      "player_cards": [
-        "7♥",
-        "K♠"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "6♦",
-        "Q♠",
-        "4♣"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "high_roller_50k",
-        "rags_to_riches_session",
-        "big_swing_session_50k",
-        "escalator"
-      ]
     }
   ]
 }
