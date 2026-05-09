@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-09T22:15:20.880241+00:00",
-    "total_catches": 22494,
+    "generated_at": "2026-05-09T22:48:57.568993+00:00",
+    "total_catches": 22495,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22494 catches"
+      "sub": "Since launch - 22495 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -770,20 +770,20 @@
         "l": "Apr 19 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 5756,
+        "c": 70,
+        "casts": 70,
+        "l": "May 09 2026"
+      },
+      {
         "u": "robbievrabeljr",
         "n": "robbievrabeljr",
         "g": 5615,
         "c": 73,
         "casts": 73,
         "l": "Jan 28 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 5595,
-        "c": 69,
-        "casts": 69,
-        "l": "May 08 2026"
       },
       {
         "u": "phantommarine",
@@ -6348,6 +6348,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 855,
+        "c": 10,
+        "casts": 10,
+        "l": "May 09 2026"
+      },
+      {
         "u": "mrbrowz_fdm",
         "n": "mrbrowz_fdm",
         "g": 855,
@@ -6370,14 +6378,6 @@
         "c": 11,
         "casts": 11,
         "l": "May 07 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 694,
-        "c": 9,
-        "casts": 9,
-        "l": "May 08 2026"
       },
       {
         "u": "itzdubsta",
@@ -6518,19 +6518,19 @@
         "l": "May 08 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 810,
+        "c": 8,
+        "casts": 8,
+        "l": "May 09 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 778,
         "c": 12,
         "casts": 12,
-        "l": "May 08 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 649,
-        "c": 7,
-        "casts": 7,
         "l": "May 08 2026"
       },
       {
@@ -6678,7 +6678,16 @@
         "l": "May 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 161,
+        "c": 1,
+        "casts": 1,
+        "l": "May 09 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10333,7 +10342,15 @@
         "d": "May 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "beliron",
+        "i": "Matt Tyrrekk",
+        "v": 161,
+        "r": "Rare",
+        "d": "May 09 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -20797,7 +20814,7 @@
       "n": "Matt Tyrrekk",
       "custom": true,
       "r": "Epic",
-      "c": 26,
+      "c": 27,
       "h": "benwysard",
       "v": 169,
       "w": 56.31
@@ -25926,7 +25943,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#19 Gasman, Joe Gibbs Racing, Played in the NFL",
-      "c": 26,
+      "c": 27,
       "rec": "56.31 lb",
       "v": 169
     },
@@ -26572,6 +26589,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Matt Tyrrekk",
+      "w": 53.53,
+      "v": 161,
+      "r": "Rare",
+      "d": "May 09 2026"
+    },
+    {
       "u": "larcen22",
       "i": "Next Gen Mustang",
       "w": 1.05,
@@ -27161,14 +27186,6 @@
       "w": 4.5,
       "v": 34,
       "r": "Common",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "iRacer Kirk Martin",
-      "w": 97.37,
-      "v": 162,
-      "r": "Epic",
       "d": "May 07 2026"
     }
   ]
