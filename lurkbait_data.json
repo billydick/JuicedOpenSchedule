@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-09T22:48:57.568993+00:00",
-    "total_catches": 22495,
+    "generated_at": "2026-05-09T22:56:07.822455+00:00",
+    "total_catches": 22496,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22495 catches"
+      "sub": "Since launch - 22496 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 99287,
-        "c": 1259,
-        "casts": 1259,
-        "l": "May 07 2026"
+        "g": 99355,
+        "c": 1260,
+        "casts": 1260,
+        "l": "May 09 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6286,10 +6286,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 2051,
-        "c": 24,
-        "casts": 24,
-        "l": "May 07 2026"
+        "g": 2119,
+        "c": 25,
+        "casts": 25,
+        "l": "May 09 2026"
       },
       {
         "u": "nellafella",
@@ -6488,10 +6488,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1483,
-        "c": 17,
-        "casts": 17,
-        "l": "May 07 2026"
+        "g": 1551,
+        "c": 18,
+        "casts": 18,
+        "l": "May 09 2026"
       },
       {
         "u": "nellafella",
@@ -6683,6 +6683,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 161,
+        "c": 1,
+        "casts": 1,
+        "l": "May 09 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 68,
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
@@ -10347,6 +10355,13 @@
         "n": "beliron",
         "i": "Matt Tyrrekk",
         "v": 161,
+        "r": "Rare",
+        "d": "May 09 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Piranha",
+        "v": 68,
         "r": "Rare",
         "d": "May 09 2026"
       }
@@ -21588,7 +21603,7 @@
       "n": "Piranha",
       "custom": false,
       "r": "Rare",
-      "c": 58,
+      "c": 59,
       "h": "dontuu",
       "v": 90,
       "w": 1.13
@@ -23324,7 +23339,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 58,
+      "c": 59,
       "rec": "1.13 lb",
       "v": 90
     },
@@ -26589,6 +26604,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Piranha",
+      "w": 0.85,
+      "v": 68,
+      "r": "Rare",
+      "d": "May 09 2026"
+    },
+    {
       "u": "beliron",
       "i": "Matt Tyrrekk",
       "w": 53.53,
@@ -27177,14 +27200,6 @@
       "i": "Gummy Worms",
       "w": 1.11,
       "v": 11,
-      "r": "Common",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Salmon",
-      "w": 4.5,
-      "v": 34,
       "r": "Common",
       "d": "May 07 2026"
     }
