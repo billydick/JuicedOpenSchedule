@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-09T22:57:11.619696+00:00",
-    "total_catches": 22498,
+    "generated_at": "2026-05-09T23:07:25.765042+00:00",
+    "total_catches": 22499,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22498 catches"
+      "sub": "Since launch - 22499 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1026,6 +1026,14 @@
         "l": "Jun 26 2025"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 3095,
+        "c": 49,
+        "casts": 49,
+        "l": "May 09 2026"
+      },
+      {
         "u": "kgabbs",
         "n": "kgabbs",
         "g": 2971,
@@ -1056,14 +1064,6 @@
         "c": 55,
         "casts": 55,
         "l": "May 07 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 2885,
-        "c": 48,
-        "casts": 48,
-        "l": "May 09 2026"
       },
       {
         "u": "kanetcrawford",
@@ -6300,20 +6300,20 @@
         "l": "May 08 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 1436,
+        "c": 22,
+        "casts": 22,
+        "l": "May 09 2026"
+      },
+      {
         "u": "ironlegacy_",
         "n": "ironlegacy_",
         "g": 1329,
         "c": 17,
         "casts": 17,
         "l": "May 05 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 1226,
-        "c": 21,
-        "casts": 21,
-        "l": "May 09 2026"
       },
       {
         "u": "larcen22",
@@ -6534,6 +6534,14 @@
         "l": "May 08 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 609,
+        "c": 5,
+        "casts": 5,
+        "l": "May 09 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 526,
@@ -6564,14 +6572,6 @@
         "c": 5,
         "casts": 5,
         "l": "May 07 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 399,
-        "c": 4,
-        "casts": 4,
-        "l": "May 09 2026"
       },
       {
         "u": "azsuperbeast",
@@ -6682,9 +6682,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 187,
-        "c": 1,
-        "casts": 1,
+        "g": 397,
+        "c": 2,
+        "casts": 2,
         "l": "May 09 2026"
       },
       {
@@ -10105,6 +10105,13 @@
         "d": "May 07 2026"
       },
       {
+        "n": "realiist1",
+        "i": "A License",
+        "v": 210,
+        "r": "Epic",
+        "d": "May 09 2026"
+      },
+      {
         "n": "x_killswitch22_x",
         "i": "Buddy Baker",
         "v": 196,
@@ -10117,13 +10124,6 @@
         "v": 190,
         "r": "Epic",
         "d": "May 03 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 187,
-        "r": "Epic",
-        "d": "May 09 2026"
       },
       {
         "n": "juicedracing",
@@ -10247,18 +10247,18 @@
         "d": "May 07 2026"
       },
       {
+        "n": "realiist1",
+        "i": "A License",
+        "v": 210,
+        "r": "Epic",
+        "d": "May 09 2026"
+      },
+      {
         "n": "ironlegacy_",
         "i": "iRacer - Kirk Martin",
         "v": 210,
         "r": "Epic",
         "d": "May 05 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 187,
-        "r": "Epic",
-        "d": "May 09 2026"
       },
       {
         "n": "itzdubsta",
@@ -10369,8 +10369,8 @@
     "daily": [
       {
         "n": "realiist1",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 187,
+        "i": "A License",
+        "v": 210,
         "r": "Epic",
         "d": "May 09 2026"
       },
@@ -20116,7 +20116,7 @@
       "n": "A License",
       "custom": true,
       "r": "Legendary",
-      "c": 35,
+      "c": 36,
       "h": "pvtcrackpot",
       "v": 274,
       "w": 1.1
@@ -25398,7 +25398,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "How in the shit are you still causing wrecks?",
-      "c": 35,
+      "c": 36,
       "rec": "1.10 lb",
       "v": 274
     },
@@ -26638,6 +26638,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "A License",
+      "w": 0.84,
+      "v": 210,
+      "r": "Epic",
+      "d": "May 09 2026"
+    },
+    {
       "u": "codycoyoteracing",
       "i": "Austin Hill",
       "w": 80.68,
@@ -27227,14 +27235,6 @@
       "w": 26.62,
       "v": 213,
       "r": "Epic",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "87 Le Sabre",
-      "w": 112.05,
-      "v": 168,
-      "r": "Rare",
       "d": "May 07 2026"
     }
   ]
