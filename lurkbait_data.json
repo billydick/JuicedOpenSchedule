@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-09T23:08:29.560945+00:00",
-    "total_catches": 22501,
+    "generated_at": "2026-05-09T23:09:33.353826+00:00",
+    "total_catches": 22502,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22501 catches"
+      "sub": "Since launch - 22502 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 99355,
-        "c": 1260,
-        "casts": 1260,
+        "g": 99518,
+        "c": 1261,
+        "casts": 1261,
         "l": "May 09 2026"
       },
       {
@@ -6286,9 +6286,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 2119,
-        "c": 25,
-        "casts": 25,
+        "g": 2282,
+        "c": 26,
+        "casts": 26,
         "l": "May 09 2026"
       },
       {
@@ -6478,20 +6478,20 @@
     ],
     "weekly": [
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 1714,
+        "c": 19,
+        "casts": 19,
+        "l": "May 09 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 1696,
         "c": 29,
         "casts": 29,
         "l": "May 08 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 1551,
-        "c": 18,
-        "casts": 18,
-        "l": "May 09 2026"
       },
       {
         "u": "nellafella",
@@ -6688,6 +6688,14 @@
         "l": "May 09 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 231,
+        "c": 2,
+        "casts": 2,
+        "l": "May 09 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 161,
@@ -6699,14 +6707,6 @@
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 81,
-        "c": 1,
-        "casts": 1,
-        "l": "May 09 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 68,
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
@@ -10391,6 +10391,13 @@
         "d": "May 09 2026"
       },
       {
+        "n": "motionless",
+        "i": "87 Le Sabre",
+        "v": 163,
+        "r": "Rare",
+        "d": "May 09 2026"
+      },
+      {
         "n": "beliron",
         "i": "Matt Tyrrekk",
         "v": 161,
@@ -10401,13 +10408,6 @@
         "n": "codycoyoteracing",
         "i": "Austin Hill",
         "v": 81,
-        "r": "Rare",
-        "d": "May 09 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Piranha",
-        "v": 68,
         "r": "Rare",
         "d": "May 09 2026"
       },
@@ -20983,7 +20983,7 @@
       "n": "87 Le Sabre",
       "custom": true,
       "r": "Epic",
-      "c": 37,
+      "c": 38,
       "h": "dogger_101",
       "v": 168,
       "w": 112.25
@@ -25707,7 +25707,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "VRRROOOOM!",
-      "c": 37,
+      "c": 38,
       "rec": "112.25 lb",
       "v": 168
     },
@@ -26668,6 +26668,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "87 Le Sabre",
+      "w": 108.7,
+      "v": 163,
+      "r": "Rare",
+      "d": "May 09 2026"
+    },
+    {
       "u": "pvtcrackpot",
       "i": "Soda Can",
       "w": 0.1,
@@ -27257,14 +27265,6 @@
       "w": 0.97,
       "v": 1,
       "r": "Junk",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Bubba Wallace",
-      "w": 23.45,
-      "v": 23,
-      "r": "Common",
       "d": "May 07 2026"
     }
   ]
