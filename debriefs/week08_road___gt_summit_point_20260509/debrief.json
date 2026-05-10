@@ -4,7 +4,7 @@
   "date": "2026-05-09",
   "track": "Summit Point",
   "discipline": "Road / GT",
-  "penalties": "",
+  "penalties": "Car #4 has been issued a formal warning for reckless driving. \nCar #16 Has been issued a formal warning for intentional wrecking.  A repeat will result in a season ban.",
   "folder": "week08_road___gt_summit_point_20260509",
   "incidents": [
     {
@@ -12,12 +12,36 @@
       "lap": "1",
       "location": "Start",
       "cars": "#4, #16, #13",
-      "desc": "",
-      "ruling": "The #4 car sends it to the outside at the start, the track narrows almost immediately putting the #4 car on the grass.  The #4 car loses control comes back onto the track and sending both the #16, and the #13 off the track.  The #13 had a ruined race and was sent into the air.",
+      "desc": "The #4 car sends it to the outside at the start, the track narrows almost immediately putting the #4 car on the grass.  The #4 car loses control comes back onto the track and sending both the #16, and the #13 off the track.  The #13 had a ruined race and was sent into the air.",
+      "ruling": "The #4 Car is completely at fault and unnecessarily ruined 2 other drivers races.  It's ok to be an aggressive driver in the Juiced Open however impatience needs to be balanced with skill and there is no skill on display here.",
       "images": [
         "inc01_before.webp",
         "inc01_contact.webp",
         "inc01_photo3.webp"
+      ]
+    },
+    {
+      "num": 2,
+      "lap": "2",
+      "location": "Turn 1",
+      "cars": "#3, #101",
+      "desc": "In Turn 1 the #101 car goes high and leaves plenty of room for the #3 car however the #3 ignores the inside / clear lane on the track, pushes up into the #101 car and spins him.",
+      "ruling": "#3 car is at fault.  You always have to make room and if someone gives you room then take it vs attempt to share a lane.",
+      "images": [
+        "inc02_before.webp",
+        "inc02_contact.webp"
+      ]
+    },
+    {
+      "num": 3,
+      "lap": "5",
+      "location": "Entering Turn 1",
+      "cars": "#4, #16",
+      "desc": "The #16 retaliates into the #4 car from the race start incident involving these cars",
+      "ruling": "#16 is at fault.  There is no retaliation in the Juiced Open.  This is a formal waring, another intentional wreck will end your season in the Juiced Open.",
+      "images": [
+        "inc03_before.webp",
+        "inc03_contact.webp"
       ]
     }
   ]
