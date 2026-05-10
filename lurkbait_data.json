@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T00:48:09.136090+00:00",
-    "total_catches": 22520,
+    "generated_at": "2026-05-10T00:52:16.068135+00:00",
+    "total_catches": 22521,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22520 catches"
+      "sub": "Since launch - 22521 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -642,20 +642,20 @@
         "l": "Dec 17 2024"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 7424,
+        "c": 101,
+        "casts": 101,
+        "l": "May 10 2026"
+      },
+      {
         "u": "dowinkle",
         "n": "dowinkle",
         "g": 7418,
         "c": 127,
         "casts": 127,
         "l": "Jan 09 2025"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 7395,
-        "c": 100,
-        "casts": 100,
-        "l": "May 07 2026"
       },
       {
         "u": "krueger1981",
@@ -6374,10 +6374,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 799,
-        "c": 9,
-        "casts": 9,
-        "l": "May 07 2026"
+        "g": 828,
+        "c": 10,
+        "casts": 10,
+        "l": "May 10 2026"
       },
       {
         "u": "itzdubsta",
@@ -6568,10 +6568,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 434,
-        "c": 5,
-        "casts": 5,
-        "l": "May 07 2026"
+        "g": 463,
+        "c": 6,
+        "casts": 6,
+        "l": "May 10 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6758,6 +6758,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
+      },
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 29,
+        "c": 1,
+        "casts": 1,
+        "l": "May 10 2026"
       }
     ]
   },
@@ -10484,6 +10492,13 @@
         "v": 42,
         "r": "Uncommon",
         "d": "May 09 2026"
+      },
+      {
+        "n": "rms_racing",
+        "i": "Rabbitfish",
+        "v": 29,
+        "r": "Uncommon",
+        "d": "May 10 2026"
       }
     ]
   },
@@ -22463,7 +22478,7 @@
       "n": "Rabbitfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 80,
+      "c": 81,
       "h": "78motu78",
       "v": 39,
       "w": 2.25
@@ -24757,7 +24772,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 80,
+      "c": 81,
       "rec": "2.25 lb",
       "v": 39
     },
@@ -26726,6 +26741,14 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Rabbitfish",
+      "w": 1.67,
+      "v": 29,
+      "r": "Uncommon",
+      "d": "May 10 2026"
+    },
+    {
       "u": "pvtcrackpot",
       "i": "BJ McLeod",
       "w": 41.6,
@@ -27315,14 +27338,6 @@
       "w": 83.75,
       "v": 42,
       "r": "Uncommon",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Austin Dillon",
-      "w": 12.64,
-      "v": 21,
-      "r": "Common",
       "d": "May 07 2026"
     }
   ]
