@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-10T05:23:08Z",
+  "generated_at": "2026-05-10T05:24:41Z",
   "meta": {
-    "total_hands": 153,
+    "total_hands": 154,
     "total_players": 21,
     "biggest_bet": {
       "user": "juicedracing",
@@ -147,13 +147,6 @@
         "ach": 0
       },
       {
-        "u": "brookswhynot",
-        "chips": 2675,
-        "net": -61000,
-        "hands": 2,
-        "ach": 2
-      },
-      {
         "u": "azsuperbeast",
         "chips": 2100,
         "net": -13738,
@@ -166,6 +159,13 @@
         "net": -30000,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "brookswhynot",
+        "chips": 318,
+        "net": -63407,
+        "hands": 3,
+        "ach": 4
       },
       {
         "u": "corndawg3",
@@ -213,10 +213,10 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 2675,
-        "net": -13425,
-        "hands": 2,
-        "ach": 2
+        "chips": 318,
+        "net": -15832,
+        "hands": 3,
+        "ach": 4
       },
       {
         "u": "evangel0203",
@@ -263,8 +263,8 @@
       "result": "win"
     },
     "most_hands": {
-      "u": "juicedracing",
-      "n": 2
+      "u": "brookswhynot",
+      "n": 3
     },
     "best_streak": {
       "u": "juicedracing",
@@ -277,6 +277,19 @@
     "most_blackjacks": {
       "u": "pvtcrackpot",
       "n": 1
+    },
+    "most_busts": {
+      "u": "brookswhynot",
+      "n": 1
+    },
+    "best_poker": {
+      "u": "brookswhynot",
+      "rank": "pair",
+      "cards": [
+        "6♠",
+        "K♣",
+        "6♥"
+      ]
     },
     "most_cards_win": {
       "u": "juicedracing",
@@ -326,10 +339,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": -30100,
           "hands": 1,
-          "ach": 2
+          "ach": 4
         }
       ],
       "highlights": {
@@ -427,10 +440,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": 15025,
           "hands": 1,
-          "ach": 2
+          "ach": 4
         }
       ],
       "highlights": {
@@ -494,10 +507,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": 23525,
           "hands": 3,
-          "ach": 2
+          "ach": 4
         },
         {
           "u": "motionless",
@@ -634,10 +647,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": -14950,
           "hands": 1,
-          "ach": 2
+          "ach": 4
         },
         {
           "u": "juicedracing",
@@ -824,10 +837,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": -6200,
           "hands": 1,
-          "ach": 2
+          "ach": 4
         },
         {
           "u": "juicedracing",
@@ -1078,10 +1091,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": -10000,
           "hands": 1,
-          "ach": 2
+          "ach": 4
         },
         {
           "u": "evangel0203",
@@ -1309,10 +1322,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2675,
+          "chips": 318,
           "net": -24875,
           "hands": 4,
-          "ach": 2
+          "ach": 4
         },
         {
           "u": "juicedracing",
@@ -2016,11 +2029,13 @@
         }
       },
       "poker_pair_any": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-05-07"
+          "u": "brookswhynot",
+          "d": "2026-05-09"
         }
       },
       "poker_two_pair_any": {
@@ -2232,11 +2247,13 @@
         }
       },
       "poker_salvation": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-05-07"
+          "u": "brookswhynot",
+          "d": "2026-05-09"
         }
       },
       "poker_salvation_25": {
@@ -2326,10 +2343,22 @@
       },
       "brookswhynot": {
         "exact_change_win": "2026-04-25",
-        "big_nerve_win": "2026-04-25"
+        "big_nerve_win": "2026-04-25",
+        "poker_pair_any": "2026-05-04",
+        "poker_salvation": "2026-05-09"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "brookswhynot",
+        "d": "2026-05-09"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "brookswhynot",
+        "d": "2026-05-09"
+      },
       {
         "id": "exact_change_win",
         "u": "brookswhynot",
@@ -2417,16 +2446,6 @@
       },
       {
         "id": "high_roller_50k",
-        "u": "pvtcrackpot",
-        "d": "2026-05-09"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "pvtcrackpot",
-        "d": "2026-05-09"
-      },
-      {
-        "id": "exact_change_win",
         "u": "pvtcrackpot",
         "d": "2026-05-09"
       }
@@ -3149,6 +3168,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778390681.209304,
+      "date": "2026-05-09",
+      "player": "brookswhynot",
+      "bet": 2675,
+      "balance_before": 2675,
+      "result": "bust",
+      "net_delta": -2407,
+      "player_cards": [
+        "6♠",
+        "K♣",
+        "6♥"
+      ],
+      "player_total": 22,
+      "hit_count": 1,
+      "dealer_cards": [
+        "10♠",
+        "J♥"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 268,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1778390588.5081606,
       "date": "2026-05-09",
@@ -4664,38 +4714,6 @@
       "achievements_earned": [
         "rags_to_riches_session"
       ]
-    },
-    {
-      "ts": 1777685588.8669393,
-      "date": "2026-05-01",
-      "player": "juicedracing",
-      "bet": 5000,
-      "balance_before": 27370,
-      "result": "lose",
-      "net_delta": -5000,
-      "player_cards": [
-        "7♣",
-        "8♥",
-        "5♥"
-      ],
-      "player_total": 20,
-      "hit_count": 1,
-      "dealer_cards": [
-        "4♠",
-        "5♦",
-        "3♠",
-        "A♣",
-        "2♣",
-        "6♠"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
