@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T03:41:28.571807+00:00",
-    "total_catches": 22580,
+    "generated_at": "2026-05-10T03:46:37.656512+00:00",
+    "total_catches": 22582,
     "unique_catches": 374,
     "total_players": 751,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22580 catches"
+      "sub": "Since launch - 22582 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -404,9 +404,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 23627,
-        "c": 314,
-        "casts": 314,
+        "g": 23629,
+        "c": 315,
+        "casts": 315,
         "l": "May 10 2026"
       },
       {
@@ -4122,6 +4122,14 @@
         "l": "Jun 29 2025"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 84,
+        "c": 2,
+        "casts": 2,
+        "l": "May 10 2026"
+      },
+      {
         "u": "nikatnite48",
         "n": "nikatnite48",
         "g": 84,
@@ -5072,14 +5080,6 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 08 2025"
-      },
-      {
-        "u": "dogfish__27",
-        "n": "dogfish__27",
-        "g": 29,
-        "c": 1,
-        "casts": 1,
-        "l": "May 10 2026"
       },
       {
         "u": "dang3r_no0dl3",
@@ -6302,9 +6302,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 5869,
-        "c": 95,
-        "casts": 95,
+        "g": 5871,
+        "c": 96,
+        "casts": 96,
         "l": "May 10 2026"
       },
       {
@@ -6504,9 +6504,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 3552,
-        "c": 54,
-        "casts": 54,
+        "g": 3554,
+        "c": 55,
+        "casts": 55,
         "l": "May 10 2026"
       },
       {
@@ -6706,9 +6706,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1856,
-        "c": 25,
-        "casts": 25,
+        "g": 1858,
+        "c": 26,
+        "casts": 26,
         "l": "May 10 2026"
       },
       {
@@ -6856,6 +6856,14 @@
         "l": "May 10 2026"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 84,
+        "c": 2,
+        "casts": 2,
+        "l": "May 10 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 81,
@@ -6886,14 +6894,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
-      },
-      {
-        "u": "dogfish__27",
-        "n": "dogfish__27",
-        "g": 29,
-        "c": 1,
-        "casts": 1,
-        "l": "May 10 2026"
       }
     ]
   },
@@ -10692,6 +10692,13 @@
         "d": "May 10 2026"
       },
       {
+        "n": "dogfish__27",
+        "i": "Michael McDowell",
+        "v": 55,
+        "r": "Uncommon",
+        "d": "May 10 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Ty Dillon",
         "v": 52,
@@ -10711,13 +10718,6 @@
         "v": 42,
         "r": "Uncommon",
         "d": "May 09 2026"
-      },
-      {
-        "n": "dogfish__27",
-        "i": "Black Redeye",
-        "v": 29,
-        "r": "Common",
-        "d": "May 10 2026"
       }
     ]
   },
@@ -11981,7 +11981,7 @@
         }
       },
       "custom_catch": {
-        "total": 624,
+        "total": 625,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12606,10 +12606,11 @@
           "mo_dank",
           "muskrat21",
           "barnsdale",
-          "sparkyracingtv"
+          "sparkyracingtv",
+          "dogfish__27"
         ],
         "latest": {
-          "u": "sparkyracingtv",
+          "u": "dogfish__27",
           "d": "May 10 2026"
         }
       },
@@ -20032,7 +20033,8 @@
         "custom_catch": "May 10 2026"
       },
       "dogfish__27": {
-        "broke_in": "May 10 2026"
+        "broke_in": "May 10 2026",
+        "custom_catch": "May 10 2026"
       }
     },
     "recent_unlocks": [
@@ -22813,6 +22815,15 @@
       "w": 47.05
     },
     {
+      "n": "Michael McDowell",
+      "custom": true,
+      "r": "Common",
+      "c": 171,
+      "h": "dogfish__27",
+      "v": 55,
+      "w": 54.98
+    },
+    {
       "n": "Noah Gragson",
       "custom": true,
       "r": "Common",
@@ -22820,15 +22831,6 @@
       "h": "brookswhynot",
       "v": 55,
       "w": 32.75
-    },
-    {
-      "n": "Michael McDowell",
-      "custom": true,
-      "r": "Common",
-      "c": 170,
-      "h": "grumpymitch1",
-      "v": 54,
-      "w": 53.97
     },
     {
       "n": "Atlantic Cod",
@@ -23482,7 +23484,7 @@
       "n": "Thong",
       "custom": false,
       "r": "Junk",
-      "c": 105,
+      "c": 106,
       "h": "flippy00",
       "v": 2,
       "w": 0.23
@@ -23620,11 +23622,11 @@
     },
     {
       "u": "dogfish__27",
-      "g": 29,
-      "c": 1,
-      "best_n": "Black Redeye",
-      "best_r": "Common",
-      "best_v": 29,
+      "g": 84,
+      "c": 2,
+      "best_n": "Michael McDowell",
+      "best_r": "Uncommon",
+      "best_v": 55,
       "d": "May 10 2026"
     }
   ],
@@ -24543,7 +24545,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 105,
+      "c": 106,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -24822,9 +24824,9 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Won a Daytona and been coasting off it ever since",
-      "c": 170,
-      "rec": "53.97 lb",
-      "v": 54
+      "c": 171,
+      "rec": "54.98 lb",
+      "v": 55
     },
     {
       "n": "Green Sea Turtle",
@@ -27007,6 +27009,22 @@
   ],
   "recent": [
     {
+      "u": "dogfish__27",
+      "i": "Michael McDowell",
+      "w": 54.98,
+      "v": 55,
+      "r": "Uncommon",
+      "d": "May 10 2026"
+    },
+    {
+      "u": "brookswhynot",
+      "i": "Thong",
+      "w": 0.22,
+      "v": 2,
+      "r": "Junk",
+      "d": "May 10 2026"
+    },
+    {
       "u": "dvn_immortalflame",
       "i": "Sunfish",
       "w": 827.9,
@@ -27588,22 +27606,6 @@
       "w": 10.09,
       "v": 30,
       "r": "Junk",
-      "d": "May 09 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "NASCAR Tickets",
-      "w": 0.8,
-      "v": 40,
-      "r": "Uncommon",
-      "d": "May 09 2026"
-    },
-    {
-      "u": "grumpymitch1",
-      "i": "Pickle",
-      "w": 0.47,
-      "v": 94,
-      "r": "Rare",
       "d": "May 09 2026"
     }
   ]
