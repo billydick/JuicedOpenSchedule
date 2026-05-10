@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T02:26:07.811600+00:00",
-    "total_catches": 22553,
+    "generated_at": "2026-05-10T02:28:12.980797+00:00",
+    "total_catches": 22554,
     "unique_catches": 374,
     "total_players": 749,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22553 catches"
+      "sub": "Since launch - 22554 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 99745,
-        "c": 1265,
-        "casts": 1265,
+        "g": 99980,
+        "c": 1266,
+        "casts": 1266,
         "l": "May 10 2026"
       },
       {
@@ -6294,9 +6294,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 2509,
-        "c": 30,
-        "casts": 30,
+        "g": 2744,
+        "c": 31,
+        "casts": 31,
         "l": "May 10 2026"
       },
       {
@@ -6496,9 +6496,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 1941,
-        "c": 23,
-        "casts": 23,
+        "g": 2176,
+        "c": 24,
+        "casts": 24,
         "l": "May 10 2026"
       },
       {
@@ -6698,9 +6698,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 458,
-        "c": 6,
-        "casts": 6,
+        "g": 693,
+        "c": 7,
+        "casts": 7,
         "l": "May 10 2026"
       },
       {
@@ -10496,6 +10496,13 @@
     ],
     "daily": [
       {
+        "n": "motionless",
+        "i": "Darrell Waltrip",
+        "v": 235,
+        "r": "Epic",
+        "d": "May 10 2026"
+      },
+      {
         "n": "realiist1",
         "i": "A License",
         "v": 210,
@@ -10529,13 +10536,6 @@
         "v": 168,
         "r": "Rare",
         "d": "May 10 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "87 Le Sabre",
-        "v": 163,
-        "r": "Rare",
-        "d": "May 09 2026"
       },
       {
         "n": "flippy00",
@@ -11487,7 +11487,7 @@
         }
       },
       "catch_of_day": {
-        "total": 127,
+        "total": 126,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11614,12 +11614,11 @@
           "v1per_simr4cin6",
           "mrbrowz_fdm",
           "dvn_immortalflame",
-          "turbosnail87",
-          "realiist1"
+          "turbosnail87"
         ],
         "latest": {
-          "u": "realiist1",
-          "d": "May 09 2026"
+          "u": "turbosnail87",
+          "d": "May 07 2026"
         }
       },
       "win_day": {
@@ -19698,7 +19697,6 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
-        "catch_of_day": "May 09 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
@@ -20375,7 +20373,7 @@
       "n": "Darrell Waltrip",
       "custom": true,
       "r": "Legendary",
-      "c": 6,
+      "c": 7,
       "h": "motionless",
       "v": 269,
       "w": 129.04
@@ -26593,7 +26591,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "3 Time NASCAR Champion and Sportscaster",
-      "c": 6,
+      "c": 7,
       "rec": "129.04 lb",
       "v": 269
     },
@@ -26887,6 +26885,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "motionless",
+      "i": "Darrell Waltrip",
+      "w": 112.57,
+      "v": 235,
+      "r": "Epic",
+      "d": "May 10 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Atlantic Cod",
@@ -27477,14 +27483,6 @@
       "w": 28.01,
       "v": 112,
       "r": "Rare",
-      "d": "May 08 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Coffee Cup",
-      "w": 0.18,
-      "v": 2,
-      "r": "Junk",
       "d": "May 08 2026"
     }
   ]
