@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T03:34:09.334583+00:00",
-    "total_catches": 22574,
+    "generated_at": "2026-05-10T03:36:14.715651+00:00",
+    "total_catches": 22576,
     "unique_catches": 374,
-    "total_players": 750,
+    "total_players": 751,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22574 catches"
+      "sub": "Since launch - 22576 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -644,9 +644,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 7475,
-        "c": 102,
-        "casts": 102,
+        "g": 7531,
+        "c": 103,
+        "casts": 103,
         "l": "May 10 2026"
       },
       {
@@ -5074,6 +5074,14 @@
         "l": "Oct 08 2025"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 29,
+        "c": 1,
+        "casts": 1,
+        "l": "May 10 2026"
+      },
+      {
         "u": "dang3r_no0dl3",
         "n": "dang3r_no0dl3",
         "g": 29,
@@ -6364,20 +6372,20 @@
         "l": "May 10 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 935,
+        "c": 12,
+        "casts": 12,
+        "l": "May 10 2026"
+      },
+      {
         "u": "pvtcrock",
         "n": "pvtcrock",
         "g": 918,
         "c": 14,
         "casts": 14,
         "l": "May 07 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 879,
-        "c": 11,
-        "casts": 11,
-        "l": "May 10 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6584,9 +6592,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 514,
-        "c": 7,
-        "casts": 7,
+        "g": 570,
+        "c": 8,
+        "casts": 8,
         "l": "May 10 2026"
       },
       {
@@ -6800,6 +6808,14 @@
         "l": "May 10 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 136,
+        "c": 3,
+        "casts": 3,
+        "l": "May 10 2026"
+      },
+      {
         "u": "tayrob28",
         "n": "tayrob28",
         "g": 114,
@@ -6832,14 +6848,6 @@
         "l": "May 09 2026"
       },
       {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 80,
-        "c": 2,
-        "casts": 2,
-        "l": "May 10 2026"
-      },
-      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 52,
@@ -6862,6 +6870,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
+      },
+      {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 29,
+        "c": 1,
+        "casts": 1,
+        "l": "May 10 2026"
       }
     ]
   },
@@ -10639,16 +10655,16 @@
         "d": "May 10 2026"
       },
       {
-        "n": "gatoraintplaying",
-        "i": "Ty Dillon",
-        "v": 52,
+        "n": "rms_racing",
+        "i": "Anthony Alfredo",
+        "v": 56,
         "r": "Uncommon",
         "d": "May 10 2026"
       },
       {
-        "n": "rms_racing",
-        "i": "Double Adjustable Steel J-Bar",
-        "v": 51,
+        "n": "gatoraintplaying",
+        "i": "Ty Dillon",
+        "v": 52,
         "r": "Uncommon",
         "d": "May 10 2026"
       },
@@ -10665,13 +10681,20 @@
         "v": 42,
         "r": "Uncommon",
         "d": "May 09 2026"
+      },
+      {
+        "n": "dogfish__27",
+        "i": "Black Redeye",
+        "v": 29,
+        "r": "Common",
+        "d": "May 10 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 750,
+        "total": 751,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11422,10 +11445,11 @@
           "mo_dank",
           "muskrat21",
           "barnsdale",
-          "sparkyracingtv"
+          "sparkyracingtv",
+          "dogfish__27"
         ],
         "latest": {
-          "u": "sparkyracingtv",
+          "u": "dogfish__27",
           "d": "May 10 2026"
         }
       },
@@ -19974,6 +19998,9 @@
       "sparkyracingtv": {
         "broke_in": "May 10 2026",
         "custom_catch": "May 10 2026"
+      },
+      "dogfish__27": {
+        "broke_in": "May 10 2026"
       }
     },
     "recent_unlocks": [
@@ -22316,7 +22343,7 @@
       "n": "Anthony Alfredo",
       "custom": true,
       "r": "Uncommon",
-      "c": 4,
+      "c": 5,
       "h": "gatoraintplaying",
       "v": 56,
       "w": 56.45
@@ -22784,7 +22811,7 @@
       "n": "Black Redeye",
       "custom": false,
       "r": "Common",
-      "c": 168,
+      "c": 169,
       "h": "riflehog",
       "v": 34,
       "w": 44.83
@@ -23558,6 +23585,15 @@
       "best_r": "Rare",
       "best_v": 142,
       "d": "May 10 2026"
+    },
+    {
+      "u": "dogfish__27",
+      "g": 29,
+      "c": 1,
+      "best_n": "Black Redeye",
+      "best_r": "Common",
+      "best_v": 29,
+      "d": "May 10 2026"
     }
   ],
   "dex": [
@@ -23980,7 +24016,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 168,
+      "c": 169,
       "rec": "44.83 lb",
       "v": 34
     },
@@ -26725,7 +26761,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Fast Pasta serving mid-pack every week",
-      "c": 4,
+      "c": 5,
       "rec": "56.45 lb",
       "v": 56
     },
@@ -26938,6 +26974,22 @@
     }
   ],
   "recent": [
+    {
+      "u": "rms_racing",
+      "i": "Anthony Alfredo",
+      "w": 55.87,
+      "v": 56,
+      "r": "Uncommon",
+      "d": "May 10 2026"
+    },
+    {
+      "u": "dogfish__27",
+      "i": "Black Redeye",
+      "w": 38.32,
+      "v": 29,
+      "r": "Common",
+      "d": "May 10 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Rabbitfish",
@@ -27520,22 +27572,6 @@
       "w": 108.7,
       "v": 163,
       "r": "Rare",
-      "d": "May 09 2026"
-    },
-    {
-      "u": "pvtcrackpot",
-      "i": "Soda Can",
-      "w": 0.1,
-      "v": 1,
-      "r": "Junk",
-      "d": "May 09 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Sway Bar Clamps",
-      "w": 8.49,
-      "v": 42,
-      "r": "Uncommon",
       "d": "May 09 2026"
     }
   ]
