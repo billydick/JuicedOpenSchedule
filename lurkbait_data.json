@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T03:39:23.517802+00:00",
-    "total_catches": 22579,
+    "generated_at": "2026-05-10T03:41:28.571807+00:00",
+    "total_catches": 22580,
     "unique_catches": 374,
     "total_players": 751,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22579 catches"
+      "sub": "Since launch - 22580 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1922,6 +1922,14 @@
         "l": "Mar 08 2025"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 669,
+        "c": 5,
+        "casts": 5,
+        "l": "May 10 2026"
+      },
+      {
         "u": "zhadowguy128",
         "n": "zhadowguy128",
         "g": 667,
@@ -2032,14 +2040,6 @@
         "c": 5,
         "casts": 5,
         "l": "Feb 02 2025"
-      },
-      {
-        "u": "dvn_immortalflame",
-        "n": "dvn_immortalflame",
-        "g": 577,
-        "c": 4,
-        "casts": 4,
-        "l": "May 03 2026"
       },
       {
         "u": "denault279",
@@ -6446,10 +6446,10 @@
       {
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
-        "g": 457,
-        "c": 1,
-        "casts": 1,
-        "l": "May 03 2026"
+        "g": 549,
+        "c": 2,
+        "casts": 2,
+        "l": "May 10 2026"
       },
       {
         "u": "x_killswitch22_x",
@@ -6835,6 +6835,14 @@
         "u": "brokenanklesracing",
         "n": "brokenanklesracing",
         "g": 100,
+        "c": 1,
+        "casts": 1,
+        "l": "May 10 2026"
+      },
+      {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 92,
         "c": 1,
         "casts": 1,
         "l": "May 10 2026"
@@ -10521,6 +10529,13 @@
         "d": "May 09 2026"
       },
       {
+        "n": "dvn_immortalflame",
+        "i": "Sunfish",
+        "v": 92,
+        "r": "Rare",
+        "d": "May 10 2026"
+      },
+      {
         "n": "mo_dank",
         "i": "Marlin",
         "v": 90,
@@ -10533,13 +10548,6 @@
         "v": 81,
         "r": "Rare",
         "d": "May 09 2026"
-      },
-      {
-        "n": "tayrob28",
-        "i": "Used Power Steering Pump",
-        "v": 62,
-        "r": "Rare",
-        "d": "May 10 2026"
       }
     ],
     "daily": [
@@ -10640,6 +10648,13 @@
         "v": 94,
         "r": "Rare",
         "d": "May 09 2026"
+      },
+      {
+        "n": "dvn_immortalflame",
+        "i": "Sunfish",
+        "v": 92,
+        "r": "Rare",
+        "d": "May 10 2026"
       },
       {
         "n": "mo_dank",
@@ -12803,7 +12818,7 @@
         }
       },
       "walk_in": {
-        "total": 153,
+        "total": 154,
         "holders": [
           "gh0std0g90",
           "belyy92",
@@ -12957,11 +12972,12 @@
           "nellafella",
           "x_killswitch22_x",
           "evangel0203",
-          "cattabolic"
+          "cattabolic",
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "cattabolic",
-          "d": "May 07 2026"
+          "u": "dvn_immortalflame",
+          "d": "May 10 2026"
         }
       },
       "regular_weight": {
@@ -19530,7 +19546,8 @@
       "dvn_immortalflame": {
         "broke_in": "Nov 13 2025",
         "catch_of_day": "May 03 2026",
-        "custom_catch": "Apr 13 2026"
+        "custom_catch": "Apr 13 2026",
+        "walk_in": "May 10 2026"
       },
       "pvtcrock": {
         "broke_in": "Nov 25 2025",
@@ -21710,7 +21727,7 @@
       "n": "Sunfish",
       "custom": false,
       "r": "Rare",
-      "c": 61,
+      "c": 62,
       "h": "maden3w",
       "v": 112,
       "w": 1010.84
@@ -24274,7 +24291,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 61,
+      "c": 62,
       "rec": "1010.84 lb",
       "v": 112
     },
@@ -26990,6 +27007,14 @@
   ],
   "recent": [
     {
+      "u": "dvn_immortalflame",
+      "i": "Sunfish",
+      "w": 827.9,
+      "v": 92,
+      "r": "Rare",
+      "d": "May 10 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Bubbly",
       "w": 1.01,
@@ -27578,14 +27603,6 @@
       "i": "Pickle",
       "w": 0.47,
       "v": 94,
-      "r": "Rare",
-      "d": "May 09 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Used Power Steering Pump",
-      "w": 9.31,
-      "v": 70,
       "r": "Rare",
       "d": "May 09 2026"
     }
