@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T00:38:50.922407+00:00",
-    "total_catches": 22516,
+    "generated_at": "2026-05-10T00:40:55.832058+00:00",
+    "total_catches": 22517,
     "unique_catches": 374,
     "total_players": 748,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22516 catches"
+      "sub": "Since launch - 22517 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1050,6 +1050,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 2937,
+        "c": 44,
+        "casts": 44,
+        "l": "May 10 2026"
+      },
+      {
         "u": "freezerdan",
         "n": "freezerdan",
         "g": 2931,
@@ -1064,14 +1072,6 @@
         "c": 55,
         "casts": 55,
         "l": "May 07 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 2911,
-        "c": 43,
-        "casts": 43,
-        "l": "May 10 2026"
       },
       {
         "u": "kanetcrawford",
@@ -6348,6 +6348,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 876,
+        "c": 14,
+        "casts": 14,
+        "l": "May 10 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 855,
@@ -6362,14 +6370,6 @@
         "c": 5,
         "casts": 5,
         "l": "May 03 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 850,
-        "c": 13,
-        "casts": 13,
-        "l": "May 10 2026"
       },
       {
         "u": "rms_racing",
@@ -6536,9 +6536,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 672,
-        "c": 9,
-        "casts": 9,
+        "g": 698,
+        "c": 10,
+        "casts": 10,
         "l": "May 10 2026"
       },
       {
@@ -6712,20 +6712,20 @@
         "l": "May 10 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 172,
+        "c": 3,
+        "casts": 3,
+        "l": "May 10 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 161,
         "c": 1,
         "casts": 1,
         "l": "May 09 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 146,
-        "c": 2,
-        "casts": 2,
-        "l": "May 10 2026"
       },
       {
         "u": "grumpymitch1",
@@ -22610,7 +22610,7 @@
       "n": "Darlington Raceway",
       "custom": true,
       "r": "Common",
-      "c": 111,
+      "c": 112,
       "h": "nwoods56",
       "v": 28,
       "w": 112.95
@@ -25633,7 +25633,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You ran 16th cause you fucking suck on turn 2",
-      "c": 111,
+      "c": 112,
       "rec": "112.95 lb",
       "v": 28
     },
@@ -26711,6 +26711,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Darlington Raceway",
+      "w": 105.5,
+      "v": 26,
+      "r": "Common",
+      "d": "May 10 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Homestead-Miami Speedway",
       "w": 90.97,
@@ -27300,14 +27308,6 @@
       "w": 50.97,
       "v": 51,
       "r": "Uncommon",
-      "d": "May 07 2026"
-    },
-    {
-      "u": "pvtcrock",
-      "i": "Corey LaJoie",
-      "w": 1.01,
-      "v": 1,
-      "r": "Junk",
       "d": "May 07 2026"
     }
   ]
