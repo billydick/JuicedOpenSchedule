@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-10T01:57:09.932287+00:00",
-    "total_catches": 22542,
+    "generated_at": "2026-05-10T01:58:13.709945+00:00",
+    "total_catches": 22543,
     "unique_catches": 374,
     "total_players": 749,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22542 catches"
+      "sub": "Since launch - 22543 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -292,9 +292,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 104614,
-        "c": 1560,
-        "casts": 1560,
+        "g": 104777,
+        "c": 1561,
+        "casts": 1561,
         "l": "May 10 2026"
       },
       {
@@ -6404,6 +6404,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 555,
+        "c": 7,
+        "casts": 7,
+        "l": "May 10 2026"
+      },
+      {
         "u": "cattabolic",
         "n": "cattabolic",
         "g": 514,
@@ -6450,14 +6458,6 @@
         "c": 3,
         "casts": 3,
         "l": "May 03 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 392,
-        "c": 6,
-        "casts": 6,
-        "l": "May 10 2026"
       },
       {
         "u": "smallsanders",
@@ -6582,6 +6582,14 @@
         "l": "May 10 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 332,
+        "c": 3,
+        "casts": 3,
+        "l": "May 10 2026"
+      },
+      {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 309,
@@ -6611,14 +6619,6 @@
         "g": 217,
         "c": 4,
         "casts": 4,
-        "l": "May 10 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 169,
-        "c": 2,
-        "casts": 2,
         "l": "May 10 2026"
       },
       {
@@ -6712,6 +6712,14 @@
         "l": "May 10 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 332,
+        "c": 3,
+        "casts": 3,
+        "l": "May 10 2026"
+      },
+      {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 237,
@@ -6733,14 +6741,6 @@
         "g": 172,
         "c": 3,
         "casts": 3,
-        "l": "May 10 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 169,
-        "c": 2,
-        "casts": 2,
         "l": "May 10 2026"
       },
       {
@@ -10267,10 +10267,10 @@
       },
       {
         "n": "flippy00",
-        "i": "Loggerhead Turtle",
-        "v": 155,
-        "r": "Epic",
-        "d": "May 02 2026"
+        "i": "Ricky Stenhouse Jr",
+        "v": 163,
+        "r": "Rare",
+        "d": "May 10 2026"
       },
       {
         "n": "tayrob28",
@@ -10401,6 +10401,13 @@
         "d": "May 10 2026"
       },
       {
+        "n": "flippy00",
+        "i": "Ricky Stenhouse Jr",
+        "v": 163,
+        "r": "Rare",
+        "d": "May 10 2026"
+      },
+      {
         "n": "azsuperbeast",
         "i": "Pocono",
         "v": 116,
@@ -10418,13 +10425,6 @@
         "n": "brokenanklesracing",
         "i": "Rubber Ducky",
         "v": 100,
-        "r": "Rare",
-        "d": "May 10 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Peyton Moore",
-        "v": 96,
         "r": "Rare",
         "d": "May 10 2026"
       },
@@ -10508,6 +10508,13 @@
         "d": "May 09 2026"
       },
       {
+        "n": "flippy00",
+        "i": "Ricky Stenhouse Jr",
+        "v": 163,
+        "r": "Rare",
+        "d": "May 10 2026"
+      },
+      {
         "n": "beliron",
         "i": "Matt Tyrrekk",
         "v": 161,
@@ -10518,13 +10525,6 @@
         "n": "brokenanklesracing",
         "i": "Rubber Ducky",
         "v": 100,
-        "r": "Rare",
-        "d": "May 10 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Peyton Moore",
-        "v": 96,
         "r": "Rare",
         "d": "May 10 2026"
       },
@@ -21117,7 +21117,7 @@
       "n": "Ricky Stenhouse Jr",
       "custom": true,
       "r": "Epic",
-      "c": 48,
+      "c": 49,
       "h": "rms_racing",
       "v": 169,
       "w": 11.28
@@ -23376,11 +23376,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1560
+      "n": 1561
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 104614
+      "n": 104777
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -24734,7 +24734,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "My dad and I just beat up Kyle Busch!",
-      "c": 48,
+      "c": 49,
       "rec": "11.28 lb",
       "v": 169
     },
@@ -26856,6 +26856,14 @@
   ],
   "recent": [
     {
+      "u": "flippy00",
+      "i": "Ricky Stenhouse Jr",
+      "w": 10.84,
+      "v": 163,
+      "r": "Rare",
+      "d": "May 10 2026"
+    },
+    {
       "u": "motionless",
       "i": "Rabbitfish",
       "w": 1.87,
@@ -27445,14 +27453,6 @@
       "w": 0.88,
       "v": 1,
       "r": "Junk",
-      "d": "May 08 2026"
-    },
-    {
-      "u": "cattabolic",
-      "i": "Rabbitfish",
-      "w": 2.16,
-      "v": 38,
-      "r": "Uncommon",
       "d": "May 08 2026"
     }
   ]
