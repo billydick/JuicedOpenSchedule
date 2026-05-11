@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-11T23:04:39Z",
+  "generated_at": "2026-05-11T23:06:05Z",
   "meta": {
-    "total_hands": 160,
+    "total_hands": 161,
     "total_players": 21,
     "biggest_bet": {
       "user": "juicedracing",
@@ -126,13 +126,6 @@
         "ach": 0
       },
       {
-        "u": "brookswhynot",
-        "chips": 11786,
-        "net": -57539,
-        "hands": 1,
-        "ach": 2
-      },
-      {
         "u": "darkhorizon35",
         "chips": 10750,
         "net": -10500,
@@ -180,14 +173,21 @@
         "net": -196990,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "brookswhynot",
+        "chips": 50,
+        "net": -69325,
+        "hands": 2,
+        "ach": 2
       }
     ],
     "daily": [
       {
         "u": "brookswhynot",
-        "chips": 11786,
-        "net": 5868,
-        "hands": 1,
+        "chips": 50,
+        "net": -5918,
+        "hands": 2,
         "ach": 2
       }
     ]
@@ -205,23 +205,45 @@
       "net": 5868,
       "result": "win"
     },
+    "biggest_loss": {
+      "u": "brookswhynot",
+      "cards": [
+        "6♠",
+        "8♥",
+        "A♦",
+        "Q♥"
+      ],
+      "total": 25,
+      "bet": 11786,
+      "net": -11786,
+      "result": "bust"
+    },
     "biggest_bet": {
       "u": "brookswhynot",
       "cards": [
-        "10♠",
-        "6♦",
-        "4♠"
+        "6♠",
+        "8♥",
+        "A♦",
+        "Q♥"
       ],
-      "total": 20,
-      "bet": 5868,
-      "net": 5868,
-      "result": "win"
+      "total": 25,
+      "bet": 11786,
+      "net": -11786,
+      "result": "bust"
     },
     "most_hands": {
       "u": "brookswhynot",
-      "n": 1
+      "n": 2
     },
     "best_streak": {
+      "u": "brookswhynot",
+      "n": 1
+    },
+    "worst_streak": {
+      "u": "brookswhynot",
+      "n": 1
+    },
+    "most_busts": {
       "u": "brookswhynot",
       "n": 1
     },
@@ -280,7 +302,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -15832,
           "hands": 3,
           "ach": 2
@@ -407,7 +429,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -30100,
           "hands": 1,
           "ach": 2
@@ -508,7 +530,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": 15025,
           "hands": 1,
           "ach": 2
@@ -575,7 +597,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": 23525,
           "hands": 3,
           "ach": 2
@@ -715,7 +737,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -14950,
           "hands": 1,
           "ach": 2
@@ -905,7 +927,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -6200,
           "hands": 1,
           "ach": 2
@@ -1159,7 +1181,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -10000,
           "hands": 1,
           "ach": 2
@@ -1390,7 +1412,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 11786,
+          "chips": 50,
           "net": -24875,
           "hands": 4,
           "ach": 2
@@ -3176,6 +3198,36 @@
   ],
   "recent_hands": [
     {
+      "ts": 1778540765.8091526,
+      "date": "2026-05-11",
+      "player": "brookswhynot",
+      "bet": 11786,
+      "balance_before": 11786,
+      "result": "bust",
+      "net_delta": -11786,
+      "player_cards": [
+        "6♠",
+        "8♥",
+        "A♦",
+        "Q♥"
+      ],
+      "player_total": 25,
+      "hit_count": 2,
+      "dealer_cards": [
+        "3♥",
+        "6♥",
+        "9♣"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1778540679.9399474,
       "date": "2026-05-11",
       "player": "brookswhynot",
@@ -4705,34 +4757,6 @@
       ],
       "dealer_total": 24,
       "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1777774684.986932,
-      "date": "2026-05-02",
-      "player": "larcen22",
-      "bet": 5198,
-      "balance_before": 35198,
-      "result": "lose",
-      "net_delta": -5198,
-      "player_cards": [
-        "J♥",
-        "3♥"
-      ],
-      "player_total": 13,
-      "hit_count": 0,
-      "dealer_cards": [
-        "Q♣",
-        "6♥",
-        "4♦"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
       "table_size": 1,
       "poker_rank": null,
       "poker_pct": null,
