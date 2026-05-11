@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-11T23:04:57.098782+00:00",
-    "total_catches": 22614,
+    "generated_at": "2026-05-11T23:09:04.431496+00:00",
+    "total_catches": 22615,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22614 catches"
+      "sub": "Since launch - 22615 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -932,10 +932,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 3680,
-        "c": 53,
-        "casts": 53,
-        "l": "May 09 2026"
+        "g": 3690,
+        "c": 54,
+        "casts": 54,
+        "l": "May 11 2026"
       },
       {
         "u": "greenseyre05",
@@ -6372,20 +6372,20 @@
         "l": "May 10 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 1053,
+        "c": 17,
+        "casts": 17,
+        "l": "May 11 2026"
+      },
+      {
         "u": "turbosnail87",
         "n": "turbosnail87",
         "g": 1046,
         "c": 1,
         "casts": 1,
         "l": "May 07 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 1043,
-        "c": 16,
-        "casts": 16,
-        "l": "May 09 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6548,6 +6548,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
       }
     ],
     "daily": [
@@ -6579,6 +6587,14 @@
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
@@ -10293,6 +10309,13 @@
         "v": 21,
         "r": "Common",
         "d": "May 11 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "Mussel",
+        "v": 10,
+        "r": "Common",
+        "d": "May 11 2026"
       }
     ],
     "daily": [
@@ -10321,6 +10344,13 @@
         "n": "brookswhynot",
         "i": "Rookie License",
         "v": 21,
+        "r": "Common",
+        "d": "May 11 2026"
+      },
+      {
+        "n": "ikatipoi",
+        "i": "Mussel",
+        "v": 10,
         "r": "Common",
         "d": "May 11 2026"
       }
@@ -22787,7 +22817,7 @@
       "n": "Mussel",
       "custom": false,
       "r": "Common",
-      "c": 175,
+      "c": 176,
       "h": "ironlegacy_",
       "v": 11,
       "w": 0.11
@@ -23488,7 +23518,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 175,
+      "c": 176,
       "rec": "0.11 lb",
       "v": 11
     },
@@ -26582,6 +26612,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Mussel",
+      "w": 0.1,
+      "v": 10,
+      "r": "Common",
+      "d": "May 11 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Rookie License",
       "w": 0.83,
@@ -27171,14 +27209,6 @@
       "w": 0.22,
       "v": 2,
       "r": "Junk",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Mini Stock",
-      "w": 0.88,
-      "v": 66,
-      "r": "Rare",
       "d": "May 10 2026"
     }
   ]
