@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-11T22:16:57.224057+00:00",
-    "total_catches": 22610,
+    "generated_at": "2026-05-11T23:02:50.681839+00:00",
+    "total_catches": 22611,
     "unique_catches": 374,
     "total_players": 751,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22610 catches"
+      "sub": "Since launch - 22611 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -954,20 +954,20 @@
         "l": "Oct 02 2024"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 3420,
+        "c": 58,
+        "casts": 58,
+        "l": "May 11 2026"
+      },
+      {
         "u": "garthplarth",
         "n": "garthplarth",
         "g": 3393,
         "c": 41,
         "casts": 41,
         "l": "Jan 22 2025"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 3364,
-        "c": 57,
-        "casts": 57,
-        "l": "May 10 2026"
       },
       {
         "u": "aquadays",
@@ -6326,10 +6326,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 1705,
-        "c": 30,
-        "casts": 30,
-        "l": "May 10 2026"
+        "g": 1761,
+        "c": 31,
+        "casts": 31,
+        "l": "May 11 2026"
       },
       {
         "u": "larcen22",
@@ -6500,8 +6500,26 @@
         "l": "May 10 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10183,8 +10201,24 @@
         "d": "May 01 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "realiist1",
+        "i": "MWR BATTERY CONNECTOR WIRING",
+        "v": 56,
+        "r": "Uncommon",
+        "d": "May 11 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "realiist1",
+        "i": "MWR BATTERY CONNECTOR WIRING",
+        "v": 56,
+        "r": "Uncommon",
+        "d": "May 11 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -10949,7 +10983,7 @@
         }
       },
       "first_cast": {
-        "total": 87,
+        "total": 88,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11037,15 +11071,16 @@
           "coreywharton",
           "runaroundjoe",
           "dougiracing",
-          "v1per_simr4cin6"
+          "v1per_simr4cin6",
+          "realiist1"
         ],
         "latest": {
-          "u": "v1per_simr4cin6",
-          "d": "May 07 2026"
+          "u": "realiist1",
+          "d": "May 11 2026"
         }
       },
       "catch_of_day": {
-        "total": 126,
+        "total": 127,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11172,15 +11207,16 @@
           "v1per_simr4cin6",
           "mrbrowz_fdm",
           "dvn_immortalflame",
-          "turbosnail87"
+          "turbosnail87",
+          "realiist1"
         ],
         "latest": {
-          "u": "turbosnail87",
-          "d": "May 07 2026"
+          "u": "realiist1",
+          "d": "May 11 2026"
         }
       },
       "win_day": {
-        "total": 90,
+        "total": 91,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11271,11 +11307,12 @@
           "george_wiseman",
           "reignsstreams",
           "ineffabledecibel",
-          "turbosnail87"
+          "turbosnail87",
+          "realiist1"
         ],
         "latest": {
-          "u": "turbosnail87",
-          "d": "May 07 2026"
+          "u": "realiist1",
+          "d": "May 11 2026"
         }
       },
       "double_down": {
@@ -13770,7 +13807,7 @@
         }
       },
       "win_week": {
-        "total": 26,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13797,11 +13834,12 @@
           "tableddddd",
           "iitstech",
           "showtime_84",
-          "reignsstreams"
+          "reignsstreams",
+          "realiist1"
         ],
         "latest": {
-          "u": "reignsstreams",
-          "d": "Feb 09 2026"
+          "u": "realiist1",
+          "d": "May 11 2026"
         }
       },
       "win_month": {
@@ -19262,11 +19300,15 @@
       },
       "realiist1": {
         "broke_in": "Apr 11 2026",
+        "first_cast": "May 11 2026",
+        "win_day": "May 11 2026",
+        "catch_of_day": "May 11 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
         "dex_hunter": "May 10 2026",
-        "custom_club": "Apr 25 2026"
+        "custom_club": "Apr 25 2026",
+        "win_week": "May 11 2026"
       },
       "polegolf1": {
         "broke_in": "Apr 12 2026",
@@ -22035,8 +22077,8 @@
       "n": "MWR BATTERY CONNECTOR WIRING",
       "custom": true,
       "r": "Uncommon",
-      "c": 88,
-      "h": "goetzlife",
+      "c": 89,
+      "h": "realiist1",
       "v": 56,
       "w": 1.12
     },
@@ -24787,7 +24829,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "",
-      "c": 88,
+      "c": 89,
       "rec": "1.12 lb",
       "v": 56
     },
@@ -26405,6 +26447,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "MWR BATTERY CONNECTOR WIRING",
+      "w": 1.12,
+      "v": 56,
+      "r": "Uncommon",
+      "d": "May 11 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Zebra Cakes",
       "w": 1.0,
@@ -26994,14 +27044,6 @@
       "w": 23.43,
       "v": 61,
       "r": "Uncommon",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "DAYS OF THUNDER VHS tape.",
-      "w": 0.92,
-      "v": 18,
-      "r": "Common",
       "d": "May 10 2026"
     }
   ]
