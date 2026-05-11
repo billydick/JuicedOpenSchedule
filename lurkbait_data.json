@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-11T23:02:50.681839+00:00",
-    "total_catches": 22611,
+    "generated_at": "2026-05-11T23:03:54.051643+00:00",
+    "total_catches": 22613,
     "unique_catches": 374,
-    "total_players": 751,
+    "total_players": 753,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22611 catches"
+      "sub": "Since launch - 22613 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -4202,6 +4202,14 @@
         "l": "Mar 02 2025"
       },
       {
+        "u": "stoner_buggs",
+        "n": "stoner_buggs",
+        "g": 78,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
         "u": "daaarrk7",
         "n": "daaarrk7",
         "g": 78,
@@ -5336,6 +5344,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 04 2025"
+      },
+      {
+        "u": "bermuda_fm",
+        "n": "bermuda_fm",
+        "g": 22,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
       },
       {
         "u": "theguitarhero04",
@@ -6502,9 +6518,25 @@
     ],
     "weekly": [
       {
+        "u": "stoner_buggs",
+        "n": "stoner_buggs",
+        "g": 78,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
+        "u": "bermuda_fm",
+        "n": "bermuda_fm",
+        "g": 22,
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
@@ -6512,9 +6544,25 @@
     ],
     "daily": [
       {
+        "u": "stoner_buggs",
+        "n": "stoner_buggs",
+        "g": 78,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 56,
+        "c": 1,
+        "casts": 1,
+        "l": "May 11 2026"
+      },
+      {
+        "u": "bermuda_fm",
+        "n": "bermuda_fm",
+        "g": 22,
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
@@ -10203,19 +10251,47 @@
     ],
     "weekly": [
       {
-        "n": "realiist1",
-        "i": "MWR BATTERY CONNECTOR WIRING",
-        "v": 56,
-        "r": "Uncommon",
+        "n": "stoner_buggs",
+        "i": "FUEL CELL TOP",
+        "v": 78,
+        "r": "Rare",
         "d": "May 11 2026"
-      }
-    ],
-    "daily": [
+      },
       {
         "n": "realiist1",
         "i": "MWR BATTERY CONNECTOR WIRING",
         "v": 56,
         "r": "Uncommon",
+        "d": "May 11 2026"
+      },
+      {
+        "n": "bermuda_fm",
+        "i": "Black Spotted Grunt",
+        "v": 22,
+        "r": "Common",
+        "d": "May 11 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "stoner_buggs",
+        "i": "FUEL CELL TOP",
+        "v": 78,
+        "r": "Rare",
+        "d": "May 11 2026"
+      },
+      {
+        "n": "realiist1",
+        "i": "MWR BATTERY CONNECTOR WIRING",
+        "v": 56,
+        "r": "Uncommon",
+        "d": "May 11 2026"
+      },
+      {
+        "n": "bermuda_fm",
+        "i": "Black Spotted Grunt",
+        "v": 22,
+        "r": "Common",
         "d": "May 11 2026"
       }
     ]
@@ -10223,7 +10299,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 751,
+        "total": 753,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10975,11 +11051,13 @@
           "muskrat21",
           "barnsdale",
           "sparkyracingtv",
-          "dogfish__27"
+          "dogfish__27",
+          "bermuda_fm",
+          "stoner_buggs"
         ],
         "latest": {
-          "u": "dogfish__27",
-          "d": "May 10 2026"
+          "u": "stoner_buggs",
+          "d": "May 11 2026"
         }
       },
       "first_cast": {
@@ -11208,10 +11286,10 @@
           "mrbrowz_fdm",
           "dvn_immortalflame",
           "turbosnail87",
-          "realiist1"
+          "stoner_buggs"
         ],
         "latest": {
-          "u": "realiist1",
+          "u": "stoner_buggs",
           "d": "May 11 2026"
         }
       },
@@ -11308,10 +11386,10 @@
           "reignsstreams",
           "ineffabledecibel",
           "turbosnail87",
-          "realiist1"
+          "stoner_buggs"
         ],
         "latest": {
-          "u": "realiist1",
+          "u": "stoner_buggs",
           "d": "May 11 2026"
         }
       },
@@ -11483,7 +11561,7 @@
         }
       },
       "custom_catch": {
-        "total": 625,
+        "total": 626,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12109,11 +12187,12 @@
           "muskrat21",
           "barnsdale",
           "sparkyracingtv",
-          "dogfish__27"
+          "dogfish__27",
+          "stoner_buggs"
         ],
         "latest": {
-          "u": "dogfish__27",
-          "d": "May 10 2026"
+          "u": "stoner_buggs",
+          "d": "May 11 2026"
         }
       },
       "heavy_hauler": {
@@ -13835,10 +13914,10 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "realiist1"
+          "stoner_buggs"
         ],
         "latest": {
-          "u": "realiist1",
+          "u": "stoner_buggs",
           "d": "May 11 2026"
         }
       },
@@ -19301,14 +19380,11 @@
       "realiist1": {
         "broke_in": "Apr 11 2026",
         "first_cast": "May 11 2026",
-        "win_day": "May 11 2026",
-        "catch_of_day": "May 11 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
         "dex_hunter": "May 10 2026",
-        "custom_club": "Apr 25 2026",
-        "win_week": "May 11 2026"
+        "custom_club": "Apr 25 2026"
       },
       "polegolf1": {
         "broke_in": "Apr 12 2026",
@@ -19546,6 +19622,16 @@
       "dogfish__27": {
         "broke_in": "May 10 2026",
         "custom_catch": "May 10 2026"
+      },
+      "bermuda_fm": {
+        "broke_in": "May 11 2026"
+      },
+      "stoner_buggs": {
+        "broke_in": "May 11 2026",
+        "win_day": "May 11 2026",
+        "catch_of_day": "May 11 2026",
+        "custom_catch": "May 11 2026",
+        "win_week": "May 11 2026"
       }
     },
     "recent_unlocks": [
@@ -21564,7 +21650,7 @@
       "n": "FUEL CELL TOP",
       "custom": true,
       "r": "Rare",
-      "c": 72,
+      "c": 73,
       "h": "laleb467",
       "v": 85,
       "w": 4.52
@@ -22491,7 +22577,7 @@
       "n": "Black Spotted Grunt",
       "custom": false,
       "r": "Common",
-      "c": 174,
+      "c": 175,
       "h": "justingamez",
       "v": 23,
       "w": 5.64
@@ -23067,7 +23153,26 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "bermuda_fm",
+      "g": 22,
+      "c": 1,
+      "best_n": "Black Spotted Grunt",
+      "best_r": "Common",
+      "best_v": 22,
+      "d": "May 11 2026"
+    },
+    {
+      "u": "stoner_buggs",
+      "g": 78,
+      "c": 1,
+      "best_n": "FUEL CELL TOP",
+      "best_r": "Rare",
+      "best_v": 78,
+      "d": "May 11 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -23470,7 +23575,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 174,
+      "c": 175,
       "rec": "5.64 lb",
       "v": 23
     },
@@ -24649,7 +24754,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Late model use only!",
-      "c": 72,
+      "c": 73,
       "rec": "4.52 lb",
       "v": 85
     },
@@ -26447,6 +26552,22 @@
   ],
   "recent": [
     {
+      "u": "stoner_buggs",
+      "i": "FUEL CELL TOP",
+      "w": 4.17,
+      "v": 78,
+      "r": "Rare",
+      "d": "May 11 2026"
+    },
+    {
+      "u": "bermuda_fm",
+      "i": "Black Spotted Grunt",
+      "w": 5.38,
+      "v": 22,
+      "r": "Common",
+      "d": "May 11 2026"
+    },
+    {
       "u": "realiist1",
       "i": "MWR BATTERY CONNECTOR WIRING",
       "w": 1.12,
@@ -27028,22 +27149,6 @@
       "w": 1.81,
       "v": 68,
       "r": "Rare",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "tayrob28",
-      "i": "CSL Pedals",
-      "w": 4.17,
-      "v": 52,
-      "r": "Uncommon",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Electric Catfish",
-      "w": 23.43,
-      "v": 61,
-      "r": "Uncommon",
       "d": "May 10 2026"
     }
   ]
