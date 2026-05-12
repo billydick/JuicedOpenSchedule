@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T01:08:39Z",
+  "generated_at": "2026-05-12T02:00:30Z",
   "meta": {
-    "total_hands": 163,
+    "total_hands": 164,
     "total_players": 21,
     "biggest_bet": {
       "user": "juicedracing",
@@ -147,13 +147,6 @@
         "ach": 0
       },
       {
-        "u": "brookswhynot",
-        "chips": 2500,
-        "net": -69325,
-        "hands": 2,
-        "ach": 2
-      },
-      {
         "u": "thesaucypanda2",
         "chips": 398,
         "net": -30000,
@@ -173,6 +166,13 @@
         "net": -196990,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "brookswhynot",
+        "chips": 100,
+        "net": -72825,
+        "hands": 3,
+        "ach": 2
       },
       {
         "u": "azsuperbeast",
@@ -199,9 +199,9 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 2500,
-        "net": -5918,
-        "hands": 2,
+        "chips": 100,
+        "net": -9418,
+        "hands": 3,
         "ach": 2
       }
     ]
@@ -244,7 +244,7 @@
     },
     "most_hands": {
       "u": "brookswhynot",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "brookswhynot",
@@ -252,7 +252,7 @@
     },
     "worst_streak": {
       "u": "brookswhynot",
-      "n": 1
+      "n": 2
     },
     "most_busts": {
       "u": "brookswhynot",
@@ -313,7 +313,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -15832,
           "hands": 3,
           "ach": 2
@@ -440,7 +440,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -30100,
           "hands": 1,
           "ach": 2
@@ -541,7 +541,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": 15025,
           "hands": 1,
           "ach": 2
@@ -608,7 +608,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": 23525,
           "hands": 3,
           "ach": 2
@@ -748,7 +748,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -14950,
           "hands": 1,
           "ach": 2
@@ -938,7 +938,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -6200,
           "hands": 1,
           "ach": 2
@@ -1192,7 +1192,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -10000,
           "hands": 1,
           "ach": 2
@@ -1423,7 +1423,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2500,
+          "chips": 100,
           "net": -24875,
           "hands": 4,
           "ach": 2
@@ -3243,6 +3243,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1778551230.2435503,
+      "date": "2026-05-11",
+      "player": "brookswhynot",
+      "bet": 3500,
+      "balance_before": 3550,
+      "result": "lose",
+      "net_delta": -3500,
+      "player_cards": [
+        "10♦",
+        "9♣"
+      ],
+      "player_total": 19,
+      "hit_count": 0,
+      "dealer_cards": [
+        "Q♥",
+        "6♣",
+        "4♠"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1778548119.4581435,
       "date": "2026-05-11",
       "player": "azsuperbeast",
@@ -4784,38 +4812,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777932709.8833392,
-      "date": "2026-05-04",
-      "player": "grumpymitch1",
-      "bet": 10000,
-      "balance_before": 19745,
-      "result": "push",
-      "net_delta": 0,
-      "player_cards": [
-        "A♠",
-        "A♦",
-        "5♣",
-        "3♥"
-      ],
-      "player_total": 20,
-      "hit_count": 2,
-      "dealer_cards": [
-        "10♦",
-        "3♠",
-        "7♠"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any"
-      ]
     }
   ]
 }
