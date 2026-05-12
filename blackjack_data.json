@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-11T23:29:46Z",
+  "generated_at": "2026-05-12T01:08:39Z",
   "meta": {
-    "total_hands": 162,
+    "total_hands": 163,
     "total_players": 21,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,8 +11,8 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 341675,
-    "top_player": "pvtcrackpot"
+    "top_chips": 1489210,
+    "top_player": "juicedracing"
   },
   "competition_meta": {
     "daily": {
@@ -34,6 +34,13 @@
   },
   "leaderboards": {
     "alltime": [
+      {
+        "u": "juicedracing",
+        "chips": 1489210,
+        "net": 1331443,
+        "hands": 1,
+        "ach": 15
+      },
       {
         "u": "pvtcrackpot",
         "chips": 341675,
@@ -57,7 +64,7 @@
       },
       {
         "u": "flippy00",
-        "chips": 112480,
+        "chips": 117530,
         "net": -18810,
         "hands": 0,
         "ach": 1
@@ -71,7 +78,7 @@
       },
       {
         "u": "aquadays",
-        "chips": 101951,
+        "chips": 102001,
         "net": 54901,
         "hands": 0,
         "ach": 1
@@ -85,7 +92,7 @@
       },
       {
         "u": "gatoraintplaying",
-        "chips": 36300,
+        "chips": 36350,
         "net": 25850,
         "hands": 0,
         "ach": 0
@@ -112,16 +119,16 @@
         "ach": 0
       },
       {
-        "u": "sille_94",
-        "chips": 15100,
-        "net": 100,
+        "u": "darkhorizon35",
+        "chips": 15800,
+        "net": -10500,
         "hands": 0,
         "ach": 0
       },
       {
-        "u": "darkhorizon35",
-        "chips": 10750,
-        "net": -10500,
+        "u": "sille_94",
+        "chips": 15100,
+        "net": 100,
         "hands": 0,
         "ach": 0
       },
@@ -140,15 +147,8 @@
         "ach": 0
       },
       {
-        "u": "azsuperbeast",
-        "chips": 2100,
-        "net": -13738,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "brookswhynot",
-        "chips": 850,
+        "chips": 2500,
         "net": -69325,
         "hands": 2,
         "ach": 2
@@ -175,24 +175,31 @@
         "ach": 0
       },
       {
-        "u": "juicedracing",
+        "u": "azsuperbeast",
         "chips": 50,
-        "net": 1331443,
+        "net": -15938,
         "hands": 1,
-        "ach": 14
+        "ach": 0
       }
     ],
     "daily": [
       {
         "u": "juicedracing",
-        "chips": 50,
+        "chips": 1489210,
         "net": 742080,
         "hands": 1,
-        "ach": 14
+        "ach": 15
+      },
+      {
+        "u": "azsuperbeast",
+        "chips": 50,
+        "net": -2200,
+        "hands": 1,
+        "ach": 0
       },
       {
         "u": "brookswhynot",
-        "chips": 850,
+        "chips": 2500,
         "net": -5918,
         "hands": 2,
         "ach": 2
@@ -271,10 +278,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": 470990,
           "hands": 2,
-          "ach": 14
+          "ach": 15
         },
         {
           "u": "pvtcrackpot",
@@ -299,14 +306,14 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 36300,
+          "chips": 36350,
           "net": -10250,
           "hands": 3,
           "ach": 0
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -15832,
           "hands": 3,
           "ach": 2
@@ -405,10 +412,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": 194430,
           "hands": 3,
-          "ach": 14
+          "ach": 15
         },
         {
           "u": "larcen22",
@@ -433,7 +440,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -30100,
           "hands": 1,
           "ach": 2
@@ -527,14 +534,14 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": 51260,
           "hands": 2,
-          "ach": 14
+          "ach": 15
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": 15025,
           "hands": 1,
           "ach": 2
@@ -601,7 +608,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": 23525,
           "hands": 3,
           "ach": 2
@@ -622,14 +629,14 @@
         },
         {
           "u": "darkhorizon35",
-          "chips": 10750,
+          "chips": 15800,
           "net": -10500,
           "hands": 2,
           "ach": 0
         },
         {
           "u": "azsuperbeast",
-          "chips": 2100,
+          "chips": 50,
           "net": -17100,
           "hands": 9,
           "ach": 0
@@ -741,17 +748,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -14950,
           "hands": 1,
           "ach": 2
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -15000,
           "hands": 1,
-          "ach": 14
+          "ach": 15
         },
         {
           "u": "corndawg3",
@@ -818,17 +825,17 @@
         },
         {
           "u": "flippy00",
-          "chips": 112480,
+          "chips": 117530,
           "net": -18810,
           "hands": 2,
           "ach": 1
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -21600,
           "hands": 6,
-          "ach": 14
+          "ach": 15
         }
       ],
       "highlights": {
@@ -931,17 +938,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -6200,
           "hands": 1,
           "ach": 2
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -19000,
           "hands": 12,
-          "ach": 14
+          "ach": 15
         },
         {
           "u": "ikatipoi",
@@ -1042,7 +1049,7 @@
       "leaderboard": [
         {
           "u": "azsuperbeast",
-          "chips": 2100,
+          "chips": 50,
           "net": 10052,
           "hands": 7,
           "ach": 0
@@ -1056,10 +1063,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": 0,
           "hands": 1,
-          "ach": 14
+          "ach": 15
         }
       ],
       "highlights": {
@@ -1157,7 +1164,7 @@
       "leaderboard": [
         {
           "u": "aquadays",
-          "chips": 101951,
+          "chips": 102001,
           "net": 54901,
           "hands": 2,
           "ach": 1
@@ -1185,7 +1192,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -10000,
           "hands": 1,
           "ach": 2
@@ -1199,10 +1206,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -30699,
           "hands": 11,
-          "ach": 14
+          "ach": 15
         }
       ],
       "highlights": {
@@ -1291,10 +1298,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -18,
           "hands": 4,
-          "ach": 14
+          "ach": 15
         }
       ],
       "highlights": {
@@ -1381,7 +1388,7 @@
       "leaderboard": [
         {
           "u": "gatoraintplaying",
-          "chips": 36300,
+          "chips": 36350,
           "net": 36100,
           "hands": 3,
           "ach": 0
@@ -1402,7 +1409,7 @@
         },
         {
           "u": "azsuperbeast",
-          "chips": 2100,
+          "chips": 50,
           "net": -6690,
           "hands": 15,
           "ach": 0
@@ -1416,17 +1423,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 850,
+          "chips": 2500,
           "net": -24875,
           "hands": 4,
           "ach": 2
         },
         {
           "u": "juicedracing",
-          "chips": 50,
+          "chips": 1489210,
           "net": -41000,
           "hands": 6,
-          "ach": 14
+          "ach": 15
         }
       ],
       "highlights": {
@@ -1842,8 +1849,10 @@
         }
       },
       "bank_builder_1m": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "juicedracing"
+        ],
         "latest": {
           "u": "—",
           "d": "—"
@@ -2401,7 +2410,8 @@
         "big_swing_session_50k": "2026-04-25",
         "big_swing_session_200k": "2026-05-09",
         "big_swing_session_500k": "2026-05-09",
-        "escalator": "2026-04-25"
+        "escalator": "2026-04-25",
+        "bank_builder_1m": "earned"
       },
       "pvtcrackpot": {
         "bank_builder_100k": "earned",
@@ -3232,6 +3242,34 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778548119.4581435,
+      "date": "2026-05-11",
+      "player": "azsuperbeast",
+      "bet": 2200,
+      "balance_before": 2200,
+      "result": "lose",
+      "net_delta": -2200,
+      "player_cards": [
+        "K♠",
+        "J♥"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "9♥",
+        "5♥",
+        "7♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
     {
       "ts": 1778542186.1901104,
       "date": "2026-05-11",
@@ -4778,35 +4816,6 @@
       "achievements_earned": [
         "poker_pair_any"
       ]
-    },
-    {
-      "ts": 1777780853.6958346,
-      "date": "2026-05-02",
-      "player": "skeeter1029",
-      "bet": 1000,
-      "balance_before": 10150,
-      "result": "lose",
-      "net_delta": -1000,
-      "player_cards": [
-        "3♦",
-        "9♦",
-        "8♠"
-      ],
-      "player_total": 20,
-      "hit_count": 1,
-      "dealer_cards": [
-        "2♠",
-        "9♠",
-        "Q♦"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
