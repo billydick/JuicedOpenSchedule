@@ -30,22 +30,27 @@
     border-image:linear-gradient(90deg,var(--gold) 33%,var(--red) 33% 66%,var(--blue) 66%) 1;
     display:flex;align-items:stretch;
   }
-  .nav-brand{padding:8px 16px;display:flex;align-items:center}
+  .nav-brand{padding:8px 16px;display:flex;align-items:center;flex-shrink:0}
   .nav-logo-main{height:80px;width:auto;object-fit:contain;display:block}
   .mobile-sponsor-btn{display:none}
-  .nav-race-night{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;color:var(--gold);text-transform:uppercase}
-  .nav-logo-right{height:48px;width:auto;object-fit:contain;margin-left:16px;opacity:.9}
-  .nav-tabs{display:flex;align-items:stretch}
+  .nav-racetime{display:flex;flex-direction:column;justify-content:center;padding:0 18px;border-right:1px solid var(--border);margin-left:12px;flex-shrink:0}
+  .nav-racetime .rn-days{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;color:rgba(212,160,23,.55);text-transform:uppercase;white-space:nowrap}
+  .nav-racetime .rn-time{font-family:'Barlow Condensed',sans-serif;font-size:20px;font-weight:900;letter-spacing:2px;color:var(--white);text-transform:uppercase;display:flex;align-items:center;gap:6px;white-space:nowrap}
+  @keyframes raceNightDot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.7);opacity:.4}}
+  .rn-dot{width:7px;height:7px;border-radius:50%;background:var(--red);flex-shrink:0;animation:raceNightDot 1.4s ease-in-out infinite}
+  .nav-logo-right{height:48px;width:auto;object-fit:contain;opacity:.9}
+  .nav-tabs{display:flex;align-items:stretch;flex:1}
   .nav-tab{
-    padding:0 28px;
+    flex:1;
+    padding:0 8px;
     font-family:'Barlow Condensed',sans-serif;
     font-size:14px;font-weight:800;letter-spacing:3px;
     text-transform:uppercase;color:rgba(200,200,200,.45);
     cursor:pointer;border:none;background:none;
-    display:flex;align-items:center;
+    display:flex;align-items:center;justify-content:center;
     border-bottom:3px solid transparent;
     transition:color .2s,border-color .2s;
-    text-decoration:none;
+    text-decoration:none;white-space:nowrap;
   }
   .nav-tab:hover{color:var(--white)}
   .nav-tab.active{color:var(--gold);border-bottom-color:var(--gold)}
@@ -226,11 +231,8 @@
   .live-lb-row.new-driver:hover{background:transparent}
   .live-lb-new-badge{font-family:'Barlow Condensed',sans-serif;font-size:9px;font-weight:700;letter-spacing:1px;color:#555;border:1px solid #333;padding:1px 4px;border-radius:2px;flex-shrink:0;text-transform:uppercase}
   .nav-right{
-    margin-left:auto;padding:0 24px;
-    font-family:'Barlow Condensed',sans-serif;
-    font-size:12px;font-weight:700;letter-spacing:2px;
-    color:var(--gold);text-transform:uppercase;
-    display:flex;align-items:center;gap:16px;
+    padding:0 20px;
+    display:flex;align-items:center;gap:16px;flex-shrink:0;
   }
   @keyframes sponsor-gold{
     0%{opacity:0;box-shadow:none}
@@ -639,6 +641,7 @@
   @media(max-width:768px){
     .nav-brand{padding:8px 12px;font-size:16px;justify-content:space-between;width:100%}
     .nav-logo-main{height:48px}
+    .nav-racetime{display:none}
     .nav-right{display:none}
     .site-nav{flex-direction:column}
     .nav-tabs{
@@ -648,7 +651,7 @@
       width:100%;
     }
     .nav-tabs::-webkit-scrollbar{display:none}
-    .nav-tab{padding:0 20px;font-size:12px;white-space:nowrap;flex-shrink:0;height:44px}
+    .nav-tab{padding:0 20px;font-size:12px;white-space:nowrap;flex-shrink:0;flex:none;height:44px;justify-content:flex-start}
     .mobile-sponsor-btn{
       display:flex;align-items:center;justify-content:center;
       font-family:'Barlow Condensed',sans-serif;
@@ -944,6 +947,10 @@
   <div class="nav-brand">
     <img src="JuicedOpenLogo.png" alt="Juiced Open" class="nav-logo-main">
     <button class="mobile-sponsor-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
+    <div class="nav-racetime">
+      <span class="rn-days">Wed &amp; Sat</span>
+      <span class="rn-time"><span class="rn-dot"></span>Wed and Sat 9:30 PM EST</span>
+    </div>
   </div>
   <div class="nav-tabs">
     <a class="nav-tab" href="#schedule" onclick="setPage('schedule')">Schedule</a>
@@ -956,7 +963,6 @@
   </div>
   <div class="nav-right">
     <button class="sponsor-nav-btn" onclick="openSponsorModal()"><span class="spn-a">&#9733; Race Sponsorship</span><span class="spn-b">&#9733; Purchase Here</span></button>
-    <span class="nav-race-night">&#9679; Wed and Sat 9:30 PM EST Race Night</span>
     <img src="team_logos/JuicedRacingLogo.png" alt="Juiced Racing" class="nav-logo-right">
   </div>
 </nav>
@@ -8523,7 +8529,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2768256599&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2769773036&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
