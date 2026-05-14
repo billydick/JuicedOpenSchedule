@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T00:36:54.311885+00:00",
-    "total_catches": 22668,
+    "generated_at": "2026-05-14T00:37:58.742214+00:00",
+    "total_catches": 22669,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22668 catches"
+      "sub": "Since launch - 22669 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -636,10 +636,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 7805,
-        "c": 106,
-        "casts": 106,
-        "l": "May 11 2026"
+        "g": 7843,
+        "c": 107,
+        "casts": 107,
+        "l": "May 14 2026"
       },
       {
         "u": "community_patroll",
@@ -6382,10 +6382,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 1209,
-        "c": 15,
-        "casts": 15,
-        "l": "May 11 2026"
+        "g": 1247,
+        "c": 16,
+        "casts": 16,
+        "l": "May 14 2026"
       },
       {
         "u": "codycoyoteracing",
@@ -6638,6 +6638,14 @@
         "l": "May 12 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 52,
+        "c": 2,
+        "casts": 2,
+        "l": "May 14 2026"
+      },
+      {
         "u": "bermuda_fm",
         "n": "bermuda_fm",
         "g": 22,
@@ -6652,14 +6660,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 12 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 14,
-        "c": 1,
-        "casts": 1,
-        "l": "May 11 2026"
       }
     ],
     "daily": [
@@ -6675,6 +6675,14 @@
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
+      },
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 38,
         "c": 1,
         "casts": 1,
         "l": "May 14 2026"
@@ -10503,6 +10511,13 @@
         "d": "May 12 2026"
       },
       {
+        "n": "rms_racing",
+        "i": "Frontosa Cichlid",
+        "v": 38,
+        "r": "Uncommon",
+        "d": "May 14 2026"
+      },
+      {
         "n": "bermuda_fm",
         "i": "Black Spotted Grunt",
         "v": 22,
@@ -10515,13 +10530,6 @@
         "v": 20,
         "r": "Common",
         "d": "May 12 2026"
-      },
-      {
-        "n": "rms_racing",
-        "i": "Bristol Motor Speedway",
-        "v": 14,
-        "r": "Common",
-        "d": "May 11 2026"
       }
     ],
     "daily": [
@@ -10537,6 +10545,13 @@
         "i": "Orangespined Unicornfish",
         "v": 65,
         "r": "Rare",
+        "d": "May 14 2026"
+      },
+      {
+        "n": "rms_racing",
+        "i": "Frontosa Cichlid",
+        "v": 38,
+        "r": "Uncommon",
         "d": "May 14 2026"
       }
     ]
@@ -22600,7 +22615,7 @@
       "n": "Frontosa Cichlid",
       "custom": false,
       "r": "Uncommon",
-      "c": 79,
+      "c": 80,
       "h": "pvtcrackpot",
       "v": 39,
       "w": 0.56
@@ -24462,7 +24477,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 79,
+      "c": 80,
       "rec": "0.56 lb",
       "v": 39
     },
@@ -26827,6 +26842,14 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Frontosa Cichlid",
+      "w": 0.54,
+      "v": 38,
+      "r": "Uncommon",
+      "d": "May 14 2026"
+    },
+    {
       "u": "realiist1",
       "i": "Tuna",
       "w": 234.83,
@@ -27416,14 +27439,6 @@
       "w": 48.88,
       "v": 49,
       "r": "Uncommon",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Funny Metal Tubes",
-      "w": 0.17,
-      "v": 2,
-      "r": "Junk",
       "d": "May 10 2026"
     }
   ]
