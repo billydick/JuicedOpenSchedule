@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T01:34:43.126214+00:00",
-    "total_catches": 22685,
+    "generated_at": "2026-05-14T01:37:49.447547+00:00",
+    "total_catches": 22686,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22685 catches"
+      "sub": "Since launch - 22686 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -914,6 +914,14 @@
         "l": "Nov 07 2024"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 3977,
+        "c": 65,
+        "casts": 65,
+        "l": "May 14 2026"
+      },
+      {
         "u": "jake221422",
         "n": "jake221422",
         "g": 3953,
@@ -944,14 +952,6 @@
         "c": 56,
         "casts": 56,
         "l": "May 08 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 3785,
-        "c": 64,
-        "casts": 64,
-        "l": "May 14 2026"
       },
       {
         "u": "greenseyre05",
@@ -6350,9 +6350,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 2126,
-        "c": 37,
-        "casts": 37,
+        "g": 2318,
+        "c": 38,
+        "casts": 38,
         "l": "May 14 2026"
       },
       {
@@ -6550,20 +6550,20 @@
         "l": "May 12 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 613,
+        "c": 8,
+        "casts": 8,
+        "l": "May 14 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 474,
         "c": 5,
         "casts": 5,
         "l": "May 12 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 421,
-        "c": 7,
-        "casts": 7,
-        "l": "May 14 2026"
       },
       {
         "u": "motionless",
@@ -6680,6 +6680,14 @@
         "l": "May 14 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 311,
+        "c": 3,
+        "casts": 3,
+        "l": "May 14 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 201,
@@ -6701,14 +6709,6 @@
         "g": 122,
         "c": 1,
         "casts": 1,
-        "l": "May 14 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 119,
-        "c": 2,
-        "casts": 2,
         "l": "May 14 2026"
       },
       {
@@ -10504,6 +10504,13 @@
         "d": "May 11 2026"
       },
       {
+        "n": "realiist1",
+        "i": "iRacer - Jesse Winslow",
+        "v": 192,
+        "r": "Rare",
+        "d": "May 14 2026"
+      },
+      {
         "n": "nellafella",
         "i": "iRacer - Alayton Norgard",
         "v": 186,
@@ -10523,13 +10530,6 @@
         "v": 142,
         "r": "Rare",
         "d": "May 12 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Matt Tyrrekk",
-        "v": 130,
-        "r": "Rare",
-        "d": "May 11 2026"
       },
       {
         "n": "ikatipoi",
@@ -10597,6 +10597,13 @@
     ],
     "daily": [
       {
+        "n": "realiist1",
+        "i": "iRacer - Jesse Winslow",
+        "v": 192,
+        "r": "Rare",
+        "d": "May 14 2026"
+      },
+      {
         "n": "v1per_simr4cin6",
         "i": "Ryan Blaney",
         "v": 176,
@@ -10614,13 +10621,6 @@
         "n": "ikatipoi",
         "i": "LAS VEGAS MOTOR SPEEDWAY",
         "v": 122,
-        "r": "Rare",
-        "d": "May 14 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Tuna",
-        "v": 112,
         "r": "Rare",
         "d": "May 14 2026"
       },
@@ -11523,7 +11523,7 @@
         }
       },
       "catch_of_day": {
-        "total": 126,
+        "total": 127,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11650,11 +11650,12 @@
           "v1per_simr4cin6",
           "mrbrowz_fdm",
           "dvn_immortalflame",
-          "turbosnail87"
+          "turbosnail87",
+          "realiist1"
         ],
         "latest": {
-          "u": "turbosnail87",
-          "d": "May 07 2026"
+          "u": "realiist1",
+          "d": "May 14 2026"
         }
       },
       "win_day": {
@@ -19768,6 +19769,7 @@
       "realiist1": {
         "broke_in": "Apr 11 2026",
         "first_cast": "May 11 2026",
+        "catch_of_day": "May 14 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
@@ -20729,7 +20731,7 @@
       "n": "iRacer - Jesse Winslow",
       "custom": true,
       "r": "Epic",
-      "c": 31,
+      "c": 32,
       "h": "simonmark21",
       "v": 224,
       "w": 134.92
@@ -26407,7 +26409,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Race Winner BDC S1R7 Homestead Miami",
-      "c": 31,
+      "c": 32,
       "rec": "134.92 lb",
       "v": 224
     },
@@ -26944,6 +26946,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "realiist1",
+      "i": "iRacer - Jesse Winslow",
+      "w": 116.04,
+      "v": 192,
+      "r": "Rare",
+      "d": "May 14 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Hermit Crab",
@@ -27534,14 +27544,6 @@
       "w": 5.38,
       "v": 22,
       "r": "Common",
-      "d": "May 11 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "MWR BATTERY CONNECTOR WIRING",
-      "w": 1.12,
-      "v": 56,
-      "r": "Uncommon",
       "d": "May 11 2026"
     }
   ]
