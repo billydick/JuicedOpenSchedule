@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T01:40:58.439941+00:00",
-    "total_catches": 22688,
+    "generated_at": "2026-05-14T01:49:10.810834+00:00",
+    "total_catches": 22689,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22688 catches"
+      "sub": "Since launch - 22689 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -636,9 +636,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 7864,
-        "c": 108,
-        "casts": 108,
+        "g": 7872,
+        "c": 109,
+        "casts": 109,
         "l": "May 14 2026"
       },
       {
@@ -6390,9 +6390,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 1268,
-        "c": 17,
-        "casts": 17,
+        "g": 1276,
+        "c": 18,
+        "casts": 18,
         "l": "May 14 2026"
       },
       {
@@ -6622,20 +6622,20 @@
         "l": "May 12 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 81,
+        "c": 4,
+        "casts": 4,
+        "l": "May 14 2026"
+      },
+      {
         "u": "stoner_buggs",
         "n": "stoner_buggs",
         "g": 78,
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 73,
-        "c": 3,
-        "casts": 3,
-        "l": "May 14 2026"
       },
       {
         "u": "juicedracing",
@@ -6730,9 +6730,9 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 59,
-        "c": 2,
-        "casts": 2,
+        "g": 67,
+        "c": 3,
+        "casts": 3,
         "l": "May 14 2026"
       },
       {
@@ -23430,7 +23430,7 @@
       "n": "Traffic Cone",
       "custom": false,
       "r": "Junk",
-      "c": 115,
+      "c": 116,
       "h": "benwysard",
       "v": 9,
       "w": 1.13
@@ -23816,7 +23816,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 115,
+      "c": 116,
       "rec": "1.13 lb",
       "v": 9
     },
@@ -26973,6 +26973,14 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Traffic Cone",
+      "w": 1.01,
+      "v": 8,
+      "r": "Junk",
+      "d": "May 14 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "T-REX",
       "w": 4.07,
@@ -27561,14 +27569,6 @@
       "i": "Mussel",
       "w": 0.1,
       "v": 10,
-      "r": "Common",
-      "d": "May 11 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Rookie License",
-      "w": 0.83,
-      "v": 21,
       "r": "Common",
       "d": "May 11 2026"
     }
