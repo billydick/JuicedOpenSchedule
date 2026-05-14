@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T03:21:38.079485+00:00",
-    "total_catches": 22702,
+    "generated_at": "2026-05-14T03:27:48.903140+00:00",
+    "total_catches": 22703,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22702 catches"
+      "sub": "Since launch - 22703 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -3026,6 +3026,14 @@
         "l": "Jan 23 2025"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 213,
+        "c": 6,
+        "casts": 6,
+        "l": "May 14 2026"
+      },
+      {
         "u": "meheckenpenner",
         "n": "meheckenpenner",
         "g": 212,
@@ -3056,14 +3064,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 18 2025"
-      },
-      {
-        "u": "dogfish__27",
-        "n": "dogfish__27",
-        "g": 208,
-        "c": 5,
-        "casts": 5,
-        "l": "May 10 2026"
       },
       {
         "u": "ogbanana3036",
@@ -6684,6 +6684,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 14 2026"
+      },
+      {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 5,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
       }
     ],
     "daily": [
@@ -6779,6 +6787,14 @@
         "u": "raycharlesdrivingschool",
         "n": "raycharlesdrivingschool",
         "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
+      },
+      {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "May 14 2026"
@@ -10647,6 +10663,13 @@
         "v": 16,
         "r": "Common",
         "d": "May 14 2026"
+      },
+      {
+        "n": "dogfish__27",
+        "i": "Fish Cracker",
+        "v": 5,
+        "r": "Junk",
+        "d": "May 14 2026"
       }
     ],
     "daily": [
@@ -10732,6 +10755,13 @@
         "i": "Blue Discus",
         "v": 16,
         "r": "Common",
+        "d": "May 14 2026"
+      },
+      {
+        "n": "dogfish__27",
+        "i": "Fish Cracker",
+        "v": 5,
+        "r": "Junk",
         "d": "May 14 2026"
       }
     ]
@@ -23502,7 +23532,7 @@
       "n": "Fish Cracker",
       "custom": false,
       "r": "Junk",
-      "c": 64,
+      "c": 65,
       "h": "wintergofast",
       "v": 6,
       "w": 0.56
@@ -24050,7 +24080,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 64,
+      "c": 65,
       "rec": "0.56 lb",
       "v": 6
     },
@@ -27018,6 +27048,14 @@
   ],
   "recent": [
     {
+      "u": "dogfish__27",
+      "i": "Fish Cracker",
+      "w": 0.47,
+      "v": 5,
+      "r": "Junk",
+      "d": "May 14 2026"
+    },
+    {
       "u": "motionless",
       "i": "Strange Vase",
       "w": 0.45,
@@ -27607,14 +27645,6 @@
       "w": 74.68,
       "v": 224,
       "r": "Epic",
-      "d": "May 11 2026"
-    },
-    {
-      "u": "rms_racing",
-      "i": "Bristol Motor Speedway",
-      "w": 193.07,
-      "v": 14,
-      "r": "Common",
       "d": "May 11 2026"
     }
   ]
