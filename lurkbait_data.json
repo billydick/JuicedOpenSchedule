@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T00:03:13.260890+00:00",
-    "total_catches": 22666,
+    "generated_at": "2026-05-14T00:31:45.559292+00:00",
+    "total_catches": 22667,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22666 catches"
+      "sub": "Since launch - 22667 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -396,10 +396,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 26406,
-        "c": 342,
-        "casts": 342,
-        "l": "May 12 2026"
+        "g": 26471,
+        "c": 343,
+        "casts": 343,
+        "l": "May 14 2026"
       },
       {
         "u": "justingamez",
@@ -6318,10 +6318,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 8648,
-        "c": 123,
-        "casts": 123,
-        "l": "May 12 2026"
+        "g": 8713,
+        "c": 124,
+        "casts": 124,
+        "l": "May 14 2026"
       },
       {
         "u": "motionless",
@@ -6520,10 +6520,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2001,
-        "c": 17,
-        "casts": 17,
-        "l": "May 12 2026"
+        "g": 2066,
+        "c": 18,
+        "casts": 18,
+        "l": "May 14 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6662,7 +6662,16 @@
         "l": "May 11 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10507,7 +10516,15 @@
         "d": "May 11 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Orangespined Unicornfish",
+        "v": 65,
+        "r": "Rare",
+        "d": "May 14 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22024,7 +22041,7 @@
       "n": "Orangespined Unicornfish",
       "custom": false,
       "r": "Rare",
-      "c": 66,
+      "c": 67,
       "h": "nukacolahunter2",
       "v": 84,
       "w": 1.12
@@ -23913,7 +23930,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 66,
+      "c": 67,
       "rec": "1.12 lb",
       "v": 84
     },
@@ -26791,6 +26808,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Orangespined Unicornfish",
+      "w": 0.87,
+      "v": 65,
+      "r": "Rare",
+      "d": "May 14 2026"
+    },
+    {
       "u": "flippy00",
       "i": "Brad Keselowski",
       "w": 24.42,
@@ -27380,14 +27405,6 @@
       "w": 0.86,
       "v": 431,
       "r": "Legendary",
-      "d": "May 10 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "CHEVY SB-2 INTAKE",
-      "w": 5.21,
-      "v": 52,
-      "r": "Uncommon",
       "d": "May 10 2026"
     }
   ]
