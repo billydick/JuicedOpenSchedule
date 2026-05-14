@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-14T02:38:27.733075+00:00",
-    "total_catches": 22697,
+    "generated_at": "2026-05-14T02:39:32.044860+00:00",
+    "total_catches": 22698,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22697 catches"
+      "sub": "Since launch - 22698 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -1730,20 +1730,20 @@
         "l": "Feb 18 2025"
       },
       {
+        "u": "raycharlesdrivingschool",
+        "n": "raycharlesdrivingschool",
+        "g": 934,
+        "c": 17,
+        "casts": 17,
+        "l": "May 14 2026"
+      },
+      {
         "u": "laeaglescout",
         "n": "laeaglescout",
         "g": 930,
         "c": 9,
         "casts": 9,
         "l": "Mar 13 2025"
-      },
-      {
-        "u": "raycharlesdrivingschool",
-        "n": "raycharlesdrivingschool",
-        "g": 918,
-        "c": 16,
-        "casts": 16,
-        "l": "Jan 28 2025"
       },
       {
         "u": "mrbrowz_fdm",
@@ -6676,6 +6676,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 12 2026"
+      },
+      {
+        "u": "raycharlesdrivingschool",
+        "n": "raycharlesdrivingschool",
+        "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
       }
     ],
     "daily": [
@@ -6763,6 +6771,14 @@
         "u": "motionless",
         "n": "motionless",
         "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "May 14 2026"
+      },
+      {
+        "u": "raycharlesdrivingschool",
+        "n": "raycharlesdrivingschool",
+        "g": 16,
         "c": 1,
         "casts": 1,
         "l": "May 14 2026"
@@ -10624,6 +10640,13 @@
         "v": 20,
         "r": "Common",
         "d": "May 12 2026"
+      },
+      {
+        "n": "raycharlesdrivingschool",
+        "i": "Blue Discus",
+        "v": 16,
+        "r": "Common",
+        "d": "May 14 2026"
       }
     ],
     "daily": [
@@ -10701,6 +10724,13 @@
         "n": "motionless",
         "i": "Blue Discus",
         "v": 21,
+        "r": "Common",
+        "d": "May 14 2026"
+      },
+      {
+        "n": "raycharlesdrivingschool",
+        "i": "Blue Discus",
+        "v": 16,
         "r": "Common",
         "d": "May 14 2026"
       }
@@ -23040,7 +23070,7 @@
       "n": "Blue Discus",
       "custom": false,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "alex326power",
       "v": 23,
       "w": 0.23
@@ -24074,7 +24104,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 160,
+      "c": 161,
       "rec": "0.23 lb",
       "v": 23
     },
@@ -26988,6 +27018,14 @@
   ],
   "recent": [
     {
+      "u": "raycharlesdrivingschool",
+      "i": "Blue Discus",
+      "w": 0.16,
+      "v": 16,
+      "r": "Common",
+      "d": "May 14 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Cole Custer",
       "w": 52.69,
@@ -27577,14 +27615,6 @@
       "w": 0.1,
       "v": 102,
       "r": "Rare",
-      "d": "May 11 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Atlantic Cod",
-      "w": 33.25,
-      "v": 25,
-      "r": "Common",
       "d": "May 11 2026"
     }
   ]
