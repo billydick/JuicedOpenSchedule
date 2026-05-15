@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-15T00:16:15.074907+00:00",
-    "total_catches": 22706,
+    "generated_at": "2026-05-15T00:36:39.427075+00:00",
+    "total_catches": 22707,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22706 catches"
+      "sub": "Since launch - 22707 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -748,10 +748,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 6088,
-        "c": 75,
-        "casts": 75,
-        "l": "May 14 2026"
+        "g": 6124,
+        "c": 76,
+        "casts": 76,
+        "l": "May 15 2026"
       },
       {
         "u": "loosewheel0",
@@ -6414,10 +6414,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 1187,
-        "c": 15,
-        "casts": 15,
-        "l": "May 14 2026"
+        "g": 1223,
+        "c": 16,
+        "casts": 16,
+        "l": "May 15 2026"
       },
       {
         "u": "turbosnail87",
@@ -6600,10 +6600,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 280,
-        "c": 4,
-        "casts": 4,
-        "l": "May 14 2026"
+        "g": 316,
+        "c": 5,
+        "casts": 5,
+        "l": "May 15 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6702,7 +6702,16 @@
         "l": "May 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 36,
+        "c": 1,
+        "casts": 1,
+        "l": "May 15 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10547,7 +10556,15 @@
         "d": "May 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "beliron",
+        "i": "Rabbitfish",
+        "v": 36,
+        "r": "Uncommon",
+        "d": "May 15 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22597,7 +22614,7 @@
       "n": "Rabbitfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 83,
+      "c": 84,
       "h": "78motu78",
       "v": 39,
       "w": 2.25
@@ -24864,7 +24881,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 83,
+      "c": 84,
       "rec": "2.25 lb",
       "v": 39
     },
@@ -26833,6 +26850,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Rabbitfish",
+      "w": 2.03,
+      "v": 36,
+      "r": "Uncommon",
+      "d": "May 15 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Road Race Wiper Motor",
       "w": 2.52,
@@ -27422,14 +27447,6 @@
       "w": 25.86,
       "v": 43,
       "r": "Uncommon",
-      "d": "May 12 2026"
-    },
-    {
-      "u": "pvtcrackpot",
-      "i": "Henrys Shoe",
-      "w": 2.07,
-      "v": 5,
-      "r": "Junk",
       "d": "May 12 2026"
     }
   ]
