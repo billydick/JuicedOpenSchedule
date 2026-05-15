@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T01:20:34Z",
+  "generated_at": "2026-05-15T01:22:17Z",
   "meta": {
-    "total_hands": 178,
+    "total_hands": 179,
     "total_players": 22,
     "biggest_bet": {
       "user": "juicedracing",
@@ -42,6 +42,13 @@
         "ach": 2
       },
       {
+        "u": "ikatipoi",
+        "chips": 193352,
+        "net": -107785,
+        "hands": 5,
+        "ach": 12
+      },
+      {
         "u": "motionless",
         "chips": 120000,
         "net": 5500,
@@ -75,13 +82,6 @@
         "net": 54901,
         "hands": 0,
         "ach": 1
-      },
-      {
-        "u": "ikatipoi",
-        "chips": 96651,
-        "net": -214101,
-        "hands": 4,
-        "ach": 8
       },
       {
         "u": "gatoraintplaying",
@@ -199,10 +199,10 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 96651,
-        "net": -189101,
-        "hands": 4,
-        "ach": 8
+        "chips": 193352,
+        "net": -82785,
+        "hands": 5,
+        "ach": 12
       }
     ]
   },
@@ -210,12 +210,14 @@
     "biggest_win": {
       "u": "ikatipoi",
       "cards": [
-        "A♦",
-        "9♥"
+        "3♥",
+        "6♠",
+        "6♦",
+        "5♦"
       ],
       "total": 20,
-      "bet": 26000,
-      "net": 26000,
+      "bet": 96651,
+      "net": 106316,
       "result": "win"
     },
     "biggest_loss": {
@@ -243,8 +245,8 @@
       "result": "bust"
     },
     "most_hands": {
-      "u": "larcen22",
-      "n": 4
+      "u": "ikatipoi",
+      "n": 5
     },
     "best_streak": {
       "u": "ikatipoi",
@@ -258,6 +260,10 @@
       "u": "larcen22",
       "n": 1
     },
+    "best_win_rate": {
+      "u": "ikatipoi",
+      "pct": 40.0
+    },
     "best_poker": {
       "u": "ikatipoi",
       "rank": "pair",
@@ -270,12 +276,14 @@
     "most_cards_win": {
       "u": "ikatipoi",
       "cards": [
-        "A♦",
-        "9♥"
+        "3♥",
+        "6♠",
+        "6♦",
+        "5♦"
       ],
       "total": 20,
-      "bet": 26000,
-      "net": 26000,
+      "bet": 96651,
+      "net": 106316,
       "result": "win"
     }
   },
@@ -1119,10 +1127,10 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 96651,
+          "chips": 193352,
           "net": -25000,
           "hands": 1,
-          "ach": 8
+          "ach": 12
         },
         {
           "u": "larcen22",
@@ -1910,19 +1918,23 @@
         }
       },
       "exact_change_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "codycoyoteracing",
-          "d": "2026-05-11"
+          "u": "ikatipoi",
+          "d": "2026-05-14"
         }
       },
       "big_nerve_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "codycoyoteracing",
-          "d": "2026-05-11"
+          "u": "ikatipoi",
+          "d": "2026-05-14"
         }
       },
       "steady_grinder_session_10": {
@@ -2217,11 +2229,13 @@
         }
       },
       "lucky_escape": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "codycoyoteracing",
-          "d": "2026-05-11"
+          "u": "ikatipoi",
+          "d": "2026-05-14"
         }
       },
       "lucky_escape_50": {
@@ -2509,11 +2523,13 @@
         }
       },
       "clean_poker_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-05-09"
+          "u": "ikatipoi",
+          "d": "2026-05-14"
         }
       },
       "clean_poker_win_25": {
@@ -2554,7 +2570,11 @@
         "high_roller_100k": "2026-05-14",
         "poker_pair_any": "2026-05-14",
         "poker_salvation": "2026-05-14",
-        "escalator": "2026-05-14"
+        "escalator": "2026-05-14",
+        "exact_change_win": "2026-05-14",
+        "big_nerve_win": "2026-05-14",
+        "lucky_escape": "2026-05-14",
+        "clean_poker_win": "2026-05-14"
       },
       "juicedracing": {
         "bank_builder_100k": "earned",
@@ -2570,6 +2590,36 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "exact_change_win",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "lucky_escape",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "poker_pair_any",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "clean_poker_win",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
       {
         "id": "high_roller_50k",
         "u": "ikatipoi",
@@ -2638,36 +2688,6 @@
       {
         "id": "exact_change_win",
         "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "escalator",
-        "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "table_dominator",
-        "u": "codycoyoteracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "juicedracing",
         "d": "2026-05-11"
       }
     ]
@@ -3389,6 +3409,42 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778808137.9135287,
+      "date": "2026-05-14",
+      "player": "ikatipoi",
+      "bet": 96651,
+      "balance_before": 96651,
+      "result": "win",
+      "net_delta": 106316,
+      "player_cards": [
+        "3♥",
+        "6♠",
+        "6♦",
+        "5♦"
+      ],
+      "player_total": 20,
+      "hit_count": 2,
+      "dealer_cards": [
+        "J♦",
+        "9♥"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 0,
+      "poker_bonus": 9665,
+      "achievements_earned": [
+        "high_roller_50k",
+        "exact_change_win",
+        "big_nerve_win",
+        "lucky_escape",
+        "poker_pair_any",
+        "clean_poker_win"
+      ]
+    },
     {
       "ts": 1778808034.973466,
       "date": "2026-05-14",
@@ -4927,39 +4983,6 @@
         "big_nerve_win",
         "poker_pair_any",
         "clean_poker_win"
-      ]
-    },
-    {
-      "ts": 1777941820.0611548,
-      "date": "2026-05-04",
-      "player": "azsuperbeast",
-      "bet": 500,
-      "balance_before": 500,
-      "result": "win",
-      "net_delta": 500,
-      "player_cards": [
-        "6♣",
-        "10♥"
-      ],
-      "player_total": 16,
-      "hit_count": 0,
-      "dealer_cards": [
-        "3♣",
-        "3♦",
-        "Q♣",
-        "8♣"
-      ],
-      "dealer_total": 24,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win",
-        "double_or_nothing"
       ]
     }
   ]
