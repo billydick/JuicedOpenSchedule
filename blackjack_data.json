@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T01:19:12Z",
+  "generated_at": "2026-05-15T01:20:34Z",
   "meta": {
-    "total_hands": 177,
+    "total_hands": 178,
     "total_players": 22,
     "biggest_bet": {
       "user": "juicedracing",
@@ -42,13 +42,6 @@
         "ach": 2
       },
       {
-        "u": "ikatipoi",
-        "chips": 196752,
-        "net": -114000,
-        "hands": 3,
-        "ach": 8
-      },
-      {
         "u": "motionless",
         "chips": 120000,
         "net": 5500,
@@ -82,6 +75,13 @@
         "net": 54901,
         "hands": 0,
         "ach": 1
+      },
+      {
+        "u": "ikatipoi",
+        "chips": 96651,
+        "net": -214101,
+        "hands": 4,
+        "ach": 8
       },
       {
         "u": "gatoraintplaying",
@@ -161,17 +161,17 @@
         "ach": 0
       },
       {
+        "u": "larcen22",
+        "chips": 550,
+        "net": -94654,
+        "hands": 4,
+        "ach": 0
+      },
+      {
         "u": "evangel0203",
         "chips": 300,
         "net": -64900,
         "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "larcen22",
-        "chips": 300,
-        "net": -94654,
-        "hands": 4,
         "ach": 0
       },
       {
@@ -192,16 +192,16 @@
     "daily": [
       {
         "u": "larcen22",
-        "chips": 300,
+        "chips": 550,
         "net": -6850,
         "hands": 4,
         "ach": 0
       },
       {
         "u": "ikatipoi",
-        "chips": 196752,
-        "net": -89000,
-        "hands": 3,
+        "chips": 96651,
+        "net": -189101,
+        "hands": 4,
         "ach": 8
       }
     ]
@@ -221,26 +221,26 @@
     "biggest_loss": {
       "u": "ikatipoi",
       "cards": [
+        "8♠",
         "5♥",
-        "5♣",
-        "8♦"
+        "Q♠"
       ],
-      "total": 18,
-      "bet": 100000,
-      "net": -90000,
-      "result": "lose"
+      "total": 23,
+      "bet": 100101,
+      "net": -100101,
+      "result": "bust"
     },
     "biggest_bet": {
       "u": "ikatipoi",
       "cards": [
+        "8♠",
         "5♥",
-        "5♣",
-        "8♦"
+        "Q♠"
       ],
-      "total": 18,
-      "bet": 100000,
-      "net": -90000,
-      "result": "lose"
+      "total": 23,
+      "bet": 100101,
+      "net": -100101,
+      "result": "bust"
     },
     "most_hands": {
       "u": "larcen22",
@@ -286,7 +286,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": -1350,
           "hands": 1,
           "ach": 0
@@ -360,7 +360,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": -78180,
           "hands": 1,
           "ach": 0
@@ -459,7 +459,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": 15501,
           "hands": 3,
           "ach": 0
@@ -586,7 +586,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": 17879,
           "hands": 7,
           "ach": 0
@@ -908,7 +908,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": -5198,
           "hands": 1,
           "ach": 0
@@ -978,7 +978,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": 20049,
           "hands": 2,
           "ach": 0
@@ -1119,14 +1119,14 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 196752,
+          "chips": 96651,
           "net": -25000,
           "hands": 1,
           "ach": 8
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": -80100,
           "hands": 5,
           "ach": 0
@@ -1338,7 +1338,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": 26595,
           "hands": 4,
           "ach": 0
@@ -1562,7 +1562,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 300,
+          "chips": 550,
           "net": -3000,
           "hands": 1,
           "ach": 0
@@ -2581,6 +2581,16 @@
         "d": "2026-05-14"
       },
       {
+        "id": "high_roller_50k",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
+      {
         "id": "poker_pair_any",
         "u": "ikatipoi",
         "d": "2026-05-14"
@@ -2657,16 +2667,6 @@
       },
       {
         "id": "high_roller_50k",
-        "u": "juicedracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "juicedracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "high_roller_250k",
         "u": "juicedracing",
         "d": "2026-05-11"
       }
@@ -3389,6 +3389,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778808034.973466,
+      "date": "2026-05-14",
+      "player": "ikatipoi",
+      "bet": 100101,
+      "balance_before": 196752,
+      "result": "bust",
+      "net_delta": -100101,
+      "player_cards": [
+        "8♠",
+        "5♥",
+        "Q♠"
+      ],
+      "player_total": 23,
+      "hit_count": 1,
+      "dealer_cards": [
+        "3♦",
+        "6♦",
+        "7♥",
+        "9♥"
+      ],
+      "dealer_total": 25,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k"
+      ]
+    },
     {
       "ts": 1778807952.8368146,
       "date": "2026-05-14",
@@ -4928,35 +4961,6 @@
         "big_nerve_win",
         "double_or_nothing"
       ]
-    },
-    {
-      "ts": 1777940962.2278807,
-      "date": "2026-05-04",
-      "player": "azsuperbeast",
-      "bet": 1000,
-      "balance_before": 1050,
-      "result": "lose",
-      "net_delta": -1000,
-      "player_cards": [
-        "A♦",
-        "6♣"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "3♠",
-        "J♠",
-        "3♣",
-        "4♣"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
