@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-15T01:16:51Z",
+  "generated_at": "2026-05-15T01:17:57Z",
   "meta": {
-    "total_hands": 175,
+    "total_hands": 176,
     "total_players": 22,
     "biggest_bet": {
       "user": "juicedracing",
@@ -43,10 +43,10 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 260752,
-        "net": -50000,
-        "hands": 1,
-        "ach": 2
+        "chips": 234752,
+        "net": -24000,
+        "hands": 2,
+        "ach": 3
       },
       {
         "u": "motionless",
@@ -141,7 +141,7 @@
       },
       {
         "u": "juicedracing",
-        "chips": 8200,
+        "chips": 8450,
         "net": -167767,
         "hands": 0,
         "ach": 3
@@ -191,22 +191,33 @@
     ],
     "daily": [
       {
+        "u": "ikatipoi",
+        "chips": 234752,
+        "net": 1000,
+        "hands": 2,
+        "ach": 3
+      },
+      {
         "u": "larcen22",
         "chips": 300,
         "net": -6850,
         "hands": 4,
         "ach": 0
-      },
-      {
-        "u": "ikatipoi",
-        "chips": 260752,
-        "net": -25000,
-        "hands": 1,
-        "ach": 2
       }
     ]
   },
   "daily_highlights": {
+    "biggest_win": {
+      "u": "ikatipoi",
+      "cards": [
+        "A♦",
+        "9♥"
+      ],
+      "total": 20,
+      "bet": 26000,
+      "net": 26000,
+      "result": "win"
+    },
     "biggest_loss": {
       "u": "ikatipoi",
       "cards": [
@@ -222,18 +233,21 @@
     "biggest_bet": {
       "u": "ikatipoi",
       "cards": [
-        "3♠",
-        "4♠",
-        "10♣"
+        "A♦",
+        "9♥"
       ],
-      "total": 17,
-      "bet": 25000,
-      "net": -25000,
-      "result": "lose"
+      "total": 20,
+      "bet": 26000,
+      "net": 26000,
+      "result": "win"
     },
     "most_hands": {
       "u": "larcen22",
       "n": 4
+    },
+    "best_streak": {
+      "u": "ikatipoi",
+      "n": 1
     },
     "worst_streak": {
       "u": "larcen22",
@@ -242,6 +256,17 @@
     "most_busts": {
       "u": "larcen22",
       "n": 1
+    },
+    "most_cards_win": {
+      "u": "ikatipoi",
+      "cards": [
+        "A♦",
+        "9♥"
+      ],
+      "total": 20,
+      "bet": 26000,
+      "net": 26000,
+      "result": "win"
     }
   },
   "daily_history": [
@@ -258,7 +283,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -10000,
           "hands": 2,
           "ach": 3
@@ -332,7 +357,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -747130,
           "hands": 2,
           "ach": 3
@@ -410,7 +435,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": 470990,
           "hands": 2,
           "ach": 3
@@ -544,7 +569,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": 194430,
           "hands": 3,
           "ach": 3
@@ -666,7 +691,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": 51260,
           "hands": 2,
           "ach": 3
@@ -887,7 +912,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -15000,
           "hands": 1,
           "ach": 3
@@ -964,7 +989,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -21600,
           "hands": 6,
           "ach": 3
@@ -1077,17 +1102,17 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -19000,
           "hands": 12,
           "ach": 3
         },
         {
           "u": "ikatipoi",
-          "chips": 260752,
+          "chips": 234752,
           "net": -25000,
           "hands": 1,
-          "ach": 2
+          "ach": 3
         },
         {
           "u": "larcen22",
@@ -1195,7 +1220,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": 0,
           "hands": 1,
           "ach": 3
@@ -1338,7 +1363,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -30699,
           "hands": 11,
           "ach": 3
@@ -1430,7 +1455,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -18,
           "hands": 4,
           "ach": 3
@@ -1562,7 +1587,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8200,
+          "chips": 8450,
           "net": -41000,
           "hands": 6,
           "ach": 3
@@ -2014,11 +2039,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-05-11"
+          "u": "ikatipoi",
+          "d": "2026-05-14"
         }
       },
       "big_swing_session_200k": {
@@ -2501,7 +2528,8 @@
       },
       "ikatipoi": {
         "bank_builder_100k": "earned",
-        "bank_builder_250k": "earned"
+        "bank_builder_250k": "earned",
+        "big_swing_session_50k": "2026-05-14"
       },
       "juicedracing": {
         "bank_builder_100k": "earned",
@@ -2517,6 +2545,11 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "big_swing_session_50k",
+        "u": "ikatipoi",
+        "d": "2026-05-14"
+      },
       {
         "id": "high_roller_50k",
         "u": "larcen22",
@@ -2609,11 +2642,6 @@
       },
       {
         "id": "high_roller_250k",
-        "u": "juicedracing",
-        "d": "2026-05-11"
-      },
-      {
-        "id": "high_roller_500k",
         "u": "juicedracing",
         "d": "2026-05-11"
       }
@@ -3336,6 +3364,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1778807877.5737605,
+      "date": "2026-05-14",
+      "player": "ikatipoi",
+      "bet": 26000,
+      "balance_before": 260752,
+      "result": "win",
+      "net_delta": 26000,
+      "player_cards": [
+        "A♦",
+        "9♥"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "3♣",
+        "7♦",
+        "5♥",
+        "2♦"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "big_swing_session_50k"
+      ]
+    },
     {
       "ts": 1778807811.2533696,
       "date": "2026-05-14",
@@ -4867,47 +4926,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1777939398.877562,
-      "date": "2026-05-04",
-      "player": "brookswhynot",
-      "bet": 13050,
-      "balance_before": 13050,
-      "result": "win",
-      "net_delta": 19575,
-      "player_cards": [
-        "2♦",
-        "7♣",
-        "3♣",
-        "2♠",
-        "7♦"
-      ],
-      "player_total": 21,
-      "hit_count": 3,
-      "dealer_cards": [
-        "J♣",
-        "9♥"
-      ],
-      "dealer_total": 19,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": "two_pair",
-      "poker_pct": 50,
-      "poker_relief": 0,
-      "poker_bonus": 6525,
-      "achievements_earned": [
-        "five_card_charlie",
-        "exact_change_win",
-        "big_nerve_win",
-        "triple_hit_win",
-        "lucky_escape",
-        "poker_two_pair_any",
-        "poker_bonus_50",
-        "clean_poker_win",
-        "double_or_nothing",
-        "table_dominator"
-      ]
     }
   ]
 }
