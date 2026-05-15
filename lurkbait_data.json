@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-15T01:52:37.133883+00:00",
-    "total_catches": 22722,
+    "generated_at": "2026-05-15T01:54:42.027319+00:00",
+    "total_catches": 22723,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22722 catches"
+      "sub": "Since launch - 22723 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -890,6 +890,14 @@
         "l": "Jan 22 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 4172,
+        "c": 68,
+        "casts": 68,
+        "l": "May 15 2026"
+      },
+      {
         "u": "zedtox",
         "n": "zedtox",
         "g": 4083,
@@ -904,14 +912,6 @@
         "c": 70,
         "casts": 70,
         "l": "Nov 27 2024"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 4062,
-        "c": 67,
-        "casts": 67,
-        "l": "May 14 2026"
       },
       {
         "u": "breadandwaturd",
@@ -6350,10 +6350,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 2403,
-        "c": 40,
-        "casts": 40,
-        "l": "May 14 2026"
+        "g": 2513,
+        "c": 41,
+        "casts": 41,
+        "l": "May 15 2026"
       },
       {
         "u": "ikatipoi",
@@ -6550,6 +6550,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 808,
+        "c": 11,
+        "casts": 11,
+        "l": "May 15 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 795,
@@ -6564,14 +6572,6 @@
         "c": 5,
         "casts": 5,
         "l": "May 12 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 698,
-        "c": 10,
-        "casts": 10,
-        "l": "May 14 2026"
       },
       {
         "u": "sparkyracingtv",
@@ -6741,6 +6741,14 @@
         "g": 116,
         "c": 2,
         "casts": 2,
+        "l": "May 15 2026"
+      },
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 110,
+        "c": 1,
+        "casts": 1,
         "l": "May 15 2026"
       },
       {
@@ -10662,6 +10670,13 @@
         "n": "beliron",
         "i": "Pit Crew",
         "v": 190,
+        "r": "Rare",
+        "d": "May 15 2026"
+      },
+      {
+        "n": "realiist1",
+        "i": "Craftman F100",
+        "v": 110,
         "r": "Rare",
         "d": "May 15 2026"
       },
@@ -21654,7 +21669,7 @@
       "n": "Craftman F100",
       "custom": true,
       "r": "Rare",
-      "c": 42,
+      "c": 43,
       "h": "ironlegacy_",
       "v": 113,
       "w": 112.88
@@ -26072,7 +26087,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Feels like an F100 too!",
-      "c": 42,
+      "c": 43,
       "rec": "112.88 lb",
       "v": 113
     },
@@ -27006,6 +27021,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Craftman F100",
+      "w": 109.97,
+      "v": 110,
+      "r": "Rare",
+      "d": "May 15 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "TR160 Mk4 Racing Simulator",
       "w": 52.63,
@@ -27595,14 +27618,6 @@
       "w": 96.61,
       "v": 161,
       "r": "Epic",
-      "d": "May 12 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Blue Whale",
-      "w": 106825.6,
-      "v": 822,
-      "r": "Legendary",
       "d": "May 12 2026"
     }
   ]
