@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T23:29:06.072721+00:00",
-    "total_catches": 22739,
+    "generated_at": "2026-05-16T23:42:24.502134+00:00",
+    "total_catches": 22740,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22739 catches"
+      "sub": "Since launch - 22740 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -396,10 +396,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 28130,
-        "c": 364,
-        "casts": 364,
-        "l": "May 15 2026"
+        "g": 28132,
+        "c": 365,
+        "casts": 365,
+        "l": "May 16 2026"
       },
       {
         "u": "justingamez",
@@ -6318,10 +6318,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 10372,
-        "c": 145,
-        "casts": 145,
-        "l": "May 15 2026"
+        "g": 10374,
+        "c": 146,
+        "casts": 146,
+        "l": "May 16 2026"
       },
       {
         "u": "nellafella",
@@ -6520,10 +6520,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 3725,
-        "c": 39,
-        "casts": 39,
-        "l": "May 15 2026"
+        "g": 3727,
+        "c": 40,
+        "casts": 40,
+        "l": "May 16 2026"
       },
       {
         "u": "nellafella",
@@ -6718,7 +6718,16 @@
         "l": "May 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "May 16 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10556,7 +10565,15 @@
         "d": "May 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Thong",
+        "v": 2,
+        "r": "Junk",
+        "d": "May 16 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23389,7 +23406,7 @@
       "n": "Thong",
       "custom": false,
       "r": "Junk",
-      "c": 106,
+      "c": 107,
       "h": "flippy00",
       "v": 2,
       "w": 0.23
@@ -24396,7 +24413,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 106,
+      "c": 107,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -26861,6 +26878,14 @@
   "recent": [
     {
       "u": "brookswhynot",
+      "i": "Thong",
+      "w": 0.21,
+      "v": 2,
+      "r": "Junk",
+      "d": "May 16 2026"
+    },
+    {
+      "u": "brookswhynot",
       "i": "Will Brown",
       "w": 5.68,
       "v": 12,
@@ -27448,14 +27473,6 @@
       "i": "Brad Keselowski",
       "w": 24.42,
       "v": 195,
-      "r": "Epic",
-      "d": "May 12 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Ricky Rudd",
-      "w": 1.12,
-      "v": 392,
       "r": "Epic",
       "d": "May 12 2026"
     }
