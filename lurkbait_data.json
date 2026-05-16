@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T23:46:31.908671+00:00",
-    "total_catches": 22741,
+    "generated_at": "2026-05-16T23:52:40.575215+00:00",
+    "total_catches": 22742,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22741 catches"
+      "sub": "Since launch - 22742 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -636,10 +636,10 @@
       {
         "u": "rms_racing",
         "n": "rms_racing",
-        "g": 7872,
-        "c": 109,
-        "casts": 109,
-        "l": "May 14 2026"
+        "g": 8072,
+        "c": 110,
+        "casts": 110,
+        "l": "May 16 2026"
       },
       {
         "u": "community_patroll",
@@ -6372,6 +6372,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 1476,
+        "c": 19,
+        "casts": 19,
+        "l": "May 16 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 1450,
@@ -6399,14 +6407,6 @@
         "u": "ironlegacy_",
         "n": "ironlegacy_",
         "g": 1353,
-        "c": 18,
-        "casts": 18,
-        "l": "May 14 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 1276,
         "c": 18,
         "casts": 18,
         "l": "May 14 2026"
@@ -6614,6 +6614,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 281,
+        "c": 5,
+        "casts": 5,
+        "l": "May 16 2026"
+      },
+      {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 274,
@@ -6644,14 +6652,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 12 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 81,
-        "c": 4,
-        "casts": 4,
-        "l": "May 14 2026"
       },
       {
         "u": "stoner_buggs",
@@ -6723,6 +6723,14 @@
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 231,
+        "c": 1,
+        "casts": 1,
+        "l": "May 16 2026"
+      },
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 200,
         "c": 1,
         "casts": 1,
         "l": "May 16 2026"
@@ -10375,17 +10383,17 @@
         "d": "May 15 2026"
       },
       {
+        "n": "rms_racing",
+        "i": "iRacer - Noah Woods",
+        "v": 200,
+        "r": "Epic",
+        "d": "May 16 2026"
+      },
+      {
         "n": "x_killswitch22_x",
         "i": "Buddy Baker",
         "v": 196,
         "r": "Rare",
-        "d": "May 03 2026"
-      },
-      {
-        "n": "rms_racing",
-        "i": "iRacer - Alayton Norgard",
-        "v": 190,
-        "r": "Epic",
         "d": "May 03 2026"
       },
       {
@@ -10468,6 +10476,13 @@
         "d": "May 15 2026"
       },
       {
+        "n": "rms_racing",
+        "i": "iRacer - Noah Woods",
+        "v": 200,
+        "r": "Epic",
+        "d": "May 16 2026"
+      },
+      {
         "n": "realiist1",
         "i": "iRacer - Jesse Winslow",
         "v": 192,
@@ -10531,13 +10546,6 @@
         "d": "May 15 2026"
       },
       {
-        "n": "rms_racing",
-        "i": "Frontosa Cichlid",
-        "v": 38,
-        "r": "Uncommon",
-        "d": "May 14 2026"
-      },
-      {
         "n": "ironlegacy_",
         "i": "Katherine Legge",
         "v": 24,
@@ -10578,6 +10586,13 @@
         "n": "ikatipoi",
         "i": "Frankie Muniz",
         "v": 231,
+        "r": "Epic",
+        "d": "May 16 2026"
+      },
+      {
+        "n": "rms_racing",
+        "i": "iRacer - Noah Woods",
+        "v": 200,
         "r": "Epic",
         "d": "May 16 2026"
       },
@@ -12661,7 +12676,7 @@
         }
       },
       "the_regulars": {
-        "total": 30,
+        "total": 31,
         "holders": [
           "dowinkle",
           "ironlegacy_",
@@ -12692,11 +12707,12 @@
           "jdawg250f",
           "brookswhynot",
           "mrdrwaddles",
-          "drewieblaster"
+          "drewieblaster",
+          "rms_racing"
         ],
         "latest": {
-          "u": "drewieblaster",
-          "d": "Jan 22 2026"
+          "u": "rms_racing",
+          "d": "May 16 2026"
         }
       },
       "walk_in": {
@@ -17439,6 +17455,7 @@
         "catch_of_day": "Jan 07 2025",
         "junk_master": "Jun 14 2025",
         "custom_catch": "Jan 01 2025",
+        "the_regulars": "May 16 2026",
         "walk_in": "Feb 07 2025",
         "regular_weight": "Apr 23 2026",
         "century": "May 07 2026",
@@ -20750,7 +20767,7 @@
       "n": "iRacer - Noah Woods",
       "custom": true,
       "r": "Epic",
-      "c": 12,
+      "c": 13,
       "h": "juicedracing",
       "v": 223,
       "w": 244.91
@@ -26536,7 +26553,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Race Winner SSS1R9 Bristol Motor Speedway",
-      "c": 12,
+      "c": 13,
       "rec": "244.91 lb",
       "v": 223
     },
@@ -26893,6 +26910,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "rms_racing",
+      "i": "iRacer - Noah Woods",
+      "w": 219.59,
+      "v": 200,
+      "r": "Epic",
+      "d": "May 16 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "Frankie Muniz",
@@ -27482,14 +27507,6 @@
       "i": "Tuna",
       "w": 234.83,
       "v": 112,
-      "r": "Rare",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Orangespined Unicornfish",
-      "w": 0.87,
-      "v": 65,
       "r": "Rare",
       "d": "May 14 2026"
     }
