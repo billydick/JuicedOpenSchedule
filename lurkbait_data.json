@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-16T23:42:24.502134+00:00",
-    "total_catches": 22740,
+    "generated_at": "2026-05-16T23:46:31.908671+00:00",
+    "total_catches": 22741,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22740 catches"
+      "sub": "Since launch - 22741 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -842,6 +842,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 4706,
+        "c": 62,
+        "casts": 62,
+        "l": "May 16 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 4697,
@@ -864,14 +872,6 @@
         "c": 85,
         "casts": 85,
         "l": "Aug 23 2025"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 4475,
-        "c": 61,
-        "casts": 61,
-        "l": "May 15 2026"
       },
       {
         "u": "realiist1",
@@ -6358,10 +6358,10 @@
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
-        "g": 1838,
-        "c": 24,
-        "casts": 24,
-        "l": "May 15 2026"
+        "g": 2069,
+        "c": 25,
+        "casts": 25,
+        "l": "May 16 2026"
       },
       {
         "u": "codycoyoteracing",
@@ -6550,19 +6550,19 @@
         "l": "May 15 2026"
       },
       {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 1026,
+        "c": 9,
+        "casts": 9,
+        "l": "May 16 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 1017,
         "c": 13,
         "casts": 13,
-        "l": "May 15 2026"
-      },
-      {
-        "u": "ikatipoi",
-        "n": "ikatipoi",
-        "g": 795,
-        "c": 8,
-        "casts": 8,
         "l": "May 15 2026"
       },
       {
@@ -6719,6 +6719,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "ikatipoi",
+        "n": "ikatipoi",
+        "g": 231,
+        "c": 1,
+        "casts": 1,
+        "l": "May 16 2026"
+      },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
@@ -10567,6 +10575,13 @@
     ],
     "daily": [
       {
+        "n": "ikatipoi",
+        "i": "Frankie Muniz",
+        "v": 231,
+        "r": "Epic",
+        "d": "May 16 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Thong",
         "v": 2,
@@ -11574,7 +11589,7 @@
         }
       },
       "win_day": {
-        "total": 91,
+        "total": 92,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11666,11 +11681,12 @@
           "reignsstreams",
           "ineffabledecibel",
           "turbosnail87",
-          "nellafella"
+          "nellafella",
+          "ikatipoi"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "ikatipoi",
+          "d": "May 16 2026"
         }
       },
       "double_down": {
@@ -19785,6 +19801,7 @@
       },
       "ikatipoi": {
         "broke_in": "Apr 14 2026",
+        "win_day": "May 16 2026",
         "catch_of_day": "Apr 28 2026",
         "junk_master": "Apr 30 2026",
         "custom_catch": "Apr 15 2026",
@@ -20418,7 +20435,7 @@
       "n": "Frankie Muniz",
       "custom": true,
       "r": "Legendary",
-      "c": 28,
+      "c": 29,
       "h": "pvtcrackpot",
       "v": 251,
       "w": 83.81
@@ -26024,7 +26041,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "NASCAR and iRacing driver",
-      "c": 28,
+      "c": 29,
       "rec": "83.81 lb",
       "v": 251
     },
@@ -26877,6 +26894,14 @@
   ],
   "recent": [
     {
+      "u": "ikatipoi",
+      "i": "Frankie Muniz",
+      "w": 77.05,
+      "v": 231,
+      "r": "Epic",
+      "d": "May 16 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Thong",
       "w": 0.21,
@@ -27467,14 +27492,6 @@
       "v": 65,
       "r": "Rare",
       "d": "May 14 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Brad Keselowski",
-      "w": 24.42,
-      "v": 195,
-      "r": "Epic",
-      "d": "May 12 2026"
     }
   ]
 }
