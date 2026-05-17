@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T00:11:09.559836+00:00",
-    "total_catches": 22746,
+    "generated_at": "2026-05-17T00:19:21.859690+00:00",
+    "total_catches": 22747,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22746 catches"
+      "sub": "Since launch - 22747 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -850,19 +850,19 @@
         "l": "May 16 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 4714,
+        "c": 54,
+        "casts": 54,
+        "l": "May 17 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 4697,
         "c": 57,
         "casts": 57,
-        "l": "May 15 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 4646,
-        "c": 53,
-        "casts": 53,
         "l": "May 15 2026"
       },
       {
@@ -6350,10 +6350,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 2585,
-        "c": 23,
-        "casts": 23,
-        "l": "May 15 2026"
+        "g": 2653,
+        "c": 24,
+        "casts": 24,
+        "l": "May 17 2026"
       },
       {
         "u": "ikatipoi",
@@ -6536,10 +6536,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1709,
-        "c": 9,
-        "casts": 9,
-        "l": "May 15 2026"
+        "g": 1777,
+        "c": 10,
+        "casts": 10,
+        "l": "May 17 2026"
       },
       {
         "u": "codycoyoteracing",
@@ -6741,6 +6741,14 @@
         "g": 145,
         "c": 2,
         "casts": 2,
+        "l": "May 17 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 68,
+        "c": 1,
+        "casts": 1,
         "l": "May 17 2026"
       },
       {
@@ -10612,6 +10620,13 @@
         "d": "May 17 2026"
       },
       {
+        "n": "v1per_simr4cin6",
+        "i": "9inch Ring & Pinions",
+        "v": 68,
+        "r": "Rare",
+        "d": "May 17 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Thong",
         "v": 2,
@@ -13110,7 +13125,7 @@
         }
       },
       "dex_hunter": {
-        "total": 84,
+        "total": 85,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13195,11 +13210,12 @@
           "larcen22",
           "realiist1",
           "ikatipoi",
-          "nellafella"
+          "nellafella",
+          "v1per_simr4cin6"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "v1per_simr4cin6",
+          "d": "May 17 2026"
         }
       },
       "completionist": {
@@ -19781,6 +19797,7 @@
         "custom_catch": "Apr 12 2026",
         "gold_rush": "May 11 2026",
         "walk_in": "Apr 26 2026",
+        "dex_hunter": "May 17 2026",
         "full_spectrum": "May 12 2026",
         "custom_club": "Apr 26 2026",
         "triple_crown": "May 11 2026",
@@ -22033,7 +22050,7 @@
       "n": "9inch Ring & Pinions",
       "custom": true,
       "r": "Rare",
-      "c": 74,
+      "c": 75,
       "h": "scriptedpr",
       "v": 85,
       "w": 2.26
@@ -25218,7 +25235,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "NASCAR PARTS!",
-      "c": 74,
+      "c": 75,
       "rec": "2.26 lb",
       "v": 85
     },
@@ -26926,6 +26943,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "9inch Ring & Pinions",
+      "w": 1.82,
+      "v": 68,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
+    {
       "u": "realiist1",
       "i": "LAS VEGAS MOTOR SPEEDWAY",
       "w": 169.43,
@@ -27515,14 +27540,6 @@
       "w": 0.8,
       "v": 40,
       "r": "Uncommon",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "codycoyoteracing",
-      "i": "Charlotte Motor Speedway",
-      "w": 0.91,
-      "v": 137,
-      "r": "Rare",
       "d": "May 14 2026"
     }
   ]
