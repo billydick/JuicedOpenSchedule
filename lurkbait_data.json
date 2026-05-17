@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T01:24:19.481715+00:00",
-    "total_catches": 22765,
+    "generated_at": "2026-05-17T01:40:42.291396+00:00",
+    "total_catches": 22766,
     "unique_catches": 374,
     "total_players": 753,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22765 catches"
+      "sub": "Since launch - 22766 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -810,6 +810,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 5042,
+        "c": 75,
+        "casts": 75,
+        "l": "May 17 2026"
+      },
+      {
         "u": "critinator",
         "n": "critinator",
         "g": 5040,
@@ -824,14 +832,6 @@
         "c": 73,
         "casts": 73,
         "l": "Feb 24 2025"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 4955,
-        "c": 74,
-        "casts": 74,
-        "l": "May 17 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6342,9 +6342,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 3296,
-        "c": 47,
-        "casts": 47,
+        "g": 3383,
+        "c": 48,
+        "casts": 48,
         "l": "May 17 2026"
       },
       {
@@ -6544,9 +6544,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 1591,
-        "c": 17,
-        "casts": 17,
+        "g": 1678,
+        "c": 18,
+        "casts": 18,
         "l": "May 17 2026"
       },
       {
@@ -6730,9 +6730,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 574,
-        "c": 4,
-        "casts": 4,
+        "g": 661,
+        "c": 5,
+        "casts": 5,
         "l": "May 17 2026"
       },
       {
@@ -21968,7 +21968,7 @@
       "n": "Sailfish",
       "custom": false,
       "r": "Rare",
-      "c": 59,
+      "c": 60,
       "h": "benwysard",
       "v": 101,
       "w": 78.81
@@ -23767,7 +23767,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 59,
+      "c": 60,
       "rec": "78.81 lb",
       "v": 101
     },
@@ -27005,6 +27005,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Sailfish",
+      "w": 67.31,
+      "v": 87,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
+    {
       "u": "motionless",
       "i": "Yellowtang",
       "w": 0.64,
@@ -27594,14 +27602,6 @@
       "w": 0.22,
       "v": 22,
       "r": "Common",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Pink Rubber Ducky",
-      "w": 4.13,
-      "v": 331,
-      "r": "Legendary",
       "d": "May 14 2026"
     }
   ]
