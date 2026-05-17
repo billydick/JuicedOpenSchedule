@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T03:33:41.914855+00:00",
-    "total_catches": 22784,
+    "generated_at": "2026-05-17T03:34:45.940875+00:00",
+    "total_catches": 22785,
     "unique_catches": 374,
     "total_players": 755,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22784 catches"
+      "sub": "Since launch - 22785 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -2586,6 +2586,14 @@
         "l": "Mar 09 2025"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 323,
+        "c": 7,
+        "casts": 7,
+        "l": "May 17 2026"
+      },
+      {
         "u": "smallsanders",
         "n": "smallsanders",
         "g": 323,
@@ -3032,14 +3040,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jan 23 2025"
-      },
-      {
-        "u": "dogfish__27",
-        "n": "dogfish__27",
-        "g": 213,
-        "c": 6,
-        "casts": 6,
-        "l": "May 14 2026"
       },
       {
         "u": "meheckenpenner",
@@ -6670,6 +6670,14 @@
         "l": "May 17 2026"
       },
       {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 115,
+        "c": 2,
+        "casts": 2,
+        "l": "May 17 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 104,
@@ -6724,14 +6732,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 15 2026"
-      },
-      {
-        "u": "raycharlesdrivingschool",
-        "n": "raycharlesdrivingschool",
-        "g": 16,
-        "c": 1,
-        "casts": 1,
-        "l": "May 14 2026"
       }
     ],
     "daily": [
@@ -6782,6 +6782,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 16 2026"
+      },
+      {
+        "u": "dogfish__27",
+        "n": "dogfish__27",
+        "g": 110,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
       },
       {
         "u": "codycoyoteracing",
@@ -10598,6 +10606,13 @@
         "d": "May 12 2026"
       },
       {
+        "n": "dogfish__27",
+        "i": "iRacer Franciso J Villarreal",
+        "v": 110,
+        "r": "Rare",
+        "d": "May 17 2026"
+      },
+      {
         "n": "itzdubsta",
         "i": "Josh Berry",
         "v": 104,
@@ -10652,13 +10667,6 @@
         "v": 18,
         "r": "Common",
         "d": "May 15 2026"
-      },
-      {
-        "n": "raycharlesdrivingschool",
-        "i": "Blue Discus",
-        "v": 16,
-        "r": "Common",
-        "d": "May 14 2026"
       }
     ],
     "daily": [
@@ -10700,6 +10708,13 @@
       {
         "n": "v1per_simr4cin6",
         "i": "Tuna",
+        "v": 110,
+        "r": "Rare",
+        "d": "May 17 2026"
+      },
+      {
+        "n": "dogfish__27",
+        "i": "iRacer Franciso J Villarreal",
         "v": 110,
         "r": "Rare",
         "d": "May 17 2026"
@@ -21610,7 +21625,7 @@
       "n": "iRacer Franciso J Villarreal",
       "custom": true,
       "r": "Epic",
-      "c": 31,
+      "c": 32,
       "h": "karnalsanders",
       "v": 123,
       "w": 112.16
@@ -26523,7 +26538,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Race Winner BDC S1R1 Charlotte Motor Speedway",
-      "c": 31,
+      "c": 32,
       "rec": "112.16 lb",
       "v": 123
     },
@@ -27078,6 +27093,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "dogfish__27",
+      "i": "iRacer Franciso J Villarreal",
+      "w": 100.31,
+      "v": 110,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "North Wilksboro",
@@ -27667,14 +27690,6 @@
       "i": "Jellyfish Plushie",
       "w": 0.56,
       "v": 101,
-      "r": "Rare",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "iRacer - Brandon Williams",
-      "w": 116.38,
-      "v": 175,
       "r": "Rare",
       "d": "May 15 2026"
     }
