@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T03:25:26.265346+00:00",
-    "total_catches": 22782,
+    "generated_at": "2026-05-17T03:27:31.560965+00:00",
+    "total_catches": 22783,
     "unique_catches": 374,
-    "total_players": 754,
+    "total_players": 755,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22782 catches"
+      "sub": "Since launch - 22783 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -5546,6 +5546,14 @@
         "l": "Nov 17 2024"
       },
       {
+        "u": "mapleyardie",
+        "n": "mapleyardie",
+        "g": 13,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
         "u": "dylanelliott1504",
         "n": "dylanelliott1504",
         "g": 13,
@@ -6795,6 +6803,14 @@
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 20,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
+        "u": "mapleyardie",
+        "n": "mapleyardie",
+        "g": 13,
         "c": 1,
         "casts": 1,
         "l": "May 17 2026"
@@ -10710,6 +10726,13 @@
         "d": "May 17 2026"
       },
       {
+        "n": "mapleyardie",
+        "i": "Trout",
+        "v": 13,
+        "r": "Common",
+        "d": "May 17 2026"
+      },
+      {
         "n": "macaronidogyt",
         "i": "Pike",
         "v": 10,
@@ -10721,7 +10744,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 754,
+        "total": 755,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11476,10 +11499,11 @@
           "dogfish__27",
           "bermuda_fm",
           "stoner_buggs",
-          "macaronidogyt"
+          "macaronidogyt",
+          "mapleyardie"
         ],
         "latest": {
-          "u": "macaronidogyt",
+          "u": "mapleyardie",
           "d": "May 17 2026"
         }
       },
@@ -20114,6 +20138,9 @@
       },
       "macaronidogyt": {
         "broke_in": "May 17 2026"
+      },
+      "mapleyardie": {
+        "broke_in": "May 17 2026"
       }
     },
     "recent_unlocks": [
@@ -23140,7 +23167,7 @@
       "n": "Trout",
       "custom": false,
       "r": "Common",
-      "c": 179,
+      "c": 180,
       "h": "flippy00",
       "v": 17,
       "w": 1.13
@@ -23662,6 +23689,15 @@
       "best_r": "Common",
       "best_v": 10,
       "d": "May 17 2026"
+    },
+    {
+      "u": "mapleyardie",
+      "g": 13,
+      "c": 1,
+      "best_n": "Trout",
+      "best_r": "Common",
+      "best_v": 13,
+      "d": "May 17 2026"
     }
   ],
   "dex": [
@@ -23823,7 +23859,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 179,
+      "c": 180,
       "rec": "1.13 lb",
       "v": 17
     },
@@ -27043,6 +27079,14 @@
   ],
   "recent": [
     {
+      "u": "mapleyardie",
+      "i": "Trout",
+      "w": 0.84,
+      "v": 13,
+      "r": "Common",
+      "d": "May 17 2026"
+    },
+    {
       "u": "v1per_simr4cin6",
       "i": "Annoying iRacer kid",
       "w": 1.01,
@@ -27631,14 +27675,6 @@
       "i": "Parrot Fish",
       "w": 1.62,
       "v": 57,
-      "r": "Rare",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Thomas Hatcher",
-      "w": 43.9,
-      "v": 66,
       "r": "Rare",
       "d": "May 15 2026"
     }
