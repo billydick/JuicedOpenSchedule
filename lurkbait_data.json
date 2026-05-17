@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T01:51:00.455043+00:00",
-    "total_catches": 22769,
+    "generated_at": "2026-05-17T01:56:09.609676+00:00",
+    "total_catches": 22772,
     "unique_catches": 374,
-    "total_players": 753,
+    "total_players": 754,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22769 catches"
+      "sub": "Since launch - 22772 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -396,9 +396,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 29282,
-        "c": 374,
-        "casts": 374,
+        "g": 29306,
+        "c": 375,
+        "casts": 375,
         "l": "May 17 2026"
       },
       {
@@ -802,20 +802,20 @@
         "l": "Feb 09 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 5154,
+        "c": 76,
+        "casts": 76,
+        "l": "May 17 2026"
+      },
+      {
         "u": "the_miggi",
         "n": "the_miggi",
         "g": 5128,
         "c": 50,
         "casts": 50,
         "l": "May 15 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 5042,
-        "c": 75,
-        "casts": 75,
-        "l": "May 17 2026"
       },
       {
         "u": "critinator",
@@ -5738,6 +5738,14 @@
         "l": "Dec 25 2025"
       },
       {
+        "u": "macaronidogyt",
+        "n": "macaronidogyt",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
         "u": "itgarui",
         "n": "itgarui",
         "g": 10,
@@ -6318,9 +6326,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 11524,
-        "c": 155,
-        "casts": 155,
+        "g": 11548,
+        "c": 156,
+        "casts": 156,
         "l": "May 17 2026"
       },
       {
@@ -6342,9 +6350,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 3383,
-        "c": 48,
-        "casts": 48,
+        "g": 3495,
+        "c": 49,
+        "casts": 49,
         "l": "May 17 2026"
       },
       {
@@ -6520,9 +6528,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 4877,
-        "c": 49,
-        "casts": 49,
+        "g": 4901,
+        "c": 50,
+        "casts": 50,
         "l": "May 17 2026"
       },
       {
@@ -6544,9 +6552,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 1678,
-        "c": 18,
-        "casts": 18,
+        "g": 1790,
+        "c": 19,
+        "casts": 19,
         "l": "May 17 2026"
       },
       {
@@ -6722,17 +6730,17 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1152,
-        "c": 10,
-        "casts": 10,
+        "g": 1176,
+        "c": 11,
+        "casts": 11,
         "l": "May 17 2026"
       },
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 661,
-        "c": 5,
-        "casts": 5,
+        "g": 773,
+        "c": 6,
+        "casts": 6,
         "l": "May 17 2026"
       },
       {
@@ -6787,6 +6795,14 @@
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 20,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
+        "u": "macaronidogyt",
+        "n": "macaronidogyt",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "May 17 2026"
@@ -10692,13 +10708,20 @@
         "v": 20,
         "r": "Common",
         "d": "May 17 2026"
+      },
+      {
+        "n": "macaronidogyt",
+        "i": "Pike",
+        "v": 10,
+        "r": "Common",
+        "d": "May 17 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 753,
+        "total": 754,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11452,11 +11475,12 @@
           "sparkyracingtv",
           "dogfish__27",
           "bermuda_fm",
-          "stoner_buggs"
+          "stoner_buggs",
+          "macaronidogyt"
         ],
         "latest": {
-          "u": "stoner_buggs",
-          "d": "May 11 2026"
+          "u": "macaronidogyt",
+          "d": "May 17 2026"
         }
       },
       "first_cast": {
@@ -20085,6 +20109,9 @@
       "stoner_buggs": {
         "broke_in": "May 11 2026",
         "custom_catch": "May 11 2026"
+      },
+      "macaronidogyt": {
+        "broke_in": "May 17 2026"
       }
     },
     "recent_unlocks": [
@@ -21851,7 +21878,7 @@
       "n": "Race Suit",
       "custom": true,
       "r": "Rare",
-      "c": 45,
+      "c": 46,
       "h": "wintergofast",
       "v": 112,
       "w": 1.12
@@ -22976,7 +23003,7 @@
       "n": "Fire Bottle Nozzle",
       "custom": true,
       "r": "Common",
-      "c": 145,
+      "c": 146,
       "h": "lishogunil",
       "v": 28,
       "w": 2.26
@@ -23174,7 +23201,7 @@
       "n": "Pike",
       "custom": false,
       "r": "Common",
-      "c": 188,
+      "c": 189,
       "h": "corndawg3",
       "v": 11,
       "w": 1.13
@@ -23624,6 +23651,15 @@
       "best_r": "Rare",
       "best_v": 78,
       "d": "May 11 2026"
+    },
+    {
+      "u": "macaronidogyt",
+      "g": 10,
+      "c": 1,
+      "best_n": "Pike",
+      "best_r": "Common",
+      "best_v": 10,
+      "d": "May 17 2026"
     }
   ],
   "dex": [
@@ -23803,7 +23839,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 188,
+      "c": 189,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -25117,7 +25153,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Can't go out there in steet clothes apparently",
-      "c": 45,
+      "c": 46,
       "rec": "1.12 lb",
       "v": 112
     },
@@ -25144,7 +25180,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Nozzle for a Fire Bottle",
-      "c": 145,
+      "c": 146,
       "rec": "2.26 lb",
       "v": 28
     },
@@ -27005,6 +27041,30 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Race Suit",
+      "w": 1.12,
+      "v": 112,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
+    {
+      "u": "macaronidogyt",
+      "i": "Pike",
+      "w": 0.97,
+      "v": 10,
+      "r": "Common",
+      "d": "May 17 2026"
+    },
+    {
+      "u": "brookswhynot",
+      "i": "Fire Bottle Nozzle",
+      "w": 1.94,
+      "v": 24,
+      "r": "Common",
+      "d": "May 17 2026"
+    },
+    {
       "u": "ikatipoi",
       "i": "NOMEX SFI SHIFTER BOOT",
       "w": 1.04,
@@ -27577,30 +27637,6 @@
       "i": "Blue Discus",
       "w": 0.16,
       "v": 16,
-      "r": "Common",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Cole Custer",
-      "w": 52.69,
-      "v": 79,
-      "r": "Rare",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "ikatipoi",
-      "i": "Xfinity Camaro",
-      "w": 103.41,
-      "v": 129,
-      "r": "Rare",
-      "d": "May 14 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "$25 iRacing Creds",
-      "w": 0.97,
-      "v": 24,
       "r": "Common",
       "d": "May 14 2026"
     }
