@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T03:27:31.560965+00:00",
-    "total_catches": 22783,
+    "generated_at": "2026-05-17T03:33:41.914855+00:00",
+    "total_catches": 22784,
     "unique_catches": 374,
     "total_players": 755,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22783 catches"
+      "sub": "Since launch - 22784 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -388,9 +388,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 29939,
-        "c": 383,
-        "casts": 383,
+        "g": 30108,
+        "c": 384,
+        "casts": 384,
         "l": "May 17 2026"
       },
       {
@@ -6334,9 +6334,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 12181,
-        "c": 164,
-        "casts": 164,
+        "g": 12350,
+        "c": 165,
+        "casts": 165,
         "l": "May 17 2026"
       },
       {
@@ -6536,9 +6536,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 5534,
-        "c": 58,
-        "casts": 58,
+        "g": 5703,
+        "c": 59,
+        "casts": 59,
         "l": "May 17 2026"
       },
       {
@@ -6738,9 +6738,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1809,
-        "c": 19,
-        "casts": 19,
+        "g": 1978,
+        "c": 20,
+        "casts": 20,
         "l": "May 17 2026"
       },
       {
@@ -21661,6 +21661,15 @@
       "w": 189.91
     },
     {
+      "n": "North Wilksboro",
+      "custom": true,
+      "r": "Rare",
+      "c": 5,
+      "h": "brookswhynot",
+      "v": 169,
+      "w": 96.72
+    },
+    {
       "n": "Nashville Superspeedway",
       "custom": true,
       "r": "Rare",
@@ -21668,15 +21677,6 @@
       "h": "pvtcrock",
       "v": 166,
       "w": 110.61
-    },
-    {
-      "n": "North Wilksboro",
-      "custom": true,
-      "r": "Rare",
-      "c": 4,
-      "h": "brookswhynot",
-      "v": 164,
-      "w": 93.48
     },
     {
       "n": "Tuna",
@@ -26973,9 +26973,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Revived and back in service!",
-      "c": 4,
-      "rec": "93.48 lb",
-      "v": 164
+      "c": 5,
+      "rec": "96.72 lb",
+      "v": 169
     },
     {
       "n": "We're Gonna Lose!",
@@ -27078,6 +27078,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "brookswhynot",
+      "i": "North Wilksboro",
+      "w": 96.72,
+      "v": 169,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
     {
       "u": "mapleyardie",
       "i": "Trout",
@@ -27667,14 +27675,6 @@
       "i": "iRacer - Brandon Williams",
       "w": 116.38,
       "v": 175,
-      "r": "Rare",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "the_miggi",
-      "i": "Parrot Fish",
-      "w": 1.62,
-      "v": 57,
       "r": "Rare",
       "d": "May 15 2026"
     }
