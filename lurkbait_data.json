@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T03:34:45.940875+00:00",
-    "total_catches": 22785,
+    "generated_at": "2026-05-17T03:41:57.802814+00:00",
+    "total_catches": 22786,
     "unique_catches": 374,
-    "total_players": 755,
+    "total_players": 756,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22785 catches"
+      "sub": "Since launch - 22786 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -3522,6 +3522,14 @@
         "l": "Oct 23 2024"
       },
       {
+        "u": "bigslime2901",
+        "n": "bigslime2901",
+        "g": 151,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
         "u": "knicknack94",
         "n": "knicknack94",
         "g": 150,
@@ -6654,6 +6662,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "bigslime2901",
+        "n": "bigslime2901",
+        "g": 151,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 142,
@@ -6724,14 +6740,6 @@
         "c": 1,
         "casts": 1,
         "l": "May 11 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 18,
-        "c": 1,
-        "casts": 1,
-        "l": "May 15 2026"
       }
     ],
     "daily": [
@@ -6782,6 +6790,14 @@
         "c": 1,
         "casts": 1,
         "l": "May 16 2026"
+      },
+      {
+        "u": "bigslime2901",
+        "n": "bigslime2901",
+        "g": 151,
+        "c": 1,
+        "casts": 1,
+        "l": "May 17 2026"
       },
       {
         "u": "dogfish__27",
@@ -10599,6 +10615,13 @@
         "d": "May 14 2026"
       },
       {
+        "n": "bigslime2901",
+        "i": "North Wilksboro",
+        "v": 151,
+        "r": "Rare",
+        "d": "May 17 2026"
+      },
+      {
         "n": "aquadays",
         "i": "B License",
         "v": 142,
@@ -10660,13 +10683,6 @@
         "v": 22,
         "r": "Common",
         "d": "May 11 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Bubbly",
-        "v": 18,
-        "r": "Common",
-        "d": "May 15 2026"
       }
     ],
     "daily": [
@@ -10703,6 +10719,13 @@
         "i": "Tyler Reddick",
         "v": 163,
         "r": "Epic",
+        "d": "May 17 2026"
+      },
+      {
+        "n": "bigslime2901",
+        "i": "North Wilksboro",
+        "v": 151,
+        "r": "Rare",
         "d": "May 17 2026"
       },
       {
@@ -10759,7 +10782,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 755,
+        "total": 756,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11515,10 +11538,11 @@
           "bermuda_fm",
           "stoner_buggs",
           "macaronidogyt",
-          "mapleyardie"
+          "mapleyardie",
+          "bigslime2901"
         ],
         "latest": {
-          "u": "mapleyardie",
+          "u": "bigslime2901",
           "d": "May 17 2026"
         }
       },
@@ -12026,7 +12050,7 @@
         }
       },
       "custom_catch": {
-        "total": 626,
+        "total": 627,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12653,11 +12677,12 @@
           "barnsdale",
           "sparkyracingtv",
           "dogfish__27",
-          "stoner_buggs"
+          "stoner_buggs",
+          "bigslime2901"
         ],
         "latest": {
-          "u": "stoner_buggs",
-          "d": "May 11 2026"
+          "u": "bigslime2901",
+          "d": "May 17 2026"
         }
       },
       "heavy_hauler": {
@@ -20156,6 +20181,10 @@
       },
       "mapleyardie": {
         "broke_in": "May 17 2026"
+      },
+      "bigslime2901": {
+        "broke_in": "May 17 2026",
+        "custom_catch": "May 17 2026"
       }
     },
     "recent_unlocks": [
@@ -21679,7 +21708,7 @@
       "n": "North Wilksboro",
       "custom": true,
       "r": "Rare",
-      "c": 5,
+      "c": 6,
       "h": "brookswhynot",
       "v": 169,
       "w": 96.72
@@ -23712,6 +23741,15 @@
       "best_n": "Trout",
       "best_r": "Common",
       "best_v": 13,
+      "d": "May 17 2026"
+    },
+    {
+      "u": "bigslime2901",
+      "g": 151,
+      "c": 1,
+      "best_n": "North Wilksboro",
+      "best_r": "Rare",
+      "best_v": 151,
       "d": "May 17 2026"
     }
   ],
@@ -26988,7 +27026,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Revived and back in service!",
-      "c": 5,
+      "c": 6,
       "rec": "96.72 lb",
       "v": 169
     },
@@ -27093,6 +27131,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "bigslime2901",
+      "i": "North Wilksboro",
+      "w": 86.5,
+      "v": 151,
+      "r": "Rare",
+      "d": "May 17 2026"
+    },
     {
       "u": "dogfish__27",
       "i": "iRacer Franciso J Villarreal",
@@ -27683,14 +27729,6 @@
       "w": 2.43,
       "v": 41,
       "r": "Uncommon",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "sparkyracingtv",
-      "i": "Jellyfish Plushie",
-      "w": 0.56,
-      "v": 101,
-      "r": "Rare",
       "d": "May 15 2026"
     }
   ]
