@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-17T03:23:20.853503+00:00",
-    "total_catches": 22781,
+    "generated_at": "2026-05-17T03:25:26.265346+00:00",
+    "total_catches": 22782,
     "unique_catches": 374,
     "total_players": 754,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22781 catches"
+      "sub": "Since launch - 22782 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -836,9 +836,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 4907,
-        "c": 56,
-        "casts": 56,
+        "g": 4917,
+        "c": 57,
+        "casts": 57,
         "l": "May 17 2026"
       },
       {
@@ -6358,9 +6358,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 2846,
-        "c": 26,
-        "casts": 26,
+        "g": 2856,
+        "c": 27,
+        "casts": 27,
         "l": "May 17 2026"
       },
       {
@@ -6536,9 +6536,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 1970,
-        "c": 12,
-        "casts": 12,
+        "g": 1980,
+        "c": 13,
+        "casts": 13,
         "l": "May 17 2026"
       },
       {
@@ -6762,9 +6762,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 261,
-        "c": 3,
-        "casts": 3,
+        "g": 271,
+        "c": 4,
+        "casts": 4,
         "l": "May 17 2026"
       },
       {
@@ -11914,7 +11914,7 @@
         }
       },
       "junk_master": {
-        "total": 63,
+        "total": 64,
         "holders": [
           "thebtm1",
           "belyy92",
@@ -11978,11 +11978,12 @@
           "pvtcrock",
           "thesaucypanda2",
           "realiist1",
-          "nellafella"
+          "nellafella",
+          "v1per_simr4cin6"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 12 2026"
+          "u": "v1per_simr4cin6",
+          "d": "May 17 2026"
         }
       },
       "custom_catch": {
@@ -19881,6 +19882,7 @@
         "broke_in": "Apr 12 2026",
         "first_cast": "May 07 2026",
         "catch_of_day": "May 01 2026",
+        "junk_master": "May 17 2026",
         "custom_catch": "Apr 12 2026",
         "gold_rush": "May 11 2026",
         "walk_in": "Apr 26 2026",
@@ -23165,7 +23167,7 @@
       "n": "Annoying iRacer kid",
       "custom": true,
       "r": "Common",
-      "c": 151,
+      "c": 152,
       "h": "riflehog",
       "v": 11,
       "w": 1.13
@@ -24343,7 +24345,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "This kid sucks.",
-      "c": 151,
+      "c": 152,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -27041,6 +27043,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Annoying iRacer kid",
+      "w": 1.01,
+      "v": 10,
+      "r": "Junk",
+      "d": "May 17 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Black Flag",
       "w": 0.97,
@@ -27630,14 +27640,6 @@
       "w": 43.9,
       "v": 66,
       "r": "Rare",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Rabbitfish",
-      "w": 2.03,
-      "v": 36,
-      "r": "Uncommon",
       "d": "May 15 2026"
     }
   ]
