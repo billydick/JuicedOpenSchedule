@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-18T23:49:30.181600+00:00",
-    "total_catches": 22818,
+    "generated_at": "2026-05-18T23:52:36.746166+00:00",
+    "total_catches": 22819,
     "unique_catches": 374,
     "total_players": 760,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22818 catches"
+      "sub": "Since launch - 22819 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -842,6 +842,14 @@
         "l": "Feb 24 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 4947,
+        "c": 59,
+        "casts": 59,
+        "l": "May 18 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 4883,
@@ -864,14 +872,6 @@
         "c": 78,
         "casts": 78,
         "l": "Nov 23 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 4725,
-        "c": 58,
-        "casts": 58,
-        "l": "May 18 2026"
       },
       {
         "u": "som3th1ng_",
@@ -6380,20 +6380,20 @@
         "l": "May 17 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 4156,
+        "c": 41,
+        "casts": 41,
+        "l": "May 18 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 4065,
         "c": 46,
         "casts": 46,
         "l": "May 17 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 3934,
-        "c": 40,
-        "casts": 40,
-        "l": "May 18 2026"
       },
       {
         "u": "realiist1",
@@ -6574,6 +6574,14 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 250,
+        "c": 2,
+        "casts": 2,
+        "l": "May 18 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 186,
@@ -6625,14 +6633,6 @@
         "u": "ricky_lee_jones",
         "n": "ricky_lee_jones",
         "g": 42,
-        "c": 1,
-        "casts": 1,
-        "l": "May 18 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 28,
         "c": 1,
         "casts": 1,
         "l": "May 18 2026"
@@ -6672,6 +6672,14 @@
     ],
     "daily": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 250,
+        "c": 2,
+        "casts": 2,
+        "l": "May 18 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 186,
@@ -6723,14 +6731,6 @@
         "u": "ricky_lee_jones",
         "n": "ricky_lee_jones",
         "g": 42,
-        "c": 1,
-        "casts": 1,
-        "l": "May 18 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 28,
         "c": 1,
         "casts": 1,
         "l": "May 18 2026"
@@ -10529,6 +10529,13 @@
     ],
     "weekly": [
       {
+        "n": "nellafella",
+        "i": "Hershel McGriff",
+        "v": 222,
+        "r": "Epic",
+        "d": "May 18 2026"
+      },
+      {
         "n": "rms_racing",
         "i": "Joey Logano",
         "v": 186,
@@ -10575,13 +10582,6 @@
         "i": "Michael McDowell",
         "v": 42,
         "r": "Uncommon",
-        "d": "May 18 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Black Redeye",
-        "v": 28,
-        "r": "Common",
         "d": "May 18 2026"
       },
       {
@@ -10615,6 +10615,13 @@
     ],
     "daily": [
       {
+        "n": "nellafella",
+        "i": "Hershel McGriff",
+        "v": 222,
+        "r": "Epic",
+        "d": "May 18 2026"
+      },
+      {
         "n": "rms_racing",
         "i": "Joey Logano",
         "v": 186,
@@ -10661,13 +10668,6 @@
         "i": "Michael McDowell",
         "v": 42,
         "r": "Uncommon",
-        "d": "May 18 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Black Redeye",
-        "v": 28,
-        "r": "Common",
         "d": "May 18 2026"
       },
       {
@@ -14351,10 +14351,10 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "rms_racing"
+          "nellafella"
         ],
         "latest": {
-          "u": "rms_racing",
+          "u": "nellafella",
           "d": "May 18 2026"
         }
       },
@@ -17575,7 +17575,6 @@
         "custom_club": "Jan 09 2025",
         "streak_7": "Jan 01 2025",
         "leg_epic_day": "Feb 02 2025",
-        "win_week": "May 18 2026",
         "golden_cast": "Jan 07 2025",
         "legend_hunter": "Jan 07 2025"
       },
@@ -20011,6 +20010,7 @@
         "custom_club": "May 01 2026",
         "triple_crown": "May 15 2026",
         "leg_epic_day": "May 15 2026",
+        "win_week": "May 18 2026",
         "golden_cast": "May 15 2026",
         "legend_hunter": "May 15 2026"
       },
@@ -20611,7 +20611,7 @@
       "n": "Hershel McGriff",
       "custom": true,
       "r": "Legendary",
-      "c": 41,
+      "c": 42,
       "h": "illuminodie",
       "v": 248,
       "w": 28.13
@@ -25425,7 +25425,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Hershel McGriff exhibited a competitive passion that lasted longer than any driver in NASCAR history.",
-      "c": 41,
+      "c": 42,
       "rec": "28.13 lb",
       "v": 248
     },
@@ -27070,6 +27070,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Hershel McGriff",
+      "w": 25.24,
+      "v": 222,
+      "r": "Epic",
+      "d": "May 18 2026"
+    },
+    {
       "u": "beliron",
       "i": "Gas Can",
       "w": 5.49,
@@ -27660,14 +27668,6 @@
       "v": 2,
       "r": "Junk",
       "d": "May 17 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Black Spotted Grunt",
-      "w": 4.49,
-      "v": 18,
-      "r": "Common",
-      "d": "May 16 2026"
     }
   ]
 }
