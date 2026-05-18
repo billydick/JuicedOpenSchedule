@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-18T23:01:15.209926+00:00",
-    "total_catches": 22808,
+    "generated_at": "2026-05-18T23:15:35.339982+00:00",
+    "total_catches": 22809,
     "unique_catches": 374,
     "total_players": 756,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22808 catches"
+      "sub": "Since launch - 22809 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -618,6 +618,14 @@
         "l": "Jan 13 2025"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 8265,
+        "c": 112,
+        "casts": 112,
+        "l": "May 18 2026"
+      },
+      {
         "u": "duel_king320",
         "n": "duel_king320",
         "g": 8201,
@@ -632,14 +640,6 @@
         "c": 98,
         "casts": 98,
         "l": "Feb 17 2025"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 8079,
-        "c": 111,
-        "casts": 111,
-        "l": "May 17 2026"
       },
       {
         "u": "community_patroll",
@@ -6388,6 +6388,14 @@
         "l": "May 18 2026"
       },
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 1669,
+        "c": 21,
+        "casts": 21,
+        "l": "May 18 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 1571,
@@ -6409,14 +6417,6 @@
         "g": 1501,
         "c": 16,
         "casts": 16,
-        "l": "May 17 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 1483,
-        "c": 20,
-        "casts": 20,
         "l": "May 17 2026"
       },
       {
@@ -6542,6 +6542,14 @@
     ],
     "weekly": [
       {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 186,
+        "c": 1,
+        "casts": 1,
+        "l": "May 18 2026"
+      },
+      {
         "u": "ikatipoi",
         "n": "ikatipoi",
         "g": 94,
@@ -6559,6 +6567,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "rms_racing",
+        "n": "rms_racing",
+        "g": 186,
+        "c": 1,
+        "casts": 1,
+        "l": "May 18 2026"
+      },
       {
         "u": "ikatipoi",
         "n": "ikatipoi",
@@ -10337,6 +10353,13 @@
     ],
     "weekly": [
       {
+        "n": "rms_racing",
+        "i": "Joey Logano",
+        "v": 186,
+        "r": "Epic",
+        "d": "May 18 2026"
+      },
+      {
         "n": "ikatipoi",
         "i": "Emperor Angelfish",
         "v": 70,
@@ -10352,6 +10375,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "rms_racing",
+        "i": "Joey Logano",
+        "v": 186,
+        "r": "Epic",
+        "d": "May 18 2026"
+      },
       {
         "n": "ikatipoi",
         "i": "Emperor Angelfish",
@@ -11371,7 +11401,7 @@
         }
       },
       "win_day": {
-        "total": 92,
+        "total": 91,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11463,12 +11493,11 @@
           "reignsstreams",
           "ineffabledecibel",
           "turbosnail87",
-          "nellafella",
-          "ikatipoi"
+          "nellafella"
         ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "May 18 2026"
+          "u": "nellafella",
+          "d": "May 15 2026"
         }
       },
       "double_down": {
@@ -14013,10 +14042,10 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "ikatipoi"
+          "rms_racing"
         ],
         "latest": {
-          "u": "ikatipoi",
+          "u": "rms_racing",
           "d": "May 18 2026"
         }
       },
@@ -17237,6 +17266,7 @@
         "custom_club": "Jan 09 2025",
         "streak_7": "Jan 01 2025",
         "leg_epic_day": "Feb 02 2025",
+        "win_week": "May 18 2026",
         "golden_cast": "Jan 07 2025",
         "legend_hunter": "Jan 07 2025"
       },
@@ -19596,7 +19626,6 @@
       "ikatipoi": {
         "broke_in": "Apr 14 2026",
         "first_cast": "May 18 2026",
-        "win_day": "May 18 2026",
         "catch_of_day": "Apr 28 2026",
         "junk_master": "Apr 30 2026",
         "custom_catch": "Apr 15 2026",
@@ -19605,7 +19634,6 @@
         "full_spectrum": "Apr 28 2026",
         "custom_club": "Apr 26 2026",
         "leg_epic_day": "Apr 28 2026",
-        "win_week": "May 18 2026",
         "golden_cast": "Apr 28 2026",
         "legend_hunter": "Apr 28 2026"
       },
@@ -20538,7 +20566,7 @@
       "n": "Joey Logano",
       "custom": true,
       "r": "Epic",
-      "c": 35,
+      "c": 36,
       "h": "nflxmiller",
       "v": 224,
       "w": 27.98
@@ -25369,7 +25397,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "NASCAR CUP CHAMPION 2024 (also 2018, 2022)",
-      "c": 35,
+      "c": 36,
       "rec": "27.98 lb",
       "v": 224
     },
@@ -26681,6 +26709,14 @@
   ],
   "recent": [
     {
+      "u": "rms_racing",
+      "i": "Joey Logano",
+      "w": 23.23,
+      "v": 186,
+      "r": "Epic",
+      "d": "May 18 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Justin Allgaier",
       "w": 46.88,
@@ -27270,14 +27306,6 @@
       "w": 44.15,
       "v": 22,
       "r": "Common",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Darrell Waltrip",
-      "w": 134.32,
-      "v": 280,
-      "r": "Epic",
       "d": "May 15 2026"
     }
   ]
