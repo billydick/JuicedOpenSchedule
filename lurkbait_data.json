@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-18T22:23:28.641425+00:00",
-    "total_catches": 22807,
+    "generated_at": "2026-05-18T23:01:15.209926+00:00",
+    "total_catches": 22808,
     "unique_catches": 374,
     "total_players": 756,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22807 catches"
+      "sub": "Since launch - 22808 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 35195,
-        "c": 539,
-        "casts": 539,
-        "l": "May 15 2026"
+        "g": 35265,
+        "c": 540,
+        "casts": 540,
+        "l": "May 18 2026"
       },
       {
         "u": "karnalsanders",
@@ -6454,10 +6454,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 970,
-        "c": 13,
-        "casts": 13,
-        "l": "May 15 2026"
+        "g": 1040,
+        "c": 14,
+        "casts": 14,
+        "l": "May 18 2026"
       },
       {
         "u": "pvtcrock",
@@ -6548,6 +6548,14 @@
         "c": 3,
         "casts": 3,
         "l": "May 18 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 70,
+        "c": 1,
+        "casts": 1,
+        "l": "May 18 2026"
       }
     ],
     "daily": [
@@ -6557,6 +6565,14 @@
         "g": 94,
         "c": 3,
         "casts": 3,
+        "l": "May 18 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 70,
+        "c": 1,
+        "casts": 1,
         "l": "May 18 2026"
       }
     ]
@@ -10326,12 +10342,26 @@
         "v": 70,
         "r": "Rare",
         "d": "May 18 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Justin Allgaier",
+        "v": 70,
+        "r": "Rare",
+        "d": "May 18 2026"
       }
     ],
     "daily": [
       {
         "n": "ikatipoi",
         "i": "Emperor Angelfish",
+        "v": 70,
+        "r": "Rare",
+        "d": "May 18 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Justin Allgaier",
         "v": 70,
         "r": "Rare",
         "d": "May 18 2026"
@@ -21723,7 +21753,7 @@
       "n": "Justin Allgaier",
       "custom": true,
       "r": "Rare",
-      "c": 7,
+      "c": 8,
       "h": "brookswhynot",
       "v": 85,
       "w": 56.48
@@ -26491,7 +26521,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Certified Xfinity grinder, Cup said nah",
-      "c": 7,
+      "c": 8,
       "rec": "56.48 lb",
       "v": 85
     },
@@ -26650,6 +26680,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "juicedracing",
+      "i": "Justin Allgaier",
+      "w": 46.88,
+      "v": 70,
+      "r": "Rare",
+      "d": "May 18 2026"
+    },
     {
       "u": "ikatipoi",
       "i": "NOMEX SFI SHIFTER BOOT",
@@ -27240,14 +27278,6 @@
       "w": 134.32,
       "v": 280,
       "r": "Epic",
-      "d": "May 15 2026"
-    },
-    {
-      "u": "sparkyracingtv",
-      "i": "Daniel Hermic",
-      "w": 0.97,
-      "v": 1,
-      "r": "Junk",
       "d": "May 15 2026"
     }
   ]
