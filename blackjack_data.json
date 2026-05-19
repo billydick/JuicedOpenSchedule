@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-18T23:14:56Z",
+  "generated_at": "2026-05-19T00:48:49Z",
   "meta": {
-    "total_hands": 194,
-    "total_players": 23,
+    "total_hands": 195,
+    "total_players": 24,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 1489210
@@ -11,7 +11,7 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 346825,
+    "top_chips": 346875,
     "top_player": "pvtcrackpot"
   },
   "competition_meta": {
@@ -36,7 +36,7 @@
     "alltime": [
       {
         "u": "pvtcrackpot",
-        "chips": 346825,
+        "chips": 346875,
         "net": 201975,
         "hands": 0,
         "ach": 2
@@ -64,7 +64,7 @@
       },
       {
         "u": "codycoyoteracing",
-        "chips": 114652,
+        "chips": 114702,
         "net": 57251,
         "hands": 0,
         "ach": 1
@@ -98,6 +98,13 @@
         "ach": 0
       },
       {
+        "u": "nellafella",
+        "chips": 40650,
+        "net": 0,
+        "hands": 0,
+        "ach": 0
+      },
+      {
         "u": "gatoraintplaying",
         "chips": 36450,
         "net": 25850,
@@ -106,7 +113,7 @@
       },
       {
         "u": "grumpymitch1",
-        "chips": 35095,
+        "chips": 35145,
         "net": 3000,
         "hands": 0,
         "ach": 0
@@ -134,7 +141,7 @@
       },
       {
         "u": "sille_94",
-        "chips": 15100,
+        "chips": 15150,
         "net": 100,
         "hands": 0,
         "ach": 0
@@ -144,13 +151,6 @@
         "chips": 10175,
         "net": -450,
         "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "larcen22",
-        "chips": 10000,
-        "net": -100704,
-        "hands": 2,
         "ach": 0
       },
       {
@@ -189,6 +189,13 @@
         "ach": 0
       },
       {
+        "u": "larcen22",
+        "chips": 50,
+        "net": -110704,
+        "hands": 3,
+        "ach": 0
+      },
+      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -206,9 +213,9 @@
       },
       {
         "u": "larcen22",
-        "chips": 10000,
-        "net": -12820,
-        "hands": 2,
+        "chips": 50,
+        "net": -22820,
+        "hands": 3,
         "ach": 0
       }
     ]
@@ -229,13 +236,15 @@
     "biggest_loss": {
       "u": "larcen22",
       "cards": [
-        "7♣",
-        "10♥"
+        "9♠",
+        "2♥",
+        "A♥",
+        "J♠"
       ],
-      "total": 17,
-      "bet": 7820,
-      "net": -7820,
-      "result": "lose"
+      "total": 22,
+      "bet": 10000,
+      "net": -10000,
+      "result": "bust"
     },
     "biggest_bet": {
       "u": "juicedracing",
@@ -251,7 +260,7 @@
     },
     "most_hands": {
       "u": "larcen22",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "juicedracing",
@@ -259,11 +268,11 @@
     },
     "worst_streak": {
       "u": "larcen22",
-      "n": 2
+      "n": 3
     },
     "most_busts": {
       "u": "larcen22",
-      "n": 1
+      "n": 2
     },
     "best_poker": {
       "u": "juicedracing",
@@ -301,7 +310,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": 9065,
           "hands": 3,
           "ach": 0
@@ -397,7 +406,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -9145,
           "hands": 5,
           "ach": 0
@@ -506,7 +515,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -1350,
           "hands": 1,
           "ach": 0
@@ -559,7 +568,7 @@
       "leaderboard": [
         {
           "u": "codycoyoteracing",
-          "chips": 114652,
+          "chips": 114702,
           "net": 57251,
           "hands": 1,
           "ach": 1
@@ -580,7 +589,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -78180,
           "hands": 1,
           "ach": 0
@@ -672,21 +681,21 @@
         },
         {
           "u": "pvtcrackpot",
-          "chips": 346825,
+          "chips": 346875,
           "net": 201975,
           "hands": 1,
           "ach": 2
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": 15501,
           "hands": 3,
           "ach": 0
         },
         {
           "u": "grumpymitch1",
-          "chips": 35095,
+          "chips": 35145,
           "net": 15000,
           "hands": 1,
           "ach": 0
@@ -806,7 +815,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": 17879,
           "hands": 7,
           "ach": 0
@@ -1009,7 +1018,7 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 35095,
+          "chips": 35145,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -1128,7 +1137,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -5198,
           "hands": 1,
           "ach": 0
@@ -1198,14 +1207,14 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": 20049,
           "hands": 2,
           "ach": 0
         },
         {
           "u": "grumpymitch1",
-          "chips": 35095,
+          "chips": 35145,
           "net": -12000,
           "hands": 1,
           "ach": 0
@@ -1346,7 +1355,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -80100,
           "hands": 5,
           "ach": 0
@@ -1558,14 +1567,14 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": 26595,
           "hands": 4,
           "ach": 0
         },
         {
           "u": "sille_94",
-          "chips": 15100,
+          "chips": 15150,
           "net": 100,
           "hands": 2,
           "ach": 0
@@ -1782,7 +1791,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 10000,
+          "chips": 50,
           "net": -3000,
           "hands": 1,
           "ach": 0
@@ -3608,6 +3617,36 @@
   ],
   "recent_hands": [
     {
+      "ts": 1779151729.803353,
+      "date": "2026-05-18",
+      "player": "larcen22",
+      "bet": 10000,
+      "balance_before": 10000,
+      "result": "bust",
+      "net_delta": -10000,
+      "player_cards": [
+        "9♠",
+        "2♥",
+        "A♥",
+        "J♠"
+      ],
+      "player_total": 22,
+      "hit_count": 2,
+      "dealer_cards": [
+        "5♥",
+        "10♣",
+        "3♦"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1779146096.3146183,
       "date": "2026-05-18",
       "player": "larcen22",
@@ -5159,34 +5198,6 @@
         "big_swing_session_200k",
         "escalator"
       ]
-    },
-    {
-      "ts": 1778212417.859744,
-      "date": "2026-05-07",
-      "player": "thesaucypanda2",
-      "bet": 10000,
-      "balance_before": 10148,
-      "result": "bust",
-      "net_delta": -10000,
-      "player_cards": [
-        "3♦",
-        "Q♣",
-        "K♥"
-      ],
-      "player_total": 23,
-      "hit_count": 1,
-      "dealer_cards": [
-        "9♥",
-        "9♦"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
