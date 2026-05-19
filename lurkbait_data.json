@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-05-19T01:33:58.928167+00:00",
-    "total_catches": 22828,
+    "generated_at": "2026-05-19T01:35:03.009377+00:00",
+    "total_catches": 22830,
     "unique_catches": 374,
-    "total_players": 760,
+    "total_players": 761,
     "dex_total": 375,
     "caught_total": 374,
     "dex_completion": 99.73,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22828 catches"
+      "sub": "Since launch - 22830 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 105723,
-        "c": 1570,
-        "casts": 1570,
-        "l": "May 17 2026"
+        "g": 105732,
+        "c": 1571,
+        "casts": 1571,
+        "l": "May 19 2026"
       },
       {
         "u": "motionless",
@@ -5778,6 +5778,14 @@
         "l": "Feb 04 2026"
       },
       {
+        "u": "thedeliverminator",
+        "n": "thedeliverminator",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 19 2026"
+      },
+      {
         "u": "sookiescorner",
         "n": "sookiescorner",
         "g": 10,
@@ -6454,10 +6462,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 1501,
-        "c": 16,
-        "casts": 16,
-        "l": "May 17 2026"
+        "g": 1510,
+        "c": 17,
+        "casts": 17,
+        "l": "May 19 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6678,6 +6686,22 @@
         "l": "May 18 2026"
       },
       {
+        "u": "thedeliverminator",
+        "n": "thedeliverminator",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 19 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 9,
+        "c": 1,
+        "casts": 1,
+        "l": "May 19 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 8,
@@ -6790,6 +6814,22 @@
         "c": 1,
         "casts": 1,
         "l": "May 18 2026"
+      },
+      {
+        "u": "thedeliverminator",
+        "n": "thedeliverminator",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "May 19 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 9,
+        "c": 1,
+        "casts": 1,
+        "l": "May 19 2026"
       },
       {
         "u": "grumpymitch1",
@@ -10652,6 +10692,20 @@
         "d": "May 18 2026"
       },
       {
+        "n": "thedeliverminator",
+        "i": "Pike",
+        "v": 10,
+        "r": "Common",
+        "d": "May 19 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Pike",
+        "v": 9,
+        "r": "Common",
+        "d": "May 19 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Gummy Worms",
         "v": 8,
@@ -10752,6 +10806,20 @@
         "d": "May 18 2026"
       },
       {
+        "n": "thedeliverminator",
+        "i": "Pike",
+        "v": 10,
+        "r": "Common",
+        "d": "May 19 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Pike",
+        "v": 9,
+        "r": "Common",
+        "d": "May 19 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Gummy Worms",
         "v": 8,
@@ -10763,7 +10831,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 760,
+        "total": 761,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11524,11 +11592,12 @@
           "ifthe_shoefits",
           "j1mbojon3s",
           "ricky_lee_jones",
-          "halsoy"
+          "halsoy",
+          "thedeliverminator"
         ],
         "latest": {
-          "u": "halsoy",
-          "d": "May 18 2026"
+          "u": "thedeliverminator",
+          "d": "May 19 2026"
         }
       },
       "first_cast": {
@@ -20190,6 +20259,9 @@
       "halsoy": {
         "broke_in": "May 18 2026",
         "custom_catch": "May 18 2026"
+      },
+      "thedeliverminator": {
+        "broke_in": "May 19 2026"
       }
     },
     "recent_unlocks": [
@@ -23279,7 +23351,7 @@
       "n": "Pike",
       "custom": false,
       "r": "Common",
-      "c": 189,
+      "c": 191,
       "h": "corndawg3",
       "v": 11,
       "w": 1.13
@@ -23666,11 +23738,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1570
+      "n": 1571
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 105723
+      "n": 105732
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -23747,6 +23819,15 @@
       "best_r": "Common",
       "best_v": 27,
       "d": "May 18 2026"
+    },
+    {
+      "u": "thedeliverminator",
+      "g": 10,
+      "c": 1,
+      "best_n": "Pike",
+      "best_r": "Common",
+      "best_v": 10,
+      "d": "May 19 2026"
     }
   ],
   "dex": [
@@ -23926,7 +24007,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 189,
+      "c": 191,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -27128,6 +27209,22 @@
   ],
   "recent": [
     {
+      "u": "thedeliverminator",
+      "i": "Pike",
+      "w": 1.04,
+      "v": 10,
+      "r": "Common",
+      "d": "May 19 2026"
+    },
+    {
+      "u": "flippy00",
+      "i": "Pike",
+      "w": 0.88,
+      "v": 9,
+      "r": "Common",
+      "d": "May 19 2026"
+    },
+    {
       "u": "pvtcrackpot",
       "i": "Kieston France",
       "w": 50.52,
@@ -27709,22 +27806,6 @@
       "w": 1.1,
       "v": 11,
       "r": "Common",
-      "d": "May 17 2026"
-    },
-    {
-      "u": "pvtcrackpot",
-      "i": "Black Spotted Grunt",
-      "w": 4.91,
-      "v": 20,
-      "r": "Common",
-      "d": "May 17 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Kenny Wallace",
-      "w": 18.9,
-      "v": 208,
-      "r": "Epic",
       "d": "May 17 2026"
     }
   ]
