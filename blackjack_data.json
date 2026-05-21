@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-21T02:35:40Z",
+  "generated_at": "2026-05-21T02:37:04Z",
   "meta": {
-    "total_hands": 202,
+    "total_hands": 203,
     "total_players": 24,
     "biggest_bet": {
       "user": "juicedracing",
@@ -127,9 +127,9 @@
       },
       {
         "u": "larcen22",
-        "chips": 20000,
+        "chips": 20050,
         "net": -99604,
-        "hands": 3,
+        "hands": 4,
         "ach": 2
       },
       {
@@ -206,9 +206,9 @@
     "daily": [
       {
         "u": "larcen22",
-        "chips": 20000,
+        "chips": 20050,
         "net": 11100,
-        "hands": 3,
+        "hands": 4,
         "ach": 2
       },
       {
@@ -271,7 +271,7 @@
     },
     "most_hands": {
       "u": "larcen22",
-      "n": 3
+      "n": 4
     },
     "best_streak": {
       "u": "larcen22",
@@ -325,7 +325,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -22820,
           "hands": 3,
           "ach": 2
@@ -424,7 +424,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": 9065,
           "hands": 3,
           "ach": 2
@@ -520,7 +520,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -9145,
           "hands": 5,
           "ach": 2
@@ -629,7 +629,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -1350,
           "hands": 1,
           "ach": 2
@@ -703,7 +703,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -78180,
           "hands": 1,
           "ach": 2
@@ -802,7 +802,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": 15501,
           "hands": 3,
           "ach": 2
@@ -929,7 +929,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": 17879,
           "hands": 7,
           "ach": 2
@@ -1251,7 +1251,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -5198,
           "hands": 1,
           "ach": 2
@@ -1321,7 +1321,7 @@
       "leaderboard": [
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": 20049,
           "hands": 2,
           "ach": 2
@@ -1469,7 +1469,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -80100,
           "hands": 5,
           "ach": 2
@@ -1681,7 +1681,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": 26595,
           "hands": 4,
           "ach": 2
@@ -1905,7 +1905,7 @@
         },
         {
           "u": "larcen22",
-          "chips": 20000,
+          "chips": 20050,
           "net": -3000,
           "hands": 1,
           "ach": 2
@@ -3761,6 +3761,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1779331024.580241,
+      "date": "2026-05-20",
+      "player": "larcen22",
+      "bet": 20000,
+      "balance_before": 20000,
+      "result": "push",
+      "net_delta": 0,
+      "player_cards": [
+        "A♦",
+        "Q♣"
+      ],
+      "player_total": 21,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♠",
+        "J♥"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1779330940.1377828,
       "date": "2026-05-20",
       "player": "brookswhynot",
@@ -5316,37 +5343,6 @@
       "achievements_earned": [
         "poker_pair_any",
         "poker_salvation"
-      ]
-    },
-    {
-      "ts": 1778390588.5081606,
-      "date": "2026-05-09",
-      "player": "brookswhynot",
-      "bet": 1050,
-      "balance_before": 1050,
-      "result": "blackjack",
-      "net_delta": 1575,
-      "player_cards": [
-        "J♦",
-        "A♥"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "6♠",
-        "4♥",
-        "K♥"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win"
       ]
     }
   ]
