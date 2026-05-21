@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-21T03:33:59.512775+00:00",
-    "total_catches": 22855,
+    "generated_at": "2026-05-21T03:40:10.044048+00:00",
+    "total_catches": 22856,
     "unique_catches": 374,
     "total_players": 761,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22855 catches"
+      "sub": "Since launch - 22856 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -778,6 +778,14 @@
         "l": "Apr 19 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 5637,
+        "c": 82,
+        "casts": 82,
+        "l": "May 21 2026"
+      },
+      {
         "u": "robbievrabeljr",
         "n": "robbievrabeljr",
         "g": 5615,
@@ -800,14 +808,6 @@
         "c": 59,
         "casts": 59,
         "l": "May 17 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 5434,
-        "c": 81,
-        "casts": 81,
-        "l": "May 21 2026"
       },
       {
         "u": "o7buck",
@@ -6406,9 +6406,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 3775,
-        "c": 54,
-        "casts": 54,
+        "g": 3978,
+        "c": 55,
+        "casts": 55,
         "l": "May 21 2026"
       },
       {
@@ -6590,6 +6590,14 @@
         "l": "May 21 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 415,
+        "c": 5,
+        "casts": 5,
+        "l": "May 21 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 290,
@@ -6619,14 +6627,6 @@
         "g": 221,
         "c": 5,
         "casts": 5,
-        "l": "May 21 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 212,
-        "c": 4,
-        "casts": 4,
         "l": "May 21 2026"
       },
       {
@@ -6768,6 +6768,14 @@
         "l": "May 21 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 264,
+        "c": 2,
+        "casts": 2,
+        "l": "May 21 2026"
+      },
+      {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 230,
@@ -6789,14 +6797,6 @@
         "g": 140,
         "c": 2,
         "casts": 2,
-        "l": "May 21 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 61,
-        "c": 1,
-        "casts": 1,
         "l": "May 21 2026"
       },
       {
@@ -10616,6 +10616,13 @@
         "d": "May 19 2026"
       },
       {
+        "n": "realiist1",
+        "i": "A License",
+        "v": 203,
+        "r": "Epic",
+        "d": "May 21 2026"
+      },
+      {
         "n": "rms_racing",
         "i": "Joey Logano",
         "v": 186,
@@ -10649,13 +10656,6 @@
         "v": 88,
         "r": "Rare",
         "d": "May 18 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Cole Custer",
-        "v": 83,
-        "r": "Rare",
-        "d": "May 19 2026"
       },
       {
         "n": "brookswhynot",
@@ -10751,6 +10751,13 @@
     ],
     "daily": [
       {
+        "n": "realiist1",
+        "i": "A License",
+        "v": 203,
+        "r": "Epic",
+        "d": "May 21 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "Xfinity Mustang",
         "v": 135,
@@ -10775,13 +10782,6 @@
         "n": "brookswhynot",
         "i": "USED NASCAR WINDOW NETS",
         "v": 77,
-        "r": "Rare",
-        "d": "May 21 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "USED NASCAR WINDOW NETS",
-        "v": 61,
         "r": "Rare",
         "d": "May 21 2026"
       },
@@ -11700,7 +11700,7 @@
         }
       },
       "catch_of_day": {
-        "total": 128,
+        "total": 129,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11829,11 +11829,12 @@
           "dvn_immortalflame",
           "turbosnail87",
           "sparkyracingtv",
-          "nellafella"
+          "nellafella",
+          "realiist1"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "realiist1",
+          "d": "May 21 2026"
         }
       },
       "win_day": {
@@ -19969,6 +19970,7 @@
       "realiist1": {
         "broke_in": "Apr 11 2026",
         "first_cast": "May 11 2026",
+        "catch_of_day": "May 21 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
         "walk_in": "Apr 28 2026",
@@ -20703,7 +20705,7 @@
       "n": "A License",
       "custom": true,
       "r": "Legendary",
-      "c": 36,
+      "c": 37,
       "h": "pvtcrackpot",
       "v": 274,
       "w": 1.1
@@ -25976,7 +25978,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "How in the shit are you still causing wrecks?",
-      "c": 36,
+      "c": 37,
       "rec": "1.10 lb",
       "v": 274
     },
@@ -27217,6 +27219,14 @@
   "recent": [
     {
       "u": "realiist1",
+      "i": "A License",
+      "w": 0.81,
+      "v": 203,
+      "r": "Epic",
+      "d": "May 21 2026"
+    },
+    {
+      "u": "realiist1",
       "i": "USED NASCAR WINDOW NETS",
       "w": 1.63,
       "v": 61,
@@ -27804,14 +27814,6 @@
       "i": "Annoying iRacer kid",
       "w": 1.01,
       "v": 10,
-      "r": "Junk",
-      "d": "May 17 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Black Flag",
-      "w": 0.97,
-      "v": 1,
       "r": "Junk",
       "d": "May 17 2026"
     }
