@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-21T02:37:17.048884+00:00",
-    "total_catches": 22838,
+    "generated_at": "2026-05-21T02:39:22.263952+00:00",
+    "total_catches": 22839,
     "unique_catches": 374,
     "total_players": 761,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22838 catches"
+      "sub": "Since launch - 22839 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -826,6 +826,14 @@
         "l": "May 15 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 5083,
+        "c": 62,
+        "casts": 62,
+        "l": "May 21 2026"
+      },
+      {
         "u": "critinator",
         "n": "critinator",
         "g": 5040,
@@ -848,14 +856,6 @@
         "c": 73,
         "casts": 73,
         "l": "Feb 24 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 4995,
-        "c": 61,
-        "casts": 61,
-        "l": "May 21 2026"
       },
       {
         "u": "ikatipoi",
@@ -6390,9 +6390,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 4204,
-        "c": 43,
-        "casts": 43,
+        "g": 4292,
+        "c": 44,
+        "casts": 44,
         "l": "May 21 2026"
       },
       {
@@ -6584,9 +6584,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 298,
-        "c": 4,
-        "casts": 4,
+        "g": 386,
+        "c": 5,
+        "casts": 5,
         "l": "May 21 2026"
       },
       {
@@ -6736,19 +6736,19 @@
         "l": "May 21 2026"
       },
       {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 64,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 134,
         "c": 2,
         "casts": 2,
         "l": "May 21 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 46,
-        "c": 1,
-        "casts": 1,
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
         "l": "May 21 2026"
       },
       {
@@ -10650,16 +10650,16 @@
         "d": "May 21 2026"
       },
       {
-        "n": "brookswhynot",
-        "i": "Gas Can",
-        "v": 55,
-        "r": "Uncommon",
+        "n": "nellafella",
+        "i": "Blake Houston",
+        "v": 88,
+        "r": "Rare",
         "d": "May 21 2026"
       },
       {
-        "n": "nellafella",
-        "i": "BJ McLeod",
-        "v": 46,
+        "n": "brookswhynot",
+        "i": "Gas Can",
+        "v": 55,
         "r": "Uncommon",
         "d": "May 21 2026"
       },
@@ -21710,7 +21710,7 @@
       "n": "Blake Houston",
       "custom": true,
       "r": "Rare",
-      "c": 38,
+      "c": 39,
       "h": "motionless",
       "v": 113,
       "w": 56.45
@@ -26317,7 +26317,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#20 Front Changer, Joe Gibbs Racing, Former Baseball Player",
-      "c": 38,
+      "c": 39,
       "rec": "56.45 lb",
       "v": 113
     },
@@ -27062,6 +27062,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Blake Houston",
+      "w": 44.23,
+      "v": 88,
+      "r": "Rare",
+      "d": "May 21 2026"
+    },
+    {
       "u": "rms_racing",
       "i": "Rookie License",
       "w": 1.04,
@@ -27651,14 +27659,6 @@
       "w": 0.64,
       "v": 82,
       "r": "Rare",
-      "d": "May 17 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Branch",
-      "w": 0.52,
-      "v": 2,
-      "r": "Junk",
       "d": "May 17 2026"
     }
   ]
