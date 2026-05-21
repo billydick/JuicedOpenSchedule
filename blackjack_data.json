@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-21T01:58:59Z",
+  "generated_at": "2026-05-21T02:35:40Z",
   "meta": {
-    "total_hands": 201,
+    "total_hands": 202,
     "total_players": 24,
     "biggest_bet": {
       "user": "juicedracing",
@@ -126,13 +126,6 @@
         "ach": 0
       },
       {
-        "u": "brookswhynot",
-        "chips": 21205,
-        "net": -66770,
-        "hands": 1,
-        "ach": 7
-      },
-      {
         "u": "larcen22",
         "chips": 20000,
         "net": -99604,
@@ -196,6 +189,13 @@
         "ach": 0
       },
       {
+        "u": "brookswhynot",
+        "chips": 50,
+        "net": -87975,
+        "hands": 2,
+        "ach": 8
+      },
+      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -213,10 +213,10 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 21205,
-        "net": 11055,
-        "hands": 1,
-        "ach": 7
+        "chips": 50,
+        "net": -10150,
+        "hands": 2,
+        "ach": 8
       },
       {
         "u": "juicedracing",
@@ -513,10 +513,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -5000,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "larcen22",
@@ -696,10 +696,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -9418,
           "hands": 3,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "larcen22",
@@ -823,10 +823,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -15832,
           "hands": 3,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "evangel0203",
@@ -950,10 +950,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -30100,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         }
       ],
       "highlights": {
@@ -1051,10 +1051,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": 15025,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         }
       ],
       "highlights": {
@@ -1118,10 +1118,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": 23525,
           "hands": 3,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "motionless",
@@ -1258,10 +1258,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -14950,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "juicedracing",
@@ -1448,10 +1448,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -6200,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "juicedracing",
@@ -1702,10 +1702,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -10000,
           "hands": 1,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "evangel0203",
@@ -1933,10 +1933,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 21205,
+          "chips": 50,
           "net": -24875,
           "hands": 4,
-          "ach": 7
+          "ach": 8
         },
         {
           "u": "juicedracing",
@@ -2380,11 +2380,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "brookswhynot"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-05-14"
+          "u": "brookswhynot",
+          "d": "2026-05-20"
         }
       },
       "riches_to_rags_session": {
@@ -2930,7 +2932,8 @@
         "quad_hit_win": "2026-05-20",
         "lucky_escape": "2026-04-25",
         "poker_pair_any": "2026-05-04",
-        "clean_poker_win": "2026-05-04"
+        "clean_poker_win": "2026-05-04",
+        "rags_to_riches_session": "2026-04-25"
       },
       "larcen22": {
         "exact_change_win": "2026-04-27",
@@ -2938,6 +2941,11 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "rags_to_riches_session",
+        "u": "brookswhynot",
+        "d": "2026-05-20"
+      },
       {
         "id": "exact_change_win",
         "u": "larcen22",
@@ -3030,11 +3038,6 @@
       },
       {
         "id": "exact_change_win",
-        "u": "juicedracing",
-        "d": "2026-05-18"
-      },
-      {
-        "id": "big_nerve_win",
         "u": "juicedracing",
         "d": "2026-05-18"
       }
@@ -3757,6 +3760,36 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1779330940.1377828,
+      "date": "2026-05-20",
+      "player": "brookswhynot",
+      "bet": 21205,
+      "balance_before": 21205,
+      "result": "lose",
+      "net_delta": -21205,
+      "player_cards": [
+        "6♠",
+        "9♦"
+      ],
+      "player_total": 15,
+      "hit_count": 0,
+      "dealer_cards": [
+        "K♠",
+        "5♣",
+        "2♠"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "rags_to_riches_session"
+      ]
+    },
     {
       "ts": 1779328739.6483805,
       "date": "2026-05-20",
@@ -5315,34 +5348,6 @@
         "exact_change_win",
         "big_nerve_win"
       ]
-    },
-    {
-      "ts": 1778389166.313947,
-      "date": "2026-05-09",
-      "player": "brookswhynot",
-      "bet": 15000,
-      "balance_before": 15000,
-      "result": "lose",
-      "net_delta": -15000,
-      "player_cards": [
-        "5♦",
-        "3♥",
-        "K♠"
-      ],
-      "player_total": 18,
-      "hit_count": 1,
-      "dealer_cards": [
-        "K♥",
-        "9♦"
-      ],
-      "dealer_total": 19,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
