@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-05-21T01:57:22.114709+00:00",
-    "total_catches": 22835,
+    "generated_at": "2026-05-21T02:36:13.203999+00:00",
+    "total_catches": 22836,
     "unique_catches": 374,
     "total_players": 761,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 22835 catches"
+      "sub": "Since launch - 22836 catches"
     },
     "monthly": {
       "label": "May 2026",
@@ -380,9 +380,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 31033,
-        "c": 392,
-        "casts": 392,
+        "g": 31088,
+        "c": 393,
+        "casts": 393,
         "l": "May 21 2026"
       },
       {
@@ -6382,9 +6382,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 13275,
-        "c": 173,
-        "casts": 173,
+        "g": 13330,
+        "c": 174,
+        "casts": 174,
         "l": "May 21 2026"
       },
       {
@@ -6662,6 +6662,14 @@
         "l": "May 18 2026"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
+        "l": "May 21 2026"
+      },
+      {
         "u": "ricky_lee_jones",
         "n": "ricky_lee_jones",
         "g": 42,
@@ -6710,14 +6718,6 @@
         "l": "May 19 2026"
       },
       {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
-        "l": "May 21 2026"
-      },
-      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 8,
@@ -6736,17 +6736,17 @@
         "l": "May 21 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 46,
-        "c": 1,
-        "casts": 1,
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
         "l": "May 21 2026"
       },
       {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 9,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 46,
         "c": 1,
         "casts": 1,
         "l": "May 21 2026"
@@ -10577,6 +10577,13 @@
         "d": "May 18 2026"
       },
       {
+        "n": "brookswhynot",
+        "i": "Gas Can",
+        "v": 55,
+        "r": "Uncommon",
+        "d": "May 21 2026"
+      },
+      {
         "n": "ricky_lee_jones",
         "i": "Michael McDowell",
         "v": 42,
@@ -10619,13 +10626,6 @@
         "d": "May 19 2026"
       },
       {
-        "n": "brookswhynot",
-        "i": "Tire",
-        "v": 9,
-        "r": "Junk",
-        "d": "May 21 2026"
-      },
-      {
         "n": "grumpymitch1",
         "i": "Gummy Worms",
         "v": 8,
@@ -10642,17 +10642,17 @@
         "d": "May 21 2026"
       },
       {
-        "n": "nellafella",
-        "i": "BJ McLeod",
-        "v": 46,
+        "n": "brookswhynot",
+        "i": "Gas Can",
+        "v": 55,
         "r": "Uncommon",
         "d": "May 21 2026"
       },
       {
-        "n": "brookswhynot",
-        "i": "Tire",
-        "v": 9,
-        "r": "Junk",
+        "n": "nellafella",
+        "i": "BJ McLeod",
+        "v": 46,
+        "r": "Uncommon",
         "d": "May 21 2026"
       },
       {
@@ -22487,7 +22487,7 @@
       "n": "Gas Can",
       "custom": true,
       "r": "Uncommon",
-      "c": 85,
+      "c": 86,
       "h": "karnalsanders",
       "v": 56,
       "w": 5.63
@@ -24385,7 +24385,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Not water!",
-      "c": 85,
+      "c": 86,
       "rec": "5.63 lb",
       "v": 56
     },
@@ -27047,6 +27047,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Gas Can",
+      "w": 5.45,
+      "v": 55,
+      "r": "Uncommon",
+      "d": "May 21 2026"
+    },
+    {
       "u": "larcen22",
       "i": "Rubber Ducky",
       "w": 0.11,
@@ -27636,14 +27644,6 @@
       "w": 2.09,
       "v": 37,
       "r": "Uncommon",
-      "d": "May 17 2026"
-    },
-    {
-      "u": "larcen22",
-      "i": "AC RACING BRAKE",
-      "w": 2.24,
-      "v": 84,
-      "r": "Rare",
       "d": "May 17 2026"
     }
   ]
