@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-04T01:31:12.798903+00:00",
-    "total_catches": 23066,
+    "generated_at": "2026-06-04T01:38:22.931898+00:00",
+    "total_catches": 23067,
     "unique_catches": 374,
     "total_players": 763,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23066 catches"
+      "sub": "Since launch - 23067 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -3514,6 +3514,14 @@
         "l": "Oct 21 2025"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 155,
+        "c": 2,
+        "casts": 2,
+        "l": "Jun 04 2026"
+      },
+      {
         "u": "grasteppa",
         "n": "grasteppa",
         "g": 155,
@@ -4880,14 +4888,6 @@
         "c": 1,
         "casts": 1,
         "l": "Mar 24 2025"
-      },
-      {
-        "u": "barnsdale",
-        "n": "barnsdale",
-        "g": 43,
-        "c": 1,
-        "casts": 1,
-        "l": "May 10 2026"
       },
       {
         "u": "fanaticmoon409",
@@ -6444,6 +6444,14 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 04 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 80,
@@ -6558,6 +6566,14 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 04 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 80,
@@ -6646,6 +6662,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 03 2026"
+      },
+      {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 04 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -10556,6 +10580,13 @@
         "d": "Jun 03 2026"
       },
       {
+        "n": "barnsdale",
+        "i": "CJ Bailey",
+        "v": 112,
+        "r": "Rare",
+        "d": "Jun 04 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Ty Gibbs",
         "v": 102,
@@ -10656,6 +10687,13 @@
         "d": "Jun 03 2026"
       },
       {
+        "n": "barnsdale",
+        "i": "CJ Bailey",
+        "v": 112,
+        "r": "Rare",
+        "d": "Jun 04 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Ty Gibbs",
         "v": 102,
@@ -10746,6 +10784,13 @@
         "i": "iRacer Cazz Bedford",
         "v": 185,
         "r": "Epic",
+        "d": "Jun 04 2026"
+      },
+      {
+        "n": "barnsdale",
+        "i": "CJ Bailey",
+        "v": 112,
+        "r": "Rare",
         "d": "Jun 04 2026"
       },
       {
@@ -22010,10 +22055,10 @@
       "n": "CJ Bailey",
       "custom": true,
       "r": "Rare",
-      "c": 28,
-      "h": "brian_wertman_74",
+      "c": 29,
+      "h": "barnsdale",
       "v": 112,
-      "w": 55.98
+      "w": 56.13
     },
     {
       "n": "Button Box",
@@ -26418,8 +26463,8 @@
       "r": "Rare",
       "custom": true,
       "desc": "#19 Carrier, Joe Gibbs Racing, Former College Football Player",
-      "c": 28,
-      "rec": "55.98 lb",
+      "c": 29,
+      "rec": "56.13 lb",
       "v": 112
     },
     {
@@ -27181,6 +27226,14 @@
   ],
   "recent": [
     {
+      "u": "barnsdale",
+      "i": "CJ Bailey",
+      "w": 56.13,
+      "v": 112,
+      "r": "Rare",
+      "d": "Jun 04 2026"
+    },
+    {
       "u": "larcen22",
       "i": "HANS Device",
       "w": 2.2,
@@ -27770,14 +27823,6 @@
       "w": 25.69,
       "v": 9,
       "r": "Junk",
-      "d": "May 31 2026"
-    },
-    {
-      "u": "raycharlesdrivingschool",
-      "i": "Katherine Legge",
-      "w": 41.65,
-      "v": 21,
-      "r": "Common",
       "d": "May 31 2026"
     }
   ]
