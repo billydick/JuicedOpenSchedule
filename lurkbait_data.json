@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-05T22:08:55.699936+00:00",
-    "total_catches": 23119,
+    "generated_at": "2026-06-05T22:59:04.804458+00:00",
+    "total_catches": 23120,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23119 catches"
+      "sub": "Since launch - 23120 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -700,9 +700,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 7037,
-        "c": 89,
-        "casts": 89,
+        "g": 7089,
+        "c": 90,
+        "casts": 90,
         "l": "Jun 05 2026"
       },
       {
@@ -6620,6 +6620,14 @@
         "l": "Jun 05 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 114,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "maden3w",
         "n": "maden3w",
         "g": 113,
@@ -6666,14 +6674,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 01 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 62,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 05 2026"
       },
       {
         "u": "codycoyoteracing",
@@ -6822,6 +6822,14 @@
         "l": "Jun 05 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 114,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "maden3w",
         "n": "maden3w",
         "g": 113,
@@ -6870,14 +6878,6 @@
         "l": "Jun 01 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 62,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 05 2026"
-      },
-      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 59,
@@ -6904,6 +6904,14 @@
     ],
     "daily": [
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 62,
+        "c": 2,
+        "casts": 2,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 43,
@@ -6915,14 +6923,6 @@
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 21,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 05 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Jun 05 2026"
@@ -10976,6 +10976,13 @@
         "d": "Jun 01 2026"
       },
       {
+        "n": "beliron",
+        "i": "Dover",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Jun 05 2026"
+      },
+      {
         "n": "ramennoodelzz",
         "i": "Noah Gragson",
         "v": 50,
@@ -11009,13 +11016,6 @@
         "v": 33,
         "r": "Common",
         "d": "Jun 01 2026"
-      },
-      {
-        "n": "mr_tartuffo",
-        "i": "Sea Urchin",
-        "v": 32,
-        "r": "Uncommon",
-        "d": "Jun 04 2026"
       }
     ],
     "weekly": [
@@ -11153,6 +11153,13 @@
         "d": "Jun 01 2026"
       },
       {
+        "n": "beliron",
+        "i": "Dover",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Jun 05 2026"
+      },
+      {
         "n": "ramennoodelzz",
         "i": "Noah Gragson",
         "v": 50,
@@ -11186,16 +11193,16 @@
         "v": 33,
         "r": "Common",
         "d": "Jun 01 2026"
-      },
-      {
-        "n": "mr_tartuffo",
-        "i": "Sea Urchin",
-        "v": 32,
-        "r": "Uncommon",
-        "d": "Jun 04 2026"
       }
     ],
     "daily": [
+      {
+        "n": "beliron",
+        "i": "Dover",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Jun 05 2026"
+      },
       {
         "n": "juicedracing",
         "i": "Atlantic Cod",
@@ -11208,13 +11215,6 @@
         "i": "Rookie License",
         "v": 21,
         "r": "Common",
-        "d": "Jun 05 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "Caution!",
-        "v": 10,
-        "r": "Junk",
         "d": "Jun 05 2026"
       }
     ]
@@ -23346,7 +23346,7 @@
       "n": "Dover",
       "custom": true,
       "r": "Uncommon",
-      "c": 6,
+      "c": 7,
       "h": "motionless",
       "v": 53,
       "w": 106.4
@@ -27665,7 +27665,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "You get turned on the back stretch but still finish top 10.",
-      "c": 6,
+      "c": 7,
       "rec": "106.40 lb",
       "v": 53
     },
@@ -27779,6 +27779,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "Dover",
+      "w": 104.01,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Jun 05 2026"
+    },
     {
       "u": "v1per_simr4cin6",
       "i": "Rookie License",
@@ -28369,14 +28377,6 @@
       "w": 1.02,
       "v": 1,
       "r": "Junk",
-      "d": "Jun 02 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Carp",
-      "w": 8.48,
-      "v": 16,
-      "r": "Common",
       "d": "Jun 02 2026"
     }
   ]
