@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-05T22:59:04.804458+00:00",
-    "total_catches": 23120,
+    "generated_at": "2026-06-05T23:56:21.739124+00:00",
+    "total_catches": 23121,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23120 catches"
+      "sub": "Since launch - 23121 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -706,20 +706,20 @@
         "l": "Jun 05 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 6916,
+        "c": 101,
+        "casts": 101,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "mrdrwaddles",
         "n": "mrdrwaddles",
         "g": 6860,
         "c": 87,
         "casts": 87,
         "l": "Apr 28 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 6807,
-        "c": 100,
-        "casts": 100,
-        "l": "Jun 04 2026"
       },
       {
         "u": "mydogsblack",
@@ -6526,10 +6526,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 557,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 04 2026"
+        "g": 666,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 05 2026"
       },
       {
         "u": "danielcruzpt",
@@ -6728,10 +6728,10 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 557,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 04 2026"
+        "g": 666,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 05 2026"
       },
       {
         "u": "danielcruzpt",
@@ -6903,6 +6903,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 109,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 05 2026"
+      },
       {
         "u": "beliron",
         "n": "beliron",
@@ -11197,6 +11205,13 @@
     ],
     "daily": [
       {
+        "n": "realiist1",
+        "i": "Race Suit",
+        "v": 109,
+        "r": "Rare",
+        "d": "Jun 05 2026"
+      },
+      {
         "n": "beliron",
         "i": "Dover",
         "v": 52,
@@ -12244,7 +12259,7 @@
         }
       },
       "win_day": {
-        "total": 91,
+        "total": 92,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12336,11 +12351,12 @@
           "reignsstreams",
           "ineffabledecibel",
           "turbosnail87",
-          "nellafella"
+          "nellafella",
+          "realiist1"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "realiist1",
+          "d": "Jun 05 2026"
         }
       },
       "double_down": {
@@ -20398,6 +20414,7 @@
       "realiist1": {
         "broke_in": "Apr 11 2026",
         "first_cast": "May 11 2026",
+        "win_day": "Jun 05 2026",
         "catch_of_day": "May 21 2026",
         "junk_master": "May 10 2026",
         "custom_catch": "Apr 11 2026",
@@ -22527,7 +22544,7 @@
       "n": "Race Suit",
       "custom": true,
       "r": "Rare",
-      "c": 46,
+      "c": 47,
       "h": "wintergofast",
       "v": 112,
       "w": 1.12
@@ -25892,7 +25909,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Can't go out there in steet clothes apparently",
-      "c": 46,
+      "c": 47,
       "rec": "1.12 lb",
       "v": 112
     },
@@ -27780,6 +27797,14 @@
   ],
   "recent": [
     {
+      "u": "realiist1",
+      "i": "Race Suit",
+      "w": 1.09,
+      "v": 109,
+      "r": "Rare",
+      "d": "Jun 05 2026"
+    },
+    {
       "u": "beliron",
       "i": "Dover",
       "w": 104.01,
@@ -28369,14 +28394,6 @@
       "w": 0.45,
       "v": 53,
       "r": "Uncommon",
-      "d": "Jun 02 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Joey Hand",
-      "w": 1.02,
-      "v": 1,
-      "r": "Junk",
       "d": "Jun 02 2026"
     }
   ]
