@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-05T17:36:43.942443+00:00",
-    "total_catches": 23116,
+    "generated_at": "2026-06-05T21:52:28.574201+00:00",
+    "total_catches": 23117,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23116 catches"
+      "sub": "Since launch - 23117 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -700,10 +700,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 7027,
-        "c": 88,
-        "casts": 88,
-        "l": "Jun 03 2026"
+        "g": 7037,
+        "c": 89,
+        "casts": 89,
+        "l": "Jun 05 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6668,20 +6668,20 @@
         "l": "Jun 01 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 62,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 59,
         "c": 2,
         "casts": 2,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 52,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 03 2026"
       },
       {
         "u": "ramennoodelzz",
@@ -6870,20 +6870,20 @@
         "l": "Jun 01 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 62,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 05 2026"
+      },
+      {
         "u": "codycoyoteracing",
         "n": "codycoyoteracing",
         "g": 59,
         "c": 2,
         "casts": 2,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 52,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 03 2026"
       },
       {
         "u": "ramennoodelzz",
@@ -6907,6 +6907,14 @@
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 15,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 05 2026"
+      },
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Jun 05 2026"
@@ -11185,6 +11193,13 @@
         "i": "Bristol Motor Speedway",
         "v": 15,
         "r": "Common",
+        "d": "Jun 05 2026"
+      },
+      {
+        "n": "beliron",
+        "i": "Caution!",
+        "v": 10,
+        "r": "Junk",
         "d": "Jun 05 2026"
       }
     ]
@@ -23802,7 +23817,7 @@
       "n": "Caution!",
       "custom": true,
       "r": "Common",
-      "c": 176,
+      "c": 177,
       "h": "jking9370",
       "v": 11,
       "w": 1.13
@@ -25241,7 +25256,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Some shitter spun on the restart.",
-      "c": 176,
+      "c": 177,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -27750,6 +27765,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Caution!",
+      "w": 0.98,
+      "v": 10,
+      "r": "Junk",
+      "d": "Jun 05 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Bristol Motor Speedway",
       "w": 196.02,
@@ -28339,14 +28362,6 @@
       "w": 0.93,
       "v": 46,
       "r": "Uncommon",
-      "d": "Jun 02 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Hermit Crab",
-      "w": 1.11,
-      "v": 22,
-      "r": "Common",
       "d": "Jun 02 2026"
     }
   ]
