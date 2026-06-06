@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-06T00:23:32Z",
+  "generated_at": "2026-06-06T00:24:59Z",
   "meta": {
-    "total_hands": 259,
+    "total_hands": 260,
     "total_players": 26,
     "biggest_bet": {
       "user": "juicedracing",
@@ -154,6 +154,13 @@
         "ach": 0
       },
       {
+        "u": "gatoraintplaying",
+        "chips": 11850,
+        "net": -3100,
+        "hands": 1,
+        "ach": 2
+      },
+      {
         "u": "forthe_lul",
         "chips": 10175,
         "net": -450,
@@ -178,13 +185,6 @@
         "u": "evangel0203",
         "chips": 5900,
         "net": -64900,
-        "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "gatoraintplaying",
-        "chips": 5850,
-        "net": -9000,
         "hands": 0,
         "ach": 0
       },
@@ -224,6 +224,13 @@
         "net": 19250,
         "hands": 2,
         "ach": 3
+      },
+      {
+        "u": "gatoraintplaying",
+        "chips": 11850,
+        "net": 5900,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "juicedracing",
@@ -400,10 +407,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 5850,
+          "chips": 11850,
           "net": 1750,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "grumpymitch1",
@@ -636,10 +643,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 5850,
+          "chips": 11850,
           "net": -36600,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         }
       ],
       "highlights": {
@@ -1406,10 +1413,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 5850,
+          "chips": 11850,
           "net": -10250,
           "hands": 3,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "brookswhynot",
@@ -2488,10 +2495,10 @@
       "leaderboard": [
         {
           "u": "gatoraintplaying",
-          "chips": 5850,
+          "chips": 11850,
           "net": 36100,
           "hands": 3,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "larcen22",
@@ -2845,22 +2852,24 @@
         }
       },
       "exact_change_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "kirk0218"
+          "kirk0218",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "kirk0218",
+          "u": "gatoraintplaying",
           "d": "2026-06-05"
         }
       },
       "big_nerve_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "kirk0218"
+          "kirk0218",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "kirk0218",
+          "u": "gatoraintplaying",
           "d": "2026-06-05"
         }
       },
@@ -3511,9 +3520,23 @@
         "exact_change_win": "2026-06-01",
         "big_nerve_win": "2026-06-01",
         "double_or_nothing": "2026-06-05"
+      },
+      "gatoraintplaying": {
+        "exact_change_win": "2026-04-25",
+        "big_nerve_win": "2026-04-25"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "exact_change_win",
+        "u": "gatoraintplaying",
+        "d": "2026-06-05"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "gatoraintplaying",
+        "d": "2026-06-05"
+      },
       {
         "id": "high_roller_50k",
         "u": "juicedracing",
@@ -3601,16 +3624,6 @@
       },
       {
         "id": "high_roller_250k",
-        "u": "juicedracing",
-        "d": "2026-06-03"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "juicedracing",
-        "d": "2026-06-03"
-      },
-      {
-        "id": "high_roller_100k",
         "u": "juicedracing",
         "d": "2026-06-03"
       }
@@ -4333,6 +4346,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1780705499.807828,
+      "date": "2026-06-05",
+      "player": "gatoraintplaying",
+      "bet": 5900,
+      "balance_before": 5900,
+      "result": "win",
+      "net_delta": 5900,
+      "player_cards": [
+        "A♠",
+        "6♦"
+      ],
+      "player_total": 17,
+      "hit_count": 0,
+      "dealer_cards": [
+        "9♦",
+        "2♥",
+        "A♥",
+        "2♦",
+        "K♥"
+      ],
+      "dealer_total": 24,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "exact_change_win",
+        "big_nerve_win"
+      ]
+    },
     {
       "ts": 1780705411.9718962,
       "date": "2026-06-05",
@@ -5831,36 +5877,6 @@
       "achievements_earned": [
         "rags_to_riches_session"
       ]
-    },
-    {
-      "ts": 1779929974.64088,
-      "date": "2026-05-27",
-      "player": "larcen22",
-      "bet": 5000,
-      "balance_before": 6000,
-      "result": "lose",
-      "net_delta": -5000,
-      "player_cards": [
-        "7♠",
-        "10♠"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "A♦",
-        "A♠",
-        "K♣",
-        "A♣",
-        "7♣"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
