@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-06T00:24:59Z",
+  "generated_at": "2026-06-06T00:26:39Z",
   "meta": {
-    "total_hands": 260,
+    "total_hands": 261,
     "total_players": 26,
     "biggest_bet": {
       "user": "juicedracing",
@@ -154,13 +154,6 @@
         "ach": 0
       },
       {
-        "u": "gatoraintplaying",
-        "chips": 11850,
-        "net": -3100,
-        "hands": 1,
-        "ach": 2
-      },
-      {
         "u": "forthe_lul",
         "chips": 10175,
         "net": -450,
@@ -203,6 +196,13 @@
         "ach": 0
       },
       {
+        "u": "gatoraintplaying",
+        "chips": 150,
+        "net": -14900,
+        "hands": 2,
+        "ach": 2
+      },
+      {
         "u": "juicedracing",
         "chips": 50,
         "net": -285467,
@@ -227,9 +227,9 @@
       },
       {
         "u": "gatoraintplaying",
-        "chips": 11850,
-        "net": 5900,
-        "hands": 1,
+        "chips": 150,
+        "net": -5900,
+        "hands": 2,
         "ach": 2
       },
       {
@@ -407,7 +407,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11850,
+          "chips": 150,
           "net": 1750,
           "hands": 1,
           "ach": 2
@@ -643,7 +643,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11850,
+          "chips": 150,
           "net": -36600,
           "hands": 1,
           "ach": 2
@@ -1413,7 +1413,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11850,
+          "chips": 150,
           "net": -10250,
           "hands": 3,
           "ach": 2
@@ -2495,7 +2495,7 @@
       "leaderboard": [
         {
           "u": "gatoraintplaying",
-          "chips": 11850,
+          "chips": 150,
           "net": 36100,
           "hands": 3,
           "ach": 2
@@ -4347,6 +4347,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1780705599.0518153,
+      "date": "2026-06-05",
+      "player": "gatoraintplaying",
+      "bet": 11800,
+      "balance_before": 11850,
+      "result": "lose",
+      "net_delta": -11800,
+      "player_cards": [
+        "8♠",
+        "2♠",
+        "5♥"
+      ],
+      "player_total": 15,
+      "hit_count": 1,
+      "dealer_cards": [
+        "A♣",
+        "7♠"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1780705499.807828,
       "date": "2026-06-05",
       "player": "gatoraintplaying",
@@ -5848,35 +5876,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1779931656.4051707,
-      "date": "2026-05-27",
-      "player": "juicedracing",
-      "bet": 10000,
-      "balance_before": 10015,
-      "result": "lose",
-      "net_delta": -10000,
-      "player_cards": [
-        "7♣",
-        "Q♠"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "A♦",
-        "K♠"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "rags_to_riches_session"
-      ]
     }
   ]
 }
