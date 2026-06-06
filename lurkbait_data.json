@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-06T00:01:31.544652+00:00",
-    "total_catches": 23122,
+    "generated_at": "2026-06-06T00:27:07.697678+00:00",
+    "total_catches": 23123,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23122 catches"
+      "sub": "Since launch - 23123 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -2314,6 +2314,14 @@
         "l": "Jan 06 2025"
       },
       {
+        "u": "muskrat21",
+        "n": "muskrat21",
+        "g": 440,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 06 2026"
+      },
+      {
         "u": "kanecrawford_9",
         "n": "kanecrawford_9",
         "g": 439,
@@ -2408,14 +2416,6 @@
         "c": 3,
         "casts": 3,
         "l": "May 03 2026"
-      },
-      {
-        "u": "muskrat21",
-        "n": "muskrat21",
-        "g": 395,
-        "c": 5,
-        "casts": 5,
-        "l": "May 21 2026"
       },
       {
         "u": "jason81234",
@@ -6692,12 +6692,12 @@
         "l": "Jun 04 2026"
       },
       {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 33,
+        "u": "muskrat21",
+        "n": "muskrat21",
+        "g": 45,
         "c": 1,
         "casts": 1,
-        "l": "Jun 01 2026"
+        "l": "Jun 06 2026"
       }
     ],
     "weekly": [
@@ -6894,12 +6894,12 @@
         "l": "Jun 04 2026"
       },
       {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 33,
+        "u": "muskrat21",
+        "n": "muskrat21",
+        "g": 45,
         "c": 1,
         "casts": 1,
-        "l": "Jun 01 2026"
+        "l": "Jun 06 2026"
       }
     ],
     "daily": [
@@ -6926,6 +6926,14 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 05 2026"
+      },
+      {
+        "u": "muskrat21",
+        "n": "muskrat21",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 06 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -11019,11 +11027,11 @@
         "d": "Jun 04 2026"
       },
       {
-        "n": "grumpymitch1",
-        "i": "Barracuda",
-        "v": 33,
-        "r": "Common",
-        "d": "Jun 01 2026"
+        "n": "muskrat21",
+        "i": "Michael McDowell",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jun 06 2026"
       }
     ],
     "weekly": [
@@ -11196,11 +11204,11 @@
         "d": "Jun 04 2026"
       },
       {
-        "n": "grumpymitch1",
-        "i": "Barracuda",
-        "v": 33,
-        "r": "Common",
-        "d": "Jun 01 2026"
+        "n": "muskrat21",
+        "i": "Michael McDowell",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jun 06 2026"
       }
     ],
     "daily": [
@@ -11224,6 +11232,13 @@
         "v": 52,
         "r": "Uncommon",
         "d": "Jun 05 2026"
+      },
+      {
+        "n": "muskrat21",
+        "i": "Michael McDowell",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jun 06 2026"
       },
       {
         "n": "v1per_simr4cin6",
@@ -23559,7 +23574,7 @@
       "n": "Michael McDowell",
       "custom": true,
       "r": "Common",
-      "c": 178,
+      "c": 179,
       "h": "dogfish__27",
       "v": 55,
       "w": 54.98
@@ -25610,7 +25625,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Won a Daytona and been coasting off it ever since",
-      "c": 178,
+      "c": 179,
       "rec": "54.98 lb",
       "v": 55
     },
@@ -27795,6 +27810,14 @@
   ],
   "recent": [
     {
+      "u": "muskrat21",
+      "i": "Michael McDowell",
+      "w": 44.99,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Jun 06 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Orangespined Unicornfish",
       "w": 0.92,
@@ -28384,14 +28407,6 @@
       "w": 0.48,
       "v": 57,
       "r": "Uncommon",
-      "d": "Jun 02 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "NEW Visual Flag System Full Package",
-      "w": 0.92,
-      "v": 69,
-      "r": "Rare",
       "d": "Jun 02 2026"
     }
   ]
