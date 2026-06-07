@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T19:52:08.445423+00:00",
-    "total_catches": 23136,
+    "generated_at": "2026-06-07T20:01:23.985713+00:00",
+    "total_catches": 23137,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23136 catches"
+      "sub": "Since launch - 23137 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,10 +348,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 36062,
-        "c": 552,
-        "casts": 552,
-        "l": "Jun 06 2026"
+        "g": 36071,
+        "c": 553,
+        "casts": 553,
+        "l": "Jun 07 2026"
       },
       {
         "u": "jdawg250f",
@@ -6590,10 +6590,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 192,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 06 2026"
+        "g": 201,
+        "c": 7,
+        "casts": 7,
+        "l": "Jun 07 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6792,10 +6792,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 192,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 06 2026"
+        "g": 201,
+        "c": 7,
+        "casts": 7,
+        "l": "Jun 07 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6907,6 +6907,14 @@
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 51,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 07 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 9,
         "c": 1,
         "casts": 1,
         "l": "Jun 07 2026"
@@ -11066,6 +11074,13 @@
         "i": "Zebra Cakes",
         "v": 51,
         "r": "Uncommon",
+        "d": "Jun 07 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Vape",
+        "v": 9,
+        "r": "Junk",
         "d": "Jun 07 2026"
       }
     ]
@@ -23982,7 +23997,7 @@
       "n": "Vape",
       "custom": false,
       "r": "Junk",
-      "c": 89,
+      "c": 90,
       "h": "pvtcrackpot",
       "v": 11,
       "w": 0.22
@@ -24377,7 +24392,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 89,
+      "c": 90,
       "rec": "0.22 lb",
       "v": 11
     },
@@ -27633,6 +27648,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Vape",
+      "w": 0.18,
+      "v": 9,
+      "r": "Junk",
+      "d": "Jun 07 2026"
+    },
+    {
       "u": "v1per_simr4cin6",
       "i": "Zebra Cakes",
       "w": 1.02,
@@ -28222,14 +28245,6 @@
       "w": 0.55,
       "v": 39,
       "r": "Uncommon",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Skateboard",
-      "w": 2.43,
-      "v": 40,
-      "r": "Junk",
       "d": "Jun 04 2026"
     }
   ]
