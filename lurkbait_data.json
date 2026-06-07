@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T05:20:20.571237+00:00",
+    "generated_at": "2026-06-07T19:03:07.233767+00:00",
     "total_catches": 23135,
     "unique_catches": 374,
     "total_players": 776,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jun 06 2026",
+      "label": "Jun 07 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6902,42 +6902,43 @@
         "l": "Jun 04 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 223,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 07 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 190,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 07 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 136,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 07 2026"
-      },
-      {
-        "u": "ineffabledecibel",
-        "n": "ineffabledecibel",
-        "g": 86,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 07 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jun 06",
+      "date": "2026-06-06",
+      "leaderboard": [
+        {
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 223,
+          "c": 1,
+          "l": "Jun 07 2026"
+        },
+        {
+          "n": "realiist1",
+          "u": "realiist1",
+          "g": 190,
+          "c": 5,
+          "l": "Jun 07 2026"
+        },
+        {
+          "n": "flippy00",
+          "u": "flippy00",
+          "g": 136,
+          "c": 2,
+          "l": "Jun 07 2026"
+        },
+        {
+          "n": "ineffabledecibel",
+          "u": "ineffabledecibel",
+          "g": 86,
+          "c": 1,
+          "l": "Jun 07 2026"
+        }
+      ]
+    },
     {
       "label": "Jun 05",
       "date": "2026-06-05",
@@ -7257,110 +7258,6 @@
       "label": "May 31",
       "date": "2026-05-31",
       "leaderboard": []
-    },
-    {
-      "label": "May 30",
-      "date": "2026-05-30",
-      "leaderboard": [
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 1001,
-          "c": 24,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 509,
-          "c": 9,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "letirefessedu74",
-          "u": "letirefessedu74",
-          "g": 448,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "v1per_simr4cin6",
-          "u": "v1per_simr4cin6",
-          "g": 329,
-          "c": 3,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "pvtcrackpot",
-          "u": "pvtcrackpot",
-          "g": 322,
-          "c": 7,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "realiist1",
-          "u": "realiist1",
-          "g": 224,
-          "c": 8,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "larcen22",
-          "u": "larcen22",
-          "g": 161,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 148,
-          "c": 2,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "raycharlesdrivingschool",
-          "u": "raycharlesdrivingschool",
-          "g": 105,
-          "c": 3,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 55,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 20,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "goatmilkcheez",
-          "u": "goatmilkcheez",
-          "g": 10,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "rhetti_",
-          "u": "rhetti_",
-          "g": 2,
-          "c": 1,
-          "l": "May 31 2026"
-        },
-        {
-          "n": "rms_racing",
-          "u": "rms_racing",
-          "g": 1,
-          "c": 1,
-          "l": "May 31 2026"
-        }
-      ]
     }
   ],
   "weekly_history": [
@@ -11154,36 +11051,7 @@
         "d": "Jun 04 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "v1per_simr4cin6",
-        "i": "HELLRAIZER DEMON JACK",
-        "v": 223,
-        "r": "Epic",
-        "d": "Jun 07 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Matt Tyrrekk",
-        "v": 134,
-        "r": "Rare",
-        "d": "Jun 07 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Shrimp Toy",
-        "v": 90,
-        "r": "Epic",
-        "d": "Jun 07 2026"
-      },
-      {
-        "n": "ineffabledecibel",
-        "i": "Bonytail Chub",
-        "v": 86,
-        "r": "Rare",
-        "d": "Jun 07 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
