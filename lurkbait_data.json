@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T03:46:55.646672+00:00",
-    "total_catches": 23133,
+    "generated_at": "2026-06-07T04:11:35.080889+00:00",
+    "total_catches": 23134,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23133 catches"
+      "sub": "Since launch - 23134 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -698,20 +698,20 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "realiist1",
+        "n": "realiist1",
+        "g": 7116,
+        "c": 107,
+        "casts": 107,
+        "l": "Jun 07 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 7113,
         "c": 91,
         "casts": 91,
         "l": "Jun 06 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 7101,
-        "c": 106,
-        "casts": 106,
-        "l": "Jun 07 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6510,9 +6510,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 851,
-        "c": 10,
-        "casts": 10,
+        "g": 866,
+        "c": 11,
+        "casts": 11,
         "l": "Jun 07 2026"
       },
       {
@@ -6712,9 +6712,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 851,
-        "c": 10,
-        "casts": 10,
+        "g": 866,
+        "c": 11,
+        "casts": 11,
         "l": "Jun 07 2026"
       },
       {
@@ -6914,9 +6914,9 @@
       {
         "u": "realiist1",
         "n": "realiist1",
-        "g": 175,
-        "c": 4,
-        "casts": 4,
+        "g": 190,
+        "c": 5,
+        "casts": 5,
         "l": "Jun 07 2026"
       },
       {
@@ -23728,7 +23728,7 @@
       "n": "Bristol Motor Speedway",
       "custom": true,
       "r": "Common",
-      "c": 137,
+      "c": 138,
       "h": "scriptedpr",
       "v": 17,
       "w": 225.65
@@ -26643,7 +26643,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You wrecked in turn 1, fuck this track!",
-      "c": 137,
+      "c": 138,
       "rec": "225.65 lb",
       "v": 17
     },
@@ -27749,6 +27749,14 @@
   "recent": [
     {
       "u": "realiist1",
+      "i": "Bristol Motor Speedway",
+      "w": 198.63,
+      "v": 15,
+      "r": "Common",
+      "d": "Jun 07 2026"
+    },
+    {
+      "u": "realiist1",
       "i": "Fish Cracker",
       "w": 0.55,
       "v": 6,
@@ -28337,14 +28345,6 @@
       "w": 53.46,
       "v": 53,
       "r": "Uncommon",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "larcen22",
-      "i": "iRacer Cazz Bedford",
-      "w": 203.41,
-      "v": 185,
-      "r": "Epic",
       "d": "Jun 04 2026"
     }
   ]
