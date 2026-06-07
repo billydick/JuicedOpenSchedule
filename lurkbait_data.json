@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T19:03:07.233767+00:00",
-    "total_catches": 23135,
+    "generated_at": "2026-06-07T19:52:08.445423+00:00",
+    "total_catches": 23136,
     "unique_catches": 374,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23135 catches"
+      "sub": "Since launch - 23136 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -748,9 +748,9 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 6331,
-        "c": 67,
-        "casts": 67,
+        "g": 6382,
+        "c": 68,
+        "casts": 68,
         "l": "Jun 07 2026"
       },
       {
@@ -6532,20 +6532,20 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 487,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 07 2026"
+      },
+      {
         "u": "danielcruzpt",
         "n": "danielcruzpt",
         "g": 472,
         "c": 1,
         "casts": 1,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 436,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 07 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6734,20 +6734,20 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 487,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 07 2026"
+      },
+      {
         "u": "danielcruzpt",
         "n": "danielcruzpt",
         "g": 472,
         "c": 1,
         "casts": 1,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 436,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 07 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6902,7 +6902,16 @@
         "l": "Jun 04 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 51,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 07 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -11051,7 +11060,15 @@
         "d": "Jun 04 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Zebra Cakes",
+        "v": 51,
+        "r": "Uncommon",
+        "d": "Jun 07 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23110,7 +23127,7 @@
       "n": "Zebra Cakes",
       "custom": true,
       "r": "Uncommon",
-      "c": 81,
+      "c": 82,
       "h": "pvtcrackpot",
       "v": 56,
       "w": 1.13
@@ -25404,7 +25421,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Snack of Sweats",
-      "c": 81,
+      "c": 82,
       "rec": "1.13 lb",
       "v": 56
     },
@@ -27616,6 +27633,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Zebra Cakes",
+      "w": 1.02,
+      "v": 51,
+      "r": "Uncommon",
+      "d": "Jun 07 2026"
+    },
+    {
       "u": "flippy00",
       "i": "CB Longneck",
       "w": 0.22,
@@ -28204,14 +28229,6 @@
       "i": "Skateboard",
       "w": 2.43,
       "v": 40,
-      "r": "Junk",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Soda Can",
-      "w": 0.09,
-      "v": 1,
       "r": "Junk",
       "d": "Jun 04 2026"
     }
