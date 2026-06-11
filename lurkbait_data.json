@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-10T19:39:06.934641+00:00",
-    "total_catches": 23156,
+    "generated_at": "2026-06-11T00:03:26.983210+00:00",
+    "total_catches": 23157,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23156 catches"
+      "sub": "Since launch - 23157 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -364,10 +364,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 35307,
-        "c": 466,
-        "casts": 466,
-        "l": "Jun 04 2026"
+        "g": 35332,
+        "c": 467,
+        "casts": 467,
+        "l": "Jun 11 2026"
       },
       {
         "u": "karnalsanders",
@@ -6510,10 +6510,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1526,
-        "c": 19,
-        "casts": 19,
-        "l": "Jun 04 2026"
+        "g": 1551,
+        "c": 20,
+        "casts": 20,
+        "l": "Jun 11 2026"
       },
       {
         "u": "realiist1",
@@ -6742,6 +6742,14 @@
         "l": "Jun 09 2026"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 25,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 11 2026"
+      },
+      {
         "u": "barnsdale",
         "n": "barnsdale",
         "g": 19,
@@ -6766,7 +6774,16 @@
         "l": "Jun 09 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 25,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 11 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10804,6 +10821,13 @@
         "d": "Jun 09 2026"
       },
       {
+        "n": "brookswhynot",
+        "i": "Barracuda",
+        "v": 25,
+        "r": "Common",
+        "d": "Jun 11 2026"
+      },
+      {
         "n": "barnsdale",
         "i": "Mackerel",
         "v": 19,
@@ -10825,7 +10849,15 @@
         "d": "Jun 09 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Barracuda",
+        "v": 25,
+        "r": "Common",
+        "d": "Jun 11 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23209,7 +23241,7 @@
       "n": "Barracuda",
       "custom": false,
       "r": "Common",
-      "c": 177,
+      "c": 178,
       "h": "flippy00",
       "v": 34,
       "w": 10.13
@@ -24080,7 +24112,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 177,
+      "c": 178,
       "rec": "10.13 lb",
       "v": 34
     },
@@ -27291,6 +27323,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Barracuda",
+      "w": 7.54,
+      "v": 25,
+      "r": "Common",
+      "d": "Jun 11 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Henrys Shoe",
       "w": 2.09,
@@ -27880,14 +27920,6 @@
       "w": 0.48,
       "v": 2,
       "r": "Junk",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "dabigtuna7124",
-      "i": "Billy Dick Cup Regulations",
-      "w": 0.94,
-      "v": 23,
-      "r": "Common",
       "d": "Jun 04 2026"
     }
   ]
