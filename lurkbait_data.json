@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-11T03:07:25.065643+00:00",
-    "total_catches": 23171,
+    "generated_at": "2026-06-11T03:08:30.178419+00:00",
+    "total_catches": 23173,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23171 catches"
+      "sub": "Since launch - 23173 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -356,9 +356,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 35512,
-        "c": 469,
-        "casts": 469,
+        "g": 35564,
+        "c": 470,
+        "casts": 470,
         "l": "Jun 11 2026"
       },
       {
@@ -634,20 +634,20 @@
         "l": "Feb 21 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 8190,
+        "c": 105,
+        "casts": 105,
+        "l": "Jun 11 2026"
+      },
+      {
         "u": "stoobiestu",
         "n": "stoobiestu",
         "g": 8180,
         "c": 98,
         "casts": 98,
         "l": "Feb 17 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 8088,
-        "c": 104,
-        "casts": 104,
-        "l": "Jun 11 2026"
       },
       {
         "u": "beliron",
@@ -6502,17 +6502,17 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1731,
-        "c": 22,
-        "casts": 22,
+        "g": 1783,
+        "c": 23,
+        "casts": 23,
         "l": "Jun 11 2026"
       },
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1681,
-        "c": 18,
-        "casts": 18,
+        "g": 1783,
+        "c": 19,
+        "casts": 19,
         "l": "Jun 11 2026"
       },
       {
@@ -6704,9 +6704,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 958,
-        "c": 8,
-        "casts": 8,
+        "g": 1060,
+        "c": 9,
+        "casts": 9,
         "l": "Jun 11 2026"
       },
       {
@@ -6720,9 +6720,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 205,
-        "c": 3,
-        "casts": 3,
+        "g": 257,
+        "c": 4,
+        "casts": 4,
         "l": "Jun 11 2026"
       },
       {
@@ -6802,7 +6802,15 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 205,
+        "g": 257,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 11 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 190,
         "c": 3,
         "casts": 3,
         "l": "Jun 11 2026"
@@ -6829,14 +6837,6 @@
         "g": 112,
         "c": 3,
         "casts": 3,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 88,
-        "c": 2,
-        "casts": 2,
         "l": "Jun 11 2026"
       },
       {
@@ -10973,6 +10973,13 @@
         "d": "Jun 11 2026"
       },
       {
+        "n": "nellafella",
+        "i": "Watkins Glen Int.",
+        "v": 102,
+        "r": "Rare",
+        "d": "Jun 11 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "Used Spek 5inch Tach",
         "v": 71,
@@ -10990,13 +10997,6 @@
         "n": "codycoyoteracing",
         "i": "Butterfly Fish",
         "v": 48,
-        "r": "Uncommon",
-        "d": "Jun 11 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "CSL Pedals",
-        "v": 46,
         "r": "Uncommon",
         "d": "Jun 11 2026"
       },
@@ -22282,7 +22282,7 @@
       "n": "Watkins Glen Int.",
       "custom": true,
       "r": "Rare",
-      "c": 47,
+      "c": 48,
       "h": "brookswhynot",
       "v": 112,
       "w": 56.23
@@ -23038,7 +23038,7 @@
       "n": "MPI Rim",
       "custom": true,
       "r": "Uncommon",
-      "c": 78,
+      "c": 79,
       "h": "dowinkle",
       "v": 56,
       "w": 2.26
@@ -25700,7 +25700,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Industry lightest stock car steering wheel steel frame\r\nOval Ergonomic",
-      "c": 78,
+      "c": 79,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -26402,7 +26402,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "The fuck is this road shit?  Fuck it, got 7th place!",
-      "c": 47,
+      "c": 48,
       "rec": "56.23 lb",
       "v": 112
     },
@@ -27471,6 +27471,22 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "MPI Rim",
+      "w": 2.07,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Jun 11 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Watkins Glen Int.",
+      "w": 50.91,
+      "v": 102,
+      "r": "Rare",
+      "d": "Jun 11 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Used Spek 5inch Tach",
       "w": 0.95,
@@ -28052,22 +28068,6 @@
       "w": 72.09,
       "v": 93,
       "r": "Rare",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "topjoedirty",
-      "i": "Lee Cunningham",
-      "w": 56.19,
-      "v": 140,
-      "r": "Rare",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "beecee_79",
-      "i": "Bubba Wallace",
-      "w": 21.13,
-      "v": 21,
-      "r": "Common",
       "d": "Jun 04 2026"
     }
   ]
