@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T22:42:37.721915+00:00",
-    "total_catches": 23180,
+    "generated_at": "2026-06-13T22:58:59.405948+00:00",
+    "total_catches": 23181,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23180 catches"
+      "sub": "Since launch - 23181 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,10 +348,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 36294,
-        "c": 554,
-        "casts": 554,
-        "l": "Jun 08 2026"
+        "g": 36330,
+        "c": 555,
+        "casts": 555,
+        "l": "Jun 13 2026"
       },
       {
         "u": "brookswhynot",
@@ -6558,10 +6558,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 424,
-        "c": 8,
-        "casts": 8,
-        "l": "Jun 08 2026"
+        "g": 460,
+        "c": 9,
+        "casts": 9,
+        "l": "Jun 13 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6774,6 +6774,14 @@
         "l": "Jun 11 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 36,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 13 2026"
+      },
+      {
         "u": "barnsdale",
         "n": "barnsdale",
         "g": 19,
@@ -6798,7 +6806,16 @@
         "l": "Jun 09 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 36,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 13 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10695,6 +10712,13 @@
         "d": "Jun 11 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Frontosa Cichlid",
+        "v": 36,
+        "r": "Uncommon",
+        "d": "Jun 13 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Katherine Legge",
         "v": 26,
@@ -10723,7 +10747,15 @@
         "d": "Jun 09 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Frontosa Cichlid",
+        "v": 36,
+        "r": "Uncommon",
+        "d": "Jun 13 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22979,7 +23011,7 @@
       "n": "Frontosa Cichlid",
       "custom": false,
       "r": "Uncommon",
-      "c": 82,
+      "c": 83,
       "h": "pvtcrackpot",
       "v": 39,
       "w": 0.56
@@ -24822,7 +24854,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 82,
+      "c": 83,
       "rec": "0.56 lb",
       "v": 39
     },
@@ -27187,6 +27219,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Frontosa Cichlid",
+      "w": 0.51,
+      "v": 36,
+      "r": "Uncommon",
+      "d": "Jun 13 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Martinsville Speedway",
       "w": 184.61,
@@ -27776,14 +27816,6 @@
       "w": 2.63,
       "v": 88,
       "r": "Rare",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "jpcilly",
-      "i": "Blue Discus",
-      "w": 0.17,
-      "v": 17,
-      "r": "Common",
       "d": "Jun 04 2026"
     }
   ]
