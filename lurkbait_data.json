@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T01:34:42.171640+00:00",
-    "total_catches": 23186,
+    "generated_at": "2026-06-14T01:56:16.215485+00:00",
+    "total_catches": 23187,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23186 catches"
+      "sub": "Since launch - 23187 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -610,20 +610,20 @@
         "l": "Jan 05 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 8445,
+        "c": 112,
+        "casts": 112,
+        "l": "Jun 14 2026"
+      },
+      {
         "u": "hitmanjack3",
         "n": "hitmanjack3",
         "g": 8438,
         "c": 158,
         "casts": 158,
         "l": "Feb 09 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 8420,
-        "c": 111,
-        "casts": 111,
-        "l": "Jun 14 2026"
       },
       {
         "u": "lishogunil",
@@ -6502,9 +6502,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2013,
-        "c": 25,
-        "casts": 25,
+        "g": 2038,
+        "c": 26,
+        "casts": 26,
         "l": "Jun 14 2026"
       },
       {
@@ -6704,9 +6704,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1290,
-        "c": 15,
-        "casts": 15,
+        "g": 1315,
+        "c": 16,
+        "casts": 16,
         "l": "Jun 14 2026"
       },
       {
@@ -6810,9 +6810,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 177,
-        "c": 5,
-        "casts": 5,
+        "g": 202,
+        "c": 6,
+        "casts": 6,
         "l": "Jun 14 2026"
       },
       {
@@ -23172,7 +23172,7 @@
       "n": "Perch",
       "custom": false,
       "r": "Common",
-      "c": 188,
+      "c": 189,
       "h": "rms_racing",
       "v": 34,
       "w": 3.39
@@ -24421,7 +24421,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 188,
+      "c": 189,
       "rec": "3.39 lb",
       "v": 34
     },
@@ -27237,6 +27237,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Perch",
+      "w": 2.54,
+      "v": 25,
+      "r": "Common",
+      "d": "Jun 14 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Riley Herbst",
       "w": 60.72,
       "v": 40,
@@ -27825,14 +27833,6 @@
       "w": 45.88,
       "v": 46,
       "r": "Uncommon",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Road Race Wiper Motor",
-      "w": 2.66,
-      "v": 22,
-      "r": "Common",
       "d": "Jun 04 2026"
     }
   ]
