@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T00:38:41Z",
+  "generated_at": "2026-06-14T00:41:55Z",
   "meta": {
-    "total_hands": 275,
+    "total_hands": 276,
     "total_players": 26,
     "biggest_bet": {
       "user": "juicedracing",
@@ -49,18 +49,18 @@
         "ach": 1
       },
       {
-        "u": "ikatipoi",
-        "chips": 123952,
-        "net": -207785,
-        "hands": 0,
-        "ach": 2
-      },
-      {
         "u": "motionless",
         "chips": 120350,
         "net": 5500,
         "hands": 0,
         "ach": 1
+      },
+      {
+        "u": "ikatipoi",
+        "chips": 118952,
+        "net": -217785,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "codycoyoteracing",
@@ -218,6 +218,13 @@
       }
     ],
     "daily": [
+      {
+        "u": "ikatipoi",
+        "chips": 118952,
+        "net": -10000,
+        "hands": 1,
+        "ach": 2
+      },
       {
         "u": "juicedracing",
         "chips": 100,
@@ -1363,7 +1370,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 123952,
+          "chips": 118952,
           "net": -100000,
           "hands": 1,
           "ach": 2
@@ -1459,7 +1466,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 123952,
+          "chips": 118952,
           "net": -82785,
           "hands": 5,
           "ach": 2
@@ -2387,7 +2394,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 123952,
+          "chips": 118952,
           "net": -25000,
           "hands": 1,
           "ach": 2
@@ -4637,6 +4644,35 @@
   ],
   "recent_hands": [
     {
+      "ts": 1781397715.2704775,
+      "date": "2026-06-13",
+      "player": "ikatipoi",
+      "bet": 10000,
+      "balance_before": 128952,
+      "result": "lose",
+      "net_delta": -10000,
+      "player_cards": [
+        "8♣",
+        "10♦"
+      ],
+      "player_total": 18,
+      "hit_count": 0,
+      "dealer_cards": [
+        "6♦",
+        "4♣",
+        "4♦",
+        "6♥"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1781397520.98788,
       "date": "2026-06-13",
       "player": "juicedracing",
@@ -6130,36 +6166,6 @@
         "roller_coaster_session",
         "double_or_nothing"
       ]
-    },
-    {
-      "ts": 1780198776.7099354,
-      "date": "2026-05-30",
-      "player": "realiist1",
-      "bet": 10000,
-      "balance_before": 57250,
-      "result": "bust",
-      "net_delta": -10000,
-      "player_cards": [
-        "8♦",
-        "3♥",
-        "A♣",
-        "J♠"
-      ],
-      "player_total": 22,
-      "hit_count": 2,
-      "dealer_cards": [
-        "3♣",
-        "9♣",
-        "Q♣"
-      ],
-      "dealer_total": 22,
-      "dealer_bust": true,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
