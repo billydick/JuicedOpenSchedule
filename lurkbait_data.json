@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-13T22:58:59.405948+00:00",
-    "total_catches": 23181,
+    "generated_at": "2026-06-14T00:26:01.109770+00:00",
+    "total_catches": 23182,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23181 catches"
+      "sub": "Since launch - 23182 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -628,10 +628,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 8243,
-        "c": 106,
-        "casts": 106,
-        "l": "Jun 11 2026"
+        "g": 8266,
+        "c": 107,
+        "casts": 107,
+        "l": "Jun 14 2026"
       },
       {
         "u": "duel_king320",
@@ -6500,19 +6500,19 @@
     ],
     "monthly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 1859,
+        "c": 21,
+        "casts": 21,
+        "l": "Jun 14 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 1853,
         "c": 26,
         "casts": 26,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 1836,
-        "c": 20,
-        "casts": 20,
         "l": "Jun 11 2026"
       },
       {
@@ -6704,10 +6704,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1113,
-        "c": 10,
-        "casts": 10,
-        "l": "Jun 11 2026"
+        "g": 1136,
+        "c": 11,
+        "casts": 11,
+        "l": "Jun 14 2026"
       },
       {
         "u": "beliron",
@@ -6814,6 +6814,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 13 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 23,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 14 2026"
       }
     ]
   },
@@ -10754,6 +10762,13 @@
         "v": 36,
         "r": "Uncommon",
         "d": "Jun 13 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Road Race Wiper Motor",
+        "v": 23,
+        "r": "Common",
+        "d": "Jun 14 2026"
       }
     ]
   },
@@ -14460,7 +14475,7 @@
         }
       },
       "win_month": {
-        "total": 10,
+        "total": 11,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -14471,11 +14486,12 @@
           "dogger_101",
           "drewieblaster",
           "brookswhynot",
-          "showtime_84"
+          "showtime_84",
+          "nellafella"
         ],
         "latest": {
-          "u": "showtime_84",
-          "d": "Jan 04 2026"
+          "u": "nellafella",
+          "d": "Jun 02 2026"
         }
       },
       "the_market": {
@@ -20128,6 +20144,7 @@
         "triple_crown": "May 15 2026",
         "leg_epic_day": "May 15 2026",
         "win_week": "May 18 2026",
+        "win_month": "Jun 02 2026",
         "golden_cast": "May 15 2026",
         "legend_hunter": "May 15 2026"
       },
@@ -23200,7 +23217,7 @@
       "n": "Road Race Wiper Motor",
       "custom": true,
       "r": "Common",
-      "c": 141,
+      "c": 142,
       "h": "flippy00",
       "v": 28,
       "w": 3.38
@@ -25367,7 +25384,7 @@
       "r": "Common",
       "custom": true,
       "desc": "NO ARM, MOTOR ONLY",
-      "c": 141,
+      "c": 142,
       "rec": "3.38 lb",
       "v": 28
     },
@@ -27219,6 +27236,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Road Race Wiper Motor",
+      "w": 2.82,
+      "v": 23,
+      "r": "Common",
+      "d": "Jun 14 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Frontosa Cichlid",
       "w": 0.51,
@@ -27808,14 +27833,6 @@
       "w": 26.2,
       "v": 419,
       "r": "Epic",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Oreochromis",
-      "w": 2.63,
-      "v": 88,
-      "r": "Rare",
       "d": "Jun 04 2026"
     }
   ]
