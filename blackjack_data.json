@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T00:43:58Z",
+  "generated_at": "2026-06-14T00:45:53Z",
   "meta": {
-    "total_hands": 277,
+    "total_hands": 278,
     "total_players": 26,
     "biggest_bet": {
       "user": "juicedracing",
@@ -75,13 +75,6 @@
         "net": 54901,
         "hands": 0,
         "ach": 1
-      },
-      {
-        "u": "ikatipoi",
-        "chips": 98952,
-        "net": -237785,
-        "hands": 2,
-        "ach": 2
       },
       {
         "u": "v1per_simr4cin6",
@@ -210,6 +203,13 @@
         "ach": 2
       },
       {
+        "u": "ikatipoi",
+        "chips": 50,
+        "net": -336737,
+        "hands": 3,
+        "ach": 6
+      },
+      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -227,10 +227,10 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 98952,
-        "net": -30000,
-        "hands": 2,
-        "ach": 2
+        "chips": 50,
+        "net": -128952,
+        "hands": 3,
+        "ach": 6
       }
     ]
   },
@@ -238,38 +238,38 @@
     "biggest_loss": {
       "u": "ikatipoi",
       "cards": [
-        "10♣",
-        "6♠",
-        "K♣"
+        "6♦",
+        "K♣",
+        "J♦"
       ],
       "total": 26,
-      "bet": 20000,
-      "net": -20000,
+      "bet": 98952,
+      "net": -98952,
       "result": "bust"
     },
     "biggest_bet": {
       "u": "ikatipoi",
       "cards": [
-        "10♣",
-        "6♠",
-        "K♣"
+        "6♦",
+        "K♣",
+        "J♦"
       ],
       "total": 26,
-      "bet": 20000,
-      "net": -20000,
+      "bet": 98952,
+      "net": -98952,
       "result": "bust"
     },
     "most_hands": {
       "u": "ikatipoi",
-      "n": 2
+      "n": 3
     },
     "worst_streak": {
       "u": "ikatipoi",
-      "n": 2
+      "n": 3
     },
     "most_busts": {
       "u": "ikatipoi",
-      "n": 1
+      "n": 2
     }
   },
   "daily_history": [
@@ -1372,10 +1372,10 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 98952,
+          "chips": 50,
           "net": -100000,
           "hands": 1,
-          "ach": 2
+          "ach": 6
         }
       ],
       "highlights": {
@@ -1468,10 +1468,10 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 98952,
+          "chips": 50,
           "net": -82785,
           "hands": 5,
-          "ach": 2
+          "ach": 6
         }
       ],
       "highlights": {
@@ -2396,10 +2396,10 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 98952,
+          "chips": 50,
           "net": -25000,
           "hands": 1,
-          "ach": 2
+          "ach": 6
         },
         {
           "u": "larcen22",
@@ -3143,11 +3143,13 @@
         }
       },
       "high_roller_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-10"
+          "u": "ikatipoi",
+          "d": "2026-06-13"
         }
       },
       "high_roller_100k": {
@@ -3223,11 +3225,13 @@
         }
       },
       "escalator": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-10"
+          "u": "ikatipoi",
+          "d": "2026-06-13"
         }
       },
       "chip_tipper": {
@@ -3300,11 +3304,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-10"
+          "u": "ikatipoi",
+          "d": "2026-06-13"
         }
       },
       "riches_to_rags_session": {
@@ -3324,11 +3330,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "ikatipoi"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-10"
+          "u": "ikatipoi",
+          "d": "2026-06-13"
         }
       },
       "big_swing_session_200k": {
@@ -3811,7 +3819,11 @@
       },
       "ikatipoi": {
         "bank_builder_100k": "earned",
-        "bank_builder_250k": "earned"
+        "bank_builder_250k": "earned",
+        "high_roller_50k": "2026-05-14",
+        "rags_to_riches_session": "2026-06-13",
+        "big_swing_session_50k": "2026-05-14",
+        "escalator": "2026-05-14"
       },
       "pvtcrackpot": {
         "bank_builder_100k": "earned",
@@ -3826,6 +3838,26 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "ikatipoi",
+        "d": "2026-06-13"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "ikatipoi",
+        "d": "2026-06-13"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "ikatipoi",
+        "d": "2026-06-13"
+      },
+      {
+        "id": "escalator",
+        "u": "ikatipoi",
+        "d": "2026-06-13"
+      },
       {
         "id": "high_roller_50k",
         "u": "juicedracing",
@@ -3903,26 +3935,6 @@
       },
       {
         "id": "high_roller_50k",
-        "u": "juicedracing",
-        "d": "2026-06-05"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "juicedracing",
-        "d": "2026-06-05"
-      },
-      {
-        "id": "high_roller_250k",
-        "u": "juicedracing",
-        "d": "2026-06-05"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "juicedracing",
-        "d": "2026-06-05"
-      },
-      {
-        "id": "big_swing_session_50k",
         "u": "juicedracing",
         "d": "2026-06-05"
       }
@@ -4645,6 +4657,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1781397953.3336437,
+      "date": "2026-06-13",
+      "player": "ikatipoi",
+      "bet": 98952,
+      "balance_before": 98952,
+      "result": "bust",
+      "net_delta": -98952,
+      "player_cards": [
+        "6♦",
+        "K♣",
+        "J♦"
+      ],
+      "player_total": 26,
+      "hit_count": 1,
+      "dealer_cards": [
+        "9♠",
+        "8♥"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "rags_to_riches_session",
+        "big_swing_session_50k",
+        "escalator"
+      ]
+    },
     {
       "ts": 1781397838.1672385,
       "date": "2026-06-13",
@@ -6130,34 +6175,6 @@
       "dealer_total": 20,
       "dealer_bust": false,
       "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1780198845.6994624,
-      "date": "2026-05-30",
-      "player": "realiist1",
-      "bet": 5000,
-      "balance_before": 47250,
-      "result": "bust",
-      "net_delta": -5000,
-      "player_cards": [
-        "Q♦",
-        "8♠",
-        "9♣"
-      ],
-      "player_total": 27,
-      "hit_count": 1,
-      "dealer_cards": [
-        "Q♥",
-        "8♣"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 2,
       "poker_rank": null,
       "poker_pct": null,
       "poker_relief": 0,
