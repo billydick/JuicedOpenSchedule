@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T00:57:48.706337+00:00",
-    "total_catches": 23184,
+    "generated_at": "2026-06-14T01:15:14.320020+00:00",
+    "total_catches": 23185,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23184 catches"
+      "sub": "Since launch - 23185 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -618,20 +618,20 @@
         "l": "Feb 09 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 8380,
+        "c": 110,
+        "casts": 110,
+        "l": "Jun 14 2026"
+      },
+      {
         "u": "lishogunil",
         "n": "lishogunil",
         "g": 8315,
         "c": 133,
         "casts": 133,
         "l": "Jan 13 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 8305,
-        "c": 109,
-        "casts": 109,
-        "l": "Jun 14 2026"
       },
       {
         "u": "duel_king320",
@@ -6502,9 +6502,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1898,
-        "c": 23,
-        "casts": 23,
+        "g": 1973,
+        "c": 24,
+        "casts": 24,
         "l": "Jun 14 2026"
       },
       {
@@ -6704,9 +6704,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1175,
-        "c": 13,
-        "casts": 13,
+        "g": 1250,
+        "c": 14,
+        "casts": 14,
         "l": "Jun 14 2026"
       },
       {
@@ -6810,9 +6810,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 62,
-        "c": 3,
-        "casts": 3,
+        "g": 137,
+        "c": 4,
+        "casts": 4,
         "l": "Jun 14 2026"
       },
       {
@@ -10757,18 +10757,18 @@
     ],
     "daily": [
       {
+        "n": "nellafella",
+        "i": "Sailfish",
+        "v": 75,
+        "r": "Rare",
+        "d": "Jun 14 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Frontosa Cichlid",
         "v": 36,
         "r": "Uncommon",
         "d": "Jun 13 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "NOMEX SFI SHIFTER BOOT",
-        "v": 28,
-        "r": "Common",
-        "d": "Jun 14 2026"
       }
     ]
   },
@@ -22218,7 +22218,7 @@
       "n": "Sailfish",
       "custom": false,
       "r": "Rare",
-      "c": 61,
+      "c": 62,
       "h": "benwysard",
       "v": 101,
       "w": 78.81
@@ -23998,7 +23998,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 61,
+      "c": 62,
       "rec": "78.81 lb",
       "v": 101
     },
@@ -27237,6 +27237,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Sailfish",
+      "w": 57.95,
+      "v": 75,
+      "r": "Rare",
+      "d": "Jun 14 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Castrol SRF Racing Brake Fluid",
       "w": 1.07,
       "v": 11,
@@ -27825,14 +27833,6 @@
       "w": 45.32,
       "v": 45,
       "r": "Uncommon",
-      "d": "Jun 04 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Black Redeye",
-      "w": 44.94,
-      "v": 34,
-      "r": "Common",
       "d": "Jun 04 2026"
     }
   ]
