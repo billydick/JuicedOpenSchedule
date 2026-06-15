@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-14T04:26:19.393692+00:00",
+    "generated_at": "2026-06-15T22:43:15.626384+00:00",
     "total_catches": 23195,
     "unique_catches": 375,
     "total_players": 776,
@@ -279,11 +279,11 @@
       "sub": "Monthly Competition"
     },
     "weekly": {
-      "label": "Week of Jun 08",
+      "label": "Week of Jun 15",
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jun 13 2026",
+      "label": "Jun 15 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6700,164 +6700,56 @@
         "l": "Jun 04 2026"
       }
     ],
-    "weekly": [
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 1315,
-        "c": 16,
-        "casts": 16,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 884,
-        "c": 7,
-        "casts": 7,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 687,
-        "c": 12,
-        "casts": 12,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 636,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "realiist1",
-        "n": "realiist1",
-        "g": 196,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 175,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 09 2026"
-      },
-      {
-        "u": "rms_racing",
-        "n": "rms_racing",
-        "g": 134,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "codycoyoteracing",
-        "n": "codycoyoteracing",
-        "g": 75,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "muskrat21",
-        "n": "muskrat21",
-        "g": 72,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 50,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 11 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 36,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 13 2026"
-      },
-      {
-        "u": "barnsdale",
-        "n": "barnsdale",
-        "g": 19,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 09 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 2,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 09 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 09 2026"
-      }
-    ],
-    "daily": [
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 455,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 360,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 202,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "muskrat21",
-        "n": "muskrat21",
-        "g": 72,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 14 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 36,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 13 2026"
-      }
-    ]
+    "weekly": [],
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jun 14",
+      "date": "2026-06-14",
+      "leaderboard": []
+    },
+    {
+      "label": "Jun 13",
+      "date": "2026-06-13",
+      "leaderboard": [
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 455,
+          "c": 2,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 360,
+          "c": 5,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 202,
+          "c": 6,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "muskrat21",
+          "u": "muskrat21",
+          "g": 72,
+          "c": 1,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 36,
+          "c": 1,
+          "l": "Jun 13 2026"
+        }
+      ]
+    },
     {
       "label": "Jun 12",
       "date": "2026-06-12",
@@ -6996,70 +6888,113 @@
           "l": "Jun 09 2026"
         }
       ]
-    },
+    }
+  ],
+  "weekly_history": [
     {
-      "label": "Jun 07",
-      "date": "2026-06-07",
+      "label": "Week of Jun 08",
+      "date": "2026-06-08",
       "leaderboard": [
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 232,
-          "c": 2,
-          "l": "Jun 08 2026"
-        },
-        {
-          "n": "v1per_simr4cin6",
-          "u": "v1per_simr4cin6",
-          "g": 51,
-          "c": 1,
-          "l": "Jun 07 2026"
-        },
         {
           "n": "nellafella",
           "u": "nellafella",
-          "g": 9,
-          "c": 1,
-          "l": "Jun 07 2026"
-        }
-      ]
-    },
-    {
-      "label": "Jun 06",
-      "date": "2026-06-06",
-      "leaderboard": [
+          "g": 1315,
+          "c": 16,
+          "l": "Jun 14 2026"
+        },
         {
-          "n": "v1per_simr4cin6",
-          "u": "v1per_simr4cin6",
-          "g": 223,
-          "c": 1,
-          "l": "Jun 07 2026"
+          "n": "beliron",
+          "u": "beliron",
+          "g": 884,
+          "c": 7,
+          "l": "Jun 11 2026"
+        },
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 687,
+          "c": 12,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 636,
+          "c": 6,
+          "l": "Jun 14 2026"
         },
         {
           "n": "realiist1",
           "u": "realiist1",
-          "g": 190,
-          "c": 5,
-          "l": "Jun 07 2026"
+          "g": 196,
+          "c": 3,
+          "l": "Jun 11 2026"
         },
         {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 136,
-          "c": 2,
-          "l": "Jun 07 2026"
-        },
-        {
-          "n": "ineffabledecibel",
-          "u": "ineffabledecibel",
-          "g": 86,
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 175,
           "c": 1,
-          "l": "Jun 07 2026"
+          "l": "Jun 09 2026"
+        },
+        {
+          "n": "rms_racing",
+          "u": "rms_racing",
+          "g": 134,
+          "c": 1,
+          "l": "Jun 11 2026"
+        },
+        {
+          "n": "codycoyoteracing",
+          "u": "codycoyoteracing",
+          "g": 75,
+          "c": 2,
+          "l": "Jun 11 2026"
+        },
+        {
+          "n": "muskrat21",
+          "u": "muskrat21",
+          "g": 72,
+          "c": 1,
+          "l": "Jun 14 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 50,
+          "c": 3,
+          "l": "Jun 11 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 36,
+          "c": 1,
+          "l": "Jun 13 2026"
+        },
+        {
+          "n": "barnsdale",
+          "u": "barnsdale",
+          "g": 19,
+          "c": 1,
+          "l": "Jun 09 2026"
+        },
+        {
+          "n": "grumpymitch1",
+          "u": "grumpymitch1",
+          "g": 2,
+          "c": 1,
+          "l": "Jun 09 2026"
+        },
+        {
+          "n": "itzdubsta",
+          "u": "itzdubsta",
+          "g": 1,
+          "c": 1,
+          "l": "Jun 09 2026"
         }
       ]
-    }
-  ],
-  "weekly_history": [
+    },
     {
       "label": "Week of Jun 01",
       "date": "2026-06-01",
@@ -8282,187 +8217,6 @@
           "g": 201,
           "c": 3,
           "l": "Apr 26 2026"
-        }
-      ]
-    },
-    {
-      "label": "Week of Apr 13",
-      "date": "2026-04-13",
-      "leaderboard": [
-        {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 3423,
-          "c": 42,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 3418,
-          "c": 44,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "ineffabledecibel",
-          "u": "ineffabledecibel",
-          "g": 3289,
-          "c": 46,
-          "l": "Apr 16 2026"
-        },
-        {
-          "n": "ironlegacy_",
-          "u": "ironlegacy_",
-          "g": 2455,
-          "c": 43,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "larcen22",
-          "u": "larcen22",
-          "g": 1860,
-          "c": 27,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "grumpymitch1",
-          "u": "grumpymitch1",
-          "g": 1793,
-          "c": 11,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "drewieblaster",
-          "u": "drewieblaster",
-          "g": 1472,
-          "c": 21,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "thesaucypanda2",
-          "u": "thesaucypanda2",
-          "g": 898,
-          "c": 12,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "pvtcrock",
-          "u": "pvtcrock",
-          "g": 705,
-          "c": 14,
-          "l": "Apr 18 2026"
-        },
-        {
-          "n": "ikatipoi",
-          "u": "ikatipoi",
-          "g": 564,
-          "c": 14,
-          "l": "Apr 18 2026"
-        },
-        {
-          "n": "rhetti_",
-          "u": "rhetti_",
-          "g": 556,
-          "c": 5,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 555,
-          "c": 11,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "rms_racing",
-          "u": "rms_racing",
-          "g": 494,
-          "c": 5,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 440,
-          "c": 8,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "realiist1",
-          "u": "realiist1",
-          "g": 354,
-          "c": 6,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "bartfalls",
-          "u": "bartfalls",
-          "g": 273,
-          "c": 2,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "itzdubsta",
-          "u": "itzdubsta",
-          "g": 260,
-          "c": 4,
-          "l": "Apr 16 2026"
-        },
-        {
-          "n": "codycoyoteracing",
-          "u": "codycoyoteracing",
-          "g": 256,
-          "c": 5,
-          "l": "Apr 17 2026"
-        },
-        {
-          "n": "v1per_simr4cin6",
-          "u": "v1per_simr4cin6",
-          "g": 244,
-          "c": 5,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "percy_o31",
-          "u": "percy_o31",
-          "g": 224,
-          "c": 1,
-          "l": "Apr 14 2026"
-        },
-        {
-          "n": "leviticus141",
-          "u": "leviticus141",
-          "g": 206,
-          "c": 3,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "the_moonboy",
-          "u": "the_moonboy",
-          "g": 176,
-          "c": 1,
-          "l": "Apr 16 2026"
-        },
-        {
-          "n": "maden3w",
-          "u": "maden3w",
-          "g": 175,
-          "c": 1,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "aquadays",
-          "u": "aquadays",
-          "g": 172,
-          "c": 3,
-          "l": "Apr 19 2026"
-        },
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 150,
-          "c": 6,
-          "l": "Apr 18 2026"
         }
       ]
     }
@@ -10694,143 +10448,8 @@
         "d": "Jun 01 2026"
       }
     ],
-    "weekly": [
-      {
-        "n": "nellafella",
-        "i": "Manta Ray",
-        "v": 503,
-        "r": "Legendary",
-        "d": "Jun 08 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "Pitt Box",
-        "v": 444,
-        "r": "Epic",
-        "d": "Jun 08 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Max Verstappen",
-        "v": 434,
-        "r": "Legendary",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "v1per_simr4cin6",
-        "i": "iRacer - Jesse Winslow",
-        "v": 175,
-        "r": "Rare",
-        "d": "Jun 09 2026"
-      },
-      {
-        "n": "brookswhynot",
-        "i": "Talladega",
-        "v": 161,
-        "r": "Epic",
-        "d": "Jun 11 2026"
-      },
-      {
-        "n": "realiist1",
-        "i": "Next Gen Mustang",
-        "v": 138,
-        "r": "Rare",
-        "d": "Jun 11 2026"
-      },
-      {
-        "n": "rms_racing",
-        "i": "VNM Sim Racing 3-Pedal Set",
-        "v": 134,
-        "r": "Rare",
-        "d": "Jun 11 2026"
-      },
-      {
-        "n": "muskrat21",
-        "i": "Mini Stock",
-        "v": 72,
-        "r": "Rare",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "codycoyoteracing",
-        "i": "Butterfly Fish",
-        "v": 48,
-        "r": "Uncommon",
-        "d": "Jun 11 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Frontosa Cichlid",
-        "v": 36,
-        "r": "Uncommon",
-        "d": "Jun 13 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Katherine Legge",
-        "v": 26,
-        "r": "Common",
-        "d": "Jun 09 2026"
-      },
-      {
-        "n": "barnsdale",
-        "i": "Mackerel",
-        "v": 19,
-        "r": "Common",
-        "d": "Jun 09 2026"
-      },
-      {
-        "n": "grumpymitch1",
-        "i": "Branch",
-        "v": 2,
-        "r": "Junk",
-        "d": "Jun 09 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Kamui Kobayashi",
-        "v": 1,
-        "r": "Junk",
-        "d": "Jun 09 2026"
-      }
-    ],
-    "daily": [
-      {
-        "n": "thesaucypanda2",
-        "i": "Max Verstappen",
-        "v": 434,
-        "r": "Legendary",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "brookswhynot",
-        "i": "Mike Hicks",
-        "v": 97,
-        "r": "Rare",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Sailfish",
-        "v": 75,
-        "r": "Rare",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "muskrat21",
-        "i": "Mini Stock",
-        "v": 72,
-        "r": "Rare",
-        "d": "Jun 14 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Frontosa Cichlid",
-        "v": 36,
-        "r": "Uncommon",
-        "d": "Jun 13 2026"
-      }
-    ]
+    "weekly": [],
+    "daily": []
   },
   "achievements": {
     "stream": {
