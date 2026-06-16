@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T07:12:56.964319+00:00",
-    "total_catches": 23234,
+    "generated_at": "2026-06-16T07:14:02.904900+00:00",
+    "total_catches": 23235,
     "unique_catches": 375,
-    "total_players": 780,
+    "total_players": 781,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23234 catches"
+      "sub": "Since launch - 23235 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -6114,6 +6114,14 @@
         "l": "Dec 31 2024"
       },
       {
+        "u": "daveynorris1",
+        "n": "daveynorris1",
+        "g": 7,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "daedarcher",
         "n": "daedarcher",
         "g": 7,
@@ -6852,6 +6860,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
+      },
+      {
+        "u": "daveynorris1",
+        "n": "daveynorris1",
+        "g": 7,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -6971,6 +6987,14 @@
         "u": "mosesfps_live",
         "n": "mosesfps_live",
         "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
+      {
+        "u": "daveynorris1",
+        "n": "daveynorris1",
+        "g": 7,
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
@@ -10827,6 +10851,13 @@
         "v": 10,
         "r": "Junk",
         "d": "Jun 16 2026"
+      },
+      {
+        "n": "daveynorris1",
+        "i": "Cody Ware",
+        "v": 7,
+        "r": "Junk",
+        "d": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -10934,13 +10965,20 @@
         "v": 10,
         "r": "Junk",
         "d": "Jun 16 2026"
+      },
+      {
+        "n": "daveynorris1",
+        "i": "Cody Ware",
+        "v": 7,
+        "r": "Junk",
+        "d": "Jun 16 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 780,
+        "total": 781,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11721,10 +11759,11 @@
           "jvj__",
           "mosesfps_live",
           "cryptology",
-          "evanstewart37"
+          "evanstewart37",
+          "daveynorris1"
         ],
         "latest": {
-          "u": "evanstewart37",
+          "u": "daveynorris1",
           "d": "Jun 16 2026"
         }
       },
@@ -12239,7 +12278,7 @@
         }
       },
       "custom_catch": {
-        "total": 645,
+        "total": 646,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12885,10 +12924,11 @@
           "topjoedirty",
           "jvj__",
           "mosesfps_live",
-          "cryptology"
+          "cryptology",
+          "daveynorris1"
         ],
         "latest": {
-          "u": "cryptology",
+          "u": "daveynorris1",
           "d": "Jun 16 2026"
         }
       },
@@ -20521,6 +20561,10 @@
       },
       "evanstewart37": {
         "broke_in": "Jun 16 2026"
+      },
+      "daveynorris1": {
+        "broke_in": "Jun 16 2026",
+        "custom_catch": "Jun 16 2026"
       }
     },
     "recent_unlocks": [
@@ -23664,7 +23708,7 @@
       "n": "Cody Ware",
       "custom": true,
       "r": "Common",
-      "c": 159,
+      "c": 160,
       "h": "loosewheel0",
       "v": 8,
       "w": 4.52
@@ -24086,6 +24130,15 @@
       "best_n": "Perch",
       "best_r": "Common",
       "best_v": 28,
+      "d": "Jun 16 2026"
+    },
+    {
+      "u": "daveynorris1",
+      "g": 7,
+      "c": 1,
+      "best_n": "Cody Ware",
+      "best_r": "Junk",
+      "best_v": 7,
       "d": "Jun 16 2026"
     }
   ],
@@ -25319,7 +25372,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Still trying to figure out Ware he is in the points",
-      "c": 159,
+      "c": 160,
       "rec": "4.52 lb",
       "v": 8
     },
@@ -27468,6 +27521,14 @@
   ],
   "recent": [
     {
+      "u": "daveynorris1",
+      "i": "Cody Ware",
+      "w": 4.18,
+      "v": 7,
+      "r": "Junk",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "evanstewart37",
       "i": "Perch",
       "w": 2.79,
@@ -28057,14 +28118,6 @@
       "w": 176.63,
       "v": 161,
       "r": "Epic",
-      "d": "Jun 11 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Carb Spacer Plates",
-      "w": 2.95,
-      "v": 49,
-      "r": "Uncommon",
       "d": "Jun 11 2026"
     }
   ]
