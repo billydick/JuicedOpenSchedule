@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T04:04:19.174253+00:00",
-    "total_catches": 23214,
+    "generated_at": "2026-06-16T04:05:24.285808+00:00",
+    "total_catches": 23215,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23214 catches"
+      "sub": "Since launch - 23215 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -3362,6 +3362,14 @@
         "l": "Jan 31 2025"
       },
       {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 177,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "fellowleaf",
         "n": "fellowleaf",
         "g": 176,
@@ -3624,14 +3632,6 @@
         "c": 3,
         "casts": 3,
         "l": "Aug 24 2025"
-      },
-      {
-        "u": "mo_dank",
-        "n": "mo_dank",
-        "g": 146,
-        "c": 2,
-        "casts": 2,
-        "l": "May 10 2026"
       },
       {
         "u": "hendrik88fly8",
@@ -6756,6 +6756,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
+      },
+      {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 31,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -6811,6 +6819,14 @@
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 69,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
+      {
+        "u": "mo_dank",
+        "n": "mo_dank",
+        "g": 31,
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
@@ -10611,6 +10627,13 @@
         "v": 69,
         "r": "Rare",
         "d": "Jun 16 2026"
+      },
+      {
+        "n": "mo_dank",
+        "i": "Perch",
+        "v": 31,
+        "r": "Common",
+        "d": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -10661,6 +10684,13 @@
         "i": "Nimbochromis",
         "v": 69,
         "r": "Rare",
+        "d": "Jun 16 2026"
+      },
+      {
+        "n": "mo_dank",
+        "i": "Perch",
+        "v": 31,
+        "r": "Common",
         "d": "Jun 16 2026"
       }
     ]
@@ -23069,7 +23099,7 @@
       "n": "Perch",
       "custom": false,
       "r": "Common",
-      "c": 189,
+      "c": 190,
       "h": "rms_racing",
       "v": 34,
       "w": 3.39
@@ -24318,7 +24348,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 189,
+      "c": 190,
       "rec": "3.39 lb",
       "v": 34
     },
@@ -27133,6 +27163,14 @@
   ],
   "recent": [
     {
+      "u": "mo_dank",
+      "i": "Perch",
+      "w": 3.13,
+      "v": 31,
+      "r": "Common",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Nimbochromis",
       "w": 3.18,
@@ -27721,14 +27759,6 @@
       "i": "iRacer - Cody Schlaudecker",
       "w": 119.22,
       "v": 199,
-      "r": "Epic",
-      "d": "Jun 08 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Pitt Box",
-      "w": 1.11,
-      "v": 444,
       "r": "Epic",
       "d": "Jun 08 2026"
     }
