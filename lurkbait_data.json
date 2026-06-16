@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-15T22:43:15.626384+00:00",
-    "total_catches": 23195,
+    "generated_at": "2026-06-16T00:36:43.560305+00:00",
+    "total_catches": 23196,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23195 catches"
+      "sub": "Since launch - 23196 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -612,10 +612,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 8445,
-        "c": 112,
-        "casts": 112,
-        "l": "Jun 14 2026"
+        "g": 8533,
+        "c": 113,
+        "casts": 113,
+        "l": "Jun 16 2026"
       },
       {
         "u": "hitmanjack3",
@@ -6510,10 +6510,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2038,
-        "c": 26,
-        "casts": 26,
-        "l": "Jun 14 2026"
+        "g": 2126,
+        "c": 27,
+        "casts": 27,
+        "l": "Jun 16 2026"
       },
       {
         "u": "realiist1",
@@ -6700,8 +6700,26 @@
         "l": "Jun 04 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 88,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 88,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10448,8 +10466,24 @@
         "d": "Jun 01 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "nellafella",
+        "i": "Sailfish",
+        "v": 88,
+        "r": "Rare",
+        "d": "Jun 16 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Sailfish",
+        "v": 88,
+        "r": "Rare",
+        "d": "Jun 16 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -11239,7 +11273,7 @@
         }
       },
       "first_cast": {
-        "total": 89,
+        "total": 90,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11329,11 +11363,12 @@
           "dougiracing",
           "v1per_simr4cin6",
           "realiist1",
-          "ikatipoi"
+          "ikatipoi",
+          "nellafella"
         ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "May 18 2026"
+          "u": "nellafella",
+          "d": "Jun 16 2026"
         }
       },
       "catch_of_day": {
@@ -19809,6 +19844,7 @@
       },
       "nellafella": {
         "broke_in": "Apr 16 2026",
+        "first_cast": "Jun 16 2026",
         "win_day": "May 15 2026",
         "catch_of_day": "May 15 2026",
         "junk_master": "May 12 2026",
@@ -21897,7 +21933,7 @@
       "n": "Sailfish",
       "custom": false,
       "r": "Rare",
-      "c": 62,
+      "c": 63,
       "h": "benwysard",
       "v": 101,
       "w": 78.81
@@ -23677,7 +23713,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 62,
+      "c": 63,
       "rec": "78.81 lb",
       "v": 101
     },
@@ -26915,6 +26951,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Sailfish",
+      "w": 68.25,
+      "v": 88,
+      "r": "Rare",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Nick Sanchez",
       "w": 53.31,
@@ -27505,14 +27549,6 @@
       "v": 69,
       "r": "Rare",
       "d": "Jun 06 2026"
-    },
-    {
-      "u": "realiist1",
-      "i": "Race Suit",
-      "w": 1.09,
-      "v": 109,
-      "r": "Rare",
-      "d": "Jun 05 2026"
     }
   ]
 }
