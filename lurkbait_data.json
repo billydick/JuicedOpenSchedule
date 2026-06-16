@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T06:19:11.077243+00:00",
-    "total_catches": 23223,
+    "generated_at": "2026-06-16T06:37:41.115639+00:00",
+    "total_catches": 23224,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23223 catches"
+      "sub": "Since launch - 23224 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -836,9 +836,9 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 5228,
-        "c": 78,
-        "casts": 78,
+        "g": 5357,
+        "c": 79,
+        "casts": 79,
         "l": "Jun 16 2026"
       },
       {
@@ -6524,20 +6524,20 @@
         "l": "Jun 11 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 1022,
+        "c": 15,
+        "casts": 15,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 1022,
         "c": 13,
         "casts": 13,
         "l": "Jun 11 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 893,
-        "c": 14,
-        "casts": 14,
-        "l": "Jun 16 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6712,9 +6712,9 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 245,
-        "c": 6,
-        "casts": 6,
+        "g": 374,
+        "c": 7,
+        "casts": 7,
         "l": "Jun 16 2026"
       },
       {
@@ -6794,9 +6794,9 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 245,
-        "c": 6,
-        "casts": 6,
+        "g": 374,
+        "c": 7,
+        "casts": 7,
         "l": "Jun 16 2026"
       },
       {
@@ -10640,6 +10640,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "Pocono",
+        "v": 129,
+        "r": "Rare",
+        "d": "Jun 16 2026"
+      },
+      {
         "n": "barnsdale",
         "i": "Rockingham Speedway",
         "v": 111,
@@ -10650,13 +10657,6 @@
         "n": "nellafella",
         "i": "Sailfish",
         "v": 88,
-        "r": "Rare",
-        "d": "Jun 16 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Watkins Glen Int.",
-        "v": 85,
         "r": "Rare",
         "d": "Jun 16 2026"
       },
@@ -10712,6 +10712,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "Pocono",
+        "v": 129,
+        "r": "Rare",
+        "d": "Jun 16 2026"
+      },
+      {
         "n": "barnsdale",
         "i": "Rockingham Speedway",
         "v": 111,
@@ -10722,13 +10729,6 @@
         "n": "nellafella",
         "i": "Sailfish",
         "v": 88,
-        "r": "Rare",
-        "d": "Jun 16 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Watkins Glen Int.",
-        "v": 85,
         "r": "Rare",
         "d": "Jun 16 2026"
       },
@@ -21862,6 +21862,15 @@
       "w": 110.61
     },
     {
+      "n": "Pocono",
+      "custom": true,
+      "r": "Rare",
+      "c": 4,
+      "h": "thesaucypanda2",
+      "v": 129,
+      "w": 103.36
+    },
+    {
       "n": "Tuna",
       "custom": false,
       "r": "Rare",
@@ -21869,15 +21878,6 @@
       "h": "thecokecowboy",
       "v": 124,
       "w": 259.6
-    },
-    {
-      "n": "Pocono",
-      "custom": true,
-      "r": "Rare",
-      "c": 3,
-      "h": "ineffabledecibel",
-      "v": 120,
-      "w": 96.09
     },
     {
       "n": "Marlin",
@@ -27137,9 +27137,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "People who can't drive call it the tricky triangle, the extra corner fucks them up.",
-      "c": 3,
-      "rec": "96.09 lb",
-      "v": 120
+      "c": 4,
+      "rec": "103.36 lb",
+      "v": 129
     },
     {
       "n": "Austin Hill",
@@ -27224,6 +27224,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "thesaucypanda2",
+      "i": "Pocono",
+      "w": 103.36,
+      "v": 129,
+      "r": "Rare",
+      "d": "Jun 16 2026"
+    },
     {
       "u": "flippy00",
       "i": "Bubbly",
@@ -27814,14 +27822,6 @@
       "w": 0.92,
       "v": 46,
       "r": "Uncommon",
-      "d": "Jun 09 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Todd Gilliland",
-      "w": 0.88,
-      "v": 4,
-      "r": "Junk",
       "d": "Jun 09 2026"
     }
   ]
