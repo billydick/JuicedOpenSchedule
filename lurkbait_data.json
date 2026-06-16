@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T03:43:53.261397+00:00",
-    "total_catches": 23212,
+    "generated_at": "2026-06-16T03:57:13.367129+00:00",
+    "total_catches": 23213,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23212 catches"
+      "sub": "Since launch - 23213 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -930,6 +930,14 @@
         "l": "Nov 27 2024"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 4050,
+        "c": 57,
+        "casts": 57,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "breadandwaturd",
         "n": "breadandwaturd",
         "g": 4045,
@@ -944,14 +952,6 @@
         "c": 86,
         "casts": 86,
         "l": "Nov 07 2024"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 3968,
-        "c": 56,
-        "casts": 56,
-        "l": "Jun 16 2026"
       },
       {
         "u": "jake221422",
@@ -6676,6 +6676,14 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 97,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "ineffabledecibel",
         "n": "ineffabledecibel",
         "g": 86,
@@ -6689,14 +6697,6 @@
         "g": 80,
         "c": 2,
         "casts": 2,
-        "l": "Jun 04 2026"
-      },
-      {
-        "u": "jayyyloveskittty",
-        "n": "jayyyloveskittty",
-        "g": 73,
-        "c": 1,
-        "casts": 1,
         "l": "Jun 04 2026"
       }
     ],
@@ -6744,9 +6744,9 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
-        "g": 14,
-        "c": 2,
-        "casts": 2,
+        "g": 96,
+        "c": 3,
+        "casts": 3,
         "l": "Jun 16 2026"
       }
     ],
@@ -6794,9 +6794,9 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
-        "g": 14,
-        "c": 2,
-        "casts": 2,
+        "g": 96,
+        "c": 3,
+        "casts": 3,
         "l": "Jun 16 2026"
       }
     ]
@@ -10518,6 +10518,13 @@
         "d": "Jun 07 2026"
       },
       {
+        "n": "itzdubsta",
+        "i": "Orangespined Unicornfish",
+        "v": 82,
+        "r": "Rare",
+        "d": "Jun 16 2026"
+      },
+      {
         "n": "jayyyloveskittty",
         "i": "Red Discus",
         "v": 73,
@@ -10537,13 +10544,6 @@
         "v": 65,
         "r": "Rare",
         "d": "Jun 04 2026"
-      },
-      {
-        "n": "truckinneeun",
-        "i": "C License",
-        "v": 64,
-        "r": "Rare",
-        "d": "Jun 01 2026"
       }
     ],
     "weekly": [
@@ -10584,9 +10584,9 @@
       },
       {
         "n": "itzdubsta",
-        "i": "Flat Tire",
-        "v": 10,
-        "r": "Junk",
+        "i": "Orangespined Unicornfish",
+        "v": 82,
+        "r": "Rare",
         "d": "Jun 16 2026"
       }
     ],
@@ -10628,9 +10628,9 @@
       },
       {
         "n": "itzdubsta",
-        "i": "Flat Tire",
-        "v": 10,
-        "r": "Junk",
+        "i": "Orangespined Unicornfish",
+        "v": 82,
+        "r": "Rare",
         "d": "Jun 16 2026"
       }
     ]
@@ -22364,7 +22364,7 @@
       "n": "Orangespined Unicornfish",
       "custom": false,
       "r": "Rare",
-      "c": 69,
+      "c": 70,
       "h": "nukacolahunter2",
       "v": 84,
       "w": 1.12
@@ -24225,7 +24225,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 69,
+      "c": 70,
       "rec": "1.12 lb",
       "v": 84
     },
@@ -27103,6 +27103,14 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "Orangespined Unicornfish",
+      "w": 1.09,
+      "v": 82,
+      "r": "Rare",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "iRacer - Jesse Winslow",
       "w": 108.04,
@@ -27693,14 +27701,6 @@
       "v": 223,
       "r": "Epic",
       "d": "Jun 08 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Tire",
-      "w": 28.43,
-      "v": 9,
-      "r": "Junk",
-      "d": "Jun 07 2026"
     }
   ]
 }
