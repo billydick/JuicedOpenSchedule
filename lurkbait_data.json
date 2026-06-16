@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T06:18:05.299841+00:00",
-    "total_catches": 23222,
+    "generated_at": "2026-06-16T06:19:11.077243+00:00",
+    "total_catches": 23223,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23222 catches"
+      "sub": "Since launch - 23223 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 106082,
-        "c": 1575,
-        "casts": 1575,
-        "l": "Jun 07 2026"
+        "g": 106103,
+        "c": 1576,
+        "casts": 1576,
+        "l": "Jun 16 2026"
       },
       {
         "u": "motionless",
@@ -6582,10 +6582,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 350,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 07 2026"
+        "g": 371,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 16 2026"
       },
       {
         "u": "aquadays",
@@ -6772,6 +6772,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -6843,6 +6851,14 @@
         "u": "mo_dank",
         "n": "mo_dank",
         "g": 31,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 21,
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
@@ -10657,6 +10673,13 @@
         "v": 31,
         "r": "Common",
         "d": "Jun 16 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Bubbly",
+        "v": 21,
+        "r": "Common",
+        "d": "Jun 16 2026"
       }
     ],
     "daily": [
@@ -10720,6 +10743,13 @@
         "n": "mo_dank",
         "i": "Perch",
         "v": 31,
+        "r": "Common",
+        "d": "Jun 16 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Bubbly",
+        "v": 21,
         "r": "Common",
         "d": "Jun 16 2026"
       }
@@ -23248,7 +23278,7 @@
       "n": "Bubbly",
       "custom": true,
       "r": "Common",
-      "c": 147,
+      "c": 148,
       "h": "skeeter1029",
       "v": 23,
       "w": 1.13
@@ -23770,11 +23800,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1575
+      "n": 1576
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 106082
+      "n": 106103
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -24641,7 +24671,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Stay hydrated yo!",
-      "c": 147,
+      "c": 148,
       "rec": "1.13 lb",
       "v": 23
     },
@@ -27195,6 +27225,14 @@
   ],
   "recent": [
     {
+      "u": "flippy00",
+      "i": "Bubbly",
+      "w": 1.04,
+      "v": 21,
+      "r": "Common",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Billy Dick Cup Regulations",
       "w": 0.82,
@@ -27784,14 +27822,6 @@
       "w": 0.88,
       "v": 4,
       "r": "Junk",
-      "d": "Jun 09 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Gas Can",
-      "w": 4.32,
-      "v": 43,
-      "r": "Uncommon",
       "d": "Jun 09 2026"
     }
   ]
