@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T00:36:43.560305+00:00",
-    "total_catches": 23196,
+    "generated_at": "2026-06-16T00:43:56.918480+00:00",
+    "total_catches": 23197,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23196 catches"
+      "sub": "Since launch - 23197 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -740,10 +740,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 6557,
-        "c": 69,
-        "casts": 69,
-        "l": "Jun 09 2026"
+        "g": 6707,
+        "c": 70,
+        "casts": 70,
+        "l": "Jun 16 2026"
       },
       {
         "u": "mildgooses",
@@ -6532,20 +6532,20 @@
         "l": "Jun 11 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 812,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 695,
         "c": 5,
         "casts": 5,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 662,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 09 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -6702,6 +6702,14 @@
     ],
     "weekly": [
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 150,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 88,
@@ -6711,6 +6719,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 150,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 16 2026"
+      },
       {
         "u": "nellafella",
         "n": "nellafella",
@@ -10468,6 +10484,13 @@
     ],
     "weekly": [
       {
+        "n": "v1per_simr4cin6",
+        "i": "Octopus",
+        "v": 150,
+        "r": "Epic",
+        "d": "Jun 16 2026"
+      },
+      {
         "n": "nellafella",
         "i": "Sailfish",
         "v": 88,
@@ -10476,6 +10499,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Octopus",
+        "v": 150,
+        "r": "Epic",
+        "d": "Jun 16 2026"
+      },
       {
         "n": "nellafella",
         "i": "Sailfish",
@@ -14154,7 +14184,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -14182,11 +14212,12 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "v1per_simr4cin6"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "v1per_simr4cin6",
+          "d": "Jun 16 2026"
         }
       },
       "win_month": {
@@ -19728,6 +19759,7 @@
         "custom_club": "Apr 26 2026",
         "triple_crown": "May 11 2026",
         "leg_epic_day": "May 11 2026",
+        "win_week": "Jun 16 2026",
         "golden_cast": "May 01 2026",
         "legend_hunter": "May 12 2026"
       },
@@ -21357,7 +21389,7 @@
       "n": "Octopus",
       "custom": false,
       "r": "Epic",
-      "c": 43,
+      "c": 44,
       "h": "jdawg250f",
       "v": 168,
       "w": 11.22
@@ -24577,7 +24609,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 43,
+      "c": 44,
       "rec": "11.22 lb",
       "v": 168
     },
@@ -26951,6 +26983,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Octopus",
+      "w": 10.02,
+      "v": 150,
+      "r": "Epic",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Sailfish",
       "w": 68.25,
@@ -27540,14 +27580,6 @@
       "w": 44.99,
       "v": 45,
       "r": "Uncommon",
-      "d": "Jun 06 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Orangespined Unicornfish",
-      "w": 0.92,
-      "v": 69,
-      "r": "Rare",
       "d": "Jun 06 2026"
     }
   ]
