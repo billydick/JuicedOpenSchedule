@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T01:47:40.254850+00:00",
-    "total_catches": 23201,
+    "generated_at": "2026-06-16T01:50:48.274398+00:00",
+    "total_catches": 23202,
     "unique_catches": 375,
     "total_players": 776,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23201 catches"
+      "sub": "Since launch - 23202 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -356,9 +356,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 36104,
-        "c": 480,
-        "casts": 480,
+        "g": 36189,
+        "c": 481,
+        "casts": 481,
         "l": "Jun 16 2026"
       },
       {
@@ -6502,9 +6502,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2323,
-        "c": 33,
-        "casts": 33,
+        "g": 2408,
+        "c": 34,
+        "casts": 34,
         "l": "Jun 16 2026"
       },
       {
@@ -6702,6 +6702,14 @@
     ],
     "weekly": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 195,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 150,
@@ -6715,19 +6723,19 @@
         "g": 137,
         "c": 3,
         "casts": 3,
-        "l": "Jun 16 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 110,
-        "c": 2,
-        "casts": 2,
         "l": "Jun 16 2026"
       }
     ],
     "daily": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 195,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 16 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 150,
@@ -6741,14 +6749,6 @@
         "g": 137,
         "c": 3,
         "casts": 3,
-        "l": "Jun 16 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 110,
-        "c": 2,
-        "casts": 2,
         "l": "Jun 16 2026"
       }
     ]
@@ -14214,7 +14214,7 @@
         }
       },
       "win_week": {
-        "total": 28,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -14242,12 +14242,11 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella",
-          "v1per_simr4cin6"
+          "nellafella"
         ],
         "latest": {
-          "u": "v1per_simr4cin6",
-          "d": "Jun 16 2026"
+          "u": "nellafella",
+          "d": "May 18 2026"
         }
       },
       "win_month": {
@@ -19789,7 +19788,6 @@
         "custom_club": "Apr 26 2026",
         "triple_crown": "May 11 2026",
         "leg_epic_day": "May 11 2026",
-        "win_week": "Jun 16 2026",
         "golden_cast": "May 01 2026",
         "legend_hunter": "May 12 2026"
       },
@@ -22184,7 +22182,7 @@
       "n": "Mini Stock",
       "custom": true,
       "r": "Rare",
-      "c": 44,
+      "c": 45,
       "h": "benwysard",
       "v": 85,
       "w": 1.13
@@ -26115,7 +26113,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Oh shit you're runnin ovals now",
-      "c": 44,
+      "c": 45,
       "rec": "1.13 lb",
       "v": 85
     },
@@ -27013,6 +27011,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Mini Stock",
+      "w": 1.13,
+      "v": 85,
+      "r": "Rare",
+      "d": "Jun 16 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Thong",
       "w": 0.21,
@@ -27602,14 +27608,6 @@
       "w": 1.09,
       "v": 54,
       "r": "Uncommon",
-      "d": "Jun 07 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "HELLRAIZER DEMON JACK",
-      "w": 27.88,
-      "v": 223,
-      "r": "Epic",
       "d": "Jun 07 2026"
     }
   ]
