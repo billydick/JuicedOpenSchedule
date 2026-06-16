@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-16T01:31:54Z",
+  "generated_at": "2026-06-16T02:33:48Z",
   "meta": {
-    "total_hands": 280,
-    "total_players": 26,
+    "total_hands": 281,
+    "total_players": 27,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 1489210
@@ -197,17 +197,24 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 4850,
+        "chips": 5350,
         "net": -336737,
         "hands": 0,
         "ach": 2
       },
       {
         "u": "brookswhynot",
-        "chips": 50,
+        "chips": 3105,
         "net": -126020,
         "hands": 1,
         "ach": 2
+      },
+      {
+        "u": "itzdubsta",
+        "chips": 50,
+        "net": 42060,
+        "hands": 1,
+        "ach": 3
       },
       {
         "u": "azsuperbeast",
@@ -219,6 +226,13 @@
     ],
     "daily": [
       {
+        "u": "itzdubsta",
+        "chips": 50,
+        "net": 42060,
+        "hands": 1,
+        "ach": 3
+      },
+      {
         "u": "juicedracing",
         "chips": 30100,
         "net": 15000,
@@ -227,7 +241,7 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 50,
+        "chips": 3105,
         "net": -13545,
         "hands": 1,
         "ach": 2
@@ -236,16 +250,15 @@
   },
   "daily_highlights": {
     "biggest_win": {
-      "u": "juicedracing",
+      "u": "itzdubsta",
       "cards": [
-        "3♥",
-        "2♣",
-        "4♥",
-        "J♦"
+        "10♠",
+        "6♣",
+        "2♦"
       ],
-      "total": 19,
-      "bet": 15000,
-      "net": 15000,
+      "total": 18,
+      "bet": 42060,
+      "net": 42060,
       "result": "win"
     },
     "biggest_loss": {
@@ -261,16 +274,16 @@
       "result": "bust"
     },
     "biggest_bet": {
-      "u": "brookswhynot",
+      "u": "itzdubsta",
       "cards": [
-        "6♥",
-        "10♦",
-        "6♣"
+        "10♠",
+        "6♣",
+        "2♦"
       ],
-      "total": 22,
-      "bet": 15050,
-      "net": -13545,
-      "result": "bust"
+      "total": 18,
+      "bet": 42060,
+      "net": 42060,
+      "result": "win"
     },
     "most_hands": {
       "u": "brookswhynot",
@@ -325,7 +338,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 4850,
+          "chips": 5350,
           "net": -128952,
           "hands": 3,
           "ach": 2
@@ -959,7 +972,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -11900,
           "hands": 5,
           "ach": 2
@@ -1056,7 +1069,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -12600,
           "hands": 1,
           "ach": 2
@@ -1241,7 +1254,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -10150,
           "hands": 2,
           "ach": 2
@@ -1469,7 +1482,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 4850,
+          "chips": 5350,
           "net": -100000,
           "hands": 1,
           "ach": 2
@@ -1544,7 +1557,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -5000,
           "hands": 1,
           "ach": 2
@@ -1565,7 +1578,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 4850,
+          "chips": 5350,
           "net": -82785,
           "hands": 5,
           "ach": 2
@@ -1727,7 +1740,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -9418,
           "hands": 3,
           "ach": 2
@@ -1854,7 +1867,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -15832,
           "hands": 3,
           "ach": 2
@@ -1981,7 +1994,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -30100,
           "hands": 1,
           "ach": 2
@@ -2082,7 +2095,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": 15025,
           "hands": 1,
           "ach": 2
@@ -2149,7 +2162,7 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": 23525,
           "hands": 3,
           "ach": 2
@@ -2289,7 +2302,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -14950,
           "hands": 1,
           "ach": 2
@@ -2479,7 +2492,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -6200,
           "hands": 1,
           "ach": 2
@@ -2493,7 +2506,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 4850,
+          "chips": 5350,
           "net": -25000,
           "hands": 1,
           "ach": 2
@@ -2733,7 +2746,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -10000,
           "hands": 1,
           "ach": 2
@@ -2964,7 +2977,7 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 50,
+          "chips": 3105,
           "net": -24875,
           "hands": 4,
           "ach": 2
@@ -3280,20 +3293,23 @@
         }
       },
       "exact_change_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "itzdubsta"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-06"
+          "u": "itzdubsta",
+          "d": "2026-06-15"
         }
       },
       "big_nerve_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "itzdubsta"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "itzdubsta",
           "d": "2026-06-15"
         }
       },
@@ -3397,11 +3413,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "itzdubsta"
+        ],
         "latest": {
-          "u": "ikatipoi",
-          "d": "2026-06-13"
+          "u": "itzdubsta",
+          "d": "2026-06-15"
         }
       },
       "riches_to_rags_session": {
@@ -3930,9 +3948,29 @@
       "juicedracing": {
         "big_nerve_win": "2026-04-25",
         "lucky_escape": "2026-04-26"
+      },
+      "itzdubsta": {
+        "exact_change_win": "2026-06-15",
+        "big_nerve_win": "2026-06-15",
+        "rags_to_riches_session": "2026-06-15"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "exact_change_win",
+        "u": "itzdubsta",
+        "d": "2026-06-15"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "itzdubsta",
+        "d": "2026-06-15"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "itzdubsta",
+        "d": "2026-06-15"
+      },
       {
         "id": "big_nerve_win",
         "u": "juicedracing",
@@ -4015,21 +4053,6 @@
       },
       {
         "id": "roller_coaster_session",
-        "u": "juicedracing",
-        "d": "2026-06-06"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "juicedracing",
-        "d": "2026-06-06"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-06-06"
-      },
-      {
-        "id": "lucky_escape",
         "u": "juicedracing",
         "d": "2026-06-06"
       }
@@ -4752,6 +4775,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1781577228.9335685,
+      "date": "2026-06-15",
+      "player": "itzdubsta",
+      "bet": 42060,
+      "balance_before": 42060,
+      "result": "win",
+      "net_delta": 42060,
+      "player_cards": [
+        "10♠",
+        "6♣",
+        "2♦"
+      ],
+      "player_total": 18,
+      "hit_count": 1,
+      "dealer_cards": [
+        "2♣",
+        "Q♦",
+        "Q♥"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "exact_change_win",
+        "big_nerve_win",
+        "rags_to_riches_session"
+      ]
+    },
     {
       "ts": 1781573514.5526857,
       "date": "2026-06-15",
@@ -6251,36 +6307,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1780200536.768561,
-      "date": "2026-05-30",
-      "player": "larcen22",
-      "bet": 5950,
-      "balance_before": 5950,
-      "result": "push",
-      "net_delta": 0,
-      "player_cards": [
-        "6♣",
-        "A♣"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "6♥",
-        "10♦",
-        "A♦"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "roller_coaster_session"
-      ]
     }
   ]
 }
