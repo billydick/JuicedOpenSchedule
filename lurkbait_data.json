@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T20:36:49.284567+00:00",
-    "total_catches": 23276,
+    "generated_at": "2026-06-17T23:08:44.632302+00:00",
+    "total_catches": 23277,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23276 catches"
+      "sub": "Since launch - 23277 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -642,20 +642,20 @@
         "l": "Feb 21 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 8201,
+        "c": 101,
+        "casts": 101,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "stoobiestu",
         "n": "stoobiestu",
         "g": 8180,
         "c": 98,
         "casts": 98,
         "l": "Feb 17 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 8027,
-        "c": 100,
-        "casts": 100,
-        "l": "Jun 17 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6628,20 +6628,20 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 1226,
+        "c": 16,
+        "casts": 16,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "realiist1",
         "n": "realiist1",
         "g": 1062,
         "c": 14,
         "casts": 14,
         "l": "Jun 11 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 1052,
-        "c": 15,
-        "casts": 15,
-        "l": "Jun 17 2026"
       },
       {
         "u": "juicedracing",
@@ -6870,6 +6870,14 @@
         "l": "Jun 17 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 204,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "killa_0zz",
         "n": "killa_0zz",
         "g": 202,
@@ -6996,29 +7004,21 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "mo_dank",
-        "n": "mo_dank",
-        "g": 31,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 16 2026"
       }
     ],
     "daily": [
       {
-        "u": "dvn_immortalflame",
-        "n": "dvn_immortalflame",
-        "g": 68,
-        "c": 1,
-        "casts": 1,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 179,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 17 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 5,
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 68,
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
@@ -10997,6 +10997,13 @@
         "d": "Jun 17 2026"
       },
       {
+        "n": "beliron",
+        "i": "NASCAR Pace Car",
+        "v": 174,
+        "r": "Rare",
+        "d": "Jun 17 2026"
+      },
+      {
         "n": "v1per_simr4cin6",
         "i": "Octopus",
         "v": 150,
@@ -11107,28 +11114,21 @@
         "v": 42,
         "r": "Uncommon",
         "d": "Jun 16 2026"
-      },
-      {
-        "n": "mo_dank",
-        "i": "Perch",
-        "v": 31,
-        "r": "Common",
-        "d": "Jun 16 2026"
       }
     ],
     "daily": [
+      {
+        "n": "beliron",
+        "i": "NASCAR Pace Car",
+        "v": 174,
+        "r": "Rare",
+        "d": "Jun 17 2026"
+      },
       {
         "n": "dvn_immortalflame",
         "i": "Emperor Angelfish",
         "v": 68,
         "r": "Rare",
-        "d": "Jun 17 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "Can",
-        "v": 5,
-        "r": "Junk",
         "d": "Jun 17 2026"
       }
     ]
@@ -12175,7 +12175,7 @@
         }
       },
       "win_day": {
-        "total": 95,
+        "total": 94,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12270,11 +12270,10 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard",
-          "dvn_immortalflame"
+          "13eard"
         ],
         "latest": {
-          "u": "dvn_immortalflame",
+          "u": "13eard",
           "d": "Jun 17 2026"
         }
       },
@@ -20109,7 +20108,6 @@
       "dvn_immortalflame": {
         "broke_in": "Nov 13 2025",
         "first_cast": "Jun 17 2026",
-        "win_day": "Jun 17 2026",
         "catch_of_day": "May 03 2026",
         "custom_catch": "Apr 13 2026",
         "walk_in": "May 10 2026"
@@ -22302,7 +22300,7 @@
       "n": "NASCAR Pace Car",
       "custom": true,
       "r": "Rare",
-      "c": 3,
+      "c": 4,
       "h": "larcen22",
       "v": 220,
       "w": 220.85
@@ -27773,7 +27771,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Still faster than your car!",
-      "c": 3,
+      "c": 4,
       "rec": "220.85 lb",
       "v": 220
     },
@@ -27806,6 +27804,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "NASCAR Pace Car",
+      "w": 174.57,
+      "v": 174,
+      "r": "Rare",
+      "d": "Jun 17 2026"
+    },
     {
       "u": "beliron",
       "i": "Can",
@@ -28396,14 +28402,6 @@
       "w": 0.91,
       "v": 50,
       "r": "Uncommon",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Mini Stock",
-      "w": 1.13,
-      "v": 85,
-      "r": "Rare",
       "d": "Jun 16 2026"
     }
   ]
