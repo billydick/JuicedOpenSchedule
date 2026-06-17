@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-16T22:32:58.435425+00:00",
-    "total_catches": 23247,
+    "generated_at": "2026-06-17T00:09:03.840602+00:00",
+    "total_catches": 23248,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23247 catches"
+      "sub": "Since launch - 23248 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,10 +348,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 36611,
-        "c": 485,
-        "casts": 485,
-        "l": "Jun 16 2026"
+        "g": 36658,
+        "c": 486,
+        "casts": 486,
+        "l": "Jun 17 2026"
       },
       {
         "u": "juicedracing",
@@ -6606,10 +6606,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2830,
-        "c": 38,
-        "casts": 38,
-        "l": "Jun 16 2026"
+        "g": 2877,
+        "c": 39,
+        "casts": 39,
+        "l": "Jun 17 2026"
       },
       {
         "u": "nellafella",
@@ -6808,10 +6808,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 617,
-        "c": 7,
-        "casts": 7,
-        "l": "Jun 16 2026"
+        "g": 664,
+        "c": 8,
+        "casts": 8,
+        "l": "Jun 17 2026"
       },
       {
         "u": "thesaucypanda2",
@@ -7006,7 +7006,16 @@
         "l": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 47,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -11049,7 +11058,15 @@
         "d": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Iowa Speedway",
+        "v": 47,
+        "r": "Uncommon",
+        "d": "Jun 17 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23027,7 +23044,7 @@
       "n": "Iowa Speedway",
       "custom": true,
       "r": "Uncommon",
-      "c": 74,
+      "c": 75,
       "h": "duel_king320",
       "v": 56,
       "w": 112.96
@@ -26680,7 +26697,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "You win @ Iowa but no one lives here so no one saw it.",
-      "c": 74,
+      "c": 75,
       "rec": "112.96 lb",
       "v": 56
     },
@@ -27713,6 +27730,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Iowa Speedway",
+      "w": 94.55,
+      "v": 47,
+      "r": "Uncommon",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "leviticus141",
       "i": "NEW Visual Flag System Full Package",
       "w": 0.91,
@@ -28302,14 +28327,6 @@
       "w": 0.82,
       "v": 1,
       "r": "Junk",
-      "d": "Jun 11 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "MPI Rim",
-      "w": 2.07,
-      "v": 52,
-      "r": "Uncommon",
       "d": "Jun 11 2026"
     }
   ]
