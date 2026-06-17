@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T23:16:00.821923+00:00",
-    "total_catches": 23278,
+    "generated_at": "2026-06-17T23:50:57.418411+00:00",
+    "total_catches": 23279,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23278 catches"
+      "sub": "Since launch - 23279 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -922,20 +922,20 @@
         "l": "Mar 26 2025"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 4077,
+        "c": 58,
+        "casts": 58,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "blackzout",
         "n": "blackzout",
         "g": 4064,
         "c": 70,
         "casts": 70,
         "l": "Nov 27 2024"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 4050,
-        "c": 57,
-        "casts": 57,
-        "l": "Jun 16 2026"
       },
       {
         "u": "breadandwaturd",
@@ -6910,6 +6910,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 123,
+        "c": 4,
+        "casts": 4,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 122,
@@ -6931,14 +6939,6 @@
         "g": 110,
         "c": 1,
         "casts": 1,
-        "l": "Jun 16 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 96,
-        "c": 3,
-        "casts": 3,
         "l": "Jun 16 2026"
       },
       {
@@ -7027,6 +7027,14 @@
         "u": "nellafella",
         "n": "nellafella",
         "g": 29,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 27,
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
@@ -11144,6 +11152,13 @@
         "i": "Gummy Sharks",
         "v": 29,
         "r": "Uncommon",
+        "d": "Jun 17 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "Salmon",
+        "v": 27,
+        "r": "Common",
         "d": "Jun 17 2026"
       }
     ]
@@ -23629,7 +23644,7 @@
       "n": "Salmon",
       "custom": false,
       "r": "Common",
-      "c": 155,
+      "c": 156,
       "h": "riflehog",
       "v": 34,
       "w": 4.52
@@ -24501,7 +24516,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 155,
+      "c": 156,
       "rec": "4.52 lb",
       "v": 34
     },
@@ -27820,6 +27835,14 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "Salmon",
+      "w": 3.56,
+      "v": 27,
+      "r": "Common",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Gummy Sharks",
       "w": 1.95,
@@ -28409,14 +28432,6 @@
       "w": 45.0,
       "v": 45,
       "r": "Uncommon",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Flat Tire",
-      "w": 0.97,
-      "v": 10,
-      "r": "Junk",
       "d": "Jun 16 2026"
     }
   ]
