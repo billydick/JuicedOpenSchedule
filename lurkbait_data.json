@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T02:48:40.313289+00:00",
-    "total_catches": 23267,
+    "generated_at": "2026-06-17T02:49:45.731880+00:00",
+    "total_catches": 23268,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23267 catches"
+      "sub": "Since launch - 23268 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -764,10 +764,10 @@
       {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
-        "g": 6240,
-        "c": 85,
-        "casts": 85,
-        "l": "Jun 09 2026"
+        "g": 6250,
+        "c": 86,
+        "casts": 86,
+        "l": "Jun 17 2026"
       },
       {
         "u": "ricofyi",
@@ -7054,6 +7054,14 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 17 2026"
+      },
+      {
+        "u": "grumpymitch1",
+        "n": "grumpymitch1",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
       }
     ]
   },
@@ -11139,6 +11147,13 @@
         "i": "Michael McDowell",
         "v": 56,
         "r": "Uncommon",
+        "d": "Jun 17 2026"
+      },
+      {
+        "n": "grumpymitch1",
+        "i": "Suspension Clean",
+        "v": 10,
+        "r": "Junk",
         "d": "Jun 17 2026"
       }
     ]
@@ -23904,7 +23919,7 @@
       "n": "Suspension Clean",
       "custom": true,
       "r": "Common",
-      "c": 140,
+      "c": 141,
       "h": "phantommarine",
       "v": 11,
       "w": 1.12
@@ -26180,7 +26195,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "The Choice of Factory Racing Teams",
-      "c": 140,
+      "c": 141,
       "rec": "1.12 lb",
       "v": 11
     },
@@ -27807,6 +27822,14 @@
   ],
   "recent": [
     {
+      "u": "grumpymitch1",
+      "i": "Suspension Clean",
+      "w": 1.04,
+      "v": 10,
+      "r": "Junk",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "13eard",
       "i": "2 TO 1 Y FITTING",
       "w": 1.0,
@@ -28396,14 +28419,6 @@
       "w": 41.68,
       "v": 42,
       "r": "Uncommon",
-      "d": "Jun 14 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Max Verstappen",
-      "w": 86.54,
-      "v": 434,
-      "r": "Legendary",
       "d": "Jun 14 2026"
     }
   ]
