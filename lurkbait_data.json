@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T01:43:31.660051+00:00",
-    "total_catches": 23255,
+    "generated_at": "2026-06-17T01:51:46.999707+00:00",
+    "total_catches": 23256,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23255 catches"
+      "sub": "Since launch - 23256 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,9 +348,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 36682,
-        "c": 487,
-        "casts": 487,
+        "g": 36750,
+        "c": 488,
+        "casts": 488,
         "l": "Jun 17 2026"
       },
       {
@@ -6606,9 +6606,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2901,
-        "c": 40,
-        "casts": 40,
+        "g": 2969,
+        "c": 41,
+        "casts": 41,
         "l": "Jun 17 2026"
       },
       {
@@ -6808,9 +6808,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 688,
-        "c": 9,
-        "casts": 9,
+        "g": 756,
+        "c": 10,
+        "casts": 10,
         "l": "Jun 17 2026"
       },
       {
@@ -7016,19 +7016,19 @@
         "l": "Jun 17 2026"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 139,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "drewieblaster",
         "n": "drewieblaster",
         "g": 90,
         "c": 1,
         "casts": 1,
-        "l": "Jun 17 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 71,
-        "c": 2,
-        "casts": 2,
         "l": "Jun 17 2026"
       },
       {
@@ -11106,6 +11106,13 @@
         "d": "Jun 17 2026"
       },
       {
+        "n": "brookswhynot",
+        "i": "Kevon Jackson",
+        "v": 68,
+        "r": "Rare",
+        "d": "Jun 17 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Orangespined Unicornfish",
         "v": 68,
@@ -11116,13 +11123,6 @@
         "n": "gatoraintplaying",
         "i": "Michael McDowell",
         "v": 56,
-        "r": "Uncommon",
-        "d": "Jun 17 2026"
-      },
-      {
-        "n": "brookswhynot",
-        "i": "Iowa Speedway",
-        "v": 47,
         "r": "Uncommon",
         "d": "Jun 17 2026"
       }
@@ -22755,7 +22755,7 @@
       "n": "Kevon Jackson",
       "custom": true,
       "r": "Rare",
-      "c": 49,
+      "c": 50,
       "h": "motionless",
       "v": 85,
       "w": 56.48
@@ -27101,7 +27101,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Rear Changer, Joe Gibbs Racing",
-      "c": 49,
+      "c": 50,
       "rec": "56.48 lb",
       "v": 85
     },
@@ -27792,6 +27792,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Kevon Jackson",
+      "w": 45.39,
+      "v": 68,
+      "r": "Rare",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Button Box",
       "w": 2.7,
@@ -28382,14 +28390,6 @@
       "v": 23,
       "r": "Common",
       "d": "Jun 14 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Frontosa Cichlid",
-      "w": 0.51,
-      "v": 36,
-      "r": "Uncommon",
-      "d": "Jun 13 2026"
     }
   ]
 }
