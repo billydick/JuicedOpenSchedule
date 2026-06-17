@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T17:52:57.323080+00:00",
-    "total_catches": 23274,
+    "generated_at": "2026-06-17T19:06:38.251309+00:00",
+    "total_catches": 23275,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23274 catches"
+      "sub": "Since launch - 23275 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -1890,6 +1890,14 @@
         "l": "Dec 17 2024"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 737,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "simoyd",
         "n": "simoyd",
         "g": 730,
@@ -1944,14 +1952,6 @@
         "c": 12,
         "casts": 12,
         "l": "Mar 08 2025"
-      },
-      {
-        "u": "dvn_immortalflame",
-        "n": "dvn_immortalflame",
-        "g": 669,
-        "c": 5,
-        "casts": 5,
-        "l": "May 10 2026"
       },
       {
         "u": "zhadowguy128",
@@ -6958,6 +6958,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 68,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "flippy00",
         "n": "flippy00",
         "g": 63,
@@ -6996,17 +7004,18 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "lapa2k14",
-        "n": "lapa2k14",
-        "g": 28,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "dvn_immortalflame",
+        "n": "dvn_immortalflame",
+        "g": 68,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -11050,6 +11059,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "dvn_immortalflame",
+        "i": "Emperor Angelfish",
+        "v": 68,
+        "r": "Rare",
+        "d": "Jun 17 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Michael McDowell",
         "v": 56,
@@ -11090,16 +11106,17 @@
         "v": 31,
         "r": "Common",
         "d": "Jun 16 2026"
-      },
-      {
-        "n": "evanstewart37",
-        "i": "Perch",
-        "v": 28,
-        "r": "Common",
-        "d": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "dvn_immortalflame",
+        "i": "Emperor Angelfish",
+        "v": 68,
+        "r": "Rare",
+        "d": "Jun 17 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -11902,7 +11919,7 @@
         }
       },
       "first_cast": {
-        "total": 90,
+        "total": 91,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11993,11 +12010,12 @@
           "v1per_simr4cin6",
           "realiist1",
           "ikatipoi",
-          "nellafella"
+          "nellafella",
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 16 2026"
+          "u": "dvn_immortalflame",
+          "d": "Jun 17 2026"
         }
       },
       "catch_of_day": {
@@ -12142,7 +12160,7 @@
         }
       },
       "win_day": {
-        "total": 94,
+        "total": 95,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12237,10 +12255,11 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard"
+          "13eard",
+          "dvn_immortalflame"
         ],
         "latest": {
-          "u": "13eard",
+          "u": "dvn_immortalflame",
           "d": "Jun 17 2026"
         }
       },
@@ -20072,6 +20091,8 @@
       },
       "dvn_immortalflame": {
         "broke_in": "Nov 13 2025",
+        "first_cast": "Jun 17 2026",
+        "win_day": "Jun 17 2026",
         "catch_of_day": "May 03 2026",
         "custom_catch": "Apr 13 2026",
         "walk_in": "May 10 2026"
@@ -22966,7 +22987,7 @@
       "n": "Emperor Angelfish",
       "custom": false,
       "r": "Rare",
-      "c": 76,
+      "c": 77,
       "h": "maden3w",
       "v": 79,
       "w": 1.69
@@ -25674,7 +25695,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 76,
+      "c": 77,
       "rec": "1.69 lb",
       "v": 79
     },
@@ -27769,6 +27790,14 @@
   ],
   "recent": [
     {
+      "u": "dvn_immortalflame",
+      "i": "Emperor Angelfish",
+      "w": 1.46,
+      "v": 68,
+      "r": "Rare",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "13eard",
       "i": "Kenny Wallace",
       "w": 17.54,
@@ -28357,14 +28386,6 @@
       "i": "Thong",
       "w": 0.21,
       "v": 2,
-      "r": "Junk",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Flat Tire",
-      "w": 1.04,
-      "v": 10,
       "r": "Junk",
       "d": "Jun 16 2026"
     }
