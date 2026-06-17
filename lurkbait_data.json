@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T00:44:59.917135+00:00",
-    "total_catches": 23250,
+    "generated_at": "2026-06-17T00:55:14.859955+00:00",
+    "total_catches": 23252,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23250 catches"
+      "sub": "Since launch - 23252 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,9 +348,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 36658,
-        "c": 486,
-        "casts": 486,
+        "g": 36682,
+        "c": 487,
+        "casts": 487,
         "l": "Jun 17 2026"
       },
       {
@@ -578,6 +578,14 @@
         "l": "Mar 19 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 8858,
+        "c": 119,
+        "casts": 119,
+        "l": "Jun 17 2026"
+      },
+      {
         "u": "jonwinston2",
         "n": "jonwinston2",
         "g": 8819,
@@ -600,14 +608,6 @@
         "c": 120,
         "casts": 120,
         "l": "Jun 11 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 8665,
-        "c": 118,
-        "casts": 118,
-        "l": "Jun 17 2026"
       },
       {
         "u": "maui_199",
@@ -6606,17 +6606,17 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2877,
-        "c": 39,
-        "casts": 39,
+        "g": 2901,
+        "c": 40,
+        "casts": 40,
         "l": "Jun 17 2026"
       },
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2258,
-        "c": 32,
-        "casts": 32,
+        "g": 2451,
+        "c": 33,
+        "casts": 33,
         "l": "Jun 17 2026"
       },
       {
@@ -6808,9 +6808,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 664,
-        "c": 8,
-        "casts": 8,
+        "g": 688,
+        "c": 9,
+        "casts": 9,
         "l": "Jun 17 2026"
       },
       {
@@ -6840,9 +6840,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 220,
-        "c": 6,
-        "casts": 6,
+        "g": 413,
+        "c": 7,
+        "casts": 7,
         "l": "Jun 17 2026"
       },
       {
@@ -7008,25 +7008,25 @@
     ],
     "daily": [
       {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 56,
-        "c": 1,
-        "casts": 1,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 235,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 17 2026"
       },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 47,
-        "c": 1,
-        "casts": 1,
+        "g": 71,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 17 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 42,
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 56,
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
@@ -10934,6 +10934,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "nellafella",
+        "i": "Win @ Daytona",
+        "v": 193,
+        "r": "Epic",
+        "d": "Jun 17 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "iRacer - Jesse Winslow",
         "v": 179,
@@ -10986,13 +10993,6 @@
         "n": "justingamez",
         "i": "Kieston France",
         "v": 90,
-        "r": "Rare",
-        "d": "Jun 16 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Sailfish",
-        "v": 88,
         "r": "Rare",
         "d": "Jun 16 2026"
       },
@@ -11076,6 +11076,13 @@
     ],
     "daily": [
       {
+        "n": "nellafella",
+        "i": "Win @ Daytona",
+        "v": 193,
+        "r": "Epic",
+        "d": "Jun 17 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Michael McDowell",
         "v": 56,
@@ -11086,13 +11093,6 @@
         "n": "brookswhynot",
         "i": "Iowa Speedway",
         "v": 47,
-        "r": "Uncommon",
-        "d": "Jun 17 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Zebra Cakes",
-        "v": 42,
         "r": "Uncommon",
         "d": "Jun 17 2026"
       }
@@ -13514,7 +13514,7 @@
         }
       },
       "nascar_pass": {
-        "total": 52,
+        "total": 53,
         "holders": [
           "riflehog",
           "hitmanjack3",
@@ -13567,11 +13567,12 @@
           "aquadays",
           "drewieblaster",
           "brookswhynot",
-          "grumpymitch1"
+          "grumpymitch1",
+          "nellafella"
         ],
         "latest": {
-          "u": "grumpymitch1",
-          "d": "Apr 18 2026"
+          "u": "nellafella",
+          "d": "Jun 17 2026"
         }
       },
       "century": {
@@ -20494,6 +20495,7 @@
         "gold_rush": "May 15 2026",
         "walk_in": "May 02 2026",
         "regular_weight": "May 30 2026",
+        "nascar_pass": "Jun 17 2026",
         "century": "Jun 09 2026",
         "dex_hunter": "May 15 2026",
         "completionist": "Jun 16 2026",
@@ -21382,7 +21384,7 @@
       "n": "Win @ Daytona",
       "custom": true,
       "r": "Epic",
-      "c": 32,
+      "c": 33,
       "h": "thebtm1",
       "v": 226,
       "w": 1.13
@@ -23632,7 +23634,7 @@
       "n": "Fire Bottle Nozzle",
       "custom": true,
       "r": "Common",
-      "c": 146,
+      "c": 147,
       "h": "lishogunil",
       "v": 28,
       "w": 2.26
@@ -25566,7 +25568,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Fuck, nice job!",
-      "c": 32,
+      "c": 33,
       "rec": "1.13 lb",
       "v": 226
     },
@@ -25899,7 +25901,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Nozzle for a Fire Bottle",
-      "c": 146,
+      "c": 147,
       "rec": "2.26 lb",
       "v": 28
     },
@@ -27760,6 +27762,22 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Fire Bottle Nozzle",
+      "w": 1.95,
+      "v": 24,
+      "r": "Common",
+      "d": "Jun 17 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Win @ Daytona",
+      "w": 0.97,
+      "v": 193,
+      "r": "Epic",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Zebra Cakes",
       "w": 0.84,
@@ -28341,22 +28359,6 @@
       "w": 1.07,
       "v": 27,
       "r": "Common",
-      "d": "Jun 11 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Dover",
-      "w": 105.42,
-      "v": 53,
-      "r": "Uncommon",
-      "d": "Jun 11 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "JJ Yeley",
-      "w": 46.28,
-      "v": 45,
-      "r": "Uncommon",
       "d": "Jun 11 2026"
     }
   ]
