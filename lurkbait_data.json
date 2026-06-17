@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-17T19:06:38.251309+00:00",
-    "total_catches": 23275,
+    "generated_at": "2026-06-17T20:36:49.284567+00:00",
+    "total_catches": 23276,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23275 catches"
+      "sub": "Since launch - 23276 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -652,10 +652,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 8022,
-        "c": 99,
-        "casts": 99,
-        "l": "Jun 16 2026"
+        "g": 8027,
+        "c": 100,
+        "casts": 100,
+        "l": "Jun 17 2026"
       },
       {
         "u": "ineffabledecibel",
@@ -6638,10 +6638,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 1047,
-        "c": 14,
-        "casts": 14,
-        "l": "Jun 16 2026"
+        "g": 1052,
+        "c": 15,
+        "casts": 15,
+        "l": "Jun 17 2026"
       },
       {
         "u": "juicedracing",
@@ -7011,6 +7011,14 @@
         "u": "dvn_immortalflame",
         "n": "dvn_immortalflame",
         "g": 68,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 17 2026"
+      },
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
@@ -11115,6 +11123,13 @@
         "v": 68,
         "r": "Rare",
         "d": "Jun 17 2026"
+      },
+      {
+        "n": "beliron",
+        "i": "Can",
+        "v": 5,
+        "r": "Junk",
+        "d": "Jun 17 2026"
       }
     ]
   },
@@ -13600,7 +13615,7 @@
         }
       },
       "century": {
-        "total": 53,
+        "total": 54,
         "holders": [
           "flippy00",
           "zee20ate",
@@ -13654,11 +13669,12 @@
           "rms_racing",
           "ineffabledecibel",
           "realiist1",
-          "nellafella"
+          "nellafella",
+          "beliron"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 09 2026"
+          "u": "beliron",
+          "d": "Jun 17 2026"
         }
       },
       "k_casts": {
@@ -19243,6 +19259,7 @@
         "the_regulars": "Jun 08 2026",
         "walk_in": "Jun 08 2025",
         "regular_weight": "May 08 2026",
+        "century": "Jun 17 2026",
         "dex_hunter": "Apr 28 2026",
         "full_spectrum": "May 04 2026",
         "custom_club": "Aug 02 2025",
@@ -24166,7 +24183,7 @@
       "n": "Can",
       "custom": false,
       "r": "Junk",
-      "c": 116,
+      "c": 117,
       "h": "flippy00",
       "v": 6,
       "w": 0.56
@@ -25011,7 +25028,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 116,
+      "c": 117,
       "rec": "0.56 lb",
       "v": 6
     },
@@ -27790,6 +27807,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Can",
+      "w": 0.52,
+      "v": 5,
+      "r": "Junk",
+      "d": "Jun 17 2026"
+    },
+    {
       "u": "dvn_immortalflame",
       "i": "Emperor Angelfish",
       "w": 1.46,
@@ -28379,14 +28404,6 @@
       "w": 1.13,
       "v": 85,
       "r": "Rare",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Thong",
-      "w": 0.21,
-      "v": 2,
-      "r": "Junk",
       "d": "Jun 16 2026"
     }
   ]
