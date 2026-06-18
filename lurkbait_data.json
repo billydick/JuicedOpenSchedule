@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T03:19:35.782326+00:00",
-    "total_catches": 23299,
+    "generated_at": "2026-06-18T03:24:48.454524+00:00",
+    "total_catches": 23300,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23299 catches"
+      "sub": "Since launch - 23300 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -906,20 +906,20 @@
         "l": "Mar 27 2025"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 4219,
+        "c": 60,
+        "casts": 60,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "showtime_84",
         "n": "showtime_84",
         "g": 4187,
         "c": 60,
         "casts": 60,
         "l": "Jan 22 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 4111,
-        "c": 59,
-        "casts": 59,
-        "l": "Jun 18 2026"
       },
       {
         "u": "zedtox",
@@ -6756,6 +6756,14 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 266,
+        "c": 7,
+        "casts": 7,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "rms_racing",
         "n": "rms_racing",
         "g": 266,
@@ -6778,14 +6786,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 158,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 18 2026"
       },
       {
         "u": "raycharlesdrivingschool",
@@ -6894,20 +6894,20 @@
         "l": "Jun 17 2026"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 265,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "esspiritussancti",
         "n": "esspiritussancti",
         "g": 196,
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 157,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 18 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -7040,6 +7040,14 @@
         "l": "Jun 18 2026"
       },
       {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 169,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 94,
@@ -7062,14 +7070,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 61,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 18 2026"
       },
       {
         "u": "barnsdale",
@@ -11102,6 +11102,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "itzdubsta",
+        "i": "CJ Bailey",
+        "v": 108,
+        "r": "Rare",
+        "d": "Jun 18 2026"
+      },
+      {
         "n": "cryptology",
         "i": "Alex Bowman",
         "v": 94,
@@ -11119,13 +11126,6 @@
         "n": "justingamez",
         "i": "Kieston France",
         "v": 90,
-        "r": "Rare",
-        "d": "Jun 16 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Orangespined Unicornfish",
-        "v": 82,
         "r": "Rare",
         "d": "Jun 16 2026"
       },
@@ -11202,6 +11202,13 @@
         "d": "Jun 18 2026"
       },
       {
+        "n": "itzdubsta",
+        "i": "CJ Bailey",
+        "v": 108,
+        "r": "Rare",
+        "d": "Jun 18 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Parrot Fish",
         "v": 75,
@@ -11221,13 +11228,6 @@
         "v": 62,
         "r": "Rare",
         "d": "Jun 17 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Frontosa Cichlid",
-        "v": 34,
-        "r": "Uncommon",
-        "d": "Jun 18 2026"
       },
       {
         "n": "barnsdale",
@@ -22627,7 +22627,7 @@
       "n": "CJ Bailey",
       "custom": true,
       "r": "Rare",
-      "c": 29,
+      "c": 30,
       "h": "barnsdale",
       "v": 112,
       "w": 56.13
@@ -27153,7 +27153,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#19 Carrier, Joe Gibbs Racing, Former College Football Player",
-      "c": 29,
+      "c": 30,
       "rec": "56.13 lb",
       "v": 112
     },
@@ -27916,6 +27916,14 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "CJ Bailey",
+      "w": 54.07,
+      "v": 108,
+      "r": "Rare",
+      "d": "Jun 18 2026"
+    },
+    {
       "u": "beliron",
       "i": "iRacer Dominic Wright",
       "w": 132.98,
@@ -28504,14 +28512,6 @@
       "i": "Sway Bar Clamps",
       "w": 8.43,
       "v": 42,
-      "r": "Uncommon",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Triggerfish",
-      "w": 18.06,
-      "v": 81,
       "r": "Uncommon",
       "d": "Jun 16 2026"
     }
