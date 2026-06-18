@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T02:55:00.986456+00:00",
-    "total_catches": 23298,
+    "generated_at": "2026-06-18T03:19:35.782326+00:00",
+    "total_catches": 23299,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23298 catches"
+      "sub": "Since launch - 23299 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -612,9 +612,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 8576,
-        "c": 103,
-        "casts": 103,
+        "g": 8753,
+        "c": 104,
+        "casts": 104,
         "l": "Jun 18 2026"
       },
       {
@@ -6622,9 +6622,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 1601,
-        "c": 18,
-        "casts": 18,
+        "g": 1778,
+        "c": 19,
+        "casts": 19,
         "l": "Jun 18 2026"
       },
       {
@@ -6822,6 +6822,14 @@
         "l": "Jun 18 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 756,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "13eard",
         "n": "13eard",
         "g": 665,
@@ -6844,14 +6852,6 @@
         "c": 10,
         "casts": 10,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 579,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 18 2026"
       },
       {
         "u": "juicedracing",
@@ -7010,9 +7010,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 554,
-        "c": 4,
-        "casts": 4,
+        "g": 731,
+        "c": 5,
+        "casts": 5,
         "l": "Jun 18 2026"
       },
       {
@@ -14514,7 +14514,7 @@
         }
       },
       "triple_crown": {
-        "total": 81,
+        "total": 82,
         "holders": [
           "dan_2012",
           "thebtm1",
@@ -14596,11 +14596,12 @@
           "ineffabledecibel",
           "brookswhynot",
           "v1per_simr4cin6",
-          "nellafella"
+          "nellafella",
+          "beliron"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "beliron",
+          "d": "Jun 17 2026"
         }
       },
       "legend_complete": {
@@ -14649,7 +14650,7 @@
         }
       },
       "leg_epic_day": {
-        "total": 100,
+        "total": 101,
         "holders": [
           "dan_2012",
           "juicedracing",
@@ -14750,11 +14751,12 @@
           "mrbrowz_fdm",
           "brookswhynot",
           "v1per_simr4cin6",
-          "nellafella"
+          "nellafella",
+          "beliron"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 15 2026"
+          "u": "beliron",
+          "d": "Jun 17 2026"
         }
       },
       "all5_day": {
@@ -19368,6 +19370,8 @@
         "dex_hunter": "Apr 28 2026",
         "full_spectrum": "May 04 2026",
         "custom_club": "Aug 02 2025",
+        "triple_crown": "Jun 17 2026",
+        "leg_epic_day": "Jun 17 2026",
         "win_week": "Nov 05 2025",
         "golden_cast": "Jun 08 2025",
         "legend_hunter": "May 04 2026"
@@ -21471,7 +21475,7 @@
       "n": "iRacer Dominic Wright",
       "custom": true,
       "r": "Epic",
-      "c": 18,
+      "c": 19,
       "h": "ironlegacy_",
       "v": 226,
       "w": 169.28
@@ -27509,7 +27513,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Race Winner SSS1R6 Daytona",
-      "c": 18,
+      "c": 19,
       "rec": "169.28 lb",
       "v": 226
     },
@@ -27911,6 +27915,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "beliron",
+      "i": "iRacer Dominic Wright",
+      "w": 132.98,
+      "v": 177,
+      "r": "Epic",
+      "d": "Jun 18 2026"
+    },
     {
       "u": "gatoraintplaying",
       "i": "iRacer - Jesse Winslow",
@@ -28501,14 +28513,6 @@
       "w": 18.06,
       "v": 81,
       "r": "Uncommon",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Pocono",
-      "w": 103.36,
-      "v": 129,
-      "r": "Rare",
       "d": "Jun 16 2026"
     }
   ]
