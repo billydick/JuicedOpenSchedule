@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-18T03:24:48.454524+00:00",
-    "total_catches": 23300,
+    "generated_at": "2026-06-18T03:25:55.418332+00:00",
+    "total_catches": 23301,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23300 catches"
+      "sub": "Since launch - 23301 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -2170,6 +2170,14 @@
         "l": "Nov 04 2024"
       },
       {
+        "u": "danfzzl",
+        "n": "danfzzl",
+        "g": 494,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 18 2026"
+      },
+      {
         "u": "onlythedetails",
         "n": "onlythedetails",
         "g": 492,
@@ -2304,14 +2312,6 @@
         "c": 4,
         "casts": 4,
         "l": "Dec 29 2024"
-      },
-      {
-        "u": "danfzzl",
-        "n": "danfzzl",
-        "g": 445,
-        "c": 4,
-        "casts": 4,
-        "l": "Apr 18 2026"
       },
       {
         "u": "floduehrkop",
@@ -6990,17 +6990,17 @@
         "l": "Jun 16 2026"
       },
       {
-        "u": "capital_rl",
-        "n": "capital_rl",
+        "u": "danfzzl",
+        "n": "danfzzl",
         "g": 49,
         "c": 1,
         "casts": 1,
-        "l": "Jun 16 2026"
+        "l": "Jun 18 2026"
       },
       {
-        "u": "senzu_1996",
-        "n": "senzu_1996",
-        "g": 42,
+        "u": "capital_rl",
+        "n": "capital_rl",
+        "g": 49,
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
@@ -7070,6 +7070,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 17 2026"
+      },
+      {
+        "u": "danfzzl",
+        "n": "danfzzl",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 18 2026"
       },
       {
         "u": "barnsdale",
@@ -11158,15 +11166,15 @@
         "d": "Jun 16 2026"
       },
       {
-        "n": "flippy00",
+        "n": "danfzzl",
         "i": "Sway Bar Clamps",
-        "v": 42,
+        "v": 49,
         "r": "Uncommon",
-        "d": "Jun 16 2026"
+        "d": "Jun 18 2026"
       },
       {
-        "n": "senzu_1996",
-        "i": "Riley Herbst",
+        "n": "flippy00",
+        "i": "Sway Bar Clamps",
         "v": 42,
         "r": "Uncommon",
         "d": "Jun 16 2026"
@@ -11228,6 +11236,13 @@
         "v": 62,
         "r": "Rare",
         "d": "Jun 17 2026"
+      },
+      {
+        "n": "danfzzl",
+        "i": "Sway Bar Clamps",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jun 18 2026"
       },
       {
         "n": "barnsdale",
@@ -23266,7 +23281,7 @@
       "n": "Sway Bar Clamps",
       "custom": true,
       "r": "Uncommon",
-      "c": 82,
+      "c": 83,
       "h": "riflehog",
       "v": 56,
       "w": 11.23
@@ -26442,7 +26457,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "For sway bars",
-      "c": 82,
+      "c": 83,
       "rec": "11.23 lb",
       "v": 56
     },
@@ -27916,6 +27931,14 @@
   ],
   "recent": [
     {
+      "u": "danfzzl",
+      "i": "Sway Bar Clamps",
+      "w": 9.79,
+      "v": 49,
+      "r": "Uncommon",
+      "d": "Jun 18 2026"
+    },
+    {
       "u": "itzdubsta",
       "i": "CJ Bailey",
       "w": 54.07,
@@ -28505,14 +28528,6 @@
       "w": 13.95,
       "v": 46,
       "r": "Junk",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Sway Bar Clamps",
-      "w": 8.43,
-      "v": 42,
-      "r": "Uncommon",
       "d": "Jun 16 2026"
     }
   ]
