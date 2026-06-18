@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-18T01:51:15Z",
+  "generated_at": "2026-06-18T01:56:29Z",
   "meta": {
-    "total_hands": 297,
-    "total_players": 27,
+    "total_hands": 298,
+    "total_players": 28,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 1489210
@@ -126,6 +126,13 @@
         "ach": 0
       },
       {
+        "u": "topjoedirty",
+        "chips": 21700,
+        "net": 10850,
+        "hands": 1,
+        "ach": 2
+      },
+      {
         "u": "ironlegacy_",
         "chips": 21451,
         "net": -5000,
@@ -190,7 +197,7 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 9350,
+        "chips": 9600,
         "net": -336737,
         "hands": 0,
         "ach": 2
@@ -231,6 +238,13 @@
         "net": 50000,
         "hands": 1,
         "ach": 6
+      },
+      {
+        "u": "topjoedirty",
+        "chips": 21700,
+        "net": 10850,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "juicedracing",
@@ -548,7 +562,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 9350,
+          "chips": 9600,
           "net": -128952,
           "hands": 3,
           "ach": 2
@@ -1692,7 +1706,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 9350,
+          "chips": 9600,
           "net": -100000,
           "hands": 1,
           "ach": 2
@@ -1788,7 +1802,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 9350,
+          "chips": 9600,
           "net": -82785,
           "hands": 5,
           "ach": 2
@@ -2716,7 +2730,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 9350,
+          "chips": 9600,
           "net": -25000,
           "hands": 1,
           "ach": 2
@@ -3505,23 +3519,25 @@
         }
       },
       "exact_change_win": {
-        "total": 1,
+        "total": 2,
         "holders": [
-          "juicedracing"
+          "juicedracing",
+          "topjoedirty"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "topjoedirty",
           "d": "2026-06-17"
         }
       },
       "big_nerve_win": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "juicedracing",
-          "itzdubsta"
+          "itzdubsta",
+          "topjoedirty"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "topjoedirty",
           "d": "2026-06-17"
         }
       },
@@ -4177,9 +4193,23 @@
         "bank_builder_100k": "earned",
         "big_swing_session_50k": "2026-06-17",
         "escalator": "2026-06-17"
+      },
+      "topjoedirty": {
+        "exact_change_win": "2026-06-17",
+        "big_nerve_win": "2026-06-17"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "exact_change_win",
+        "u": "topjoedirty",
+        "d": "2026-06-17"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "topjoedirty",
+        "d": "2026-06-17"
+      },
       {
         "id": "rags_to_riches_session",
         "u": "juicedracing",
@@ -4268,16 +4298,6 @@
       {
         "id": "lucky_escape",
         "u": "kirk0218",
-        "d": "2026-06-16"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "juicedracing",
-        "d": "2026-06-16"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
         "d": "2026-06-16"
       }
     ]
@@ -4999,6 +5019,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1781747789.1920521,
+      "date": "2026-06-17",
+      "player": "topjoedirty",
+      "bet": 10850,
+      "balance_before": 10850,
+      "result": "win",
+      "net_delta": 10850,
+      "player_cards": [
+        "K♣",
+        "8♥"
+      ],
+      "player_total": 18,
+      "hit_count": 0,
+      "dealer_cards": [
+        "7♦",
+        "5♦",
+        "K♥"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "exact_change_win",
+        "big_nerve_win"
+      ]
+    },
     {
       "ts": 1781747475.8768466,
       "date": "2026-06-17",
@@ -6508,38 +6559,6 @@
         "big_nerve_win",
         "rags_to_riches_session",
         "escalator"
-      ]
-    },
-    {
-      "ts": 1780530291.2597103,
-      "date": "2026-06-03",
-      "player": "juicedracing",
-      "bet": 45000,
-      "balance_before": 45110,
-      "result": "win",
-      "net_delta": 45000,
-      "player_cards": [
-        "8♣",
-        "A♠"
-      ],
-      "player_total": 19,
-      "hit_count": 0,
-      "dealer_cards": [
-        "2♦",
-        "3♦",
-        "4♠",
-        "9♣"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "big_nerve_win",
-        "big_swing_session_50k"
       ]
     }
   ]
