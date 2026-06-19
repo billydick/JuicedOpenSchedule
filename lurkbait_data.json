@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T00:34:35.448504+00:00",
-    "total_catches": 23312,
+    "generated_at": "2026-06-19T00:37:42.430456+00:00",
+    "total_catches": 23313,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23312 catches"
+      "sub": "Since launch - 23313 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 36870,
-        "c": 560,
-        "casts": 560,
-        "l": "Jun 18 2026"
+        "g": 36875,
+        "c": 561,
+        "casts": 561,
+        "l": "Jun 19 2026"
       },
       {
         "u": "jdawg250f",
@@ -6646,10 +6646,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 1000,
-        "c": 14,
-        "casts": 14,
-        "l": "Jun 18 2026"
+        "g": 1005,
+        "c": 15,
+        "casts": 15,
+        "l": "Jun 19 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -6856,10 +6856,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 540,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 18 2026"
+        "g": 545,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 19 2026"
       },
       {
         "u": "iiaipii",
@@ -7027,6 +7027,14 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 7,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 19 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "Jun 19 2026"
@@ -11165,6 +11173,13 @@
         "i": "Traffic Cone",
         "v": 7,
         "r": "Junk",
+        "d": "Jun 19 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Pineapple",
+        "v": 5,
+        "r": "Epic",
         "d": "Jun 19 2026"
       }
     ]
@@ -22315,7 +22330,7 @@
       "n": "Pineapple",
       "custom": false,
       "r": "Epic",
-      "c": 26,
+      "c": 27,
       "h": "wintergofast",
       "v": 5,
       "w": 1.1
@@ -25347,7 +25362,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 26,
+      "c": 27,
       "rec": "1.10 lb",
       "v": 5
     },
@@ -27847,6 +27862,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Pineapple",
+      "w": 1.03,
+      "v": 5,
+      "r": "Epic",
+      "d": "Jun 19 2026"
+    },
+    {
       "u": "beliron",
       "i": "Ralph Moody",
       "w": 22.78,
@@ -28436,14 +28459,6 @@
       "w": 26.77,
       "v": 9,
       "r": "Junk",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "senzu_1996",
-      "i": "Riley Herbst",
-      "w": 62.3,
-      "v": 42,
-      "r": "Uncommon",
       "d": "Jun 16 2026"
     }
   ]
