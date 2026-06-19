@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T20:55:26.636899+00:00",
-    "total_catches": 23319,
+    "generated_at": "2026-06-19T22:26:25.205843+00:00",
+    "total_catches": 23320,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23319 catches"
+      "sub": "Since launch - 23320 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -2522,6 +2522,14 @@
         "l": "Apr 25 2026"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 351,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "nukacolahunter2",
         "n": "nukacolahunter2",
         "g": 346,
@@ -2776,14 +2784,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 11 2025"
-      },
-      {
-        "u": "barnsdale",
-        "n": "barnsdale",
-        "g": 286,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 18 2026"
       },
       {
         "u": "beer_30",
@@ -6740,6 +6740,14 @@
         "l": "Jun 18 2026"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 308,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "aquadays",
         "n": "aquadays",
         "g": 293,
@@ -6770,14 +6778,6 @@
         "c": 3,
         "casts": 3,
         "l": "Jun 11 2026"
-      },
-      {
-        "u": "barnsdale",
-        "n": "barnsdale",
-        "g": 243,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 18 2026"
       },
       {
         "u": "esspiritussancti",
@@ -6910,6 +6910,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 177,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 150,
@@ -6924,14 +6932,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "barnsdale",
-        "n": "barnsdale",
-        "g": 112,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 18 2026"
       },
       {
         "u": "who_flung_poo_36",
@@ -7006,7 +7006,16 @@
         "l": "Jun 18 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "barnsdale",
+        "n": "barnsdale",
+        "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 19 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -11163,7 +11172,15 @@
         "d": "Jun 18 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "barnsdale",
+        "i": "C License",
+        "v": 65,
+        "r": "Rare",
+        "d": "Jun 19 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -11966,7 +11983,7 @@
         }
       },
       "first_cast": {
-        "total": 91,
+        "total": 92,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -12058,15 +12075,16 @@
           "realiist1",
           "ikatipoi",
           "nellafella",
-          "dvn_immortalflame"
+          "dvn_immortalflame",
+          "barnsdale"
         ],
         "latest": {
-          "u": "dvn_immortalflame",
-          "d": "Jun 17 2026"
+          "u": "barnsdale",
+          "d": "Jun 19 2026"
         }
       },
       "catch_of_day": {
-        "total": 132,
+        "total": 133,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -12199,15 +12217,16 @@
           "realiist1",
           "letirefessedu74",
           "iiaipii",
-          "13eard"
+          "13eard",
+          "barnsdale"
         ],
         "latest": {
-          "u": "13eard",
-          "d": "Jun 17 2026"
+          "u": "barnsdale",
+          "d": "Jun 19 2026"
         }
       },
       "win_day": {
-        "total": 94,
+        "total": 95,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12302,11 +12321,12 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard"
+          "13eard",
+          "barnsdale"
         ],
         "latest": {
-          "u": "13eard",
-          "d": "Jun 17 2026"
+          "u": "barnsdale",
+          "d": "Jun 19 2026"
         }
       },
       "double_down": {
@@ -20666,6 +20686,9 @@
       },
       "barnsdale": {
         "broke_in": "May 10 2026",
+        "first_cast": "Jun 19 2026",
+        "win_day": "Jun 19 2026",
+        "catch_of_day": "Jun 19 2026",
         "custom_catch": "May 10 2026"
       },
       "sparkyracingtv": {
@@ -22889,7 +22912,7 @@
       "n": "C License",
       "custom": true,
       "r": "Rare",
-      "c": 46,
+      "c": 47,
       "h": "itzdubsta",
       "v": 85,
       "w": 1.13
@@ -26704,7 +26727,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Congrats, you’ve graduated from wrecking in Miatas to causing 10-car pileups in trucks",
-      "c": 46,
+      "c": 47,
       "rec": "1.13 lb",
       "v": 85
     },
@@ -27845,6 +27868,14 @@
   ],
   "recent": [
     {
+      "u": "barnsdale",
+      "i": "C License",
+      "w": 0.87,
+      "v": 65,
+      "r": "Rare",
+      "d": "Jun 19 2026"
+    },
+    {
       "u": "beliron",
       "i": "VNM Sim Racing 3-Pedal Set",
       "w": 1.77,
@@ -28433,14 +28464,6 @@
       "i": "Chase Briscoe",
       "w": 27.53,
       "v": 110,
-      "r": "Rare",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "stoogeyy",
-      "i": "Charlotte Motor Speedway",
-      "w": 0.92,
-      "v": 138,
       "r": "Rare",
       "d": "Jun 16 2026"
     }
