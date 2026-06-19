@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T01:19:54Z",
+  "generated_at": "2026-06-19T20:55:22Z",
   "meta": {
     "total_hands": 300,
     "total_players": 28,
@@ -16,7 +16,7 @@
   },
   "competition_meta": {
     "daily": {
-      "label": "Jun 18 2026",
+      "label": "Jun 19 2026",
       "sub": "Today's Competition"
     },
     "weekly": {
@@ -113,7 +113,7 @@
       },
       {
         "u": "nellafella",
-        "chips": 41250,
+        "chips": 41300,
         "net": 0,
         "hands": 0,
         "ach": 0
@@ -168,6 +168,13 @@
         "ach": 0
       },
       {
+        "u": "evangel0203",
+        "chips": 11650,
+        "net": -64900,
+        "hands": 0,
+        "ach": 0
+      },
+      {
         "u": "corndawg3",
         "chips": 10600,
         "net": -196990,
@@ -178,7 +185,7 @@
         "u": "juicedracing",
         "chips": 10450,
         "net": -419067,
-        "hands": 1,
+        "hands": 0,
         "ach": 0
       },
       {
@@ -210,13 +217,6 @@
         "ach": 0
       },
       {
-        "u": "evangel0203",
-        "chips": 6600,
-        "net": -64900,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "thesaucypanda2",
         "chips": 4148,
         "net": -36500,
@@ -231,49 +231,55 @@
         "ach": 0
       }
     ],
-    "daily": [
-      {
-        "u": "juicedracing",
-        "chips": 10450,
-        "net": -10000,
-        "hands": 1,
-        "ach": 0
-      }
-    ]
+    "daily": []
   },
-  "daily_highlights": {
-    "biggest_loss": {
-      "u": "juicedracing",
-      "cards": [
-        "7♠",
-        "4♥"
-      ],
-      "total": 11,
-      "bet": 10000,
-      "net": -10000,
-      "result": "lose"
-    },
-    "biggest_bet": {
-      "u": "juicedracing",
-      "cards": [
-        "7♠",
-        "4♥"
-      ],
-      "total": 11,
-      "bet": 10000,
-      "net": -10000,
-      "result": "lose"
-    },
-    "most_hands": {
-      "u": "juicedracing",
-      "n": 1
-    },
-    "worst_streak": {
-      "u": "juicedracing",
-      "n": 1
-    }
-  },
+  "daily_highlights": {},
   "daily_history": [
+    {
+      "label": "Jun 18",
+      "date": "2026-06-18",
+      "leaderboard": [
+        {
+          "u": "juicedracing",
+          "chips": 10450,
+          "net": -10000,
+          "hands": 1,
+          "ach": 0
+        }
+      ],
+      "highlights": {
+        "biggest_loss": {
+          "u": "juicedracing",
+          "cards": [
+            "7♠",
+            "4♥"
+          ],
+          "total": 11,
+          "bet": 10000,
+          "net": -10000,
+          "result": "lose"
+        },
+        "biggest_bet": {
+          "u": "juicedracing",
+          "cards": [
+            "7♠",
+            "4♥"
+          ],
+          "total": 11,
+          "bet": 10000,
+          "net": -10000,
+          "result": "lose"
+        },
+        "most_hands": {
+          "u": "juicedracing",
+          "n": 1
+        },
+        "worst_streak": {
+          "u": "juicedracing",
+          "n": 1
+        }
+      }
+    },
     {
       "label": "Jun 17",
       "date": "2026-06-17",
@@ -2141,7 +2147,7 @@
         },
         {
           "u": "evangel0203",
-          "chips": 6600,
+          "chips": 11650,
           "net": -44750,
           "hands": 1,
           "ach": 0
@@ -2745,7 +2751,7 @@
       "leaderboard": [
         {
           "u": "evangel0203",
-          "chips": 6600,
+          "chips": 11650,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -3020,7 +3026,7 @@
         },
         {
           "u": "evangel0203",
-          "chips": 6600,
+          "chips": 11650,
           "net": -20150,
           "hands": 1,
           "ach": 0
