@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T01:23:48.034160+00:00",
-    "total_catches": 23315,
+    "generated_at": "2026-06-19T01:43:15.308666+00:00",
+    "total_catches": 23316,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23315 catches"
+      "sub": "Since launch - 23316 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -580,9 +580,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 9377,
-        "c": 129,
-        "casts": 129,
+        "g": 9471,
+        "c": 130,
+        "casts": 130,
         "l": "Jun 19 2026"
       },
       {
@@ -6614,9 +6614,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2970,
-        "c": 43,
-        "casts": 43,
+        "g": 3064,
+        "c": 44,
+        "casts": 44,
         "l": "Jun 19 2026"
       },
       {
@@ -6824,9 +6824,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 932,
-        "c": 17,
-        "casts": 17,
+        "g": 1026,
+        "c": 18,
+        "casts": 18,
         "l": "Jun 19 2026"
       },
       {
@@ -7016,17 +7016,17 @@
         "l": "Jun 19 2026"
       },
       {
-        "u": "raising_cain_909",
-        "n": "raising_cain_909",
-        "g": 102,
-        "c": 1,
-        "casts": 1,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 174,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 19 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 80,
+        "u": "raising_cain_909",
+        "n": "raising_cain_909",
+        "g": 102,
         "c": 1,
         "casts": 1,
         "l": "Jun 19 2026"
@@ -11187,7 +11187,7 @@
       {
         "n": "nellafella",
         "i": "Josh Berry",
-        "v": 80,
+        "v": 94,
         "r": "Rare",
         "d": "Jun 19 2026"
       },
@@ -12359,7 +12359,7 @@
         }
       },
       "double_down": {
-        "total": 87,
+        "total": 88,
         "holders": [
           "juicedracing",
           "thebtm1",
@@ -12447,11 +12447,12 @@
           "larcen22",
           "ineffabledecibel",
           "pvtcrock",
-          "evangel0203"
+          "evangel0203",
+          "nellafella"
         ],
         "latest": {
-          "u": "evangel0203",
-          "d": "Apr 28 2026"
+          "u": "nellafella",
+          "d": "Jun 19 2026"
         }
       },
       "junk_master": {
@@ -20618,6 +20619,7 @@
         "first_cast": "Jun 16 2026",
         "win_day": "May 15 2026",
         "catch_of_day": "May 15 2026",
+        "double_down": "Jun 19 2026",
         "junk_master": "May 12 2026",
         "custom_catch": "Apr 16 2026",
         "heavy_hauler": "Jun 08 2026",
@@ -23638,7 +23640,7 @@
       "n": "Josh Berry",
       "custom": true,
       "r": "Common",
-      "c": 134,
+      "c": 135,
       "h": "beliron",
       "v": 111,
       "w": 55.59
@@ -25608,7 +25610,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Running better in 2025 got a Win",
-      "c": 134,
+      "c": 135,
       "rec": "55.59 lb",
       "v": 111
     },
@@ -27894,6 +27896,14 @@
     {
       "u": "nellafella",
       "i": "Josh Berry",
+      "w": 47.24,
+      "v": 94,
+      "r": "Rare",
+      "d": "Jun 19 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Josh Berry",
       "w": 40.2,
       "v": 80,
       "r": "Rare",
@@ -28481,14 +28491,6 @@
       "w": 5.53,
       "v": 443,
       "r": "Legendary",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "lapa2k14",
-      "i": "Black Redeye",
-      "w": 37.27,
-      "v": 28,
-      "r": "Common",
       "d": "Jun 16 2026"
     }
   ]
