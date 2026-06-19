@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T00:24:13.401546+00:00",
-    "total_catches": 23309,
+    "generated_at": "2026-06-19T00:29:23.007250+00:00",
+    "total_catches": 23310,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23309 catches"
+      "sub": "Since launch - 23310 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -420,10 +420,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 21995,
-        "c": 323,
-        "casts": 323,
-        "l": "Jun 18 2026"
+        "g": 22002,
+        "c": 324,
+        "casts": 324,
+        "l": "Jun 19 2026"
       },
       {
         "u": "1disruptiveduck",
@@ -6654,10 +6654,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 927,
-        "c": 13,
-        "casts": 13,
-        "l": "Jun 18 2026"
+        "g": 934,
+        "c": 14,
+        "casts": 14,
+        "l": "Jun 19 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6832,10 +6832,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 675,
-        "c": 8,
-        "casts": 8,
-        "l": "Jun 18 2026"
+        "g": 682,
+        "c": 9,
+        "casts": 9,
+        "l": "Jun 19 2026"
       },
       {
         "u": "13eard",
@@ -7006,7 +7006,16 @@
         "l": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 7,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 19 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -11120,7 +11129,15 @@
         "d": "Jun 16 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Traffic Cone",
+        "v": 7,
+        "r": "Junk",
+        "d": "Jun 19 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -24158,7 +24175,7 @@
       "n": "Traffic Cone",
       "custom": false,
       "r": "Junk",
-      "c": 119,
+      "c": 120,
       "h": "benwysard",
       "v": 9,
       "w": 1.13
@@ -24643,7 +24660,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 119,
+      "c": 120,
       "rec": "1.13 lb",
       "v": 9
     },
@@ -27800,6 +27817,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Traffic Cone",
+      "w": 0.93,
+      "v": 7,
+      "r": "Junk",
+      "d": "Jun 19 2026"
+    },
+    {
       "u": "grumpymitch1",
       "i": "Derek Kraus",
       "w": 1.03,
@@ -28389,14 +28414,6 @@
       "w": 7.64,
       "v": 25,
       "r": "Common",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "daveynorris1",
-      "i": "Cody Ware",
-      "w": 4.18,
-      "v": 7,
-      "r": "Junk",
       "d": "Jun 16 2026"
     }
   ]
