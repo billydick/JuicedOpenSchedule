@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T02:25:21.409361+00:00",
+    "generated_at": "2026-06-19T20:55:26.636899+00:00",
     "total_catches": 23319,
     "unique_catches": 375,
     "total_players": 789,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jun 18 2026",
+      "label": "Jun 19 2026",
       "sub": "Today's Competition"
     }
   },
@@ -7006,58 +7006,57 @@
         "l": "Jun 18 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 551,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 19 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 229,
-        "c": 3,
-        "casts": 3,
-        "l": "Jun 19 2026"
-      },
-      {
-        "u": "raising_cain_909",
-        "n": "raising_cain_909",
-        "g": 102,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 19 2026"
-      },
-      {
-        "u": "13eard",
-        "n": "13eard",
-        "g": 51,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 19 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 7,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 19 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 5,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 19 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jun 18",
+      "date": "2026-06-18",
+      "leaderboard": [
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 551,
+          "c": 3,
+          "l": "Jun 19 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 229,
+          "c": 3,
+          "l": "Jun 19 2026"
+        },
+        {
+          "n": "raising_cain_909",
+          "u": "raising_cain_909",
+          "g": 102,
+          "c": 1,
+          "l": "Jun 19 2026"
+        },
+        {
+          "n": "13eard",
+          "u": "13eard",
+          "g": 51,
+          "c": 1,
+          "l": "Jun 19 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 7,
+          "c": 1,
+          "l": "Jun 19 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 5,
+          "c": 1,
+          "l": "Jun 19 2026"
+        }
+      ]
+    },
     {
       "label": "Jun 17",
       "date": "2026-06-17",
@@ -7426,11 +7425,6 @@
     {
       "label": "Jun 12",
       "date": "2026-06-12",
-      "leaderboard": []
-    },
-    {
-      "label": "Jun 11",
-      "date": "2026-06-11",
       "leaderboard": []
     }
   ],
@@ -11169,50 +11163,7 @@
         "d": "Jun 18 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "beliron",
-        "i": "Ralph Moody",
-        "v": 364,
-        "r": "Epic",
-        "d": "Jun 19 2026"
-      },
-      {
-        "n": "raising_cain_909",
-        "i": "Yellowtang",
-        "v": 102,
-        "r": "Rare",
-        "d": "Jun 19 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Josh Berry",
-        "v": 94,
-        "r": "Rare",
-        "d": "Jun 19 2026"
-      },
-      {
-        "n": "13eard",
-        "i": "Natalie Decker",
-        "v": 51,
-        "r": "Uncommon",
-        "d": "Jun 19 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Traffic Cone",
-        "v": 7,
-        "r": "Junk",
-        "d": "Jun 19 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Pineapple",
-        "v": 5,
-        "r": "Epic",
-        "d": "Jun 19 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
