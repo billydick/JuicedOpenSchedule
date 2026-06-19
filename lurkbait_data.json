@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-19T22:26:25.205843+00:00",
-    "total_catches": 23320,
+    "generated_at": "2026-06-19T23:08:23.981449+00:00",
+    "total_catches": 23321,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23320 catches"
+      "sub": "Since launch - 23321 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -778,6 +778,14 @@
         "l": "Apr 30 2026"
       },
       {
+        "u": "larcen22",
+        "n": "larcen22",
+        "g": 6113,
+        "c": 72,
+        "casts": 72,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "loosewheel0",
         "n": "loosewheel0",
         "g": 6013,
@@ -792,14 +800,6 @@
         "c": 89,
         "casts": 89,
         "l": "Jan 29 2025"
-      },
-      {
-        "u": "larcen22",
-        "n": "larcen22",
-        "g": 5989,
-        "c": 71,
-        "casts": 71,
-        "l": "Jun 04 2026"
       },
       {
         "u": "drybonesmalone",
@@ -6660,6 +6660,14 @@
         "l": "Jun 19 2026"
       },
       {
+        "u": "larcen22",
+        "n": "larcen22",
+        "g": 819,
+        "c": 6,
+        "casts": 6,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 812,
@@ -6674,14 +6682,6 @@
         "c": 7,
         "casts": 7,
         "l": "Jun 19 2026"
-      },
-      {
-        "u": "larcen22",
-        "n": "larcen22",
-        "g": 695,
-        "c": 5,
-        "casts": 5,
-        "l": "Jun 04 2026"
       },
       {
         "u": "pvtcrackpot",
@@ -6934,6 +6934,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "larcen22",
+        "n": "larcen22",
+        "g": 124,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 19 2026"
+      },
+      {
         "u": "who_flung_poo_36",
         "n": "who_flung_poo_36",
         "g": 110,
@@ -6996,17 +7004,17 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "danfzzl",
-        "n": "danfzzl",
-        "g": 49,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 18 2026"
       }
     ],
     "daily": [
+      {
+        "u": "larcen22",
+        "n": "larcen22",
+        "g": 124,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 19 2026"
+      },
       {
         "u": "barnsdale",
         "n": "barnsdale",
@@ -11088,6 +11096,13 @@
         "d": "Jun 16 2026"
       },
       {
+        "n": "larcen22",
+        "i": "Orange Discus",
+        "v": 124,
+        "r": "Epic",
+        "d": "Jun 19 2026"
+      },
+      {
         "n": "barnsdale",
         "i": "Rockingham Speedway",
         "v": 111,
@@ -11163,16 +11178,16 @@
         "v": 49,
         "r": "Uncommon",
         "d": "Jun 16 2026"
-      },
-      {
-        "n": "danfzzl",
-        "i": "Sway Bar Clamps",
-        "v": 49,
-        "r": "Uncommon",
-        "d": "Jun 18 2026"
       }
     ],
     "daily": [
+      {
+        "n": "larcen22",
+        "i": "Orange Discus",
+        "v": 124,
+        "r": "Epic",
+        "d": "Jun 19 2026"
+      },
       {
         "n": "barnsdale",
         "i": "C License",
@@ -12084,7 +12099,7 @@
         }
       },
       "catch_of_day": {
-        "total": 133,
+        "total": 132,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -12217,16 +12232,15 @@
           "realiist1",
           "letirefessedu74",
           "iiaipii",
-          "13eard",
-          "barnsdale"
+          "13eard"
         ],
         "latest": {
-          "u": "barnsdale",
-          "d": "Jun 19 2026"
+          "u": "13eard",
+          "d": "Jun 17 2026"
         }
       },
       "win_day": {
-        "total": 95,
+        "total": 94,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12321,12 +12335,11 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard",
-          "barnsdale"
+          "13eard"
         ],
         "latest": {
-          "u": "barnsdale",
-          "d": "Jun 19 2026"
+          "u": "13eard",
+          "d": "Jun 17 2026"
         }
       },
       "double_down": {
@@ -20687,8 +20700,6 @@
       "barnsdale": {
         "broke_in": "May 10 2026",
         "first_cast": "Jun 19 2026",
-        "win_day": "Jun 19 2026",
-        "catch_of_day": "Jun 19 2026",
         "custom_catch": "May 10 2026"
       },
       "sparkyracingtv": {
@@ -22309,7 +22320,7 @@
       "n": "Orange Discus",
       "custom": false,
       "r": "Epic",
-      "c": 36,
+      "c": 37,
       "h": "pvtcrackpot",
       "v": 124,
       "w": 0.34
@@ -25728,7 +25739,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 36,
+      "c": 37,
       "rec": "0.34 lb",
       "v": 124
     },
@@ -27868,6 +27879,14 @@
   ],
   "recent": [
     {
+      "u": "larcen22",
+      "i": "Orange Discus",
+      "w": 0.34,
+      "v": 124,
+      "r": "Epic",
+      "d": "Jun 19 2026"
+    },
+    {
       "u": "barnsdale",
       "i": "C License",
       "w": 0.87,
@@ -28456,14 +28475,6 @@
       "i": "NEW Visual Flag System Full Package",
       "w": 0.91,
       "v": 68,
-      "r": "Rare",
-      "d": "Jun 16 2026"
-    },
-    {
-      "u": "who_flung_poo_36",
-      "i": "Chase Briscoe",
-      "w": 27.53,
-      "v": 110,
       "r": "Rare",
       "d": "Jun 16 2026"
     }
