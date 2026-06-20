@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T02:11:36Z",
+  "generated_at": "2026-06-20T02:14:48Z",
   "meta": {
-    "total_hands": 306,
+    "total_hands": 307,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,8 +11,8 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 392725,
-    "top_player": "pvtcrackpot"
+    "top_chips": 483155,
+    "top_player": "diehllane"
   },
   "competition_meta": {
     "daily": {
@@ -35,18 +35,18 @@
   "leaderboards": {
     "alltime": [
       {
+        "u": "diehllane",
+        "chips": 483155,
+        "net": 253055,
+        "hands": 2,
+        "ach": 11
+      },
+      {
         "u": "pvtcrackpot",
         "chips": 392725,
         "net": 201975,
         "hands": 0,
         "ach": 2
-      },
-      {
-        "u": "diehllane",
-        "chips": 230050,
-        "net": 0,
-        "hands": 1,
-        "ach": 4
       },
       {
         "u": "flippy00",
@@ -241,10 +241,10 @@
     "daily": [
       {
         "u": "diehllane",
-        "chips": 230050,
-        "net": 0,
-        "hands": 1,
-        "ach": 4
+        "chips": 483155,
+        "net": 253055,
+        "hands": 2,
+        "ach": 11
       },
       {
         "u": "larcen22",
@@ -264,15 +264,14 @@
   },
   "daily_highlights": {
     "biggest_win": {
-      "u": "juicedracing",
+      "u": "diehllane",
       "cards": [
-        "7♦",
-        "2♣",
-        "10♥"
+        "K♣",
+        "K♥"
       ],
-      "total": 19,
-      "bet": 15000,
-      "net": 15000,
+      "total": 20,
+      "bet": 230050,
+      "net": 253055,
       "result": "win"
     },
     "biggest_loss": {
@@ -290,13 +289,13 @@
     "biggest_bet": {
       "u": "diehllane",
       "cards": [
-        "J♣",
-        "9♦"
+        "K♣",
+        "K♥"
       ],
-      "total": 19,
-      "bet": 200000,
-      "net": 0,
-      "result": "push"
+      "total": 20,
+      "bet": 230050,
+      "net": 253055,
+      "result": "win"
     },
     "most_hands": {
       "u": "larcen22",
@@ -3676,18 +3675,22 @@
         }
       },
       "exact_change_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "topjoedirty",
-          "d": "2026-06-17"
+          "u": "diehllane",
+          "d": "2026-06-19"
         }
       },
       "big_nerve_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "larcen22",
+          "u": "diehllane",
           "d": "2026-06-19"
         }
       },
@@ -3752,10 +3755,11 @@
         }
       },
       "bank_builder_250k": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "ikatipoi",
-          "pvtcrackpot"
+          "pvtcrackpot",
+          "diehllane"
         ],
         "latest": {
           "u": "—",
@@ -3821,19 +3825,23 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "itzdubsta",
-          "d": "2026-06-17"
+          "u": "diehllane",
+          "d": "2026-06-19"
         }
       },
       "big_swing_session_200k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-05"
+          "u": "diehllane",
+          "d": "2026-06-19"
         }
       },
       "big_swing_session_500k": {
@@ -4037,10 +4045,12 @@
         }
       },
       "poker_pair_any": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "larcen22",
+          "u": "diehllane",
           "d": "2026-06-19"
         }
       },
@@ -4269,10 +4279,12 @@
         }
       },
       "clean_poker_win": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "larcen22",
+          "u": "diehllane",
           "d": "2026-06-19"
         }
       },
@@ -4327,10 +4339,57 @@
         "bank_builder_100k": "earned",
         "high_roller_50k": "2026-06-19",
         "high_roller_100k": "2026-06-19",
-        "escalator": "2026-06-19"
+        "escalator": "2026-06-19",
+        "exact_change_win": "2026-06-19",
+        "big_nerve_win": "2026-06-19",
+        "poker_pair_any": "2026-06-19",
+        "clean_poker_win": "2026-06-19",
+        "bank_builder_250k": "earned",
+        "big_swing_session_50k": "2026-06-19",
+        "big_swing_session_200k": "2026-06-19"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "exact_change_win",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "big_nerve_win",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "poker_pair_any",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "clean_poker_win",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "big_swing_session_200k",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
       {
         "id": "high_roller_50k",
         "u": "diehllane",
@@ -4390,46 +4449,6 @@
         "id": "roller_coaster_session",
         "u": "larcen22",
         "d": "2026-06-19"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "juicedracing",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "roller_coaster_session",
-        "u": "juicedracing",
-        "d": "2026-06-17"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "topjoedirty",
-        "d": "2026-06-17"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "topjoedirty",
-        "d": "2026-06-17"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "juicedracing",
-        "d": "2026-06-17"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "juicedracing",
-        "d": "2026-06-17"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-06-17"
       }
     ]
   },
@@ -5150,6 +5169,43 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1781921688.8150325,
+      "date": "2026-06-19",
+      "player": "diehllane",
+      "bet": 230050,
+      "balance_before": 230050,
+      "result": "win",
+      "net_delta": 253055,
+      "player_cards": [
+        "K♣",
+        "K♥"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♥",
+        "5♣",
+        "J♦"
+      ],
+      "dealer_total": 23,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 0,
+      "poker_bonus": 23005,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "exact_change_win",
+        "big_nerve_win",
+        "poker_pair_any",
+        "clean_poker_win",
+        "big_swing_session_50k",
+        "big_swing_session_200k"
+      ]
+    },
     {
       "ts": 1781921496.7150633,
       "date": "2026-06-19",
@@ -6659,37 +6715,6 @@
         "exact_change_win",
         "big_nerve_win",
         "double_or_nothing"
-      ]
-    },
-    {
-      "ts": 1780696689.3988276,
-      "date": "2026-06-05",
-      "player": "kirk0218",
-      "bet": 6400,
-      "balance_before": 6400,
-      "result": "win",
-      "net_delta": 6400,
-      "player_cards": [
-        "J♦",
-        "K♠"
-      ],
-      "player_total": 20,
-      "hit_count": 0,
-      "dealer_cards": [
-        "J♠",
-        "2♠",
-        "6♦"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win"
       ]
     }
   ]
