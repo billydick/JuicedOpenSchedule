@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T02:14:48Z",
+  "generated_at": "2026-06-20T02:16:39Z",
   "meta": {
-    "total_hands": 307,
+    "total_hands": 309,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,7 +11,7 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 483155,
+    "top_chips": 413735,
     "top_player": "diehllane"
   },
   "competition_meta": {
@@ -36,17 +36,17 @@
     "alltime": [
       {
         "u": "diehllane",
-        "chips": 483155,
-        "net": 253055,
-        "hands": 2,
-        "ach": 11
+        "chips": 413735,
+        "net": 183635,
+        "hands": 3,
+        "ach": 12
       },
       {
         "u": "pvtcrackpot",
-        "chips": 392725,
-        "net": 201975,
-        "hands": 0,
-        "ach": 2
+        "chips": 297725,
+        "net": 101975,
+        "hands": 1,
+        "ach": 6
       },
       {
         "u": "flippy00",
@@ -225,7 +225,7 @@
       },
       {
         "u": "juicedracing",
-        "chips": 2350,
+        "chips": 2600,
         "net": -434567,
         "hands": 1,
         "ach": 1
@@ -241,10 +241,10 @@
     "daily": [
       {
         "u": "diehllane",
-        "chips": 483155,
-        "net": 253055,
-        "hands": 2,
-        "ach": 11
+        "chips": 413735,
+        "net": 183635,
+        "hands": 3,
+        "ach": 12
       },
       {
         "u": "larcen22",
@@ -255,10 +255,17 @@
       },
       {
         "u": "juicedracing",
-        "chips": 2350,
+        "chips": 2600,
         "net": -15500,
         "hands": 2,
         "ach": 1
+      },
+      {
+        "u": "pvtcrackpot",
+        "chips": 297725,
+        "net": -100000,
+        "hands": 1,
+        "ach": 6
       }
     ]
   },
@@ -275,16 +282,15 @@
       "result": "win"
     },
     "biggest_loss": {
-      "u": "juicedracing",
+      "u": "pvtcrackpot",
       "cards": [
-        "Q♠",
-        "4♦",
-        "J♥"
+        "10♠",
+        "4♣"
       ],
-      "total": 24,
-      "bet": 30500,
-      "net": -30500,
-      "result": "bust"
+      "total": 14,
+      "bet": 100000,
+      "net": -100000,
+      "result": "lose"
     },
     "biggest_bet": {
       "u": "diehllane",
@@ -346,7 +352,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -10000,
           "hands": 1,
           "ach": 1
@@ -405,7 +411,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -30250,
           "hands": 6,
           "ach": 1
@@ -518,7 +524,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15000,
           "hands": 3,
           "ach": 1
@@ -618,7 +624,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15150,
           "hands": 3,
           "ach": 1
@@ -709,7 +715,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15000,
           "hands": 1,
           "ach": 1
@@ -767,7 +773,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15050,
           "hands": 3,
           "ach": 1
@@ -913,7 +919,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -18150,
           "hands": 2,
           "ach": 1
@@ -962,7 +968,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15000,
           "hands": 3,
           "ach": 1
@@ -1060,7 +1066,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -455420,
           "hands": 2,
           "ach": 1
@@ -1133,7 +1139,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 405160,
           "hands": 4,
           "ach": 1
@@ -1218,7 +1224,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 19980,
           "hands": 4,
           "ach": 1
@@ -1364,7 +1370,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -16485,
           "hands": 3,
           "ach": 1
@@ -1461,7 +1467,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15000,
           "hands": 3,
           "ach": 1
@@ -1565,7 +1571,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -110000,
           "hands": 2,
           "ach": 1
@@ -1639,7 +1645,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -180000,
           "hands": 2,
           "ach": 1
@@ -1740,7 +1746,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 210265,
           "hands": 2,
           "ach": 1
@@ -1839,7 +1845,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 45000,
           "hands": 2,
           "ach": 1
@@ -1949,7 +1955,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -21200,
           "hands": 3,
           "ach": 1
@@ -2058,7 +2064,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -10000,
           "hands": 2,
           "ach": 1
@@ -2132,7 +2138,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -747130,
           "hands": 2,
           "ach": 1
@@ -2210,17 +2216,17 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 470990,
           "hands": 2,
           "ach": 1
         },
         {
           "u": "pvtcrackpot",
-          "chips": 392725,
+          "chips": 297725,
           "net": 201975,
           "hands": 1,
-          "ach": 2
+          "ach": 6
         },
         {
           "u": "larcen22",
@@ -2344,7 +2350,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 194430,
           "hands": 3,
           "ach": 1
@@ -2466,7 +2472,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 51260,
           "hands": 2,
           "ach": 1
@@ -2687,7 +2693,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -15000,
           "hands": 1,
           "ach": 1
@@ -2764,7 +2770,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -21600,
           "hands": 6,
           "ach": 1
@@ -2877,7 +2883,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -19000,
           "hands": 12,
           "ach": 1
@@ -2995,7 +3001,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": 0,
           "hands": 1,
           "ach": 1
@@ -3138,7 +3144,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -30699,
           "hands": 11,
           "ach": 1
@@ -3230,7 +3236,7 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -18,
           "hands": 4,
           "ach": 1
@@ -3362,7 +3368,7 @@
         },
         {
           "u": "juicedracing",
-          "chips": 2350,
+          "chips": 2600,
           "net": -41000,
           "hands": 6,
           "ach": 1
@@ -3631,8 +3637,9 @@
         }
       },
       "high_roller_50k": {
-        "total": 1,
+        "total": 2,
         "holders": [
+          "pvtcrackpot",
           "diehllane"
         ],
         "latest": {
@@ -3641,12 +3648,13 @@
         }
       },
       "high_roller_100k": {
-        "total": 1,
+        "total": 2,
         "holders": [
+          "pvtcrackpot",
           "diehllane"
         ],
         "latest": {
-          "u": "diehllane",
+          "u": "pvtcrackpot",
           "d": "2026-06-19"
         }
       },
@@ -3719,6 +3727,17 @@
         }
       },
       "escalator": {
+        "total": 2,
+        "holders": [
+          "pvtcrackpot",
+          "diehllane"
+        ],
+        "latest": {
+          "u": "pvtcrackpot",
+          "d": "2026-06-19"
+        }
+      },
+      "chip_tipper": {
         "total": 1,
         "holders": [
           "diehllane"
@@ -3726,14 +3745,6 @@
         "latest": {
           "u": "diehllane",
           "d": "2026-06-19"
-        }
-      },
-      "chip_tipper": {
-        "total": 0,
-        "holders": [],
-        "latest": {
-          "u": "—",
-          "d": "—"
         }
       },
       "bank_builder_100k": {
@@ -3825,12 +3836,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
+        "total": 2,
         "holders": [
+          "pvtcrackpot",
           "diehllane"
         ],
         "latest": {
-          "u": "diehllane",
+          "u": "pvtcrackpot",
           "d": "2026-06-19"
         }
       },
@@ -4327,7 +4339,11 @@
       },
       "pvtcrackpot": {
         "bank_builder_100k": "earned",
-        "bank_builder_250k": "earned"
+        "bank_builder_250k": "earned",
+        "high_roller_50k": "2026-05-09",
+        "high_roller_100k": "2026-05-09",
+        "big_swing_session_50k": "2026-05-09",
+        "escalator": "2026-05-09"
       },
       "itzdubsta": {
         "bank_builder_100k": "earned"
@@ -4346,10 +4362,41 @@
         "clean_poker_win": "2026-06-19",
         "bank_builder_250k": "earned",
         "big_swing_session_50k": "2026-06-19",
-        "big_swing_session_200k": "2026-06-19"
+        "big_swing_session_200k": "2026-06-19",
+        "chip_tipper": "2026-06-19"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "chip_tipper",
+        "u": "diehllane",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "high_roller_50k",
+        "u": "pvtcrackpot",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "pvtcrackpot",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "pvtcrackpot",
+        "d": "2026-06-19"
+      },
+      {
+        "id": "escalator",
+        "u": "pvtcrackpot",
+        "d": "2026-06-19"
+      },
       {
         "id": "high_roller_50k",
         "u": "diehllane",
@@ -4417,36 +4464,6 @@
       },
       {
         "id": "big_nerve_win",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "triple_hit_win",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "clean_poker_win",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "riches_to_rags_session",
-        "u": "larcen22",
-        "d": "2026-06-19"
-      },
-      {
-        "id": "roller_coaster_session",
         "u": "larcen22",
         "d": "2026-06-19"
       }
@@ -5169,6 +5186,69 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1781921799.2713618,
+      "date": "2026-06-19",
+      "player": "diehllane",
+      "bet": 69420,
+      "balance_before": 483155,
+      "result": "lose",
+      "net_delta": -69420,
+      "player_cards": [
+        "4♥",
+        "3♦",
+        "K♥"
+      ],
+      "player_total": 17,
+      "hit_count": 1,
+      "dealer_cards": [
+        "A♦",
+        "10♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "chip_tipper"
+      ]
+    },
+    {
+      "ts": 1781921799.270988,
+      "date": "2026-06-19",
+      "player": "pvtcrackpot",
+      "bet": 100000,
+      "balance_before": 397725,
+      "result": "lose",
+      "net_delta": -100000,
+      "player_cards": [
+        "10♠",
+        "4♣"
+      ],
+      "player_total": 14,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♦",
+        "10♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 2,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "big_swing_session_50k",
+        "escalator"
+      ]
+    },
     {
       "ts": 1781921688.8150325,
       "date": "2026-06-19",
@@ -6647,74 +6727,6 @@
       "achievements_earned": [
         "exact_change_win",
         "big_nerve_win"
-      ]
-    },
-    {
-      "ts": 1780705411.9718962,
-      "date": "2026-06-05",
-      "player": "juicedracing",
-      "bet": 455420,
-      "balance_before": 455420,
-      "result": "lose",
-      "net_delta": -455420,
-      "player_cards": [
-        "J♦",
-        "5♥",
-        "A♠"
-      ],
-      "player_total": 16,
-      "hit_count": 1,
-      "dealer_cards": [
-        "2♣",
-        "10♥",
-        "6♣"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "high_roller_50k",
-        "high_roller_100k",
-        "high_roller_250k",
-        "rags_to_riches_session",
-        "big_swing_session_50k",
-        "big_swing_session_200k",
-        "escalator"
-      ]
-    },
-    {
-      "ts": 1780696748.8439808,
-      "date": "2026-06-05",
-      "player": "kirk0218",
-      "bet": 12850,
-      "balance_before": 12850,
-      "result": "win",
-      "net_delta": 12850,
-      "player_cards": [
-        "J♠",
-        "9♣"
-      ],
-      "player_total": 19,
-      "hit_count": 0,
-      "dealer_cards": [
-        "8♠",
-        "9♠"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win",
-        "double_or_nothing"
       ]
     }
   ]
