@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-21T03:26:14.567143+00:00",
-    "total_catches": 23327,
+    "generated_at": "2026-06-21T04:03:05.576628+00:00",
+    "total_catches": 23328,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23327 catches"
+      "sub": "Since launch - 23328 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -580,10 +580,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 9526,
-        "c": 131,
-        "casts": 131,
-        "l": "Jun 19 2026"
+        "g": 9541,
+        "c": 132,
+        "casts": 132,
+        "l": "Jun 21 2026"
       },
       {
         "u": "beliron",
@@ -6614,10 +6614,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3119,
-        "c": 45,
-        "casts": 45,
-        "l": "Jun 19 2026"
+        "g": 3134,
+        "c": 46,
+        "casts": 46,
+        "l": "Jun 21 2026"
       },
       {
         "u": "beliron",
@@ -6824,10 +6824,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1081,
-        "c": 19,
-        "casts": 19,
-        "l": "Jun 19 2026"
+        "g": 1096,
+        "c": 20,
+        "casts": 20,
+        "l": "Jun 21 2026"
       },
       {
         "u": "gatoraintplaying",
@@ -7027,6 +7027,14 @@
         "u": "killa_0zz",
         "n": "killa_0zz",
         "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 21 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 15,
         "c": 1,
         "casts": 1,
         "l": "Jun 21 2026"
@@ -11244,6 +11252,13 @@
         "i": "MWR BATTERY CONNECTOR WIRING",
         "v": 48,
         "r": "Uncommon",
+        "d": "Jun 21 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Trout",
+        "v": 15,
+        "r": "Common",
         "d": "Jun 21 2026"
       }
     ]
@@ -23937,7 +23952,7 @@
       "n": "Trout",
       "custom": false,
       "r": "Common",
-      "c": 182,
+      "c": 183,
       "h": "flippy00",
       "v": 17,
       "w": 1.13
@@ -24710,7 +24725,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 182,
+      "c": 183,
       "rec": "1.13 lb",
       "v": 17
     },
@@ -27930,6 +27945,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Trout",
+      "w": 1.01,
+      "v": 15,
+      "r": "Common",
+      "d": "Jun 21 2026"
+    },
+    {
       "u": "killa_0zz",
       "i": "MWR BATTERY CONNECTOR WIRING",
       "w": 0.97,
@@ -28519,14 +28542,6 @@
       "w": 15.5,
       "v": 26,
       "r": "Common",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Orangespined Unicornfish",
-      "w": 0.9,
-      "v": 68,
-      "r": "Rare",
       "d": "Jun 17 2026"
     }
   ]
