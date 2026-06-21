@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-21T04:16:28.171808+00:00",
-    "total_catches": 23329,
+    "generated_at": "2026-06-21T04:51:20.090359+00:00",
+    "total_catches": 23330,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23329 catches"
+      "sub": "Since launch - 23330 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -364,10 +364,10 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 35473,
-        "c": 503,
-        "casts": 503,
-        "l": "Feb 06 2026"
+        "g": 35489,
+        "c": 504,
+        "casts": 504,
+        "l": "Jun 21 2026"
       },
       {
         "u": "karnalsanders",
@@ -7032,6 +7032,14 @@
         "l": "Jun 21 2026"
       },
       {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 21 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 15,
@@ -11252,6 +11260,13 @@
         "i": "MWR BATTERY CONNECTOR WIRING",
         "v": 48,
         "r": "Uncommon",
+        "d": "Jun 21 2026"
+      },
+      {
+        "n": "jdawg250f",
+        "i": "Bristol Motor Speedway",
+        "v": 16,
+        "r": "Common",
         "d": "Jun 21 2026"
       },
       {
@@ -23925,7 +23940,7 @@
       "n": "Bristol Motor Speedway",
       "custom": true,
       "r": "Common",
-      "c": 138,
+      "c": 139,
       "h": "scriptedpr",
       "v": 17,
       "w": 225.65
@@ -26840,7 +26855,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You wrecked in turn 1, fuck this track!",
-      "c": 138,
+      "c": 139,
       "rec": "225.65 lb",
       "v": 17
     },
@@ -27945,6 +27960,14 @@
   ],
   "recent": [
     {
+      "u": "jdawg250f",
+      "i": "Bristol Motor Speedway",
+      "w": 213.72,
+      "v": 16,
+      "r": "Common",
+      "d": "Jun 21 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Thong",
       "w": 0.19,
@@ -28533,14 +28556,6 @@
       "i": "Kevon Jackson",
       "w": 45.39,
       "v": 68,
-      "r": "Rare",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Button Box",
-      "w": 2.7,
-      "v": 90,
       "r": "Rare",
       "d": "Jun 17 2026"
     }
