@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T21:52:49Z",
+  "generated_at": "2026-06-22T21:56:17Z",
   "meta": {
-    "total_hands": 314,
+    "total_hands": 315,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,7 +11,7 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 1248836,
+    "top_chips": 1248886,
     "top_player": "diehllane"
   },
   "competition_meta": {
@@ -36,9 +36,9 @@
     "alltime": [
       {
         "u": "diehllane",
-        "chips": 1248836,
+        "chips": 1248886,
         "net": 1008636,
-        "hands": 3,
+        "hands": 4,
         "ach": 15
       },
       {
@@ -241,9 +241,9 @@
     "daily": [
       {
         "u": "diehllane",
-        "chips": 1248836,
+        "chips": 1248886,
         "net": 275001,
-        "hands": 3,
+        "hands": 4,
         "ach": 15
       }
     ]
@@ -275,17 +275,18 @@
     "biggest_bet": {
       "u": "diehllane",
       "cards": [
-        "9♣",
-        "10♣"
+        "6♦",
+        "4♥",
+        "K♥"
       ],
-      "total": 19,
-      "bet": 500000,
-      "net": 500000,
-      "result": "win"
+      "total": 20,
+      "bet": 1248836,
+      "net": 0,
+      "result": "push"
     },
     "most_hands": {
       "u": "diehllane",
-      "n": 3
+      "n": 4
     },
     "best_streak": {
       "u": "diehllane",
@@ -330,7 +331,7 @@
       "leaderboard": [
         {
           "u": "diehllane",
-          "chips": 1248836,
+          "chips": 1248886,
           "net": 300000,
           "hands": 1,
           "ach": 15
@@ -389,7 +390,7 @@
       "leaderboard": [
         {
           "u": "diehllane",
-          "chips": 1248836,
+          "chips": 1248886,
           "net": 433635,
           "hands": 4,
           "ach": 15
@@ -4526,6 +4527,26 @@
         "d": "2026-06-22"
       },
       {
+        "id": "high_roller_500k",
+        "u": "diehllane",
+        "d": "2026-06-22"
+      },
+      {
+        "id": "high_roller_50k",
+        "u": "diehllane",
+        "d": "2026-06-22"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "diehllane",
+        "d": "2026-06-22"
+      },
+      {
+        "id": "high_roller_250k",
+        "u": "diehllane",
+        "d": "2026-06-22"
+      },
+      {
         "id": "high_roller_50k",
         "u": "diehllane",
         "d": "2026-06-22"
@@ -4589,26 +4610,6 @@
         "id": "big_swing_session_200k",
         "u": "diehllane",
         "d": "2026-06-22"
-      },
-      {
-        "id": "escalator",
-        "u": "diehllane",
-        "d": "2026-06-22"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "diehllane",
-        "d": "2026-06-20"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "diehllane",
-        "d": "2026-06-20"
-      },
-      {
-        "id": "high_roller_250k",
-        "u": "diehllane",
-        "d": "2026-06-20"
       }
     ]
   },
@@ -5329,6 +5330,40 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1782165377.7641878,
+      "date": "2026-06-22",
+      "player": "diehllane",
+      "bet": 1248836,
+      "balance_before": 1248836,
+      "result": "push",
+      "net_delta": 0,
+      "player_cards": [
+        "6♦",
+        "4♥",
+        "K♥"
+      ],
+      "player_total": 20,
+      "hit_count": 1,
+      "dealer_cards": [
+        "9♠",
+        "3♠",
+        "8♦"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "high_roller_250k",
+        "high_roller_500k"
+      ]
+    },
     {
       "ts": 1782165169.1600478,
       "date": "2026-06-22",
@@ -6853,35 +6888,6 @@
       "dealer_cards": [
         "9♦",
         "10♦"
-      ],
-      "dealer_total": 19,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1780804983.4930286,
-      "date": "2026-06-06",
-      "player": "juicedracing",
-      "bet": 30000,
-      "balance_before": 30050,
-      "result": "bust",
-      "net_delta": -30000,
-      "player_cards": [
-        "4♥",
-        "2♥",
-        "9♠",
-        "J♣"
-      ],
-      "player_total": 25,
-      "hit_count": 2,
-      "dealer_cards": [
-        "J♦",
-        "9♥"
       ],
       "dealer_total": 19,
       "dealer_bust": false,
