@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T20:55:30.905178+00:00",
-    "total_catches": 23331,
+    "generated_at": "2026-06-22T23:35:02.968267+00:00",
+    "total_catches": 23332,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23331 catches"
+      "sub": "Since launch - 23332 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -580,10 +580,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 9541,
-        "c": 132,
-        "casts": 132,
-        "l": "Jun 21 2026"
+        "g": 9557,
+        "c": 133,
+        "casts": 133,
+        "l": "Jun 22 2026"
       },
       {
         "u": "beliron",
@@ -6614,10 +6614,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3134,
-        "c": 46,
-        "casts": 46,
-        "l": "Jun 21 2026"
+        "g": 3150,
+        "c": 47,
+        "casts": 47,
+        "l": "Jun 22 2026"
       },
       {
         "u": "beliron",
@@ -6804,8 +6804,26 @@
         "l": "Jun 04 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 22 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 22 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10828,8 +10846,24 @@
         "d": "Jun 16 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "nellafella",
+        "i": "Carp",
+        "v": 16,
+        "r": "Common",
+        "d": "Jun 22 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Carp",
+        "v": 16,
+        "r": "Common",
+        "d": "Jun 22 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23502,7 +23536,7 @@
       "n": "Carp",
       "custom": false,
       "r": "Common",
-      "c": 166,
+      "c": 167,
       "h": "78motu78",
       "v": 17,
       "w": 9.03
@@ -24490,7 +24524,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 166,
+      "c": 167,
       "rec": "9.03 lb",
       "v": 17
     },
@@ -27395,6 +27429,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Carp",
+      "w": 8.76,
+      "v": 16,
+      "r": "Common",
+      "d": "Jun 22 2026"
+    },
+    {
       "u": "larcen22",
       "i": "NASCAR Pace Car",
       "w": 174.89,
@@ -27984,14 +28026,6 @@
       "w": 170.62,
       "v": 55,
       "r": "Rare",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "NASCAR Tickets",
-      "w": 0.98,
-      "v": 49,
-      "r": "Uncommon",
       "d": "Jun 17 2026"
     }
   ]
