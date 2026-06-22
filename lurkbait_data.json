@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-22T23:50:26.242976+00:00",
-    "total_catches": 23333,
+    "generated_at": "2026-06-22T23:51:31.325546+00:00",
+    "total_catches": 23335,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23333 catches"
+      "sub": "Since launch - 23335 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 106145,
-        "c": 1577,
-        "casts": 1577,
-        "l": "Jun 16 2026"
+        "g": 106146,
+        "c": 1578,
+        "casts": 1578,
+        "l": "Jun 22 2026"
       },
       {
         "u": "motionless",
@@ -908,10 +908,10 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
-        "g": 4219,
-        "c": 60,
-        "casts": 60,
-        "l": "Jun 18 2026"
+        "g": 4252,
+        "c": 61,
+        "casts": 61,
+        "l": "Jun 22 2026"
       },
       {
         "u": "showtime_84",
@@ -6734,10 +6734,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 413,
-        "c": 6,
-        "casts": 6,
-        "l": "Jun 16 2026"
+        "g": 414,
+        "c": 7,
+        "casts": 7,
+        "l": "Jun 22 2026"
       },
       {
         "u": "barnsdale",
@@ -6746,6 +6746,14 @@
         "c": 5,
         "casts": 5,
         "l": "Jun 19 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 299,
+        "c": 8,
+        "casts": 8,
+        "l": "Jun 22 2026"
       },
       {
         "u": "aquadays",
@@ -6762,14 +6770,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 04 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 266,
-        "c": 7,
-        "casts": 7,
-        "l": "Jun 18 2026"
       },
       {
         "u": "rms_racing",
@@ -6806,21 +6806,53 @@
     ],
     "weekly": [
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 18,
-        "c": 2,
-        "casts": 2,
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
         "l": "Jun 22 2026"
-      }
-    ],
-    "daily": [
+      },
       {
         "u": "nellafella",
         "n": "nellafella",
         "g": 18,
         "c": 2,
         "casts": 2,
+        "l": "Jun 22 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 22 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 22 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 18,
+        "c": 2,
+        "casts": 2,
+        "l": "Jun 22 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
         "l": "Jun 22 2026"
       }
     ]
@@ -10848,19 +10880,47 @@
     ],
     "weekly": [
       {
-        "n": "nellafella",
-        "i": "Carp",
-        "v": 16,
-        "r": "Common",
+        "n": "itzdubsta",
+        "i": "Starfish",
+        "v": 33,
+        "r": "Uncommon",
         "d": "Jun 22 2026"
-      }
-    ],
-    "daily": [
+      },
       {
         "n": "nellafella",
         "i": "Carp",
         "v": 16,
         "r": "Common",
+        "d": "Jun 22 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Justin Haley",
+        "v": 1,
+        "r": "Junk",
+        "d": "Jun 22 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "itzdubsta",
+        "i": "Starfish",
+        "v": 33,
+        "r": "Uncommon",
+        "d": "Jun 22 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Carp",
+        "v": 16,
+        "r": "Common",
+        "d": "Jun 22 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "Justin Haley",
+        "v": 1,
+        "r": "Junk",
         "d": "Jun 22 2026"
       }
     ]
@@ -14568,7 +14628,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -14596,11 +14656,12 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "itzdubsta"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "itzdubsta",
+          "d": "Jun 22 2026"
         }
       },
       "win_month": {
@@ -19404,6 +19465,7 @@
         "walk_in": "Aug 02 2025",
         "dex_hunter": "May 08 2026",
         "custom_club": "Jul 15 2025",
+        "win_week": "Jun 22 2026",
         "golden_cast": "Sep 10 2025"
       },
       "brookswhynot": {
@@ -23248,7 +23310,7 @@
       "n": "Starfish",
       "custom": false,
       "r": "Uncommon",
-      "c": 74,
+      "c": 75,
       "h": "azsuperbeast",
       "v": 34,
       "w": 0.11
@@ -23698,7 +23760,7 @@
       "n": "Justin Haley",
       "custom": true,
       "r": "Common",
-      "c": 164,
+      "c": 165,
       "h": "riflehog",
       "v": 1,
       "w": 11.29
@@ -24004,11 +24066,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1577
+      "n": 1578
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 106145
+      "n": 106146
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -24119,7 +24181,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 74,
+      "c": 75,
       "rec": "0.11 lb",
       "v": 34
     },
@@ -25109,7 +25171,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "2026 championship odds (DraftKings): 250-1",
-      "c": 164,
+      "c": 165,
       "rec": "11.29 lb",
       "v": 1
     },
@@ -27429,6 +27491,22 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "Starfish",
+      "w": 0.11,
+      "v": 33,
+      "r": "Uncommon",
+      "d": "Jun 22 2026"
+    },
+    {
+      "u": "flippy00",
+      "i": "Justin Haley",
+      "w": 9.14,
+      "v": 1,
+      "r": "Junk",
+      "d": "Jun 22 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Branch",
       "w": 0.48,
@@ -28010,22 +28088,6 @@
       "w": 46.57,
       "v": 93,
       "r": "Rare",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Parrot Fish",
-      "w": 1.61,
-      "v": 56,
-      "r": "Rare",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Shane Van Gisbergen_",
-      "w": 108.54,
-      "v": 217,
-      "r": "Epic",
       "d": "Jun 17 2026"
     }
   ]
