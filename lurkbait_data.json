@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-25T01:16:21.934793+00:00",
-    "total_catches": 23343,
+    "generated_at": "2026-06-25T01:55:17.867070+00:00",
+    "total_catches": 23344,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23343 catches"
+      "sub": "Since launch - 23344 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -348,10 +348,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 37338,
-        "c": 499,
-        "casts": 499,
-        "l": "Jun 18 2026"
+        "g": 37402,
+        "c": 500,
+        "casts": 500,
+        "l": "Jun 25 2026"
       },
       {
         "u": "juicedracing",
@@ -6606,10 +6606,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 3557,
-        "c": 52,
-        "casts": 52,
-        "l": "Jun 18 2026"
+        "g": 3621,
+        "c": 53,
+        "casts": 53,
+        "l": "Jun 25 2026"
       },
       {
         "u": "nellafella",
@@ -6822,6 +6822,14 @@
         "l": "Jun 25 2026"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 64,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 25 2026"
+      },
+      {
         "u": "jdawg250f",
         "n": "jdawg250f",
         "g": 63,
@@ -6861,6 +6869,14 @@
         "g": 97,
         "c": 2,
         "casts": 2,
+        "l": "Jun 25 2026"
+      },
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 64,
+        "c": 1,
+        "casts": 1,
         "l": "Jun 25 2026"
       },
       {
@@ -10714,6 +10730,13 @@
         "d": "Jun 25 2026"
       },
       {
+        "n": "brookswhynot",
+        "i": "Carbon Fiber Digital Dash",
+        "v": 64,
+        "r": "Rare",
+        "d": "Jun 25 2026"
+      },
+      {
         "n": "jdawg250f",
         "i": "Sim Racing Shoes",
         "v": 53,
@@ -10748,6 +10771,13 @@
         "i": "Triggerfish",
         "v": 96,
         "r": "Uncommon",
+        "d": "Jun 25 2026"
+      },
+      {
+        "n": "brookswhynot",
+        "i": "Carbon Fiber Digital Dash",
+        "v": 64,
+        "r": "Rare",
         "d": "Jun 25 2026"
       },
       {
@@ -13324,7 +13354,7 @@
         }
       },
       "grinder": {
-        "total": 9,
+        "total": 10,
         "holders": [
           "wintergofast",
           "flippy00",
@@ -13334,11 +13364,12 @@
           "pvtcrackpot",
           "benwysard",
           "jdawg250f",
-          "juicedracing"
+          "juicedracing",
+          "brookswhynot"
         ],
         "latest": {
-          "u": "juicedracing",
-          "d": "Apr 18 2026"
+          "u": "brookswhynot",
+          "d": "Jun 25 2026"
         }
       },
       "dex_hunter": {
@@ -19322,6 +19353,7 @@
         "regular_weight": "Sep 08 2025",
         "nascar_pass": "Feb 08 2026",
         "century": "Feb 08 2026",
+        "grinder": "Jun 25 2026",
         "dex_hunter": "Aug 26 2025",
         "completionist": "Apr 21 2026",
         "full_spectrum": "Nov 12 2025",
@@ -22555,7 +22587,7 @@
       "n": "Carbon Fiber Digital Dash",
       "custom": true,
       "r": "Rare",
-      "c": 59,
+      "c": 60,
       "h": "fjvgaming",
       "v": 84,
       "w": 5.63
@@ -25919,7 +25951,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "",
-      "c": 59,
+      "c": 60,
       "rec": "5.63 lb",
       "v": 84
     },
@@ -27330,6 +27362,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Carbon Fiber Digital Dash",
+      "w": 4.24,
+      "v": 64,
+      "r": "Rare",
+      "d": "Jun 25 2026"
+    },
+    {
       "u": "motionless",
       "i": "Thong",
       "w": 0.17,
@@ -27919,14 +27959,6 @@
       "w": 0.5,
       "v": 10,
       "r": "Junk",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "13eard",
-      "i": "Red Eye Fish",
-      "w": 2.15,
-      "v": 30,
-      "r": "Uncommon",
       "d": "Jun 17 2026"
     }
   ]
