@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-25T01:55:17.867070+00:00",
-    "total_catches": 23344,
+    "generated_at": "2026-06-25T02:28:05.830623+00:00",
+    "total_catches": 23345,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23344 catches"
+      "sub": "Since launch - 23345 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -300,9 +300,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 101676,
-        "c": 1289,
-        "casts": 1289,
+        "g": 101727,
+        "c": 1290,
+        "casts": 1290,
         "l": "Jun 25 2026"
       },
       {
@@ -6838,6 +6838,14 @@
         "l": "Jun 25 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 53,
+        "c": 2,
+        "casts": 2,
+        "l": "Jun 25 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 33,
@@ -6852,14 +6860,6 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 23 2026"
-      },
-      {
-        "u": "motionless",
-        "n": "motionless",
-        "g": 2,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 25 2026"
       }
     ],
     "daily": [
@@ -6890,9 +6890,9 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 2,
-        "c": 1,
-        "casts": 1,
+        "g": 53,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 25 2026"
       }
     ]
@@ -10744,6 +10744,13 @@
         "d": "Jun 25 2026"
       },
       {
+        "n": "motionless",
+        "i": "NASCAR Tickets",
+        "v": 51,
+        "r": "Uncommon",
+        "d": "Jun 25 2026"
+      },
+      {
         "n": "itzdubsta",
         "i": "Starfish",
         "v": 33,
@@ -10756,13 +10763,6 @@
         "v": 9,
         "r": "Junk",
         "d": "Jun 23 2026"
-      },
-      {
-        "n": "motionless",
-        "i": "Thong",
-        "v": 2,
-        "r": "Junk",
-        "d": "Jun 25 2026"
       }
     ],
     "daily": [
@@ -10789,9 +10789,9 @@
       },
       {
         "n": "motionless",
-        "i": "Thong",
-        "v": 2,
-        "r": "Junk",
+        "i": "NASCAR Tickets",
+        "v": 51,
+        "r": "Uncommon",
         "d": "Jun 25 2026"
       }
     ]
@@ -22956,7 +22956,7 @@
       "n": "NASCAR Tickets",
       "custom": true,
       "r": "Uncommon",
-      "c": 94,
+      "c": 95,
       "h": "pvtcrackpot",
       "v": 56,
       "w": 1.13
@@ -23949,7 +23949,7 @@
     },
     "alltime_unique": {
       "u": "motionless",
-      "n": 325
+      "n": 326
     },
     "best_day_catches": {
       "u": "ironlegacy_",
@@ -24691,7 +24691,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Fuck ya NASCAR tickets!",
-      "c": 94,
+      "c": 95,
       "rec": "1.13 lb",
       "v": 56
     },
@@ -27362,6 +27362,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "NASCAR Tickets",
+      "w": 1.02,
+      "v": 51,
+      "r": "Uncommon",
+      "d": "Jun 25 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Carbon Fiber Digital Dash",
       "w": 4.24,
@@ -27951,14 +27959,6 @@
       "w": 4.24,
       "v": 42,
       "r": "Uncommon",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Strange Vase",
-      "w": 0.5,
-      "v": 10,
-      "r": "Junk",
       "d": "Jun 17 2026"
     }
   ]
