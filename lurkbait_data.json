@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-24T23:02:00.634857+00:00",
-    "total_catches": 23338,
+    "generated_at": "2026-06-25T00:51:33.450592+00:00",
+    "total_catches": 23339,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23338 catches"
+      "sub": "Since launch - 23339 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -364,10 +364,10 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 35489,
-        "c": 504,
-        "casts": 504,
-        "l": "Jun 21 2026"
+        "g": 35499,
+        "c": 505,
+        "casts": 505,
+        "l": "Jun 25 2026"
       },
       {
         "u": "karnalsanders",
@@ -6828,9 +6828,26 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 23 2026"
+      },
+      {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 25 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 25 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10665,6 +10682,13 @@
         "d": "Jun 22 2026"
       },
       {
+        "n": "jdawg250f",
+        "i": "iRacing Protest",
+        "v": 10,
+        "r": "Junk",
+        "d": "Jun 25 2026"
+      },
+      {
         "n": "flippy00",
         "i": "Annoying iRacer kid",
         "v": 9,
@@ -10672,7 +10696,15 @@
         "d": "Jun 23 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "jdawg250f",
+        "i": "iRacing Protest",
+        "v": 10,
+        "r": "Junk",
+        "d": "Jun 25 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23444,7 +23476,7 @@
       "n": "iRacing Protest",
       "custom": true,
       "r": "Common",
-      "c": 127,
+      "c": 128,
       "h": "tressler1987",
       "v": 11,
       "w": 1.12
@@ -26232,7 +26264,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Loser protests you cause you said you banged his sister and mom at Talladega",
-      "c": 127,
+      "c": 128,
       "rec": "1.12 lb",
       "v": 11
     },
@@ -27238,6 +27270,14 @@
   ],
   "recent": [
     {
+      "u": "jdawg250f",
+      "i": "iRacing Protest",
+      "w": 1.02,
+      "v": 10,
+      "r": "Junk",
+      "d": "Jun 25 2026"
+    },
+    {
       "u": "flippy00",
       "i": "Annoying iRacer kid",
       "w": 0.9,
@@ -27827,14 +27867,6 @@
       "w": 161.91,
       "v": 162,
       "r": "Epic",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "FUEL CELL TOP",
-      "w": 3.65,
-      "v": 69,
-      "r": "Rare",
       "d": "Jun 17 2026"
     }
   ]
