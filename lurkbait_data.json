@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-25T01:15:18.790634+00:00",
-    "total_catches": 23342,
+    "generated_at": "2026-06-25T01:16:21.934793+00:00",
+    "total_catches": 23343,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23342 catches"
+      "sub": "Since launch - 23343 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 101674,
-        "c": 1288,
-        "casts": 1288,
-        "l": "Jun 20 2026"
+        "g": 101676,
+        "c": 1289,
+        "casts": 1289,
+        "l": "Jun 25 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6844,6 +6844,14 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 23 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 25 2026"
       }
     ],
     "daily": [
@@ -6861,6 +6869,14 @@
         "g": 63,
         "c": 2,
         "casts": 2,
+        "l": "Jun 25 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
         "l": "Jun 25 2026"
       }
     ]
@@ -10717,6 +10733,13 @@
         "v": 9,
         "r": "Junk",
         "d": "Jun 23 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Thong",
+        "v": 2,
+        "r": "Junk",
+        "d": "Jun 25 2026"
       }
     ],
     "daily": [
@@ -10732,6 +10755,13 @@
         "i": "Sim Racing Shoes",
         "v": 53,
         "r": "Uncommon",
+        "d": "Jun 25 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Thong",
+        "v": 2,
+        "r": "Junk",
         "d": "Jun 25 2026"
       }
     ]
@@ -23848,7 +23878,7 @@
       "n": "Thong",
       "custom": false,
       "r": "Junk",
-      "c": 112,
+      "c": 113,
       "h": "flippy00",
       "v": 2,
       "w": 0.23
@@ -24836,7 +24866,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 112,
+      "c": 113,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -27300,6 +27330,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Thong",
+      "w": 0.17,
+      "v": 2,
+      "r": "Junk",
+      "d": "Jun 25 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Derek Kraus",
       "w": 0.9,
@@ -27889,14 +27927,6 @@
       "w": 2.15,
       "v": 30,
       "r": "Uncommon",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "grumpymitch1",
-      "i": "Suspension Clean",
-      "w": 1.04,
-      "v": 10,
-      "r": "Junk",
       "d": "Jun 17 2026"
     }
   ]
