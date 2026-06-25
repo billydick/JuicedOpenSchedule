@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-25T00:51:33.450592+00:00",
-    "total_catches": 23339,
+    "generated_at": "2026-06-25T00:57:46.789613+00:00",
+    "total_catches": 23340,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23339 catches"
+      "sub": "Since launch - 23340 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -364,9 +364,9 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 35499,
-        "c": 505,
-        "casts": 505,
+        "g": 35552,
+        "c": 506,
+        "casts": 506,
         "l": "Jun 25 2026"
       },
       {
@@ -6814,6 +6814,14 @@
         "l": "Jun 23 2026"
       },
       {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 63,
+        "c": 2,
+        "casts": 2,
+        "l": "Jun 25 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 33,
@@ -6828,23 +6836,15 @@
         "c": 2,
         "casts": 2,
         "l": "Jun 23 2026"
-      },
-      {
-        "u": "jdawg250f",
-        "n": "jdawg250f",
-        "g": 10,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 25 2026"
       }
     ],
     "daily": [
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 10,
-        "c": 1,
-        "casts": 1,
+        "g": 63,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 25 2026"
       }
     ]
@@ -10675,18 +10675,18 @@
         "d": "Jun 23 2026"
       },
       {
+        "n": "jdawg250f",
+        "i": "Sim Racing Shoes",
+        "v": 53,
+        "r": "Uncommon",
+        "d": "Jun 25 2026"
+      },
+      {
         "n": "itzdubsta",
         "i": "Starfish",
         "v": 33,
         "r": "Uncommon",
         "d": "Jun 22 2026"
-      },
-      {
-        "n": "jdawg250f",
-        "i": "iRacing Protest",
-        "v": 10,
-        "r": "Junk",
-        "d": "Jun 25 2026"
       },
       {
         "n": "flippy00",
@@ -10699,9 +10699,9 @@
     "daily": [
       {
         "n": "jdawg250f",
-        "i": "iRacing Protest",
-        "v": 10,
-        "r": "Junk",
+        "i": "Sim Racing Shoes",
+        "v": 53,
+        "r": "Uncommon",
         "d": "Jun 25 2026"
       }
     ]
@@ -22873,7 +22873,7 @@
       "n": "Sim Racing Shoes",
       "custom": true,
       "r": "Uncommon",
-      "c": 88,
+      "c": 89,
       "h": "em1_civic_si_racing",
       "v": 56,
       "w": 1.13
@@ -24617,7 +24617,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Super Nerds Unite!",
-      "c": 88,
+      "c": 89,
       "rec": "1.13 lb",
       "v": 56
     },
@@ -27271,6 +27271,14 @@
   "recent": [
     {
       "u": "jdawg250f",
+      "i": "Sim Racing Shoes",
+      "w": 1.06,
+      "v": 53,
+      "r": "Uncommon",
+      "d": "Jun 25 2026"
+    },
+    {
+      "u": "jdawg250f",
       "i": "iRacing Protest",
       "w": 1.02,
       "v": 10,
@@ -27859,14 +27867,6 @@
       "w": 9.74,
       "v": 49,
       "r": "Uncommon",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "13eard",
-      "i": "3rd @ Sonoma Raceway",
-      "w": 161.91,
-      "v": 162,
-      "r": "Epic",
       "d": "Jun 17 2026"
     }
   ]
