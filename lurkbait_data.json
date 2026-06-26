@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-26T21:21:18.453094+00:00",
-    "total_catches": 23350,
+    "generated_at": "2026-06-26T21:42:44.743543+00:00",
+    "total_catches": 23351,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23350 catches"
+      "sub": "Since launch - 23351 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 36890,
-        "c": 562,
-        "casts": 562,
-        "l": "Jun 20 2026"
+        "g": 37025,
+        "c": 563,
+        "casts": 563,
+        "l": "Jun 26 2026"
       },
       {
         "u": "jdawg250f",
@@ -6636,6 +6636,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 1155,
+        "c": 17,
+        "casts": 17,
+        "l": "Jun 26 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 1136,
@@ -6650,14 +6658,6 @@
         "c": 14,
         "casts": 14,
         "l": "Jun 11 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 1020,
-        "c": 16,
-        "casts": 16,
-        "l": "Jun 20 2026"
       },
       {
         "u": "larcen22",
@@ -6822,6 +6822,14 @@
         "l": "Jun 25 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 26 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 97,
@@ -6870,7 +6878,16 @@
         "l": "Jun 25 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 135,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 26 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10634,6 +10651,13 @@
         "d": "Jun 23 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Chris Buescher",
+        "v": 135,
+        "r": "Rare",
+        "d": "Jun 26 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Triggerfish",
         "v": 96,
@@ -10676,7 +10700,15 @@
         "d": "Jun 25 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Chris Buescher",
+        "v": 135,
+        "r": "Rare",
+        "d": "Jun 26 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21526,7 +21558,7 @@
       "n": "Chris Buescher",
       "custom": true,
       "r": "Epic",
-      "c": 43,
+      "c": 44,
       "h": "ricofyi",
       "v": 169,
       "w": 33.77
@@ -25673,7 +25705,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Punted Shane van Gisbergen to win at Watkins Glen in 2024",
-      "c": 43,
+      "c": 44,
       "rec": "33.77 lb",
       "v": 169
     },
@@ -27246,6 +27278,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Chris Buescher",
+      "w": 27.09,
+      "v": 135,
+      "r": "Rare",
+      "d": "Jun 26 2026"
+    },
+    {
       "u": "nellafella",
       "i": "$25 iRacing Creds",
       "w": 0.9,
@@ -27835,14 +27875,6 @@
       "w": 174.57,
       "v": 174,
       "r": "Rare",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Can",
-      "w": 0.52,
-      "v": 5,
-      "r": "Junk",
       "d": "Jun 17 2026"
     }
   ]
