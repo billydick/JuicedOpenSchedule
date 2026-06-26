@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T02:31:49Z",
+  "generated_at": "2026-06-26T21:21:10Z",
   "meta": {
     "total_hands": 322,
     "total_players": 29,
@@ -16,7 +16,7 @@
   },
   "competition_meta": {
     "daily": {
-      "label": "Jun 24 2026",
+      "label": "Jun 26 2026",
       "sub": "Today's Competition"
     },
     "weekly": {
@@ -52,8 +52,8 @@
         "u": "itzdubsta",
         "chips": 205000,
         "net": 147690,
-        "hands": 3,
-        "ach": 7
+        "hands": 0,
+        "ach": 1
       },
       {
         "u": "flippy00",
@@ -92,7 +92,7 @@
       },
       {
         "u": "kirk0218",
-        "chips": 87450,
+        "chips": 87500,
         "net": 42800,
         "hands": 0,
         "ach": 0
@@ -120,7 +120,7 @@
       },
       {
         "u": "nellafella",
-        "chips": 41400,
+        "chips": 41450,
         "net": 0,
         "hands": 0,
         "ach": 0
@@ -238,79 +238,85 @@
         "ach": 0
       }
     ],
-    "daily": [
-      {
-        "u": "itzdubsta",
-        "chips": 205000,
-        "net": 55630,
-        "hands": 3,
-        "ach": 7
-      }
-    ]
+    "daily": []
   },
-  "daily_highlights": {
-    "biggest_win": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♥",
-        "5♠",
-        "J♠"
-      ],
-      "total": 21,
-      "bet": 100000,
-      "net": 100000,
-      "result": "win"
-    },
-    "biggest_loss": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♦",
-        "7♥",
-        "4♦"
-      ],
-      "total": 17,
-      "bet": 44370,
-      "net": -44370,
-      "result": "lose"
-    },
-    "biggest_bet": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♥",
-        "5♠",
-        "J♠"
-      ],
-      "total": 21,
-      "bet": 100000,
-      "net": 100000,
-      "result": "win"
-    },
-    "most_hands": {
-      "u": "itzdubsta",
-      "n": 3
-    },
-    "best_streak": {
-      "u": "itzdubsta",
-      "n": 1
-    },
-    "worst_streak": {
-      "u": "itzdubsta",
-      "n": 1
-    },
-    "most_cards_win": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♥",
-        "5♠",
-        "J♠"
-      ],
-      "total": 21,
-      "bet": 100000,
-      "net": 100000,
-      "result": "win"
-    }
-  },
+  "daily_highlights": {},
   "daily_history": [
+    {
+      "label": "Jun 24",
+      "date": "2026-06-24",
+      "leaderboard": [
+        {
+          "u": "itzdubsta",
+          "chips": 205000,
+          "net": 55630,
+          "hands": 3,
+          "ach": 1
+        }
+      ],
+      "highlights": {
+        "biggest_win": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♥",
+            "5♠",
+            "J♠"
+          ],
+          "total": 21,
+          "bet": 100000,
+          "net": 100000,
+          "result": "win"
+        },
+        "biggest_loss": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♦",
+            "7♥",
+            "4♦"
+          ],
+          "total": 17,
+          "bet": 44370,
+          "net": -44370,
+          "result": "lose"
+        },
+        "biggest_bet": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♥",
+            "5♠",
+            "J♠"
+          ],
+          "total": 21,
+          "bet": 100000,
+          "net": 100000,
+          "result": "win"
+        },
+        "most_hands": {
+          "u": "itzdubsta",
+          "n": 3
+        },
+        "best_streak": {
+          "u": "itzdubsta",
+          "n": 1
+        },
+        "worst_streak": {
+          "u": "itzdubsta",
+          "n": 1
+        },
+        "most_cards_win": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♥",
+            "5♠",
+            "J♠"
+          ],
+          "total": 21,
+          "bet": 100000,
+          "net": 100000,
+          "result": "win"
+        }
+      }
+    },
     {
       "label": "Jun 22",
       "date": "2026-06-22",
@@ -637,7 +643,7 @@
           "chips": 205000,
           "net": 50000,
           "hands": 1,
-          "ach": 7
+          "ach": 1
         },
         {
           "u": "topjoedirty",
@@ -740,7 +746,7 @@
       "leaderboard": [
         {
           "u": "kirk0218",
-          "chips": 87450,
+          "chips": 87500,
           "net": 43650,
           "hands": 1,
           "ach": 0
@@ -843,7 +849,7 @@
           "chips": 205000,
           "net": 42060,
           "hands": 1,
-          "ach": 7
+          "ach": 1
         },
         {
           "u": "thesaucypanda2",
@@ -1289,7 +1295,7 @@
       "leaderboard": [
         {
           "u": "kirk0218",
-          "chips": 87450,
+          "chips": 87500,
           "net": 19250,
           "hands": 2,
           "ach": 0
@@ -1489,7 +1495,7 @@
         },
         {
           "u": "kirk0218",
-          "chips": 87450,
+          "chips": 87500,
           "net": -6300,
           "hands": 2,
           "ach": 0
@@ -1794,7 +1800,7 @@
       "leaderboard": [
         {
           "u": "kirk0218",
-          "chips": 87450,
+          "chips": 87500,
           "net": -13800,
           "hands": 1,
           "ach": 0
@@ -3874,20 +3880,16 @@
         }
       },
       "high_roller_50k": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
         }
       },
       "high_roller_100k": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
@@ -3926,10 +3928,8 @@
         }
       },
       "big_nerve_win": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
@@ -3960,10 +3960,8 @@
         }
       },
       "escalator": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
@@ -4066,10 +4064,8 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
@@ -4228,10 +4224,8 @@
         }
       },
       "lucky_escape": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-06-24"
@@ -4563,13 +4557,7 @@
         "bank_builder_100k": "earned"
       },
       "itzdubsta": {
-        "bank_builder_100k": "earned",
-        "high_roller_50k": "2026-06-17",
-        "high_roller_100k": "2026-06-24",
-        "big_nerve_win": "2026-06-15",
-        "lucky_escape": "2026-06-17",
-        "big_swing_session_50k": "2026-06-17",
-        "escalator": "2026-06-17"
+        "bank_builder_100k": "earned"
       },
       "diehllane": {
         "bank_builder_100k": "earned",
