@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T00:32:49.080350+00:00",
-    "total_catches": 23354,
+    "generated_at": "2026-06-27T00:53:20.932927+00:00",
+    "total_catches": 23355,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23354 catches"
+      "sub": "Since launch - 23355 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -580,9 +580,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 9988,
-        "c": 141,
-        "casts": 141,
+        "g": 10069,
+        "c": 142,
+        "casts": 142,
         "l": "Jun 27 2026"
       },
       {
@@ -6604,20 +6604,20 @@
     ],
     "monthly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 3662,
+        "c": 56,
+        "casts": 56,
+        "l": "Jun 27 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 3621,
         "c": 53,
         "casts": 53,
         "l": "Jun 25 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 3581,
-        "c": 55,
-        "casts": 55,
-        "l": "Jun 27 2026"
       },
       {
         "u": "beliron",
@@ -6808,9 +6808,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 447,
-        "c": 9,
-        "casts": 9,
+        "g": 528,
+        "c": 10,
+        "casts": 10,
         "l": "Jun 27 2026"
       },
       {
@@ -6882,9 +6882,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 240,
-        "c": 3,
-        "casts": 3,
+        "g": 321,
+        "c": 4,
+        "casts": 4,
         "l": "Jun 27 2026"
       },
       {
@@ -13779,7 +13779,7 @@
         }
       },
       "gold_hoarder": {
-        "total": 36,
+        "total": 37,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13816,11 +13816,12 @@
           "casperfrnk09",
           "dogger_101",
           "brookswhynot",
-          "drewieblaster"
+          "drewieblaster",
+          "nellafella"
         ],
         "latest": {
-          "u": "drewieblaster",
-          "d": "Apr 17 2026"
+          "u": "nellafella",
+          "d": "Jun 27 2026"
         }
       },
       "streak_7": {
@@ -14465,7 +14466,7 @@
         }
       },
       "win_month": {
-        "total": 10,
+        "total": 11,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -14476,11 +14477,12 @@
           "dogger_101",
           "drewieblaster",
           "brookswhynot",
-          "showtime_84"
+          "showtime_84",
+          "nellafella"
         ],
         "latest": {
-          "u": "showtime_84",
-          "d": "Jan 04 2026"
+          "u": "nellafella",
+          "d": "Jun 02 2026"
         }
       },
       "the_market": {
@@ -20147,9 +20149,11 @@
         "completionist": "Jun 16 2026",
         "full_spectrum": "May 15 2026",
         "custom_club": "May 01 2026",
+        "gold_hoarder": "Jun 27 2026",
         "triple_crown": "May 15 2026",
         "leg_epic_day": "May 15 2026",
         "win_week": "May 18 2026",
+        "win_month": "Jun 02 2026",
         "golden_cast": "May 15 2026",
         "legend_hunter": "May 15 2026"
       },
@@ -22327,7 +22331,7 @@
       "n": "Oreochromis",
       "custom": false,
       "r": "Rare",
-      "c": 61,
+      "c": 62,
       "h": "zedtox",
       "v": 90,
       "w": 2.71
@@ -23954,7 +23958,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 61,
+      "c": 62,
       "rec": "2.71 lb",
       "v": 90
     },
@@ -27292,6 +27296,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Oreochromis",
+      "w": 2.43,
+      "v": 81,
+      "r": "Rare",
+      "d": "Jun 27 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "iRacer - Jessie Winslow",
       "w": 82.39,
       "v": 164,
@@ -27880,14 +27892,6 @@
       "w": 0.83,
       "v": 166,
       "r": "Epic",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Traffic Cone",
-      "w": 1.02,
-      "v": 8,
-      "r": "Junk",
       "d": "Jun 17 2026"
     }
   ]
