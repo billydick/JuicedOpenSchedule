@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T01:34:22.171040+00:00",
+    "generated_at": "2026-06-27T22:33:55.120189+00:00",
     "total_catches": 23356,
     "unique_catches": 375,
     "total_players": 789,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jun 26 2026",
+      "label": "Jun 27 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6878,34 +6878,36 @@
         "l": "Jun 25 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 321,
-        "c": 4,
-        "casts": 4,
-        "l": "Jun 27 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 135,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 26 2026"
-      },
-      {
-        "u": "itzdubsta",
-        "n": "itzdubsta",
-        "g": 54,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 27 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jun 26",
+      "date": "2026-06-26",
+      "leaderboard": [
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 321,
+          "c": 4,
+          "l": "Jun 27 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 135,
+          "c": 1,
+          "l": "Jun 26 2026"
+        },
+        {
+          "n": "itzdubsta",
+          "u": "itzdubsta",
+          "g": 54,
+          "c": 1,
+          "l": "Jun 27 2026"
+        }
+      ]
+    },
     {
       "label": "Jun 25",
       "date": "2026-06-25",
@@ -7048,47 +7050,6 @@
           "g": 15,
           "c": 1,
           "l": "Jun 21 2026"
-        }
-      ]
-    },
-    {
-      "label": "Jun 19",
-      "date": "2026-06-19",
-      "leaderboard": [
-        {
-          "n": "larcen22",
-          "u": "larcen22",
-          "g": 124,
-          "c": 1,
-          "l": "Jun 19 2026"
-        },
-        {
-          "n": "barnsdale",
-          "u": "barnsdale",
-          "g": 65,
-          "c": 1,
-          "l": "Jun 19 2026"
-        },
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 40,
-          "c": 1,
-          "l": "Jun 19 2026"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 15,
-          "c": 1,
-          "l": "Jun 20 2026"
-        },
-        {
-          "n": "motionless",
-          "u": "motionless",
-          "g": 1,
-          "c": 1,
-          "l": "Jun 20 2026"
         }
       ]
     }
@@ -10716,29 +10677,7 @@
         "d": "Jun 25 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "nellafella",
-        "i": "iRacer - Jessie Winslow",
-        "v": 164,
-        "r": "Rare",
-        "d": "Jun 27 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Chris Buescher",
-        "v": 135,
-        "r": "Rare",
-        "d": "Jun 26 2026"
-      },
-      {
-        "n": "itzdubsta",
-        "i": "Zebra Cakes",
-        "v": 54,
-        "r": "Uncommon",
-        "d": "Jun 27 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
