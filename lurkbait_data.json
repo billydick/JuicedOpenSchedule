@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-27T00:16:22.393773+00:00",
-    "total_catches": 23353,
+    "generated_at": "2026-06-27T00:32:49.080350+00:00",
+    "total_catches": 23354,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23353 catches"
+      "sub": "Since launch - 23354 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -580,9 +580,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 9824,
-        "c": 140,
-        "casts": 140,
+        "g": 9988,
+        "c": 141,
+        "casts": 141,
         "l": "Jun 27 2026"
       },
       {
@@ -6614,9 +6614,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3417,
-        "c": 54,
-        "casts": 54,
+        "g": 3581,
+        "c": 55,
+        "casts": 55,
         "l": "Jun 27 2026"
       },
       {
@@ -6806,20 +6806,20 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 447,
+        "c": 9,
+        "casts": 9,
+        "l": "Jun 27 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 303,
         "c": 3,
         "casts": 3,
         "l": "Jun 25 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 283,
-        "c": 8,
-        "casts": 8,
-        "l": "Jun 27 2026"
       },
       {
         "u": "juicedracing",
@@ -6880,20 +6880,20 @@
     ],
     "daily": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 240,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 27 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 135,
         "c": 1,
         "casts": 1,
         "l": "Jun 26 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 76,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 27 2026"
       }
     ]
   },
@@ -10653,10 +10653,10 @@
       },
       {
         "n": "nellafella",
-        "i": "PFC Rear Calipers",
-        "v": 153,
+        "i": "iRacer - Jessie Winslow",
+        "v": 164,
         "r": "Rare",
-        "d": "Jun 23 2026"
+        "d": "Jun 27 2026"
       },
       {
         "n": "juicedracing",
@@ -10710,16 +10710,16 @@
     ],
     "daily": [
       {
+        "n": "nellafella",
+        "i": "iRacer - Jessie Winslow",
+        "v": 164,
+        "r": "Rare",
+        "d": "Jun 27 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Chris Buescher",
         "v": 135,
-        "r": "Rare",
-        "d": "Jun 26 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Oreochromis",
-        "v": 75,
         "r": "Rare",
         "d": "Jun 26 2026"
       }
@@ -14429,7 +14429,7 @@
         }
       },
       "win_week": {
-        "total": 28,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -14457,12 +14457,11 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella",
-          "itzdubsta"
+          "nellafella"
         ],
         "latest": {
-          "u": "itzdubsta",
-          "d": "Jun 22 2026"
+          "u": "nellafella",
+          "d": "May 18 2026"
         }
       },
       "win_month": {
@@ -19266,7 +19265,6 @@
         "walk_in": "Aug 02 2025",
         "dex_hunter": "May 08 2026",
         "custom_club": "Jul 15 2025",
-        "win_week": "Jun 22 2026",
         "golden_cast": "Sep 10 2025"
       },
       "brookswhynot": {
@@ -21186,7 +21184,7 @@
       "n": "iRacer - Jessie Winslow",
       "custom": true,
       "r": "Epic",
-      "c": 20,
+      "c": 21,
       "h": "pvtcrackpot",
       "v": 223,
       "w": 112.25
@@ -26899,7 +26897,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Race Winner BDC S1R2 - Darlington",
-      "c": 20,
+      "c": 21,
       "rec": "112.25 lb",
       "v": 223
     },
@@ -27292,6 +27290,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "nellafella",
+      "i": "iRacer - Jessie Winslow",
+      "w": 82.39,
+      "v": 164,
+      "r": "Rare",
+      "d": "Jun 27 2026"
+    },
     {
       "u": "nellafella",
       "i": "Ryan Preece",
@@ -27882,14 +27888,6 @@
       "w": 1.02,
       "v": 8,
       "r": "Junk",
-      "d": "Jun 17 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Salmon",
-      "w": 3.56,
-      "v": 27,
-      "r": "Common",
       "d": "Jun 17 2026"
     }
   ]
