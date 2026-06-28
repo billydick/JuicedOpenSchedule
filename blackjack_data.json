@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T00:16:58Z",
+  "generated_at": "2026-06-28T00:18:05Z",
   "meta": {
-    "total_hands": 332,
+    "total_hands": 333,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -37,9 +37,9 @@
       {
         "u": "diehllane",
         "chips": 525394,
-        "net": 1280094,
-        "hands": 2,
-        "ach": 15
+        "net": 280094,
+        "hands": 3,
+        "ach": 16
       },
       {
         "u": "itzdubsta",
@@ -247,18 +247,18 @@
         "ach": 10
       },
       {
-        "u": "diehllane",
-        "chips": 525394,
-        "net": 271458,
-        "hands": 2,
-        "ach": 15
-      },
-      {
         "u": "juicedracing",
         "chips": 100,
         "net": -15000,
         "hands": 1,
         "ach": 0
+      },
+      {
+        "u": "diehllane",
+        "chips": 525394,
+        "net": -728542,
+        "hands": 3,
+        "ach": 16
       }
     ]
   },
@@ -278,30 +278,28 @@
     "biggest_loss": {
       "u": "diehllane",
       "cards": [
-        "6♣",
-        "8♣",
-        "8♥"
+        "9♥",
+        "K♠"
       ],
-      "total": 22,
-      "bet": 253936,
-      "net": -228542,
-      "result": "bust"
+      "total": 19,
+      "bet": 1000000,
+      "net": -1000000,
+      "result": "lose"
     },
     "biggest_bet": {
       "u": "diehllane",
       "cards": [
-        "6♠",
-        "5♠",
-        "10♣"
+        "9♥",
+        "K♠"
       ],
-      "total": 21,
-      "bet": 500000,
-      "net": 500000,
-      "result": "win"
+      "total": 19,
+      "bet": 1000000,
+      "net": -1000000,
+      "result": "lose"
     },
     "most_hands": {
       "u": "diehllane",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "diehllane",
@@ -510,7 +508,7 @@
           "chips": 525394,
           "net": 275001,
           "hands": 4,
-          "ach": 15
+          "ach": 16
         },
         {
           "u": "flippy00",
@@ -613,7 +611,7 @@
           "chips": 525394,
           "net": 300000,
           "hands": 1,
-          "ach": 15
+          "ach": 16
         }
       ],
       "highlights": {
@@ -672,7 +670,7 @@
           "chips": 525394,
           "net": 433635,
           "hands": 4,
-          "ach": 15
+          "ach": 16
         },
         {
           "u": "larcen22",
@@ -4256,11 +4254,13 @@
         }
       },
       "roller_coaster_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-22"
+          "u": "diehllane",
+          "d": "2026-06-27"
         }
       },
       "big_swing_session_50k": {
@@ -4798,10 +4798,36 @@
         "escalator": "2026-06-19",
         "high_roller_500k": "2026-06-22",
         "lucky_escape": "2026-06-20",
-        "big_swing_session_500k": "2026-06-22"
+        "big_swing_session_500k": "2026-06-22",
+        "roller_coaster_session": "2026-06-27"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_250k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_500k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "roller_coaster_session",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
       {
         "id": "high_roller_50k",
         "u": "diehllane",
@@ -4874,31 +4900,6 @@
       },
       {
         "id": "high_roller_50k",
-        "u": "diehllane",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "high_roller_100k",
-        "u": "diehllane",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "high_roller_250k",
-        "u": "diehllane",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "poker_pair_any",
-        "u": "diehllane",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "poker_salvation",
-        "u": "diehllane",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "big_swing_session_50k",
         "u": "diehllane",
         "d": "2026-06-27"
       }
@@ -5621,6 +5622,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1782605885.3413167,
+      "date": "2026-06-27",
+      "player": "diehllane",
+      "bet": 1000000,
+      "balance_before": 1525394,
+      "result": "lose",
+      "net_delta": -1000000,
+      "player_cards": [
+        "9♥",
+        "K♠"
+      ],
+      "player_total": 19,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♠",
+        "9♦"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "high_roller_250k",
+        "high_roller_500k",
+        "roller_coaster_session"
+      ]
+    },
     {
       "ts": 1782605818.078974,
       "date": "2026-06-27",
@@ -7181,40 +7215,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1781586380.8153186,
-      "date": "2026-06-15",
-      "player": "juicedracing",
-      "bet": 60250,
-      "balance_before": 60250,
-      "result": "bust",
-      "net_delta": -60250,
-      "player_cards": [
-        "2♠",
-        "4♣",
-        "8♠",
-        "K♦"
-      ],
-      "player_total": 24,
-      "hit_count": 2,
-      "dealer_cards": [
-        "J♥",
-        "5♠",
-        "10♦"
-      ],
-      "dealer_total": 25,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "high_roller_50k",
-        "rags_to_riches_session",
-        "escalator"
-      ]
     }
   ]
 }
