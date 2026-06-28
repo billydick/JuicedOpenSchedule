@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T00:14:17.997430+00:00",
-    "total_catches": 23357,
+    "generated_at": "2026-06-28T00:20:30.958682+00:00",
+    "total_catches": 23358,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23357 catches"
+      "sub": "Since launch - 23358 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -570,20 +570,20 @@
         "l": "Mar 27 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 10114,
+        "c": 143,
+        "casts": 143,
+        "l": "Jun 28 2026"
+      },
+      {
         "u": "lispyinfamous",
         "n": "lispyinfamous",
         "g": 10075,
         "c": 128,
         "casts": 128,
         "l": "Mar 19 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 10069,
-        "c": 142,
-        "casts": 142,
-        "l": "Jun 27 2026"
       },
       {
         "u": "beliron",
@@ -6606,10 +6606,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3662,
-        "c": 56,
-        "casts": 56,
-        "l": "Jun 27 2026"
+        "g": 3707,
+        "c": 57,
+        "casts": 57,
+        "l": "Jun 28 2026"
       },
       {
         "u": "brookswhynot",
@@ -6808,10 +6808,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 528,
-        "c": 10,
-        "casts": 10,
-        "l": "Jun 27 2026"
+        "g": 573,
+        "c": 11,
+        "casts": 11,
+        "l": "Jun 28 2026"
       },
       {
         "u": "itzdubsta",
@@ -6891,6 +6891,14 @@
         "u": "tayrob28",
         "n": "tayrob28",
         "g": 182,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 28 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 45,
         "c": 1,
         "casts": 1,
         "l": "Jun 28 2026"
@@ -10707,6 +10715,13 @@
         "i": "Bobby Labonte",
         "v": 182,
         "r": "Rare",
+        "d": "Jun 28 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Anthony Alfredo",
+        "v": 45,
+        "r": "Uncommon",
         "d": "Jun 28 2026"
       }
     ]
@@ -22728,7 +22743,7 @@
       "n": "Anthony Alfredo",
       "custom": true,
       "r": "Uncommon",
-      "c": 7,
+      "c": 8,
       "h": "gatoraintplaying",
       "v": 56,
       "w": 56.45
@@ -27073,7 +27088,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Fast Pasta serving mid-pack every week",
-      "c": 7,
+      "c": 8,
       "rec": "56.45 lb",
       "v": 56
     },
@@ -27286,6 +27301,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "nellafella",
+      "i": "Anthony Alfredo",
+      "w": 44.61,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Jun 28 2026"
+    },
     {
       "u": "tayrob28",
       "i": "Bobby Labonte",
@@ -27876,14 +27899,6 @@
       "w": 0.98,
       "v": 10,
       "r": "Junk",
-      "d": "Jun 18 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Parrot Fish",
-      "w": 2.15,
-      "v": 75,
-      "r": "Rare",
       "d": "Jun 18 2026"
     }
   ]
