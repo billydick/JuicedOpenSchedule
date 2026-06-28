@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T03:43:41.698882+00:00",
-    "total_catches": 23379,
+    "generated_at": "2026-06-28T03:49:56.023401+00:00",
+    "total_catches": 23380,
     "unique_catches": 375,
-    "total_players": 789,
+    "total_players": 790,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23379 catches"
+      "sub": "Since launch - 23380 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -3520,6 +3520,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 21 2025"
+      },
+      {
+        "u": "bsnracing",
+        "n": "bsnracing",
+        "g": 160,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 28 2026"
       },
       {
         "u": "nateletsgooo",
@@ -6854,6 +6862,14 @@
         "l": "Jun 28 2026"
       },
       {
+        "u": "bsnracing",
+        "n": "bsnracing",
+        "g": 160,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 28 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 135,
@@ -6939,6 +6955,14 @@
         "u": "tayrob28",
         "n": "tayrob28",
         "g": 182,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 28 2026"
+      },
+      {
+        "u": "bsnracing",
+        "n": "bsnracing",
+        "g": 160,
         "c": 1,
         "casts": 1,
         "l": "Jun 28 2026"
@@ -10680,6 +10704,13 @@
         "d": "Jun 28 2026"
       },
       {
+        "n": "bsnracing",
+        "i": "iRacer - Simon Lindmark",
+        "v": 160,
+        "r": "Rare",
+        "d": "Jun 28 2026"
+      },
+      {
         "n": "topjoedirty",
         "i": "Lee Cunningham",
         "v": 140,
@@ -10692,13 +10723,6 @@
         "v": 138,
         "r": "Rare",
         "d": "Jun 16 2026"
-      },
-      {
-        "n": "rms_racing",
-        "i": "VNM Sim Racing 3-Pedal Set",
-        "v": 134,
-        "r": "Rare",
-        "d": "Jun 11 2026"
       }
     ],
     "weekly": [
@@ -10727,6 +10751,13 @@
         "n": "tayrob28",
         "i": "Bobby Labonte",
         "v": 182,
+        "r": "Rare",
+        "d": "Jun 28 2026"
+      },
+      {
+        "n": "bsnracing",
+        "i": "iRacer - Simon Lindmark",
+        "v": 160,
         "r": "Rare",
         "d": "Jun 28 2026"
       },
@@ -10817,6 +10848,13 @@
         "d": "Jun 28 2026"
       },
       {
+        "n": "bsnracing",
+        "i": "iRacer - Simon Lindmark",
+        "v": 160,
+        "r": "Rare",
+        "d": "Jun 28 2026"
+      },
+      {
         "n": "ineffabledecibel",
         "i": "Chase Briscoe",
         "v": 93,
@@ -10849,7 +10887,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 789,
+        "total": 790,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11639,11 +11677,12 @@
           "capital_rl",
           "esspiritussancti",
           "stoogeyy",
-          "who_flung_poo_36"
+          "who_flung_poo_36",
+          "bsnracing"
         ],
         "latest": {
-          "u": "who_flung_poo_36",
-          "d": "Jun 16 2026"
+          "u": "bsnracing",
+          "d": "Jun 28 2026"
         }
       },
       "first_cast": {
@@ -12164,7 +12203,7 @@
         }
       },
       "custom_catch": {
-        "total": 650,
+        "total": 651,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12815,11 +12854,12 @@
           "sirdavestale",
           "esspiritussancti",
           "stoogeyy",
-          "who_flung_poo_36"
+          "who_flung_poo_36",
+          "bsnracing"
         ],
         "latest": {
-          "u": "who_flung_poo_36",
-          "d": "Jun 16 2026"
+          "u": "bsnracing",
+          "d": "Jun 28 2026"
         }
       },
       "heavy_hauler": {
@@ -20508,6 +20548,10 @@
       "who_flung_poo_36": {
         "broke_in": "Jun 16 2026",
         "custom_catch": "Jun 16 2026"
+      },
+      "bsnracing": {
+        "broke_in": "Jun 28 2026",
+        "custom_catch": "Jun 28 2026"
       }
     },
     "recent_unlocks": [
@@ -21491,7 +21535,7 @@
       "n": "iRacer - Simon Lindmark",
       "custom": true,
       "r": "Epic",
-      "c": 19,
+      "c": 20,
       "h": "tackolish",
       "v": 207,
       "w": 134.22
@@ -24038,7 +24082,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "bsnracing",
+      "g": 160,
+      "c": 1,
+      "best_n": "iRacer - Simon Lindmark",
+      "best_r": "Rare",
+      "best_v": 160,
+      "d": "Jun 28 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -26934,7 +26988,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "BDC Winner S1R3 -COTA ",
-      "c": 19,
+      "c": 20,
       "rec": "134.22 lb",
       "v": 207
     },
@@ -27417,6 +27471,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "bsnracing",
+      "i": "iRacer - Simon Lindmark",
+      "w": 103.92,
+      "v": 160,
+      "r": "Rare",
+      "d": "Jun 28 2026"
+    },
     {
       "u": "ineffabledecibel",
       "i": "Sway Bar Clamps",
@@ -28006,14 +28068,6 @@
       "i": "Billy Dick Cup Regulations",
       "w": 0.86,
       "v": 21,
-      "r": "Common",
-      "d": "Jun 18 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Trout",
-      "w": 1.13,
-      "v": 17,
       "r": "Common",
       "d": "Jun 18 2026"
     }
