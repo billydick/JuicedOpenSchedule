@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T00:18:05Z",
+  "generated_at": "2026-06-28T00:19:21Z",
   "meta": {
-    "total_hands": 333,
+    "total_hands": 334,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -11,8 +11,8 @@
       "user": "juicedracing",
       "amount": 742080
     },
-    "top_chips": 525394,
-    "top_player": "diehllane"
+    "top_chips": 205050,
+    "top_player": "itzdubsta"
   },
   "competition_meta": {
     "daily": {
@@ -34,13 +34,6 @@
   },
   "leaderboards": {
     "alltime": [
-      {
-        "u": "diehllane",
-        "chips": 525394,
-        "net": 280094,
-        "hands": 3,
-        "ach": 16
-      },
       {
         "u": "itzdubsta",
         "chips": 205050,
@@ -236,6 +229,13 @@
         "net": -15938,
         "hands": 0,
         "ach": 0
+      },
+      {
+        "u": "diehllane",
+        "chips": 0,
+        "net": -245300,
+        "hands": 4,
+        "ach": 17
       }
     ],
     "daily": [
@@ -255,10 +255,10 @@
       },
       {
         "u": "diehllane",
-        "chips": 525394,
-        "net": -728542,
-        "hands": 3,
-        "ach": 16
+        "chips": 0,
+        "net": -1253936,
+        "hands": 4,
+        "ach": 17
       }
     ]
   },
@@ -299,15 +299,15 @@
     },
     "most_hands": {
       "u": "diehllane",
-      "n": 3
+      "n": 4
     },
     "best_streak": {
       "u": "diehllane",
       "n": 1
     },
     "worst_streak": {
-      "u": "juicedracing",
-      "n": 1
+      "u": "diehllane",
+      "n": 2
     },
     "most_blackjacks": {
       "u": "pvtcrackpot",
@@ -315,7 +315,7 @@
     },
     "most_busts": {
       "u": "diehllane",
-      "n": 1
+      "n": 2
     },
     "best_poker": {
       "u": "diehllane",
@@ -505,10 +505,10 @@
       "leaderboard": [
         {
           "u": "diehllane",
-          "chips": 525394,
+          "chips": 0,
           "net": 275001,
           "hands": 4,
-          "ach": 16
+          "ach": 17
         },
         {
           "u": "flippy00",
@@ -608,10 +608,10 @@
       "leaderboard": [
         {
           "u": "diehllane",
-          "chips": 525394,
+          "chips": 0,
           "net": 300000,
           "hands": 1,
-          "ach": 16
+          "ach": 17
         }
       ],
       "highlights": {
@@ -667,10 +667,10 @@
       "leaderboard": [
         {
           "u": "diehllane",
-          "chips": 525394,
+          "chips": 0,
           "net": 433635,
           "hands": 4,
-          "ach": 16
+          "ach": 17
         },
         {
           "u": "larcen22",
@@ -4238,11 +4238,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "diehllane"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-26"
+          "u": "diehllane",
+          "d": "2026-06-27"
         }
       },
       "riches_to_rags_session": {
@@ -4799,10 +4801,36 @@
         "high_roller_500k": "2026-06-22",
         "lucky_escape": "2026-06-20",
         "big_swing_session_500k": "2026-06-22",
-        "roller_coaster_session": "2026-06-27"
+        "roller_coaster_session": "2026-06-27",
+        "rags_to_riches_session": "2026-06-27"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_100k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_250k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "high_roller_500k",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "diehllane",
+        "d": "2026-06-27"
+      },
       {
         "id": "high_roller_50k",
         "u": "diehllane",
@@ -4876,31 +4904,6 @@
       {
         "id": "big_nerve_win",
         "u": "pvtcrackpot",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "pvtcrackpot",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "big_swing_session_200k",
-        "u": "pvtcrackpot",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "escalator",
-        "u": "pvtcrackpot",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "table_dominator",
-        "u": "pvtcrackpot",
-        "d": "2026-06-27"
-      },
-      {
-        "id": "high_roller_50k",
-        "u": "diehllane",
         "d": "2026-06-27"
       }
     ]
@@ -5622,6 +5625,41 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1782605961.4705884,
+      "date": "2026-06-27",
+      "player": "diehllane",
+      "bet": 525394,
+      "balance_before": 525394,
+      "result": "bust",
+      "net_delta": -525394,
+      "player_cards": [
+        "3♠",
+        "K♦",
+        "9♦"
+      ],
+      "player_total": 22,
+      "hit_count": 1,
+      "dealer_cards": [
+        "4♠",
+        "J♠",
+        "J♥"
+      ],
+      "dealer_total": 24,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "high_roller_100k",
+        "high_roller_250k",
+        "high_roller_500k",
+        "rags_to_riches_session"
+      ]
+    },
     {
       "ts": 1782605885.3413167,
       "date": "2026-06-27",
@@ -7186,35 +7224,6 @@
         "min_bet_master",
         "big_nerve_win"
       ]
-    },
-    {
-      "ts": 1781587868.4097087,
-      "date": "2026-06-15",
-      "player": "thesaucypanda2",
-      "bet": 7000,
-      "balance_before": 7848,
-      "result": "bust",
-      "net_delta": -7000,
-      "player_cards": [
-        "8♠",
-        "9♣",
-        "Q♦"
-      ],
-      "player_total": 27,
-      "hit_count": 1,
-      "dealer_cards": [
-        "2♦",
-        "J♠",
-        "5♠"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
     }
   ]
 }
