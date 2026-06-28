@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-28T02:37:10.593439+00:00",
-    "total_catches": 23365,
+    "generated_at": "2026-06-28T02:42:22.625519+00:00",
+    "total_catches": 23366,
     "unique_catches": 375,
     "total_players": 789,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23365 catches"
+      "sub": "Since launch - 23366 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -292,10 +292,10 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 106155,
-        "c": 1579,
-        "casts": 1579,
-        "l": "Jun 23 2026"
+        "g": 106208,
+        "c": 1580,
+        "casts": 1580,
+        "l": "Jun 28 2026"
       },
       {
         "u": "motionless",
@@ -6700,6 +6700,14 @@
         "l": "Jun 16 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 476,
+        "c": 9,
+        "casts": 9,
+        "l": "Jun 28 2026"
+      },
+      {
         "u": "danielcruzpt",
         "n": "danielcruzpt",
         "g": 472,
@@ -6722,14 +6730,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 423,
-        "c": 8,
-        "casts": 8,
-        "l": "Jun 23 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6862,20 +6862,20 @@
         "l": "Jun 25 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 63,
+        "c": 3,
+        "casts": 3,
+        "l": "Jun 28 2026"
+      },
+      {
         "u": "jdawg250f",
         "n": "jdawg250f",
         "g": 63,
         "c": 2,
         "casts": 2,
         "l": "Jun 25 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 10,
-        "c": 2,
-        "casts": 2,
-        "l": "Jun 23 2026"
       },
       {
         "u": "beliron",
@@ -6933,6 +6933,14 @@
         "g": 83,
         "c": 2,
         "casts": 2,
+        "l": "Jun 28 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 53,
+        "c": 1,
+        "casts": 1,
         "l": "Jun 28 2026"
       },
       {
@@ -10728,18 +10736,18 @@
         "d": "Jun 25 2026"
       },
       {
+        "n": "flippy00",
+        "i": "CSL Pedals",
+        "v": 53,
+        "r": "Uncommon",
+        "d": "Jun 28 2026"
+      },
+      {
         "n": "jdawg250f",
         "i": "Sim Racing Shoes",
         "v": 53,
         "r": "Uncommon",
         "d": "Jun 25 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Annoying iRacer kid",
-        "v": 9,
-        "r": "Junk",
-        "d": "Jun 23 2026"
       },
       {
         "n": "beliron",
@@ -10790,6 +10798,13 @@
         "i": "Used Spek 5inch Tach",
         "v": 62,
         "r": "Rare",
+        "d": "Jun 28 2026"
+      },
+      {
+        "n": "flippy00",
+        "i": "CSL Pedals",
+        "v": 53,
+        "r": "Uncommon",
         "d": "Jun 28 2026"
       },
       {
@@ -22886,7 +22901,7 @@
       "n": "CSL Pedals",
       "custom": true,
       "r": "Uncommon",
-      "c": 90,
+      "c": 91,
       "h": "maui_199",
       "v": 56,
       "w": 4.5
@@ -23948,11 +23963,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1579
+      "n": 1580
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 106155
+      "n": 106208
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -25566,7 +25581,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Entry Level Sim Pedals, hope you don't need to call support.",
-      "c": 90,
+      "c": 91,
       "rec": "4.50 lb",
       "v": 56
     },
@@ -27373,6 +27388,14 @@
   ],
   "recent": [
     {
+      "u": "flippy00",
+      "i": "CSL Pedals",
+      "w": 4.25,
+      "v": 53,
+      "r": "Uncommon",
+      "d": "Jun 28 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Hermit Crab",
       "w": 1.05,
@@ -27961,14 +27984,6 @@
       "i": "Keys",
       "w": 0.19,
       "v": 10,
-      "r": "Junk",
-      "d": "Jun 18 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "iRacing Protest",
-      "w": 0.9,
-      "v": 9,
       "r": "Junk",
       "d": "Jun 18 2026"
     }
