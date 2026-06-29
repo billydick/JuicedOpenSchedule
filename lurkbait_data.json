@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T23:28:10.535664+00:00",
-    "total_catches": 23397,
+    "generated_at": "2026-06-29T23:37:24.691784+00:00",
+    "total_catches": 23398,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23397 catches"
+      "sub": "Since launch - 23398 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -546,20 +546,20 @@
         "l": "Jun 04 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 10893,
+        "c": 150,
+        "casts": 150,
+        "l": "Jun 29 2026"
+      },
+      {
         "u": "thecokecowboy",
         "n": "thecokecowboy",
         "g": 10769,
         "c": 144,
         "casts": 144,
         "l": "Feb 08 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 10756,
-        "c": 149,
-        "casts": 149,
-        "l": "Jun 29 2026"
       },
       {
         "u": "belyy92",
@@ -6614,9 +6614,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 4349,
-        "c": 63,
-        "casts": 63,
+        "g": 4486,
+        "c": 64,
+        "casts": 64,
         "l": "Jun 29 2026"
       },
       {
@@ -6816,9 +6816,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 31,
-        "c": 1,
-        "casts": 1,
+        "g": 168,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 29 2026"
       },
       {
@@ -6834,9 +6834,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 31,
-        "c": 1,
-        "casts": 1,
+        "g": 168,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 29 2026"
       },
       {
@@ -10570,9 +10570,9 @@
     "weekly": [
       {
         "n": "nellafella",
-        "i": "Atlantic Cod",
-        "v": 31,
-        "r": "Common",
+        "i": "Octopus",
+        "v": 137,
+        "r": "Epic",
         "d": "Jun 29 2026"
       },
       {
@@ -10586,9 +10586,9 @@
     "daily": [
       {
         "n": "nellafella",
-        "i": "Atlantic Cod",
-        "v": 31,
-        "r": "Common",
+        "i": "Octopus",
+        "v": 137,
+        "r": "Epic",
         "d": "Jun 29 2026"
       },
       {
@@ -21584,7 +21584,7 @@
       "n": "Octopus",
       "custom": false,
       "r": "Epic",
-      "c": 44,
+      "c": 45,
       "h": "jdawg250f",
       "v": 168,
       "w": 11.22
@@ -24804,7 +24804,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 44,
+      "c": 45,
       "rec": "11.22 lb",
       "v": 168
     },
@@ -27179,6 +27179,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Octopus",
+      "w": 9.1,
+      "v": 137,
+      "r": "Epic",
+      "d": "Jun 29 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Atlantic Cod",
       "w": 40.92,
       "v": 31,
@@ -27767,14 +27775,6 @@
       "w": 0.09,
       "v": 1,
       "r": "Junk",
-      "d": "Jun 20 2026"
-    },
-    {
-      "u": "juicedracing",
-      "i": "Carp",
-      "w": 8.24,
-      "v": 15,
-      "r": "Common",
       "d": "Jun 20 2026"
     }
   ]
