@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T21:58:03.714780+00:00",
-    "total_catches": 23396,
+    "generated_at": "2026-06-29T23:28:10.535664+00:00",
+    "total_catches": 23397,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23396 catches"
+      "sub": "Since launch - 23397 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -556,10 +556,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 10725,
-        "c": 148,
-        "casts": 148,
-        "l": "Jun 28 2026"
+        "g": 10756,
+        "c": 149,
+        "casts": 149,
+        "l": "Jun 29 2026"
       },
       {
         "u": "belyy92",
@@ -6614,10 +6614,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 4318,
-        "c": 62,
-        "casts": 62,
-        "l": "Jun 28 2026"
+        "g": 4349,
+        "c": 63,
+        "casts": 63,
+        "l": "Jun 29 2026"
       },
       {
         "u": "brookswhynot",
@@ -6814,6 +6814,14 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 31,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 29 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 28,
@@ -6823,6 +6831,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 31,
+        "c": 1,
+        "casts": 1,
+        "l": "Jun 29 2026"
+      },
       {
         "u": "juicedracing",
         "n": "juicedracing",
@@ -10553,6 +10569,13 @@
     ],
     "weekly": [
       {
+        "n": "nellafella",
+        "i": "Atlantic Cod",
+        "v": 31,
+        "r": "Common",
+        "d": "Jun 29 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Perch",
         "v": 28,
@@ -10561,6 +10584,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "nellafella",
+        "i": "Atlantic Cod",
+        "v": 31,
+        "r": "Common",
+        "d": "Jun 29 2026"
+      },
       {
         "n": "juicedracing",
         "i": "Perch",
@@ -23048,7 +23078,7 @@
       "n": "Atlantic Cod",
       "custom": false,
       "r": "Common",
-      "c": 161,
+      "c": 162,
       "h": "wintergofast",
       "v": 34,
       "w": 45.19
@@ -23919,7 +23949,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 161,
+      "c": 162,
       "rec": "45.19 lb",
       "v": 34
     },
@@ -27148,6 +27178,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Atlantic Cod",
+      "w": 40.92,
+      "v": 31,
+      "r": "Common",
+      "d": "Jun 29 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Perch",
       "w": 2.78,
@@ -27738,14 +27776,6 @@
       "v": 15,
       "r": "Common",
       "d": "Jun 20 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Scooter",
-      "w": 12.09,
-      "v": 40,
-      "r": "Junk",
-      "d": "Jun 19 2026"
     }
   ]
 }
