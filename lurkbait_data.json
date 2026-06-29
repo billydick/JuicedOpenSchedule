@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T23:37:24.691784+00:00",
-    "total_catches": 23398,
+    "generated_at": "2026-06-29T23:43:36.083814+00:00",
+    "total_catches": 23399,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23398 catches"
+      "sub": "Since launch - 23399 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -538,20 +538,20 @@
         "l": "Aug 04 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 10993,
+        "c": 151,
+        "casts": 151,
+        "l": "Jun 29 2026"
+      },
+      {
         "u": "stoofi1992",
         "n": "stoofi1992",
         "g": 10983,
         "c": 185,
         "casts": 185,
         "l": "Jun 04 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 10893,
-        "c": 150,
-        "casts": 150,
-        "l": "Jun 29 2026"
       },
       {
         "u": "thecokecowboy",
@@ -6614,9 +6614,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 4486,
-        "c": 64,
-        "casts": 64,
+        "g": 4586,
+        "c": 65,
+        "casts": 65,
         "l": "Jun 29 2026"
       },
       {
@@ -6816,9 +6816,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 168,
-        "c": 2,
-        "casts": 2,
+        "g": 268,
+        "c": 3,
+        "casts": 3,
         "l": "Jun 29 2026"
       },
       {
@@ -6834,9 +6834,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 168,
-        "c": 2,
-        "casts": 2,
+        "g": 268,
+        "c": 3,
+        "casts": 3,
         "l": "Jun 29 2026"
       },
       {
@@ -22115,7 +22115,7 @@
       "n": "AJ Rosini",
       "custom": true,
       "r": "Rare",
-      "c": 41,
+      "c": 42,
       "h": "flippy00",
       "v": 110,
       "w": 54.96
@@ -26559,7 +26559,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#11 Front Changer Joe Gibbs Racing",
-      "c": 41,
+      "c": 42,
       "rec": "54.96 lb",
       "v": 110
     },
@@ -27179,6 +27179,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "AJ Rosini",
+      "w": 50.1,
+      "v": 100,
+      "r": "Rare",
+      "d": "Jun 29 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Octopus",
       "w": 9.1,
       "v": 137,
@@ -27768,14 +27776,6 @@
       "v": 103,
       "r": "Rare",
       "d": "Jun 21 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Soda Can",
-      "w": 0.09,
-      "v": 1,
-      "r": "Junk",
-      "d": "Jun 20 2026"
     }
   ]
 }
