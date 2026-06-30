@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T00:13:19.483265+00:00",
-    "total_catches": 23401,
+    "generated_at": "2026-06-30T00:29:45.329533+00:00",
+    "total_catches": 23403,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23401 catches"
+      "sub": "Since launch - 23403 catches"
     },
     "monthly": {
       "label": "June 2026",
@@ -292,9 +292,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 106458,
-        "c": 1584,
-        "casts": 1584,
+        "g": 106508,
+        "c": 1585,
+        "casts": 1585,
         "l": "Jun 30 2026"
       },
       {
@@ -530,20 +530,20 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 11589,
+        "c": 153,
+        "casts": 153,
+        "l": "Jun 30 2026"
+      },
+      {
         "u": "jowinslow",
         "n": "jowinslow",
         "g": 11468,
         "c": 132,
         "casts": 132,
         "l": "Aug 04 2025"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 11434,
-        "c": 152,
-        "casts": 152,
-        "l": "Jun 30 2026"
       },
       {
         "u": "stoofi1992",
@@ -6614,9 +6614,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 5027,
-        "c": 66,
-        "casts": 66,
+        "g": 5182,
+        "c": 67,
+        "casts": 67,
         "l": "Jun 30 2026"
       },
       {
@@ -6694,9 +6694,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 726,
-        "c": 13,
-        "casts": 13,
+        "g": 776,
+        "c": 14,
+        "casts": 14,
         "l": "Jun 30 2026"
       },
       {
@@ -6816,9 +6816,17 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 709,
-        "c": 4,
-        "casts": 4,
+        "g": 864,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 30 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 70,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 30 2026"
       },
       {
@@ -6828,23 +6836,23 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 29 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 20,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 30 2026"
       }
     ],
     "daily": [
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 709,
-        "c": 4,
-        "casts": 4,
+        "g": 864,
+        "c": 5,
+        "casts": 5,
+        "l": "Jun 30 2026"
+      },
+      {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 70,
+        "c": 2,
+        "casts": 2,
         "l": "Jun 30 2026"
       },
       {
@@ -6854,14 +6862,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jun 29 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 20,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 30 2026"
       }
     ]
   },
@@ -10592,18 +10592,18 @@
         "d": "Jun 30 2026"
       },
       {
+        "n": "flippy00",
+        "i": "Michael McDowell",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Jun 30 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Perch",
         "v": 28,
         "r": "Common",
         "d": "Jun 29 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Rookie License",
-        "v": 20,
-        "r": "Common",
-        "d": "Jun 30 2026"
       }
     ],
     "daily": [
@@ -10615,18 +10615,18 @@
         "d": "Jun 30 2026"
       },
       {
+        "n": "flippy00",
+        "i": "Michael McDowell",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Jun 30 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Perch",
         "v": 28,
         "r": "Common",
         "d": "Jun 29 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Rookie License",
-        "v": 20,
-        "r": "Common",
-        "d": "Jun 30 2026"
       }
     ]
   },
@@ -21524,7 +21524,7 @@
       "n": "Ricky Stenhouse Jr",
       "custom": true,
       "r": "Epic",
-      "c": 51,
+      "c": 52,
       "h": "rms_racing",
       "v": 169,
       "w": 11.28
@@ -23090,7 +23090,7 @@
       "n": "Michael McDowell",
       "custom": true,
       "r": "Common",
-      "c": 182,
+      "c": 183,
       "h": "gatoraintplaying",
       "v": 56,
       "w": 56.02
@@ -23783,11 +23783,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1584
+      "n": 1585
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 106458
+      "n": 106508
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -25023,7 +25023,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Won a Daytona and been coasting off it ever since",
-      "c": 182,
+      "c": 183,
       "rec": "56.02 lb",
       "v": 56
     },
@@ -25086,7 +25086,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "My dad and I just beat up Kyle Busch!",
-      "c": 51,
+      "c": 52,
       "rec": "11.28 lb",
       "v": 169
     },
@@ -27209,6 +27209,22 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Ricky Stenhouse Jr",
+      "w": 10.35,
+      "v": 155,
+      "r": "Rare",
+      "d": "Jun 30 2026"
+    },
+    {
+      "u": "flippy00",
+      "i": "Michael McDowell",
+      "w": 49.68,
+      "v": 50,
+      "r": "Uncommon",
+      "d": "Jun 30 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Martin Truex Jr",
       "w": 8.8,
       "v": 441,
@@ -27789,22 +27805,6 @@
       "w": 0.19,
       "v": 2,
       "r": "Junk",
-      "d": "Jun 21 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Trout",
-      "w": 1.01,
-      "v": 15,
-      "r": "Common",
-      "d": "Jun 21 2026"
-    },
-    {
-      "u": "killa_0zz",
-      "i": "MWR BATTERY CONNECTOR WIRING",
-      "w": 0.97,
-      "v": 48,
-      "r": "Uncommon",
       "d": "Jun 21 2026"
     }
   ]
