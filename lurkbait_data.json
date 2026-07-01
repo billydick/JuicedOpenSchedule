@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T21:09:17.482007+00:00",
-    "total_catches": 23411,
+    "generated_at": "2026-07-01T21:48:10.223614+00:00",
+    "total_catches": 23412,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23411 catches"
+      "sub": "Since launch - 23412 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -588,10 +588,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 9710,
-        "c": 112,
-        "casts": 112,
-        "l": "Jun 30 2026"
+        "g": 9752,
+        "c": 113,
+        "casts": 113,
+        "l": "Jul 01 2026"
       },
       {
         "u": "jonwinston2",
@@ -6610,7 +6610,16 @@
         "l": "Nov 27 2025"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 42,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 01 2026"
+      }
+    ],
     "weekly": [
       {
         "u": "nellafella",
@@ -6623,10 +6632,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 221,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 30 2026"
+        "g": 263,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 01 2026"
       },
       {
         "u": "flippy00",
@@ -6645,7 +6654,16 @@
         "l": "Jun 29 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 42,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 01 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10195,7 +10213,15 @@
         "d": "Jan 23 2025"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "n": "beliron",
+        "i": "CHEVY SB-2 INTAKE",
+        "v": 42,
+        "r": "Uncommon",
+        "d": "Jul 01 2026"
+      }
+    ],
     "weekly": [
       {
         "n": "nellafella",
@@ -10226,7 +10252,15 @@
         "d": "Jun 29 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "beliron",
+        "i": "CHEVY SB-2 INTAKE",
+        "v": 42,
+        "r": "Uncommon",
+        "d": "Jul 01 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -13973,7 +14007,7 @@
         }
       },
       "win_month": {
-        "total": 11,
+        "total": 12,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13985,11 +14019,12 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella"
+          "nellafella",
+          "beliron"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 02 2026"
+          "u": "beliron",
+          "d": "Jul 01 2026"
         }
       },
       "the_market": {
@@ -18372,6 +18407,7 @@
         "triple_crown": "Jun 17 2026",
         "leg_epic_day": "Jun 17 2026",
         "win_week": "Nov 05 2025",
+        "win_month": "Jul 01 2026",
         "golden_cast": "Jun 08 2025",
         "legend_hunter": "May 04 2026"
       },
@@ -22312,7 +22348,7 @@
       "n": "CHEVY SB-2 INTAKE",
       "custom": true,
       "r": "Uncommon",
-      "c": 81,
+      "c": 82,
       "h": "pvtcrock",
       "v": 56,
       "w": 5.62
@@ -25136,7 +25172,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "CHEVY SB-2 INTAKE FROM NASCAR TEAM",
-      "c": 81,
+      "c": 82,
       "rec": "5.62 lb",
       "v": 56
     },
@@ -26808,6 +26844,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "CHEVY SB-2 INTAKE",
+      "w": 4.25,
+      "v": 42,
+      "r": "Uncommon",
+      "d": "Jul 01 2026"
+    },
+    {
       "u": "flippy00",
       "i": "HANS Device",
       "w": 1.9,
@@ -27394,14 +27438,6 @@
     {
       "u": "flippy00",
       "i": "Annoying iRacer kid",
-      "w": 0.9,
-      "v": 9,
-      "r": "Junk",
-      "d": "Jun 23 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Caution!",
       "w": 0.9,
       "v": 9,
       "r": "Junk",
