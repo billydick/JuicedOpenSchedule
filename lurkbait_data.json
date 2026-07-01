@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T22:55:56.713310+00:00",
-    "total_catches": 23415,
+    "generated_at": "2026-07-01T23:07:16.896243+00:00",
+    "total_catches": 23416,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23415 catches"
+      "sub": "Since launch - 23416 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -356,9 +356,9 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37061,
-        "c": 565,
-        "casts": 565,
+        "g": 37117,
+        "c": 566,
+        "casts": 566,
         "l": "Jul 01 2026"
       },
       {
@@ -6620,17 +6620,17 @@
         "l": "Jul 01 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
         "l": "Jul 01 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 8,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 42,
         "c": 1,
         "casts": 1,
         "l": "Jul 01 2026"
@@ -6662,17 +6662,17 @@
         "l": "Jun 30 2026"
       },
       {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 89,
-        "c": 2,
-        "casts": 2,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 92,
+        "c": 3,
+        "casts": 3,
         "l": "Jul 01 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 36,
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 89,
         "c": 2,
         "casts": 2,
         "l": "Jul 01 2026"
@@ -6688,17 +6688,17 @@
         "l": "Jul 01 2026"
       },
       {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 42,
-        "c": 1,
-        "casts": 1,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 64,
+        "c": 2,
+        "casts": 2,
         "l": "Jul 01 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 8,
+        "u": "beliron",
+        "n": "beliron",
+        "g": 42,
         "c": 1,
         "casts": 1,
         "l": "Jul 01 2026"
@@ -10255,6 +10255,13 @@
     ],
     "monthly": [
       {
+        "n": "juicedracing",
+        "i": "Finnish Fish",
+        "v": 56,
+        "r": "Rare",
+        "d": "Jul 01 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "KEISER FUEL REGULATOR & FILTER",
         "v": 46,
@@ -10266,13 +10273,6 @@
         "i": "CHEVY SB-2 INTAKE",
         "v": 42,
         "r": "Uncommon",
-        "d": "Jul 01 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Mussel",
-        "v": 8,
-        "r": "Common",
         "d": "Jul 01 2026"
       }
     ],
@@ -10292,6 +10292,13 @@
         "d": "Jun 30 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Finnish Fish",
+        "v": 56,
+        "r": "Rare",
+        "d": "Jul 01 2026"
+      },
+      {
         "n": "flippy00",
         "i": "Michael McDowell",
         "v": 50,
@@ -10304,16 +10311,16 @@
         "v": 46,
         "r": "Uncommon",
         "d": "Jul 01 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Perch",
-        "v": 28,
-        "r": "Common",
-        "d": "Jun 29 2026"
       }
     ],
     "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Finnish Fish",
+        "v": 56,
+        "r": "Rare",
+        "d": "Jul 01 2026"
+      },
       {
         "n": "thesaucypanda2",
         "i": "KEISER FUEL REGULATOR & FILTER",
@@ -10326,13 +10333,6 @@
         "i": "CHEVY SB-2 INTAKE",
         "v": 42,
         "r": "Uncommon",
-        "d": "Jul 01 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Mussel",
-        "v": 8,
-        "r": "Common",
         "d": "Jul 01 2026"
       }
     ]
@@ -22216,7 +22216,7 @@
       "n": "Finnish Fish",
       "custom": false,
       "r": "Rare",
-      "c": 36,
+      "c": 37,
       "h": "jxhnonsaturn",
       "v": 79,
       "w": 2.25
@@ -26282,7 +26282,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 36,
+      "c": 37,
       "rec": "2.25 lb",
       "v": 79
     },
@@ -26919,6 +26919,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Finnish Fish",
+      "w": 1.61,
+      "v": 56,
+      "r": "Rare",
+      "d": "Jul 01 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "MPI Rim",
       "w": 1.71,
@@ -27508,14 +27516,6 @@
       "w": 0.9,
       "v": 1,
       "r": "Junk",
-      "d": "Jun 25 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Triggerfish",
-      "w": 21.34,
-      "v": 96,
-      "r": "Uncommon",
       "d": "Jun 25 2026"
     }
   ]
