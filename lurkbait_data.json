@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-01T21:48:10.223614+00:00",
-    "total_catches": 23412,
+    "generated_at": "2026-07-01T22:35:20.047755+00:00",
+    "total_catches": 23413,
     "unique_catches": 375,
     "total_players": 790,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23412 catches"
+      "sub": "Since launch - 23413 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37053,
-        "c": 564,
-        "casts": 564,
-        "l": "Jun 29 2026"
+        "g": 37061,
+        "c": 565,
+        "casts": 565,
+        "l": "Jul 01 2026"
       },
       {
         "u": "jdawg250f",
@@ -6618,6 +6618,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 01 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 8,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 01 2026"
       }
     ],
     "weekly": [
@@ -6648,10 +6656,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 28,
-        "c": 1,
-        "casts": 1,
-        "l": "Jun 29 2026"
+        "g": 36,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 01 2026"
       }
     ],
     "daily": [
@@ -6659,6 +6667,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 42,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 01 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 8,
         "c": 1,
         "casts": 1,
         "l": "Jul 01 2026"
@@ -10220,6 +10236,13 @@
         "v": 42,
         "r": "Uncommon",
         "d": "Jul 01 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Mussel",
+        "v": 8,
+        "r": "Common",
+        "d": "Jul 01 2026"
       }
     ],
     "weekly": [
@@ -10258,6 +10281,13 @@
         "i": "CHEVY SB-2 INTAKE",
         "v": 42,
         "r": "Uncommon",
+        "d": "Jul 01 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Mussel",
+        "v": 8,
+        "r": "Common",
         "d": "Jul 01 2026"
       }
     ]
@@ -23068,7 +23098,7 @@
       "n": "Mussel",
       "custom": false,
       "r": "Common",
-      "c": 180,
+      "c": 181,
       "h": "ironlegacy_",
       "v": 11,
       "w": 0.11
@@ -23750,7 +23780,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 180,
+      "c": 181,
       "rec": "0.11 lb",
       "v": 11
     },
@@ -26844,6 +26874,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Mussel",
+      "w": 0.08,
+      "v": 8,
+      "r": "Common",
+      "d": "Jul 01 2026"
+    },
+    {
       "u": "beliron",
       "i": "CHEVY SB-2 INTAKE",
       "w": 4.25,
@@ -27434,14 +27472,6 @@
       "v": 10,
       "r": "Junk",
       "d": "Jun 25 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Annoying iRacer kid",
-      "w": 0.9,
-      "v": 9,
-      "r": "Junk",
-      "d": "Jun 23 2026"
     }
   ]
 }
