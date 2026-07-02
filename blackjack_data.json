@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T01:09:53Z",
+  "generated_at": "2026-07-02T01:10:58Z",
   "meta": {
-    "total_hands": 352,
+    "total_hands": 353,
     "total_players": 29,
     "biggest_bet": {
       "user": "juicedracing",
@@ -45,7 +45,7 @@
         "u": "itzdubsta",
         "chips": 230150,
         "net": 162690,
-        "hands": 2,
+        "hands": 3,
         "ach": 1
       },
       {
@@ -243,7 +243,7 @@
         "u": "itzdubsta",
         "chips": 230150,
         "net": 15000,
-        "hands": 2,
+        "hands": 3,
         "ach": 1
       },
       {
@@ -282,17 +282,17 @@
     "biggest_bet": {
       "u": "itzdubsta",
       "cards": [
-        "8♦",
-        "Q♥"
+        "Q♦",
+        "8♥"
       ],
       "total": 18,
-      "bet": 15000,
-      "net": 15000,
-      "result": "win"
+      "bet": 30000,
+      "net": 0,
+      "result": "push"
     },
     "most_hands": {
       "u": "itzdubsta",
-      "n": 2
+      "n": 3
     },
     "best_streak": {
       "u": "itzdubsta",
@@ -5741,6 +5741,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1782954658.814444,
+      "date": "2026-07-01",
+      "player": "itzdubsta",
+      "bet": 30000,
+      "balance_before": 230150,
+      "result": "push",
+      "net_delta": 0,
+      "player_cards": [
+        "Q♦",
+        "8♥"
+      ],
+      "player_total": 18,
+      "hit_count": 0,
+      "dealer_cards": [
+        "6♦",
+        "Q♥",
+        "2♦"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1782954593.5201285,
       "date": "2026-07-01",
       "player": "itzdubsta",
@@ -7296,46 +7324,6 @@
       "poker_bonus": 0,
       "achievements_earned": [
         "rags_to_riches_session"
-      ]
-    },
-    {
-      "ts": 1781910562.647428,
-      "date": "2026-06-19",
-      "player": "larcen22",
-      "bet": 10000,
-      "balance_before": 10200,
-      "result": "win",
-      "net_delta": 11000,
-      "player_cards": [
-        "4♦",
-        "4♠",
-        "2♦",
-        "3♥",
-        "5♦"
-      ],
-      "player_total": 18,
-      "hit_count": 3,
-      "dealer_cards": [
-        "2♣",
-        "10♦",
-        "10♠"
-      ],
-      "dealer_total": 22,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 0,
-      "poker_bonus": 1000,
-      "achievements_earned": [
-        "five_card_charlie",
-        "big_nerve_win",
-        "triple_hit_win",
-        "lucky_escape",
-        "poker_pair_any",
-        "clean_poker_win",
-        "riches_to_rags_session",
-        "roller_coaster_session"
       ]
     }
   ]
