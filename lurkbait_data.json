@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-02T02:39:55.740691+00:00",
-    "total_catches": 23426,
+    "generated_at": "2026-07-02T02:40:59.021694+00:00",
+    "total_catches": 23427,
     "unique_catches": 375,
     "total_players": 791,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23426 catches"
+      "sub": "Since launch - 23427 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -420,10 +420,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 22280,
-        "c": 329,
-        "casts": 329,
-        "l": "Jun 28 2026"
+        "g": 22285,
+        "c": 330,
+        "casts": 330,
+        "l": "Jul 02 2026"
       },
       {
         "u": "1disruptiveduck",
@@ -6690,6 +6690,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 02 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 5,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 02 2026"
       }
     ],
     "weekly": [
@@ -6764,6 +6772,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 02 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 5,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 02 2026"
       }
     ],
     "daily": [
@@ -6835,6 +6851,14 @@
         "u": "muskrat21",
         "n": "muskrat21",
         "g": 15,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 02 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "Jul 02 2026"
@@ -10452,6 +10476,13 @@
         "v": 15,
         "r": "Common",
         "d": "Jul 02 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Can",
+        "v": 5,
+        "r": "Junk",
+        "d": "Jul 02 2026"
       }
     ],
     "weekly": [
@@ -10517,6 +10548,13 @@
         "v": 15,
         "r": "Common",
         "d": "Jul 02 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Can",
+        "v": 5,
+        "r": "Junk",
+        "d": "Jul 02 2026"
       }
     ],
     "daily": [
@@ -10581,6 +10619,13 @@
         "i": "Bristol Motor Speedway",
         "v": 15,
         "r": "Common",
+        "d": "Jul 02 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Can",
+        "v": 5,
+        "r": "Junk",
         "d": "Jul 02 2026"
       }
     ]
@@ -23669,7 +23714,7 @@
       "n": "Can",
       "custom": false,
       "r": "Junk",
-      "c": 117,
+      "c": 118,
       "h": "flippy00",
       "v": 6,
       "w": 0.56
@@ -24406,7 +24451,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 117,
+      "c": 118,
       "rec": "0.56 lb",
       "v": 6
     },
@@ -27185,6 +27230,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Can",
+      "w": 0.55,
+      "v": 5,
+      "r": "Junk",
+      "d": "Jul 02 2026"
+    },
+    {
       "u": "muskrat21",
       "i": "Bristol Motor Speedway",
       "w": 196.11,
@@ -27775,14 +27828,6 @@
       "v": 1,
       "r": "Junk",
       "d": "Jun 27 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Oreochromis",
-      "w": 2.24,
-      "v": 75,
-      "r": "Rare",
-      "d": "Jun 26 2026"
     }
   ]
 }
