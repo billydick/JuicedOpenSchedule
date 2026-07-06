@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T22:49:50.853320+00:00",
-    "total_catches": 23433,
+    "generated_at": "2026-07-06T23:32:54.360714+00:00",
+    "total_catches": 23434,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23433 catches"
+      "sub": "Since launch - 23434 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -532,10 +532,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 11989,
-        "c": 161,
-        "casts": 161,
-        "l": "Jul 02 2026"
+        "g": 12042,
+        "c": 162,
+        "casts": 162,
+        "l": "Jul 06 2026"
       },
       {
         "u": "jowinslow",
@@ -6644,6 +6644,14 @@
         "l": "Jul 02 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 146,
+        "c": 4,
+        "casts": 4,
+        "l": "Jul 06 2026"
+      },
+      {
         "u": "larcen22",
         "n": "larcen22",
         "g": 133,
@@ -6655,14 +6663,6 @@
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 106,
-        "c": 3,
-        "casts": 3,
-        "l": "Jul 02 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 93,
         "c": 3,
         "casts": 3,
         "l": "Jul 02 2026"
@@ -6726,6 +6726,14 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 53,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      },
+      {
         "u": "orange_skunk",
         "n": "orange_skunk",
         "g": 49,
@@ -6743,6 +6751,14 @@
       }
     ],
     "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 53,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      },
       {
         "u": "orange_skunk",
         "n": "orange_skunk",
@@ -10213,6 +10229,13 @@
     ],
     "weekly": [
       {
+        "n": "nellafella",
+        "i": "Natalie Decker",
+        "v": 53,
+        "r": "Uncommon",
+        "d": "Jul 06 2026"
+      },
+      {
         "n": "orange_skunk",
         "i": "Sim Racing Shoes",
         "v": 49,
@@ -10228,6 +10251,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "nellafella",
+        "i": "Natalie Decker",
+        "v": 53,
+        "r": "Uncommon",
+        "d": "Jul 06 2026"
+      },
       {
         "n": "orange_skunk",
         "i": "Sim Racing Shoes",
@@ -11151,7 +11181,7 @@
         }
       },
       "catch_of_day": {
-        "total": 134,
+        "total": 133,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11285,16 +11315,15 @@
           "letirefessedu74",
           "iiaipii",
           "13eard",
-          "killa_0zz",
-          "orange_skunk"
+          "killa_0zz"
         ],
         "latest": {
-          "u": "orange_skunk",
-          "d": "Jul 06 2026"
+          "u": "killa_0zz",
+          "d": "Jul 02 2026"
         }
       },
       "win_day": {
-        "total": 95,
+        "total": 94,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11389,12 +11418,11 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard",
-          "orange_skunk"
+          "13eard"
         ],
         "latest": {
-          "u": "orange_skunk",
-          "d": "Jul 06 2026"
+          "u": "13eard",
+          "d": "Jun 17 2026"
         }
       },
       "double_down": {
@@ -13961,7 +13989,7 @@
         }
       },
       "win_week": {
-        "total": 28,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13989,12 +14017,11 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella",
-          "orange_skunk"
+          "nellafella"
         ],
         "latest": {
-          "u": "orange_skunk",
-          "d": "Jul 06 2026"
+          "u": "nellafella",
+          "d": "May 18 2026"
         }
       },
       "win_month": {
@@ -19934,10 +19961,7 @@
       "orange_skunk": {
         "broke_in": "Jul 06 2026",
         "first_cast": "Jul 06 2026",
-        "win_day": "Jul 06 2026",
-        "catch_of_day": "Jul 06 2026",
-        "custom_catch": "Jul 06 2026",
-        "win_week": "Jul 06 2026"
+        "custom_catch": "Jul 06 2026"
       }
     },
     "recent_unlocks": [
@@ -22253,7 +22277,7 @@
       "n": "Natalie Decker",
       "custom": true,
       "r": "Uncommon",
-      "c": 5,
+      "c": 6,
       "h": "brookswhynot",
       "v": 62,
       "w": 67.87
@@ -26788,7 +26812,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Everyone else slows down for caution and she’s like, “nah, let’s keep this interesting.",
-      "c": 5,
+      "c": 6,
       "rec": "67.87 lb",
       "v": 62
     },
@@ -26857,6 +26881,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "nellafella",
+      "i": "Natalie Decker",
+      "w": 58.4,
+      "v": 53,
+      "r": "Uncommon",
+      "d": "Jul 06 2026"
+    },
     {
       "u": "juicedracing",
       "i": "Sponge",
@@ -27447,14 +27479,6 @@
       "w": 107.29,
       "v": 322,
       "r": "Epic",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "beliron",
-      "i": "Nugget",
-      "w": 0.18,
-      "v": 2,
-      "r": "Junk",
       "d": "Jun 28 2026"
     }
   ]
