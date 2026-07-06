@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T21:29:56.808690+00:00",
-    "total_catches": 23432,
+    "generated_at": "2026-07-06T22:49:50.853320+00:00",
+    "total_catches": 23433,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23432 catches"
+      "sub": "Since launch - 23433 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37117,
-        "c": 566,
-        "casts": 566,
-        "l": "Jul 01 2026"
+        "g": 37119,
+        "c": 567,
+        "casts": 567,
+        "l": "Jul 06 2026"
       },
       {
         "u": "jdawg250f",
@@ -6670,10 +6670,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 64,
-        "c": 2,
-        "casts": 2,
-        "l": "Jul 01 2026"
+        "g": 66,
+        "c": 3,
+        "casts": 3,
+        "l": "Jul 06 2026"
       },
       {
         "u": "grumpymitch1",
@@ -6732,6 +6732,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
       }
     ],
     "daily": [
@@ -6739,6 +6747,14 @@
         "u": "orange_skunk",
         "n": "orange_skunk",
         "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 2,
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
@@ -10202,6 +10218,13 @@
         "v": 49,
         "r": "Uncommon",
         "d": "Jul 06 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Sponge",
+        "v": 2,
+        "r": "Epic",
+        "d": "Jul 06 2026"
       }
     ],
     "daily": [
@@ -10210,6 +10233,13 @@
         "i": "Sim Racing Shoes",
         "v": 49,
         "r": "Uncommon",
+        "d": "Jul 06 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Sponge",
+        "v": 2,
+        "r": "Epic",
         "d": "Jul 06 2026"
       }
     ]
@@ -21413,7 +21443,7 @@
       "n": "Sponge",
       "custom": false,
       "r": "Epic",
-      "c": 25,
+      "c": 26,
       "h": "dentedcan",
       "v": 2,
       "w": 0.11
@@ -23932,7 +23962,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 25,
+      "c": 26,
       "rec": "0.11 lb",
       "v": 2
     },
@@ -26828,6 +26858,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Sponge",
+      "w": 0.08,
+      "v": 2,
+      "r": "Epic",
+      "d": "Jul 06 2026"
+    },
+    {
       "u": "orange_skunk",
       "i": "Sim Racing Shoes",
       "w": 0.99,
@@ -27417,14 +27455,6 @@
       "w": 0.18,
       "v": 2,
       "r": "Junk",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Anthony Alfredo",
-      "w": 44.61,
-      "v": 45,
-      "r": "Uncommon",
       "d": "Jun 28 2026"
     }
   ]
