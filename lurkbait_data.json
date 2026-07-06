@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T20:53:09.760377+00:00",
-    "total_catches": 23431,
+    "generated_at": "2026-07-06T21:29:56.808690+00:00",
+    "total_catches": 23432,
     "unique_catches": 375,
-    "total_players": 791,
+    "total_players": 792,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23431 catches"
+      "sub": "Since launch - 23432 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -4850,6 +4850,14 @@
         "l": "Jul 27 2025"
       },
       {
+        "u": "orange_skunk",
+        "n": "orange_skunk",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      },
+      {
         "u": "capital_rl",
         "n": "capital_rl",
         "g": 49,
@@ -6676,6 +6684,14 @@
         "l": "Jul 02 2026"
       },
       {
+        "u": "orange_skunk",
+        "n": "orange_skunk",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      },
+      {
         "u": "headzh_t",
         "n": "headzh_t",
         "g": 42,
@@ -6708,8 +6724,26 @@
         "l": "Jul 02 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "orange_skunk",
+        "n": "orange_skunk",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "orange_skunk",
+        "n": "orange_skunk",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 06 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10119,6 +10153,13 @@
         "d": "Jul 02 2026"
       },
       {
+        "n": "orange_skunk",
+        "i": "Sim Racing Shoes",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jul 06 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "KEISER FUEL REGULATOR & FILTER",
         "v": 46,
@@ -10154,13 +10195,29 @@
         "d": "Jul 02 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "orange_skunk",
+        "i": "Sim Racing Shoes",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jul 06 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "orange_skunk",
+        "i": "Sim Racing Shoes",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jul 06 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 791,
+        "total": 792,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10952,15 +11009,16 @@
           "stoogeyy",
           "who_flung_poo_36",
           "bsnracing",
-          "headzh_t"
+          "headzh_t",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "headzh_t",
-          "d": "Jul 02 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "first_cast": {
-        "total": 93,
+        "total": 94,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11054,15 +11112,16 @@
           "nellafella",
           "dvn_immortalflame",
           "barnsdale",
-          "tayrob28"
+          "tayrob28",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "tayrob28",
-          "d": "Jun 28 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "catch_of_day": {
-        "total": 133,
+        "total": 134,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11196,15 +11255,16 @@
           "letirefessedu74",
           "iiaipii",
           "13eard",
-          "killa_0zz"
+          "killa_0zz",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "killa_0zz",
-          "d": "Jul 02 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "win_day": {
-        "total": 94,
+        "total": 95,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11299,11 +11359,12 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard"
+          "13eard",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "13eard",
-          "d": "Jun 17 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "double_down": {
@@ -11478,7 +11539,7 @@
         }
       },
       "custom_catch": {
-        "total": 651,
+        "total": 652,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12130,11 +12191,12 @@
           "esspiritussancti",
           "stoogeyy",
           "who_flung_poo_36",
-          "bsnracing"
+          "bsnracing",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "bsnracing",
-          "d": "Jun 28 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "heavy_hauler": {
@@ -13869,7 +13931,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13897,11 +13959,12 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "orange_skunk"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "orange_skunk",
+          "d": "Jul 06 2026"
         }
       },
       "win_month": {
@@ -19837,6 +19900,14 @@
       },
       "headzh_t": {
         "broke_in": "Jul 02 2026"
+      },
+      "orange_skunk": {
+        "broke_in": "Jul 06 2026",
+        "first_cast": "Jul 06 2026",
+        "win_day": "Jul 06 2026",
+        "catch_of_day": "Jul 06 2026",
+        "custom_catch": "Jul 06 2026",
+        "win_week": "Jul 06 2026"
       }
     },
     "recent_unlocks": [
@@ -22350,7 +22421,7 @@
       "n": "Sim Racing Shoes",
       "custom": true,
       "r": "Uncommon",
-      "c": 89,
+      "c": 90,
       "h": "em1_civic_si_racing",
       "v": 56,
       "w": 1.13
@@ -23367,7 +23438,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "orange_skunk",
+      "g": 49,
+      "c": 1,
+      "best_n": "Sim Racing Shoes",
+      "best_r": "Uncommon",
+      "best_v": 49,
+      "d": "Jul 06 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -24094,7 +24175,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Super Nerds Unite!",
-      "c": 89,
+      "c": 90,
       "rec": "1.13 lb",
       "v": 56
     },
@@ -26747,6 +26828,14 @@
   ],
   "recent": [
     {
+      "u": "orange_skunk",
+      "i": "Sim Racing Shoes",
+      "w": 0.99,
+      "v": 49,
+      "r": "Uncommon",
+      "d": "Jul 06 2026"
+    },
+    {
       "u": "larcen22",
       "i": "KOOLBOX IV DRIVER AC",
       "w": 13.34,
@@ -27336,14 +27425,6 @@
       "w": 44.61,
       "v": 45,
       "r": "Uncommon",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "tayrob28",
-      "i": "Bobby Labonte",
-      "w": 22.89,
-      "v": 182,
-      "r": "Rare",
       "d": "Jun 28 2026"
     }
   ]
