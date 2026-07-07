@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-07T00:32:18.172758+00:00",
-    "total_catches": 23435,
+    "generated_at": "2026-07-07T00:38:30.652518+00:00",
+    "total_catches": 23436,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23435 catches"
+      "sub": "Since launch - 23436 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -570,20 +570,20 @@
         "l": "Nov 16 2024"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 10247,
+        "c": 118,
+        "casts": 118,
+        "l": "Jul 07 2026"
+      },
+      {
         "u": "simonmark21",
         "n": "simonmark21",
         "g": 10214,
         "c": 113,
         "casts": 113,
         "l": "Mar 27 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 10077,
-        "c": 117,
-        "casts": 117,
-        "l": "Jul 07 2026"
       },
       {
         "u": "lispyinfamous",
@@ -6630,9 +6630,9 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 367,
-        "c": 5,
-        "casts": 5,
+        "g": 537,
+        "c": 6,
+        "casts": 6,
         "l": "Jul 07 2026"
       },
       {
@@ -6726,6 +6726,14 @@
     ],
     "weekly": [
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 215,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 07 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 53,
@@ -6740,14 +6748,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 45,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 07 2026"
       },
       {
         "u": "juicedracing",
@@ -6760,6 +6760,14 @@
     ],
     "daily": [
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 215,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 07 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 53,
@@ -6774,14 +6782,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 45,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 07 2026"
       },
       {
         "u": "juicedracing",
@@ -10245,6 +10245,13 @@
     ],
     "weekly": [
       {
+        "n": "beliron",
+        "i": "Carson Hocevar",
+        "v": 170,
+        "r": "Epic",
+        "d": "Jul 07 2026"
+      },
+      {
         "n": "nellafella",
         "i": "Natalie Decker",
         "v": 53,
@@ -10257,13 +10264,6 @@
         "v": 49,
         "r": "Uncommon",
         "d": "Jul 06 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "HANS Device",
-        "v": 45,
-        "r": "Uncommon",
-        "d": "Jul 07 2026"
       },
       {
         "n": "juicedracing",
@@ -10275,6 +10275,13 @@
     ],
     "daily": [
       {
+        "n": "beliron",
+        "i": "Carson Hocevar",
+        "v": 170,
+        "r": "Epic",
+        "d": "Jul 07 2026"
+      },
+      {
         "n": "nellafella",
         "i": "Natalie Decker",
         "v": 53,
@@ -10287,13 +10294,6 @@
         "v": 49,
         "r": "Uncommon",
         "d": "Jul 06 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "HANS Device",
-        "v": 45,
-        "r": "Uncommon",
-        "d": "Jul 07 2026"
       },
       {
         "n": "juicedracing",
@@ -22750,7 +22750,7 @@
       "n": "Carson Hocevar",
       "custom": true,
       "r": "Common",
-      "c": 84,
+      "c": 85,
       "h": "motionless",
       "v": 187,
       "w": 93.28
@@ -24999,7 +24999,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Making a name for himself in NASCAR and an iRacing legend",
-      "c": 84,
+      "c": 85,
       "rec": "93.28 lb",
       "v": 187
     },
@@ -26915,6 +26915,14 @@
   "recent": [
     {
       "u": "beliron",
+      "i": "Carson Hocevar",
+      "w": 84.88,
+      "v": 170,
+      "r": "Epic",
+      "d": "Jul 07 2026"
+    },
+    {
+      "u": "beliron",
       "i": "HANS Device",
       "w": 1.8,
       "v": 45,
@@ -27503,14 +27511,6 @@
       "w": 100.4,
       "v": 100,
       "r": "Rare",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Double Adjustable Steel J-Bar",
-      "w": 2.21,
-      "v": 55,
-      "r": "Uncommon",
       "d": "Jun 28 2026"
     }
   ]
