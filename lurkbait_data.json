@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-06T23:32:54.360714+00:00",
-    "total_catches": 23434,
+    "generated_at": "2026-07-07T00:32:18.172758+00:00",
+    "total_catches": 23435,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23434 catches"
+      "sub": "Since launch - 23435 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -578,20 +578,20 @@
         "l": "Mar 27 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 10077,
+        "c": 117,
+        "casts": 117,
+        "l": "Jul 07 2026"
+      },
+      {
         "u": "lispyinfamous",
         "n": "lispyinfamous",
         "g": 10075,
         "c": 128,
         "casts": 128,
         "l": "Mar 19 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 10032,
-        "c": 116,
-        "casts": 116,
-        "l": "Jul 02 2026"
       },
       {
         "u": "jonwinston2",
@@ -6630,10 +6630,10 @@
       {
         "u": "beliron",
         "n": "beliron",
-        "g": 322,
-        "c": 4,
-        "casts": 4,
-        "l": "Jul 02 2026"
+        "g": 367,
+        "c": 5,
+        "casts": 5,
+        "l": "Jul 07 2026"
       },
       {
         "u": "killa_0zz",
@@ -6742,6 +6742,14 @@
         "l": "Jul 06 2026"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 07 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 2,
@@ -6766,6 +6774,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
+      },
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 07 2026"
       },
       {
         "u": "juicedracing",
@@ -10243,6 +10259,13 @@
         "d": "Jul 06 2026"
       },
       {
+        "n": "beliron",
+        "i": "HANS Device",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jul 07 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Sponge",
         "v": 2,
@@ -10264,6 +10287,13 @@
         "v": 49,
         "r": "Uncommon",
         "d": "Jul 06 2026"
+      },
+      {
+        "n": "beliron",
+        "i": "HANS Device",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jul 07 2026"
       },
       {
         "n": "juicedracing",
@@ -12954,7 +12984,7 @@
         }
       },
       "completionist": {
-        "total": 41,
+        "total": 42,
         "holders": [
           "zee20ate",
           "flippy00",
@@ -12996,11 +13026,12 @@
           "brookswhynot",
           "drewieblaster",
           "rms_racing",
-          "nellafella"
+          "nellafella",
+          "beliron"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 16 2026"
+          "u": "beliron",
+          "d": "Jul 07 2026"
         }
       },
       "full_spectrum": {
@@ -18421,6 +18452,7 @@
         "regular_weight": "May 08 2026",
         "century": "Jun 17 2026",
         "dex_hunter": "Apr 28 2026",
+        "completionist": "Jul 07 2026",
         "full_spectrum": "May 04 2026",
         "custom_club": "Aug 02 2025",
         "gold_hoarder": "Jul 02 2026",
@@ -22421,7 +22453,7 @@
       "n": "HANS Device",
       "custom": true,
       "r": "Uncommon",
-      "c": 85,
+      "c": 86,
       "h": "motionless",
       "v": 56,
       "w": 2.26
@@ -25192,7 +25224,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Shit will save your life yo",
-      "c": 85,
+      "c": 86,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -26882,6 +26914,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "HANS Device",
+      "w": 1.8,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Jul 07 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Natalie Decker",
       "w": 58.4,
@@ -27471,14 +27511,6 @@
       "w": 2.21,
       "v": 55,
       "r": "Uncommon",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "itzdubsta",
-      "i": "Whole NASCAR",
-      "w": 107.29,
-      "v": 322,
-      "r": "Epic",
       "d": "Jun 28 2026"
     }
   ]
