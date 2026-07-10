@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T01:00:13.162308+00:00",
-    "total_catches": 23450,
+    "generated_at": "2026-07-10T01:44:16.865529+00:00",
+    "total_catches": 23452,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23450 catches"
+      "sub": "Since launch - 23452 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -420,9 +420,9 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 22618,
-        "c": 332,
-        "casts": 332,
+        "g": 22770,
+        "c": 333,
+        "casts": 333,
         "l": "Jul 10 2026"
       },
       {
@@ -524,9 +524,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 12584,
-        "c": 169,
-        "casts": 169,
+        "g": 12600,
+        "c": 170,
+        "casts": 170,
         "l": "Jul 10 2026"
       },
       {
@@ -6638,17 +6638,17 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 688,
-        "c": 11,
-        "casts": 11,
+        "g": 704,
+        "c": 12,
+        "casts": 12,
         "l": "Jul 10 2026"
       },
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 338,
-        "c": 3,
-        "casts": 3,
+        "g": 490,
+        "c": 4,
+        "casts": 4,
         "l": "Jul 10 2026"
       },
       {
@@ -6744,9 +6744,17 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 595,
-        "c": 8,
-        "casts": 8,
+        "g": 611,
+        "c": 9,
+        "casts": 9,
+        "l": "Jul 10 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 485,
+        "c": 3,
+        "casts": 3,
         "l": "Jul 10 2026"
       },
       {
@@ -6756,14 +6764,6 @@
         "c": 3,
         "casts": 3,
         "l": "Jul 09 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 333,
-        "c": 2,
-        "casts": 2,
-        "l": "Jul 10 2026"
       },
       {
         "u": "danfzzl",
@@ -6808,19 +6808,19 @@
     ],
     "daily": [
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 202,
-        "c": 3,
-        "casts": 3,
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 317,
+        "c": 2,
+        "casts": 2,
         "l": "Jul 10 2026"
       },
       {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 165,
-        "c": 1,
-        "casts": 1,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 218,
+        "c": 4,
+        "casts": 4,
         "l": "Jul 10 2026"
       }
     ]
@@ -21288,7 +21288,7 @@
       "n": "Charlotte Motor Speedway",
       "custom": true,
       "r": "Epic",
-      "c": 36,
+      "c": 37,
       "h": "justingamez",
       "v": 169,
       "w": 1.13
@@ -23061,7 +23061,7 @@
       "n": "Trout",
       "custom": false,
       "r": "Common",
-      "c": 184,
+      "c": 185,
       "h": "flippy00",
       "v": 17,
       "w": 1.13
@@ -23726,7 +23726,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 184,
+      "c": 185,
       "rec": "1.13 lb",
       "v": 17
     },
@@ -25922,7 +25922,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Win @ Charlotte!",
-      "c": 36,
+      "c": 37,
       "rec": "1.13 lb",
       "v": 169
     },
@@ -26946,6 +26946,22 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Charlotte Motor Speedway",
+      "w": 1.01,
+      "v": 152,
+      "r": "Rare",
+      "d": "Jul 10 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Trout",
+      "w": 1.06,
+      "v": 16,
+      "r": "Common",
+      "d": "Jul 10 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Black Flag",
       "w": 0.9,
@@ -27527,22 +27543,6 @@
       "w": 5.53,
       "v": 55,
       "r": "Uncommon",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Xfinity Camaro",
-      "w": 94.08,
-      "v": 118,
-      "r": "Rare",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Swordfish",
-      "w": 280.57,
-      "v": 224,
-      "r": "Epic",
       "d": "Jun 28 2026"
     }
   ]
