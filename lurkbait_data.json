@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T03:16:50.664817+00:00",
-    "total_catches": 23459,
+    "generated_at": "2026-07-10T03:17:56.516592+00:00",
+    "total_catches": 23460,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23459 catches"
+      "sub": "Since launch - 23460 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -300,10 +300,10 @@
       {
         "u": "motionless",
         "n": "motionless",
-        "g": 102163,
-        "c": 1294,
-        "casts": 1294,
-        "l": "Jun 28 2026"
+        "g": 102275,
+        "c": 1295,
+        "casts": 1295,
+        "l": "Jul 10 2026"
       },
       {
         "u": "ironlegacy_",
@@ -6692,6 +6692,14 @@
         "l": "Jul 10 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 10 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 108,
@@ -6790,6 +6798,14 @@
         "l": "Jul 10 2026"
       },
       {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 10 2026"
+      },
+      {
         "u": "orange_skunk",
         "n": "orange_skunk",
         "g": 49,
@@ -6853,6 +6869,14 @@
         "g": 134,
         "c": 2,
         "casts": 2,
+        "l": "Jul 10 2026"
+      },
+      {
+        "u": "motionless",
+        "n": "motionless",
+        "g": 112,
+        "c": 1,
+        "casts": 1,
         "l": "Jul 10 2026"
       },
       {
@@ -10253,6 +10277,13 @@
         "d": "Jul 02 2026"
       },
       {
+        "n": "motionless",
+        "i": "Button Box",
+        "v": 112,
+        "r": "Rare",
+        "d": "Jul 10 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Oreochromis",
         "v": 87,
@@ -10346,6 +10377,13 @@
         "d": "Jul 07 2026"
       },
       {
+        "n": "motionless",
+        "i": "Button Box",
+        "v": 112,
+        "r": "Rare",
+        "d": "Jul 10 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Oreochromis",
         "v": 87,
@@ -10393,6 +10431,13 @@
         "n": "gatoraintplaying",
         "i": "87 Le Sabre",
         "v": 165,
+        "r": "Rare",
+        "d": "Jul 10 2026"
+      },
+      {
+        "n": "motionless",
+        "i": "Button Box",
+        "v": 112,
         "r": "Rare",
         "d": "Jul 10 2026"
       },
@@ -21866,8 +21911,8 @@
       "n": "Button Box",
       "custom": true,
       "r": "Rare",
-      "c": 51,
-      "h": "pvtcrackpot",
+      "c": 52,
+      "h": "motionless",
       "v": 112,
       "w": 3.37
     },
@@ -25519,7 +25564,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Mah immersions",
-      "c": 51,
+      "c": 52,
       "rec": "3.37 lb",
       "v": 112
     },
@@ -27038,6 +27083,14 @@
   ],
   "recent": [
     {
+      "u": "motionless",
+      "i": "Button Box",
+      "w": 3.37,
+      "v": 112,
+      "r": "Rare",
+      "d": "Jul 10 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Thong",
       "w": 0.21,
@@ -27627,14 +27680,6 @@
       "w": 192.99,
       "v": 175,
       "r": "Epic",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Orange-Spotted Spinefoot",
-      "w": 0.11,
-      "v": 76,
-      "r": "Rare",
       "d": "Jun 28 2026"
     }
   ]
