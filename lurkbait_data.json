@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T03:06:28.018412+00:00",
-    "total_catches": 23457,
+    "generated_at": "2026-07-10T03:09:36.524636+00:00",
+    "total_catches": 23458,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23457 catches"
+      "sub": "Since launch - 23458 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -812,10 +812,10 @@
       {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
-        "g": 5848,
-        "c": 88,
-        "casts": 88,
-        "l": "Jul 02 2026"
+        "g": 5864,
+        "c": 89,
+        "casts": 89,
+        "l": "Jul 10 2026"
       },
       {
         "u": "robbievrabeljr",
@@ -6684,20 +6684,20 @@
         "l": "Jul 02 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 122,
+        "c": 4,
+        "casts": 4,
+        "l": "Jul 10 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 108,
         "c": 4,
         "casts": 4,
         "l": "Jul 09 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 106,
-        "c": 3,
-        "casts": 3,
-        "l": "Jul 02 2026"
       },
       {
         "u": "orange_skunk",
@@ -6814,6 +6814,14 @@
         "l": "Jul 09 2026"
       },
       {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 16,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 10 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 11,
@@ -6851,6 +6859,14 @@
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 46,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 10 2026"
+      },
+      {
+        "u": "thesaucypanda2",
+        "n": "thesaucypanda2",
+        "g": 16,
         "c": 1,
         "casts": 1,
         "l": "Jul 10 2026"
@@ -10358,6 +10374,13 @@
         "d": "Jul 09 2026"
       },
       {
+        "n": "thesaucypanda2",
+        "i": "Bristol Motor Speedway",
+        "v": 16,
+        "r": "Common",
+        "d": "Jul 10 2026"
+      },
+      {
         "n": "v1per_simr4cin6",
         "i": "Flat Tire",
         "v": 11,
@@ -10392,6 +10415,13 @@
         "i": "Butterfly Fish",
         "v": 46,
         "r": "Uncommon",
+        "d": "Jul 10 2026"
+      },
+      {
+        "n": "thesaucypanda2",
+        "i": "Bristol Motor Speedway",
+        "v": 16,
+        "r": "Common",
         "d": "Jul 10 2026"
       }
     ]
@@ -12757,7 +12787,7 @@
         }
       },
       "regular_weight": {
-        "total": 60,
+        "total": 61,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -12818,15 +12848,16 @@
           "mrdrwaddles",
           "beliron",
           "realiist1",
-          "nellafella"
+          "nellafella",
+          "thesaucypanda2"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 30 2026"
+          "u": "thesaucypanda2",
+          "d": "Jul 10 2026"
         }
       },
       "nascar_pass": {
-        "total": 53,
+        "total": 54,
         "holders": [
           "riflehog",
           "hitmanjack3",
@@ -12880,11 +12911,12 @@
           "drewieblaster",
           "brookswhynot",
           "grumpymitch1",
-          "nellafella"
+          "nellafella",
+          "thesaucypanda2"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 17 2026"
+          "u": "thesaucypanda2",
+          "d": "Jul 10 2026"
         }
       },
       "century": {
@@ -18570,6 +18602,8 @@
         "junk_master": "May 08 2026",
         "custom_catch": "Mar 18 2025",
         "walk_in": "Apr 21 2026",
+        "regular_weight": "Jul 10 2026",
+        "nascar_pass": "Jul 10 2026",
         "dex_hunter": "May 21 2026",
         "full_spectrum": "Mar 27 2025",
         "custom_club": "Mar 27 2025",
@@ -23092,7 +23126,7 @@
       "n": "Bristol Motor Speedway",
       "custom": true,
       "r": "Common",
-      "c": 141,
+      "c": 142,
       "h": "scriptedpr",
       "v": 17,
       "w": 225.65
@@ -25899,7 +25933,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You wrecked in turn 1, fuck this track!",
-      "c": 141,
+      "c": 142,
       "rec": "225.65 lb",
       "v": 17
     },
@@ -27004,6 +27038,14 @@
   ],
   "recent": [
     {
+      "u": "thesaucypanda2",
+      "i": "Bristol Motor Speedway",
+      "w": 213.59,
+      "v": 16,
+      "r": "Common",
+      "d": "Jul 10 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Bike",
       "w": 11.07,
@@ -27592,14 +27634,6 @@
       "i": "Koi",
       "w": 13.36,
       "v": 52,
-      "r": "Uncommon",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Lobster",
-      "w": 0.88,
-      "v": 61,
       "r": "Uncommon",
       "d": "Jun 28 2026"
     }
