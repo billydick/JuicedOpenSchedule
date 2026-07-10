@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T00:14:00.160706+00:00",
-    "total_catches": 23446,
+    "generated_at": "2026-07-10T00:29:22.625374+00:00",
+    "total_catches": 23447,
     "unique_catches": 375,
     "total_players": 792,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23446 catches"
+      "sub": "Since launch - 23447 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -524,10 +524,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 12382,
-        "c": 166,
-        "casts": 166,
-        "l": "Jul 09 2026"
+        "g": 12478,
+        "c": 167,
+        "casts": 167,
+        "l": "Jul 10 2026"
       },
       {
         "u": "maden3w",
@@ -6638,10 +6638,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 486,
-        "c": 8,
-        "casts": 8,
-        "l": "Jul 09 2026"
+        "g": 582,
+        "c": 9,
+        "casts": 9,
+        "l": "Jul 10 2026"
       },
       {
         "u": "killa_0zz",
@@ -6744,10 +6744,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 393,
-        "c": 5,
-        "casts": 5,
-        "l": "Jul 09 2026"
+        "g": 489,
+        "c": 6,
+        "casts": 6,
+        "l": "Jul 10 2026"
       },
       {
         "u": "beliron",
@@ -6806,7 +6806,16 @@
         "l": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 96,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 10 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10302,7 +10311,15 @@
         "d": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Broken Sword",
+        "v": 96,
+        "r": "Junk",
+        "d": "Jul 10 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23272,7 +23289,7 @@
       "n": "Broken Sword",
       "custom": false,
       "r": "Junk",
-      "c": 30,
+      "c": 31,
       "h": "stoofi1992",
       "v": 112,
       "w": 1.12
@@ -23874,7 +23891,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 30,
+      "c": 31,
       "rec": "1.12 lb",
       "v": 112
     },
@@ -26915,6 +26932,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Broken Sword",
+      "w": 0.96,
+      "v": 96,
+      "r": "Junk",
+      "d": "Jul 10 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "1987 Wrangler",
       "w": 26.24,
       "v": 210,
@@ -27503,14 +27528,6 @@
       "w": 0.51,
       "v": 10,
       "r": "Junk",
-      "d": "Jun 28 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Hershel McGriff",
-      "w": 22.67,
-      "v": 200,
-      "r": "Epic",
       "d": "Jun 28 2026"
     }
   ]
