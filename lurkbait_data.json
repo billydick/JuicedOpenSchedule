@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-11T00:47:07.392370+00:00",
+    "generated_at": "2026-07-11T21:42:34.192457+00:00",
     "total_catches": 23470,
     "unique_catches": 375,
     "total_players": 796,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jul 10 2026",
+      "label": "Jul 11 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6974,18 +6974,22 @@
         "l": "Jul 08 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 48,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 11 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jul 10",
+      "date": "2026-07-10",
+      "leaderboard": [
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 48,
+          "c": 1,
+          "l": "Jul 11 2026"
+        }
+      ]
+    },
     {
       "label": "Jul 09",
       "date": "2026-07-09",
@@ -7178,11 +7182,6 @@
     {
       "label": "Jul 04",
       "date": "2026-07-04",
-      "leaderboard": []
-    },
-    {
-      "label": "Jul 03",
-      "date": "2026-07-03",
       "leaderboard": []
     }
   ],
@@ -10683,15 +10682,7 @@
         "d": "Jul 08 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "gatoraintplaying",
-        "i": "Garrett Smithley",
-        "v": 48,
-        "r": "Uncommon",
-        "d": "Jul 11 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
