@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-10T23:25:14.187937+00:00",
-    "total_catches": 23469,
+    "generated_at": "2026-07-11T00:47:07.392370+00:00",
+    "total_catches": 23470,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23469 catches"
+      "sub": "Since launch - 23470 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -420,10 +420,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 22803,
-        "c": 334,
-        "casts": 334,
-        "l": "Jul 10 2026"
+        "g": 22851,
+        "c": 335,
+        "casts": 335,
+        "l": "Jul 11 2026"
       },
       {
         "u": "1disruptiveduck",
@@ -6678,10 +6678,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 523,
-        "c": 5,
-        "casts": 5,
-        "l": "Jul 10 2026"
+        "g": 571,
+        "c": 6,
+        "casts": 6,
+        "l": "Jul 11 2026"
       },
       {
         "u": "jdawg250f",
@@ -6848,10 +6848,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 518,
-        "c": 4,
-        "casts": 4,
-        "l": "Jul 10 2026"
+        "g": 566,
+        "c": 5,
+        "casts": 5,
+        "l": "Jul 11 2026"
       },
       {
         "u": "beliron",
@@ -6974,7 +6974,16 @@
         "l": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 11 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10674,7 +10683,15 @@
         "d": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Garrett Smithley",
+        "v": 48,
+        "r": "Uncommon",
+        "d": "Jul 11 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22975,7 +22992,7 @@
       "n": "Garrett Smithley",
       "custom": true,
       "r": "Uncommon",
-      "c": 8,
+      "c": 9,
       "h": "motionless",
       "v": 54,
       "w": 54.03
@@ -27159,7 +27176,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Professional backmarker with a podcast mic ready",
-      "c": 8,
+      "c": 9,
       "rec": "54.03 lb",
       "v": 54
     },
@@ -27345,6 +27362,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "gatoraintplaying",
+      "i": "Garrett Smithley",
+      "w": 48.34,
+      "v": 48,
+      "r": "Uncommon",
+      "d": "Jul 11 2026"
+    },
     {
       "u": "jdawg250f",
       "i": "NASCAR Fans",
@@ -27936,14 +27961,6 @@
       "v": 28,
       "r": "Common",
       "d": "Jun 29 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Peyton Moore",
-      "w": 47.1,
-      "v": 94,
-      "r": "Rare",
-      "d": "Jun 28 2026"
     }
   ]
 }
