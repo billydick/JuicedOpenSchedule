@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-12T03:50:53.797328+00:00",
+    "generated_at": "2026-07-12T20:54:35.638223+00:00",
     "total_catches": 23472,
     "unique_catches": 375,
     "total_players": 796,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jul 11 2026",
+      "label": "Jul 12 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6974,26 +6974,29 @@
         "l": "Jul 08 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 43,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 12 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 11 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jul 11",
+      "date": "2026-07-11",
+      "leaderboard": [
+        {
+          "n": "grumpymitch1",
+          "u": "grumpymitch1",
+          "g": 43,
+          "c": 1,
+          "l": "Jul 12 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 1,
+          "c": 1,
+          "l": "Jul 11 2026"
+        }
+      ]
+    },
     {
       "label": "Jul 10",
       "date": "2026-07-10",
@@ -7194,11 +7197,6 @@
     {
       "label": "Jul 05",
       "date": "2026-07-05",
-      "leaderboard": []
-    },
-    {
-      "label": "Jul 04",
-      "date": "2026-07-04",
       "leaderboard": []
     }
   ],
@@ -10699,22 +10697,7 @@
         "d": "Jul 08 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "grumpymitch1",
-        "i": "Watch",
-        "v": 43,
-        "r": "Uncommon",
-        "d": "Jul 12 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Daniel Hermic",
-        "v": 1,
-        "r": "Junk",
-        "d": "Jul 11 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
