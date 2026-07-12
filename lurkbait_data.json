@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-12T20:54:35.638223+00:00",
-    "total_catches": 23472,
+    "generated_at": "2026-07-12T22:14:28.164643+00:00",
+    "total_catches": 23473,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23472 catches"
+      "sub": "Since launch - 23473 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -2392,6 +2392,14 @@
         "c": 16,
         "casts": 16,
         "l": "Nov 27 2025"
+      },
+      {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 416,
+        "c": 3,
+        "casts": 3,
+        "l": "Jul 12 2026"
       },
       {
         "u": "azure616",
@@ -4850,14 +4858,6 @@
         "l": "Oct 14 2024"
       },
       {
-        "u": "toyotatacoma",
-        "n": "toyotatacoma",
-        "g": 50,
-        "c": 2,
-        "casts": 2,
-        "l": "Jan 06 2026"
-      },
-      {
         "u": "cking1313",
         "n": "cking1313",
         "g": 50,
@@ -6692,6 +6692,14 @@
         "l": "Jul 10 2026"
       },
       {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 366,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 12 2026"
+      },
+      {
         "u": "killa_0zz",
         "n": "killa_0zz",
         "g": 281,
@@ -6870,6 +6878,14 @@
         "l": "Jul 10 2026"
       },
       {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 366,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 12 2026"
+      },
+      {
         "u": "scribbles36",
         "n": "scribbles36",
         "g": 279,
@@ -6974,7 +6990,16 @@
         "l": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 366,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 12 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10429,6 +10454,13 @@
         "d": "Jul 10 2026"
       },
       {
+        "n": "toyotatacoma",
+        "i": "Ross Chastain",
+        "v": 366,
+        "r": "Epic",
+        "d": "Jul 12 2026"
+      },
+      {
         "n": "killa_0zz",
         "i": "Phoenix Raceway",
         "v": 281,
@@ -10585,6 +10617,13 @@
         "d": "Jul 10 2026"
       },
       {
+        "n": "toyotatacoma",
+        "i": "Ross Chastain",
+        "v": 366,
+        "r": "Epic",
+        "d": "Jul 12 2026"
+      },
+      {
         "n": "scribbles36",
         "i": "Red Farmer",
         "v": 279,
@@ -10697,7 +10736,15 @@
         "d": "Jul 08 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "toyotatacoma",
+        "i": "Ross Chastain",
+        "v": 366,
+        "r": "Epic",
+        "d": "Jul 12 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -11507,7 +11554,7 @@
         }
       },
       "first_cast": {
-        "total": 94,
+        "total": 95,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11602,15 +11649,16 @@
           "dvn_immortalflame",
           "barnsdale",
           "tayrob28",
-          "orange_skunk"
+          "orange_skunk",
+          "toyotatacoma"
         ],
         "latest": {
-          "u": "orange_skunk",
-          "d": "Jul 06 2026"
+          "u": "toyotatacoma",
+          "d": "Jul 12 2026"
         }
       },
       "catch_of_day": {
-        "total": 133,
+        "total": 134,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11744,15 +11792,16 @@
           "letirefessedu74",
           "iiaipii",
           "13eard",
-          "killa_0zz"
+          "killa_0zz",
+          "toyotatacoma"
         ],
         "latest": {
-          "u": "killa_0zz",
-          "d": "Jul 02 2026"
+          "u": "toyotatacoma",
+          "d": "Jul 12 2026"
         }
       },
       "win_day": {
-        "total": 94,
+        "total": 95,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11847,11 +11896,12 @@
           "nellafella",
           "v1per_simr4cin6",
           "thesaucypanda2",
-          "13eard"
+          "13eard",
+          "toyotatacoma"
         ],
         "latest": {
-          "u": "13eard",
-          "d": "Jun 17 2026"
+          "u": "toyotatacoma",
+          "d": "Jul 12 2026"
         }
       },
       "double_down": {
@@ -19351,6 +19401,9 @@
       },
       "toyotatacoma": {
         "broke_in": "Jun 28 2025",
+        "first_cast": "Jul 12 2026",
+        "win_day": "Jul 12 2026",
+        "catch_of_day": "Jul 12 2026",
         "custom_catch": "Jun 28 2025"
       },
       "fizzy_womack": {
@@ -20739,7 +20792,7 @@
       "n": "Ross Chastain",
       "custom": true,
       "r": "Legendary",
-      "c": 32,
+      "c": 33,
       "h": "brian_wertman_74",
       "v": 391,
       "w": 22.34
@@ -25283,7 +25336,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Ima drive this bitch on the wall",
-      "c": 32,
+      "c": 33,
       "rec": "22.34 lb",
       "v": 391
     },
@@ -27369,6 +27422,14 @@
   ],
   "recent": [
     {
+      "u": "toyotatacoma",
+      "i": "Ross Chastain",
+      "w": 20.91,
+      "v": 366,
+      "r": "Epic",
+      "d": "Jul 12 2026"
+    },
+    {
       "u": "grumpymitch1",
       "i": "Watch",
       "w": 0.17,
@@ -27958,14 +28019,6 @@
       "w": 50.1,
       "v": 100,
       "r": "Rare",
-      "d": "Jun 29 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Octopus",
-      "w": 9.1,
-      "v": 137,
-      "r": "Epic",
       "d": "Jun 29 2026"
     }
   ]
