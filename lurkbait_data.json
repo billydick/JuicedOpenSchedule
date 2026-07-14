@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-13T23:56:21.097874+00:00",
-    "total_catches": 23473,
+    "generated_at": "2026-07-14T00:29:04.529853+00:00",
+    "total_catches": 23474,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23473 catches"
+      "sub": "Since launch - 23474 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -524,10 +524,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 12773,
-        "c": 173,
-        "casts": 173,
-        "l": "Jul 10 2026"
+        "g": 12820,
+        "c": 174,
+        "casts": 174,
+        "l": "Jul 14 2026"
       },
       {
         "u": "maden3w",
@@ -6662,10 +6662,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 877,
-        "c": 15,
-        "casts": 15,
-        "l": "Jul 10 2026"
+        "g": 924,
+        "c": 16,
+        "casts": 16,
+        "l": "Jul 14 2026"
       },
       {
         "u": "beliron",
@@ -6844,8 +6844,26 @@
         "l": "Jul 08 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 47,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 14 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 47,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 14 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10413,8 +10431,24 @@
         "d": "Jul 08 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "nellafella",
+        "i": "Zebra Cakes",
+        "v": 47,
+        "r": "Uncommon",
+        "d": "Jul 14 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Zebra Cakes",
+        "v": 47,
+        "r": "Uncommon",
+        "d": "Jul 14 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22658,7 +22692,7 @@
       "n": "Zebra Cakes",
       "custom": true,
       "r": "Uncommon",
-      "c": 87,
+      "c": 88,
       "h": "pvtcrackpot",
       "v": 56,
       "w": 1.13
@@ -24834,7 +24868,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Snack of Sweats",
-      "c": 87,
+      "c": 88,
       "rec": "1.13 lb",
       "v": 56
     },
@@ -27046,6 +27080,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Zebra Cakes",
+      "w": 0.94,
+      "v": 47,
+      "r": "Uncommon",
+      "d": "Jul 14 2026"
+    },
+    {
       "u": "toyotatacoma",
       "i": "Ross Chastain",
       "w": 20.91,
@@ -27636,14 +27678,6 @@
       "v": 20,
       "r": "Common",
       "d": "Jun 30 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "AJ Rosini",
-      "w": 50.1,
-      "v": 100,
-      "r": "Rare",
-      "d": "Jun 29 2026"
     }
   ]
 }
