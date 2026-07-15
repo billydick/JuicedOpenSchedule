@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T00:28:53.199531+00:00",
-    "total_catches": 23476,
+    "generated_at": "2026-07-15T02:54:07.274338+00:00",
+    "total_catches": 23477,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23476 catches"
+      "sub": "Since launch - 23477 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37161,
-        "c": 568,
-        "casts": 568,
-        "l": "Jul 09 2026"
+        "g": 37185,
+        "c": 569,
+        "casts": 569,
+        "l": "Jul 15 2026"
       },
       {
         "u": "jdawg250f",
@@ -6740,6 +6740,14 @@
         "l": "Jul 02 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 132,
+        "c": 5,
+        "casts": 5,
+        "l": "Jul 15 2026"
+      },
+      {
         "u": "motionless",
         "n": "motionless",
         "g": 127,
@@ -6754,14 +6762,6 @@
         "c": 5,
         "casts": 5,
         "l": "Jul 10 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 108,
-        "c": 4,
-        "casts": 4,
-        "l": "Jul 09 2026"
       },
       {
         "u": "mono_yusuf",
@@ -6854,6 +6854,14 @@
         "l": "Jul 14 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 24,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 15 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 23,
@@ -6862,7 +6870,16 @@
         "l": "Jul 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 24,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 15 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10418,6 +10435,13 @@
         "d": "Jul 14 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Fire Bottle Nozzle",
+        "v": 24,
+        "r": "Common",
+        "d": "Jul 15 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Bubba Wallace",
         "v": 23,
@@ -10425,7 +10449,15 @@
         "d": "Jul 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Fire Bottle Nozzle",
+        "v": 24,
+        "r": "Common",
+        "d": "Jul 15 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23047,7 +23079,7 @@
       "n": "Fire Bottle Nozzle",
       "custom": true,
       "r": "Common",
-      "c": 147,
+      "c": 148,
       "h": "lishogunil",
       "v": 28,
       "w": 2.26
@@ -25196,7 +25228,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Nozzle for a Fire Bottle",
-      "c": 147,
+      "c": 148,
       "rec": "2.26 lb",
       "v": 28
     },
@@ -27057,6 +27089,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Fire Bottle Nozzle",
+      "w": 1.95,
+      "v": 24,
+      "r": "Common",
+      "d": "Jul 15 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Bubba Wallace",
       "w": 23.45,
@@ -27646,14 +27686,6 @@
       "w": 10.35,
       "v": 155,
       "r": "Rare",
-      "d": "Jun 30 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Michael McDowell",
-      "w": 49.68,
-      "v": 50,
-      "r": "Uncommon",
       "d": "Jun 30 2026"
     }
   ]
