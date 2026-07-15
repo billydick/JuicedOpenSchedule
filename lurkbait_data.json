@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-14T01:29:33.494240+00:00",
+    "generated_at": "2026-07-15T00:28:53.199531+00:00",
     "total_catches": 23476,
     "unique_catches": 375,
     "total_players": 796,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jul 13 2026",
+      "label": "Jul 14 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6862,26 +6862,29 @@
         "l": "Jul 14 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 97,
-        "c": 2,
-        "casts": 2,
-        "l": "Jul 14 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 23,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 14 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jul 13",
+      "date": "2026-07-13",
+      "leaderboard": [
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 97,
+          "c": 2,
+          "l": "Jul 14 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 23,
+          "c": 1,
+          "l": "Jul 14 2026"
+        }
+      ]
+    },
     {
       "label": "Jul 12",
       "date": "2026-07-12",
@@ -7070,47 +7073,6 @@
       "label": "Jul 07",
       "date": "2026-07-07",
       "leaderboard": []
-    },
-    {
-      "label": "Jul 06",
-      "date": "2026-07-06",
-      "leaderboard": [
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 215,
-          "c": 2,
-          "l": "Jul 07 2026"
-        },
-        {
-          "n": "danfzzl",
-          "u": "danfzzl",
-          "g": 160,
-          "c": 1,
-          "l": "Jul 07 2026"
-        },
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 53,
-          "c": 1,
-          "l": "Jul 06 2026"
-        },
-        {
-          "n": "orange_skunk",
-          "u": "orange_skunk",
-          "g": 49,
-          "c": 1,
-          "l": "Jul 06 2026"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 2,
-          "c": 1,
-          "l": "Jul 06 2026"
-        }
-      ]
     }
   ],
   "weekly_history": [
@@ -10463,22 +10425,7 @@
         "d": "Jul 14 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "nellafella",
-        "i": "Double Adjustable Steel J-Bar",
-        "v": 50,
-        "r": "Uncommon",
-        "d": "Jul 14 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Bubba Wallace",
-        "v": 23,
-        "r": "Common",
-        "d": "Jul 14 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
