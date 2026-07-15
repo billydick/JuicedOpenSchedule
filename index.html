@@ -972,7 +972,7 @@
   }
   #jo-chat-close{
     background:none;border:none;cursor:pointer;
-    color:rgba(200,200,200,.4);font-size:18px;line-height:1;padding:0 2px;
+    color:rgba(200,200,200,.75);font-size:18px;line-height:1;padding:0 2px;
     transition:color .15s;
   }
   #jo-chat-close:hover{color:#CC0000}
@@ -9349,7 +9349,7 @@
         </div>
         <div class="jr-hero-right">
           <div class="jr-hero-embed-wrap">
-            <iframe src="https://player.twitch.tv/?video=v2817782585&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
+            <iframe src="https://player.twitch.tv/?video=v2820230943&parent=www.juicedracing.com&parent=juicedracing.com&autoplay=false" frameborder="0" allowfullscreen scrolling="no" class="jr-hero-iframe"></iframe>
           </div>
         </div>
       </div>
@@ -11767,7 +11767,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
 <div id="jo-chat-panel" role="dialog" aria-label="Juiced Open Assistant">
   <div id="jo-chat-header">
     <span>Juiced Open Assistant</span>
-    <button id="jo-chat-close" aria-label="Close chat">&#x2715;</button>
+    <button id="jo-chat-close" type="button" aria-label="Close chat">&#x2715;</button>
   </div>
   <div id="jo-chat-messages"></div>
   <div id="jo-chat-input-row">
@@ -11790,13 +11790,13 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
 
   function openChat(){
     panel.classList.add('open');
-    localStorage.removeItem(STORAGE_KEY);
+    try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
     if(!greeted){ greet(); greeted=true; }
     setTimeout(function(){ input.focus(); },200);
   }
   function closeChat(){
     panel.classList.remove('open');
-    localStorage.setItem(STORAGE_KEY,'1');
+    try{ localStorage.setItem(STORAGE_KEY,'1'); }catch(e){}
   }
 
   function greet(){
@@ -11872,7 +11872,9 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   });
 
   // Default open on first visit; stay closed if previously closed
-  if(!localStorage.getItem(STORAGE_KEY)){ openChat(); }
+  var _closed = false;
+  try{ _closed = !!localStorage.getItem(STORAGE_KEY); }catch(e){}
+  if(!_closed){ openChat(); }
 })();
 </script>
 </body>
