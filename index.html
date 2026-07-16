@@ -963,19 +963,12 @@
   }
   #jo-chat-panel.open{opacity:1;pointer-events:all;transform:translateY(0)}
   #jo-chat-header{
-    display:flex;align-items:center;justify-content:space-between;
     padding:10px 14px;border-bottom:1px solid #252525;flex-shrink:0;
   }
   #jo-chat-header span{
     font-family:'Barlow Condensed',sans-serif;font-size:13px;
     font-weight:800;letter-spacing:3px;text-transform:uppercase;color:#D4A017;
   }
-  #jo-chat-close{
-    background:none;border:none;cursor:pointer;
-    color:rgba(200,200,200,.75);font-size:18px;line-height:1;padding:0 2px;
-    transition:color .15s;
-  }
-  #jo-chat-close:hover{color:#CC0000}
   #jo-chat-messages{
     flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:10px;
     scrollbar-width:thin;scrollbar-color:#252525 transparent;
@@ -11821,7 +11814,6 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
 <div id="jo-chat-panel" role="dialog" aria-label="Juiced Open Assistant">
   <div id="jo-chat-header">
     <span>Juiced Open Assistant</span>
-    <button id="jo-chat-close" type="button" aria-label="Close chat">&#x2715;</button>
   </div>
   <div id="jo-chat-messages"></div>
   <div id="jo-chat-input-row">
@@ -11836,7 +11828,6 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   var STORAGE_KEY = 'joChatClosed';
   var panel = document.getElementById('jo-chat-panel');
   var btn   = document.getElementById('jo-chat-btn');
-  var close = document.getElementById('jo-chat-close');
   var msgs  = document.getElementById('jo-chat-messages');
   var input = document.getElementById('jo-chat-input');
   var send  = document.getElementById('jo-chat-send');
@@ -11851,6 +11842,9 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   function closeChat(){
     panel.classList.remove('open');
     try{ localStorage.setItem(STORAGE_KEY,'1'); }catch(e){}
+  }
+  function toggleChat(){
+    if(panel.classList.contains('open')){ closeChat(); } else { openChat(); }
   }
 
   function greet(){
@@ -11918,8 +11912,7 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     input.focus();
   }
 
-  btn.addEventListener('click', openChat);
-  close.addEventListener('click', closeChat);
+  btn.addEventListener('click', toggleChat);
   send.addEventListener('click', function(){ ask(input.value); });
   input.addEventListener('keydown', function(e){
     if(e.key === 'Enter' && !e.shiftKey){ e.preventDefault(); ask(input.value); }
