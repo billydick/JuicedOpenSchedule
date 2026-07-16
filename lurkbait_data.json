@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T22:46:10.303894+00:00",
-    "total_catches": 23477,
+    "generated_at": "2026-07-16T00:12:08.884372+00:00",
+    "total_catches": 23478,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23477 catches"
+      "sub": "Since launch - 23478 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -524,10 +524,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 12870,
-        "c": 175,
-        "casts": 175,
-        "l": "Jul 14 2026"
+        "g": 12907,
+        "c": 176,
+        "casts": 176,
+        "l": "Jul 16 2026"
       },
       {
         "u": "maden3w",
@@ -6662,10 +6662,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 974,
-        "c": 17,
-        "casts": 17,
-        "l": "Jul 14 2026"
+        "g": 1011,
+        "c": 18,
+        "casts": 18,
+        "l": "Jul 16 2026"
       },
       {
         "u": "beliron",
@@ -6848,10 +6848,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 97,
-        "c": 2,
-        "casts": 2,
-        "l": "Jul 14 2026"
+        "g": 134,
+        "c": 3,
+        "casts": 3,
+        "l": "Jul 16 2026"
       },
       {
         "u": "juicedracing",
@@ -6870,7 +6870,16 @@
         "l": "Jul 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 37,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 16 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10448,7 +10457,15 @@
         "d": "Jul 14 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Butterfly Fish",
+        "v": 37,
+        "r": "Uncommon",
+        "d": "Jul 16 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22809,7 +22826,7 @@
       "n": "Butterfly Fish",
       "custom": false,
       "r": "Uncommon",
-      "c": 109,
+      "c": 110,
       "h": "flippy00",
       "v": 51,
       "w": 0.11
@@ -24373,7 +24390,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 109,
+      "c": 110,
       "rec": "0.11 lb",
       "v": 51
     },
@@ -27080,6 +27097,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Butterfly Fish",
+      "w": 0.08,
+      "v": 37,
+      "r": "Uncommon",
+      "d": "Jul 16 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Fire Bottle Nozzle",
       "w": 1.95,
@@ -27669,14 +27694,6 @@
       "w": 7.01,
       "v": 15,
       "r": "Common",
-      "d": "Jun 30 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Ricky Stenhouse Jr",
-      "w": 10.35,
-      "v": 155,
-      "r": "Rare",
       "d": "Jun 30 2026"
     }
   ]
