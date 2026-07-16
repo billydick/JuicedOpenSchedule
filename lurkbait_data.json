@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-16T00:12:08.884372+00:00",
-    "total_catches": 23478,
+    "generated_at": "2026-07-16T00:30:35.346608+00:00",
+    "total_catches": 23480,
     "unique_catches": 375,
     "total_players": 796,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23478 catches"
+      "sub": "Since launch - 23480 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -340,10 +340,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 37744,
-        "c": 507,
-        "casts": 507,
-        "l": "Jul 10 2026"
+        "g": 37765,
+        "c": 508,
+        "casts": 508,
+        "l": "Jul 16 2026"
       },
       {
         "u": "benwysard",
@@ -524,9 +524,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 12907,
-        "c": 176,
-        "casts": 176,
+        "g": 12908,
+        "c": 177,
+        "casts": 177,
         "l": "Jul 16 2026"
       },
       {
@@ -6662,9 +6662,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1011,
-        "c": 18,
-        "casts": 18,
+        "g": 1012,
+        "c": 19,
+        "casts": 19,
         "l": "Jul 16 2026"
       },
       {
@@ -6780,6 +6780,14 @@
         "l": "Jul 10 2026"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 67,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 16 2026"
+      },
+      {
         "u": "ricky_lee_jones",
         "n": "ricky_lee_jones",
         "g": 54,
@@ -6794,14 +6802,6 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 06 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 46,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 10 2026"
       },
       {
         "u": "headzh_t",
@@ -6848,9 +6848,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 134,
-        "c": 3,
-        "casts": 3,
+        "g": 135,
+        "c": 4,
+        "casts": 4,
         "l": "Jul 16 2026"
       },
       {
@@ -6868,13 +6868,29 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 14 2026"
+      },
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 16 2026"
       }
     ],
     "daily": [
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 37,
+        "g": 38,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 16 2026"
+      },
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 21,
         "c": 1,
         "casts": 1,
         "l": "Jul 16 2026"
@@ -10455,6 +10471,13 @@
         "v": 23,
         "r": "Common",
         "d": "Jul 14 2026"
+      },
+      {
+        "n": "brookswhynot",
+        "i": "Darlington Raceway",
+        "v": 21,
+        "r": "Common",
+        "d": "Jul 16 2026"
       }
     ],
     "daily": [
@@ -10463,6 +10486,13 @@
         "i": "Butterfly Fish",
         "v": 37,
         "r": "Uncommon",
+        "d": "Jul 16 2026"
+      },
+      {
+        "n": "brookswhynot",
+        "i": "Darlington Raceway",
+        "v": 21,
+        "r": "Common",
         "d": "Jul 16 2026"
       }
     ]
@@ -23042,7 +23072,7 @@
       "n": "Darlington Raceway",
       "custom": true,
       "r": "Common",
-      "c": 117,
+      "c": 118,
       "h": "nwoods56",
       "v": 28,
       "w": 112.95
@@ -23420,7 +23450,7 @@
       "n": "Erik Jones",
       "custom": true,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "eheye",
       "v": 1,
       "w": 1.13
@@ -24786,7 +24816,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "His race car came from Family Dollar as well.",
-      "c": 160,
+      "c": 161,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -26019,7 +26049,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You ran 16th cause you fucking suck on turn 2",
-      "c": 117,
+      "c": 118,
       "rec": "112.95 lb",
       "v": 28
     },
@@ -27098,6 +27128,22 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Erik Jones",
+      "w": 0.92,
+      "v": 1,
+      "r": "Junk",
+      "d": "Jul 16 2026"
+    },
+    {
+      "u": "brookswhynot",
+      "i": "Darlington Raceway",
+      "w": 82.8,
+      "v": 21,
+      "r": "Common",
+      "d": "Jul 16 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Butterfly Fish",
       "w": 0.08,
       "v": 37,
@@ -27678,22 +27724,6 @@
       "w": 213.25,
       "v": 194,
       "r": "Epic",
-      "d": "Jun 30 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Trout",
-      "w": 0.98,
-      "v": 15,
-      "r": "Common",
-      "d": "Jun 30 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Will Brown",
-      "w": 7.01,
-      "v": 15,
-      "r": "Common",
       "d": "Jun 30 2026"
     }
   ]
