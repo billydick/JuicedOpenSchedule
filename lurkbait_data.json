@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T03:16:44.282640+00:00",
-    "total_catches": 23511,
+    "generated_at": "2026-07-18T04:18:13.019238+00:00",
+    "total_catches": 23512,
     "unique_catches": 375,
-    "total_players": 800,
+    "total_players": 801,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23511 catches"
+      "sub": "Since launch - 23512 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -4922,6 +4922,14 @@
         "l": "Nov 15 2024"
       },
       {
+        "u": "seanp171",
+        "n": "seanp171",
+        "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 18 2026"
+      },
+      {
         "u": "drlambisconn",
         "n": "drlambisconn",
         "g": 48,
@@ -6884,12 +6892,12 @@
         "l": "Jul 06 2026"
       },
       {
-        "u": "jehjeh2112",
-        "n": "jehjeh2112",
-        "g": 43,
+        "u": "seanp171",
+        "n": "seanp171",
+        "g": 48,
         "c": 1,
         "casts": 1,
-        "l": "Jul 17 2026"
+        "l": "Jul 18 2026"
       }
     ],
     "weekly": [
@@ -6982,6 +6990,14 @@
         "l": "Jul 17 2026"
       },
       {
+        "u": "seanp171",
+        "n": "seanp171",
+        "g": 48,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 18 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 44,
@@ -7053,6 +7069,14 @@
         "g": 76,
         "c": 2,
         "casts": 2,
+        "l": "Jul 18 2026"
+      },
+      {
+        "u": "seanp171",
+        "n": "seanp171",
+        "g": 48,
+        "c": 1,
+        "casts": 1,
         "l": "Jul 18 2026"
       },
       {
@@ -10618,18 +10642,18 @@
         "d": "Jul 06 2026"
       },
       {
+        "n": "seanp171",
+        "i": "HANS Device",
+        "v": 48,
+        "r": "Uncommon",
+        "d": "Jul 18 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "KEISER FUEL REGULATOR & FILTER",
         "v": 46,
         "r": "Uncommon",
         "d": "Jul 01 2026"
-      },
-      {
-        "n": "jehjeh2112",
-        "i": "Harrison Burton",
-        "v": 43,
-        "r": "Uncommon",
-        "d": "Jul 17 2026"
       }
     ],
     "weekly": [
@@ -10711,6 +10735,13 @@
         "d": "Jul 17 2026"
       },
       {
+        "n": "seanp171",
+        "i": "HANS Device",
+        "v": 48,
+        "r": "Uncommon",
+        "d": "Jul 18 2026"
+      },
+      {
         "n": "grumpymitch1",
         "i": "Harrison Burton",
         "v": 43,
@@ -10776,6 +10807,13 @@
         "d": "Jul 18 2026"
       },
       {
+        "n": "seanp171",
+        "i": "HANS Device",
+        "v": 48,
+        "r": "Uncommon",
+        "d": "Jul 18 2026"
+      },
+      {
         "n": "toyotatacoma",
         "i": "Erik Jones",
         "v": 1,
@@ -10787,7 +10825,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 800,
+        "total": 801,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11588,11 +11626,12 @@
           "garfang_",
           "tf1967",
           "travan",
-          "jehjeh2112"
+          "jehjeh2112",
+          "seanp171"
         ],
         "latest": {
-          "u": "jehjeh2112",
-          "d": "Jul 17 2026"
+          "u": "seanp171",
+          "d": "Jul 18 2026"
         }
       },
       "first_cast": {
@@ -12120,7 +12159,7 @@
         }
       },
       "custom_catch": {
-        "total": 657,
+        "total": 658,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12778,11 +12817,12 @@
           "mono_yusuf",
           "victordobrev",
           "garfang_",
-          "jehjeh2112"
+          "jehjeh2112",
+          "seanp171"
         ],
         "latest": {
-          "u": "jehjeh2112",
-          "d": "Jul 17 2026"
+          "u": "seanp171",
+          "d": "Jul 18 2026"
         }
       },
       "heavy_hauler": {
@@ -20528,6 +20568,10 @@
       "jehjeh2112": {
         "broke_in": "Jul 17 2026",
         "custom_catch": "Jul 17 2026"
+      },
+      "seanp171": {
+        "broke_in": "Jul 18 2026",
+        "custom_catch": "Jul 18 2026"
       }
     },
     "recent_unlocks": [
@@ -22987,7 +23031,7 @@
       "n": "HANS Device",
       "custom": true,
       "r": "Uncommon",
-      "c": 86,
+      "c": 87,
       "h": "motionless",
       "v": 56,
       "w": 2.26
@@ -24094,6 +24138,15 @@
       "best_r": "Uncommon",
       "best_v": 43,
       "d": "Jul 17 2026"
+    },
+    {
+      "u": "seanp171",
+      "g": 48,
+      "c": 1,
+      "best_n": "HANS Device",
+      "best_r": "Uncommon",
+      "best_v": 48,
+      "d": "Jul 18 2026"
     }
   ],
   "dex": [
@@ -25785,7 +25838,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Shit will save your life yo",
-      "c": 86,
+      "c": 87,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -27475,6 +27528,14 @@
   ],
   "recent": [
     {
+      "u": "seanp171",
+      "i": "HANS Device",
+      "w": 1.92,
+      "v": 48,
+      "r": "Uncommon",
+      "d": "Jul 18 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Keys",
       "w": 0.17,
@@ -28065,14 +28126,6 @@
       "v": 168,
       "r": "Rare",
       "d": "Jul 08 2026"
-    },
-    {
-      "u": "danfzzl",
-      "i": "iRacer - Brandon Williams",
-      "w": 106.82,
-      "v": 160,
-      "r": "Rare",
-      "d": "Jul 07 2026"
     }
   ]
 }
