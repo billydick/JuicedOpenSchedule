@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-18T20:48:44.375691+00:00",
-    "total_catches": 23514,
+    "generated_at": "2026-07-19T00:55:10.830917+00:00",
+    "total_catches": 23515,
     "unique_catches": 375,
     "total_players": 801,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23514 catches"
+      "sub": "Since launch - 23515 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -1962,20 +1962,20 @@
         "l": "Mar 08 2025"
       },
       {
+        "u": "tayrob28",
+        "n": "tayrob28",
+        "g": 669,
+        "c": 10,
+        "casts": 10,
+        "l": "Jul 19 2026"
+      },
+      {
         "u": "zhadowguy128",
         "n": "zhadowguy128",
         "g": 667,
         "c": 7,
         "casts": 7,
         "l": "Jan 21 2025"
-      },
-      {
-        "u": "tayrob28",
-        "n": "tayrob28",
-        "g": 657,
-        "c": 9,
-        "casts": 9,
-        "l": "Jun 28 2026"
       },
       {
         "u": "xtoxicxantx",
@@ -7052,9 +7052,26 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 17 2026"
+      },
+      {
+        "u": "tayrob28",
+        "n": "tayrob28",
+        "g": 12,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "tayrob28",
+        "n": "tayrob28",
+        "g": 12,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 19 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10784,9 +10801,24 @@
         "v": 17,
         "r": "Junk",
         "d": "Jul 17 2026"
+      },
+      {
+        "n": "tayrob28",
+        "i": "Trout",
+        "v": 12,
+        "r": "Common",
+        "d": "Jul 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "tayrob28",
+        "i": "Trout",
+        "v": 12,
+        "r": "Common",
+        "d": "Jul 19 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -11705,7 +11737,7 @@
         }
       },
       "catch_of_day": {
-        "total": 135,
+        "total": 136,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11841,15 +11873,16 @@
           "13eard",
           "killa_0zz",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "tayrob28"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "tayrob28",
+          "d": "Jul 19 2026"
         }
       },
       "win_day": {
-        "total": 96,
+        "total": 97,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11946,11 +11979,12 @@
           "thesaucypanda2",
           "13eard",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "tayrob28"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "tayrob28",
+          "d": "Jul 19 2026"
         }
       },
       "double_down": {
@@ -20224,6 +20258,8 @@
       "tayrob28": {
         "broke_in": "Apr 15 2026",
         "first_cast": "Jun 28 2026",
+        "win_day": "Jul 19 2026",
+        "catch_of_day": "Jul 19 2026",
         "custom_catch": "Apr 15 2026"
       },
       "sparkymotors": {
@@ -23573,7 +23609,7 @@
       "n": "Trout",
       "custom": false,
       "r": "Common",
-      "c": 185,
+      "c": 186,
       "h": "flippy00",
       "v": 17,
       "w": 1.13
@@ -24274,7 +24310,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 185,
+      "c": 186,
       "rec": "1.13 lb",
       "v": 17
     },
@@ -27494,6 +27530,14 @@
   ],
   "recent": [
     {
+      "u": "tayrob28",
+      "i": "Trout",
+      "w": 0.83,
+      "v": 12,
+      "r": "Common",
+      "d": "Jul 19 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Hermit Crab",
       "w": 0.84,
@@ -28084,14 +28128,6 @@
       "v": 56,
       "r": "Rare",
       "d": "Jul 09 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Flat Tire",
-      "w": 1.07,
-      "v": 11,
-      "r": "Junk",
-      "d": "Jul 08 2026"
     }
   ]
 }
