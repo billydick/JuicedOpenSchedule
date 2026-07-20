@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T20:40:27.599740+00:00",
-    "total_catches": 23520,
+    "generated_at": "2026-07-20T21:11:10.090904+00:00",
+    "total_catches": 23521,
     "unique_catches": 375,
     "total_players": 801,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23520 catches"
+      "sub": "Since launch - 23521 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -500,10 +500,10 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 13707,
-        "c": 155,
-        "casts": 155,
-        "l": "Jul 18 2026"
+        "g": 13756,
+        "c": 156,
+        "casts": 156,
+        "l": "Jul 20 2026"
       },
       {
         "u": "nellafella",
@@ -6764,6 +6764,14 @@
         "l": "Jul 17 2026"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 293,
+        "c": 3,
+        "casts": 3,
+        "l": "Jul 20 2026"
+      },
+      {
         "u": "killa_0zz",
         "n": "killa_0zz",
         "g": 281,
@@ -6794,14 +6802,6 @@
         "c": 7,
         "casts": 7,
         "l": "Jul 19 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 244,
-        "c": 2,
-        "casts": 2,
-        "l": "Jul 18 2026"
       },
       {
         "u": "danfzzl",
@@ -6900,8 +6900,26 @@
         "l": "Jul 06 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 20 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 49,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 20 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10504,8 +10522,24 @@
         "d": "Jul 18 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "drewieblaster",
+        "i": "Gas Can",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jul 20 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "drewieblaster",
+        "i": "Gas Can",
+        "v": 49,
+        "r": "Uncommon",
+        "d": "Jul 20 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22653,7 +22687,7 @@
       "n": "Gas Can",
       "custom": true,
       "r": "Uncommon",
-      "c": 92,
+      "c": 93,
       "h": "karnalsanders",
       "v": 56,
       "w": 5.63
@@ -24505,7 +24539,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Not water!",
-      "c": 92,
+      "c": 93,
       "rec": "5.63 lb",
       "v": 56
     },
@@ -27167,6 +27201,14 @@
   ],
   "recent": [
     {
+      "u": "drewieblaster",
+      "i": "Gas Can",
+      "w": 4.91,
+      "v": 49,
+      "r": "Uncommon",
+      "d": "Jul 20 2026"
+    },
+    {
       "u": "larcen22",
       "i": "Hermit Crab",
       "w": 0.96,
@@ -27757,14 +27799,6 @@
       "v": 96,
       "r": "Junk",
       "d": "Jul 10 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "1987 Wrangler",
-      "w": 26.24,
-      "v": 210,
-      "r": "Epic",
-      "d": "Jul 09 2026"
     }
   ]
 }
