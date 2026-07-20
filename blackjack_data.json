@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T21:11:52Z",
+  "generated_at": "2026-07-20T21:13:26Z",
   "meta": {
-    "total_hands": 392,
+    "total_hands": 393,
     "total_players": 30,
     "biggest_bet": {
       "user": "juicedracing",
@@ -127,9 +127,9 @@
       },
       {
         "u": "watchmespazout",
-        "chips": 38050,
-        "net": 11800,
-        "hands": 6,
+        "chips": 32950,
+        "net": 6700,
+        "hands": 7,
         "ach": 6
       },
       {
@@ -248,9 +248,9 @@
     "daily": [
       {
         "u": "watchmespazout",
-        "chips": 38050,
-        "net": 11800,
-        "hands": 6,
+        "chips": 32950,
+        "net": 6700,
+        "hands": 7,
         "ach": 6
       }
     ]
@@ -270,29 +270,30 @@
     "biggest_loss": {
       "u": "watchmespazout",
       "cards": [
-        "2♦",
-        "10♣",
-        "10♠"
+        "9♦",
+        "3♦",
+        "6♦"
       ],
-      "total": 22,
-      "bet": 500,
-      "net": -450,
-      "result": "bust"
+      "total": 18,
+      "bet": 5100,
+      "net": -5100,
+      "result": "lose"
     },
     "biggest_bet": {
       "u": "watchmespazout",
       "cards": [
-        "K♠",
-        "A♣"
+        "9♦",
+        "3♦",
+        "6♦"
       ],
-      "total": 21,
-      "bet": 5000,
-      "net": 7500,
-      "result": "blackjack"
+      "total": 18,
+      "bet": 5100,
+      "net": -5100,
+      "result": "lose"
     },
     "most_hands": {
       "u": "watchmespazout",
-      "n": 6
+      "n": 7
     },
     "best_streak": {
       "u": "watchmespazout",
@@ -312,7 +313,7 @@
     },
     "best_win_rate": {
       "u": "watchmespazout",
-      "pct": 83.3
+      "pct": 71.4
     },
     "best_poker": {
       "u": "watchmespazout",
@@ -6693,6 +6694,34 @@
   ],
   "recent_hands": [
     {
+      "ts": 1784582006.1051211,
+      "date": "2026-07-20",
+      "player": "watchmespazout",
+      "bet": 5100,
+      "balance_before": 38050,
+      "result": "lose",
+      "net_delta": -5100,
+      "player_cards": [
+        "9♦",
+        "3♦",
+        "6♦"
+      ],
+      "player_total": 18,
+      "hit_count": 1,
+      "dealer_cards": [
+        "K♠",
+        "K♦"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1784581912.4033275,
       "date": "2026-07-20",
       "player": "watchmespazout",
@@ -8201,37 +8230,6 @@
       "poker_bonus": 0,
       "achievements_earned": [
         "big_nerve_win"
-      ]
-    },
-    {
-      "ts": 1782622839.4108748,
-      "date": "2026-06-27",
-      "player": "larcen22",
-      "bet": 50,
-      "balance_before": 50,
-      "result": "lose",
-      "net_delta": -50,
-      "player_cards": [
-        "Q♠",
-        "J♠"
-      ],
-      "player_total": 20,
-      "hit_count": 0,
-      "dealer_cards": [
-        "4♦",
-        "4♠",
-        "4♣",
-        "9♦"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "cold_spell_5"
       ]
     }
   ]
