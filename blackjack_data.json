@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T21:07:40Z",
+  "generated_at": "2026-07-20T21:09:37Z",
   "meta": {
-    "total_hands": 389,
+    "total_hands": 390,
     "total_players": 30,
     "biggest_bet": {
       "user": "juicedracing",
@@ -134,10 +134,10 @@
       },
       {
         "u": "watchmespazout",
-        "chips": 24550,
-        "net": 800,
-        "hands": 3,
-        "ach": 4
+        "chips": 25550,
+        "net": 1800,
+        "hands": 4,
+        "ach": 5
       },
       {
         "u": "topjoedirty",
@@ -248,10 +248,10 @@
     "daily": [
       {
         "u": "watchmespazout",
-        "chips": 24550,
-        "net": 800,
-        "hands": 3,
-        "ach": 4
+        "chips": 25550,
+        "net": 1800,
+        "hands": 4,
+        "ach": 5
       }
     ]
   },
@@ -259,13 +259,13 @@
     "biggest_win": {
       "u": "watchmespazout",
       "cards": [
-        "7♣",
-        "2♣",
-        "Q♦"
+        "3♦",
+        "5♣",
+        "6♠"
       ],
-      "total": 19,
-      "bet": 650,
-      "net": 650,
+      "total": 14,
+      "bet": 1000,
+      "net": 1000,
       "result": "win"
     },
     "biggest_loss": {
@@ -283,22 +283,22 @@
     "biggest_bet": {
       "u": "watchmespazout",
       "cards": [
-        "7♣",
-        "2♣",
-        "Q♦"
+        "3♦",
+        "5♣",
+        "6♠"
       ],
-      "total": 19,
-      "bet": 650,
-      "net": 650,
+      "total": 14,
+      "bet": 1000,
+      "net": 1000,
       "result": "win"
     },
     "most_hands": {
       "u": "watchmespazout",
-      "n": 3
+      "n": 4
     },
     "best_streak": {
       "u": "watchmespazout",
-      "n": 2
+      "n": 3
     },
     "worst_streak": {
       "u": "watchmespazout",
@@ -5100,11 +5100,13 @@
         }
       },
       "hot_streak_3": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "watchmespazout"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-06-27"
+          "u": "watchmespazout",
+          "d": "2026-07-20"
         }
       },
       "hot_streak_5": {
@@ -5856,10 +5858,16 @@
         "poker_pair_any": "2026-07-20",
         "poker_salvation": "2026-07-20",
         "min_bet_master": "2026-07-20",
-        "lucky_escape": "2026-07-20"
+        "lucky_escape": "2026-07-20",
+        "hot_streak_3": "2026-07-20"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "hot_streak_3",
+        "u": "watchmespazout",
+        "d": "2026-07-20"
+      },
       {
         "id": "min_bet_master",
         "u": "watchmespazout",
@@ -5952,11 +5960,6 @@
       },
       {
         "id": "rags_to_riches_session",
-        "u": "larcen22",
-        "d": "2026-07-15"
-      },
-      {
-        "id": "big_swing_session_50k",
         "u": "larcen22",
         "d": "2026-07-15"
       }
@@ -6679,6 +6682,37 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1784581777.29675,
+      "date": "2026-07-20",
+      "player": "watchmespazout",
+      "bet": 1000,
+      "balance_before": 24550,
+      "result": "win",
+      "net_delta": 1000,
+      "player_cards": [
+        "3♦",
+        "5♣",
+        "6♠"
+      ],
+      "player_total": 14,
+      "hit_count": 1,
+      "dealer_cards": [
+        "K♥",
+        "5♦",
+        "8♠"
+      ],
+      "dealer_total": 23,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "hot_streak_3"
+      ]
+    },
     {
       "ts": 1784581660.4755042,
       "date": "2026-07-20",
@@ -8180,35 +8214,6 @@
       "dealer_total": 20,
       "dealer_bust": false,
       "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1782622632.5420897,
-      "date": "2026-06-27",
-      "player": "juicedracing",
-      "bet": 40000,
-      "balance_before": 40000,
-      "result": "lose",
-      "net_delta": -40000,
-      "player_cards": [
-        "8♦",
-        "2♥",
-        "5♦",
-        "4♥"
-      ],
-      "player_total": 19,
-      "hit_count": 2,
-      "dealer_cards": [
-        "10♦",
-        "Q♦"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 2,
       "poker_rank": null,
       "poker_pct": null,
       "poker_relief": 0,
