@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-20T21:36:55.740470+00:00",
-    "total_catches": 23524,
+    "generated_at": "2026-07-20T21:48:13.764687+00:00",
+    "total_catches": 23525,
     "unique_catches": 375,
     "total_players": 801,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23524 catches"
+      "sub": "Since launch - 23525 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -500,9 +500,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 13909,
-        "c": 159,
-        "casts": 159,
+        "g": 14226,
+        "c": 160,
+        "casts": 160,
         "l": "Jul 20 2026"
       },
       {
@@ -6708,6 +6708,14 @@
         "l": "Jul 18 2026"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 763,
+        "c": 7,
+        "casts": 7,
+        "l": "Jul 20 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 710,
@@ -6738,14 +6746,6 @@
         "c": 3,
         "casts": 3,
         "l": "Jul 18 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 446,
-        "c": 6,
-        "casts": 6,
-        "l": "Jul 20 2026"
       },
       {
         "u": "garfang_",
@@ -6904,9 +6904,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 202,
-        "c": 4,
-        "casts": 4,
+        "g": 519,
+        "c": 5,
+        "casts": 5,
         "l": "Jul 20 2026"
       }
     ],
@@ -6914,9 +6914,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 202,
-        "c": 4,
-        "casts": 4,
+        "g": 519,
+        "c": 5,
+        "casts": 5,
         "l": "Jul 20 2026"
       }
     ]
@@ -10368,6 +10368,13 @@
         "d": "Jul 12 2026"
       },
       {
+        "n": "drewieblaster",
+        "i": "Car",
+        "v": 317,
+        "r": "Junk",
+        "d": "Jul 20 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Whole NASCAR",
         "v": 300,
@@ -10422,13 +10429,6 @@
         "v": 133,
         "r": "Rare",
         "d": "Jul 02 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Chase Elliott",
-        "v": 130,
-        "r": "Rare",
-        "d": "Jul 18 2026"
       },
       {
         "n": "aaronm29",
@@ -10525,18 +10525,18 @@
     "weekly": [
       {
         "n": "drewieblaster",
-        "i": "Craftsman Silverado",
-        "v": 111,
-        "r": "Rare",
+        "i": "Car",
+        "v": 317,
+        "r": "Junk",
         "d": "Jul 20 2026"
       }
     ],
     "daily": [
       {
         "n": "drewieblaster",
-        "i": "Craftsman Silverado",
-        "v": 111,
-        "r": "Rare",
+        "i": "Car",
+        "v": 317,
+        "r": "Junk",
         "d": "Jul 20 2026"
       }
     ]
@@ -14247,7 +14247,7 @@
         }
       },
       "wholesale": {
-        "total": 23,
+        "total": 24,
         "holders": [
           "juicedracing",
           "stoofi1992",
@@ -14271,11 +14271,12 @@
           "the_miggi",
           "dogger_101",
           "scripture_",
-          "brookswhynot"
+          "brookswhynot",
+          "drewieblaster"
         ],
         "latest": {
-          "u": "brookswhynot",
-          "d": "May 07 2026"
+          "u": "drewieblaster",
+          "d": "Jul 20 2026"
         }
       },
       "win_week": {
@@ -19389,6 +19390,7 @@
         "gold_hoarder": "Apr 17 2026",
         "triple_crown": "Sep 26 2025",
         "leg_epic_day": "Sep 12 2025",
+        "wholesale": "Jul 20 2026",
         "win_week": "Sep 08 2025",
         "win_month": "Sep 05 2025",
         "golden_cast": "Aug 24 2025",
@@ -23560,7 +23562,7 @@
       "n": "Car",
       "custom": false,
       "r": "Junk",
-      "c": 25,
+      "c": 26,
       "h": "benwysard",
       "v": 330,
       "w": 1652.0
@@ -24350,7 +24352,7 @@
       "r": "Epic",
       "custom": false,
       "desc": "",
-      "c": 25,
+      "c": 26,
       "rec": "1652.00 lb",
       "v": 330
     },
@@ -27202,6 +27204,14 @@
   "recent": [
     {
       "u": "drewieblaster",
+      "i": "Car",
+      "w": 1586.79,
+      "v": 317,
+      "r": "Junk",
+      "d": "Jul 20 2026"
+    },
+    {
+      "u": "drewieblaster",
       "i": "Soda Can",
       "w": 0.08,
       "v": 1,
@@ -27790,14 +27800,6 @@
       "w": 1.06,
       "v": 16,
       "r": "Common",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Black Flag",
-      "w": 0.9,
-      "v": 1,
-      "r": "Junk",
       "d": "Jul 10 2026"
     }
   ]
