@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T21:09:37Z",
+  "generated_at": "2026-07-20T21:10:51Z",
   "meta": {
-    "total_hands": 390,
+    "total_hands": 391,
     "total_players": 30,
     "biggest_bet": {
       "user": "juicedracing",
@@ -126,18 +126,18 @@
         "ach": 0
       },
       {
+        "u": "watchmespazout",
+        "chips": 30550,
+        "net": 4300,
+        "hands": 5,
+        "ach": 5
+      },
+      {
         "u": "grumpymitch1",
         "chips": 27395,
         "net": -5750,
         "hands": 0,
         "ach": 0
-      },
-      {
-        "u": "watchmespazout",
-        "chips": 25550,
-        "net": 1800,
-        "hands": 4,
-        "ach": 5
       },
       {
         "u": "topjoedirty",
@@ -248,9 +248,9 @@
     "daily": [
       {
         "u": "watchmespazout",
-        "chips": 25550,
-        "net": 1800,
-        "hands": 4,
+        "chips": 30550,
+        "net": 4300,
+        "hands": 5,
         "ach": 5
       }
     ]
@@ -259,13 +259,14 @@
     "biggest_win": {
       "u": "watchmespazout",
       "cards": [
-        "3♦",
-        "5♣",
-        "6♠"
+        "2♣",
+        "4♠",
+        "6♦",
+        "9♠"
       ],
-      "total": 14,
-      "bet": 1000,
-      "net": 1000,
+      "total": 21,
+      "bet": 2500,
+      "net": 2500,
       "result": "win"
     },
     "biggest_loss": {
@@ -283,22 +284,23 @@
     "biggest_bet": {
       "u": "watchmespazout",
       "cards": [
-        "3♦",
-        "5♣",
-        "6♠"
+        "2♣",
+        "4♠",
+        "6♦",
+        "9♠"
       ],
-      "total": 14,
-      "bet": 1000,
-      "net": 1000,
+      "total": 21,
+      "bet": 2500,
+      "net": 2500,
       "result": "win"
     },
     "most_hands": {
       "u": "watchmespazout",
-      "n": 4
+      "n": 5
     },
     "best_streak": {
       "u": "watchmespazout",
-      "n": 3
+      "n": 4
     },
     "worst_streak": {
       "u": "watchmespazout",
@@ -307,6 +309,10 @@
     "most_busts": {
       "u": "watchmespazout",
       "n": 1
+    },
+    "best_win_rate": {
+      "u": "watchmespazout",
+      "pct": 80.0
     },
     "best_poker": {
       "u": "watchmespazout",
@@ -320,13 +326,14 @@
     "most_cards_win": {
       "u": "watchmespazout",
       "cards": [
-        "4♦",
-        "K♦",
-        "3♣"
+        "2♣",
+        "4♠",
+        "6♦",
+        "9♠"
       ],
-      "total": 17,
-      "bet": 600,
-      "net": 600,
+      "total": 21,
+      "bet": 2500,
+      "net": 2500,
       "result": "win"
     }
   },
@@ -6683,6 +6690,36 @@
   ],
   "recent_hands": [
     {
+      "ts": 1784581850.9895537,
+      "date": "2026-07-20",
+      "player": "watchmespazout",
+      "bet": 2500,
+      "balance_before": 25550,
+      "result": "win",
+      "net_delta": 2500,
+      "player_cards": [
+        "2♣",
+        "4♠",
+        "6♦",
+        "9♠"
+      ],
+      "player_total": 21,
+      "hit_count": 2,
+      "dealer_cards": [
+        "4♦",
+        "J♦",
+        "3♦"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1784581777.29675,
       "date": "2026-07-20",
       "player": "watchmespazout",
@@ -8183,35 +8220,6 @@
         "5♥"
       ],
       "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": []
-    },
-    {
-      "ts": 1782622701.9405918,
-      "date": "2026-06-27",
-      "player": "larcen22",
-      "bet": 405,
-      "balance_before": 455,
-      "result": "lose",
-      "net_delta": -405,
-      "player_cards": [
-        "8♣",
-        "6♥",
-        "4♠"
-      ],
-      "player_total": 18,
-      "hit_count": 1,
-      "dealer_cards": [
-        "4♥",
-        "8♥",
-        "8♦"
-      ],
-      "dealer_total": 20,
       "dealer_bust": false,
       "table_size": 1,
       "poker_rank": null,
