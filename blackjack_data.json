@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-21T00:22:44Z",
+  "generated_at": "2026-07-21T00:24:11Z",
   "meta": {
-    "total_hands": 397,
+    "total_hands": 398,
     "total_players": 30,
     "biggest_bet": {
       "user": "juicedracing",
@@ -134,9 +134,9 @@
       },
       {
         "u": "watchmespazout",
-        "chips": 27950,
-        "net": 11700,
-        "hands": 8,
+        "chips": 30950,
+        "net": 18700,
+        "hands": 9,
         "ach": 6
       },
       {
@@ -255,9 +255,9 @@
       },
       {
         "u": "watchmespazout",
-        "chips": 27950,
-        "net": 11700,
-        "hands": 8,
+        "chips": 30950,
+        "net": 18700,
+        "hands": 9,
         "ach": 6
       }
     ]
@@ -301,7 +301,7 @@
     },
     "most_hands": {
       "u": "watchmespazout",
-      "n": 8
+      "n": 9
     },
     "best_streak": {
       "u": "watchmespazout",
@@ -321,7 +321,7 @@
     },
     "best_win_rate": {
       "u": "watchmespazout",
-      "pct": 75.0
+      "pct": 77.8
     },
     "best_poker": {
       "u": "watchmespazout",
@@ -6733,6 +6733,37 @@
   ],
   "recent_hands": [
     {
+      "ts": 1784593451.788696,
+      "date": "2026-07-20",
+      "player": "watchmespazout",
+      "bet": 7000,
+      "balance_before": 37950,
+      "result": "win",
+      "net_delta": 7000,
+      "player_cards": [
+        "7♥",
+        "2♣",
+        "4♦",
+        "6♣"
+      ],
+      "player_total": 19,
+      "hit_count": 2,
+      "dealer_cards": [
+        "5♦",
+        "J♦",
+        "A♣",
+        "8♣"
+      ],
+      "dealer_total": 24,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1784593364.0361874,
       "date": "2026-07-20",
       "player": "watchmespazout",
@@ -8245,38 +8276,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1782779956.110635,
-      "date": "2026-06-29",
-      "player": "juicedracing",
-      "bet": 22400,
-      "balance_before": 22400,
-      "result": "lose",
-      "net_delta": -22400,
-      "player_cards": [
-        "7♠",
-        "3♠",
-        "2♥",
-        "4♣"
-      ],
-      "player_total": 16,
-      "hit_count": 2,
-      "dealer_cards": [
-        "Q♠",
-        "5♥",
-        "2♠"
-      ],
-      "dealer_total": 17,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "rags_to_riches_session"
-      ]
     }
   ]
 }
