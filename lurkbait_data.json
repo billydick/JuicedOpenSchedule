@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T00:23:24.535086+00:00",
+    "generated_at": "2026-07-21T22:41:18.355911+00:00",
     "total_catches": 23533,
     "unique_catches": 375,
     "total_players": 801,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Jul 20 2026",
+      "label": "Jul 21 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6918,26 +6918,29 @@
         "l": "Jul 21 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 870,
-        "c": 12,
-        "casts": 12,
-        "l": "Jul 20 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 2,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 21 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Jul 20",
+      "date": "2026-07-20",
+      "leaderboard": [
+        {
+          "n": "drewieblaster",
+          "u": "drewieblaster",
+          "g": 870,
+          "c": 12,
+          "l": "Jul 20 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 2,
+          "c": 1,
+          "l": "Jul 21 2026"
+        }
+      ]
+    },
     {
       "label": "Jul 19",
       "date": "2026-07-19",
@@ -7173,26 +7176,6 @@
           "g": 24,
           "c": 1,
           "l": "Jul 15 2026"
-        }
-      ]
-    },
-    {
-      "label": "Jul 13",
-      "date": "2026-07-13",
-      "leaderboard": [
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 97,
-          "c": 2,
-          "l": "Jul 14 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 23,
-          "c": 1,
-          "l": "Jul 14 2026"
         }
       ]
     }
@@ -10554,22 +10537,7 @@
         "d": "Jul 21 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "drewieblaster",
-        "i": "Car",
-        "v": 317,
-        "r": "Junk",
-        "d": "Jul 20 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Coffee Cup",
-        "v": 2,
-        "r": "Junk",
-        "d": "Jul 21 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
