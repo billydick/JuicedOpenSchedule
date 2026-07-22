@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T00:21:37.265701+00:00",
-    "total_catches": 23534,
+    "generated_at": "2026-07-22T00:22:43.556778+00:00",
+    "total_catches": 23537,
     "unique_catches": 375,
-    "total_players": 802,
+    "total_players": 804,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23534 catches"
+      "sub": "Since launch - 23537 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -380,10 +380,10 @@
       {
         "u": "dontuu",
         "n": "dontuu",
-        "g": 32366,
-        "c": 468,
-        "casts": 468,
-        "l": "Mar 23 2025"
+        "g": 32374,
+        "c": 469,
+        "casts": 469,
+        "l": "Jul 22 2026"
       },
       {
         "u": "dogger_101",
@@ -5370,12 +5370,28 @@
         "l": "Jan 07 2025"
       },
       {
+        "u": "skylordawesome",
+        "n": "skylordawesome",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "nx1sfancy",
         "n": "nx1sfancy",
         "g": 28,
         "c": 1,
         "casts": 1,
         "l": "Apr 12 2026"
+      },
+      {
+        "u": "mrprof0",
+        "n": "mrprof0",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
       },
       {
         "u": "masterclock_awm",
@@ -6918,9 +6934,33 @@
         "l": "Jul 20 2026"
       },
       {
+        "u": "skylordawesome",
+        "n": "skylordawesome",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
+        "u": "mrprof0",
+        "n": "mrprof0",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "tas1999x",
         "n": "tas1999x",
         "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
+        "u": "dontuu",
+        "n": "dontuu",
+        "g": 8,
         "c": 1,
         "casts": 1,
         "l": "Jul 22 2026"
@@ -6936,9 +6976,33 @@
     ],
     "daily": [
       {
+        "u": "skylordawesome",
+        "n": "skylordawesome",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
+        "u": "mrprof0",
+        "n": "mrprof0",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "tas1999x",
         "n": "tas1999x",
         "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
+        "u": "dontuu",
+        "n": "dontuu",
+        "g": 8,
         "c": 1,
         "casts": 1,
         "l": "Jul 22 2026"
@@ -10555,10 +10619,31 @@
         "d": "Jul 20 2026"
       },
       {
+        "n": "skylordawesome",
+        "i": "Austin Dillon",
+        "v": 28,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
+        "n": "mrprof0",
+        "i": "Perch",
+        "v": 28,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
         "n": "tas1999x",
         "i": "Blue Discus",
         "v": 18,
         "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
+        "n": "dontuu",
+        "i": "Traffic Cone",
+        "v": 8,
+        "r": "Junk",
         "d": "Jul 22 2026"
       },
       {
@@ -10571,10 +10656,31 @@
     ],
     "daily": [
       {
+        "n": "skylordawesome",
+        "i": "Austin Dillon",
+        "v": 28,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
+        "n": "mrprof0",
+        "i": "Perch",
+        "v": 28,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
         "n": "tas1999x",
         "i": "Blue Discus",
         "v": 18,
         "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
+        "n": "dontuu",
+        "i": "Traffic Cone",
+        "v": 8,
+        "r": "Junk",
         "d": "Jul 22 2026"
       }
     ]
@@ -10582,7 +10688,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 802,
+        "total": 804,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11385,10 +11491,12 @@
           "travan",
           "jehjeh2112",
           "seanp171",
-          "tas1999x"
+          "tas1999x",
+          "skylordawesome",
+          "mrprof0"
         ],
         "latest": {
-          "u": "tas1999x",
+          "u": "mrprof0",
           "d": "Jul 22 2026"
         }
       },
@@ -11635,10 +11743,10 @@
           "killa_0zz",
           "toyotatacoma",
           "garfang_",
-          "tas1999x"
+          "skylordawesome"
         ],
         "latest": {
-          "u": "tas1999x",
+          "u": "skylordawesome",
           "d": "Jul 22 2026"
         }
       },
@@ -11741,10 +11849,10 @@
           "13eard",
           "toyotatacoma",
           "garfang_",
-          "tas1999x"
+          "skylordawesome"
         ],
         "latest": {
-          "u": "tas1999x",
+          "u": "skylordawesome",
           "d": "Jul 22 2026"
         }
       },
@@ -11920,7 +12028,7 @@
         }
       },
       "custom_catch": {
-        "total": 658,
+        "total": 659,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12579,11 +12687,12 @@
           "victordobrev",
           "garfang_",
           "jehjeh2112",
-          "seanp171"
+          "seanp171",
+          "skylordawesome"
         ],
         "latest": {
-          "u": "seanp171",
-          "d": "Jul 18 2026"
+          "u": "skylordawesome",
+          "d": "Jul 22 2026"
         }
       },
       "heavy_hauler": {
@@ -20338,9 +20447,16 @@
       },
       "tas1999x": {
         "broke_in": "Jul 22 2026",
-        "first_cast": "Jul 22 2026",
+        "first_cast": "Jul 22 2026"
+      },
+      "skylordawesome": {
+        "broke_in": "Jul 22 2026",
         "win_day": "Jul 22 2026",
-        "catch_of_day": "Jul 22 2026"
+        "catch_of_day": "Jul 22 2026",
+        "custom_catch": "Jul 22 2026"
+      },
+      "mrprof0": {
+        "broke_in": "Jul 22 2026"
       }
     },
     "recent_unlocks": [
@@ -23187,7 +23303,7 @@
       "n": "Perch",
       "custom": false,
       "r": "Common",
-      "c": 195,
+      "c": 196,
       "h": "rms_racing",
       "v": 34,
       "w": 3.39
@@ -23223,7 +23339,7 @@
       "n": "Austin Dillon",
       "custom": true,
       "r": "Common",
-      "c": 128,
+      "c": 129,
       "h": "motionless",
       "v": 28,
       "w": 16.86
@@ -23727,7 +23843,7 @@
       "n": "Traffic Cone",
       "custom": false,
       "r": "Junk",
-      "c": 121,
+      "c": 122,
       "h": "benwysard",
       "v": 9,
       "w": 1.13
@@ -23879,6 +23995,24 @@
       "best_n": "Blue Discus",
       "best_r": "Common",
       "best_v": 18,
+      "d": "Jul 22 2026"
+    },
+    {
+      "u": "skylordawesome",
+      "g": 28,
+      "c": 1,
+      "best_n": "Austin Dillon",
+      "best_r": "Common",
+      "best_v": 28,
+      "d": "Jul 22 2026"
+    },
+    {
+      "u": "mrprof0",
+      "g": 28,
+      "c": 1,
+      "best_n": "Perch",
+      "best_r": "Common",
+      "best_v": 28,
       "d": "Jul 22 2026"
     }
   ],
@@ -24104,7 +24238,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 121,
+      "c": 122,
       "rec": "1.13 lb",
       "v": 9
     },
@@ -24446,7 +24580,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 195,
+      "c": 196,
       "rec": "3.39 lb",
       "v": 34
     },
@@ -25319,7 +25453,7 @@
       "r": "Common",
       "custom": true,
       "desc": "I spin people to win, so what?",
-      "c": 128,
+      "c": 129,
       "rec": "16.86 lb",
       "v": 28
     },
@@ -27261,6 +27395,30 @@
   ],
   "recent": [
     {
+      "u": "mrprof0",
+      "i": "Perch",
+      "w": 2.81,
+      "v": 28,
+      "r": "Common",
+      "d": "Jul 22 2026"
+    },
+    {
+      "u": "skylordawesome",
+      "i": "Austin Dillon",
+      "w": 16.57,
+      "v": 28,
+      "r": "Common",
+      "d": "Jul 22 2026"
+    },
+    {
+      "u": "dontuu",
+      "i": "Traffic Cone",
+      "w": 0.94,
+      "v": 8,
+      "r": "Junk",
+      "d": "Jul 22 2026"
+    },
+    {
       "u": "tas1999x",
       "i": "Blue Discus",
       "w": 0.18,
@@ -27834,30 +27992,6 @@
       "w": 23.21,
       "v": 279,
       "r": "Epic",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "overkyll_rtc",
-      "i": "Perch",
-      "w": 3.03,
-      "v": 30,
-      "r": "Common",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "ricky_lee_jones",
-      "i": "NASCAR NACHOS",
-      "w": 1.08,
-      "v": 54,
-      "r": "Uncommon",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Button Box",
-      "w": 3.37,
-      "v": 112,
-      "r": "Rare",
       "d": "Jul 10 2026"
     }
   ]
