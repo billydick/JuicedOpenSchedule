@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-22T21:51:21.702414+00:00",
-    "total_catches": 23541,
+    "generated_at": "2026-07-22T22:15:54.742983+00:00",
+    "total_catches": 23542,
     "unique_catches": 375,
     "total_players": 805,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23541 catches"
+      "sub": "Since launch - 23542 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -1418,6 +1418,14 @@
         "l": "Aug 04 2025"
       },
       {
+        "u": "darkhorizon35",
+        "n": "darkhorizon35",
+        "g": 1586,
+        "c": 18,
+        "casts": 18,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "brian_wertman_74",
         "n": "brian_wertman_74",
         "g": 1579,
@@ -1432,14 +1440,6 @@
         "c": 15,
         "casts": 15,
         "l": "Oct 06 2024"
-      },
-      {
-        "u": "darkhorizon35",
-        "n": "darkhorizon35",
-        "g": 1541,
-        "c": 17,
-        "casts": 17,
-        "l": "Jul 22 2026"
       },
       {
         "u": "drift_chubbogen",
@@ -6838,9 +6838,9 @@
       {
         "u": "darkhorizon35",
         "n": "darkhorizon35",
-        "g": 200,
-        "c": 1,
-        "casts": 1,
+        "g": 245,
+        "c": 2,
+        "casts": 2,
         "l": "Jul 22 2026"
       },
       {
@@ -6944,9 +6944,9 @@
       {
         "u": "darkhorizon35",
         "n": "darkhorizon35",
-        "g": 200,
-        "c": 1,
-        "casts": 1,
+        "g": 245,
+        "c": 2,
+        "casts": 2,
         "l": "Jul 22 2026"
       },
       {
@@ -7006,7 +7006,16 @@
         "l": "Jul 22 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "darkhorizon35",
+        "n": "darkhorizon35",
+        "g": 45,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10723,7 +10732,15 @@
         "d": "Jul 22 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "darkhorizon35",
+        "i": "Butterfly Fish",
+        "v": 45,
+        "r": "Uncommon",
+        "d": "Jul 22 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23136,7 +23153,7 @@
       "n": "Butterfly Fish",
       "custom": false,
       "r": "Uncommon",
-      "c": 110,
+      "c": 111,
       "h": "flippy00",
       "v": 51,
       "w": 0.11
@@ -24737,7 +24754,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 110,
+      "c": 111,
       "rec": "0.11 lb",
       "v": 51
     },
@@ -27444,6 +27461,14 @@
   ],
   "recent": [
     {
+      "u": "darkhorizon35",
+      "i": "Butterfly Fish",
+      "w": 0.1,
+      "v": 45,
+      "r": "Uncommon",
+      "d": "Jul 22 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Gummy Worms",
       "w": 0.88,
@@ -28033,14 +28058,6 @@
       "w": 1.09,
       "v": 54,
       "r": "Uncommon",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "motionless",
-      "i": "Will Brown",
-      "w": 6.87,
-      "v": 15,
-      "r": "Common",
       "d": "Jul 10 2026"
     }
   ]
