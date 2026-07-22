@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-07-21T22:41:18.355911+00:00",
-    "total_catches": 23533,
+    "generated_at": "2026-07-22T00:21:37.265701+00:00",
+    "total_catches": 23534,
     "unique_catches": 375,
-    "total_players": 801,
+    "total_players": 802,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23533 catches"
+      "sub": "Since launch - 23534 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -5738,6 +5738,14 @@
         "l": "Jul 27 2025"
       },
       {
+        "u": "tas1999x",
+        "n": "tas1999x",
+        "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "bzeus76",
         "n": "bzeus76",
         "g": 18,
@@ -6910,6 +6918,14 @@
         "l": "Jul 20 2026"
       },
       {
+        "u": "tas1999x",
+        "n": "tas1999x",
+        "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 2,
@@ -6918,7 +6934,16 @@
         "l": "Jul 21 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "tas1999x",
+        "n": "tas1999x",
+        "g": 18,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 22 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10530,6 +10555,13 @@
         "d": "Jul 20 2026"
       },
       {
+        "n": "tas1999x",
+        "i": "Blue Discus",
+        "v": 18,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      },
+      {
         "n": "nellafella",
         "i": "Coffee Cup",
         "v": 2,
@@ -10537,12 +10569,20 @@
         "d": "Jul 21 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "tas1999x",
+        "i": "Blue Discus",
+        "v": 18,
+        "r": "Common",
+        "d": "Jul 22 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 801,
+        "total": 802,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11344,15 +11384,16 @@
           "tf1967",
           "travan",
           "jehjeh2112",
-          "seanp171"
+          "seanp171",
+          "tas1999x"
         ],
         "latest": {
-          "u": "seanp171",
-          "d": "Jul 18 2026"
+          "u": "tas1999x",
+          "d": "Jul 22 2026"
         }
       },
       "first_cast": {
-        "total": 95,
+        "total": 96,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11448,15 +11489,16 @@
           "barnsdale",
           "tayrob28",
           "orange_skunk",
-          "toyotatacoma"
+          "toyotatacoma",
+          "tas1999x"
         ],
         "latest": {
-          "u": "toyotatacoma",
-          "d": "Jul 12 2026"
+          "u": "tas1999x",
+          "d": "Jul 22 2026"
         }
       },
       "catch_of_day": {
-        "total": 135,
+        "total": 136,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11592,15 +11634,16 @@
           "13eard",
           "killa_0zz",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "tas1999x"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "tas1999x",
+          "d": "Jul 22 2026"
         }
       },
       "win_day": {
-        "total": 96,
+        "total": 97,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11697,11 +11740,12 @@
           "thesaucypanda2",
           "13eard",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "tas1999x"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "tas1999x",
+          "d": "Jul 22 2026"
         }
       },
       "double_down": {
@@ -20291,6 +20335,12 @@
       "seanp171": {
         "broke_in": "Jul 18 2026",
         "custom_catch": "Jul 18 2026"
+      },
+      "tas1999x": {
+        "broke_in": "Jul 22 2026",
+        "first_cast": "Jul 22 2026",
+        "win_day": "Jul 22 2026",
+        "catch_of_day": "Jul 22 2026"
       }
     },
     "recent_unlocks": [
@@ -23272,7 +23322,7 @@
       "n": "Blue Discus",
       "custom": false,
       "r": "Common",
-      "c": 164,
+      "c": 165,
       "h": "alex326power",
       "v": 23,
       "w": 0.23
@@ -23821,7 +23871,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "tas1999x",
+      "g": 18,
+      "c": 1,
+      "best_n": "Blue Discus",
+      "best_r": "Common",
+      "best_v": 18,
+      "d": "Jul 22 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -24287,7 +24347,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 164,
+      "c": 165,
       "rec": "0.23 lb",
       "v": 23
     },
@@ -27201,6 +27261,14 @@
   ],
   "recent": [
     {
+      "u": "tas1999x",
+      "i": "Blue Discus",
+      "w": 0.18,
+      "v": 18,
+      "r": "Common",
+      "d": "Jul 22 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Coffee Cup",
       "w": 0.22,
@@ -27790,14 +27858,6 @@
       "w": 3.37,
       "v": 112,
       "r": "Rare",
-      "d": "Jul 10 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Thong",
-      "w": 0.21,
-      "v": 2,
-      "r": "Junk",
       "d": "Jul 10 2026"
     }
   ]
