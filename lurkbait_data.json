@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-23T03:13:51.958018+00:00",
-    "total_catches": 23557,
+    "generated_at": "2026-07-23T03:20:05.379253+00:00",
+    "total_catches": 23558,
     "unique_catches": 375,
     "total_players": 805,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23557 catches"
+      "sub": "Since launch - 23558 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -508,9 +508,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 13302,
-        "c": 190,
-        "casts": 190,
+        "g": 13313,
+        "c": 191,
+        "casts": 191,
         "l": "Jul 23 2026"
       },
       {
@@ -6742,9 +6742,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1406,
-        "c": 32,
-        "casts": 32,
+        "g": 1417,
+        "c": 33,
+        "casts": 33,
         "l": "Jul 23 2026"
       },
       {
@@ -6952,9 +6952,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 163,
-        "c": 6,
-        "casts": 6,
+        "g": 174,
+        "c": 7,
+        "casts": 7,
         "l": "Jul 23 2026"
       },
       {
@@ -7026,9 +7026,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 143,
-        "c": 4,
-        "casts": 4,
+        "g": 154,
+        "c": 5,
+        "casts": 5,
         "l": "Jul 23 2026"
       },
       {
@@ -14026,7 +14026,7 @@
         }
       },
       "same_again": {
-        "total": 31,
+        "total": 32,
         "holders": [
           "zee20ate",
           "belyy92",
@@ -14058,11 +14058,12 @@
           "dogger_101",
           "ironlegacy_",
           "motionless",
-          "brookswhynot"
+          "brookswhynot",
+          "nellafella"
         ],
         "latest": {
-          "u": "brookswhynot",
-          "d": "May 11 2026"
+          "u": "nellafella",
+          "d": "Jul 23 2026"
         }
       },
       "dedicated": {
@@ -20292,6 +20293,7 @@
         "full_spectrum": "May 15 2026",
         "custom_club": "May 01 2026",
         "gold_hoarder": "Jun 27 2026",
+        "same_again": "Jul 23 2026",
         "triple_crown": "May 15 2026",
         "leg_epic_day": "May 15 2026",
         "all5_day": "Jun 29 2026",
@@ -23684,6 +23686,15 @@
       "w": 1.13
     },
     {
+      "n": "Gummy Worms",
+      "custom": false,
+      "r": "Common",
+      "c": 148,
+      "h": "nellafella",
+      "v": 11,
+      "w": 1.13
+    },
+    {
       "n": "Pike",
       "custom": false,
       "r": "Common",
@@ -23691,15 +23702,6 @@
       "h": "corndawg3",
       "v": 11,
       "w": 1.13
-    },
-    {
-      "n": "Gummy Worms",
-      "custom": false,
-      "r": "Common",
-      "c": 147,
-      "h": "the_moonboy",
-      "v": 11,
-      "w": 1.12
     },
     {
       "n": "iRacing Protest",
@@ -26728,8 +26730,8 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 147,
-      "rec": "1.12 lb",
+      "c": 148,
+      "rec": "1.13 lb",
       "v": 11
     },
     {
@@ -27537,6 +27539,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Gummy Worms",
+      "w": 1.13,
+      "v": 11,
+      "r": "Common",
+      "d": "Jul 23 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Vape",
       "w": 0.2,
       "v": 10,
@@ -28125,14 +28135,6 @@
       "w": 0.8,
       "v": 44,
       "r": "Uncommon",
-      "d": "Jul 16 2026"
-    },
-    {
-      "u": "muskrat21",
-      "i": "iRacer Franciso J Villarreal",
-      "w": 87.43,
-      "v": 96,
-      "r": "Rare",
       "d": "Jul 16 2026"
     }
   ]
