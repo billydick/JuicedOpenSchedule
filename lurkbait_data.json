@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-23T01:18:31.167445+00:00",
-    "total_catches": 23547,
+    "generated_at": "2026-07-23T01:37:01.512116+00:00",
+    "total_catches": 23548,
     "unique_catches": 375,
     "total_players": 805,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23547 catches"
+      "sub": "Since launch - 23548 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -474,20 +474,20 @@
         "l": "Jul 12 2025"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 14947,
+        "c": 173,
+        "casts": 173,
+        "l": "Jul 23 2026"
+      },
+      {
         "u": "fjvgaming",
         "n": "fjvgaming",
         "g": 14880,
         "c": 198,
         "casts": 198,
         "l": "Dec 24 2025"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 14838,
-        "c": 172,
-        "casts": 172,
-        "l": "Jul 23 2026"
       },
       {
         "u": "scripture_",
@@ -6734,9 +6734,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 1375,
-        "c": 19,
-        "casts": 19,
+        "g": 1484,
+        "c": 20,
+        "casts": 20,
         "l": "Jul 23 2026"
       },
       {
@@ -6936,9 +6936,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 1131,
-        "c": 17,
-        "casts": 17,
+        "g": 1240,
+        "c": 18,
+        "casts": 18,
         "l": "Jul 23 2026"
       },
       {
@@ -7010,9 +7010,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 261,
-        "c": 5,
-        "casts": 5,
+        "g": 370,
+        "c": 6,
+        "casts": 6,
         "l": "Jul 23 2026"
       },
       {
@@ -23294,7 +23294,7 @@
       "n": "John H. Nemechek",
       "custom": true,
       "r": "Common",
-      "c": 122,
+      "c": 123,
       "h": "drewieblaster",
       "v": 112,
       "w": 1.12
@@ -25273,7 +25273,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "",
-      "c": 122,
+      "c": 123,
       "rec": "1.12 lb",
       "v": 112
     },
@@ -27477,6 +27477,14 @@
   "recent": [
     {
       "u": "drewieblaster",
+      "i": "John H. Nemechek",
+      "w": 1.09,
+      "v": 109,
+      "r": "Rare",
+      "d": "Jul 23 2026"
+    },
+    {
+      "u": "drewieblaster",
       "i": "Erik Jones",
       "w": 1.09,
       "v": 1,
@@ -28066,14 +28074,6 @@
       "v": 47,
       "r": "Uncommon",
       "d": "Jul 14 2026"
-    },
-    {
-      "u": "toyotatacoma",
-      "i": "Ross Chastain",
-      "w": 20.91,
-      "v": 366,
-      "r": "Epic",
-      "d": "Jul 12 2026"
     }
   ]
 }
