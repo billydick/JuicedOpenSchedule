@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-23T00:46:32.776090+00:00",
-    "total_catches": 23543,
+    "generated_at": "2026-07-23T00:53:46.830860+00:00",
+    "total_catches": 23544,
     "unique_catches": 375,
     "total_players": 805,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23543 catches"
+      "sub": "Since launch - 23544 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -482,20 +482,20 @@
         "l": "Dec 24 2025"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 14770,
+        "c": 169,
+        "casts": 169,
+        "l": "Jul 23 2026"
+      },
+      {
         "u": "scripture_",
         "n": "scripture_",
         "g": 14601,
         "c": 194,
         "casts": 194,
         "l": "Dec 21 2025"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 14581,
-        "c": 168,
-        "casts": 168,
-        "l": "Jul 23 2026"
       },
       {
         "u": "casperfrnk09",
@@ -6732,20 +6732,20 @@
     ],
     "monthly": [
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 1307,
+        "c": 16,
+        "casts": 16,
+        "l": "Jul 23 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 1263,
         "c": 28,
         "casts": 28,
         "l": "Jul 22 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 1118,
-        "c": 15,
-        "casts": 15,
-        "l": "Jul 23 2026"
       },
       {
         "u": "beliron",
@@ -6936,9 +6936,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 874,
-        "c": 13,
-        "casts": 13,
+        "g": 1063,
+        "c": 14,
+        "casts": 14,
         "l": "Jul 23 2026"
       },
       {
@@ -7008,20 +7008,20 @@
     ],
     "daily": [
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 193,
+        "c": 2,
+        "casts": 2,
+        "l": "Jul 23 2026"
+      },
+      {
         "u": "darkhorizon35",
         "n": "darkhorizon35",
         "g": 45,
         "c": 1,
         "casts": 1,
         "l": "Jul 22 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 4,
-        "c": 1,
-        "casts": 1,
-        "l": "Jul 23 2026"
       }
     ]
   },
@@ -10742,18 +10742,18 @@
     ],
     "daily": [
       {
+        "n": "drewieblaster",
+        "i": "87 Ford Thunderbird",
+        "v": 189,
+        "r": "Epic",
+        "d": "Jul 23 2026"
+      },
+      {
         "n": "darkhorizon35",
         "i": "Butterfly Fish",
         "v": 45,
         "r": "Uncommon",
         "d": "Jul 22 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Kaz Grala",
-        "v": 4,
-        "r": "Junk",
-        "d": "Jul 23 2026"
       }
     ]
   },
@@ -21206,7 +21206,7 @@
       "n": "87 Ford Thunderbird",
       "custom": true,
       "r": "Epic",
-      "c": 40,
+      "c": 41,
       "h": "fjvgaming",
       "v": 225,
       "w": 1.13
@@ -26569,7 +26569,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "They don't make em like this anymore",
-      "c": 40,
+      "c": 41,
       "rec": "1.13 lb",
       "v": 225
     },
@@ -27477,6 +27477,14 @@
   "recent": [
     {
       "u": "drewieblaster",
+      "i": "87 Ford Thunderbird",
+      "w": 0.95,
+      "v": 189,
+      "r": "Epic",
+      "d": "Jul 23 2026"
+    },
+    {
+      "u": "drewieblaster",
       "i": "Kaz Grala",
       "w": 8.12,
       "v": 4,
@@ -28066,14 +28074,6 @@
       "v": 48,
       "r": "Uncommon",
       "d": "Jul 11 2026"
-    },
-    {
-      "u": "jdawg250f",
-      "i": "NASCAR Fans",
-      "w": 52.92,
-      "v": 370,
-      "r": "Epic",
-      "d": "Jul 10 2026"
     }
   ]
 }
