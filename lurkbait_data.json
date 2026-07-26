@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-25T23:51:04.414500+00:00",
-    "total_catches": 23595,
+    "generated_at": "2026-07-26T00:55:39.216677+00:00",
+    "total_catches": 23596,
     "unique_catches": 375,
     "total_players": 806,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23595 catches"
+      "sub": "Since launch - 23596 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -2906,6 +2906,14 @@
         "l": "Aug 04 2025"
       },
       {
+        "u": "hoserlounge",
+        "n": "hoserlounge",
+        "g": 267,
+        "c": 6,
+        "casts": 6,
+        "l": "Jul 26 2026"
+      },
+      {
         "u": "neildrives",
         "n": "neildrives",
         "g": 265,
@@ -2992,14 +3000,6 @@
         "c": 7,
         "casts": 7,
         "l": "Aug 08 2025"
-      },
-      {
-        "u": "hoserlounge",
-        "n": "hoserlounge",
-        "g": 245,
-        "c": 5,
-        "casts": 5,
-        "l": "Jul 23 2025"
       },
       {
         "u": "trickological",
@@ -7038,6 +7038,14 @@
         "l": "Jul 22 2026"
       },
       {
+        "u": "hoserlounge",
+        "n": "hoserlounge",
+        "g": 22,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 26 2026"
+      },
+      {
         "u": "tas1999x",
         "n": "tas1999x",
         "g": 18,
@@ -7086,6 +7094,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 25 2026"
+      },
+      {
+        "u": "hoserlounge",
+        "n": "hoserlounge",
+        "g": 22,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 26 2026"
       }
     ]
   },
@@ -10754,6 +10770,13 @@
         "d": "Jul 22 2026"
       },
       {
+        "n": "hoserlounge",
+        "i": "Billy Dick Cup Regulations",
+        "v": 22,
+        "r": "Common",
+        "d": "Jul 26 2026"
+      },
+      {
         "n": "tas1999x",
         "i": "Blue Discus",
         "v": 18,
@@ -10796,6 +10819,13 @@
         "v": 41,
         "r": "Uncommon",
         "d": "Jul 25 2026"
+      },
+      {
+        "n": "hoserlounge",
+        "i": "Billy Dick Cup Regulations",
+        "v": 22,
+        "r": "Common",
+        "d": "Jul 26 2026"
       }
     ]
   },
@@ -23506,7 +23536,7 @@
       "n": "Billy Dick Cup Regulations",
       "custom": true,
       "r": "Common",
-      "c": 129,
+      "c": 130,
       "h": "ironlegacy_",
       "v": 28,
       "w": 1.13
@@ -24846,7 +24876,7 @@
       "r": "Common",
       "custom": true,
       "desc": "This is probably important...is there a TLDR?",
-      "c": 129,
+      "c": 130,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -27535,6 +27565,14 @@
   ],
   "recent": [
     {
+      "u": "hoserlounge",
+      "i": "Billy Dick Cup Regulations",
+      "w": 0.88,
+      "v": 22,
+      "r": "Common",
+      "d": "Jul 26 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "CSL Pedals",
       "w": 3.31,
@@ -28123,14 +28161,6 @@
       "i": "Daytona International Speedway",
       "w": 1.62,
       "v": 41,
-      "r": "Uncommon",
-      "d": "Jul 20 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Gas Can",
-      "w": 4.91,
-      "v": 49,
       "r": "Uncommon",
       "d": "Jul 20 2026"
     }
