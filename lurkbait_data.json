@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-26T23:10:56.695179+00:00",
-    "total_catches": 23599,
+    "generated_at": "2026-07-27T00:05:08.744298+00:00",
+    "total_catches": 23600,
     "unique_catches": 375,
     "total_players": 806,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23599 catches"
+      "sub": "Since launch - 23600 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -420,10 +420,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 23128,
-        "c": 344,
-        "casts": 344,
-        "l": "Jul 25 2026"
+        "g": 23178,
+        "c": 345,
+        "casts": 345,
+        "l": "Jul 27 2026"
       },
       {
         "u": "1disruptiveduck",
@@ -6758,10 +6758,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 848,
-        "c": 15,
-        "casts": 15,
-        "l": "Jul 25 2026"
+        "g": 898,
+        "c": 16,
+        "casts": 16,
+        "l": "Jul 27 2026"
       },
       {
         "u": "beliron",
@@ -6974,20 +6974,20 @@
         "l": "Jul 22 2026"
       },
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 210,
+        "c": 5,
+        "casts": 5,
+        "l": "Jul 27 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 207,
         "c": 4,
         "casts": 4,
         "l": "Jul 26 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 160,
-        "c": 4,
-        "casts": 4,
-        "l": "Jul 25 2026"
       },
       {
         "u": "juicedracing",
@@ -7086,7 +7086,16 @@
         "l": "Jul 24 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 50,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 27 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10795,7 +10804,15 @@
         "d": "Jul 24 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Michael McDowell",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Jul 27 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23369,7 +23386,7 @@
       "n": "Michael McDowell",
       "custom": true,
       "r": "Common",
-      "c": 183,
+      "c": 184,
       "h": "gatoraintplaying",
       "v": 56,
       "w": 56.02
@@ -25348,7 +25365,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Won a Daytona and been coasting off it ever since",
-      "c": 183,
+      "c": 184,
       "rec": "56.02 lb",
       "v": 56
     },
@@ -27533,6 +27550,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Michael McDowell",
+      "w": 50.37,
+      "v": 50,
+      "r": "Uncommon",
+      "d": "Jul 27 2026"
+    },
+    {
       "u": "v1per_simr4cin6",
       "i": "B License",
       "w": 1.01,
@@ -28122,14 +28147,6 @@
       "w": 42.71,
       "v": 85,
       "r": "Rare",
-      "d": "Jul 20 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Car",
-      "w": 1586.79,
-      "v": 317,
-      "r": "Junk",
       "d": "Jul 20 2026"
     }
   ]
