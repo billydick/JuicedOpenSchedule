@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T02:28:54Z",
+  "generated_at": "2026-07-27T02:29:59Z",
   "meta": {
-    "total_hands": 419,
+    "total_hands": 420,
     "total_players": 30,
     "biggest_bet": {
       "user": "juicedracing",
@@ -50,10 +50,10 @@
       },
       {
         "u": "itzdubsta",
-        "chips": 204300,
-        "net": 126690,
-        "hands": 1,
-        "ach": 3
+        "chips": 124300,
+        "net": 206690,
+        "hands": 2,
+        "ach": 6
       },
       {
         "u": "motionless",
@@ -248,14 +248,25 @@
     "daily": [
       {
         "u": "itzdubsta",
-        "chips": 204300,
-        "net": -36000,
-        "hands": 1,
-        "ach": 3
+        "chips": 124300,
+        "net": 44000,
+        "hands": 2,
+        "ach": 6
       }
     ]
   },
   "daily_highlights": {
+    "biggest_win": {
+      "u": "itzdubsta",
+      "cards": [
+        "J♥",
+        "9♣"
+      ],
+      "total": 19,
+      "bet": 80000,
+      "net": 80000,
+      "result": "win"
+    },
     "biggest_loss": {
       "u": "itzdubsta",
       "cards": [
@@ -271,16 +282,19 @@
     "biggest_bet": {
       "u": "itzdubsta",
       "cards": [
-        "3♣",
-        "10♥",
-        "3♦"
+        "J♥",
+        "9♣"
       ],
-      "total": 16,
-      "bet": 40000,
-      "net": -36000,
-      "result": "lose"
+      "total": 19,
+      "bet": 80000,
+      "net": 80000,
+      "result": "win"
     },
     "most_hands": {
+      "u": "itzdubsta",
+      "n": 2
+    },
+    "best_streak": {
       "u": "itzdubsta",
       "n": 1
     },
@@ -296,6 +310,17 @@
         "10♥",
         "3♦"
       ]
+    },
+    "most_cards_win": {
+      "u": "itzdubsta",
+      "cards": [
+        "J♥",
+        "9♣"
+      ],
+      "total": 19,
+      "bet": 80000,
+      "net": 80000,
+      "result": "win"
     }
   },
   "daily_history": [
@@ -1609,10 +1634,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 204300,
+          "chips": 124300,
           "net": 15000,
           "hands": 3,
-          "ach": 3
+          "ach": 6
         },
         {
           "u": "larcen22",
@@ -1995,10 +2020,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 204300,
+          "chips": 124300,
           "net": 55630,
           "hands": 3,
-          "ach": 3
+          "ach": 6
         }
       ],
       "highlights": {
@@ -2387,10 +2412,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 204300,
+          "chips": 124300,
           "net": 50000,
           "hands": 1,
-          "ach": 3
+          "ach": 6
         },
         {
           "u": "topjoedirty",
@@ -2593,10 +2618,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 204300,
+          "chips": 124300,
           "net": 42060,
           "hands": 1,
-          "ach": 3
+          "ach": 6
         },
         {
           "u": "thesaucypanda2",
@@ -5627,11 +5652,13 @@
         }
       },
       "high_roller_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "itzdubsta"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-07-22"
+          "u": "itzdubsta",
+          "d": "2026-07-26"
         }
       },
       "high_roller_100k": {
@@ -5707,11 +5734,13 @@
         }
       },
       "escalator": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "itzdubsta"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-07-22"
+          "u": "itzdubsta",
+          "d": "2026-07-26"
         }
       },
       "chip_tipper": {
@@ -5808,11 +5837,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "itzdubsta"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-07-22"
+          "u": "itzdubsta",
+          "d": "2026-07-26"
         }
       },
       "big_swing_session_200k": {
@@ -6305,7 +6336,10 @@
       "itzdubsta": {
         "bank_builder_100k": "earned",
         "poker_pair_any": "2026-07-26",
-        "poker_salvation": "2026-07-26"
+        "poker_salvation": "2026-07-26",
+        "high_roller_50k": "2026-06-17",
+        "big_swing_session_50k": "2026-06-17",
+        "escalator": "2026-06-17"
       },
       "codycoyoteracing": {
         "bank_builder_100k": "earned"
@@ -6315,6 +6349,21 @@
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "itzdubsta",
+        "d": "2026-07-26"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "itzdubsta",
+        "d": "2026-07-26"
+      },
+      {
+        "id": "escalator",
+        "u": "itzdubsta",
+        "d": "2026-07-26"
+      },
       {
         "id": "poker_pair_any",
         "u": "itzdubsta",
@@ -6397,21 +6446,6 @@
       },
       {
         "id": "high_roller_100k",
-        "u": "juicedracing",
-        "d": "2026-07-22"
-      },
-      {
-        "id": "high_roller_250k",
-        "u": "juicedracing",
-        "d": "2026-07-22"
-      },
-      {
-        "id": "hot_streak_3",
-        "u": "juicedracing",
-        "d": "2026-07-22"
-      },
-      {
-        "id": "exact_change_win",
         "u": "juicedracing",
         "d": "2026-07-22"
       }
@@ -7134,6 +7168,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1785119399.266494,
+      "date": "2026-07-26",
+      "player": "itzdubsta",
+      "bet": 80000,
+      "balance_before": 204300,
+      "result": "win",
+      "net_delta": 80000,
+      "player_cards": [
+        "J♥",
+        "9♣"
+      ],
+      "player_total": 19,
+      "hit_count": 0,
+      "dealer_cards": [
+        "5♥",
+        "10♥",
+        "7♦"
+      ],
+      "dealer_total": 22,
+      "dealer_bust": true,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "big_swing_session_50k",
+        "escalator"
+      ]
+    },
     {
       "ts": 1785119334.3429978,
       "date": "2026-07-26",
@@ -8668,38 +8734,6 @@
       "achievements_earned": [
         "poker_pair_any",
         "poker_salvation"
-      ]
-    },
-    {
-      "ts": 1783994090.504957,
-      "date": "2026-07-13",
-      "player": "juicedracing",
-      "bet": 15000,
-      "balance_before": 15000,
-      "result": "win",
-      "net_delta": 15000,
-      "player_cards": [
-        "K♠",
-        "10♦"
-      ],
-      "player_total": 20,
-      "hit_count": 0,
-      "dealer_cards": [
-        "2♥",
-        "2♦",
-        "10♥",
-        "9♥"
-      ],
-      "dealer_total": 23,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win"
       ]
     }
   ]
