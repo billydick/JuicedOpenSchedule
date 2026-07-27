@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-07-27T20:26:40.868535+00:00",
-    "total_catches": 23603,
+    "generated_at": "2026-07-27T21:00:33.657958+00:00",
+    "total_catches": 23604,
     "unique_catches": 375,
     "total_players": 806,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23603 catches"
+      "sub": "Since launch - 23604 catches"
     },
     "monthly": {
       "label": "July 2026",
@@ -2180,10 +2180,10 @@
       {
         "u": "toyotatacoma",
         "n": "toyotatacoma",
-        "g": 501,
-        "c": 5,
-        "casts": 5,
-        "l": "Jul 18 2026"
+        "g": 502,
+        "c": 6,
+        "casts": 6,
+        "l": "Jul 27 2026"
       },
       {
         "u": "sgt_warlock",
@@ -6790,10 +6790,10 @@
       {
         "u": "toyotatacoma",
         "n": "toyotatacoma",
-        "g": 451,
-        "c": 3,
-        "casts": 3,
-        "l": "Jul 18 2026"
+        "g": 452,
+        "c": 4,
+        "casts": 4,
+        "l": "Jul 27 2026"
       },
       {
         "u": "garfang_",
@@ -6948,6 +6948,14 @@
         "c": 1,
         "casts": 1,
         "l": "Jul 27 2026"
+      },
+      {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 27 2026"
       }
     ],
     "daily": [
@@ -6955,6 +6963,14 @@
         "u": "nellafella",
         "n": "nellafella",
         "g": 21,
+        "c": 1,
+        "casts": 1,
+        "l": "Jul 27 2026"
+      },
+      {
+        "u": "toyotatacoma",
+        "n": "toyotatacoma",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "Jul 27 2026"
@@ -10534,6 +10550,13 @@
         "v": 21,
         "r": "Common",
         "d": "Jul 27 2026"
+      },
+      {
+        "n": "toyotatacoma",
+        "i": "Derek Kraus",
+        "v": 1,
+        "r": "Junk",
+        "d": "Jul 27 2026"
       }
     ],
     "daily": [
@@ -10542,6 +10565,13 @@
         "i": "Fire Bottle Nozzle",
         "v": 21,
         "r": "Common",
+        "d": "Jul 27 2026"
+      },
+      {
+        "n": "toyotatacoma",
+        "i": "Derek Kraus",
+        "v": 1,
+        "r": "Junk",
         "d": "Jul 27 2026"
       }
     ]
@@ -23550,7 +23580,7 @@
       "n": "Derek Kraus",
       "custom": true,
       "r": "Common",
-      "c": 163,
+      "c": 164,
       "h": "riflehog",
       "v": 1,
       "w": 1.13
@@ -24907,7 +24937,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Out here logging laps like it’s community service",
-      "c": 163,
+      "c": 164,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -27236,6 +27266,14 @@
   ],
   "recent": [
     {
+      "u": "toyotatacoma",
+      "i": "Derek Kraus",
+      "w": 1.08,
+      "v": 1,
+      "r": "Junk",
+      "d": "Jul 27 2026"
+    },
+    {
       "u": "nellafella",
       "i": "Fire Bottle Nozzle",
       "w": 1.68,
@@ -27825,14 +27863,6 @@
       "w": 85.97,
       "v": 107,
       "r": "Rare",
-      "d": "Jul 20 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Gummy Worms",
-      "w": 0.95,
-      "v": 9,
-      "r": "Common",
       "d": "Jul 20 2026"
     }
   ]
