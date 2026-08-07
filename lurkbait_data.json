@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-07T00:42:33.764592+00:00",
-    "total_catches": 23605,
+    "generated_at": "2026-08-07T00:55:56.501900+00:00",
+    "total_catches": 23606,
     "unique_catches": 375,
-    "total_players": 806,
+    "total_players": 807,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23605 catches"
+      "sub": "Since launch - 23606 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -5818,6 +5818,14 @@
         "l": "Dec 24 2025"
       },
       {
+        "u": "longview91",
+        "n": "longview91",
+        "g": 17,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      },
+      {
         "u": "jeffsinclair77",
         "n": "jeffsinclair77",
         "g": 17,
@@ -6746,6 +6754,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
+      },
+      {
+        "u": "longview91",
+        "n": "longview91",
+        "g": 17,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -6756,6 +6772,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
+      },
+      {
+        "u": "longview91",
+        "n": "longview91",
+        "g": 17,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
       }
     ],
     "daily": [
@@ -6763,6 +6787,14 @@
         "u": "jdawg250f",
         "n": "jdawg250f",
         "g": 67,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      },
+      {
+        "u": "longview91",
+        "n": "longview91",
+        "g": 17,
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
@@ -9788,6 +9820,13 @@
         "v": 67,
         "r": "Rare",
         "d": "Aug 07 2026"
+      },
+      {
+        "n": "longview91",
+        "i": "Will Brown",
+        "v": 17,
+        "r": "Common",
+        "d": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -9796,6 +9835,13 @@
         "i": "Kevon Jackson",
         "v": 67,
         "r": "Rare",
+        "d": "Aug 07 2026"
+      },
+      {
+        "n": "longview91",
+        "i": "Will Brown",
+        "v": 17,
+        "r": "Common",
         "d": "Aug 07 2026"
       }
     ],
@@ -9806,13 +9852,20 @@
         "v": 67,
         "r": "Rare",
         "d": "Aug 07 2026"
+      },
+      {
+        "n": "longview91",
+        "i": "Will Brown",
+        "v": 17,
+        "r": "Common",
+        "d": "Aug 07 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 806,
+        "total": 807,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10619,11 +10672,12 @@
           "skylordawesome",
           "mrprof0",
           "king44mariner",
-          "thebrawlerike"
+          "thebrawlerike",
+          "longview91"
         ],
         "latest": {
-          "u": "thebrawlerike",
-          "d": "Jul 24 2026"
+          "u": "longview91",
+          "d": "Aug 07 2026"
         }
       },
       "first_cast": {
@@ -11152,7 +11206,7 @@
         }
       },
       "custom_catch": {
-        "total": 660,
+        "total": 661,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11813,11 +11867,12 @@
           "jehjeh2112",
           "seanp171",
           "skylordawesome",
-          "thebrawlerike"
+          "thebrawlerike",
+          "longview91"
         ],
         "latest": {
-          "u": "thebrawlerike",
-          "d": "Jul 24 2026"
+          "u": "longview91",
+          "d": "Aug 07 2026"
         }
       },
       "heavy_hauler": {
@@ -19591,6 +19646,10 @@
       "thebrawlerike": {
         "broke_in": "Jul 24 2026",
         "custom_catch": "Jul 24 2026"
+      },
+      "longview91": {
+        "broke_in": "Aug 07 2026",
+        "custom_catch": "Aug 07 2026"
       }
     },
     "recent_unlocks": [
@@ -22617,7 +22676,7 @@
       "n": "Will Brown",
       "custom": true,
       "r": "Common",
-      "c": 200,
+      "c": 201,
       "h": "pvtcrackpot",
       "v": 17,
       "w": 7.9
@@ -23121,7 +23180,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "longview91",
+      "g": 17,
+      "c": 1,
+      "best_n": "Will Brown",
+      "best_r": "Common",
+      "best_v": 17,
+      "d": "Aug 07 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -24262,7 +24331,7 @@
       "r": "Common",
       "custom": true,
       "desc": "May be around more next season",
-      "c": 200,
+      "c": 201,
       "rec": "7.90 lb",
       "v": 17
     },
@@ -26501,6 +26570,14 @@
   ],
   "recent": [
     {
+      "u": "longview91",
+      "i": "Will Brown",
+      "w": 7.75,
+      "v": 17,
+      "r": "Common",
+      "d": "Aug 07 2026"
+    },
+    {
       "u": "jdawg250f",
       "i": "Kevon Jackson",
       "w": 44.65,
@@ -27090,14 +27167,6 @@
       "w": 0.84,
       "v": 8,
       "r": "Common",
-      "d": "Jul 20 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Jake Holmes",
-      "w": 41.32,
-      "v": 83,
-      "r": "Rare",
       "d": "Jul 20 2026"
     }
   ]
