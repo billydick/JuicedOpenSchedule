@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-06T23:42:15.780460+00:00",
-    "total_catches": 23604,
+    "generated_at": "2026-08-07T00:42:33.764592+00:00",
+    "total_catches": 23605,
     "unique_catches": 375,
     "total_players": 806,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23604 catches"
+      "sub": "Since launch - 23605 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -364,10 +364,10 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 35922,
-        "c": 507,
-        "casts": 507,
-        "l": "Jul 10 2026"
+        "g": 35989,
+        "c": 508,
+        "casts": 508,
+        "l": "Aug 07 2026"
       },
       {
         "u": "karnalsanders",
@@ -6738,9 +6738,36 @@
         "l": "Nov 27 2025"
       }
     ],
-    "monthly": [],
-    "weekly": [],
-    "daily": []
+    "monthly": [
+      {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 67,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      }
+    ],
+    "weekly": [
+      {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 67,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 67,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9754,9 +9781,33 @@
         "d": "Jan 23 2025"
       }
     ],
-    "monthly": [],
-    "weekly": [],
-    "daily": []
+    "monthly": [
+      {
+        "n": "jdawg250f",
+        "i": "Kevon Jackson",
+        "v": 67,
+        "r": "Rare",
+        "d": "Aug 07 2026"
+      }
+    ],
+    "weekly": [
+      {
+        "n": "jdawg250f",
+        "i": "Kevon Jackson",
+        "v": 67,
+        "r": "Rare",
+        "d": "Aug 07 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "jdawg250f",
+        "i": "Kevon Jackson",
+        "v": 67,
+        "r": "Rare",
+        "d": "Aug 07 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -13542,7 +13593,7 @@
         }
       },
       "win_month": {
-        "total": 11,
+        "total": 12,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13554,11 +13605,12 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella"
+          "nellafella",
+          "jdawg250f"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 02 2026"
+          "u": "jdawg250f",
+          "d": "Aug 07 2026"
         }
       },
       "the_market": {
@@ -14852,6 +14904,7 @@
         "two_k_day": "Oct 05 2024",
         "wholesale": "Jan 25 2025",
         "win_week": "Oct 17 2024",
+        "win_month": "Aug 07 2026",
         "golden_cast": "Oct 21 2024",
         "legend_hunter": "Oct 06 2024",
         "legend_collector": "Oct 21 2024",
@@ -21529,7 +21582,7 @@
       "n": "Kevon Jackson",
       "custom": true,
       "r": "Rare",
-      "c": 50,
+      "c": 51,
       "h": "motionless",
       "v": 85,
       "w": 56.48
@@ -25757,7 +25810,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#54 Rear Changer, Joe Gibbs Racing",
-      "c": 50,
+      "c": 51,
       "rec": "56.48 lb",
       "v": 85
     },
@@ -26448,6 +26501,14 @@
   ],
   "recent": [
     {
+      "u": "jdawg250f",
+      "i": "Kevon Jackson",
+      "w": 44.65,
+      "v": 67,
+      "r": "Rare",
+      "d": "Aug 07 2026"
+    },
+    {
       "u": "toyotatacoma",
       "i": "Derek Kraus",
       "w": 1.08,
@@ -27036,14 +27097,6 @@
       "i": "Jake Holmes",
       "w": 41.32,
       "v": 83,
-      "r": "Rare",
-      "d": "Jul 20 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Pocono",
-      "w": 85.97,
-      "v": 107,
       "r": "Rare",
       "d": "Jul 20 2026"
     }
