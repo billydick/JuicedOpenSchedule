@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-07T01:55:36.104243+00:00",
-    "total_catches": 23611,
+    "generated_at": "2026-08-07T01:57:42.574536+00:00",
+    "total_catches": 23612,
     "unique_catches": 375,
     "total_players": 807,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23611 catches"
+      "sub": "Since launch - 23612 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -868,10 +868,10 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
-        "g": 4980,
-        "c": 66,
-        "casts": 66,
-        "l": "Jul 26 2026"
+        "g": 4981,
+        "c": 67,
+        "casts": 67,
+        "l": "Aug 07 2026"
       },
       {
         "u": "ikatipoi",
@@ -6786,6 +6786,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -6828,6 +6836,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
       }
     ],
     "daily": [
@@ -6867,6 +6883,14 @@
         "u": "longview91",
         "n": "longview91",
         "g": 17,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 07 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
@@ -9920,6 +9944,13 @@
         "v": 17,
         "r": "Common",
         "d": "Aug 07 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "Richmond Raceway",
+        "v": 1,
+        "r": "Junk",
+        "d": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -9957,6 +9988,13 @@
         "v": 17,
         "r": "Common",
         "d": "Aug 07 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "Richmond Raceway",
+        "v": 1,
+        "r": "Junk",
+        "d": "Aug 07 2026"
       }
     ],
     "daily": [
@@ -9993,6 +10031,13 @@
         "i": "Will Brown",
         "v": 17,
         "r": "Common",
+        "d": "Aug 07 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "Richmond Raceway",
+        "v": 1,
+        "r": "Junk",
         "d": "Aug 07 2026"
       }
     ]
@@ -22953,7 +22998,7 @@
       "n": "Richmond Raceway",
       "custom": true,
       "r": "Common",
-      "c": 141,
+      "c": 142,
       "h": "benwysard",
       "v": 1,
       "w": 225.18
@@ -25490,7 +25535,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "You wreck at Richmond, better luck next time!",
-      "c": 141,
+      "c": 142,
       "rec": "225.18 lb",
       "v": 1
     },
@@ -26703,6 +26748,14 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "Richmond Raceway",
+      "w": 182.78,
+      "v": 1,
+      "r": "Junk",
+      "d": "Aug 07 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Atlantic Cod",
       "w": 33.75,
@@ -27292,14 +27345,6 @@
       "w": 0.45,
       "v": 31,
       "r": "Uncommon",
-      "d": "Jul 22 2026"
-    },
-    {
-      "u": "mrprof0",
-      "i": "Perch",
-      "w": 2.81,
-      "v": 28,
-      "r": "Common",
       "d": "Jul 22 2026"
     }
   ]
