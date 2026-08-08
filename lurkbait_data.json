@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-08T03:22:14.117469+00:00",
-    "total_catches": 23628,
+    "generated_at": "2026-08-08T04:26:45.067787+00:00",
+    "total_catches": 23629,
     "unique_catches": 375,
-    "total_players": 808,
+    "total_players": 809,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23628 catches"
+      "sub": "Since launch - 23629 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -4834,6 +4834,14 @@
         "l": "Jun 18 2025"
       },
       {
+        "u": "rhrazin",
+        "n": "rhrazin",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "radmann07",
         "n": "radmann07",
         "g": 52,
@@ -6788,6 +6796,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "rhrazin",
+        "n": "rhrazin",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 47,
@@ -6870,6 +6886,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "rhrazin",
+        "n": "rhrazin",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 47,
@@ -6925,6 +6949,14 @@
         "g": 211,
         "c": 2,
         "casts": 2,
+        "l": "Aug 08 2026"
+      },
+      {
+        "u": "rhrazin",
+        "n": "rhrazin",
+        "g": 52,
+        "c": 1,
+        "casts": 1,
         "l": "Aug 08 2026"
       },
       {
@@ -10043,6 +10075,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "rhrazin",
+        "i": "KEISER FUEL REGULATOR & FILTER",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Aug 08 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "Black Redeye",
         "v": 26,
@@ -10115,6 +10154,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "rhrazin",
+        "i": "KEISER FUEL REGULATOR & FILTER",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Aug 08 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "Black Redeye",
         "v": 26,
@@ -10166,6 +10212,13 @@
         "d": "Aug 08 2026"
       },
       {
+        "n": "rhrazin",
+        "i": "KEISER FUEL REGULATOR & FILTER",
+        "v": 52,
+        "r": "Uncommon",
+        "d": "Aug 08 2026"
+      },
+      {
         "n": "doomritual",
         "i": "Keys",
         "v": 10,
@@ -10177,7 +10230,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 808,
+        "total": 809,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10986,10 +11039,11 @@
           "king44mariner",
           "thebrawlerike",
           "longview91",
-          "doomritual"
+          "doomritual",
+          "rhrazin"
         ],
         "latest": {
-          "u": "doomritual",
+          "u": "rhrazin",
           "d": "Aug 08 2026"
         }
       },
@@ -11520,7 +11574,7 @@
         }
       },
       "custom_catch": {
-        "total": 661,
+        "total": 662,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12182,11 +12236,12 @@
           "seanp171",
           "skylordawesome",
           "thebrawlerike",
-          "longview91"
+          "longview91",
+          "rhrazin"
         ],
         "latest": {
-          "u": "longview91",
-          "d": "Aug 07 2026"
+          "u": "rhrazin",
+          "d": "Aug 08 2026"
         }
       },
       "heavy_hauler": {
@@ -19966,6 +20021,10 @@
       "doomritual": {
         "broke_in": "Aug 08 2026",
         "first_cast": "Aug 08 2026"
+      },
+      "rhrazin": {
+        "broke_in": "Aug 08 2026",
+        "custom_catch": "Aug 08 2026"
       }
     },
     "recent_unlocks": [
@@ -22434,7 +22493,7 @@
       "n": "KEISER FUEL REGULATOR & FILTER",
       "custom": true,
       "r": "Uncommon",
-      "c": 86,
+      "c": 87,
       "h": "motionless",
       "v": 56,
       "w": 2.26
@@ -23513,6 +23572,15 @@
       "best_n": "Keys",
       "best_r": "Junk",
       "best_v": 10,
+      "d": "Aug 08 2026"
+    },
+    {
+      "u": "rhrazin",
+      "g": 52,
+      "c": 1,
+      "best_n": "KEISER FUEL REGULATOR & FILTER",
+      "best_r": "Uncommon",
+      "best_v": 52,
       "d": "Aug 08 2026"
     }
   ],
@@ -25133,7 +25201,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "KEISER FUEL REGULATOR AND FUEL FILTER FROM NASCAR CUP TEAM",
-      "c": 86,
+      "c": 87,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -26895,6 +26963,14 @@
   ],
   "recent": [
     {
+      "u": "rhrazin",
+      "i": "KEISER FUEL REGULATOR & FILTER",
+      "w": 2.1,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Aug 08 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "iRacer Kirk Martin",
       "w": 125.93,
@@ -27484,14 +27560,6 @@
       "w": 15.87,
       "v": 26,
       "r": "Common",
-      "d": "Jul 23 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "iRacer - Jessie Winslow",
-      "w": 93.41,
-      "v": 186,
-      "r": "Rare",
       "d": "Jul 23 2026"
     }
   ]
