@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-08T02:18:43.622649+00:00",
-    "total_catches": 23625,
+    "generated_at": "2026-08-08T02:32:02.568318+00:00",
+    "total_catches": 23626,
     "unique_catches": 375,
-    "total_players": 807,
+    "total_players": 808,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23625 catches"
+      "sub": "Since launch - 23626 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -6170,6 +6170,14 @@
         "l": "Jan 28 2025"
       },
       {
+        "u": "doomritual",
+        "n": "doomritual",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "o1mythical",
         "n": "o1mythical",
         "g": 9,
@@ -6804,6 +6812,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "doomritual",
+        "n": "doomritual",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 8,
@@ -6878,6 +6894,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "doomritual",
+        "n": "doomritual",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 8,
@@ -6894,7 +6918,16 @@
         "l": "Aug 07 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "doomritual",
+        "n": "doomritual",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10023,6 +10056,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "doomritual",
+        "i": "Keys",
+        "v": 10,
+        "r": "Junk",
+        "d": "Aug 08 2026"
+      },
+      {
         "n": "beliron",
         "i": "Mussel",
         "v": 8,
@@ -10088,6 +10128,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "doomritual",
+        "i": "Keys",
+        "v": 10,
+        "r": "Junk",
+        "d": "Aug 08 2026"
+      },
+      {
         "n": "beliron",
         "i": "Mussel",
         "v": 8,
@@ -10102,12 +10149,20 @@
         "d": "Aug 07 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "doomritual",
+        "i": "Keys",
+        "v": 10,
+        "r": "Junk",
+        "d": "Aug 08 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 807,
+        "total": 808,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10915,15 +10970,16 @@
           "mrprof0",
           "king44mariner",
           "thebrawlerike",
-          "longview91"
+          "longview91",
+          "doomritual"
         ],
         "latest": {
-          "u": "longview91",
-          "d": "Aug 07 2026"
+          "u": "doomritual",
+          "d": "Aug 08 2026"
         }
       },
       "first_cast": {
-        "total": 96,
+        "total": 97,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11020,15 +11076,16 @@
           "tayrob28",
           "orange_skunk",
           "toyotatacoma",
-          "tas1999x"
+          "tas1999x",
+          "doomritual"
         ],
         "latest": {
-          "u": "tas1999x",
-          "d": "Jul 22 2026"
+          "u": "doomritual",
+          "d": "Aug 08 2026"
         }
       },
       "catch_of_day": {
-        "total": 135,
+        "total": 136,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11164,15 +11221,16 @@
           "13eard",
           "killa_0zz",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "doomritual"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "doomritual",
+          "d": "Aug 08 2026"
         }
       },
       "win_day": {
-        "total": 96,
+        "total": 97,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -11269,11 +11327,12 @@
           "thesaucypanda2",
           "13eard",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "doomritual"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "doomritual",
+          "d": "Aug 08 2026"
         }
       },
       "double_down": {
@@ -19890,6 +19949,12 @@
       "longview91": {
         "broke_in": "Aug 07 2026",
         "custom_catch": "Aug 07 2026"
+      },
+      "doomritual": {
+        "broke_in": "Aug 08 2026",
+        "first_cast": "Aug 08 2026",
+        "win_day": "Aug 08 2026",
+        "catch_of_day": "Aug 08 2026"
       }
     },
     "recent_unlocks": [
@@ -23258,7 +23323,7 @@
       "n": "Keys",
       "custom": false,
       "r": "Junk",
-      "c": 72,
+      "c": 73,
       "h": "flippy00",
       "v": 11,
       "w": 0.23
@@ -23429,6 +23494,15 @@
       "best_r": "Common",
       "best_v": 17,
       "d": "Aug 07 2026"
+    },
+    {
+      "u": "doomritual",
+      "g": 10,
+      "c": 1,
+      "best_n": "Keys",
+      "best_r": "Junk",
+      "best_v": 10,
+      "d": "Aug 08 2026"
     }
   ],
   "dex": [
@@ -24373,7 +24447,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 72,
+      "c": 73,
       "rec": "0.23 lb",
       "v": 11
     },
@@ -26810,6 +26884,14 @@
   ],
   "recent": [
     {
+      "u": "doomritual",
+      "i": "Keys",
+      "w": 0.2,
+      "v": 10,
+      "r": "Junk",
+      "d": "Aug 08 2026"
+    },
+    {
       "u": "beliron",
       "i": "Mussel",
       "w": 0.08,
@@ -27399,14 +27481,6 @@
       "w": 10.56,
       "v": 32,
       "r": "Junk",
-      "d": "Jul 23 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Austin Dillon",
-      "w": 12.05,
-      "v": 20,
-      "r": "Common",
       "d": "Jul 23 2026"
     }
   ]
