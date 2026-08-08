@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-08T19:44:07.838782+00:00",
-    "total_catches": 23632,
+    "generated_at": "2026-08-08T21:37:28.286413+00:00",
+    "total_catches": 23633,
     "unique_catches": 375,
     "total_players": 809,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23632 catches"
+      "sub": "Since launch - 23633 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -340,9 +340,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 38905,
-        "c": 525,
-        "casts": 525,
+        "g": 38931,
+        "c": 526,
+        "casts": 526,
         "l": "Aug 08 2026"
       },
       {
@@ -6766,9 +6766,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 570,
-        "c": 9,
-        "casts": 9,
+        "g": 596,
+        "c": 10,
+        "casts": 10,
         "l": "Aug 08 2026"
       },
       {
@@ -6872,9 +6872,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 570,
-        "c": 9,
-        "casts": 9,
+        "g": 596,
+        "c": 10,
+        "casts": 10,
         "l": "Aug 08 2026"
       },
       {
@@ -6974,7 +6974,16 @@
         "l": "Aug 07 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 26,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 08 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10281,7 +10290,15 @@
         "d": "Aug 07 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "$25 iRacing Creds",
+        "v": 26,
+        "r": "Common",
+        "d": "Aug 08 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22990,7 +23007,7 @@
       "n": "$25 iRacing Creds",
       "custom": true,
       "r": "Common",
-      "c": 150,
+      "c": 151,
       "h": "drewieblaster",
       "v": 28,
       "w": 1.13
@@ -24609,7 +24626,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You can buy 1/2 a track with this.",
-      "c": 150,
+      "c": 151,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -27019,6 +27036,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "$25 iRacing Creds",
+      "w": 1.05,
+      "v": 26,
+      "r": "Common",
+      "d": "Aug 08 2026"
+    },
+    {
       "u": "beliron",
       "i": "Ricky Stenhouse Jr",
       "w": 11.03,
@@ -27608,14 +27633,6 @@
       "w": 132.77,
       "v": 58,
       "r": "Rare",
-      "d": "Jul 23 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Gummy Worms",
-      "w": 1.13,
-      "v": 11,
-      "r": "Common",
       "d": "Jul 23 2026"
     }
   ]
