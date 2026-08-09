@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T02:59:57.330405+00:00",
-    "total_catches": 23658,
+    "generated_at": "2026-08-09T03:12:21.907109+00:00",
+    "total_catches": 23659,
     "unique_catches": 375,
     "total_players": 810,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23658 catches"
+      "sub": "Since launch - 23659 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -330,20 +330,20 @@
         "l": "Aug 28 2025"
       },
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 39595,
+        "c": 535,
+        "casts": 535,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "riflehog",
         "n": "riflehog",
         "g": 39518,
         "c": 641,
         "casts": 641,
         "l": "Nov 25 2024"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 39436,
-        "c": 534,
-        "casts": 534,
-        "l": "Aug 09 2026"
       },
       {
         "u": "benwysard",
@@ -6772,19 +6772,19 @@
     ],
     "monthly": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 1260,
+        "c": 19,
+        "casts": 19,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 1141,
         "c": 14,
         "casts": 14,
-        "l": "Aug 09 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 1101,
-        "c": 18,
-        "casts": 18,
         "l": "Aug 09 2026"
       },
       {
@@ -6902,19 +6902,19 @@
     ],
     "weekly": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 1260,
+        "c": 19,
+        "casts": 19,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 1141,
         "c": 14,
         "casts": 14,
-        "l": "Aug 09 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 1101,
-        "c": 18,
-        "casts": 18,
         "l": "Aug 09 2026"
       },
       {
@@ -7032,17 +7032,17 @@
     ],
     "daily": [
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 588,
-        "c": 9,
-        "casts": 9,
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 690,
+        "c": 10,
+        "casts": 10,
         "l": "Aug 09 2026"
       },
       {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 531,
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 588,
         "c": 9,
         "casts": 9,
         "l": "Aug 09 2026"
@@ -10475,8 +10475,8 @@
       },
       {
         "n": "brookswhynot",
-        "i": "Ricky Stenhouse Jr",
-        "v": 158,
+        "i": "Nashville Superspeedway",
+        "v": 159,
         "r": "Rare",
         "d": "Aug 09 2026"
       },
@@ -21850,7 +21850,7 @@
       "n": "Nashville Superspeedway",
       "custom": true,
       "r": "Rare",
-      "c": 6,
+      "c": 7,
       "h": "gatoraintplaying",
       "v": 169,
       "w": 112.86
@@ -27132,7 +27132,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "known as NASCAR's largest all-concrete track.",
-      "c": 6,
+      "c": 7,
       "rec": "112.86 lb",
       "v": 169
     },
@@ -27255,6 +27255,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "brookswhynot",
+      "i": "Nashville Superspeedway",
+      "w": 105.96,
+      "v": 159,
+      "r": "Rare",
+      "d": "Aug 09 2026"
+    },
     {
       "u": "off_the_bar",
       "i": "NASCAR Fans",
@@ -27844,14 +27852,6 @@
       "i": "Fire Bottle Nozzle",
       "w": 1.78,
       "v": 22,
-      "r": "Common",
-      "d": "Jul 24 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Mussel",
-      "w": 0.11,
-      "v": 11,
       "r": "Common",
       "d": "Jul 24 2026"
     }
