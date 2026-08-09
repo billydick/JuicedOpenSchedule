@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T01:14:02.907331+00:00",
-    "total_catches": 23643,
+    "generated_at": "2026-08-09T01:15:09.728768+00:00",
+    "total_catches": 23644,
     "unique_catches": 375,
     "total_players": 809,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23643 catches"
+      "sub": "Since launch - 23644 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -484,10 +484,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 15294,
-        "c": 214,
-        "casts": 214,
-        "l": "Aug 07 2026"
+        "g": 15327,
+        "c": 215,
+        "casts": 215,
+        "l": "Aug 09 2026"
       },
       {
         "u": "fjvgaming",
@@ -6774,10 +6774,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 553,
-        "c": 5,
-        "casts": 5,
-        "l": "Aug 07 2026"
+        "g": 586,
+        "c": 6,
+        "casts": 6,
+        "l": "Aug 09 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6896,10 +6896,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 553,
-        "c": 5,
-        "casts": 5,
-        "l": "Aug 07 2026"
+        "g": 586,
+        "c": 6,
+        "casts": 6,
+        "l": "Aug 09 2026"
       },
       {
         "u": "burnoutbandits",
@@ -7045,6 +7045,14 @@
         "g": 87,
         "c": 2,
         "casts": 2,
+        "l": "Aug 09 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
         "l": "Aug 09 2026"
       }
     ]
@@ -10416,6 +10424,13 @@
         "i": "Braxton Brannon",
         "v": 77,
         "r": "Rare",
+        "d": "Aug 09 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Atlantic Cod",
+        "v": 33,
+        "r": "Common",
         "d": "Aug 09 2026"
       }
     ]
@@ -23030,7 +23045,7 @@
       "n": "Atlantic Cod",
       "custom": false,
       "r": "Common",
-      "c": 163,
+      "c": 164,
       "h": "wintergofast",
       "v": 34,
       "w": 45.19
@@ -23929,7 +23944,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 163,
+      "c": 164,
       "rec": "45.19 lb",
       "v": 34
     },
@@ -27158,6 +27173,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Atlantic Cod",
+      "w": 44.02,
+      "v": 33,
+      "r": "Common",
+      "d": "Aug 09 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Sea Urchin",
       "w": 0.18,
@@ -27748,14 +27771,6 @@
       "v": 76,
       "r": "Rare",
       "d": "Jul 24 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "iRacer - Francisco J Villarreal (FJV)",
-      "w": 222.5,
-      "v": 202,
-      "r": "Epic",
-      "d": "Jul 23 2026"
     }
   ]
 }
