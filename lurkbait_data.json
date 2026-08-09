@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T00:26:38.360505+00:00",
-    "total_catches": 23638,
+    "generated_at": "2026-08-09T00:36:56.628405+00:00",
+    "total_catches": 23639,
     "unique_catches": 375,
     "total_players": 809,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23638 catches"
+      "sub": "Since launch - 23639 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -1650,6 +1650,14 @@
         "l": "May 07 2026"
       },
       {
+        "u": "burnoutbandits",
+        "n": "burnoutbandits",
+        "g": 1059,
+        "c": 11,
+        "casts": 11,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "n3dstarksh3ad",
         "n": "n3dstarksh3ad",
         "g": 1055,
@@ -1776,14 +1784,6 @@
         "c": 16,
         "casts": 16,
         "l": "Feb 27 2025"
-      },
-      {
-        "u": "burnoutbandits",
-        "n": "burnoutbandits",
-        "g": 867,
-        "c": 10,
-        "casts": 10,
-        "l": "Jun 04 2026"
       },
       {
         "u": "rmboliveira",
@@ -6780,6 +6780,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "burnoutbandits",
+        "n": "burnoutbandits",
+        "g": 192,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 180,
@@ -6894,6 +6902,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "burnoutbandits",
+        "n": "burnoutbandits",
+        "g": 192,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 180,
@@ -6997,6 +7013,14 @@
         "g": 203,
         "c": 3,
         "casts": 3,
+        "l": "Aug 09 2026"
+      },
+      {
+        "u": "burnoutbandits",
+        "n": "burnoutbandits",
+        "g": 192,
+        "c": 1,
+        "casts": 1,
         "l": "Aug 09 2026"
       },
       {
@@ -10160,6 +10184,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "burnoutbandits",
+        "i": "Mike Joy",
+        "v": 192,
+        "r": "Epic",
+        "d": "Aug 09 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Nashville Superspeedway",
         "v": 169,
@@ -10260,6 +10291,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "burnoutbandits",
+        "i": "Mike Joy",
+        "v": 192,
+        "r": "Epic",
+        "d": "Aug 09 2026"
+      },
+      {
         "n": "gatoraintplaying",
         "i": "Nashville Superspeedway",
         "v": 169,
@@ -10345,6 +10383,13 @@
       }
     ],
     "daily": [
+      {
+        "n": "burnoutbandits",
+        "i": "Mike Joy",
+        "v": 192,
+        "r": "Epic",
+        "d": "Aug 09 2026"
+      },
       {
         "n": "gatoraintplaying",
         "i": "Nashville Superspeedway",
@@ -11302,7 +11347,7 @@
         }
       },
       "catch_of_day": {
-        "total": 135,
+        "total": 136,
         "holders": [
           "gh0std0g90",
           "zee20ate",
@@ -11438,11 +11483,12 @@
           "13eard",
           "killa_0zz",
           "toyotatacoma",
-          "garfang_"
+          "garfang_",
+          "burnoutbandits"
         ],
         "latest": {
-          "u": "garfang_",
-          "d": "Jul 17 2026"
+          "u": "burnoutbandits",
+          "d": "Aug 09 2026"
         }
       },
       "win_day": {
@@ -18193,6 +18239,7 @@
       },
       "burnoutbandits": {
         "broke_in": "Jan 30 2025",
+        "catch_of_day": "Aug 09 2026",
         "custom_catch": "Jan 31 2025"
       },
       "richdollars1106": {
@@ -20904,7 +20951,7 @@
       "n": "Mike Joy",
       "custom": true,
       "r": "Epic",
-      "c": 8,
+      "c": 9,
       "h": "brookswhynot",
       "v": 224,
       "w": 134.55
@@ -26870,7 +26917,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Started Sportscasting NASCAR in 1979",
-      "c": 8,
+      "c": 9,
       "rec": "134.55 lb",
       "v": 224
     },
@@ -27110,6 +27157,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "burnoutbandits",
+      "i": "Mike Joy",
+      "w": 114.9,
+      "v": 192,
+      "r": "Epic",
+      "d": "Aug 09 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Ricky Stenhouse Jr",
@@ -27699,14 +27754,6 @@
       "i": "MPI Rim",
       "w": 2.04,
       "v": 51,
-      "r": "Uncommon",
-      "d": "Jul 23 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "HANS Device",
-      "w": 2.24,
-      "v": 56,
       "r": "Uncommon",
       "d": "Jul 23 2026"
     }
