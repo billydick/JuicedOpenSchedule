@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-09T03:22:48.970109+00:00",
-    "total_catches": 23661,
+    "generated_at": "2026-08-09T03:48:33.522340+00:00",
+    "total_catches": 23663,
     "unique_catches": 375,
-    "total_players": 810,
+    "total_players": 811,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23661 catches"
+      "sub": "Since launch - 23663 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -332,9 +332,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 39666,
-        "c": 536,
-        "casts": 536,
+        "g": 39679,
+        "c": 537,
+        "casts": 537,
         "l": "Aug 09 2026"
       },
       {
@@ -6010,6 +6010,14 @@
         "l": "Feb 06 2026"
       },
       {
+        "u": "purple_racingcataclysm",
+        "n": "purple_racingcataclysm",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "onemorejefe",
         "n": "onemorejefe",
         "g": 11,
@@ -6774,9 +6782,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1331,
-        "c": 20,
-        "casts": 20,
+        "g": 1344,
+        "c": 21,
+        "casts": 21,
         "l": "Aug 09 2026"
       },
       {
@@ -6890,6 +6898,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
+      },
+      {
+        "u": "purple_racingcataclysm",
+        "n": "purple_racingcataclysm",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
       },
       {
         "u": "doomritual",
@@ -6904,9 +6920,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1331,
-        "c": 20,
-        "casts": 20,
+        "g": 1344,
+        "c": 21,
+        "casts": 21,
         "l": "Aug 09 2026"
       },
       {
@@ -7022,6 +7038,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "purple_racingcataclysm",
+        "n": "purple_racingcataclysm",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
+      },
+      {
         "u": "doomritual",
         "n": "doomritual",
         "g": 10,
@@ -7034,9 +7058,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 761,
-        "c": 11,
-        "casts": 11,
+        "g": 774,
+        "c": 12,
+        "casts": 12,
         "l": "Aug 09 2026"
       },
       {
@@ -7091,6 +7115,14 @@
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 26,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 09 2026"
+      },
+      {
+        "u": "purple_racingcataclysm",
+        "n": "purple_racingcataclysm",
+        "g": 11,
         "c": 1,
         "casts": 1,
         "l": "Aug 09 2026"
@@ -10323,6 +10355,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "purple_racingcataclysm",
+        "i": "Mussel",
+        "v": 11,
+        "r": "Common",
+        "d": "Aug 09 2026"
+      },
+      {
         "n": "doomritual",
         "i": "Keys",
         "v": 10,
@@ -10437,6 +10476,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "purple_racingcataclysm",
+        "i": "Mussel",
+        "v": 11,
+        "r": "Common",
+        "d": "Aug 09 2026"
+      },
+      {
         "n": "doomritual",
         "i": "Keys",
         "v": 10,
@@ -10500,13 +10546,20 @@
         "v": 26,
         "r": "Common",
         "d": "Aug 09 2026"
+      },
+      {
+        "n": "purple_racingcataclysm",
+        "i": "Mussel",
+        "v": 11,
+        "r": "Common",
+        "d": "Aug 09 2026"
       }
     ]
   },
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 810,
+        "total": 811,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11317,10 +11370,11 @@
           "longview91",
           "doomritual",
           "rhrazin",
-          "off_the_bar"
+          "off_the_bar",
+          "purple_racingcataclysm"
         ],
         "latest": {
-          "u": "off_the_bar",
+          "u": "purple_racingcataclysm",
           "d": "Aug 09 2026"
         }
       },
@@ -20309,6 +20363,9 @@
         "broke_in": "Aug 09 2026",
         "catch_of_day": "Aug 09 2026",
         "custom_catch": "Aug 09 2026"
+      },
+      "purple_racingcataclysm": {
+        "broke_in": "Aug 09 2026"
       }
     },
     "recent_unlocks": [
@@ -23317,7 +23374,7 @@
       "n": "Bristol Motor Speedway",
       "custom": true,
       "r": "Common",
-      "c": 144,
+      "c": 145,
       "h": "scriptedpr",
       "v": 17,
       "w": 225.65
@@ -23443,7 +23500,7 @@
       "n": "Mussel",
       "custom": false,
       "r": "Common",
-      "c": 184,
+      "c": 185,
       "h": "ironlegacy_",
       "v": 11,
       "w": 0.11
@@ -23875,6 +23932,15 @@
       "best_r": "Epic",
       "best_v": 389,
       "d": "Aug 09 2026"
+    },
+    {
+      "u": "purple_racingcataclysm",
+      "g": 11,
+      "c": 1,
+      "best_n": "Mussel",
+      "best_r": "Common",
+      "best_v": 11,
+      "d": "Aug 09 2026"
     }
   ],
   "dex": [
@@ -24162,7 +24228,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 184,
+      "c": 185,
       "rec": "0.11 lb",
       "v": 11
     },
@@ -26151,7 +26217,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You wrecked in turn 1, fuck this track!",
-      "c": 144,
+      "c": 145,
       "rec": "225.65 lb",
       "v": 17
     },
@@ -27256,6 +27322,22 @@
   ],
   "recent": [
     {
+      "u": "purple_racingcataclysm",
+      "i": "Mussel",
+      "w": 0.11,
+      "v": 11,
+      "r": "Common",
+      "d": "Aug 09 2026"
+    },
+    {
+      "u": "brookswhynot",
+      "i": "Bristol Motor Speedway",
+      "w": 171.0,
+      "v": 13,
+      "r": "Common",
+      "d": "Aug 09 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Ian Anderson",
       "w": 47.26,
@@ -27836,22 +27918,6 @@
       "i": "iRacer Franciso J Villarreal",
       "w": 87.0,
       "v": 96,
-      "r": "Rare",
-      "d": "Jul 24 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Butterfly Fish",
-      "w": 0.09,
-      "v": 42,
-      "r": "Uncommon",
-      "d": "Jul 24 2026"
-    },
-    {
-      "u": "thesaucypanda2",
-      "i": "Oreochromis",
-      "w": 2.22,
-      "v": 74,
       "r": "Rare",
       "d": "Jul 24 2026"
     }
