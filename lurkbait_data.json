@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T02:02:28.783195+00:00",
-    "total_catches": 23681,
+    "generated_at": "2026-08-12T02:03:33.996636+00:00",
+    "total_catches": 23682,
     "unique_catches": 375,
-    "total_players": 811,
+    "total_players": 812,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23681 catches"
+      "sub": "Since launch - 23682 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -4914,6 +4914,14 @@
         "l": "Jun 04 2026"
       },
       {
+        "u": "dingo2121_au2",
+        "n": "dingo2121_au2",
+        "g": 50,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "skurtskurt74",
         "n": "skurtskurt74",
         "g": 49,
@@ -6900,6 +6908,14 @@
         "l": "Aug 08 2026"
       },
       {
+        "u": "dingo2121_au2",
+        "n": "dingo2121_au2",
+        "g": 50,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "brokenanklesracing",
         "n": "brokenanklesracing",
         "g": 41,
@@ -6958,6 +6974,14 @@
         "l": "Aug 12 2026"
       },
       {
+        "u": "dingo2121_au2",
+        "n": "dingo2121_au2",
+        "g": 50,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "juicedracing",
         "n": "juicedracing",
         "g": 4,
@@ -6979,6 +7003,14 @@
         "u": "13eard",
         "n": "13eard",
         "g": 152,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
+        "u": "dingo2121_au2",
+        "n": "dingo2121_au2",
+        "g": 50,
         "c": 1,
         "casts": 1,
         "l": "Aug 12 2026"
@@ -10318,6 +10350,13 @@
         "d": "Aug 08 2026"
       },
       {
+        "n": "dingo2121_au2",
+        "i": "HANS Device",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Aug 12 2026"
+      },
+      {
         "n": "brokenanklesracing",
         "i": "KEISER FUEL REGULATOR & FILTER",
         "v": 41,
@@ -10376,6 +10415,13 @@
         "d": "Aug 12 2026"
       },
       {
+        "n": "dingo2121_au2",
+        "i": "HANS Device",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Aug 12 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Fish Cracker",
         "v": 4,
@@ -10399,6 +10445,13 @@
         "d": "Aug 12 2026"
       },
       {
+        "n": "dingo2121_au2",
+        "i": "HANS Device",
+        "v": 50,
+        "r": "Uncommon",
+        "d": "Aug 12 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "Fish Cracker",
         "v": 4,
@@ -10410,7 +10463,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 811,
+        "total": 812,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11222,11 +11275,12 @@
           "doomritual",
           "rhrazin",
           "off_the_bar",
-          "purple_racingcataclysm"
+          "purple_racingcataclysm",
+          "dingo2121_au2"
         ],
         "latest": {
-          "u": "purple_racingcataclysm",
-          "d": "Aug 09 2026"
+          "u": "dingo2121_au2",
+          "d": "Aug 12 2026"
         }
       },
       "first_cast": {
@@ -11756,7 +11810,7 @@
         }
       },
       "custom_catch": {
-        "total": 663,
+        "total": 664,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -12420,11 +12474,12 @@
           "thebrawlerike",
           "longview91",
           "rhrazin",
-          "off_the_bar"
+          "off_the_bar",
+          "dingo2121_au2"
         ],
         "latest": {
-          "u": "off_the_bar",
-          "d": "Aug 09 2026"
+          "u": "dingo2121_au2",
+          "d": "Aug 12 2026"
         }
       },
       "heavy_hauler": {
@@ -20219,6 +20274,10 @@
       },
       "purple_racingcataclysm": {
         "broke_in": "Aug 09 2026"
+      },
+      "dingo2121_au2": {
+        "broke_in": "Aug 12 2026",
+        "custom_catch": "Aug 12 2026"
       }
     },
     "recent_unlocks": [
@@ -22678,7 +22737,7 @@
       "n": "HANS Device",
       "custom": true,
       "r": "Uncommon",
-      "c": 88,
+      "c": 89,
       "h": "motionless",
       "v": 56,
       "w": 2.26
@@ -23749,7 +23808,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "dingo2121_au2",
+      "g": 50,
+      "c": 1,
+      "best_n": "HANS Device",
+      "best_r": "Uncommon",
+      "best_v": 50,
+      "d": "Aug 12 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -25439,7 +25508,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Shit will save your life yo",
-      "c": 88,
+      "c": 89,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -27129,6 +27198,14 @@
   ],
   "recent": [
     {
+      "u": "dingo2121_au2",
+      "i": "HANS Device",
+      "w": 1.99,
+      "v": 50,
+      "r": "Uncommon",
+      "d": "Aug 12 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Penske Road Race Shock Set",
       "w": 28.16,
@@ -27718,14 +27795,6 @@
       "w": 1.69,
       "v": 42,
       "r": "Uncommon",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "William Byron",
-      "w": 25.14,
-      "v": 201,
-      "r": "Epic",
       "d": "Aug 07 2026"
     }
   ]
