@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T17:55:04.902296+00:00",
-    "total_catches": 23687,
+    "generated_at": "2026-08-12T23:33:52.267631+00:00",
+    "total_catches": 23689,
     "unique_catches": 375,
     "total_players": 812,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23687 catches"
+      "sub": "Since launch - 23689 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -316,10 +316,10 @@
       {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
-        "g": 58170,
-        "c": 749,
-        "casts": 749,
-        "l": "Aug 09 2026"
+        "g": 58251,
+        "c": 750,
+        "casts": 750,
+        "l": "Aug 12 2026"
       },
       {
         "u": "wintergofast",
@@ -460,9 +460,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 16172,
-        "c": 228,
-        "casts": 228,
+        "g": 16177,
+        "c": 229,
+        "casts": 229,
         "l": "Aug 12 2026"
       },
       {
@@ -6798,9 +6798,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1431,
-        "c": 19,
-        "casts": 19,
+        "g": 1436,
+        "c": 20,
+        "casts": 20,
         "l": "Aug 12 2026"
       },
       {
@@ -6852,6 +6852,14 @@
         "l": "Aug 08 2026"
       },
       {
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 168,
+        "c": 3,
+        "casts": 3,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "13eard",
         "n": "13eard",
         "g": 152,
@@ -6871,14 +6879,6 @@
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 97,
-        "c": 2,
-        "casts": 2,
-        "l": "Aug 09 2026"
-      },
-      {
-        "u": "pvtcrackpot",
-        "n": "pvtcrackpot",
-        "g": 87,
         "c": 2,
         "casts": 2,
         "l": "Aug 09 2026"
@@ -6982,11 +6982,19 @@
         "l": "Aug 12 2026"
       },
       {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 66,
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 81,
         "c": 1,
         "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 71,
+        "c": 2,
+        "casts": 2,
         "l": "Aug 12 2026"
       },
       {
@@ -7014,7 +7022,24 @@
         "l": "Aug 12 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 81,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      },
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 5,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10364,10 +10389,10 @@
       },
       {
         "n": "pvtcrackpot",
-        "i": "Braxton Brannon",
-        "v": 77,
+        "i": "Nick Sanchez",
+        "v": 81,
         "r": "Rare",
-        "d": "Aug 09 2026"
+        "d": "Aug 12 2026"
       },
       {
         "n": "jdawg250f",
@@ -10463,6 +10488,13 @@
         "d": "Aug 12 2026"
       },
       {
+        "n": "pvtcrackpot",
+        "i": "Nick Sanchez",
+        "v": 81,
+        "r": "Rare",
+        "d": "Aug 12 2026"
+      },
+      {
         "n": "nellafella",
         "i": "Kevon Jackson",
         "v": 66,
@@ -10491,7 +10523,22 @@
         "d": "Aug 12 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "pvtcrackpot",
+        "i": "Nick Sanchez",
+        "v": 81,
+        "r": "Rare",
+        "d": "Aug 12 2026"
+      },
+      {
+        "n": "nellafella",
+        "i": "Kaz Grala",
+        "v": 5,
+        "r": "Junk",
+        "d": "Aug 12 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22491,7 +22538,7 @@
       "n": "Nick Sanchez",
       "custom": true,
       "r": "Rare",
-      "c": 5,
+      "c": 6,
       "h": "rhetti_",
       "v": 82,
       "w": 54.9
@@ -23463,7 +23510,7 @@
       "n": "Kaz Grala",
       "custom": true,
       "r": "Common",
-      "c": 171,
+      "c": 172,
       "h": "fjvgaming",
       "v": 6,
       "w": 11.3
@@ -25226,7 +25273,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Random pop-in driver you forgot existed",
-      "c": 171,
+      "c": 172,
       "rec": "11.30 lb",
       "v": 6
     },
@@ -27026,7 +27073,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Qualifies up front, finishes somewhere random",
-      "c": 5,
+      "c": 6,
       "rec": "54.90 lb",
       "v": 82
     },
@@ -27230,6 +27277,22 @@
     }
   ],
   "recent": [
+    {
+      "u": "pvtcrackpot",
+      "i": "Nick Sanchez",
+      "w": 53.78,
+      "v": 81,
+      "r": "Rare",
+      "d": "Aug 12 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Kaz Grala",
+      "w": 10.86,
+      "v": 5,
+      "r": "Junk",
+      "d": "Aug 12 2026"
+    },
     {
       "u": "nellafella",
       "i": "Kevon Jackson",
@@ -27812,22 +27875,6 @@
       "w": 53.33,
       "v": 107,
       "r": "Rare",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "DAYS OF THUNDER VHS tape.",
-      "w": 1.02,
-      "v": 20,
-      "r": "Common",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Mackerel",
-      "w": 2.25,
-      "v": 23,
-      "r": "Common",
       "d": "Aug 07 2026"
     }
   ]
