@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-11T23:30:42.421868+00:00",
-    "total_catches": 23675,
+    "generated_at": "2026-08-12T01:20:16.415861+00:00",
+    "total_catches": 23676,
     "unique_catches": 375,
     "total_players": 811,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23675 catches"
+      "sub": "Since launch - 23676 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37305,
-        "c": 571,
-        "casts": 571,
-        "l": "Jul 25 2026"
+        "g": 37309,
+        "c": 572,
+        "casts": 572,
+        "l": "Aug 12 2026"
       },
       {
         "u": "jdawg250f",
@@ -6922,10 +6922,36 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 08 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 4,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 4,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 4,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 12 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10278,10 +10304,33 @@
         "v": 10,
         "r": "Junk",
         "d": "Aug 08 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Fish Cracker",
+        "v": 4,
+        "r": "Junk",
+        "d": "Aug 12 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "juicedracing",
+        "i": "Fish Cracker",
+        "v": 4,
+        "r": "Junk",
+        "d": "Aug 12 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Fish Cracker",
+        "v": 4,
+        "r": "Junk",
+        "d": "Aug 12 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23508,7 +23557,7 @@
       "n": "Fish Cracker",
       "custom": false,
       "r": "Junk",
-      "c": 68,
+      "c": 69,
       "h": "wintergofast",
       "v": 6,
       "w": 0.56
@@ -24037,7 +24086,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 68,
+      "c": 69,
       "rec": "0.56 lb",
       "v": 6
     },
@@ -27005,6 +27054,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "Fish Cracker",
+      "w": 0.44,
+      "v": 4,
+      "r": "Junk",
+      "d": "Aug 12 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "KOOLBOX IV DRIVER AC",
       "w": 14.21,
@@ -27593,14 +27650,6 @@
       "i": "Tuna",
       "w": 186.18,
       "v": 89,
-      "r": "Rare",
-      "d": "Jul 27 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Rockingham Speedway",
-      "w": 190.94,
-      "v": 95,
       "r": "Rare",
       "d": "Jul 27 2026"
     }
