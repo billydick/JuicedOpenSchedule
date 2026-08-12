@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T01:21:21.439986+00:00",
-    "total_catches": 23678,
+    "generated_at": "2026-08-12T01:30:37.411399+00:00",
+    "total_catches": 23679,
     "unique_catches": 375,
     "total_players": 811,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23678 catches"
+      "sub": "Since launch - 23679 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -452,9 +452,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 16129,
-        "c": 187,
-        "casts": 187,
+        "g": 16172,
+        "c": 188,
+        "casts": 188,
         "l": "Aug 12 2026"
       },
       {
@@ -6828,6 +6828,14 @@
         "l": "Aug 09 2026"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 189,
+        "c": 3,
+        "casts": 3,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 173,
@@ -6841,14 +6849,6 @@
         "g": 152,
         "c": 1,
         "casts": 1,
-        "l": "Aug 12 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 146,
-        "c": 2,
-        "casts": 2,
         "l": "Aug 12 2026"
       },
       {
@@ -6952,9 +6952,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 60,
-        "c": 1,
-        "casts": 1,
+        "g": 103,
+        "c": 2,
+        "casts": 2,
         "l": "Aug 12 2026"
       },
       {
@@ -6978,9 +6978,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 60,
-        "c": 1,
-        "casts": 1,
+        "g": 103,
+        "c": 2,
+        "casts": 2,
         "l": "Aug 12 2026"
       },
       {
@@ -22896,7 +22896,7 @@
       "n": "Streaked Spinefoot",
       "custom": false,
       "r": "Uncommon",
-      "c": 95,
+      "c": 96,
       "h": "goonrspecial",
       "v": 45,
       "w": 0.23
@@ -23956,7 +23956,7 @@
       "r": "Uncommon",
       "custom": false,
       "desc": "",
-      "c": 95,
+      "c": 96,
       "rec": "0.23 lb",
       "v": 45
     },
@@ -27132,6 +27132,14 @@
   "recent": [
     {
       "u": "drewieblaster",
+      "i": "Streaked Spinefoot",
+      "w": 0.22,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "Aug 12 2026"
+    },
+    {
+      "u": "drewieblaster",
       "i": "Oyster",
       "w": 0.5,
       "v": 60,
@@ -27721,14 +27729,6 @@
       "v": 67,
       "r": "Rare",
       "d": "Aug 07 2026"
-    },
-    {
-      "u": "toyotatacoma",
-      "i": "Derek Kraus",
-      "w": 1.08,
-      "v": 1,
-      "r": "Junk",
-      "d": "Jul 27 2026"
     }
   ]
 }
