@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T01:35:46.434736+00:00",
-    "total_catches": 23680,
+    "generated_at": "2026-08-12T02:02:28.783195+00:00",
+    "total_catches": 23681,
     "unique_catches": 375,
     "total_players": 811,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23680 catches"
+      "sub": "Since launch - 23681 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -452,9 +452,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 16283,
-        "c": 189,
-        "casts": 189,
+        "g": 16396,
+        "c": 190,
+        "casts": 190,
         "l": "Aug 12 2026"
       },
       {
@@ -6812,20 +6812,20 @@
         "l": "Aug 09 2026"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 413,
+        "c": 5,
+        "casts": 5,
+        "l": "Aug 12 2026"
+      },
+      {
         "u": "off_the_bar",
         "n": "off_the_bar",
         "g": 389,
         "c": 1,
         "casts": 1,
         "l": "Aug 09 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 300,
-        "c": 4,
-        "casts": 4,
-        "l": "Aug 12 2026"
       },
       {
         "u": "burnoutbandits",
@@ -6944,9 +6944,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 214,
-        "c": 3,
-        "casts": 3,
+        "g": 327,
+        "c": 4,
+        "casts": 4,
         "l": "Aug 12 2026"
       },
       {
@@ -6970,9 +6970,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 214,
-        "c": 3,
-        "casts": 3,
+        "g": 327,
+        "c": 4,
+        "casts": 4,
         "l": "Aug 12 2026"
       },
       {
@@ -10277,8 +10277,8 @@
       },
       {
         "n": "drewieblaster",
-        "i": "Xfinity Camaro",
-        "v": 111,
+        "i": "Penske Road Race Shock Set",
+        "v": 113,
         "r": "Rare",
         "d": "Aug 12 2026"
       },
@@ -10370,8 +10370,8 @@
       },
       {
         "n": "drewieblaster",
-        "i": "Xfinity Camaro",
-        "v": 111,
+        "i": "Penske Road Race Shock Set",
+        "v": 113,
         "r": "Rare",
         "d": "Aug 12 2026"
       },
@@ -10393,8 +10393,8 @@
       },
       {
         "n": "drewieblaster",
-        "i": "Xfinity Camaro",
-        "v": 111,
+        "i": "Penske Road Race Shock Set",
+        "v": 113,
         "r": "Rare",
         "d": "Aug 12 2026"
       },
@@ -21892,6 +21892,15 @@
       "w": 28.2
     },
     {
+      "n": "Penske Road Race Shock Set",
+      "custom": true,
+      "r": "Rare",
+      "c": 51,
+      "h": "drewieblaster",
+      "v": 113,
+      "w": 28.16
+    },
+    {
       "n": "Ricky Bobby",
       "custom": true,
       "r": "Rare",
@@ -22025,15 +22034,6 @@
       "h": "brookswhynot",
       "v": 111,
       "w": 111.25
-    },
-    {
-      "n": "Penske Road Race Shock Set",
-      "custom": true,
-      "r": "Rare",
-      "c": 50,
-      "h": "wintergofast",
-      "v": 111,
-      "w": 27.87
     },
     {
       "n": "Ty Gibbs",
@@ -25646,9 +25646,9 @@
       "r": "Rare",
       "custom": true,
       "desc": "Pefect bolt on set for track day cars!",
-      "c": 50,
-      "rec": "27.87 lb",
-      "v": 111
+      "c": 51,
+      "rec": "28.16 lb",
+      "v": 113
     },
     {
       "n": "Sway Bar Clamps",
@@ -27130,6 +27130,14 @@
   "recent": [
     {
       "u": "drewieblaster",
+      "i": "Penske Road Race Shock Set",
+      "w": 28.16,
+      "v": 113,
+      "r": "Rare",
+      "d": "Aug 12 2026"
+    },
+    {
+      "u": "drewieblaster",
       "i": "Xfinity Camaro",
       "w": 88.87,
       "v": 111,
@@ -27718,14 +27726,6 @@
       "w": 25.14,
       "v": 201,
       "r": "Epic",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "longview91",
-      "i": "Will Brown",
-      "w": 7.75,
-      "v": 17,
-      "r": "Common",
       "d": "Aug 07 2026"
     }
   ]
