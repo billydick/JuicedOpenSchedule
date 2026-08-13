@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T01:20:49.294174+00:00",
-    "total_catches": 23698,
+    "generated_at": "2026-08-13T01:34:12.682306+00:00",
+    "total_catches": 23699,
     "unique_catches": 375,
     "total_players": 812,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23698 catches"
+      "sub": "Since launch - 23699 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -442,6 +442,14 @@
         "l": "Mar 24 2025"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 16642,
+        "c": 233,
+        "casts": 233,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "zee20ate",
         "n": "zee20ate",
         "g": 16557,
@@ -455,14 +463,6 @@
         "g": 16507,
         "c": 194,
         "casts": 194,
-        "l": "Aug 13 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 16474,
-        "c": 232,
-        "casts": 232,
         "l": "Aug 13 2026"
       },
       {
@@ -6788,20 +6788,20 @@
     ],
     "monthly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 1901,
+        "c": 24,
+        "casts": 24,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 1820,
         "c": 27,
         "casts": 27,
         "l": "Aug 12 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 1733,
-        "c": 23,
-        "casts": 23,
-        "l": "Aug 13 2026"
       },
       {
         "u": "flippy00",
@@ -6958,19 +6958,19 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 536,
+        "c": 6,
+        "casts": 6,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "drewieblaster",
         "n": "drewieblaster",
         "g": 438,
         "c": 8,
         "casts": 8,
-        "l": "Aug 13 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 368,
-        "c": 5,
-        "casts": 5,
         "l": "Aug 13 2026"
       },
       {
@@ -7042,9 +7042,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 302,
-        "c": 4,
-        "casts": 4,
+        "g": 470,
+        "c": 5,
+        "casts": 5,
         "l": "Aug 13 2026"
       },
       {
@@ -14047,7 +14047,7 @@
         }
       },
       "epic_collector": {
-        "total": 28,
+        "total": 29,
         "holders": [
           "zee20ate",
           "flippy00",
@@ -14076,11 +14076,12 @@
           "gatoraintplaying",
           "casperfrnk09",
           "dogger_101",
-          "brookswhynot"
+          "brookswhynot",
+          "nellafella"
         ],
         "latest": {
-          "u": "brookswhynot",
-          "d": "Apr 28 2026"
+          "u": "nellafella",
+          "d": "Aug 13 2026"
         }
       },
       "leg_epic_day": {
@@ -20110,6 +20111,7 @@
         "gold_hoarder": "Jun 27 2026",
         "same_again": "Jul 23 2026",
         "triple_crown": "May 15 2026",
+        "epic_collector": "Aug 13 2026",
         "leg_epic_day": "May 15 2026",
         "all5_day": "Jun 29 2026",
         "win_week": "May 18 2026",
@@ -21749,7 +21751,7 @@
       "n": "Octopus",
       "custom": false,
       "r": "Epic",
-      "c": 45,
+      "c": 46,
       "h": "jdawg250f",
       "v": 168,
       "w": 11.22
@@ -24979,7 +24981,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 45,
+      "c": 46,
       "rec": "11.22 lb",
       "v": 168
     },
@@ -27353,6 +27355,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Octopus",
+      "w": 11.2,
+      "v": 168,
+      "r": "Epic",
+      "d": "Aug 13 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Cody Ware",
       "w": 3.9,
@@ -27942,14 +27952,6 @@
       "w": 0.08,
       "v": 8,
       "r": "Common",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Justin Haley",
-      "w": 8.5,
-      "v": 1,
-      "r": "Junk",
       "d": "Aug 07 2026"
     }
   ]
