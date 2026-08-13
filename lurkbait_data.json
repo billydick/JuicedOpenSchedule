@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-12T23:33:52.267631+00:00",
-    "total_catches": 23689,
+    "generated_at": "2026-08-13T00:32:16.578898+00:00",
+    "total_catches": 23690,
     "unique_catches": 375,
     "total_players": 812,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23689 catches"
+      "sub": "Since launch - 23690 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -450,19 +450,19 @@
         "l": "Oct 07 2024"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 16406,
+        "c": 230,
+        "casts": 230,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "drewieblaster",
         "n": "drewieblaster",
         "g": 16396,
         "c": 190,
         "casts": 190,
-        "l": "Aug 12 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 16177,
-        "c": 229,
-        "casts": 229,
         "l": "Aug 12 2026"
       },
       {
@@ -6798,10 +6798,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 1436,
-        "c": 20,
-        "casts": 20,
-        "l": "Aug 12 2026"
+        "g": 1665,
+        "c": 21,
+        "casts": 21,
+        "l": "Aug 13 2026"
       },
       {
         "u": "flippy00",
@@ -6974,6 +6974,14 @@
         "l": "Aug 12 2026"
       },
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 300,
+        "c": 3,
+        "casts": 3,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "13eard",
         "n": "13eard",
         "g": 152,
@@ -6987,14 +6995,6 @@
         "g": 81,
         "c": 1,
         "casts": 1,
-        "l": "Aug 12 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 71,
-        "c": 2,
-        "casts": 2,
         "l": "Aug 12 2026"
       },
       {
@@ -7024,17 +7024,17 @@
     ],
     "daily": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 234,
+        "c": 2,
+        "casts": 2,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
         "g": 81,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 12 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 5,
         "c": 1,
         "casts": 1,
         "l": "Aug 12 2026"
@@ -10332,18 +10332,18 @@
         "d": "Aug 09 2026"
       },
       {
+        "n": "nellafella",
+        "i": "Frankie Muniz",
+        "v": 229,
+        "r": "Epic",
+        "d": "Aug 13 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "iRacer Kirk Martin",
         "v": 210,
         "r": "Epic",
         "d": "Aug 08 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "William Byron",
-        "v": 201,
-        "r": "Epic",
-        "d": "Aug 07 2026"
       },
       {
         "n": "burnoutbandits",
@@ -10467,6 +10467,13 @@
     ],
     "weekly": [
       {
+        "n": "nellafella",
+        "i": "Frankie Muniz",
+        "v": 229,
+        "r": "Epic",
+        "d": "Aug 13 2026"
+      },
+      {
         "n": "brookswhynot",
         "i": "Michael Waltrip",
         "v": 188,
@@ -10495,13 +10502,6 @@
         "d": "Aug 12 2026"
       },
       {
-        "n": "nellafella",
-        "i": "Kevon Jackson",
-        "v": 66,
-        "r": "Rare",
-        "d": "Aug 12 2026"
-      },
-      {
         "n": "dingo2121_au2",
         "i": "HANS Device",
         "v": 50,
@@ -10525,17 +10525,17 @@
     ],
     "daily": [
       {
+        "n": "nellafella",
+        "i": "Frankie Muniz",
+        "v": 229,
+        "r": "Epic",
+        "d": "Aug 13 2026"
+      },
+      {
         "n": "pvtcrackpot",
         "i": "Nick Sanchez",
         "v": 81,
         "r": "Rare",
-        "d": "Aug 12 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Kaz Grala",
-        "v": 5,
-        "r": "Junk",
         "d": "Aug 12 2026"
       }
     ]
@@ -20819,7 +20819,7 @@
       "n": "Frankie Muniz",
       "custom": true,
       "r": "Legendary",
-      "c": 30,
+      "c": 31,
       "h": "pvtcrackpot",
       "v": 251,
       "w": 83.81
@@ -26425,7 +26425,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "NASCAR and iRacing driver",
-      "c": 30,
+      "c": 31,
       "rec": "83.81 lb",
       "v": 251
     },
@@ -27278,6 +27278,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Frankie Muniz",
+      "w": 76.29,
+      "v": 229,
+      "r": "Epic",
+      "d": "Aug 13 2026"
+    },
+    {
       "u": "pvtcrackpot",
       "i": "Nick Sanchez",
       "w": 53.78,
@@ -27866,14 +27874,6 @@
       "i": "Clownfish",
       "w": 0.2,
       "v": 90,
-      "r": "Rare",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Blake Houston",
-      "w": 53.33,
-      "v": 107,
       "r": "Rare",
       "d": "Aug 07 2026"
     }
