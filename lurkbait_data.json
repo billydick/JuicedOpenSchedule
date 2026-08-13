@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-13T00:32:16.578898+00:00",
-    "total_catches": 23690,
+    "generated_at": "2026-08-13T00:50:46.737662+00:00",
+    "total_catches": 23691,
     "unique_catches": 375,
     "total_players": 812,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23690 catches"
+      "sub": "Since launch - 23691 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -450,20 +450,20 @@
         "l": "Oct 07 2024"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 16438,
+        "c": 191,
+        "casts": 191,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "nellafella",
         "n": "nellafella",
         "g": 16406,
         "c": 230,
         "casts": 230,
         "l": "Aug 13 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 16396,
-        "c": 190,
-        "casts": 190,
-        "l": "Aug 12 2026"
       },
       {
         "u": "pintouc",
@@ -6822,10 +6822,10 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 413,
-        "c": 5,
-        "casts": 5,
-        "l": "Aug 12 2026"
+        "g": 455,
+        "c": 6,
+        "casts": 6,
+        "l": "Aug 13 2026"
       },
       {
         "u": "off_the_bar",
@@ -6958,19 +6958,19 @@
     ],
     "weekly": [
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 369,
+        "c": 5,
+        "casts": 5,
+        "l": "Aug 13 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 361,
         "c": 3,
         "casts": 3,
-        "l": "Aug 12 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 327,
-        "c": 4,
-        "casts": 4,
         "l": "Aug 12 2026"
       },
       {
@@ -7038,6 +7038,14 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 12 2026"
+      },
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 42,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 13 2026"
       }
     ]
   },
@@ -10537,6 +10545,13 @@
         "v": 81,
         "r": "Rare",
         "d": "Aug 12 2026"
+      },
+      {
+        "n": "drewieblaster",
+        "i": "JJ Yeley",
+        "v": 42,
+        "r": "Uncommon",
+        "d": "Aug 13 2026"
       }
     ]
   },
@@ -22925,7 +22940,7 @@
       "n": "JJ Yeley",
       "custom": true,
       "r": "Uncommon",
-      "c": 12,
+      "c": 13,
       "h": "ineffabledecibel",
       "v": 55,
       "w": 56.01
@@ -27109,7 +27124,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "If there’s a seat open, JJ’s already in it",
-      "c": 12,
+      "c": 13,
       "rec": "56.01 lb",
       "v": 55
     },
@@ -27277,6 +27292,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "drewieblaster",
+      "i": "JJ Yeley",
+      "w": 43.29,
+      "v": 42,
+      "r": "Uncommon",
+      "d": "Aug 13 2026"
+    },
     {
       "u": "nellafella",
       "i": "Frankie Muniz",
@@ -27867,14 +27890,6 @@
       "w": 0.98,
       "v": 10,
       "r": "Junk",
-      "d": "Aug 07 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Clownfish",
-      "w": 0.2,
-      "v": 90,
-      "r": "Rare",
       "d": "Aug 07 2026"
     }
   ]
