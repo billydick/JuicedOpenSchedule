@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T03:04:13Z",
+  "generated_at": "2026-08-15T03:08:44Z",
   "meta": {
-    "total_hands": 451,
+    "total_hands": 452,
     "total_players": 33,
     "biggest_bet": {
       "user": "juicedracing",
@@ -155,10 +155,10 @@
       },
       {
         "u": "rhetti_",
-        "chips": 17800,
-        "net": 0,
-        "hands": 0,
-        "ach": 0
+        "chips": 16899,
+        "net": -901,
+        "hands": 1,
+        "ach": 2
       },
       {
         "u": "larcen22",
@@ -275,6 +275,13 @@
         "ach": 2
       },
       {
+        "u": "rhetti_",
+        "chips": 16899,
+        "net": -901,
+        "hands": 1,
+        "ach": 2
+      },
+      {
         "u": "darkhorizon35",
         "chips": 50,
         "net": -63267,
@@ -329,6 +336,19 @@
     "worst_streak": {
       "u": "darkhorizon35",
       "n": 1
+    },
+    "most_busts": {
+      "u": "rhetti_",
+      "n": 1
+    },
+    "best_poker": {
+      "u": "rhetti_",
+      "rank": "pair",
+      "cards": [
+        "5♠",
+        "Q♦",
+        "Q♥"
+      ]
     },
     "most_cards_win": {
       "u": "larcen22",
@@ -6698,11 +6718,13 @@
         }
       },
       "poker_pair_any": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "rhetti_"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-08-11"
+          "u": "rhetti_",
+          "d": "2026-08-14"
         }
       },
       "poker_two_pair_any": {
@@ -6914,11 +6936,13 @@
         }
       },
       "poker_salvation": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "rhetti_"
+        ],
         "latest": {
-          "u": "larcen22",
-          "d": "2026-08-11"
+          "u": "rhetti_",
+          "d": "2026-08-14"
         }
       },
       "poker_salvation_25": {
@@ -6987,9 +7011,23 @@
         "rags_to_riches_session": "2026-08-14",
         "big_swing_session_50k": "2026-08-14",
         "escalator": "2026-08-14"
+      },
+      "rhetti_": {
+        "poker_pair_any": "2026-08-14",
+        "poker_salvation": "2026-08-14"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "rhetti_",
+        "d": "2026-08-14"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "rhetti_",
+        "d": "2026-08-14"
+      },
       {
         "id": "high_roller_50k",
         "u": "darkhorizon35",
@@ -7077,16 +7115,6 @@
       },
       {
         "id": "poker_salvation",
-        "u": "kirk0218",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "big_swing_session_50k",
-        "u": "kirk0218",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "escalator",
         "u": "kirk0218",
         "d": "2026-08-08"
       }
@@ -7809,6 +7837,38 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1786763324.3551245,
+      "date": "2026-08-14",
+      "player": "rhetti_",
+      "bet": 1001,
+      "balance_before": 17800,
+      "result": "bust",
+      "net_delta": -901,
+      "player_cards": [
+        "5♠",
+        "Q♦",
+        "Q♥"
+      ],
+      "player_total": 25,
+      "hit_count": 1,
+      "dealer_cards": [
+        "6♥",
+        "5♦",
+        "9♣"
+      ],
+      "dealer_total": 20,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 100,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1786763053.7345738,
       "date": "2026-08-14",
@@ -9321,39 +9381,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1784759731.2036247,
-      "date": "2026-07-22",
-      "player": "juicedracing",
-      "bet": 15000,
-      "balance_before": 15065,
-      "result": "blackjack",
-      "net_delta": 22500,
-      "player_cards": [
-        "A♥",
-        "Q♦"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "8♣",
-        "2♣",
-        "Q♣"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 2,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "big_nerve_win",
-        "rags_to_riches_session",
-        "big_swing_session_200k",
-        "table_dominator"
-      ]
     }
   ]
 }
