@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T23:29:57.856276+00:00",
-    "total_catches": 23709,
+    "generated_at": "2026-08-15T23:41:16.163267+00:00",
+    "total_catches": 23710,
     "unique_catches": 375,
     "total_players": 813,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23709 catches"
+      "sub": "Since launch - 23710 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -332,10 +332,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 40165,
-        "c": 544,
-        "casts": 544,
-        "l": "Aug 13 2026"
+        "g": 40167,
+        "c": 545,
+        "casts": 545,
+        "l": "Aug 15 2026"
       },
       {
         "u": "riflehog",
@@ -6806,10 +6806,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 1830,
-        "c": 28,
-        "casts": 28,
-        "l": "Aug 13 2026"
+        "g": 1832,
+        "c": 29,
+        "casts": 29,
+        "l": "Aug 15 2026"
       },
       {
         "u": "flippy00",
@@ -7008,10 +7008,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 371,
-        "c": 4,
-        "casts": 4,
-        "l": "Aug 13 2026"
+        "g": 373,
+        "c": 5,
+        "casts": 5,
+        "l": "Aug 15 2026"
       },
       {
         "u": "phiyaman",
@@ -7099,6 +7099,14 @@
         "u": "phiyaman",
         "n": "phiyaman",
         "g": 330,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 15 2026"
+      },
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 2,
         "c": 1,
         "casts": 1,
         "l": "Aug 15 2026"
@@ -10614,6 +10622,13 @@
         "i": "87 Monte Carlo",
         "v": 330,
         "r": "Epic",
+        "d": "Aug 15 2026"
+      },
+      {
+        "n": "brookswhynot",
+        "i": "Coffee Cup",
+        "v": 2,
+        "r": "Junk",
         "d": "Aug 15 2026"
       }
     ]
@@ -23892,7 +23907,7 @@
       "n": "Coffee Cup",
       "custom": false,
       "r": "Junk",
-      "c": 131,
+      "c": 132,
       "h": "dowinkle",
       "v": 2,
       "w": 0.23
@@ -24098,7 +24113,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 131,
+      "c": 132,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -27381,6 +27396,14 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "Coffee Cup",
+      "w": 0.2,
+      "v": 2,
+      "r": "Junk",
+      "d": "Aug 15 2026"
+    },
+    {
       "u": "phiyaman",
       "i": "87 Monte Carlo",
       "w": 109.84,
@@ -27971,14 +27994,6 @@
       "v": 96,
       "r": "Rare",
       "d": "Aug 09 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Mackerel",
-      "w": 1.92,
-      "v": 19,
-      "r": "Common",
-      "d": "Aug 08 2026"
     }
   ]
 }
