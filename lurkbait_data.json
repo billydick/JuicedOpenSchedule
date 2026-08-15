@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-15T04:34:34.110961+00:00",
+    "generated_at": "2026-08-15T23:18:41.482637+00:00",
     "total_catches": 23708,
     "unique_catches": 375,
     "total_players": 812,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Aug 14 2026",
+      "label": "Aug 15 2026",
       "sub": "Today's Competition"
     }
   },
@@ -7070,34 +7070,36 @@
         "l": "Aug 12 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "danfzzl",
-        "n": "danfzzl",
-        "g": 115,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 15 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 43,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 15 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 17,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 15 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Aug 14",
+      "date": "2026-08-14",
+      "leaderboard": [
+        {
+          "n": "danfzzl",
+          "u": "danfzzl",
+          "g": 115,
+          "c": 1,
+          "l": "Aug 15 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 43,
+          "c": 1,
+          "l": "Aug 15 2026"
+        },
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 17,
+          "c": 1,
+          "l": "Aug 15 2026"
+        }
+      ]
+    },
     {
       "label": "Aug 13",
       "date": "2026-08-13",
@@ -7303,54 +7305,6 @@
           "g": 11,
           "c": 1,
           "l": "Aug 09 2026"
-        }
-      ]
-    },
-    {
-      "label": "Aug 07",
-      "date": "2026-08-07",
-      "leaderboard": [
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 211,
-          "c": 2,
-          "l": "Aug 08 2026"
-        },
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 165,
-          "c": 1,
-          "l": "Aug 08 2026"
-        },
-        {
-          "n": "drewieblaster",
-          "u": "drewieblaster",
-          "g": 86,
-          "c": 1,
-          "l": "Aug 08 2026"
-        },
-        {
-          "n": "rhrazin",
-          "u": "rhrazin",
-          "g": 52,
-          "c": 1,
-          "l": "Aug 08 2026"
-        },
-        {
-          "n": "brokenanklesracing",
-          "u": "brokenanklesracing",
-          "g": 41,
-          "c": 1,
-          "l": "Aug 08 2026"
-        },
-        {
-          "n": "doomritual",
-          "u": "doomritual",
-          "g": 10,
-          "c": 1,
-          "l": "Aug 08 2026"
         }
       ]
     }
@@ -10607,29 +10561,7 @@
         "d": "Aug 12 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "danfzzl",
-        "i": "Lee Cunningham",
-        "v": 115,
-        "r": "Rare",
-        "d": "Aug 15 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Peacock Bass",
-        "v": 43,
-        "r": "Uncommon",
-        "d": "Aug 15 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Mackerel",
-        "v": 17,
-        "r": "Common",
-        "d": "Aug 15 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
