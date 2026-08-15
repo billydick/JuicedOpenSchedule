@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15T02:46:55Z",
+  "generated_at": "2026-08-15T03:04:13Z",
   "meta": {
-    "total_hands": 450,
-    "total_players": 32,
+    "total_hands": 451,
+    "total_players": 33,
     "biggest_bet": {
       "user": "juicedracing",
       "amount": 1489210
@@ -91,13 +91,6 @@
         "ach": 0
       },
       {
-        "u": "darkhorizon35",
-        "chips": 58217,
-        "net": -23983,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "nellafella",
         "chips": 47500,
         "net": 0,
@@ -148,7 +141,7 @@
       },
       {
         "u": "thesaucypanda2",
-        "chips": 19148,
+        "chips": 19198,
         "net": -27500,
         "hands": 0,
         "ach": 0
@@ -157,6 +150,13 @@
         "u": "diehllane",
         "chips": 18650,
         "net": -245300,
+        "hands": 0,
+        "ach": 0
+      },
+      {
+        "u": "rhetti_",
+        "chips": 17800,
+        "net": 0,
         "hands": 0,
         "ach": 0
       },
@@ -252,6 +252,13 @@
         "ach": 0
       },
       {
+        "u": "darkhorizon35",
+        "chips": 50,
+        "net": -87250,
+        "hands": 1,
+        "ach": 4
+      },
+      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -266,6 +273,13 @@
         "net": 1000,
         "hands": 1,
         "ach": 2
+      },
+      {
+        "u": "darkhorizon35",
+        "chips": 50,
+        "net": -63267,
+        "hands": 1,
+        "ach": 4
       }
     ]
   },
@@ -282,17 +296,27 @@
       "net": 1000,
       "result": "win"
     },
-    "biggest_bet": {
-      "u": "larcen22",
+    "biggest_loss": {
+      "u": "darkhorizon35",
       "cards": [
-        "2♥",
-        "7♦",
-        "K♠"
+        "6♥",
+        "J♠"
       ],
-      "total": 19,
-      "bet": 1000,
-      "net": 1000,
-      "result": "win"
+      "total": 16,
+      "bet": 63267,
+      "net": -63267,
+      "result": "lose"
+    },
+    "biggest_bet": {
+      "u": "darkhorizon35",
+      "cards": [
+        "6♥",
+        "J♠"
+      ],
+      "total": 16,
+      "bet": 63267,
+      "net": -63267,
+      "result": "lose"
     },
     "most_hands": {
       "u": "larcen22",
@@ -300,6 +324,10 @@
     },
     "best_streak": {
       "u": "larcen22",
+      "n": 1
+    },
+    "worst_streak": {
+      "u": "darkhorizon35",
       "n": 1
     },
     "most_cards_win": {
@@ -1142,10 +1170,10 @@
       "leaderboard": [
         {
           "u": "darkhorizon35",
-          "chips": 58217,
+          "chips": 50,
           "net": -14976,
           "hands": 2,
-          "ach": 0
+          "ach": 4
         },
         {
           "u": "juicedracing",
@@ -2430,7 +2458,7 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 19148,
+          "chips": 19198,
           "net": 9000,
           "hands": 1,
           "ach": 0
@@ -3235,7 +3263,7 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 19148,
+          "chips": 19198,
           "net": -6500,
           "hands": 2,
           "ach": 0
@@ -3856,10 +3884,10 @@
         },
         {
           "u": "darkhorizon35",
-          "chips": 58217,
+          "chips": 50,
           "net": 6002,
           "hands": 3,
-          "ach": 0
+          "ach": 4
         },
         {
           "u": "gatoraintplaying",
@@ -4256,10 +4284,10 @@
         },
         {
           "u": "darkhorizon35",
-          "chips": 58217,
+          "chips": 50,
           "net": -4509,
           "hands": 1,
-          "ach": 0
+          "ach": 4
         },
         {
           "u": "brookswhynot",
@@ -4996,7 +5024,7 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 19148,
+          "chips": 19198,
           "net": -10000,
           "hands": 1,
           "ach": 0
@@ -5192,10 +5220,10 @@
         },
         {
           "u": "darkhorizon35",
-          "chips": 58217,
+          "chips": 50,
           "net": -10500,
           "hands": 2,
-          "ach": 0
+          "ach": 4
         },
         {
           "u": "azsuperbeast",
@@ -5979,7 +6007,7 @@
         },
         {
           "u": "thesaucypanda2",
-          "chips": 19148,
+          "chips": 19198,
           "net": -20000,
           "hands": 1,
           "ach": 0
@@ -6262,11 +6290,13 @@
         }
       },
       "high_roller_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "darkhorizon35"
+        ],
         "latest": {
-          "u": "kirk0218",
-          "d": "2026-08-08"
+          "u": "darkhorizon35",
+          "d": "2026-08-14"
         }
       },
       "high_roller_100k": {
@@ -6344,11 +6374,13 @@
         }
       },
       "escalator": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "darkhorizon35"
+        ],
         "latest": {
-          "u": "kirk0218",
-          "d": "2026-08-08"
+          "u": "darkhorizon35",
+          "d": "2026-08-14"
         }
       },
       "chip_tipper": {
@@ -6420,11 +6452,13 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "darkhorizon35"
+        ],
         "latest": {
-          "u": "juicedracing",
-          "d": "2026-08-08"
+          "u": "darkhorizon35",
+          "d": "2026-08-14"
         }
       },
       "riches_to_rags_session": {
@@ -6444,11 +6478,13 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 0,
-        "holders": [],
+        "total": 1,
+        "holders": [
+          "darkhorizon35"
+        ],
         "latest": {
-          "u": "kirk0218",
-          "d": "2026-08-08"
+          "u": "darkhorizon35",
+          "d": "2026-08-14"
         }
       },
       "big_swing_session_200k": {
@@ -6945,9 +6981,35 @@
       "larcen22": {
         "min_bet_master": "2026-04-30",
         "lucky_escape": "2026-05-01"
+      },
+      "darkhorizon35": {
+        "high_roller_50k": "2026-08-14",
+        "rags_to_riches_session": "2026-08-14",
+        "big_swing_session_50k": "2026-08-14",
+        "escalator": "2026-08-14"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "high_roller_50k",
+        "u": "darkhorizon35",
+        "d": "2026-08-14"
+      },
+      {
+        "id": "rags_to_riches_session",
+        "u": "darkhorizon35",
+        "d": "2026-08-14"
+      },
+      {
+        "id": "big_swing_session_50k",
+        "u": "darkhorizon35",
+        "d": "2026-08-14"
+      },
+      {
+        "id": "escalator",
+        "u": "darkhorizon35",
+        "d": "2026-08-14"
+      },
       {
         "id": "min_bet_master",
         "u": "larcen22",
@@ -7026,26 +7088,6 @@
       {
         "id": "escalator",
         "u": "kirk0218",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "rags_to_riches_session",
-        "u": "juicedracing",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "exact_change_win",
-        "u": "juicedracing",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "big_nerve_win",
-        "u": "juicedracing",
-        "d": "2026-08-08"
-      },
-      {
-        "id": "lucky_escape",
-        "u": "juicedracing",
         "d": "2026-08-08"
       }
     ]
@@ -7767,6 +7809,39 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1786763053.7345738,
+      "date": "2026-08-14",
+      "player": "darkhorizon35",
+      "bet": 63267,
+      "balance_before": 63267,
+      "result": "lose",
+      "net_delta": -63267,
+      "player_cards": [
+        "6♥",
+        "J♠"
+      ],
+      "player_total": 16,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♥",
+        "4♣",
+        "5♠"
+      ],
+      "dealer_total": 17,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "high_roller_50k",
+        "rags_to_riches_session",
+        "big_swing_session_50k",
+        "escalator"
+      ]
+    },
     {
       "ts": 1786762015.1321125,
       "date": "2026-08-14",
@@ -9278,38 +9353,6 @@
         "rags_to_riches_session",
         "big_swing_session_200k",
         "table_dominator"
-      ]
-    },
-    {
-      "ts": 1784678507.0298202,
-      "date": "2026-07-21",
-      "player": "larcen22",
-      "bet": 7800,
-      "balance_before": 7800,
-      "result": "win",
-      "net_delta": 7800,
-      "player_cards": [
-        "7♣",
-        "J♥"
-      ],
-      "player_total": 17,
-      "hit_count": 0,
-      "dealer_cards": [
-        "9♠",
-        "7♦",
-        "Q♥"
-      ],
-      "dealer_total": 26,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "exact_change_win",
-        "big_nerve_win",
-        "roller_coaster_session"
       ]
     }
   ]
