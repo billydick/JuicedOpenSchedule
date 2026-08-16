@@ -292,8 +292,15 @@
   .sponsor-kofi-btn:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(255,59,56,.6)}
 
   /* ── PAGES ── */
-  .page{display:none}
+  .page{display:none;position:relative}
   .page.active{display:block}
+  .page-loading-overlay{display:none;position:absolute;inset:0;background:#0D0D0D;z-index:200;align-items:center;justify-content:center;flex-direction:column}
+  .page-loading-overlay.visible{display:flex}
+  .page-loading-overlay::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#D4A017 33%,#CC0000 33% 66%,#1E6FBA 66%)}
+  .page-loading-inner{display:flex;flex-direction:column;align-items:center;gap:16px}
+  .page-loading-icon{font-size:48px;animation:page-load-pulse 1.4s ease-in-out infinite}
+  .page-loading-label{font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:13px;letter-spacing:.18em;color:#555;text-transform:uppercase}
+  @keyframes page-load-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.82)}}
 
   /* ── LEGEND BAR ── */
   .legend{background:var(--surface);padding:8px 32px;display:flex;align-items:center;gap:20px;border-bottom:1px solid var(--border);flex-wrap:wrap}
@@ -1047,6 +1054,12 @@
 </nav>
 
 <div class="page" id="page-lurkbait">
+  <div id="lb-loading-overlay" class="page-loading-overlay">
+    <div class="page-loading-inner">
+      <span class="page-loading-icon">🎣</span>
+      <span class="page-loading-label">Loading LurkBait…</span>
+    </div>
+  </div>
   <div class="lb-hero">
     <div class="lb-hero-inner">
       <div class="lb-hero-eyebrow">Juiced Racing Stream Game</div>
@@ -1187,6 +1200,12 @@
 
 
 <div class="page" id="page-blackjack">
+  <div id="bj-loading-overlay" class="page-loading-overlay">
+    <div class="page-loading-inner">
+      <span class="page-loading-icon">🃏</span>
+      <span class="page-loading-label">Loading Blackjack…</span>
+    </div>
+  </div>
 
   <!-- HERO -->
   <div class="bj-hero">
@@ -11931,7 +11950,23 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     if(!window[fn]) window[fn] = function(){};
   });
 
+  function _hideLbOverlay(){
+    var ov = document.getElementById('lb-loading-overlay');
+    if(!ov || !ov.classList.contains('visible')) return;
+    ov.style.transition = 'opacity .25s';
+    ov.style.opacity = '0';
+    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 250);
+  }
+
   function _loadLurkbait(callback){
+    var lbOverlay = document.getElementById('lb-loading-overlay');
+    if(lbOverlay) lbOverlay.classList.add('visible');
+    var lbTarget = document.getElementById('lb-ldr-body');
+    if(lbTarget){
+      var lbObs = new MutationObserver(function(){ lbObs.disconnect(); _hideLbOverlay(); });
+      lbObs.observe(lbTarget, {childList:true});
+    }
+    setTimeout(_hideLbOverlay, 6000);
     if(_lbLoaded){ if(callback) callback(); return; }
     _lbLoaded = true;
     var link = document.createElement('link');
@@ -11978,7 +12013,23 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
     if(!window[fn]) window[fn] = function(){};
   });
 
+  function _hideBjOverlay(){
+    var ov = document.getElementById('bj-loading-overlay');
+    if(!ov || !ov.classList.contains('visible')) return;
+    ov.style.transition = 'opacity .25s';
+    ov.style.opacity = '0';
+    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 250);
+  }
+
   function _loadBlackjack(callback){
+    var bjOverlay = document.getElementById('bj-loading-overlay');
+    if(bjOverlay) bjOverlay.classList.add('visible');
+    var bjTarget = document.getElementById('bj-ldr-body');
+    if(bjTarget){
+      var bjObs = new MutationObserver(function(){ bjObs.disconnect(); _hideBjOverlay(); });
+      bjObs.observe(bjTarget, {childList:true});
+    }
+    setTimeout(_hideBjOverlay, 6000);
     if(_bjLoaded){ if(callback) callback(); return; }
     _bjLoaded = true;
     var link = document.createElement('link');
