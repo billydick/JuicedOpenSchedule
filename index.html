@@ -11953,9 +11953,9 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   function _hideLbOverlay(){
     var ov = document.getElementById('lb-loading-overlay');
     if(!ov || !ov.classList.contains('visible')) return;
-    ov.style.transition = 'opacity .25s';
+    ov.style.transition = 'opacity 1s ease-in-out';
     ov.style.opacity = '0';
-    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 250);
+    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 1000);
   }
 
   function _loadLurkbait(callback){
@@ -12016,9 +12016,9 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
   function _hideBjOverlay(){
     var ov = document.getElementById('bj-loading-overlay');
     if(!ov || !ov.classList.contains('visible')) return;
-    ov.style.transition = 'opacity .25s';
+    ov.style.transition = 'opacity 1s ease-in-out';
     ov.style.opacity = '0';
-    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 250);
+    setTimeout(function(){ ov.classList.remove('visible'); ov.style.opacity=''; ov.style.transition=''; }, 1000);
   }
 
   function _loadBlackjack(callback){
