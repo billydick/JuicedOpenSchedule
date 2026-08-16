@@ -175,17 +175,17 @@ function lbThumb(name,isCustom){
     if(s==='achievements') lbRenderAchievements();
     window.scrollTo(0,_sy);
   };
-  function lbRenderBanner(){
+  function lbRenderBanner(periodLabel, periodSub, periodEyebrow){
     var _banner=document.getElementById('lb-comp-banner');
     if(!_banner) return;
-    var m=(LB_DB.competition_meta && LB_DB.competition_meta[lbCurTime]) || {label:'Competition',sub:''};
+    var m={label:periodLabel||'Competition', sub:periodSub||''};
     var data=lbGetData();
     var tg=data.reduce(function(a,p){return a+p.g},0);
     var tc=data.reduce(function(a,p){return a+p.c},0);
     _banner.innerHTML=
       '<div class="lb-comp-banner">'+
         '<div>'+
-          '<div class="lb-comp-eyebrow">Competition Window</div>'+
+          '<div class="lb-comp-eyebrow">'+(periodEyebrow||'Competition Window')+'</div>'+
           '<div class="lb-comp-title">'+m.label+'</div>'+
           '<div class="lb-comp-sub">'+m.sub+'</div>'+
         '</div>'+
@@ -218,33 +218,46 @@ function lbThumb(name,isCustom){
     var periodLabel=document.getElementById('lb-period-label');
     var showNav=(lbCurTime==='daily'||lbCurTime==='weekly'||lbCurTime==='monthly');
     if(nav) nav.style.display=showNav?'flex':'none';
+    var label='', periodSub='', periodEyebrow='Competition Window';
     if(showNav){
-      var label='',maxIdx=0;
+      var maxIdx=0;
       if(lbCurTime==='daily'){
         var dh=LB_DB.daily_history||[];
         maxIdx=dh.length;
-        if(lbDailyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.daily&&LB_DB.competition_meta.daily.label)||'Today'; }
-        else{ var dp=dh[lbDailyIdx-1]; label=dp?dp.label:''; }
+        if(lbDailyIdx===0){
+          label=(LB_DB.competition_meta&&LB_DB.competition_meta.daily&&LB_DB.competition_meta.daily.label)||'Today';
+          periodSub=(LB_DB.competition_meta&&LB_DB.competition_meta.daily&&LB_DB.competition_meta.daily.sub)||"Today's Competition";
+          periodEyebrow='Competition Window';
+        } else { var dp=dh[lbDailyIdx-1]; label=dp?dp.label:''; periodSub='Completed'; periodEyebrow='Daily Results'; }
       } else if(lbCurTime==='weekly'){
         var wh=LB_DB.weekly_history||[];
         maxIdx=wh.length;
-        if(lbWeeklyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.weekly&&LB_DB.competition_meta.weekly.label)||'This Week'; }
-        else{ var wp=wh[lbWeeklyIdx-1]; label=wp?wp.label:''; }
+        if(lbWeeklyIdx===0){
+          label=(LB_DB.competition_meta&&LB_DB.competition_meta.weekly&&LB_DB.competition_meta.weekly.label)||'This Week';
+          periodSub=(LB_DB.competition_meta&&LB_DB.competition_meta.weekly&&LB_DB.competition_meta.weekly.sub)||'Weekly Competition';
+          periodEyebrow='Competition Window';
+        } else { var wp=wh[lbWeeklyIdx-1]; label=wp?wp.label:''; periodSub='Completed'; periodEyebrow='Weekly Results'; }
       } else {
         var mh=LB_DB.monthly_history||[];
         maxIdx=mh.length;
-        if(lbMonthlyIdx===0){ label=(LB_DB.competition_meta&&LB_DB.competition_meta.monthly&&LB_DB.competition_meta.monthly.label)||'This Month'; }
-        else{ var mp=mh[lbMonthlyIdx-1]; label=mp?mp.label:''; }
+        if(lbMonthlyIdx===0){
+          label=(LB_DB.competition_meta&&LB_DB.competition_meta.monthly&&LB_DB.competition_meta.monthly.label)||'This Month';
+          periodSub=(LB_DB.competition_meta&&LB_DB.competition_meta.monthly&&LB_DB.competition_meta.monthly.sub)||'Monthly Competition';
+          periodEyebrow='Competition Window';
+        } else { var mp=mh[lbMonthlyIdx-1]; label=mp?mp.label:''; periodSub='Completed'; periodEyebrow='Monthly Results'; }
       }
       var curIdx=(lbCurTime==='daily'?lbDailyIdx:lbCurTime==='weekly'?lbWeeklyIdx:lbMonthlyIdx);
       if(periodLabel) periodLabel.textContent=label;
       if(prevBtn) prevBtn.disabled=(curIdx>=maxIdx);
       if(nextBtn) nextBtn.disabled=(curIdx<=0);
+    } else {
+      var _cm=(LB_DB.competition_meta&&LB_DB.competition_meta.alltime)||{};
+      label=_cm.label||'All Time'; periodSub=_cm.sub||''; periodEyebrow='Competition Window';
     }
     // Update sec label for subtab
     var secLbl=document.querySelector('#lb-panel-leaderboard .lb-sec-label');
     if(secLbl) secLbl.textContent=lbCurSub==='bestcatch'?'Best Single Catch':'Gold Rankings';
-    lbRenderBanner();
+    lbRenderBanner(label, periodSub, periodEyebrow);
     var data=lbGetData();
     var isAllTime = lbCurTime==='alltime';
     var tools=document.getElementById('lb-alltime-tools');
