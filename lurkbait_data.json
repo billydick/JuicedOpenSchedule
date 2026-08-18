@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-18T22:05:27.250895+00:00",
-    "total_catches": 23723,
+    "generated_at": "2026-08-18T23:49:53.137340+00:00",
+    "total_catches": 23724,
     "unique_catches": 375,
     "total_players": 813,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23723 catches"
+      "sub": "Since launch - 23724 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -444,10 +444,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 17277,
-        "c": 243,
-        "casts": 243,
-        "l": "Aug 15 2026"
+        "g": 17305,
+        "c": 244,
+        "casts": 244,
+        "l": "Aug 18 2026"
       },
       {
         "u": "drewieblaster",
@@ -6798,10 +6798,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2536,
-        "c": 34,
-        "casts": 34,
-        "l": "Aug 15 2026"
+        "g": 2564,
+        "c": 35,
+        "casts": 35,
+        "l": "Aug 18 2026"
       },
       {
         "u": "brookswhynot",
@@ -6988,8 +6988,26 @@
         "l": "Aug 11 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 18 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 28,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 18 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10296,8 +10314,24 @@
         "d": "Aug 11 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "nellafella",
+        "i": "Billy Dick Cup Regulations",
+        "v": 28,
+        "r": "Common",
+        "d": "Aug 18 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Billy Dick Cup Regulations",
+        "v": 28,
+        "r": "Common",
+        "d": "Aug 18 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23060,7 +23094,7 @@
       "n": "Billy Dick Cup Regulations",
       "custom": true,
       "r": "Common",
-      "c": 130,
+      "c": 131,
       "h": "ironlegacy_",
       "v": 28,
       "w": 1.13
@@ -24354,7 +24388,7 @@
       "r": "Common",
       "custom": true,
       "desc": "This is probably important...is there a TLDR?",
-      "c": 130,
+      "c": 131,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -27043,6 +27077,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Billy Dick Cup Regulations",
+      "w": 1.12,
+      "v": 28,
+      "r": "Common",
+      "d": "Aug 18 2026"
+    },
+    {
       "u": "drewieblaster",
       "i": "Sim Racing Gloves",
       "w": 0.8,
@@ -27632,14 +27674,6 @@
       "w": 0.81,
       "v": 20,
       "r": "Common",
-      "d": "Aug 08 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Ricky Stenhouse Jr",
-      "w": 8.1,
-      "v": 122,
-      "r": "Rare",
       "d": "Aug 08 2026"
     }
   ]
