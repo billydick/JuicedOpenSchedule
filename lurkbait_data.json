@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-19T23:02:34.321262+00:00",
-    "total_catches": 23724,
+    "generated_at": "2026-08-19T23:45:36.423301+00:00",
+    "total_catches": 23725,
     "unique_catches": 375,
     "total_players": 813,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23724 catches"
+      "sub": "Since launch - 23725 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -444,10 +444,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 17305,
-        "c": 244,
-        "casts": 244,
-        "l": "Aug 18 2026"
+        "g": 17398,
+        "c": 245,
+        "casts": 245,
+        "l": "Aug 19 2026"
       },
       {
         "u": "drewieblaster",
@@ -6798,10 +6798,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 2564,
-        "c": 35,
-        "casts": 35,
-        "l": "Aug 18 2026"
+        "g": 2657,
+        "c": 36,
+        "casts": 36,
+        "l": "Aug 19 2026"
       },
       {
         "u": "brookswhynot",
@@ -6992,13 +6992,22 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 28,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 18 2026"
+        "g": 121,
+        "c": 2,
+        "casts": 2,
+        "l": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 93,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 19 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10266,13 +10275,21 @@
     "weekly": [
       {
         "n": "nellafella",
-        "i": "Billy Dick Cup Regulations",
-        "v": 28,
-        "r": "Common",
-        "d": "Aug 18 2026"
+        "i": "Jake Holmes",
+        "v": 93,
+        "r": "Rare",
+        "d": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Jake Holmes",
+        "v": 93,
+        "r": "Rare",
+        "d": "Aug 19 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -14009,7 +14026,7 @@
         }
       },
       "wholesale": {
-        "total": 24,
+        "total": 25,
         "holders": [
           "juicedracing",
           "stoofi1992",
@@ -14034,11 +14051,12 @@
           "dogger_101",
           "scripture_",
           "brookswhynot",
-          "drewieblaster"
+          "drewieblaster",
+          "nellafella"
         ],
         "latest": {
-          "u": "drewieblaster",
-          "d": "Jul 20 2026"
+          "u": "nellafella",
+          "d": "Aug 19 2026"
         }
       },
       "win_week": {
@@ -19780,6 +19798,7 @@
         "epic_collector": "Aug 12 2026",
         "leg_epic_day": "May 14 2026",
         "all5_day": "Jun 29 2026",
+        "wholesale": "Aug 19 2026",
         "win_week": "May 18 2026",
         "win_month": "Jun 01 2026",
         "golden_cast": "May 14 2026",
@@ -21748,7 +21767,7 @@
       "n": "Jake Holmes",
       "custom": true,
       "r": "Rare",
-      "c": 45,
+      "c": 46,
       "h": "mrdrwaddles",
       "v": 113,
       "w": 56.3
@@ -26282,7 +26301,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "#20 Carrier, Joe Gibbs Racing, Former football player",
-      "c": 45,
+      "c": 46,
       "rec": "56.30 lb",
       "v": 113
     },
@@ -27019,6 +27038,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Jake Holmes",
+      "w": 46.35,
+      "v": 93,
+      "r": "Rare",
+      "d": "Aug 19 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Billy Dick Cup Regulations",
       "w": 1.12,
       "v": 28,
@@ -27607,14 +27634,6 @@
       "w": 2.13,
       "v": 75,
       "r": "Rare",
-      "d": "Aug 08 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "2 TO 1 Y FITTING",
-      "w": 0.81,
-      "v": 20,
-      "r": "Common",
       "d": "Aug 08 2026"
     }
   ]
