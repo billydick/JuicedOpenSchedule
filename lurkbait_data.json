@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T03:26:16.392337+00:00",
-    "total_catches": 23732,
+    "generated_at": "2026-08-20T03:32:29.554083+00:00",
+    "total_catches": 23733,
     "unique_catches": 375,
-    "total_players": 814,
+    "total_players": 815,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23732 catches"
+      "sub": "Since launch - 23733 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -5274,6 +5274,14 @@
         "l": "Jan 04 2025"
       },
       {
+        "u": "grouchy_mode",
+        "n": "grouchy_mode",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 19 2026"
+      },
+      {
         "u": "ceymwa",
         "n": "ceymwa",
         "g": 33,
@@ -6972,6 +6980,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "grouchy_mode",
+        "n": "grouchy_mode",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 19 2026"
+      },
+      {
         "u": "dhuckab1",
         "n": "dhuckab1",
         "g": 26,
@@ -6994,14 +7010,6 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 07 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 4,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 11 2026"
       }
     ],
     "weekly": [
@@ -7011,6 +7019,14 @@
         "g": 590,
         "c": 7,
         "casts": 7,
+        "l": "Aug 19 2026"
+      },
+      {
+        "u": "grouchy_mode",
+        "n": "grouchy_mode",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
         "l": "Aug 19 2026"
       },
       {
@@ -7037,6 +7053,14 @@
         "g": 562,
         "c": 6,
         "casts": 6,
+        "l": "Aug 19 2026"
+      },
+      {
+        "u": "grouchy_mode",
+        "n": "grouchy_mode",
+        "g": 33,
+        "c": 1,
+        "casts": 1,
         "l": "Aug 19 2026"
       },
       {
@@ -10292,6 +10316,13 @@
         "d": "Aug 07 2026"
       },
       {
+        "n": "grouchy_mode",
+        "i": "Gummy Sharks",
+        "v": 33,
+        "r": "Uncommon",
+        "d": "Aug 19 2026"
+      },
+      {
         "n": "thesaucypanda2",
         "i": "Katherine Legge",
         "v": 27,
@@ -10318,13 +10349,6 @@
         "v": 10,
         "r": "Junk",
         "d": "Aug 07 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Fish Cracker",
-        "v": 4,
-        "r": "Junk",
-        "d": "Aug 11 2026"
       }
     ],
     "weekly": [
@@ -10333,6 +10357,13 @@
         "i": "iRacer  Cody Schlaudecker",
         "v": 182,
         "r": "Rare",
+        "d": "Aug 19 2026"
+      },
+      {
+        "n": "grouchy_mode",
+        "i": "Gummy Sharks",
+        "v": 33,
+        "r": "Uncommon",
         "d": "Aug 19 2026"
       },
       {
@@ -10359,6 +10390,13 @@
         "d": "Aug 19 2026"
       },
       {
+        "n": "grouchy_mode",
+        "i": "Gummy Sharks",
+        "v": 33,
+        "r": "Uncommon",
+        "d": "Aug 19 2026"
+      },
+      {
         "n": "dhuckab1",
         "i": "Gummy Sharks",
         "v": 26,
@@ -10377,7 +10415,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 814,
+        "total": 815,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -11192,10 +11230,11 @@
           "purple_racingcataclysm",
           "dingo2121_au2",
           "phiyaman",
-          "dhuckab1"
+          "dhuckab1",
+          "grouchy_mode"
         ],
         "latest": {
-          "u": "dhuckab1",
+          "u": "grouchy_mode",
           "d": "Aug 19 2026"
         }
       },
@@ -20214,6 +20253,9 @@
       },
       "dhuckab1": {
         "broke_in": "Aug 19 2026"
+      },
+      "grouchy_mode": {
+        "broke_in": "Aug 19 2026"
       }
     },
     "recent_unlocks": [
@@ -22925,7 +22967,7 @@
       "n": "Gummy Sharks",
       "custom": false,
       "r": "Uncommon",
-      "c": 70,
+      "c": 71,
       "h": "karnalsanders",
       "v": 34,
       "w": 2.26
@@ -23752,6 +23794,15 @@
       "best_n": "Gummy Sharks",
       "best_r": "Uncommon",
       "best_v": 26,
+      "d": "Aug 19 2026"
+    },
+    {
+      "u": "grouchy_mode",
+      "g": 33,
+      "c": 1,
+      "best_n": "Gummy Sharks",
+      "best_r": "Uncommon",
+      "best_v": 33,
       "d": "Aug 19 2026"
     }
   ],
@@ -26299,7 +26350,7 @@
       "r": "Common",
       "custom": false,
       "desc": "",
-      "c": 70,
+      "c": 71,
       "rec": "2.26 lb",
       "v": 34
     },
@@ -27134,6 +27185,14 @@
   ],
   "recent": [
     {
+      "u": "grouchy_mode",
+      "i": "Gummy Sharks",
+      "w": 2.22,
+      "v": 33,
+      "r": "Uncommon",
+      "d": "Aug 19 2026"
+    },
+    {
       "u": "dhuckab1",
       "i": "Gummy Sharks",
       "w": 1.71,
@@ -27723,14 +27782,6 @@
       "w": 105.96,
       "v": 159,
       "r": "Rare",
-      "d": "Aug 08 2026"
-    },
-    {
-      "u": "off_the_bar",
-      "i": "NASCAR Fans",
-      "w": 55.57,
-      "v": 389,
-      "r": "Epic",
       "d": "Aug 08 2026"
     }
   ]
