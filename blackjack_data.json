@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-20T02:48:39Z",
+  "generated_at": "2026-08-20T02:50:09Z",
   "meta": {
-    "total_hands": 465,
+    "total_hands": 466,
     "total_players": 33,
     "biggest_bet": {
       "user": "juicedracing",
@@ -196,13 +196,6 @@
         "ach": 0
       },
       {
-        "u": "gatoraintplaying",
-        "chips": 11550,
-        "net": -14900,
-        "hands": 0,
-        "ach": 0
-      },
-      {
         "u": "corndawg3",
         "chips": 10600,
         "net": -196990,
@@ -259,6 +252,13 @@
         "ach": 0
       },
       {
+        "u": "gatoraintplaying",
+        "chips": 1205,
+        "net": -25295,
+        "hands": 1,
+        "ach": 2
+      },
+      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -272,6 +272,13 @@
         "chips": 20000,
         "net": -7342,
         "hands": 3,
+        "ach": 2
+      },
+      {
+        "u": "gatoraintplaying",
+        "chips": 1205,
+        "net": -10395,
+        "hands": 1,
         "ach": 2
       },
       {
@@ -335,6 +342,10 @@
     },
     "most_blackjacks": {
       "u": "juicedracing",
+      "n": 1
+    },
+    "most_busts": {
+      "u": "gatoraintplaying",
       "n": 1
     },
     "best_poker": {
@@ -3385,10 +3396,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": 0,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "juicedracing",
@@ -3927,10 +3938,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": -5900,
           "hands": 2,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "juicedracing",
@@ -4106,10 +4117,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": 1750,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "grumpymitch1",
@@ -4342,10 +4353,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": -36600,
           "hands": 1,
-          "ach": 0
+          "ach": 2
         }
       ],
       "highlights": {
@@ -5112,10 +5123,10 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": -10250,
           "hands": 3,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "brookswhynot",
@@ -6194,10 +6205,10 @@
       "leaderboard": [
         {
           "u": "gatoraintplaying",
-          "chips": 11550,
+          "chips": 1205,
           "net": 36100,
           "hands": 3,
-          "ach": 0
+          "ach": 2
         },
         {
           "u": "larcen22",
@@ -6903,13 +6914,14 @@
         }
       },
       "poker_pair_any": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "larcen22",
-          "juicedracing"
+          "juicedracing",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "gatoraintplaying",
           "d": "2026-08-19"
         }
       },
@@ -7122,13 +7134,14 @@
         }
       },
       "poker_salvation": {
-        "total": 2,
+        "total": 3,
         "holders": [
           "larcen22",
-          "juicedracing"
+          "juicedracing",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "juicedracing",
+          "u": "gatoraintplaying",
           "d": "2026-08-19"
         }
       },
@@ -7197,9 +7210,23 @@
         "big_nerve_win": "2026-04-25",
         "poker_pair_any": "2026-04-26",
         "poker_salvation": "2026-04-26"
+      },
+      "gatoraintplaying": {
+        "poker_pair_any": "2026-04-25",
+        "poker_salvation": "2026-05-09"
       }
     },
     "recent_unlocks": [
+      {
+        "id": "poker_pair_any",
+        "u": "gatoraintplaying",
+        "d": "2026-08-19"
+      },
+      {
+        "id": "poker_salvation",
+        "u": "gatoraintplaying",
+        "d": "2026-08-19"
+      },
       {
         "id": "poker_pair_any",
         "u": "juicedracing",
@@ -7289,16 +7316,6 @@
         "id": "lucky_escape",
         "u": "larcen22",
         "d": "2026-08-14"
-      },
-      {
-        "id": "riches_to_rags_session",
-        "u": "juicedracing",
-        "d": "2026-08-12"
-      },
-      {
-        "id": "roller_coaster_session",
-        "u": "juicedracing",
-        "d": "2026-08-12"
       }
     ]
   },
@@ -8019,6 +8036,40 @@
     }
   ],
   "recent_hands": [
+    {
+      "ts": 1787194209.4373205,
+      "date": "2026-08-19",
+      "player": "gatoraintplaying",
+      "bet": 11550,
+      "balance_before": 11550,
+      "result": "bust",
+      "net_delta": -10395,
+      "player_cards": [
+        "5♦",
+        "3♠",
+        "3♣",
+        "4♣",
+        "K♠"
+      ],
+      "player_total": 25,
+      "hit_count": 3,
+      "dealer_cards": [
+        "Q♦",
+        "4♠",
+        "7♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": "pair",
+      "poker_pct": 10,
+      "poker_relief": 1155,
+      "poker_bonus": 0,
+      "achievements_earned": [
+        "poker_pair_any",
+        "poker_salvation"
+      ]
+    },
     {
       "ts": 1787194119.644443,
       "date": "2026-08-19",
@@ -9500,38 +9551,6 @@
       "achievements_earned": [
         "big_nerve_win",
         "roller_coaster_session"
-      ]
-    },
-    {
-      "ts": 1784929237.57073,
-      "date": "2026-07-24",
-      "player": "juicedracing",
-      "bet": 15000,
-      "balance_before": 15100,
-      "result": "bust",
-      "net_delta": -13500,
-      "player_cards": [
-        "2♠",
-        "K♦",
-        "K♣"
-      ],
-      "player_total": 22,
-      "hit_count": 1,
-      "dealer_cards": [
-        "3♥",
-        "10♥",
-        "J♣"
-      ],
-      "dealer_total": 23,
-      "dealer_bust": true,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 1500,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any",
-        "poker_salvation"
       ]
     }
   ]
