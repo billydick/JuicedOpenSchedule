@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-20T03:32:29.554083+00:00",
+    "generated_at": "2026-08-21T23:32:29.272488+00:00",
     "total_catches": 23733,
     "unique_catches": 375,
     "total_players": 815,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Aug 19 2026",
+      "label": "Aug 21 2026",
       "sub": "Today's Competition"
     }
   },
@@ -7046,42 +7046,48 @@
         "l": "Aug 19 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 562,
-        "c": 6,
-        "casts": 6,
-        "l": "Aug 19 2026"
-      },
-      {
-        "u": "grouchy_mode",
-        "n": "grouchy_mode",
-        "g": 33,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 19 2026"
-      },
-      {
-        "u": "dhuckab1",
-        "n": "dhuckab1",
-        "g": 26,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 19 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 8,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 19 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Aug 20",
+      "date": "2026-08-20",
+      "leaderboard": []
+    },
+    {
+      "label": "Aug 19",
+      "date": "2026-08-19",
+      "leaderboard": [
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 562,
+          "c": 6,
+          "l": "Aug 19 2026"
+        },
+        {
+          "n": "grouchy_mode",
+          "u": "grouchy_mode",
+          "g": 33,
+          "c": 1,
+          "l": "Aug 19 2026"
+        },
+        {
+          "n": "dhuckab1",
+          "u": "dhuckab1",
+          "g": 26,
+          "c": 1,
+          "l": "Aug 19 2026"
+        },
+        {
+          "n": "flippy00",
+          "u": "flippy00",
+          "g": 8,
+          "c": 1,
+          "l": "Aug 19 2026"
+        }
+      ]
+    },
     {
       "label": "Aug 18",
       "date": "2026-08-18",
@@ -7184,66 +7190,6 @@
           "g": 17,
           "c": 1,
           "l": "Aug 14 2026"
-        }
-      ]
-    },
-    {
-      "label": "Aug 13",
-      "date": "2026-08-13",
-      "leaderboard": []
-    },
-    {
-      "label": "Aug 12",
-      "date": "2026-08-12",
-      "leaderboard": [
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 710,
-          "c": 9,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 209,
-          "c": 1,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "drewieblaster",
-          "u": "drewieblaster",
-          "g": 111,
-          "c": 4,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "pvtcrackpot",
-          "u": "pvtcrackpot",
-          "g": 81,
-          "c": 1,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 10,
-          "c": 1,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 9,
-          "c": 1,
-          "l": "Aug 12 2026"
-        },
-        {
-          "n": "grumpymitch1",
-          "u": "grumpymitch1",
-          "g": 9,
-          "c": 1,
-          "l": "Aug 12 2026"
         }
       ]
     }
@@ -10381,36 +10327,7 @@
         "d": "Aug 19 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "nellafella",
-        "i": "iRacer  Cody Schlaudecker",
-        "v": 182,
-        "r": "Rare",
-        "d": "Aug 19 2026"
-      },
-      {
-        "n": "grouchy_mode",
-        "i": "Gummy Sharks",
-        "v": 33,
-        "r": "Uncommon",
-        "d": "Aug 19 2026"
-      },
-      {
-        "n": "dhuckab1",
-        "i": "Gummy Sharks",
-        "v": 26,
-        "r": "Uncommon",
-        "d": "Aug 19 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Gummy Worms",
-        "v": 8,
-        "r": "Common",
-        "d": "Aug 19 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
