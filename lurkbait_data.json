@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-21T23:32:29.272488+00:00",
-    "total_catches": 23733,
+    "generated_at": "2026-08-22T00:51:17.878513+00:00",
+    "total_catches": 23734,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23733 catches"
+      "sub": "Since launch - 23734 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -436,10 +436,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 17867,
-        "c": 250,
-        "casts": 250,
-        "l": "Aug 19 2026"
+        "g": 18029,
+        "c": 251,
+        "casts": 251,
+        "l": "Aug 21 2026"
       },
       {
         "u": "thebtm1",
@@ -6814,10 +6814,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3126,
-        "c": 41,
-        "casts": 41,
-        "l": "Aug 19 2026"
+        "g": 3288,
+        "c": 42,
+        "casts": 42,
+        "l": "Aug 21 2026"
       },
       {
         "u": "brookswhynot",
@@ -7016,10 +7016,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 590,
-        "c": 7,
-        "casts": 7,
-        "l": "Aug 19 2026"
+        "g": 752,
+        "c": 8,
+        "casts": 8,
+        "l": "Aug 21 2026"
       },
       {
         "u": "grouchy_mode",
@@ -7046,7 +7046,16 @@
         "l": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 162,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 21 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10327,7 +10336,15 @@
         "d": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Drew Baum",
+        "v": 162,
+        "r": "Epic",
+        "d": "Aug 21 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21111,7 +21128,7 @@
       "n": "Drew Baum",
       "custom": true,
       "r": "Epic",
-      "c": 19,
+      "c": 20,
       "h": "karnalsanders",
       "v": 219,
       "w": 241.38
@@ -26726,7 +26743,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "NASCAR Tire Carrier - iRacing - Juiced Racing crew member.",
-      "c": 19,
+      "c": 20,
       "rec": "241.38 lb",
       "v": 219
     },
@@ -27101,6 +27118,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "nellafella",
+      "i": "Drew Baum",
+      "w": 178.44,
+      "v": 162,
+      "r": "Epic",
+      "d": "Aug 21 2026"
+    },
     {
       "u": "grouchy_mode",
       "i": "Gummy Sharks",
@@ -27691,14 +27716,6 @@
       "w": 0.1,
       "v": 10,
       "r": "Common",
-      "d": "Aug 08 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Nashville Superspeedway",
-      "w": 105.96,
-      "v": 159,
-      "r": "Rare",
       "d": "Aug 08 2026"
     }
   ]
