@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-22T22:37:41.226095+00:00",
-    "total_catches": 23736,
+    "generated_at": "2026-08-22T23:07:22.033090+00:00",
+    "total_catches": 23737,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23736 catches"
+      "sub": "Since launch - 23737 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -716,10 +716,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 6925,
-        "c": 75,
-        "casts": 75,
-        "l": "Jul 25 2026"
+        "g": 7094,
+        "c": 76,
+        "casts": 76,
+        "l": "Aug 22 2026"
       },
       {
         "u": "mrdrwaddles",
@@ -6892,6 +6892,14 @@
         "l": "Aug 07 2026"
       },
       {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 22 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 167,
@@ -7002,14 +7010,6 @@
         "c": 1,
         "casts": 1,
         "l": "Aug 06 2026"
-      },
-      {
-        "u": "doomritual",
-        "n": "doomritual",
-        "g": 10,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -7020,6 +7020,14 @@
         "c": 9,
         "casts": 9,
         "l": "Aug 21 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 22 2026"
       },
       {
         "u": "brookswhynot",
@@ -7054,7 +7062,16 @@
         "l": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 22 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10172,6 +10189,13 @@
         "d": "Aug 08 2026"
       },
       {
+        "n": "v1per_simr4cin6",
+        "i": "Used 2022 Alex Bowman Ally Hood",
+        "v": 169,
+        "r": "Rare",
+        "d": "Aug 22 2026"
+      },
+      {
         "n": "beliron",
         "i": "Ricky Stenhouse Jr",
         "v": 165,
@@ -10289,13 +10313,6 @@
         "v": 17,
         "r": "Common",
         "d": "Aug 06 2026"
-      },
-      {
-        "n": "doomritual",
-        "i": "Keys",
-        "v": 10,
-        "r": "Junk",
-        "d": "Aug 07 2026"
       }
     ],
     "weekly": [
@@ -10305,6 +10322,13 @@
         "v": 182,
         "r": "Rare",
         "d": "Aug 19 2026"
+      },
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Used 2022 Alex Bowman Ally Hood",
+        "v": 169,
+        "r": "Rare",
+        "d": "Aug 22 2026"
       },
       {
         "n": "brookswhynot",
@@ -10335,7 +10359,15 @@
         "d": "Aug 19 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Used 2022 Alex Bowman Ally Hood",
+        "v": 169,
+        "r": "Rare",
+        "d": "Aug 22 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21398,7 +21430,7 @@
       "n": "Used 2022 Alex Bowman Ally Hood",
       "custom": true,
       "r": "Epic",
-      "c": 52,
+      "c": 53,
       "h": "riflehog",
       "v": 169,
       "w": 11.29
@@ -25429,7 +25461,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "An authentic Hendrick Motorsports race used item, complete with certificate of authenticity.",
-      "c": 52,
+      "c": 53,
       "rec": "11.29 lb",
       "v": 169
     },
@@ -27110,6 +27142,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Used 2022 Alex Bowman Ally Hood",
+      "w": 11.27,
+      "v": 169,
+      "r": "Rare",
+      "d": "Aug 22 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Ghost Fish",
       "w": 4.66,
@@ -27698,14 +27738,6 @@
       "i": "Mussel",
       "w": 0.11,
       "v": 11,
-      "r": "Common",
-      "d": "Aug 08 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Bristol Motor Speedway",
-      "w": 171.0,
-      "v": 13,
       "r": "Common",
       "d": "Aug 08 2026"
     }
