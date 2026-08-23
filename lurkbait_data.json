@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-23T02:23:10.606130+00:00",
-    "total_catches": 23752,
+    "generated_at": "2026-08-23T02:33:28.753362+00:00",
+    "total_catches": 23754,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23752 catches"
+      "sub": "Since launch - 23754 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -332,9 +332,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 40868,
-        "c": 557,
-        "casts": 557,
+        "g": 40920,
+        "c": 558,
+        "casts": 558,
         "l": "Aug 22 2026"
       },
       {
@@ -436,9 +436,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 18105,
-        "c": 254,
-        "casts": 254,
+        "g": 18106,
+        "c": 255,
+        "casts": 255,
         "l": "Aug 22 2026"
       },
       {
@@ -6814,17 +6814,17 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3364,
-        "c": 45,
-        "casts": 45,
+        "g": 3365,
+        "c": 46,
+        "casts": 46,
         "l": "Aug 22 2026"
       },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 2533,
-        "c": 41,
-        "casts": 41,
+        "g": 2585,
+        "c": 42,
+        "casts": 42,
         "l": "Aug 22 2026"
       },
       {
@@ -7016,17 +7016,17 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 828,
-        "c": 11,
-        "casts": 11,
+        "g": 829,
+        "c": 12,
+        "casts": 12,
         "l": "Aug 22 2026"
       },
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 441,
-        "c": 9,
-        "casts": 9,
+        "g": 493,
+        "c": 10,
+        "casts": 10,
         "l": "Aug 22 2026"
       },
       {
@@ -7088,6 +7088,14 @@
     ],
     "daily": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 353,
+        "c": 9,
+        "casts": 9,
+        "l": "Aug 22 2026"
+      },
+      {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
         "g": 346,
@@ -7096,19 +7104,11 @@
         "l": "Aug 22 2026"
       },
       {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 301,
-        "c": 8,
-        "casts": 8,
-        "l": "Aug 22 2026"
-      },
-      {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 56,
-        "c": 2,
-        "casts": 2,
+        "g": 57,
+        "c": 3,
+        "casts": 3,
         "l": "Aug 22 2026"
       },
       {
@@ -22812,7 +22812,7 @@
       "n": "MPI Rim",
       "custom": true,
       "r": "Uncommon",
-      "c": 82,
+      "c": 83,
       "h": "dowinkle",
       "v": 56,
       "w": 2.26
@@ -23577,8 +23577,8 @@
       "n": "Joey Hand",
       "custom": true,
       "r": "Common",
-      "c": 162,
-      "h": "wintergofast",
+      "c": 163,
+      "h": "nellafella",
       "v": 1,
       "w": 1.13
     },
@@ -25187,7 +25187,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Media has not mentioned this dude in months...",
-      "c": 162,
+      "c": 163,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -25493,7 +25493,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Industry lightest stock car steering wheel steel frame\r\nOval Ergonomic",
-      "c": 82,
+      "c": 83,
       "rec": "2.26 lb",
       "v": 56
     },
@@ -27264,6 +27264,22 @@
   ],
   "recent": [
     {
+      "u": "brookswhynot",
+      "i": "MPI Rim",
+      "w": 2.08,
+      "v": 52,
+      "r": "Uncommon",
+      "d": "Aug 22 2026"
+    },
+    {
+      "u": "nellafella",
+      "i": "Joey Hand",
+      "w": 1.13,
+      "v": 1,
+      "r": "Junk",
+      "d": "Aug 22 2026"
+    },
+    {
       "u": "grumpymitch1",
       "i": "Black Spotted Grunt",
       "w": 5.16,
@@ -27845,22 +27861,6 @@
       "w": 88.87,
       "v": 111,
       "r": "Rare",
-      "d": "Aug 11 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Streaked Spinefoot",
-      "w": 0.22,
-      "v": 43,
-      "r": "Uncommon",
-      "d": "Aug 11 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Oyster",
-      "w": 0.5,
-      "v": 60,
-      "r": "Uncommon",
       "d": "Aug 11 2026"
     }
   ]
