@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T04:44:52Z",
+  "generated_at": "2026-08-24T23:50:32Z",
   "meta": {
     "total_hands": 477,
     "total_players": 34,
@@ -16,11 +16,11 @@
   },
   "competition_meta": {
     "daily": {
-      "label": "Aug 22 2026",
+      "label": "Aug 24 2026",
       "sub": "Today's Competition"
     },
     "weekly": {
-      "label": "Week of Aug 17",
+      "label": "Week of Aug 24",
       "sub": "Weekly Competition"
     },
     "monthly": {
@@ -87,8 +87,8 @@
         "u": "dvn_immortalflame",
         "chips": 70000,
         "net": 34950,
-        "hands": 1,
-        "ach": 3
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "nellafella",
@@ -115,15 +115,22 @@
         "u": "rhetti_",
         "chips": 36049,
         "net": 18099,
-        "hands": 3,
-        "ach": 2
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "itzdubsta",
-        "chips": 35900,
+        "chips": 35950,
         "net": -64710,
         "hands": 0,
-        "ach": 1
+        "ach": 0
+      },
+      {
+        "u": "grumpymitch1",
+        "chips": 28295,
+        "net": -5250,
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "larcen22",
@@ -189,13 +196,6 @@
         "ach": 0
       },
       {
-        "u": "grumpymitch1",
-        "chips": 13295,
-        "net": -5250,
-        "hands": 2,
-        "ach": 2
-      },
-      {
         "u": "evangel0203",
         "chips": 11650,
         "net": -64900,
@@ -225,10 +225,10 @@
       },
       {
         "u": "juicedracing",
-        "chips": 8056,
+        "chips": 8906,
         "net": -911011,
-        "hands": 1,
-        "ach": 2
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "gatoraintplaying",
@@ -246,10 +246,17 @@
       },
       {
         "u": "brookswhynot",
-        "chips": 2450,
+        "chips": 2850,
         "net": -168625,
-        "hands": 2,
-        "ach": 5
+        "hands": 0,
+        "ach": 0
+      },
+      {
+        "u": "pvtcrackpot",
+        "chips": 1800,
+        "net": -237250,
+        "hands": 0,
+        "ach": 3
       },
       {
         "u": "darkhorizon35",
@@ -259,13 +266,6 @@
         "ach": 0
       },
       {
-        "u": "pvtcrackpot",
-        "chips": 1400,
-        "net": -237250,
-        "hands": 2,
-        "ach": 15
-      },
-      {
         "u": "azsuperbeast",
         "chips": 0,
         "net": -15938,
@@ -273,129 +273,135 @@
         "ach": 0
       }
     ],
-    "daily": [
-      {
-        "u": "dvn_immortalflame",
-        "chips": 70000,
-        "net": 34950,
-        "hands": 1,
-        "ach": 3
-      },
-      {
-        "u": "rhetti_",
-        "chips": 36049,
-        "net": 19000,
-        "hands": 3,
-        "ach": 2
-      },
-      {
-        "u": "grumpymitch1",
-        "chips": 13295,
-        "net": 17500,
-        "hands": 2,
-        "ach": 2
-      },
-      {
-        "u": "juicedracing",
-        "chips": 8056,
-        "net": -13554,
-        "hands": 1,
-        "ach": 2
-      },
-      {
-        "u": "brookswhynot",
-        "chips": 2450,
-        "net": -15100,
-        "hands": 2,
-        "ach": 5
-      },
-      {
-        "u": "pvtcrackpot",
-        "chips": 1400,
-        "net": -720129,
-        "hands": 2,
-        "ach": 15
-      }
-    ]
+    "daily": []
   },
-  "daily_highlights": {
-    "biggest_win": {
-      "u": "dvn_immortalflame",
-      "cards": [
-        "3♣",
-        "2♥",
-        "A♠",
-        "7♠"
-      ],
-      "total": 13,
-      "bet": 34950,
-      "net": 34950,
-      "result": "win"
-    },
-    "biggest_loss": {
-      "u": "pvtcrackpot",
-      "cards": [
-        "10♠",
-        "3♣",
-        "K♠"
-      ],
-      "total": 23,
-      "bet": 720329,
-      "net": -720329,
-      "result": "bust"
-    },
-    "biggest_bet": {
-      "u": "pvtcrackpot",
-      "cards": [
-        "10♠",
-        "3♣",
-        "K♠"
-      ],
-      "total": 23,
-      "bet": 720329,
-      "net": -720329,
-      "result": "bust"
-    },
-    "most_hands": {
-      "u": "rhetti_",
-      "n": 3
-    },
-    "best_streak": {
-      "u": "rhetti_",
-      "n": 2
-    },
-    "worst_streak": {
-      "u": "brookswhynot",
-      "n": 1
-    },
-    "most_busts": {
-      "u": "brookswhynot",
-      "n": 1
-    },
-    "best_poker": {
-      "u": "juicedracing",
-      "rank": "pair",
-      "cards": [
-        "8♠",
-        "8♥",
-        "6♠"
-      ]
-    },
-    "most_cards_win": {
-      "u": "dvn_immortalflame",
-      "cards": [
-        "3♣",
-        "2♥",
-        "A♠",
-        "7♠"
-      ],
-      "total": 13,
-      "bet": 34950,
-      "net": 34950,
-      "result": "win"
-    }
-  },
+  "daily_highlights": {},
   "daily_history": [
+    {
+      "label": "Aug 22",
+      "date": "2026-08-22",
+      "leaderboard": [
+        {
+          "u": "dvn_immortalflame",
+          "chips": 70000,
+          "net": 34950,
+          "hands": 1,
+          "ach": 0
+        },
+        {
+          "u": "rhetti_",
+          "chips": 36049,
+          "net": 19000,
+          "hands": 3,
+          "ach": 0
+        },
+        {
+          "u": "grumpymitch1",
+          "chips": 28295,
+          "net": 17500,
+          "hands": 2,
+          "ach": 0
+        },
+        {
+          "u": "juicedracing",
+          "chips": 8906,
+          "net": -13554,
+          "hands": 1,
+          "ach": 0
+        },
+        {
+          "u": "brookswhynot",
+          "chips": 2850,
+          "net": -15100,
+          "hands": 2,
+          "ach": 0
+        },
+        {
+          "u": "pvtcrackpot",
+          "chips": 1800,
+          "net": -720129,
+          "hands": 2,
+          "ach": 3
+        }
+      ],
+      "highlights": {
+        "biggest_win": {
+          "u": "dvn_immortalflame",
+          "cards": [
+            "3♣",
+            "2♥",
+            "A♠",
+            "7♠"
+          ],
+          "total": 13,
+          "bet": 34950,
+          "net": 34950,
+          "result": "win"
+        },
+        "biggest_loss": {
+          "u": "pvtcrackpot",
+          "cards": [
+            "10♠",
+            "3♣",
+            "K♠"
+          ],
+          "total": 23,
+          "bet": 720329,
+          "net": -720329,
+          "result": "bust"
+        },
+        "biggest_bet": {
+          "u": "pvtcrackpot",
+          "cards": [
+            "10♠",
+            "3♣",
+            "K♠"
+          ],
+          "total": 23,
+          "bet": 720329,
+          "net": -720329,
+          "result": "bust"
+        },
+        "most_hands": {
+          "u": "rhetti_",
+          "n": 3
+        },
+        "best_streak": {
+          "u": "rhetti_",
+          "n": 2
+        },
+        "worst_streak": {
+          "u": "brookswhynot",
+          "n": 1
+        },
+        "most_busts": {
+          "u": "brookswhynot",
+          "n": 1
+        },
+        "best_poker": {
+          "u": "juicedracing",
+          "rank": "pair",
+          "cards": [
+            "8♠",
+            "8♥",
+            "6♠"
+          ]
+        },
+        "most_cards_win": {
+          "u": "dvn_immortalflame",
+          "cards": [
+            "3♣",
+            "2♥",
+            "A♠",
+            "7♠"
+          ],
+          "total": 13,
+          "bet": 34950,
+          "net": 34950,
+          "result": "win"
+        }
+      }
+    },
     {
       "label": "Aug 19",
       "date": "2026-08-19",
@@ -416,10 +422,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -10800,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -516,10 +522,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -23640,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -618,7 +624,7 @@
           "chips": 36049,
           "net": -901,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "darkhorizon35",
@@ -708,17 +714,17 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": -17000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -806,10 +812,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -18000,
           "hands": 5,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -898,17 +904,17 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": 12900,
           "hands": 1,
-          "ach": 1
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15035,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -1009,17 +1015,17 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -8725,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -50065,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1102,10 +1108,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -6525,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1169,10 +1175,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1240,10 +1246,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": -240300,
           "hands": 3,
-          "ach": 1
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1326,10 +1332,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 26350,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1382,10 +1388,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -750,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1535,10 +1541,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15265,
           "hands": 6,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -1640,10 +1646,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -200000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1717,10 +1723,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 117515,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "watchmespazout",
@@ -1821,10 +1827,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -12255,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -1835,10 +1841,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -98950,
           "hands": 6,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1916,10 +1922,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 0,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -1947,10 +1953,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 22500,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2007,10 +2013,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -30105,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -2067,10 +2073,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 15000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2130,10 +2136,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -12045,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2212,10 +2218,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -27280,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2270,10 +2276,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -22170,
           "hands": 4,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2361,10 +2367,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 19600,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2424,10 +2430,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -34450,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2501,10 +2507,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 0,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2539,10 +2545,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 16500,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -2630,10 +2636,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": 15000,
           "hands": 3,
-          "ach": 1
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -2644,10 +2650,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -21600,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2730,10 +2736,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -16450,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -2809,10 +2815,10 @@
       "leaderboard": [
         {
           "u": "pvtcrackpot",
-          "chips": 1400,
+          "chips": 1800,
           "net": 380904,
           "hands": 1,
-          "ach": 15
+          "ach": 3
         },
         {
           "u": "thesaucypanda2",
@@ -2823,10 +2829,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -20700,
           "hands": 5,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -2939,10 +2945,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -18050,
           "hands": 5,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3016,10 +3022,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": 55630,
           "hands": 3,
-          "ach": 1
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3105,10 +3111,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3267,17 +3273,17 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15500,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "pvtcrackpot",
-          "chips": 1400,
+          "chips": 1800,
           "net": -100000,
           "hands": 1,
-          "ach": 15
+          "ach": 3
         }
       ],
       "highlights": {
@@ -3363,10 +3369,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -10000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3408,10 +3414,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": 50000,
           "hands": 1,
-          "ach": 1
+          "ach": 0
         },
         {
           "u": "topjoedirty",
@@ -3422,10 +3428,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -30250,
           "hands": 6,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3521,10 +3527,10 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": 11250,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "gatoraintplaying",
@@ -3535,10 +3541,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3614,10 +3620,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 35900,
+          "chips": 35950,
           "net": 42060,
           "hands": 1,
-          "ach": 1
+          "ach": 0
         },
         {
           "u": "thesaucypanda2",
@@ -3628,17 +3634,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -13545,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15150,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3726,10 +3732,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "ikatipoi",
@@ -3784,17 +3790,17 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15050,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": -20000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3930,10 +3936,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -18150,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3979,10 +3985,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4077,10 +4083,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -455420,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -4150,10 +4156,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 405160,
           "hands": 4,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4235,10 +4241,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 19980,
           "hands": 4,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "darkhorizon35",
@@ -4256,10 +4262,10 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": 0,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "kirk0218",
@@ -4367,10 +4373,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -11900,
           "hands": 5,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "realiist1",
@@ -4381,10 +4387,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -16485,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -4464,10 +4470,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -12600,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4478,10 +4484,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "gatoraintplaying",
@@ -4582,10 +4588,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -110000,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -4649,17 +4655,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -10150,
           "hands": 2,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -180000,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -4757,10 +4763,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 210265,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4856,10 +4862,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 45000,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4952,10 +4958,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -5000,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -4966,10 +4972,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -21200,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "ikatipoi",
@@ -5075,10 +5081,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -10000,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -5135,10 +5141,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -9418,
           "hands": 3,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -5149,10 +5155,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -747130,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -5227,17 +5233,17 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 470990,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "pvtcrackpot",
-          "chips": 1400,
+          "chips": 1800,
           "net": 201975,
           "hands": 1,
-          "ach": 15
+          "ach": 3
         },
         {
           "u": "larcen22",
@@ -5248,10 +5254,10 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": 15000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "gatoraintplaying",
@@ -5262,10 +5268,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -15832,
           "hands": 3,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "evangel0203",
@@ -5361,10 +5367,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 194430,
           "hands": 3,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -5389,10 +5395,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -30100,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         }
       ],
       "highlights": {
@@ -5483,17 +5489,17 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 51260,
           "hands": 2,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": 15025,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         }
       ],
       "highlights": {
@@ -5557,10 +5563,10 @@
       "leaderboard": [
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": 23525,
           "hands": 3,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "motionless",
@@ -5571,10 +5577,10 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": 0,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "darkhorizon35",
@@ -5697,17 +5703,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -14950,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -15000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "corndawg3",
@@ -5767,10 +5773,10 @@
         },
         {
           "u": "grumpymitch1",
-          "chips": 13295,
+          "chips": 28295,
           "net": -12000,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "flippy00",
@@ -5781,10 +5787,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -21600,
           "hands": 6,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -5887,17 +5893,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -6200,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -19000,
           "hands": 12,
-          "ach": 2
+          "ach": 0
         },
         {
           "u": "ikatipoi",
@@ -6012,10 +6018,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": 0,
           "hands": 1,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -6141,10 +6147,10 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -10000,
           "hands": 1,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "evangel0203",
@@ -6155,10 +6161,10 @@
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -30699,
           "hands": 11,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -6247,10 +6253,10 @@
       "leaderboard": [
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -18,
           "hands": 4,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -6372,17 +6378,17 @@
         },
         {
           "u": "brookswhynot",
-          "chips": 2450,
+          "chips": 2850,
           "net": -24875,
           "hands": 4,
-          "ach": 5
+          "ach": 0
         },
         {
           "u": "juicedracing",
-          "chips": 8056,
+          "chips": 8906,
           "net": -41000,
           "hands": 6,
-          "ach": 2
+          "ach": 0
         }
       ],
       "highlights": {
@@ -6648,76 +6654,56 @@
         }
       },
       "high_roller_50k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "high_roller_100k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "high_roller_250k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "high_roller_500k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "min_bet_master": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "exact_change_win": {
-        "total": 3,
-        "holders": [
-          "pvtcrackpot",
-          "brookswhynot",
-          "dvn_immortalflame"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "big_nerve_win": {
-        "total": 5,
-        "holders": [
-          "pvtcrackpot",
-          "brookswhynot",
-          "rhetti_",
-          "grumpymitch1",
-          "dvn_immortalflame"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "rhetti_",
           "d": "2026-08-22"
@@ -6748,10 +6734,8 @@
         }
       },
       "escalator": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
@@ -6766,14 +6750,13 @@
         }
       },
       "bank_builder_100k": {
-        "total": 7,
+        "total": 6,
         "holders": [
           "aquadays",
           "mrdrwaddles",
           "motionless",
           "flippy00",
           "pvtcrackpot",
-          "itzdubsta",
           "codycoyoteracing"
         ],
         "latest": {
@@ -6826,60 +6809,48 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "riches_to_rags_session": {
-        "total": 1,
-        "holders": [
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-08-22"
         }
       },
       "roller_coaster_session": {
-        "total": 1,
-        "holders": [
-          "brookswhynot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "brookswhynot",
           "d": "2026-08-22"
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "big_swing_session_200k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
         }
       },
       "big_swing_session_500k": {
-        "total": 1,
-        "holders": [
-          "pvtcrackpot"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "pvtcrackpot",
           "d": "2026-08-22"
@@ -7022,13 +6993,8 @@
         }
       },
       "lucky_escape": {
-        "total": 4,
-        "holders": [
-          "brookswhynot",
-          "rhetti_",
-          "grumpymitch1",
-          "dvn_immortalflame"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "rhetti_",
           "d": "2026-08-22"
@@ -7083,10 +7049,8 @@
         }
       },
       "poker_pair_any": {
-        "total": 1,
-        "holders": [
-          "juicedracing"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "juicedracing",
           "d": "2026-08-22"
@@ -7301,10 +7265,8 @@
         }
       },
       "poker_salvation": {
-        "total": 1,
-        "holders": [
-          "juicedracing"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "juicedracing",
           "d": "2026-08-22"
@@ -7359,49 +7321,10 @@
       "pvtcrackpot": {
         "bank_builder_100k": "earned",
         "bank_builder_250k": "earned",
-        "bank_builder_500k": "earned",
-        "high_roller_50k": "2026-05-09",
-        "high_roller_100k": "2026-05-09",
-        "high_roller_250k": "2026-06-27",
-        "high_roller_500k": "2026-08-22",
-        "rags_to_riches_session": "2026-08-22",
-        "big_swing_session_50k": "2026-05-09",
-        "big_swing_session_200k": "2026-05-09",
-        "big_swing_session_500k": "2026-08-22",
-        "escalator": "2026-05-09",
-        "min_bet_master": "2026-08-22",
-        "exact_change_win": "2026-05-09",
-        "big_nerve_win": "2026-05-09"
-      },
-      "itzdubsta": {
-        "bank_builder_100k": "earned"
+        "bank_builder_500k": "earned"
       },
       "codycoyoteracing": {
         "bank_builder_100k": "earned"
-      },
-      "brookswhynot": {
-        "exact_change_win": "2026-04-25",
-        "big_nerve_win": "2026-04-25",
-        "lucky_escape": "2026-04-25",
-        "riches_to_rags_session": "2026-05-30",
-        "roller_coaster_session": "2026-04-25"
-      },
-      "rhetti_": {
-        "lucky_escape": "2026-08-22",
-        "big_nerve_win": "2026-08-22"
-      },
-      "grumpymitch1": {
-        "big_nerve_win": "2026-05-09",
-        "lucky_escape": "2026-08-22"
-      },
-      "dvn_immortalflame": {
-        "exact_change_win": "2026-08-22",
-        "big_nerve_win": "2026-08-22",
-        "lucky_escape": "2026-08-22"
-      },
-      "juicedracing": {
-        "poker_pair_any": "2026-04-26",
-        "poker_salvation": "2026-04-26"
       }
     },
     "recent_unlocks": [
