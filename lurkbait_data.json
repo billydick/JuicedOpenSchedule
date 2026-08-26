@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-26T22:57:55.018376+00:00",
-    "total_catches": 23771,
+    "generated_at": "2026-08-26T23:29:39.205854+00:00",
+    "total_catches": 23772,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23771 catches"
+      "sub": "Since launch - 23772 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -436,10 +436,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 18156,
-        "c": 258,
-        "casts": 258,
-        "l": "Aug 24 2026"
+        "g": 18167,
+        "c": 259,
+        "casts": 259,
+        "l": "Aug 26 2026"
       },
       {
         "u": "thebtm1",
@@ -6822,10 +6822,10 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 3415,
-        "c": 49,
-        "casts": 49,
-        "l": "Aug 24 2026"
+        "g": 3426,
+        "c": 50,
+        "casts": 50,
+        "l": "Aug 26 2026"
       },
       {
         "u": "flippy00",
@@ -7024,13 +7024,22 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 42,
-        "c": 2,
-        "casts": 2,
-        "l": "Aug 24 2026"
+        "g": 53,
+        "c": 3,
+        "casts": 3,
+        "l": "Aug 26 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 26 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10297,7 +10306,15 @@
         "d": "Aug 24 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "nellafella",
+        "i": "Safety Wire",
+        "v": 11,
+        "r": "Junk",
+        "d": "Aug 26 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -23191,7 +23208,7 @@
       "n": "Safety Wire",
       "custom": true,
       "r": "Common",
-      "c": 160,
+      "c": 161,
       "h": "rms_racing",
       "v": 11,
       "w": 2.26
@@ -25223,7 +25240,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "1 lb. spool of .032″ diameter stainless wire",
-      "c": 160,
+      "c": 161,
       "rec": "2.26 lb",
       "v": 11
     },
@@ -27057,6 +27074,14 @@
   ],
   "recent": [
     {
+      "u": "nellafella",
+      "i": "Safety Wire",
+      "w": 2.14,
+      "v": 11,
+      "r": "Junk",
+      "d": "Aug 26 2026"
+    },
+    {
       "u": "thesaucypanda2",
       "i": "Pocono",
       "w": 85.02,
@@ -27646,14 +27671,6 @@
       "w": 3.9,
       "v": 7,
       "r": "Junk",
-      "d": "Aug 12 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Florence Motor Speedway tickets!",
-      "w": 1.05,
-      "v": 209,
-      "r": "Epic",
       "d": "Aug 12 2026"
     }
   ]
