@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-25T03:00:54.514095+00:00",
+    "generated_at": "2026-08-26T22:57:55.018376+00:00",
     "total_catches": 23771,
     "unique_catches": 375,
     "total_players": 815,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Aug 24 2026",
+      "label": "Aug 26 2026",
       "sub": "Today's Competition"
     }
   },
@@ -7030,26 +7030,34 @@
         "l": "Aug 24 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 106,
-        "c": 1,
-        "casts": 1,
-        "l": "Aug 24 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 42,
-        "c": 2,
-        "casts": 2,
-        "l": "Aug 24 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Aug 25",
+      "date": "2026-08-25",
+      "leaderboard": []
+    },
+    {
+      "label": "Aug 24",
+      "date": "2026-08-24",
+      "leaderboard": [
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 106,
+          "c": 1,
+          "l": "Aug 24 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 42,
+          "c": 2,
+          "l": "Aug 24 2026"
+        }
+      ]
+    },
     {
       "label": "Aug 23",
       "date": "2026-08-23",
@@ -7189,24 +7197,6 @@
           "l": "Aug 19 2026"
         }
       ]
-    },
-    {
-      "label": "Aug 18",
-      "date": "2026-08-18",
-      "leaderboard": [
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 28,
-          "c": 1,
-          "l": "Aug 18 2026"
-        }
-      ]
-    },
-    {
-      "label": "Aug 17",
-      "date": "2026-08-17",
-      "leaderboard": []
     }
   ],
   "weekly_history": [
@@ -10307,22 +10297,7 @@
         "d": "Aug 24 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "thesaucypanda2",
-        "i": "Pocono",
-        "v": 106,
-        "r": "Rare",
-        "d": "Aug 24 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "DAYS OF THUNDER VHS tape.",
-        "v": 22,
-        "r": "Common",
-        "d": "Aug 24 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
