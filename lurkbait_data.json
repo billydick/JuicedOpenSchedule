@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-26T23:29:39.205854+00:00",
-    "total_catches": 23772,
+    "generated_at": "2026-08-27T00:22:58.960706+00:00",
+    "total_catches": 23773,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23772 catches"
+      "sub": "Since launch - 23773 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -436,9 +436,9 @@
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 18167,
-        "c": 259,
-        "casts": 259,
+        "g": 18234,
+        "c": 260,
+        "casts": 260,
         "l": "Aug 26 2026"
       },
       {
@@ -6812,20 +6812,20 @@
     ],
     "monthly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 3493,
+        "c": 51,
+        "casts": 51,
+        "l": "Aug 26 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 3428,
         "c": 50,
         "casts": 50,
         "l": "Aug 22 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 3426,
-        "c": 50,
-        "casts": 50,
-        "l": "Aug 26 2026"
       },
       {
         "u": "flippy00",
@@ -7014,29 +7014,29 @@
     ],
     "weekly": [
       {
+        "u": "nellafella",
+        "n": "nellafella",
+        "g": 120,
+        "c": 4,
+        "casts": 4,
+        "l": "Aug 26 2026"
+      },
+      {
         "u": "thesaucypanda2",
         "n": "thesaucypanda2",
         "g": 106,
         "c": 1,
         "casts": 1,
         "l": "Aug 24 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 53,
-        "c": 3,
-        "casts": 3,
-        "l": "Aug 26 2026"
       }
     ],
     "daily": [
       {
         "u": "nellafella",
         "n": "nellafella",
-        "g": 11,
-        "c": 1,
-        "casts": 1,
+        "g": 78,
+        "c": 2,
+        "casts": 2,
         "l": "Aug 26 2026"
       }
     ]
@@ -10300,18 +10300,18 @@
       },
       {
         "n": "nellafella",
-        "i": "DAYS OF THUNDER VHS tape.",
-        "v": 22,
-        "r": "Common",
-        "d": "Aug 24 2026"
+        "i": "Nimbochromis",
+        "v": 67,
+        "r": "Rare",
+        "d": "Aug 26 2026"
       }
     ],
     "daily": [
       {
         "n": "nellafella",
-        "i": "Safety Wire",
-        "v": 11,
-        "r": "Junk",
+        "i": "Nimbochromis",
+        "v": 67,
+        "r": "Rare",
         "d": "Aug 26 2026"
       }
     ]
@@ -14088,7 +14088,7 @@
         }
       },
       "win_week": {
-        "total": 28,
+        "total": 27,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -14116,12 +14116,11 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella",
-          "thesaucypanda2"
+          "nellafella"
         ],
         "latest": {
-          "u": "thesaucypanda2",
-          "d": "Aug 24 2026"
+          "u": "nellafella",
+          "d": "May 18 2026"
         }
       },
       "win_month": {
@@ -18556,7 +18555,6 @@
         "full_spectrum": "Mar 26 2025",
         "custom_club": "Mar 26 2025",
         "leg_epic_day": "Mar 26 2025",
-        "win_week": "Aug 24 2026",
         "golden_cast": "Mar 26 2025",
         "legend_hunter": "Mar 25 2025"
       },
@@ -22425,7 +22423,7 @@
       "n": "Nimbochromis",
       "custom": false,
       "r": "Rare",
-      "c": 59,
+      "c": 60,
       "h": "zedtox",
       "v": 73,
       "w": 3.38
@@ -23773,7 +23771,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 59,
+      "c": 60,
       "rec": "3.38 lb",
       "v": 73
     },
@@ -27075,6 +27073,14 @@
   "recent": [
     {
       "u": "nellafella",
+      "i": "Nimbochromis",
+      "w": 3.1,
+      "v": 67,
+      "r": "Rare",
+      "d": "Aug 26 2026"
+    },
+    {
+      "u": "nellafella",
       "i": "Safety Wire",
       "w": 2.14,
       "v": 11,
@@ -27663,14 +27669,6 @@
       "w": 11.2,
       "v": 168,
       "r": "Epic",
-      "d": "Aug 12 2026"
-    },
-    {
-      "u": "drewieblaster",
-      "i": "Cody Ware",
-      "w": 3.9,
-      "v": 7,
-      "r": "Junk",
       "d": "Aug 12 2026"
     }
   ]
