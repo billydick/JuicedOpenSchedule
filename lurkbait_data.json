@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-08-27T02:21:17.149686+00:00",
+    "generated_at": "2026-08-29T23:27:48.701962+00:00",
     "total_catches": 23777,
     "unique_catches": 375,
     "total_players": 815,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Aug 26 2026",
+      "label": "Aug 29 2026",
       "sub": "Today's Competition"
     }
   },
@@ -7038,26 +7038,39 @@
         "l": "Aug 24 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 305,
-        "c": 4,
-        "casts": 4,
-        "l": "Aug 26 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 78,
-        "c": 2,
-        "casts": 2,
-        "l": "Aug 26 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Aug 28",
+      "date": "2026-08-28",
+      "leaderboard": []
+    },
+    {
+      "label": "Aug 27",
+      "date": "2026-08-27",
+      "leaderboard": []
+    },
+    {
+      "label": "Aug 26",
+      "date": "2026-08-26",
+      "leaderboard": [
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 305,
+          "c": 4,
+          "l": "Aug 26 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 78,
+          "c": 2,
+          "l": "Aug 26 2026"
+        }
+      ]
+    },
     {
       "label": "Aug 25",
       "date": "2026-08-25",
@@ -7161,65 +7174,6 @@
           "g": 13,
           "c": 1,
           "l": "Aug 22 2026"
-        }
-      ]
-    },
-    {
-      "label": "Aug 21",
-      "date": "2026-08-21",
-      "leaderboard": [
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 182,
-          "c": 2,
-          "l": "Aug 21 2026"
-        },
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 140,
-          "c": 1,
-          "l": "Aug 21 2026"
-        }
-      ]
-    },
-    {
-      "label": "Aug 20",
-      "date": "2026-08-20",
-      "leaderboard": []
-    },
-    {
-      "label": "Aug 19",
-      "date": "2026-08-19",
-      "leaderboard": [
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 562,
-          "c": 6,
-          "l": "Aug 19 2026"
-        },
-        {
-          "n": "grouchy_mode",
-          "u": "grouchy_mode",
-          "g": 33,
-          "c": 1,
-          "l": "Aug 19 2026"
-        },
-        {
-          "n": "dhuckab1",
-          "u": "dhuckab1",
-          "g": 26,
-          "c": 1,
-          "l": "Aug 19 2026"
-        },
-        {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 8,
-          "c": 1,
-          "l": "Aug 19 2026"
         }
       ]
     }
@@ -10329,22 +10283,7 @@
         "d": "Aug 26 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "brookswhynot",
-        "i": "Singing Fish",
-        "v": 198,
-        "r": "Legendary",
-        "d": "Aug 26 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Nimbochromis",
-        "v": 67,
-        "r": "Rare",
-        "d": "Aug 26 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
