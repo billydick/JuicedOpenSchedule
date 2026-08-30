@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-08-29T23:27:48.701962+00:00",
-    "total_catches": 23777,
+    "generated_at": "2026-08-30T01:42:59.822960+00:00",
+    "total_catches": 23778,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23777 catches"
+      "sub": "Since launch - 23778 catches"
     },
     "monthly": {
       "label": "August 2026",
@@ -332,10 +332,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 42068,
-        "c": 570,
-        "casts": 570,
-        "l": "Aug 26 2026"
+        "g": 42282,
+        "c": 571,
+        "casts": 571,
+        "l": "Aug 29 2026"
       },
       {
         "u": "riflehog",
@@ -6814,10 +6814,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 3733,
-        "c": 54,
-        "casts": 54,
-        "l": "Aug 26 2026"
+        "g": 3947,
+        "c": 55,
+        "casts": 55,
+        "l": "Aug 29 2026"
       },
       {
         "u": "nellafella",
@@ -7016,10 +7016,10 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 305,
-        "c": 4,
-        "casts": 4,
-        "l": "Aug 26 2026"
+        "g": 519,
+        "c": 5,
+        "casts": 5,
+        "l": "Aug 29 2026"
       },
       {
         "u": "nellafella",
@@ -7038,7 +7038,16 @@
         "l": "Aug 24 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 214,
+        "c": 1,
+        "casts": 1,
+        "l": "Aug 29 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -10263,10 +10272,10 @@
     "weekly": [
       {
         "n": "brookswhynot",
-        "i": "Singing Fish",
-        "v": 198,
-        "r": "Legendary",
-        "d": "Aug 26 2026"
+        "i": "Circuit Of The Americas",
+        "v": 214,
+        "r": "Epic",
+        "d": "Aug 29 2026"
       },
       {
         "n": "thesaucypanda2",
@@ -10283,7 +10292,15 @@
         "d": "Aug 26 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "brookswhynot",
+        "i": "Circuit Of The Americas",
+        "v": 214,
+        "r": "Epic",
+        "d": "Aug 29 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -20529,7 +20546,7 @@
       "n": "Circuit Of The Americas",
       "custom": true,
       "r": "Legendary",
-      "c": 24,
+      "c": 25,
       "h": "riflehog",
       "v": 282,
       "w": 225.74
@@ -26170,7 +26187,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "1st place at COTA!",
-      "c": 24,
+      "c": 25,
       "rec": "225.74 lb",
       "v": 282
     },
@@ -27042,6 +27059,14 @@
   "recent": [
     {
       "u": "brookswhynot",
+      "i": "Circuit Of The Americas",
+      "w": 170.92,
+      "v": 214,
+      "r": "Epic",
+      "d": "Aug 29 2026"
+    },
+    {
+      "u": "brookswhynot",
       "i": "Darlington Raceway",
       "w": 102.26,
       "v": 26,
@@ -27629,14 +27654,6 @@
       "i": "Mussel",
       "w": 0.1,
       "v": 10,
-      "r": "Common",
-      "d": "Aug 12 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Bristol Motor Speedway",
-      "w": 160.81,
-      "v": 12,
       "r": "Common",
       "d": "Aug 12 2026"
     }
