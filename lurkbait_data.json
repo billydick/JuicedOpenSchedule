@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-03T00:33:39.876315+00:00",
-    "total_catches": 23794,
+    "generated_at": "2026-09-03T00:54:13.226151+00:00",
+    "total_catches": 23795,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23794 catches"
+      "sub": "Since launch - 23795 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -412,9 +412,9 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 24026,
-        "c": 357,
-        "casts": 357,
+        "g": 24223,
+        "c": 358,
+        "casts": 358,
         "l": "Sep 02 2026"
       },
       {
@@ -6812,6 +6812,14 @@
     ],
     "monthly": [
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 410,
+        "c": 3,
+        "casts": 3,
+        "l": "Sep 02 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 371,
@@ -6823,14 +6831,6 @@
         "u": "flippy00",
         "n": "flippy00",
         "g": 266,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 02 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 213,
         "c": 2,
         "casts": 2,
         "l": "Sep 02 2026"
@@ -6838,6 +6838,14 @@
     ],
     "weekly": [
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 410,
+        "c": 3,
+        "casts": 3,
+        "l": "Sep 02 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 371,
@@ -6849,14 +6857,6 @@
         "u": "flippy00",
         "n": "flippy00",
         "g": 266,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 02 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 213,
         "c": 2,
         "casts": 2,
         "l": "Sep 02 2026"
@@ -6864,6 +6864,14 @@
     ],
     "daily": [
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 410,
+        "c": 3,
+        "casts": 3,
+        "l": "Sep 02 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 371,
@@ -6875,14 +6883,6 @@
         "u": "flippy00",
         "n": "flippy00",
         "g": 266,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 02 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 213,
         "c": 2,
         "casts": 2,
         "l": "Sep 02 2026"
@@ -9864,9 +9864,9 @@
       },
       {
         "n": "gatoraintplaying",
-        "i": "Ty Gibbs",
-        "v": 107,
-        "r": "Rare",
+        "i": "87 Ford Thunderbird",
+        "v": 197,
+        "r": "Epic",
         "d": "Sep 02 2026"
       }
     ],
@@ -9887,9 +9887,9 @@
       },
       {
         "n": "gatoraintplaying",
-        "i": "Ty Gibbs",
-        "v": 107,
-        "r": "Rare",
+        "i": "87 Ford Thunderbird",
+        "v": 197,
+        "r": "Epic",
         "d": "Sep 02 2026"
       }
     ],
@@ -9910,9 +9910,9 @@
       },
       {
         "n": "gatoraintplaying",
-        "i": "Ty Gibbs",
-        "v": 107,
-        "r": "Rare",
+        "i": "87 Ford Thunderbird",
+        "v": 197,
+        "r": "Epic",
         "d": "Sep 02 2026"
       }
     ]
@@ -13689,7 +13689,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13717,15 +13717,16 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "gatoraintplaying",
+          "d": "Sep 02 2026"
         }
       },
       "win_month": {
-        "total": 11,
+        "total": 12,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13737,11 +13738,12 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 01 2026"
+          "u": "gatoraintplaying",
+          "d": "Sep 02 2026"
         }
       },
       "the_market": {
@@ -15290,6 +15292,8 @@
         "leg_epic_day": "Mar 26 2025",
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
+        "win_week": "Sep 02 2026",
+        "win_month": "Sep 02 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -20440,7 +20444,7 @@
       "n": "87 Ford Thunderbird",
       "custom": true,
       "r": "Epic",
-      "c": 41,
+      "c": 42,
       "h": "fjvgaming",
       "v": 225,
       "w": 1.13
@@ -25766,7 +25770,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "They don't make em like this anymore",
-      "c": 41,
+      "c": 42,
       "rec": "1.13 lb",
       "v": 225
     },
@@ -26673,6 +26677,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "87 Ford Thunderbird",
+      "w": 0.98,
+      "v": 197,
+      "r": "Epic",
+      "d": "Sep 02 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Rockingham Speedway",
       "w": 201.93,
@@ -27262,14 +27274,6 @@
       "w": 10.51,
       "v": 158,
       "r": "Rare",
-      "d": "Aug 15 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "iRacing Protest",
-      "w": 0.83,
-      "v": 8,
-      "r": "Junk",
       "d": "Aug 15 2026"
     }
   ]
