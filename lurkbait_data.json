@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T19:42:39.963317+00:00",
-    "total_catches": 23814,
+    "generated_at": "2026-09-11T21:25:01.998943+00:00",
+    "total_catches": 23815,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23814 catches"
+      "sub": "Since launch - 23815 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -402,20 +402,20 @@
         "l": "Oct 27 2025"
       },
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 24382,
+        "c": 359,
+        "casts": 359,
+        "l": "Sep 11 2026"
+      },
+      {
         "u": "justingamez",
         "n": "justingamez",
         "g": 24296,
         "c": 379,
         "casts": 379,
         "l": "Jun 16 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 24223,
-        "c": 358,
-        "casts": 358,
-        "l": "Sep 02 2026"
       },
       {
         "u": "nwoods56",
@@ -6822,10 +6822,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 410,
-        "c": 3,
-        "casts": 3,
-        "l": "Sep 02 2026"
+        "g": 569,
+        "c": 4,
+        "casts": 4,
+        "l": "Sep 11 2026"
       },
       {
         "u": "flippy00",
@@ -6868,8 +6868,26 @@
         "l": "Sep 02 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 159,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 11 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 159,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 11 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9752,8 +9770,24 @@
         "d": "Sep 02 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Ghost Fish",
+        "v": 159,
+        "r": "Epic",
+        "d": "Sep 11 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Ghost Fish",
+        "v": 159,
+        "r": "Epic",
+        "d": "Sep 11 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -13527,7 +13561,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13555,11 +13589,12 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "gatoraintplaying",
+          "d": "Sep 11 2026"
         }
       },
       "win_month": {
@@ -15128,6 +15163,7 @@
         "leg_epic_day": "Mar 26 2025",
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
+        "win_week": "Sep 11 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -20926,7 +20962,7 @@
       "n": "Ghost Fish",
       "custom": false,
       "r": "Epic",
-      "c": 26,
+      "c": 27,
       "h": "stonedkorean813",
       "v": 168,
       "w": 5.59
@@ -25685,7 +25721,7 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 26,
+      "c": 27,
       "rec": "5.59 lb",
       "v": 168
     },
@@ -26511,6 +26547,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Ghost Fish",
+      "w": 5.3,
+      "v": 159,
+      "r": "Epic",
+      "d": "Sep 11 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Simucube 2 Ultimate",
       "w": 9.58,
@@ -27099,14 +27143,6 @@
       "i": "Funny Metal Tubes",
       "w": 0.17,
       "v": 2,
-      "r": "Junk",
-      "d": "Aug 22 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Scooter",
-      "w": 16.6,
-      "v": 55,
       "r": "Junk",
       "d": "Aug 22 2026"
     }
