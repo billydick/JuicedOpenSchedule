@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-11T20:43:15Z",
+  "generated_at": "2026-09-11T20:58:35Z",
   "meta": {
-    "total_hands": 497,
+    "total_hands": 498,
     "total_players": 35,
     "biggest_bet": {
       "user": "juicedracing",
@@ -78,9 +78,9 @@
       },
       {
         "u": "v1per_simr4cin6",
-        "chips": 84300,
-        "net": 7500,
-        "hands": 0,
+        "chips": 88350,
+        "net": 6500,
+        "hands": 1,
         "ach": 0
       },
       {
@@ -287,10 +287,28 @@
         "net": 0,
         "hands": 1,
         "ach": 0
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "chips": 88350,
+        "net": -1000,
+        "hands": 1,
+        "ach": 0
       }
     ]
   },
   "daily_highlights": {
+    "biggest_loss": {
+      "u": "v1per_simr4cin6",
+      "cards": [
+        "4♥",
+        "6♥"
+      ],
+      "total": 10,
+      "bet": 1000,
+      "net": -1000,
+      "result": "lose"
+    },
     "biggest_bet": {
       "u": "juicedracing",
       "cards": [
@@ -306,6 +324,10 @@
     },
     "most_hands": {
       "u": "juicedracing",
+      "n": 1
+    },
+    "worst_streak": {
+      "u": "v1per_simr4cin6",
       "n": 1
     }
   },
@@ -5221,7 +5243,7 @@
         },
         {
           "u": "v1per_simr4cin6",
-          "chips": 84300,
+          "chips": 88350,
           "net": 7500,
           "hands": 1,
           "ach": 0
@@ -8499,6 +8521,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1789160315.576362,
+      "date": "2026-09-11",
+      "player": "v1per_simr4cin6",
+      "bet": 1000,
+      "balance_before": 89350,
+      "result": "lose",
+      "net_delta": -1000,
+      "player_cards": [
+        "4♥",
+        "6♥"
+      ],
+      "player_total": 10,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♦",
+        "8♣"
+      ],
+      "dealer_total": 19,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1789159394.9153874,
       "date": "2026-09-11",
       "player": "juicedracing",
@@ -10026,37 +10075,6 @@
       "achievements_earned": [
         "riches_to_rags_session",
         "roller_coaster_session"
-      ]
-    },
-    {
-      "ts": 1786584959.0972297,
-      "date": "2026-08-12",
-      "player": "juicedracing",
-      "bet": 15000,
-      "balance_before": 15050,
-      "result": "win",
-      "net_delta": 15000,
-      "player_cards": [
-        "5♥",
-        "8♣",
-        "6♠"
-      ],
-      "player_total": 19,
-      "hit_count": 1,
-      "dealer_cards": [
-        "8♥",
-        "K♠"
-      ],
-      "dealer_total": 18,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "big_nerve_win",
-        "lucky_escape"
       ]
     }
   ]
