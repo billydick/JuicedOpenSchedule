@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T21:25:01.998943+00:00",
-    "total_catches": 23815,
+    "generated_at": "2026-09-11T21:26:07.101537+00:00",
+    "total_catches": 23816,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23815 catches"
+      "sub": "Since launch - 23816 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -700,10 +700,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 7293,
-        "c": 80,
-        "casts": 80,
-        "l": "Sep 02 2026"
+        "g": 7302,
+        "c": 81,
+        "casts": 81,
+        "l": "Sep 11 2026"
       },
       {
         "u": "dentedcan",
@@ -6862,10 +6862,10 @@
       {
         "u": "v1per_simr4cin6",
         "n": "v1per_simr4cin6",
-        "g": 22,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 02 2026"
+        "g": 31,
+        "c": 3,
+        "casts": 3,
+        "l": "Sep 11 2026"
       }
     ],
     "weekly": [
@@ -6876,6 +6876,14 @@
         "c": 1,
         "casts": 1,
         "l": "Sep 11 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 9,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 11 2026"
       }
     ],
     "daily": [
@@ -6883,6 +6891,14 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 159,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 11 2026"
+      },
+      {
+        "u": "v1per_simr4cin6",
+        "n": "v1per_simr4cin6",
+        "g": 9,
         "c": 1,
         "casts": 1,
         "l": "Sep 11 2026"
@@ -9777,6 +9793,13 @@
         "v": 159,
         "r": "Epic",
         "d": "Sep 11 2026"
+      },
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Trolley",
+        "v": 9,
+        "r": "Junk",
+        "d": "Sep 11 2026"
       }
     ],
     "daily": [
@@ -9785,6 +9808,13 @@
         "i": "Ghost Fish",
         "v": 159,
         "r": "Epic",
+        "d": "Sep 11 2026"
+      },
+      {
+        "n": "v1per_simr4cin6",
+        "i": "Trolley",
+        "v": 9,
+        "r": "Junk",
         "d": "Sep 11 2026"
       }
     ]
@@ -22969,7 +22999,7 @@
       "n": "Trolley",
       "custom": false,
       "r": "Junk",
-      "c": 148,
+      "c": 149,
       "h": "thebtm1",
       "v": 11,
       "w": 22.57
@@ -23948,7 +23978,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 148,
+      "c": 149,
       "rec": "22.57 lb",
       "v": 11
     },
@@ -26547,6 +26577,14 @@
   ],
   "recent": [
     {
+      "u": "v1per_simr4cin6",
+      "i": "Trolley",
+      "w": 18.96,
+      "v": 9,
+      "r": "Junk",
+      "d": "Sep 11 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Ghost Fish",
       "w": 5.3,
@@ -27136,14 +27174,6 @@
       "w": 0.27,
       "v": 100,
       "r": "Epic",
-      "d": "Aug 22 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Funny Metal Tubes",
-      "w": 0.17,
-      "v": 2,
-      "r": "Junk",
       "d": "Aug 22 2026"
     }
   ]
