@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-11T22:04:04.340703+00:00",
+    "generated_at": "2026-09-12T23:36:55.226257+00:00",
     "total_catches": 23817,
     "unique_catches": 375,
     "total_players": 815,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Sep 11 2026",
+      "label": "Sep 12 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6886,26 +6886,29 @@
         "l": "Sep 11 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 244,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 11 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 11 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Sep 11",
+      "date": "2026-09-11",
+      "leaderboard": [
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 244,
+          "c": 2,
+          "l": "Sep 11 2026"
+        },
+        {
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 9,
+          "c": 1,
+          "l": "Sep 11 2026"
+        }
+      ]
+    },
     {
       "label": "Sep 10",
       "date": "2026-09-10",
@@ -6934,11 +6937,6 @@
     {
       "label": "Sep 05",
       "date": "2026-09-05",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 04",
-      "date": "2026-09-04",
       "leaderboard": []
     }
   ],
@@ -9802,22 +9800,7 @@
         "d": "Sep 11 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "gatoraintplaying",
-        "i": "Ghost Fish",
-        "v": 159,
-        "r": "Epic",
-        "d": "Sep 11 2026"
-      },
-      {
-        "n": "v1per_simr4cin6",
-        "i": "Trolley",
-        "v": 9,
-        "r": "Junk",
-        "d": "Sep 11 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
