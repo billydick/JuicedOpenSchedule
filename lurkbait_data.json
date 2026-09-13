@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T01:17:35.512279+00:00",
-    "total_catches": 23819,
+    "generated_at": "2026-09-13T01:18:40.874509+00:00",
+    "total_catches": 23820,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23819 catches"
+      "sub": "Since launch - 23820 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 24467,
-        "c": 360,
-        "casts": 360,
-        "l": "Sep 11 2026"
+        "g": 24636,
+        "c": 361,
+        "casts": 361,
+        "l": "Sep 12 2026"
       },
       {
         "u": "justingamez",
@@ -6822,10 +6822,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 654,
-        "c": 5,
-        "casts": 5,
-        "l": "Sep 11 2026"
+        "g": 823,
+        "c": 6,
+        "casts": 6,
+        "l": "Sep 12 2026"
       },
       {
         "u": "flippy00",
@@ -6870,20 +6870,20 @@
     ],
     "weekly": [
       {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 413,
+        "c": 3,
+        "casts": 3,
+        "l": "Sep 12 2026"
+      },
+      {
         "u": "brookswhynot",
         "n": "brookswhynot",
         "g": 274,
         "c": 2,
         "casts": 2,
         "l": "Sep 12 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 244,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 11 2026"
       },
       {
         "u": "v1per_simr4cin6",
@@ -6901,6 +6901,14 @@
         "g": 274,
         "c": 2,
         "casts": 2,
+        "l": "Sep 12 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 169,
+        "c": 1,
+        "casts": 1,
         "l": "Sep 12 2026"
       }
     ]
@@ -9811,10 +9819,10 @@
       },
       {
         "n": "gatoraintplaying",
-        "i": "Ghost Fish",
-        "v": 159,
+        "i": "Octopus",
+        "v": 169,
         "r": "Epic",
-        "d": "Sep 11 2026"
+        "d": "Sep 12 2026"
       },
       {
         "n": "v1per_simr4cin6",
@@ -9829,6 +9837,13 @@
         "n": "brookswhynot",
         "i": "HELLRAIZER DEMON JACK",
         "v": 221,
+        "r": "Epic",
+        "d": "Sep 12 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Octopus",
+        "v": 169,
         "r": "Epic",
         "d": "Sep 12 2026"
       }
@@ -13606,7 +13621,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13634,11 +13649,12 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "gatoraintplaying",
+          "d": "Sep 11 2026"
         }
       },
       "win_month": {
@@ -15207,6 +15223,7 @@
         "leg_epic_day": "Mar 26 2025",
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
+        "win_week": "Sep 11 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -20912,6 +20929,15 @@
       "w": 11.28
     },
     {
+      "n": "Octopus",
+      "custom": false,
+      "r": "Epic",
+      "c": 47,
+      "h": "gatoraintplaying",
+      "v": 169,
+      "w": 11.27
+    },
+    {
       "n": "PFC Rear Calipers",
       "custom": true,
       "r": "Epic",
@@ -20991,15 +21017,6 @@
       "h": "lispyinfamous",
       "v": 168,
       "w": 27.94
-    },
-    {
-      "n": "Octopus",
-      "custom": false,
-      "r": "Epic",
-      "c": 46,
-      "h": "jdawg250f",
-      "v": 168,
-      "w": 11.22
     },
     {
       "n": "Ghost Fish",
@@ -24216,9 +24233,9 @@
       "r": "Rare",
       "custom": false,
       "desc": "",
-      "c": 46,
-      "rec": "11.22 lb",
-      "v": 168
+      "c": 47,
+      "rec": "11.27 lb",
+      "v": 169
     },
     {
       "n": "Frontosa Cichlid",
@@ -26590,6 +26607,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Octopus",
+      "w": 11.27,
+      "v": 169,
+      "r": "Epic",
+      "d": "Sep 12 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Nimbochromis",
       "w": 2.47,
@@ -27179,14 +27204,6 @@
       "w": 51.76,
       "v": 52,
       "r": "Uncommon",
-      "d": "Aug 22 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Ryan Preece",
-      "w": 0.82,
-      "v": 1,
-      "r": "Junk",
       "d": "Aug 22 2026"
     }
   ]
