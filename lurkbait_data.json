@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-09-13T04:54:56.447552+00:00",
+    "generated_at": "2026-09-16T22:32:14.259437+00:00",
     "total_catches": 23837,
     "unique_catches": 375,
     "total_players": 815,
@@ -279,11 +279,11 @@
       "sub": "Monthly Competition"
     },
     "weekly": {
-      "label": "Week of Sep 07",
+      "label": "Week of Sep 14",
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Sep 12 2026",
+      "label": "Sep 16 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6892,100 +6892,66 @@
         "l": "Sep 11 2026"
       }
     ],
-    "weekly": [
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 1221,
-        "c": 15,
-        "casts": 15,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 413,
-        "c": 3,
-        "casts": 3,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 101,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "pvtcrackpot",
-        "n": "pvtcrackpot",
-        "g": 95,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "purple_racingcataclysm",
-        "n": "purple_racingcataclysm",
-        "g": 86,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 11 2026"
-      }
-    ],
-    "daily": [
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 1221,
-        "c": 15,
-        "casts": 15,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 169,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 101,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "pvtcrackpot",
-        "n": "pvtcrackpot",
-        "g": 95,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "purple_racingcataclysm",
-        "n": "purple_racingcataclysm",
-        "g": 86,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 12 2026"
-      }
-    ]
+    "weekly": [],
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Sep 15",
+      "date": "2026-09-15",
+      "leaderboard": []
+    },
+    {
+      "label": "Sep 14",
+      "date": "2026-09-14",
+      "leaderboard": []
+    },
+    {
+      "label": "Sep 13",
+      "date": "2026-09-13",
+      "leaderboard": []
+    },
+    {
+      "label": "Sep 12",
+      "date": "2026-09-12",
+      "leaderboard": [
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 1221,
+          "c": 15,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 169,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "rhetti_",
+          "u": "rhetti_",
+          "g": 101,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "pvtcrackpot",
+          "u": "pvtcrackpot",
+          "g": 95,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "purple_racingcataclysm",
+          "u": "purple_racingcataclysm",
+          "g": 86,
+          "c": 2,
+          "l": "Sep 12 2026"
+        }
+      ]
+    },
     {
       "label": "Sep 11",
       "date": "2026-09-11",
@@ -7015,29 +6981,57 @@
       "label": "Sep 09",
       "date": "2026-09-09",
       "leaderboard": []
-    },
-    {
-      "label": "Sep 08",
-      "date": "2026-09-08",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 07",
-      "date": "2026-09-07",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 06",
-      "date": "2026-09-06",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 05",
-      "date": "2026-09-05",
-      "leaderboard": []
     }
   ],
   "weekly_history": [
+    {
+      "label": "Week of Sep 07",
+      "date": "2026-09-07",
+      "leaderboard": [
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 1221,
+          "c": 15,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 413,
+          "c": 3,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "rhetti_",
+          "u": "rhetti_",
+          "g": 101,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "pvtcrackpot",
+          "u": "pvtcrackpot",
+          "g": 95,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "purple_racingcataclysm",
+          "u": "purple_racingcataclysm",
+          "g": 86,
+          "c": 2,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 9,
+          "c": 1,
+          "l": "Sep 11 2026"
+        }
+      ]
+    },
     {
       "label": "Week of Aug 31",
       "date": "2026-08-31",
@@ -7623,159 +7617,6 @@
           "g": 1,
           "c": 1,
           "l": "Jul 23 2026"
-        }
-      ]
-    },
-    {
-      "label": "Week of Jul 13",
-      "date": "2026-07-13",
-      "leaderboard": [
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 498,
-          "c": 8,
-          "l": "Jul 18 2026"
-        },
-        {
-          "n": "garfang_",
-          "u": "garfang_",
-          "g": 395,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "nellafella",
-          "u": "nellafella",
-          "g": 366,
-          "c": 11,
-          "l": "Jul 17 2026"
-        },
-        {
-          "n": "drewieblaster",
-          "u": "drewieblaster",
-          "g": 244,
-          "c": 2,
-          "l": "Jul 17 2026"
-        },
-        {
-          "n": "larcen22",
-          "u": "larcen22",
-          "g": 140,
-          "c": 2,
-          "l": "Jul 18 2026"
-        },
-        {
-          "n": "thesaucypanda2",
-          "u": "thesaucypanda2",
-          "g": 125,
-          "c": 2,
-          "l": "Jul 18 2026"
-        },
-        {
-          "n": "aaronm29",
-          "u": "aaronm29",
-          "g": 122,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 116,
-          "c": 4,
-          "l": "Jul 17 2026"
-        },
-        {
-          "n": "muskrat21",
-          "u": "muskrat21",
-          "g": 96,
-          "c": 1,
-          "l": "Jul 15 2026"
-        },
-        {
-          "n": "toyotatacoma",
-          "u": "toyotatacoma",
-          "g": 85,
-          "c": 2,
-          "l": "Jul 17 2026"
-        },
-        {
-          "n": "seanp171",
-          "u": "seanp171",
-          "g": 63,
-          "c": 2,
-          "l": "Jul 17 2026"
-        },
-        {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 61,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "zedtox",
-          "u": "zedtox",
-          "g": 61,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "grumpymitch1",
-          "u": "grumpymitch1",
-          "g": 44,
-          "c": 2,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "jehjeh2112",
-          "u": "jehjeh2112",
-          "g": 43,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "tf1967",
-          "u": "tf1967",
-          "g": 31,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "riezing",
-          "u": "riezing",
-          "g": 28,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 24,
-          "c": 1,
-          "l": "Jul 14 2026"
-        },
-        {
-          "n": "travan",
-          "u": "travan",
-          "g": 17,
-          "c": 1,
-          "l": "Jul 16 2026"
-        },
-        {
-          "n": "tayrob28",
-          "u": "tayrob28",
-          "g": 12,
-          "c": 1,
-          "l": "Jul 18 2026"
-        },
-        {
-          "n": "illuminodie",
-          "u": "illuminodie",
-          "g": 1,
-          "c": 1,
-          "l": "Jul 18 2026"
         }
       ]
     }
@@ -9902,87 +9743,8 @@
         "d": "Sep 02 2026"
       }
     ],
-    "weekly": [
-      {
-        "n": "brookswhynot",
-        "i": "HELLRAIZER DEMON JACK",
-        "v": 221,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Octopus",
-        "v": 169,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "rhetti_",
-        "i": "Lion Fish",
-        "v": 101,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "pvtcrackpot",
-        "i": "Kansas Speedway",
-        "v": 95,
-        "r": "Rare",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "purple_racingcataclysm",
-        "i": "Scooter",
-        "v": 45,
-        "r": "Junk",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "v1per_simr4cin6",
-        "i": "Trolley",
-        "v": 9,
-        "r": "Junk",
-        "d": "Sep 11 2026"
-      }
-    ],
-    "daily": [
-      {
-        "n": "brookswhynot",
-        "i": "HELLRAIZER DEMON JACK",
-        "v": 221,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Octopus",
-        "v": 169,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "rhetti_",
-        "i": "Lion Fish",
-        "v": 101,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "pvtcrackpot",
-        "i": "Kansas Speedway",
-        "v": 95,
-        "r": "Rare",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "purple_racingcataclysm",
-        "i": "Scooter",
-        "v": 45,
-        "r": "Junk",
-        "d": "Sep 12 2026"
-      }
-    ]
+    "weekly": [],
+    "daily": []
   },
   "achievements": {
     "stream": {
