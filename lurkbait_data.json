@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-16T22:32:14.259437+00:00",
-    "total_catches": 23837,
+    "generated_at": "2026-09-16T22:59:50.515205+00:00",
+    "total_catches": 23838,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23837 catches"
+      "sub": "Since launch - 23838 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37334,
-        "c": 573,
-        "casts": 573,
-        "l": "Aug 22 2026"
+        "g": 37361,
+        "c": 574,
+        "casts": 574,
+        "l": "Sep 16 2026"
       },
       {
         "u": "jdawg250f",
@@ -6890,10 +6890,36 @@
         "c": 3,
         "casts": 3,
         "l": "Sep 11 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 16 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 16 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 16 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9736,6 +9762,13 @@
         "d": "Sep 12 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "Katherine Legge",
+        "v": 27,
+        "r": "Common",
+        "d": "Sep 16 2026"
+      },
+      {
         "n": "v1per_simr4cin6",
         "i": "Mackerel",
         "v": 21,
@@ -9743,8 +9776,24 @@
         "d": "Sep 02 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "juicedracing",
+        "i": "Katherine Legge",
+        "v": 27,
+        "r": "Common",
+        "d": "Sep 16 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "Katherine Legge",
+        "v": 27,
+        "r": "Common",
+        "d": "Sep 16 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22456,7 +22505,7 @@
       "n": "Katherine Legge",
       "custom": true,
       "r": "Common",
-      "c": 31,
+      "c": 32,
       "h": "motionless",
       "v": 28,
       "w": 55.68
@@ -26243,7 +26292,7 @@
       "r": "Common",
       "custom": true,
       "desc": "1st Cup Seaon, has an uphill battle",
-      "c": 31,
+      "c": 32,
       "rec": "55.68 lb",
       "v": 28
     },
@@ -26501,6 +26550,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "juicedracing",
+      "i": "Katherine Legge",
+      "w": 53.35,
+      "v": 27,
+      "r": "Common",
+      "d": "Sep 16 2026"
+    },
     {
       "u": "brookswhynot",
       "i": "Mahi Mahi",
@@ -27091,14 +27148,6 @@
       "w": 1.1,
       "v": 22,
       "r": "Common",
-      "d": "Aug 22 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Brennan Poole",
-      "w": 53.81,
-      "v": 54,
-      "r": "Uncommon",
       "d": "Aug 22 2026"
     }
   ]
