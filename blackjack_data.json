@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T03:09:36Z",
+  "generated_at": "2026-09-30T22:38:40Z",
   "meta": {
     "total_hands": 505,
     "total_players": 35,
@@ -16,11 +16,11 @@
   },
   "competition_meta": {
     "daily": {
-      "label": "Sep 25 2026",
+      "label": "Sep 30 2026",
       "sub": "Today's Competition"
     },
     "weekly": {
-      "label": "Week of Sep 21",
+      "label": "Week of Sep 28",
       "sub": "Weekly Competition"
     },
     "monthly": {
@@ -71,7 +71,7 @@
       },
       {
         "u": "aquadays",
-        "chips": 103001,
+        "chips": 103051,
         "net": 54901,
         "hands": 0,
         "ach": 1
@@ -113,14 +113,14 @@
       },
       {
         "u": "ikatipoi",
-        "chips": 42150,
+        "chips": 42200,
         "net": -336737,
         "hands": 0,
         "ach": 0
       },
       {
         "u": "rhetti_",
-        "chips": 35249,
+        "chips": 35299,
         "net": 17199,
         "hands": 0,
         "ach": 0
@@ -148,7 +148,7 @@
       },
       {
         "u": "gatoraintplaying",
-        "chips": 19860,
+        "chips": 19910,
         "net": -15490,
         "hands": 0,
         "ach": 0
@@ -260,10 +260,10 @@
       },
       {
         "u": "itzdubsta",
-        "chips": 0,
+        "chips": 250,
         "net": -115810,
-        "hands": 1,
-        "ach": 4
+        "hands": 0,
+        "ach": 0
       },
       {
         "u": "azsuperbeast",
@@ -280,49 +280,55 @@
         "ach": 0
       }
     ],
-    "daily": [
-      {
-        "u": "itzdubsta",
-        "chips": 0,
-        "net": -51100,
-        "hands": 1,
-        "ach": 4
-      }
-    ]
+    "daily": []
   },
-  "daily_highlights": {
-    "biggest_loss": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♦",
-        "K♠"
-      ],
-      "total": 16,
-      "bet": 51100,
-      "net": -51100,
-      "result": "lose"
-    },
-    "biggest_bet": {
-      "u": "itzdubsta",
-      "cards": [
-        "6♦",
-        "K♠"
-      ],
-      "total": 16,
-      "bet": 51100,
-      "net": -51100,
-      "result": "lose"
-    },
-    "most_hands": {
-      "u": "itzdubsta",
-      "n": 1
-    },
-    "worst_streak": {
-      "u": "itzdubsta",
-      "n": 1
-    }
-  },
+  "daily_highlights": {},
   "daily_history": [
+    {
+      "label": "Sep 25",
+      "date": "2026-09-25",
+      "leaderboard": [
+        {
+          "u": "itzdubsta",
+          "chips": 250,
+          "net": -51100,
+          "hands": 1,
+          "ach": 0
+        }
+      ],
+      "highlights": {
+        "biggest_loss": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♦",
+            "K♠"
+          ],
+          "total": 16,
+          "bet": 51100,
+          "net": -51100,
+          "result": "lose"
+        },
+        "biggest_bet": {
+          "u": "itzdubsta",
+          "cards": [
+            "6♦",
+            "K♠"
+          ],
+          "total": 16,
+          "bet": 51100,
+          "net": -51100,
+          "result": "lose"
+        },
+        "most_hands": {
+          "u": "itzdubsta",
+          "n": 1
+        },
+        "worst_streak": {
+          "u": "itzdubsta",
+          "n": 1
+        }
+      }
+    },
     {
       "label": "Sep 16",
       "date": "2026-09-16",
@@ -523,7 +529,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": 9805,
           "hands": 1,
           "ach": 0
@@ -628,7 +634,7 @@
       "leaderboard": [
         {
           "u": "rhetti_",
-          "chips": 35249,
+          "chips": 35299,
           "net": -900,
           "hands": 1,
           "ach": 0
@@ -835,7 +841,7 @@
         },
         {
           "u": "rhetti_",
-          "chips": 35249,
+          "chips": 35299,
           "net": 19000,
           "hands": 3,
           "ach": 0
@@ -960,7 +966,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": -10395,
           "hands": 1,
           "ach": 0
@@ -1166,7 +1172,7 @@
         },
         {
           "u": "rhetti_",
-          "chips": 35249,
+          "chips": 35299,
           "net": -901,
           "hands": 1,
           "ach": 0
@@ -1449,10 +1455,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": 12900,
           "hands": 1,
-          "ach": 4
+          "ach": 0
         },
         {
           "u": "juicedracing",
@@ -1791,10 +1797,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": -240300,
           "hands": 3,
-          "ach": 4
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3181,10 +3187,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": 15000,
           "hands": 3,
-          "ach": 4
+          "ach": 0
         },
         {
           "u": "larcen22",
@@ -3567,10 +3573,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": 55630,
           "hands": 3,
-          "ach": 4
+          "ach": 0
         }
       ],
       "highlights": {
@@ -3959,10 +3965,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": 50000,
           "hands": 1,
-          "ach": 4
+          "ach": 0
         },
         {
           "u": "topjoedirty",
@@ -4079,7 +4085,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": 0,
           "hands": 1,
           "ach": 0
@@ -4165,10 +4171,10 @@
       "leaderboard": [
         {
           "u": "itzdubsta",
-          "chips": 0,
+          "chips": 250,
           "net": 42060,
           "hands": 1,
-          "ach": 4
+          "ach": 0
         },
         {
           "u": "thesaucypanda2",
@@ -4284,7 +4290,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 42150,
+          "chips": 42200,
           "net": -128952,
           "hands": 3,
           "ach": 0
@@ -4621,7 +4627,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": -5900,
           "hands": 2,
           "ach": 0
@@ -4800,7 +4806,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": 1750,
           "hands": 1,
           "ach": 0
@@ -5036,7 +5042,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": -36600,
           "hands": 1,
           "ach": 0
@@ -5428,7 +5434,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 42150,
+          "chips": 42200,
           "net": -100000,
           "hands": 1,
           "ach": 0
@@ -5524,7 +5530,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 42150,
+          "chips": 42200,
           "net": -82785,
           "hands": 5,
           "ach": 0
@@ -5806,7 +5812,7 @@
         },
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": -10250,
           "hands": 3,
           "ach": 0
@@ -6452,7 +6458,7 @@
         },
         {
           "u": "ikatipoi",
-          "chips": 42150,
+          "chips": 42200,
           "net": -25000,
           "hands": 1,
           "ach": 0
@@ -6664,7 +6670,7 @@
       "leaderboard": [
         {
           "u": "aquadays",
-          "chips": 103001,
+          "chips": 103051,
           "net": 54901,
           "hands": 2,
           "ach": 1
@@ -6888,7 +6894,7 @@
       "leaderboard": [
         {
           "u": "gatoraintplaying",
-          "chips": 19860,
+          "chips": 19910,
           "net": 36100,
           "hands": 3,
           "ach": 0
@@ -7199,10 +7205,8 @@
         }
       },
       "high_roller_50k": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-09-25"
@@ -7281,10 +7285,8 @@
         }
       },
       "escalator": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-09-25"
@@ -7361,10 +7363,8 @@
         }
       },
       "rags_to_riches_session": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-09-25"
@@ -7387,10 +7387,8 @@
         }
       },
       "big_swing_session_50k": {
-        "total": 1,
-        "holders": [
-          "itzdubsta"
-        ],
+        "total": 0,
+        "holders": [],
         "latest": {
           "u": "itzdubsta",
           "d": "2026-09-25"
@@ -7886,12 +7884,6 @@
       },
       "codycoyoteracing": {
         "bank_builder_100k": "earned"
-      },
-      "itzdubsta": {
-        "high_roller_50k": "2026-06-17",
-        "rags_to_riches_session": "2026-06-15",
-        "big_swing_session_50k": "2026-06-17",
-        "escalator": "2026-06-17"
       }
     },
     "recent_unlocks": [
