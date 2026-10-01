@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-09-30T23:57:18.146496+00:00",
-    "total_catches": 23864,
+    "generated_at": "2026-10-01T01:20:20.286143+00:00",
+    "total_catches": 23865,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23864 catches"
+      "sub": "Since launch - 23865 catches"
     },
     "monthly": {
       "label": "September 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 24636,
-        "c": 361,
-        "casts": 361,
-        "l": "Sep 12 2026"
+        "g": 24647,
+        "c": 362,
+        "casts": 362,
+        "l": "Sep 30 2026"
       },
       {
         "u": "justingamez",
@@ -6822,10 +6822,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 823,
-        "c": 6,
-        "casts": 6,
-        "l": "Sep 12 2026"
+        "g": 834,
+        "c": 7,
+        "casts": 7,
+        "l": "Sep 30 2026"
       },
       {
         "u": "nellafella",
@@ -6924,6 +6924,14 @@
         "c": 1,
         "casts": 1,
         "l": "Sep 30 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 11,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 30 2026"
       }
     ],
     "daily": [
@@ -6931,6 +6939,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 105,
+        "c": 1,
+        "casts": 1,
+        "l": "Sep 30 2026"
+      },
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 11,
         "c": 1,
         "casts": 1,
         "l": "Sep 30 2026"
@@ -9670,6 +9686,13 @@
         "v": 105,
         "r": "Rare",
         "d": "Sep 30 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Castrol SRF Racing Brake Fluid",
+        "v": 11,
+        "r": "Junk",
+        "d": "Sep 30 2026"
       }
     ],
     "daily": [
@@ -9678,6 +9701,13 @@
         "i": "Dylan Dowell",
         "v": 105,
         "r": "Rare",
+        "d": "Sep 30 2026"
+      },
+      {
+        "n": "gatoraintplaying",
+        "i": "Castrol SRF Racing Brake Fluid",
+        "v": 11,
+        "r": "Junk",
         "d": "Sep 30 2026"
       }
     ]
@@ -22599,7 +22629,7 @@
       "n": "Castrol SRF Racing Brake Fluid",
       "custom": true,
       "r": "Common",
-      "c": 182,
+      "c": 183,
       "h": "pvtcrackpot",
       "v": 11,
       "w": 1.13
@@ -24622,7 +24652,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Used in racing, from Formula One, sports cars, V8 Supercar and Grand Prix and Superbikes",
-      "c": 182,
+      "c": 183,
       "rec": "1.13 lb",
       "v": 11
     },
@@ -26438,6 +26468,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Castrol SRF Racing Brake Fluid",
+      "w": 1.13,
+      "v": 11,
+      "r": "Junk",
+      "d": "Sep 30 2026"
+    },
+    {
       "u": "beliron",
       "i": "Dylan Dowell",
       "w": 52.71,
@@ -27027,14 +27065,6 @@
       "w": 1.83,
       "v": 18,
       "r": "Common",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "World Wide Technology Raceway",
-      "w": 105.26,
-      "v": 211,
-      "r": "Epic",
       "d": "Sep 02 2026"
     }
   ]
