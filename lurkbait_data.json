@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-03T22:25:27.973815+00:00",
-    "total_catches": 23866,
+    "generated_at": "2026-10-03T23:02:19.052042+00:00",
+    "total_catches": 23867,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23866 catches"
+      "sub": "Since launch - 23867 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 24647,
-        "c": 362,
-        "casts": 362,
-        "l": "Sep 30 2026"
+        "g": 24750,
+        "c": 363,
+        "casts": 363,
+        "l": "Oct 03 2026"
       },
       {
         "u": "justingamez",
@@ -6810,8 +6810,25 @@
         "l": "Nov 26 2025"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 103,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 03 2026"
+      }
+    ],
     "weekly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 114,
+        "c": 2,
+        "casts": 2,
+        "l": "Oct 03 2026"
+      },
       {
         "u": "beliron",
         "n": "beliron",
@@ -6819,17 +6836,18 @@
         "c": 2,
         "casts": 2,
         "l": "Sep 30 2026"
-      },
+      }
+    ],
+    "daily": [
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 11,
+        "g": 103,
         "c": 1,
         "casts": 1,
-        "l": "Sep 30 2026"
+        "l": "Oct 03 2026"
       }
-    ],
-    "daily": []
+    ]
   },
   "daily_history": [
     {
@@ -9395,7 +9413,15 @@
         "d": "Jan 22 2025"
       }
     ],
-    "monthly": [],
+    "monthly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Josh Berry",
+        "v": 103,
+        "r": "Rare",
+        "d": "Oct 03 2026"
+      }
+    ],
     "weekly": [
       {
         "n": "beliron",
@@ -9406,13 +9432,21 @@
       },
       {
         "n": "gatoraintplaying",
-        "i": "Castrol SRF Racing Brake Fluid",
-        "v": 11,
-        "r": "Junk",
-        "d": "Sep 30 2026"
+        "i": "Josh Berry",
+        "v": 103,
+        "r": "Rare",
+        "d": "Oct 03 2026"
       }
     ],
-    "daily": []
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Josh Berry",
+        "v": 103,
+        "r": "Rare",
+        "d": "Oct 03 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -13186,7 +13220,7 @@
         }
       },
       "win_week": {
-        "total": 27,
+        "total": 28,
         "holders": [
           "belyy92",
           "zee20ate",
@@ -13214,15 +13248,16 @@
           "iitstech",
           "showtime_84",
           "reignsstreams",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "May 18 2026"
+          "u": "gatoraintplaying",
+          "d": "Sep 30 2026"
         }
       },
       "win_month": {
-        "total": 11,
+        "total": 12,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13234,11 +13269,12 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 01 2026"
+          "u": "gatoraintplaying",
+          "d": "Oct 03 2026"
         }
       },
       "the_market": {
@@ -14787,6 +14823,8 @@
         "leg_epic_day": "Mar 26 2025",
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
+        "win_week": "Sep 30 2026",
+        "win_month": "Oct 03 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -19264,6 +19302,11 @@
     },
     "recent_unlocks": [
       {
+        "u": "gatoraintplaying",
+        "id": "win_week",
+        "d": "Sep 30 2026"
+      },
+      {
         "u": "showtime_84",
         "id": "first_cast",
         "d": "Sep 30 2025"
@@ -19356,11 +19399,6 @@
       {
         "u": "fjvgaming",
         "id": "broke_in",
-        "d": "Sep 30 2024"
-      },
-      {
-        "u": "fjvgaming",
-        "id": "custom_catch",
         "d": "Sep 30 2024"
       }
     ]
@@ -22034,7 +22072,7 @@
       "n": "Josh Berry",
       "custom": true,
       "r": "Common",
-      "c": 135,
+      "c": 136,
       "h": "beliron",
       "v": 111,
       "w": 55.59
@@ -23886,7 +23924,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Running better in 2025 got a Win",
-      "c": 135,
+      "c": 136,
       "rec": "55.59 lb",
       "v": 111
     },
@@ -26170,6 +26208,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Josh Berry",
+      "w": 51.48,
+      "v": 103,
+      "r": "Rare",
+      "d": "Oct 03 2026"
+    },
+    {
       "u": "beliron",
       "i": "Kamui Kobayashi",
       "w": 1.02,
@@ -26759,14 +26805,6 @@
       "w": 54.81,
       "v": 55,
       "r": "Uncommon",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "Rubber Ducky",
-      "w": 0.11,
-      "v": 106,
-      "r": "Rare",
       "d": "Sep 02 2026"
     }
   ]
