@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-10-01T03:02:52.742648+00:00",
+    "generated_at": "2026-10-03T22:25:27.973815+00:00",
     "total_catches": 23866,
     "unique_catches": 375,
     "total_players": 815,
@@ -275,7 +275,7 @@
       "sub": "Since launch - 23866 catches"
     },
     "monthly": {
-      "label": "September 2026",
+      "label": "October 2026",
       "sub": "Monthly Competition"
     },
     "weekly": {
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Sep 30 2026",
+      "label": "Oct 03 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6810,112 +6810,7 @@
         "l": "Nov 26 2025"
       }
     ],
-    "monthly": [
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 2732,
-        "c": 42,
-        "casts": 42,
-        "l": "Sep 16 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 834,
-        "c": 7,
-        "casts": 7,
-        "l": "Sep 30 2026"
-      },
-      {
-        "u": "nellafella",
-        "n": "nellafella",
-        "g": 723,
-        "c": 10,
-        "casts": 10,
-        "l": "Sep 16 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 282,
-        "c": 4,
-        "casts": 4,
-        "l": "Sep 16 2026"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 179,
-        "c": 5,
-        "casts": 5,
-        "l": "Sep 30 2026"
-      },
-      {
-        "u": "rhetti_",
-        "n": "rhetti_",
-        "g": 101,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "pvtcrackpot",
-        "n": "pvtcrackpot",
-        "g": 95,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "purple_racingcataclysm",
-        "n": "purple_racingcataclysm",
-        "g": 86,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 12 2026"
-      },
-      {
-        "u": "grumpymitch1",
-        "n": "grumpymitch1",
-        "g": 79,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 02 2026"
-      },
-      {
-        "u": "jdawg250f",
-        "n": "jdawg250f",
-        "g": 51,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 16 2026"
-      },
-      {
-        "u": "v1per_simr4cin6",
-        "n": "v1per_simr4cin6",
-        "g": 31,
-        "c": 3,
-        "casts": 3,
-        "l": "Sep 11 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 27,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 16 2026"
-      },
-      {
-        "u": "thesaucypanda2",
-        "n": "thesaucypanda2",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 16 2026"
-      }
-    ],
+    "monthly": [],
     "weekly": [
       {
         "u": "beliron",
@@ -6934,26 +6829,39 @@
         "l": "Sep 30 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 106,
-        "c": 2,
-        "casts": 2,
-        "l": "Sep 30 2026"
-      },
-      {
-        "u": "gatoraintplaying",
-        "n": "gatoraintplaying",
-        "g": 11,
-        "c": 1,
-        "casts": 1,
-        "l": "Sep 30 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Oct 02",
+      "date": "2026-10-02",
+      "leaderboard": []
+    },
+    {
+      "label": "Oct 01",
+      "date": "2026-10-01",
+      "leaderboard": []
+    },
+    {
+      "label": "Sep 30",
+      "date": "2026-09-30",
+      "leaderboard": [
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 106,
+          "c": 2,
+          "l": "Sep 30 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 11,
+          "c": 1,
+          "l": "Sep 30 2026"
+        }
+      ]
+    },
     {
       "label": "Sep 29",
       "date": "2026-09-29",
@@ -6972,21 +6880,6 @@
     {
       "label": "Sep 26",
       "date": "2026-09-26",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 25",
-      "date": "2026-09-25",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 24",
-      "date": "2026-09-24",
-      "leaderboard": []
-    },
-    {
-      "label": "Sep 23",
-      "date": "2026-09-23",
       "leaderboard": []
     }
   ],
@@ -7537,6 +7430,103 @@
     }
   ],
   "monthly_history": [
+    {
+      "label": "September 2026",
+      "date": "2026-09",
+      "leaderboard": [
+        {
+          "n": "brookswhynot",
+          "u": "brookswhynot",
+          "g": 2732,
+          "c": 42,
+          "l": "Sep 16 2026"
+        },
+        {
+          "n": "gatoraintplaying",
+          "u": "gatoraintplaying",
+          "g": 834,
+          "c": 7,
+          "l": "Sep 30 2026"
+        },
+        {
+          "n": "nellafella",
+          "u": "nellafella",
+          "g": 723,
+          "c": 10,
+          "l": "Sep 16 2026"
+        },
+        {
+          "n": "flippy00",
+          "u": "flippy00",
+          "g": 282,
+          "c": 4,
+          "l": "Sep 16 2026"
+        },
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 179,
+          "c": 5,
+          "l": "Sep 30 2026"
+        },
+        {
+          "n": "rhetti_",
+          "u": "rhetti_",
+          "g": 101,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "pvtcrackpot",
+          "u": "pvtcrackpot",
+          "g": 95,
+          "c": 1,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "purple_racingcataclysm",
+          "u": "purple_racingcataclysm",
+          "g": 86,
+          "c": 2,
+          "l": "Sep 12 2026"
+        },
+        {
+          "n": "grumpymitch1",
+          "u": "grumpymitch1",
+          "g": 79,
+          "c": 1,
+          "l": "Sep 02 2026"
+        },
+        {
+          "n": "jdawg250f",
+          "u": "jdawg250f",
+          "g": 51,
+          "c": 1,
+          "l": "Sep 16 2026"
+        },
+        {
+          "n": "v1per_simr4cin6",
+          "u": "v1per_simr4cin6",
+          "g": 31,
+          "c": 3,
+          "l": "Sep 11 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 27,
+          "c": 1,
+          "l": "Sep 16 2026"
+        },
+        {
+          "n": "thesaucypanda2",
+          "u": "thesaucypanda2",
+          "g": 1,
+          "c": 1,
+          "l": "Sep 16 2026"
+        }
+      ]
+    },
     {
       "label": "August 2026",
       "date": "2026-08",
@@ -9225,187 +9215,6 @@
           "l": "Oct 27 2025"
         }
       ]
-    },
-    {
-      "label": "September 2025",
-      "date": "2025-09",
-      "leaderboard": [
-        {
-          "n": "drewieblaster",
-          "u": "drewieblaster",
-          "g": 3845,
-          "c": 37,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 2056,
-          "c": 19,
-          "l": "Sep 27 2025"
-        },
-        {
-          "n": "itzdubsta",
-          "u": "itzdubsta",
-          "g": 915,
-          "c": 3,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "mrdrwaddles",
-          "u": "mrdrwaddles",
-          "g": 848,
-          "c": 13,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "78motu78",
-          "u": "78motu78",
-          "g": 728,
-          "c": 2,
-          "l": "Sep 03 2025"
-        },
-        {
-          "n": "flippy00",
-          "u": "flippy00",
-          "g": 694,
-          "c": 12,
-          "l": "Sep 29 2025"
-        },
-        {
-          "n": "tom_reiher",
-          "u": "tom_reiher",
-          "g": 694,
-          "c": 8,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "scripture_",
-          "u": "scripture_",
-          "g": 617,
-          "c": 1,
-          "l": "Sep 04 2025"
-        },
-        {
-          "n": "floduehrkop",
-          "u": "floduehrkop",
-          "g": 402,
-          "c": 6,
-          "l": "Sep 27 2025"
-        },
-        {
-          "n": "crockpat",
-          "u": "crockpat",
-          "g": 283,
-          "c": 2,
-          "l": "Sep 11 2025"
-        },
-        {
-          "n": "benwysard",
-          "u": "benwysard",
-          "g": 249,
-          "c": 3,
-          "l": "Sep 20 2025"
-        },
-        {
-          "n": "juicedracing",
-          "u": "juicedracing",
-          "g": 247,
-          "c": 1,
-          "l": "Sep 19 2025"
-        },
-        {
-          "n": "rackemm__",
-          "u": "rackemm__",
-          "g": 223,
-          "c": 1,
-          "l": "Sep 06 2025"
-        },
-        {
-          "n": "beliron",
-          "u": "beliron",
-          "g": 188,
-          "c": 6,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "grumpymitch1",
-          "u": "grumpymitch1",
-          "g": 179,
-          "c": 1,
-          "l": "Sep 13 2025"
-        },
-        {
-          "n": "showtime_84",
-          "u": "showtime_84",
-          "g": 161,
-          "c": 2,
-          "l": "Sep 30 2025"
-        },
-        {
-          "n": "dogger_101",
-          "u": "dogger_101",
-          "g": 140,
-          "c": 3,
-          "l": "Sep 24 2025"
-        },
-        {
-          "n": "ginganinjaracing",
-          "u": "ginganinjaracing",
-          "g": 132,
-          "c": 3,
-          "l": "Sep 23 2025"
-        },
-        {
-          "n": "azure616",
-          "u": "azure616",
-          "g": 117,
-          "c": 2,
-          "l": "Sep 04 2025"
-        },
-        {
-          "n": "jcalavera92",
-          "u": "jcalavera92",
-          "g": 108,
-          "c": 1,
-          "l": "Sep 29 2025"
-        },
-        {
-          "n": "maden3w",
-          "u": "maden3w",
-          "g": 87,
-          "c": 1,
-          "l": "Sep 20 2025"
-        },
-        {
-          "n": "gravitalflux",
-          "u": "gravitalflux",
-          "g": 73,
-          "c": 1,
-          "l": "Sep 12 2025"
-        },
-        {
-          "n": "yourloosebowels",
-          "u": "yourloosebowels",
-          "g": 69,
-          "c": 1,
-          "l": "Sep 08 2025"
-        },
-        {
-          "n": "itscherg",
-          "u": "itscherg",
-          "g": 66,
-          "c": 1,
-          "l": "Sep 05 2025"
-        },
-        {
-          "n": "kgabbs",
-          "u": "kgabbs",
-          "g": 61,
-          "c": 1,
-          "l": "Sep 12 2025"
-        }
-      ]
     }
   ],
   "best_catch": {
@@ -9586,99 +9395,7 @@
         "d": "Jan 22 2025"
       }
     ],
-    "monthly": [
-      {
-        "n": "brookswhynot",
-        "i": "Darrell Waltrip",
-        "v": 252,
-        "r": "Epic",
-        "d": "Sep 02 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "World Wide Technology Raceway",
-        "v": 211,
-        "r": "Epic",
-        "d": "Sep 02 2026"
-      },
-      {
-        "n": "nellafella",
-        "i": "Simucube 2 Ultimate",
-        "v": 208,
-        "r": "Epic",
-        "d": "Sep 16 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "87 Ford Thunderbird",
-        "v": 197,
-        "r": "Epic",
-        "d": "Sep 02 2026"
-      },
-      {
-        "n": "beliron",
-        "i": "Dylan Dowell",
-        "v": 105,
-        "r": "Rare",
-        "d": "Sep 30 2026"
-      },
-      {
-        "n": "rhetti_",
-        "i": "Lion Fish",
-        "v": 101,
-        "r": "Epic",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "pvtcrackpot",
-        "i": "Kansas Speedway",
-        "v": 95,
-        "r": "Rare",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "grumpymitch1",
-        "i": "Olive Ridley Turtle",
-        "v": 79,
-        "r": "Rare",
-        "d": "Sep 02 2026"
-      },
-      {
-        "n": "jdawg250f",
-        "i": "Garrett Smithley",
-        "v": 51,
-        "r": "Uncommon",
-        "d": "Sep 16 2026"
-      },
-      {
-        "n": "purple_racingcataclysm",
-        "i": "Scooter",
-        "v": 45,
-        "r": "Junk",
-        "d": "Sep 12 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Katherine Legge",
-        "v": 27,
-        "r": "Common",
-        "d": "Sep 16 2026"
-      },
-      {
-        "n": "v1per_simr4cin6",
-        "i": "Mackerel",
-        "v": 21,
-        "r": "Common",
-        "d": "Sep 02 2026"
-      },
-      {
-        "n": "thesaucypanda2",
-        "i": "Ryan Preece",
-        "v": 1,
-        "r": "Junk",
-        "d": "Sep 16 2026"
-      }
-    ],
+    "monthly": [],
     "weekly": [
       {
         "n": "beliron",
@@ -9695,22 +9412,7 @@
         "d": "Sep 30 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "beliron",
-        "i": "Dylan Dowell",
-        "v": 105,
-        "r": "Rare",
-        "d": "Sep 30 2026"
-      },
-      {
-        "n": "gatoraintplaying",
-        "i": "Castrol SRF Racing Brake Fluid",
-        "v": 11,
-        "r": "Junk",
-        "d": "Sep 30 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
