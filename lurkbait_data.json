@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-03T23:02:19.052042+00:00",
-    "total_catches": 23867,
+    "generated_at": "2026-10-04T04:07:59.009871+00:00",
+    "total_catches": 23868,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23867 catches"
+      "sub": "Since launch - 23868 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -852,10 +852,10 @@
       {
         "u": "itzdubsta",
         "n": "itzdubsta",
-        "g": 5077,
-        "c": 68,
-        "casts": 68,
-        "l": "Aug 08 2026"
+        "g": 5104,
+        "c": 69,
+        "casts": 69,
+        "l": "Oct 03 2026"
       },
       {
         "u": "critinator",
@@ -6818,6 +6818,14 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 03 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 03 2026"
       }
     ],
     "weekly": [
@@ -6836,6 +6844,14 @@
         "c": 2,
         "casts": 2,
         "l": "Sep 30 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 03 2026"
       }
     ],
     "daily": [
@@ -6843,6 +6859,14 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 103,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 03 2026"
+      },
+      {
+        "u": "itzdubsta",
+        "n": "itzdubsta",
+        "g": 27,
         "c": 1,
         "casts": 1,
         "l": "Oct 03 2026"
@@ -9420,6 +9444,13 @@
         "v": 103,
         "r": "Rare",
         "d": "Oct 03 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 03 2026"
       }
     ],
     "weekly": [
@@ -9436,6 +9467,13 @@
         "v": 103,
         "r": "Rare",
         "d": "Oct 03 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 03 2026"
       }
     ],
     "daily": [
@@ -9444,6 +9482,13 @@
         "i": "Josh Berry",
         "v": 103,
         "r": "Rare",
+        "d": "Oct 03 2026"
+      },
+      {
+        "n": "itzdubsta",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
         "d": "Oct 03 2026"
       }
     ]
@@ -22207,7 +22252,7 @@
       "n": "$25 iRacing Creds",
       "custom": true,
       "r": "Common",
-      "c": 152,
+      "c": 153,
       "h": "drewieblaster",
       "v": 28,
       "w": 1.13
@@ -23798,7 +23843,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You can buy 1/2 a track with this.",
-      "c": 152,
+      "c": 153,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -26208,6 +26253,14 @@
   ],
   "recent": [
     {
+      "u": "itzdubsta",
+      "i": "$25 iRacing Creds",
+      "w": 1.06,
+      "v": 27,
+      "r": "Common",
+      "d": "Oct 03 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Josh Berry",
       "w": 51.48,
@@ -26797,14 +26850,6 @@
       "w": 201.93,
       "v": 101,
       "r": "Rare",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Michael McDowell",
-      "w": 54.81,
-      "v": 55,
-      "r": "Uncommon",
       "d": "Sep 02 2026"
     }
   ]
