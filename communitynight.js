@@ -109,7 +109,7 @@
     $('cn-title').textContent = (CN.view === 'year' ? CN.year + ' Yearly' : v.label) + ' — Standings';
     $('cn-subtitle').textContent = CN.view === 'year'
       ? 'Points • Every scored race in ' + CN.year + ' (Seasons 1–4)'
-      : 'Points • Every scored race counts • 10+ cars • 51% laps';
+      : 'Points • Every race counts • 51% laps';
 
     var st = v.stats || {};
     $('cn-stats').innerHTML = [
