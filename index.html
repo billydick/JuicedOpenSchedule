@@ -1040,11 +1040,13 @@
   text-transform:uppercase;color:rgba(200,200,200,.45)}
 .cn-dd-opt + .cn-dd-opt{border-top:1px solid var(--border)}
 .cn-dd-opt:hover{color:var(--white);background:rgba(255,255,255,.04)}
+/* Touch screens: menu lives on <body> (see cnStandingsTap) so the scrolling nav strip can't clip it */
+.cn-nav-dd-menu.cn-portal{position:fixed;display:none}
+.cn-nav-dd-menu.cn-portal.cn-open{display:block}
 @media (max-width:768px){
   .cn-nav-dd{flex:none}
   .cn-nav-dd-menu{position:fixed}
   .cn-nav-dd:hover .cn-nav-dd-menu{display:none}
-  .cn-nav-dd.open .cn-nav-dd-menu{display:block}
   .cn-dd-opt{font-size:12px}
 }
 </style>
@@ -12689,26 +12691,42 @@ if (hash.indexOf('debrief/') !== 0) setPage(startPage);
 
   // Standings nav: hover shows the two choices (desktop); tap toggles them (touch / mobile).
   var _touch = window.matchMedia('(hover: none)').matches;
+  // On touch screens the menu is moved to <body>: the mobile nav strip scrolls sideways
+  // (overflow-x:auto), and iOS Safari clips anything inside it, even position:fixed.
+  var _menu = null;
+  function _cnMenu(){
+    if (!_menu) _menu = document.querySelector('#cnNavDd .cn-nav-dd-menu');
+    return _menu;
+  }
+  function _cnClose(){
+    var dd = document.getElementById('cnNavDd'); if (dd) dd.classList.remove('open');
+    var m = _cnMenu(); if (m) m.classList.remove('cn-open');
+  }
   window.cnStandingsTap = function(e){
-    var dd = document.getElementById('cnNavDd');
     if (_touch) {
       e.preventDefault(); e.stopPropagation();
-      var menu = dd.querySelector('.cn-nav-dd-menu');
+      var menu = _cnMenu();
+      if (menu.parentNode !== document.body) { document.body.appendChild(menu); menu.classList.add('cn-portal'); }
       var r = e.currentTarget.getBoundingClientRect();
-      menu.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 260)) + 'px';
+      menu.style.left = Math.max(8, Math.min(r.left, window.innerWidth - 268)) + 'px';
       menu.style.top = r.bottom + 'px';
-      dd.classList.toggle('open');
+      menu.classList.toggle('cn-open');
       return false;
     }
     setPage('standings');
     return true;
   };
   window.cnChoose = function(page){
-    document.getElementById('cnNavDd').classList.remove('open');
+    _cnClose();
     setPage(page);
     return true;
   };
-  document.addEventListener('click', function(){ var dd = document.getElementById('cnNavDd'); if (dd) dd.classList.remove('open'); });
+  document.addEventListener('click', function(e){
+    var m = _cnMenu();
+    if (m && m.contains(e.target)) return;   // let the menu's own links run
+    _cnClose();
+  });
+  window.addEventListener('scroll', _cnClose, {passive:true});
 
   function _loadCn(cb){
     if (_cnLoaded) { if (cb) cb(); return; }
