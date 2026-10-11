@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-10T22:49:23.615627+00:00",
-    "total_catches": 23868,
+    "generated_at": "2026-10-11T00:29:47.435475+00:00",
+    "total_catches": 23869,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23868 catches"
+      "sub": "Since launch - 23869 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 24750,
-        "c": 363,
-        "casts": 363,
-        "l": "Oct 03 2026"
+        "g": 24777,
+        "c": 364,
+        "casts": 364,
+        "l": "Oct 10 2026"
       },
       {
         "u": "justingamez",
@@ -6814,10 +6814,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 103,
-        "c": 1,
-        "casts": 1,
-        "l": "Oct 03 2026"
+        "g": 130,
+        "c": 2,
+        "casts": 2,
+        "l": "Oct 10 2026"
       },
       {
         "u": "itzdubsta",
@@ -6828,8 +6828,26 @@
         "l": "Oct 03 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 10 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 10 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9306,8 +9324,24 @@
         "d": "Oct 03 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Fire Bottle Nozzle",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 10 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "Fire Bottle Nozzle",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 10 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -22059,7 +22093,7 @@
       "n": "Fire Bottle Nozzle",
       "custom": true,
       "r": "Common",
-      "c": 150,
+      "c": 151,
       "h": "lishogunil",
       "v": 28,
       "w": 2.26
@@ -24208,7 +24242,7 @@
       "r": "Common",
       "custom": true,
       "desc": "Nozzle for a Fire Bottle",
-      "c": 150,
+      "c": 151,
       "rec": "2.26 lb",
       "v": 28
     },
@@ -26069,6 +26103,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "Fire Bottle Nozzle",
+      "w": 2.15,
+      "v": 27,
+      "r": "Common",
+      "d": "Oct 10 2026"
+    },
+    {
       "u": "itzdubsta",
       "i": "$25 iRacing Creds",
       "w": 1.06,
@@ -26658,14 +26700,6 @@
       "w": 0.98,
       "v": 197,
       "r": "Epic",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Rockingham Speedway",
-      "w": 201.93,
-      "v": 101,
-      "r": "Rare",
       "d": "Sep 02 2026"
     }
   ]
