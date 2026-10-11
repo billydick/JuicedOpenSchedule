@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T03:49:45Z",
+  "generated_at": "2026-10-11T03:51:10Z",
   "meta": {
-    "total_hands": 511,
+    "total_hands": 512,
     "total_players": 35,
     "biggest_bet": {
       "user": "juicedracing",
@@ -43,9 +43,9 @@
       },
       {
         "u": "flippy00",
-        "chips": 262010,
-        "net": -4477,
-        "hands": 0,
+        "chips": 299510,
+        "net": 33023,
+        "hands": 1,
         "ach": 2
       },
       {
@@ -282,6 +282,13 @@
     ],
     "daily": [
       {
+        "u": "flippy00",
+        "chips": 299510,
+        "net": 37500,
+        "hands": 1,
+        "ach": 2
+      },
+      {
         "u": "rhetti_",
         "chips": 1899,
         "net": -38500,
@@ -292,15 +299,15 @@
   },
   "daily_highlights": {
     "biggest_win": {
-      "u": "rhetti_",
+      "u": "flippy00",
       "cards": [
-        "A♠",
-        "9♥"
+        "J♦",
+        "A♥"
       ],
-      "total": 20,
-      "bet": 1500,
-      "net": 1500,
-      "result": "win"
+      "total": 21,
+      "bet": 25000,
+      "net": 37500,
+      "result": "blackjack"
     },
     "biggest_loss": {
       "u": "rhetti_",
@@ -334,6 +341,10 @@
     },
     "worst_streak": {
       "u": "rhetti_",
+      "n": 1
+    },
+    "most_blackjacks": {
+      "u": "flippy00",
       "n": 1
     },
     "most_cards_win": {
@@ -3924,7 +3935,7 @@
         },
         {
           "u": "flippy00",
-          "chips": 262010,
+          "chips": 299510,
           "net": 14333,
           "hands": 1,
           "ach": 2
@@ -6600,7 +6611,7 @@
         },
         {
           "u": "flippy00",
-          "chips": 262010,
+          "chips": 299510,
           "net": -18810,
           "hands": 2,
           "ach": 2
@@ -8976,6 +8987,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1791690670.6429043,
+      "date": "2026-10-10",
+      "player": "flippy00",
+      "bet": 25000,
+      "balance_before": 262010,
+      "result": "blackjack",
+      "net_delta": 37500,
+      "player_cards": [
+        "J♦",
+        "A♥"
+      ],
+      "player_total": 21,
+      "hit_count": 0,
+      "dealer_cards": [
+        "8♥",
+        "K♣"
+      ],
+      "dealer_total": 18,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1791690585.8056731,
       "date": "2026-10-10",
       "player": "rhetti_",
@@ -10509,35 +10547,6 @@
       "poker_relief": 0,
       "poker_bonus": 0,
       "achievements_earned": []
-    },
-    {
-      "ts": 1787193955.7887447,
-      "date": "2026-08-19",
-      "player": "juicedracing",
-      "bet": 15000,
-      "balance_before": 15060,
-      "result": "blackjack",
-      "net_delta": 22500,
-      "player_cards": [
-        "A♦",
-        "10♦"
-      ],
-      "player_total": 21,
-      "hit_count": 0,
-      "dealer_cards": [
-        "10♠",
-        "Q♥"
-      ],
-      "dealer_total": 20,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": null,
-      "poker_pct": null,
-      "poker_relief": 0,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "big_nerve_win"
-      ]
     }
   ]
 }
