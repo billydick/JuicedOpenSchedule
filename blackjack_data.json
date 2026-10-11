@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-11T03:48:00Z",
+  "generated_at": "2026-10-11T03:49:45Z",
   "meta": {
-    "total_hands": 510,
+    "total_hands": 511,
     "total_players": 35,
     "biggest_bet": {
       "user": "juicedracing",
@@ -43,7 +43,7 @@
       },
       {
         "u": "flippy00",
-        "chips": 256960,
+        "chips": 262010,
         "net": -4477,
         "hands": 0,
         "ach": 2
@@ -123,13 +123,6 @@
         "chips": 42400,
         "net": -336737,
         "hands": 0,
-        "ach": 0
-      },
-      {
-        "u": "rhetti_",
-        "chips": 41849,
-        "net": 18699,
-        "hands": 1,
         "ach": 0
       },
       {
@@ -252,6 +245,13 @@
         "ach": 0
       },
       {
+        "u": "rhetti_",
+        "chips": 1899,
+        "net": -21301,
+        "hands": 2,
+        "ach": 0
+      },
+      {
         "u": "darkhorizon35",
         "chips": 1600,
         "net": -87250,
@@ -283,9 +283,9 @@
     "daily": [
       {
         "u": "rhetti_",
-        "chips": 41849,
-        "net": 1500,
-        "hands": 1,
+        "chips": 1899,
+        "net": -38500,
+        "hands": 2,
         "ach": 0
       }
     ]
@@ -302,22 +302,37 @@
       "net": 1500,
       "result": "win"
     },
+    "biggest_loss": {
+      "u": "rhetti_",
+      "cards": [
+        "J♠",
+        "K♣"
+      ],
+      "total": 20,
+      "bet": 40000,
+      "net": -40000,
+      "result": "lose"
+    },
     "biggest_bet": {
       "u": "rhetti_",
       "cards": [
-        "A♠",
-        "9♥"
+        "J♠",
+        "K♣"
       ],
       "total": 20,
-      "bet": 1500,
-      "net": 1500,
-      "result": "win"
+      "bet": 40000,
+      "net": -40000,
+      "result": "lose"
     },
     "most_hands": {
       "u": "rhetti_",
-      "n": 1
+      "n": 2
     },
     "best_streak": {
+      "u": "rhetti_",
+      "n": 1
+    },
+    "worst_streak": {
       "u": "rhetti_",
       "n": 1
     },
@@ -888,7 +903,7 @@
       "leaderboard": [
         {
           "u": "rhetti_",
-          "chips": 41849,
+          "chips": 1899,
           "net": -900,
           "hands": 1,
           "ach": 0
@@ -1095,7 +1110,7 @@
         },
         {
           "u": "rhetti_",
-          "chips": 41849,
+          "chips": 1899,
           "net": 19000,
           "hands": 3,
           "ach": 0
@@ -1426,7 +1441,7 @@
         },
         {
           "u": "rhetti_",
-          "chips": 41849,
+          "chips": 1899,
           "net": -901,
           "hands": 1,
           "ach": 0
@@ -3909,7 +3924,7 @@
         },
         {
           "u": "flippy00",
-          "chips": 256960,
+          "chips": 262010,
           "net": 14333,
           "hands": 1,
           "ach": 2
@@ -6585,7 +6600,7 @@
         },
         {
           "u": "flippy00",
-          "chips": 256960,
+          "chips": 262010,
           "net": -18810,
           "hands": 2,
           "ach": 2
@@ -8961,6 +8976,33 @@
   ],
   "recent_hands": [
     {
+      "ts": 1791690585.8056731,
+      "date": "2026-10-10",
+      "player": "rhetti_",
+      "bet": 40000,
+      "balance_before": 41849,
+      "result": "lose",
+      "net_delta": -40000,
+      "player_cards": [
+        "J♠",
+        "K♣"
+      ],
+      "player_total": 20,
+      "hit_count": 0,
+      "dealer_cards": [
+        "A♠",
+        "J♣"
+      ],
+      "dealer_total": 21,
+      "dealer_bust": false,
+      "table_size": 1,
+      "poker_rank": null,
+      "poker_pct": null,
+      "poker_relief": 0,
+      "poker_bonus": 0,
+      "achievements_earned": []
+    },
+    {
       "ts": 1791690480.632475,
       "date": "2026-10-10",
       "player": "rhetti_",
@@ -10495,39 +10537,6 @@
       "poker_bonus": 0,
       "achievements_earned": [
         "big_nerve_win"
-      ]
-    },
-    {
-      "ts": 1787183123.3307216,
-      "date": "2026-08-19",
-      "player": "larcen22",
-      "bet": 1001,
-      "balance_before": 27342,
-      "result": "lose",
-      "net_delta": -901,
-      "player_cards": [
-        "4♥",
-        "5♣",
-        "3♣",
-        "5♥"
-      ],
-      "player_total": 17,
-      "hit_count": 2,
-      "dealer_cards": [
-        "8♠",
-        "8♦",
-        "5♠"
-      ],
-      "dealer_total": 21,
-      "dealer_bust": false,
-      "table_size": 1,
-      "poker_rank": "pair",
-      "poker_pct": 10,
-      "poker_relief": 100,
-      "poker_bonus": 0,
-      "achievements_earned": [
-        "poker_pair_any",
-        "poker_salvation"
       ]
     }
   ]
