@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-17T22:38:56.301698+00:00",
-    "total_catches": 23869,
+    "generated_at": "2026-10-17T23:10:41.603648+00:00",
+    "total_catches": 23870,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23869 catches"
+      "sub": "Since launch - 23870 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37361,
-        "c": 574,
-        "casts": 574,
-        "l": "Sep 16 2026"
+        "g": 37426,
+        "c": 575,
+        "casts": 575,
+        "l": "Oct 17 2026"
       },
       {
         "u": "jdawg250f",
@@ -6820,6 +6820,14 @@
         "l": "Oct 10 2026"
       },
       {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 17 2026"
+      },
+      {
         "u": "itzdubsta",
         "n": "itzdubsta",
         "g": 27,
@@ -6828,8 +6836,26 @@
         "l": "Oct 03 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 17 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 65,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 17 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9201,6 +9227,13 @@
         "d": "Oct 03 2026"
       },
       {
+        "n": "juicedracing",
+        "i": "THROTTLE RETURN SPRING KIT",
+        "v": 65,
+        "r": "Rare",
+        "d": "Oct 17 2026"
+      },
+      {
         "n": "itzdubsta",
         "i": "$25 iRacing Creds",
         "v": 27,
@@ -9208,8 +9241,24 @@
         "d": "Oct 03 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "juicedracing",
+        "i": "THROTTLE RETURN SPRING KIT",
+        "v": 65,
+        "r": "Rare",
+        "d": "Oct 17 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "juicedracing",
+        "i": "THROTTLE RETURN SPRING KIT",
+        "v": 65,
+        "r": "Rare",
+        "d": "Oct 17 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -21124,7 +21173,7 @@
       "n": "THROTTLE RETURN SPRING KIT",
       "custom": true,
       "r": "Rare",
-      "c": 59,
+      "c": 60,
       "h": "ironlegacy_",
       "v": 85,
       "w": 2.26
@@ -24551,7 +24600,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "Returns the throttle",
-      "c": 59,
+      "c": 60,
       "rec": "2.26 lb",
       "v": 85
     },
@@ -25971,6 +26020,14 @@
   ],
   "recent": [
     {
+      "u": "juicedracing",
+      "i": "THROTTLE RETURN SPRING KIT",
+      "w": 1.72,
+      "v": 65,
+      "r": "Rare",
+      "d": "Oct 17 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "Fire Bottle Nozzle",
       "w": 2.15,
@@ -26560,14 +26617,6 @@
       "w": 80.96,
       "v": 81,
       "r": "Rare",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "gatoraintplaying",
-      "i": "87 Ford Thunderbird",
-      "w": 0.98,
-      "v": 197,
-      "r": "Epic",
       "d": "Sep 02 2026"
     }
   ]
