@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T23:15:35.734895+00:00",
-    "total_catches": 23882,
+    "generated_at": "2026-10-24T23:16:41.074152+00:00",
+    "total_catches": 23884,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23882 catches"
+      "sub": "Since launch - 23884 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -316,10 +316,10 @@
       {
         "u": "pvtcrackpot",
         "n": "pvtcrackpot",
-        "g": 58664,
-        "c": 754,
-        "casts": 754,
-        "l": "Sep 12 2026"
+        "g": 58691,
+        "c": 755,
+        "casts": 755,
+        "l": "Oct 24 2026"
       },
       {
         "u": "wintergofast",
@@ -356,10 +356,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 37426,
-        "c": 575,
-        "casts": 575,
-        "l": "Oct 17 2026"
+        "g": 37436,
+        "c": 576,
+        "casts": 576,
+        "l": "Oct 24 2026"
       },
       {
         "u": "jdawg250f",
@@ -6846,10 +6846,10 @@
       {
         "u": "juicedracing",
         "n": "juicedracing",
-        "g": 65,
-        "c": 1,
-        "casts": 1,
-        "l": "Oct 17 2026"
+        "g": 75,
+        "c": 2,
+        "casts": 2,
+        "l": "Oct 24 2026"
       },
       {
         "u": "the_miggi",
@@ -6858,6 +6858,14 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 17 2026"
+      },
+      {
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
       },
       {
         "u": "itzdubsta",
@@ -6884,6 +6892,22 @@
         "c": 1,
         "casts": 1,
         "l": "Oct 24 2026"
+      },
+      {
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 10,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
       }
     ],
     "daily": [
@@ -6891,6 +6915,22 @@
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 424,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
+      },
+      {
+        "u": "pvtcrackpot",
+        "n": "pvtcrackpot",
+        "g": 27,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
+      },
+      {
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 10,
         "c": 1,
         "casts": 1,
         "l": "Oct 24 2026"
@@ -9309,6 +9349,13 @@
         "d": "Oct 03 2026"
       },
       {
+        "n": "pvtcrackpot",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 24 2026"
+      },
+      {
         "n": "beliron",
         "i": "Strange Vase",
         "v": 11,
@@ -9323,6 +9370,20 @@
         "v": 424,
         "r": "Epic",
         "d": "Oct 24 2026"
+      },
+      {
+        "n": "pvtcrackpot",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 24 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Suspension Clean",
+        "v": 10,
+        "r": "Junk",
+        "d": "Oct 24 2026"
       }
     ],
     "daily": [
@@ -9331,6 +9392,20 @@
         "i": "iRacer Jesse Winslow",
         "v": 424,
         "r": "Epic",
+        "d": "Oct 24 2026"
+      },
+      {
+        "n": "pvtcrackpot",
+        "i": "$25 iRacing Creds",
+        "v": 27,
+        "r": "Common",
+        "d": "Oct 24 2026"
+      },
+      {
+        "n": "juicedracing",
+        "i": "Suspension Clean",
+        "v": 10,
+        "r": "Junk",
         "d": "Oct 24 2026"
       }
     ]
@@ -22096,7 +22171,7 @@
       "n": "$25 iRacing Creds",
       "custom": true,
       "r": "Common",
-      "c": 153,
+      "c": 154,
       "h": "drewieblaster",
       "v": 28,
       "w": 1.13
@@ -22312,7 +22387,7 @@
       "n": "Suspension Clean",
       "custom": true,
       "r": "Common",
-      "c": 142,
+      "c": 143,
       "h": "phantommarine",
       "v": 11,
       "w": 1.12
@@ -23687,7 +23762,7 @@
       "r": "Common",
       "custom": true,
       "desc": "You can buy 1/2 a track with this.",
-      "c": 153,
+      "c": 154,
       "rec": "1.13 lb",
       "v": 28
     },
@@ -24470,7 +24545,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "The Choice of Factory Racing Teams",
-      "c": 142,
+      "c": 143,
       "rec": "1.12 lb",
       "v": 11
     },
@@ -26097,6 +26172,22 @@
   ],
   "recent": [
     {
+      "u": "pvtcrackpot",
+      "i": "$25 iRacing Creds",
+      "w": 1.1,
+      "v": 27,
+      "r": "Common",
+      "d": "Oct 24 2026"
+    },
+    {
+      "u": "juicedracing",
+      "i": "Suspension Clean",
+      "w": 0.99,
+      "v": 10,
+      "r": "Junk",
+      "d": "Oct 24 2026"
+    },
+    {
       "u": "gatoraintplaying",
       "i": "iRacer Jesse Winslow",
       "w": 101.7,
@@ -26678,22 +26769,6 @@
       "w": 29.2,
       "v": 10,
       "r": "Junk",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "flippy00",
-      "i": "Can",
-      "w": 0.46,
-      "v": 5,
-      "r": "Junk",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "v1per_simr4cin6",
-      "i": "Mackerel",
-      "w": 2.05,
-      "v": 21,
-      "r": "Common",
       "d": "Sep 02 2026"
     }
   ]
