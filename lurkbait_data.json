@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-24T21:40:28.654708+00:00",
-    "total_catches": 23881,
+    "generated_at": "2026-10-24T23:15:35.734895+00:00",
+    "total_catches": 23882,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23881 catches"
+      "sub": "Since launch - 23882 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 25067,
-        "c": 368,
-        "casts": 368,
-        "l": "Oct 17 2026"
+        "g": 25491,
+        "c": 369,
+        "casts": 369,
+        "l": "Oct 24 2026"
       },
       {
         "u": "justingamez",
@@ -6814,10 +6814,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 420,
-        "c": 6,
-        "casts": 6,
-        "l": "Oct 17 2026"
+        "g": 844,
+        "c": 7,
+        "casts": 7,
+        "l": "Oct 24 2026"
       },
       {
         "u": "danfzzl",
@@ -6876,8 +6876,26 @@
         "l": "Oct 17 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 424,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 424,
+        "c": 1,
+        "casts": 1,
+        "l": "Oct 24 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9243,10 +9261,10 @@
     "monthly": [
       {
         "n": "gatoraintplaying",
-        "i": "iRacer - Kirk Martin",
-        "v": 221,
+        "i": "iRacer Jesse Winslow",
+        "v": 424,
         "r": "Epic",
-        "d": "Oct 17 2026"
+        "d": "Oct 24 2026"
       },
       {
         "n": "nellafella",
@@ -9298,8 +9316,24 @@
         "d": "Oct 17 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "iRacer Jesse Winslow",
+        "v": 424,
+        "r": "Epic",
+        "d": "Oct 24 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "iRacer Jesse Winslow",
+        "v": 424,
+        "r": "Epic",
+        "d": "Oct 24 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -19353,7 +19387,7 @@
       "n": "iRacer Jesse Winslow",
       "custom": true,
       "r": "Legendary",
-      "c": 12,
+      "c": 13,
       "h": "fjvgaming",
       "v": 559,
       "w": 134.17
@@ -25651,7 +25685,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "BDC Season 1 Champion",
-      "c": 12,
+      "c": 13,
       "rec": "134.17 lb",
       "v": 559
     },
@@ -26062,6 +26096,14 @@
     }
   ],
   "recent": [
+    {
+      "u": "gatoraintplaying",
+      "i": "iRacer Jesse Winslow",
+      "w": 101.7,
+      "v": 424,
+      "r": "Epic",
+      "d": "Oct 24 2026"
+    },
     {
       "u": "danfzzl",
       "i": "Olive Ridley Turtle",
@@ -26652,14 +26694,6 @@
       "w": 2.05,
       "v": 21,
       "r": "Common",
-      "d": "Sep 02 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Orange-Spotted Spinefoot",
-      "w": 0.1,
-      "v": 71,
-      "r": "Rare",
       "d": "Sep 02 2026"
     }
   ]
