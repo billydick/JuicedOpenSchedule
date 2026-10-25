@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T03:42:12.365326+00:00",
-    "total_catches": 23899,
+    "generated_at": "2026-10-25T03:43:18.363920+00:00",
+    "total_catches": 23900,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23899 catches"
+      "sub": "Since launch - 23900 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -292,9 +292,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 107748,
-        "c": 1599,
-        "casts": 1599,
+        "g": 107830,
+        "c": 1600,
+        "casts": 1600,
         "l": "Oct 24 2026"
       },
       {
@@ -6844,6 +6844,14 @@
         "l": "Oct 17 2026"
       },
       {
+        "u": "flippy00",
+        "n": "flippy00",
+        "g": 146,
+        "c": 2,
+        "casts": 2,
+        "l": "Oct 24 2026"
+      },
+      {
         "u": "grumpymitch1",
         "n": "grumpymitch1",
         "g": 136,
@@ -6857,14 +6865,6 @@
         "g": 75,
         "c": 2,
         "casts": 2,
-        "l": "Oct 24 2026"
-      },
-      {
-        "u": "flippy00",
-        "n": "flippy00",
-        "g": 64,
-        "c": 1,
-        "casts": 1,
         "l": "Oct 24 2026"
       },
       {
@@ -6920,9 +6920,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 64,
-        "c": 1,
-        "casts": 1,
+        "g": 146,
+        "c": 2,
+        "casts": 2,
         "l": "Oct 24 2026"
       },
       {
@@ -6962,9 +6962,9 @@
       {
         "u": "flippy00",
         "n": "flippy00",
-        "g": 64,
-        "c": 1,
-        "casts": 1,
+        "g": 146,
+        "c": 2,
+        "casts": 2,
         "l": "Oct 24 2026"
       },
       {
@@ -9383,18 +9383,18 @@
         "d": "Oct 17 2026"
       },
       {
+        "n": "flippy00",
+        "i": "John H. Nemechek",
+        "v": 82,
+        "r": "Rare",
+        "d": "Oct 24 2026"
+      },
+      {
         "n": "juicedracing",
         "i": "THROTTLE RETURN SPRING KIT",
         "v": 65,
         "r": "Rare",
         "d": "Oct 17 2026"
-      },
-      {
-        "n": "flippy00",
-        "i": "Auto Club Speedway",
-        "v": 64,
-        "r": "Rare",
-        "d": "Oct 24 2026"
       },
       {
         "n": "the_miggi",
@@ -9442,8 +9442,8 @@
       },
       {
         "n": "flippy00",
-        "i": "Auto Club Speedway",
-        "v": 64,
+        "i": "John H. Nemechek",
+        "v": 82,
         "r": "Rare",
         "d": "Oct 24 2026"
       },
@@ -9479,8 +9479,8 @@
       },
       {
         "n": "flippy00",
-        "i": "Auto Club Speedway",
-        "v": 64,
+        "i": "John H. Nemechek",
+        "v": 82,
         "r": "Rare",
         "d": "Oct 24 2026"
       },
@@ -22117,7 +22117,7 @@
       "n": "John H. Nemechek",
       "custom": true,
       "r": "Common",
-      "c": 124,
+      "c": 125,
       "h": "drewieblaster",
       "v": 112,
       "w": 1.12
@@ -22837,11 +22837,11 @@
   "angler_records": {
     "alltime_catches": {
       "u": "flippy00",
-      "n": 1599
+      "n": 1600
     },
     "alltime_gold": {
       "u": "flippy00",
-      "n": 107748
+      "n": 107830
     },
     "alltime_legendaries": {
       "u": "flippy00",
@@ -24059,7 +24059,7 @@
       "r": "Rare",
       "custom": true,
       "desc": "",
-      "c": 124,
+      "c": 125,
       "rec": "1.12 lb",
       "v": 112
     },
@@ -26262,6 +26262,14 @@
   ],
   "recent": [
     {
+      "u": "flippy00",
+      "i": "John H. Nemechek",
+      "w": 0.82,
+      "v": 82,
+      "r": "Rare",
+      "d": "Oct 24 2026"
+    },
+    {
       "u": "brookswhynot",
       "i": "Caution!",
       "w": 1.02,
@@ -26851,14 +26859,6 @@
       "w": 95.42,
       "v": 95,
       "r": "Rare",
-      "d": "Sep 12 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Florence Motor Speedway tickets!",
-      "w": 0.87,
-      "v": 173,
-      "r": "Epic",
       "d": "Sep 12 2026"
     }
   ]
