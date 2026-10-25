@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-10-25T04:08:03.853840+00:00",
-    "total_catches": 23902,
+    "generated_at": "2026-10-25T04:19:25.722285+00:00",
+    "total_catches": 23903,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23902 catches"
+      "sub": "Since launch - 23903 catches"
     },
     "monthly": {
       "label": "October 2026",
@@ -324,9 +324,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 46291,
-        "c": 632,
-        "casts": 632,
+        "g": 46545,
+        "c": 633,
+        "casts": 633,
         "l": "Oct 24 2026"
       },
       {
@@ -6812,19 +6812,19 @@
     ],
     "monthly": [
       {
+        "u": "brookswhynot",
+        "n": "brookswhynot",
+        "g": 1104,
+        "c": 16,
+        "casts": 16,
+        "l": "Oct 24 2026"
+      },
+      {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
         "g": 906,
         "c": 8,
         "casts": 8,
-        "l": "Oct 24 2026"
-      },
-      {
-        "u": "brookswhynot",
-        "n": "brookswhynot",
-        "g": 850,
-        "c": 15,
-        "casts": 15,
         "l": "Oct 24 2026"
       },
       {
@@ -6904,9 +6904,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 850,
-        "c": 15,
-        "casts": 15,
+        "g": 1104,
+        "c": 16,
+        "casts": 16,
         "l": "Oct 24 2026"
       },
       {
@@ -6946,9 +6946,9 @@
       {
         "u": "brookswhynot",
         "n": "brookswhynot",
-        "g": 850,
-        "c": 15,
-        "casts": 15,
+        "g": 1104,
+        "c": 16,
+        "casts": 16,
         "l": "Oct 24 2026"
       },
       {
@@ -9356,8 +9356,8 @@
       },
       {
         "n": "brookswhynot",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 210,
+        "i": "Circuit Of The Americas",
+        "v": 254,
         "r": "Epic",
         "d": "Oct 24 2026"
       },
@@ -9435,8 +9435,8 @@
       },
       {
         "n": "brookswhynot",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 210,
+        "i": "Circuit Of The Americas",
+        "v": 254,
         "r": "Epic",
         "d": "Oct 24 2026"
       },
@@ -9472,8 +9472,8 @@
       },
       {
         "n": "brookswhynot",
-        "i": "TR160 Mk4 Racing Simulator",
-        "v": 210,
+        "i": "Circuit Of The Americas",
+        "v": 254,
         "r": "Epic",
         "d": "Oct 24 2026"
       },
@@ -13310,7 +13310,7 @@
         }
       },
       "win_month": {
-        "total": 12,
+        "total": 11,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -13322,12 +13322,11 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella",
-          "gatoraintplaying"
+          "nellafella"
         ],
         "latest": {
-          "u": "gatoraintplaying",
-          "d": "Oct 03 2026"
+          "u": "nellafella",
+          "d": "Jun 01 2026"
         }
       },
       "the_market": {
@@ -14877,7 +14876,6 @@
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
         "win_week": "Sep 30 2026",
-        "win_month": "Oct 03 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -19750,7 +19748,7 @@
       "n": "Circuit Of The Americas",
       "custom": true,
       "r": "Legendary",
-      "c": 25,
+      "c": 26,
       "h": "riflehog",
       "v": 282,
       "w": 225.74
@@ -25391,7 +25389,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "1st place at COTA!",
-      "c": 25,
+      "c": 26,
       "rec": "225.74 lb",
       "v": 282
     },
@@ -26263,6 +26261,14 @@
   "recent": [
     {
       "u": "brookswhynot",
+      "i": "Circuit Of The Americas",
+      "w": 203.27,
+      "v": 254,
+      "r": "Epic",
+      "d": "Oct 24 2026"
+    },
+    {
+      "u": "brookswhynot",
       "i": "Braxton Brannon",
       "w": 48.69,
       "v": 73,
@@ -26850,14 +26856,6 @@
       "i": "Scooter",
       "w": 13.48,
       "v": 45,
-      "r": "Junk",
-      "d": "Sep 12 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Fish Cracker",
-      "w": 0.53,
-      "v": 5,
       "r": "Junk",
       "d": "Sep 12 2026"
     }
