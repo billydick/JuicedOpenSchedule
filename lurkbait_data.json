@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-01T16:25:43.699596+00:00",
-    "total_catches": 23908,
+    "generated_at": "2026-11-01T17:44:45.002914+00:00",
+    "total_catches": 23909,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23908 catches"
+      "sub": "Since launch - 23909 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -404,10 +404,10 @@
       {
         "u": "gatoraintplaying",
         "n": "gatoraintplaying",
-        "g": 25553,
-        "c": 370,
-        "casts": 370,
-        "l": "Oct 24 2026"
+        "g": 25555,
+        "c": 371,
+        "casts": 371,
+        "l": "Nov 01 2026"
       },
       {
         "u": "justingamez",
@@ -6810,9 +6810,36 @@
         "l": "Nov 26 2025"
       }
     ],
-    "monthly": [],
-    "weekly": [],
-    "daily": []
+    "monthly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 01 2026"
+      }
+    ],
+    "weekly": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 01 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "gatoraintplaying",
+        "n": "gatoraintplaying",
+        "g": 2,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 01 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9090,9 +9117,33 @@
         "d": "Jan 22 2025"
       }
     ],
-    "monthly": [],
-    "weekly": [],
-    "daily": []
+    "monthly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "CB Longneck",
+        "v": 2,
+        "r": "Junk",
+        "d": "Nov 01 2026"
+      }
+    ],
+    "weekly": [
+      {
+        "n": "gatoraintplaying",
+        "i": "CB Longneck",
+        "v": 2,
+        "r": "Junk",
+        "d": "Nov 01 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "gatoraintplaying",
+        "i": "CB Longneck",
+        "v": 2,
+        "r": "Junk",
+        "d": "Nov 01 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -12904,7 +12955,7 @@
         }
       },
       "win_month": {
-        "total": 11,
+        "total": 12,
         "holders": [
           "zee20ate",
           "wintergofast",
@@ -12916,11 +12967,12 @@
           "drewieblaster",
           "brookswhynot",
           "showtime_84",
-          "nellafella"
+          "nellafella",
+          "gatoraintplaying"
         ],
         "latest": {
-          "u": "nellafella",
-          "d": "Jun 01 2026"
+          "u": "gatoraintplaying",
+          "d": "Nov 01 2026"
         }
       },
       "the_market": {
@@ -14470,6 +14522,7 @@
         "supplier": "Aug 08 2026",
         "wholesale": "Oct 09 2024",
         "win_week": "Sep 30 2026",
+        "win_month": "Nov 01 2026",
         "golden_cast": "Oct 09 2024",
         "legend_hunter": "Oct 09 2024",
         "legend_collector": "Mar 26 2025",
@@ -22375,7 +22428,7 @@
       "n": "CB Longneck",
       "custom": false,
       "r": "Junk",
-      "c": 127,
+      "c": 128,
       "h": "ironlegacy_",
       "v": 2,
       "w": 0.23
@@ -23066,7 +23119,7 @@
       "r": "Junk",
       "custom": false,
       "desc": "",
-      "c": 127,
+      "c": 128,
       "rec": "0.23 lb",
       "v": 2
     },
@@ -25854,6 +25907,14 @@
   ],
   "recent": [
     {
+      "u": "gatoraintplaying",
+      "i": "CB Longneck",
+      "w": 0.18,
+      "v": 2,
+      "r": "Junk",
+      "d": "Nov 01 2026"
+    },
+    {
       "u": "sparkymotors",
       "i": "Joey Logano",
       "w": 27.49,
@@ -26443,14 +26504,6 @@
       "w": 0.17,
       "v": 43,
       "r": "Uncommon",
-      "d": "Sep 12 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Bristol Motor Speedway",
-      "w": 212.77,
-      "v": 16,
-      "r": "Common",
       "d": "Sep 12 2026"
     }
   ]
