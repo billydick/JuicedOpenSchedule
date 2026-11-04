@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T18:39:29.908654+00:00",
-    "total_catches": 23910,
+    "generated_at": "2026-11-04T20:48:21.617681+00:00",
+    "total_catches": 23911,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23910 catches"
+      "sub": "Since launch - 23911 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -546,20 +546,20 @@
         "l": "Aug 03 2025"
       },
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 11007,
+        "c": 129,
+        "casts": 129,
+        "l": "Nov 04 2026"
+      },
+      {
         "u": "stoofi1992",
         "n": "stoofi1992",
         "g": 10983,
         "c": 185,
         "casts": 185,
         "l": "Jun 04 2025"
-      },
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 10784,
-        "c": 128,
-        "casts": 128,
-        "l": "Oct 17 2026"
       },
       {
         "u": "thecokecowboy",
@@ -6812,6 +6812,14 @@
     ],
     "monthly": [
       {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 223,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
+      },
+      {
         "u": "muskrat21",
         "n": "muskrat21",
         "g": 53,
@@ -6828,8 +6836,26 @@
         "l": "Nov 01 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 223,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
+      }
+    ],
+    "daily": [
+      {
+        "u": "beliron",
+        "n": "beliron",
+        "g": 223,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
+      }
+    ]
   },
   "daily_history": [
     {
@@ -9089,6 +9115,13 @@
     ],
     "monthly": [
       {
+        "n": "beliron",
+        "i": "Micro Sprint Chassis",
+        "v": 223,
+        "r": "Epic",
+        "d": "Nov 04 2026"
+      },
+      {
         "n": "muskrat21",
         "i": "Have a Yoga Breath",
         "v": 53,
@@ -9103,8 +9136,24 @@
         "d": "Nov 01 2026"
       }
     ],
-    "weekly": [],
-    "daily": []
+    "weekly": [
+      {
+        "n": "beliron",
+        "i": "Micro Sprint Chassis",
+        "v": 223,
+        "r": "Epic",
+        "d": "Nov 04 2026"
+      }
+    ],
+    "daily": [
+      {
+        "n": "beliron",
+        "i": "Micro Sprint Chassis",
+        "v": 223,
+        "r": "Epic",
+        "d": "Nov 04 2026"
+      }
+    ]
   },
   "achievements": {
     "stream": {
@@ -12932,11 +12981,11 @@
           "brookswhynot",
           "showtime_84",
           "nellafella",
-          "muskrat21"
+          "beliron"
         ],
         "latest": {
-          "u": "muskrat21",
-          "d": "Nov 01 2026"
+          "u": "beliron",
+          "d": "Nov 04 2026"
         }
       },
       "the_market": {
@@ -17325,6 +17374,7 @@
         "triple_crown": "Jun 17 2026",
         "leg_epic_day": "Jun 17 2026",
         "win_week": "Nov 05 2025",
+        "win_month": "Nov 04 2026",
         "golden_cast": "Jun 07 2025",
         "legend_hunter": "May 04 2026"
       },
@@ -18706,8 +18756,7 @@
         "win_day": "Nov 01 2026",
         "catch_of_day": "Nov 01 2026",
         "custom_catch": "May 07 2026",
-        "win_week": "Nov 01 2026",
-        "win_month": "Nov 01 2026"
+        "win_week": "Nov 01 2026"
       },
       "barnsdale": {
         "broke_in": "May 09 2026",
@@ -19434,7 +19483,7 @@
       "n": "Micro Sprint Chassis",
       "custom": true,
       "r": "Legendary",
-      "c": 26,
+      "c": 27,
       "h": "rob_pickle12",
       "v": 248,
       "w": 56.29
@@ -24571,7 +24620,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Start your own race car build!",
-      "c": 26,
+      "c": 27,
       "rec": "56.29 lb",
       "v": 248
     },
@@ -25874,6 +25923,14 @@
   ],
   "recent": [
     {
+      "u": "beliron",
+      "i": "Micro Sprint Chassis",
+      "w": 50.62,
+      "v": 223,
+      "r": "Epic",
+      "d": "Nov 04 2026"
+    },
+    {
       "u": "muskrat21",
       "i": "Have a Yoga Breath",
       "w": 1.07,
@@ -26463,14 +26520,6 @@
       "w": 16.49,
       "v": 88,
       "r": "Rare",
-      "d": "Sep 12 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "NOMEX SFI SHIFTER BOOT",
-      "w": 1.01,
-      "v": 25,
-      "r": "Common",
       "d": "Sep 12 2026"
     }
   ]
