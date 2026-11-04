@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T22:28:53.906635+00:00",
-    "total_catches": 23913,
+    "generated_at": "2026-11-04T22:29:59.351114+00:00",
+    "total_catches": 23914,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23913 catches"
+      "sub": "Since launch - 23914 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -452,9 +452,9 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 16777,
-        "c": 199,
-        "casts": 199,
+        "g": 16832,
+        "c": 200,
+        "casts": 200,
         "l": "Nov 04 2026"
       },
       {
@@ -6820,6 +6820,14 @@
         "l": "Nov 04 2026"
       },
       {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 56,
+        "c": 2,
+        "casts": 2,
+        "l": "Nov 04 2026"
+      },
+      {
         "u": "muskrat21",
         "n": "muskrat21",
         "g": 53,
@@ -6842,14 +6850,6 @@
         "c": 1,
         "casts": 1,
         "l": "Nov 01 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 1,
-        "c": 1,
-        "casts": 1,
-        "l": "Nov 04 2026"
       }
     ],
     "weekly": [
@@ -6862,17 +6862,17 @@
         "l": "Nov 04 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 56,
+        "c": 2,
+        "casts": 2,
         "l": "Nov 04 2026"
       },
       {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 1,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 9,
         "c": 1,
         "casts": 1,
         "l": "Nov 04 2026"
@@ -6888,17 +6888,17 @@
         "l": "Nov 04 2026"
       },
       {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 56,
+        "c": 2,
+        "casts": 2,
         "l": "Nov 04 2026"
       },
       {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 1,
+        "u": "juicedracing",
+        "n": "juicedracing",
+        "g": 9,
         "c": 1,
         "casts": 1,
         "l": "Nov 04 2026"
@@ -9170,6 +9170,13 @@
         "d": "Nov 04 2026"
       },
       {
+        "n": "drewieblaster",
+        "i": "Floor Jack",
+        "v": 55,
+        "r": "Uncommon",
+        "d": "Nov 04 2026"
+      },
+      {
         "n": "muskrat21",
         "i": "Have a Yoga Breath",
         "v": 53,
@@ -9189,13 +9196,6 @@
         "v": 2,
         "r": "Junk",
         "d": "Nov 01 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Corey LaJoie",
-        "v": 1,
-        "r": "Junk",
-        "d": "Nov 04 2026"
       }
     ],
     "weekly": [
@@ -9207,16 +9207,16 @@
         "d": "Nov 04 2026"
       },
       {
-        "n": "juicedracing",
-        "i": "Annoying iRacer kid",
-        "v": 9,
-        "r": "Junk",
+        "n": "drewieblaster",
+        "i": "Floor Jack",
+        "v": 55,
+        "r": "Uncommon",
         "d": "Nov 04 2026"
       },
       {
-        "n": "drewieblaster",
-        "i": "Corey LaJoie",
-        "v": 1,
+        "n": "juicedracing",
+        "i": "Annoying iRacer kid",
+        "v": 9,
         "r": "Junk",
         "d": "Nov 04 2026"
       }
@@ -9230,16 +9230,16 @@
         "d": "Nov 04 2026"
       },
       {
-        "n": "juicedracing",
-        "i": "Annoying iRacer kid",
-        "v": 9,
-        "r": "Junk",
+        "n": "drewieblaster",
+        "i": "Floor Jack",
+        "v": 55,
+        "r": "Uncommon",
         "d": "Nov 04 2026"
       },
       {
-        "n": "drewieblaster",
-        "i": "Corey LaJoie",
-        "v": 1,
+        "n": "juicedracing",
+        "i": "Annoying iRacer kid",
+        "v": 9,
         "r": "Junk",
         "d": "Nov 04 2026"
       }
@@ -21472,7 +21472,7 @@
       "n": "Floor Jack",
       "custom": true,
       "r": "Uncommon",
-      "c": 96,
+      "c": 97,
       "h": "brookswhynot",
       "v": 56,
       "w": 40.58
@@ -23990,7 +23990,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "Need this shit for the pitts",
-      "c": 96,
+      "c": 97,
       "rec": "40.58 lb",
       "v": 56
     },
@@ -26013,6 +26013,14 @@
   ],
   "recent": [
     {
+      "u": "drewieblaster",
+      "i": "Floor Jack",
+      "w": 39.56,
+      "v": 55,
+      "r": "Uncommon",
+      "d": "Nov 04 2026"
+    },
+    {
       "u": "juicedracing",
       "i": "Annoying iRacer kid",
       "w": 0.85,
@@ -26601,14 +26609,6 @@
       "i": "Double Adjustable Steel J-Bar",
       "w": 2.16,
       "v": 54,
-      "r": "Uncommon",
-      "d": "Sep 16 2026"
-    },
-    {
-      "u": "jdawg250f",
-      "i": "Garrett Smithley",
-      "w": 50.86,
-      "v": 51,
       "r": "Uncommon",
       "d": "Sep 16 2026"
     }
