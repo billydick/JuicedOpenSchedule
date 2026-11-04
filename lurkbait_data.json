@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T20:48:21.617681+00:00",
-    "total_catches": 23911,
+    "generated_at": "2026-11-04T22:24:43.639584+00:00",
+    "total_catches": 23912,
     "unique_catches": 375,
     "total_players": 815,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23911 catches"
+      "sub": "Since launch - 23912 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -452,10 +452,10 @@
       {
         "u": "drewieblaster",
         "n": "drewieblaster",
-        "g": 16776,
-        "c": 198,
-        "casts": 198,
-        "l": "Aug 29 2026"
+        "g": 16777,
+        "c": 199,
+        "casts": 199,
+        "l": "Nov 04 2026"
       },
       {
         "u": "zee20ate",
@@ -6834,6 +6834,14 @@
         "c": 1,
         "casts": 1,
         "l": "Nov 01 2026"
+      },
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
       }
     ],
     "weekly": [
@@ -6844,6 +6852,14 @@
         "c": 1,
         "casts": 1,
         "l": "Nov 04 2026"
+      },
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 1,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
       }
     ],
     "daily": [
@@ -6851,6 +6867,14 @@
         "u": "beliron",
         "n": "beliron",
         "g": 223,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 04 2026"
+      },
+      {
+        "u": "drewieblaster",
+        "n": "drewieblaster",
+        "g": 1,
         "c": 1,
         "casts": 1,
         "l": "Nov 04 2026"
@@ -9134,6 +9158,13 @@
         "v": 2,
         "r": "Junk",
         "d": "Nov 01 2026"
+      },
+      {
+        "n": "drewieblaster",
+        "i": "Corey LaJoie",
+        "v": 1,
+        "r": "Junk",
+        "d": "Nov 04 2026"
       }
     ],
     "weekly": [
@@ -9143,6 +9174,13 @@
         "v": 223,
         "r": "Epic",
         "d": "Nov 04 2026"
+      },
+      {
+        "n": "drewieblaster",
+        "i": "Corey LaJoie",
+        "v": 1,
+        "r": "Junk",
+        "d": "Nov 04 2026"
       }
     ],
     "daily": [
@@ -9151,6 +9189,13 @@
         "i": "Micro Sprint Chassis",
         "v": 223,
         "r": "Epic",
+        "d": "Nov 04 2026"
+      },
+      {
+        "n": "drewieblaster",
+        "i": "Corey LaJoie",
+        "v": 1,
+        "r": "Junk",
         "d": "Nov 04 2026"
       }
     ]
@@ -22210,7 +22255,7 @@
       "n": "Corey LaJoie",
       "custom": true,
       "r": "Common",
-      "c": 174,
+      "c": 175,
       "h": "ogbanana3036",
       "v": 1,
       "w": 1.13
@@ -23576,7 +23621,7 @@
       "r": "Junk",
       "custom": true,
       "desc": "Talks like a contender, runs like a backmarker",
-      "c": 174,
+      "c": 175,
       "rec": "1.13 lb",
       "v": 1
     },
@@ -25923,6 +25968,14 @@
   ],
   "recent": [
     {
+      "u": "drewieblaster",
+      "i": "Corey LaJoie",
+      "w": 0.9,
+      "v": 1,
+      "r": "Junk",
+      "d": "Nov 04 2026"
+    },
+    {
       "u": "beliron",
       "i": "Micro Sprint Chassis",
       "w": 50.62,
@@ -26513,14 +26566,6 @@
       "v": 27,
       "r": "Common",
       "d": "Sep 16 2026"
-    },
-    {
-      "u": "brookswhynot",
-      "i": "Mahi Mahi",
-      "w": 16.49,
-      "v": 88,
-      "r": "Rare",
-      "d": "Sep 12 2026"
     }
   ]
 }
