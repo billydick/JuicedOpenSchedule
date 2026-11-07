@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-04T22:29:59.351114+00:00",
+    "generated_at": "2026-11-07T23:22:02.860596+00:00",
     "total_catches": 23914,
     "unique_catches": 375,
     "total_players": 815,
@@ -283,7 +283,7 @@
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Nov 04 2026",
+      "label": "Nov 07 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6878,34 +6878,46 @@
         "l": "Nov 04 2026"
       }
     ],
-    "daily": [
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 223,
-        "c": 1,
-        "casts": 1,
-        "l": "Nov 04 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 56,
-        "c": 2,
-        "casts": 2,
-        "l": "Nov 04 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
-        "l": "Nov 04 2026"
-      }
-    ]
+    "daily": []
   },
   "daily_history": [
+    {
+      "label": "Nov 06",
+      "date": "2026-11-06",
+      "leaderboard": []
+    },
+    {
+      "label": "Nov 05",
+      "date": "2026-11-05",
+      "leaderboard": []
+    },
+    {
+      "label": "Nov 04",
+      "date": "2026-11-04",
+      "leaderboard": [
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 223,
+          "c": 1,
+          "l": "Nov 04 2026"
+        },
+        {
+          "n": "drewieblaster",
+          "u": "drewieblaster",
+          "g": 56,
+          "c": 2,
+          "l": "Nov 04 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 9,
+          "c": 1,
+          "l": "Nov 04 2026"
+        }
+      ]
+    },
     {
       "label": "Nov 03",
       "date": "2026-11-03",
@@ -6939,21 +6951,6 @@
     {
       "label": "Oct 31",
       "date": "2026-10-31",
-      "leaderboard": []
-    },
-    {
-      "label": "Oct 30",
-      "date": "2026-10-30",
-      "leaderboard": []
-    },
-    {
-      "label": "Oct 29",
-      "date": "2026-10-29",
-      "leaderboard": []
-    },
-    {
-      "label": "Oct 28",
-      "date": "2026-10-28",
       "leaderboard": []
     }
   ],
@@ -9221,29 +9218,7 @@
         "d": "Nov 04 2026"
       }
     ],
-    "daily": [
-      {
-        "n": "beliron",
-        "i": "Micro Sprint Chassis",
-        "v": 223,
-        "r": "Epic",
-        "d": "Nov 04 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Floor Jack",
-        "v": 55,
-        "r": "Uncommon",
-        "d": "Nov 04 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Annoying iRacer kid",
-        "v": 9,
-        "r": "Junk",
-        "d": "Nov 04 2026"
-      }
-    ]
+    "daily": []
   },
   "achievements": {
     "stream": {
