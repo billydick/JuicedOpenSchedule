@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-11-07T23:22:02.860596+00:00",
+    "generated_at": "2026-11-11T22:16:14.533369+00:00",
     "total_catches": 23914,
     "unique_catches": 375,
     "total_players": 815,
@@ -279,11 +279,11 @@
       "sub": "Monthly Competition"
     },
     "weekly": {
-      "label": "Week of Nov 02",
+      "label": "Week of Nov 09",
       "sub": "Weekly Competition"
     },
     "daily": {
-      "label": "Nov 07 2026",
+      "label": "Nov 11 2026",
       "sub": "Today's Competition"
     }
   },
@@ -6852,35 +6852,30 @@
         "l": "Nov 01 2026"
       }
     ],
-    "weekly": [
-      {
-        "u": "beliron",
-        "n": "beliron",
-        "g": 223,
-        "c": 1,
-        "casts": 1,
-        "l": "Nov 04 2026"
-      },
-      {
-        "u": "drewieblaster",
-        "n": "drewieblaster",
-        "g": 56,
-        "c": 2,
-        "casts": 2,
-        "l": "Nov 04 2026"
-      },
-      {
-        "u": "juicedracing",
-        "n": "juicedracing",
-        "g": 9,
-        "c": 1,
-        "casts": 1,
-        "l": "Nov 04 2026"
-      }
-    ],
+    "weekly": [],
     "daily": []
   },
   "daily_history": [
+    {
+      "label": "Nov 10",
+      "date": "2026-11-10",
+      "leaderboard": []
+    },
+    {
+      "label": "Nov 09",
+      "date": "2026-11-09",
+      "leaderboard": []
+    },
+    {
+      "label": "Nov 08",
+      "date": "2026-11-08",
+      "leaderboard": []
+    },
+    {
+      "label": "Nov 07",
+      "date": "2026-11-07",
+      "leaderboard": []
+    },
     {
       "label": "Nov 06",
       "date": "2026-11-06",
@@ -6917,44 +6912,36 @@
           "l": "Nov 04 2026"
         }
       ]
-    },
-    {
-      "label": "Nov 03",
-      "date": "2026-11-03",
-      "leaderboard": []
-    },
-    {
-      "label": "Nov 02",
-      "date": "2026-11-02",
-      "leaderboard": []
-    },
-    {
-      "label": "Nov 01",
-      "date": "2026-11-01",
-      "leaderboard": [
-        {
-          "n": "muskrat21",
-          "u": "muskrat21",
-          "g": 53,
-          "c": 1,
-          "l": "Nov 01 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 2,
-          "c": 1,
-          "l": "Nov 01 2026"
-        }
-      ]
-    },
-    {
-      "label": "Oct 31",
-      "date": "2026-10-31",
-      "leaderboard": []
     }
   ],
   "weekly_history": [
+    {
+      "label": "Week of Nov 02",
+      "date": "2026-11-02",
+      "leaderboard": [
+        {
+          "n": "beliron",
+          "u": "beliron",
+          "g": 223,
+          "c": 1,
+          "l": "Nov 04 2026"
+        },
+        {
+          "n": "drewieblaster",
+          "u": "drewieblaster",
+          "g": 56,
+          "c": 2,
+          "l": "Nov 04 2026"
+        },
+        {
+          "n": "juicedracing",
+          "u": "juicedracing",
+          "g": 9,
+          "c": 1,
+          "l": "Nov 04 2026"
+        }
+      ]
+    },
     {
       "label": "Week of Oct 26",
       "date": "2026-10-26",
@@ -7182,54 +7169,6 @@
           "g": 1,
           "c": 1,
           "l": "Sep 16 2026"
-        }
-      ]
-    },
-    {
-      "label": "Week of Sep 07",
-      "date": "2026-09-07",
-      "leaderboard": [
-        {
-          "n": "brookswhynot",
-          "u": "brookswhynot",
-          "g": 1221,
-          "c": 15,
-          "l": "Sep 12 2026"
-        },
-        {
-          "n": "gatoraintplaying",
-          "u": "gatoraintplaying",
-          "g": 413,
-          "c": 3,
-          "l": "Sep 12 2026"
-        },
-        {
-          "n": "rhetti_",
-          "u": "rhetti_",
-          "g": 101,
-          "c": 1,
-          "l": "Sep 12 2026"
-        },
-        {
-          "n": "pvtcrackpot",
-          "u": "pvtcrackpot",
-          "g": 95,
-          "c": 1,
-          "l": "Sep 12 2026"
-        },
-        {
-          "n": "purple_racingcataclysm",
-          "u": "purple_racingcataclysm",
-          "g": 86,
-          "c": 2,
-          "l": "Sep 12 2026"
-        },
-        {
-          "n": "v1per_simr4cin6",
-          "u": "v1per_simr4cin6",
-          "g": 9,
-          "c": 1,
-          "l": "Sep 11 2026"
         }
       ]
     }
@@ -9195,29 +9134,7 @@
         "d": "Nov 01 2026"
       }
     ],
-    "weekly": [
-      {
-        "n": "beliron",
-        "i": "Micro Sprint Chassis",
-        "v": 223,
-        "r": "Epic",
-        "d": "Nov 04 2026"
-      },
-      {
-        "n": "drewieblaster",
-        "i": "Floor Jack",
-        "v": 55,
-        "r": "Uncommon",
-        "d": "Nov 04 2026"
-      },
-      {
-        "n": "juicedracing",
-        "i": "Annoying iRacer kid",
-        "v": 9,
-        "r": "Junk",
-        "d": "Nov 04 2026"
-      }
-    ],
+    "weekly": [],
     "daily": []
   },
   "achievements": {
