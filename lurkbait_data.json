@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T00:22:10.122679+00:00",
-    "total_catches": 23918,
+    "generated_at": "2026-11-12T00:28:22.168925+00:00",
+    "total_catches": 23919,
     "unique_catches": 375,
-    "total_players": 815,
+    "total_players": 816,
     "dex_total": 375,
     "caught_total": 375,
     "dex_completion": 100.0,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23918 catches"
+      "sub": "Since launch - 23919 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -5098,6 +5098,14 @@
         "l": "Jan 11 2025"
       },
       {
+        "u": "thetsho",
+        "n": "thetsho",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 11 2026"
+      },
+      {
         "u": "jehjeh2112",
         "n": "jehjeh2112",
         "g": 43,
@@ -6844,6 +6852,14 @@
         "l": "Nov 01 2026"
       },
       {
+        "u": "thetsho",
+        "n": "thetsho",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 11 2026"
+      },
+      {
         "u": "johnnyog54",
         "n": "johnnyog54",
         "g": 12,
@@ -6878,6 +6894,14 @@
         "l": "Nov 11 2026"
       },
       {
+        "u": "thetsho",
+        "n": "thetsho",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
+        "l": "Nov 11 2026"
+      },
+      {
         "u": "johnnyog54",
         "n": "johnnyog54",
         "g": 12,
@@ -6893,6 +6917,14 @@
         "g": 89,
         "c": 3,
         "casts": 3,
+        "l": "Nov 11 2026"
+      },
+      {
+        "u": "thetsho",
+        "n": "thetsho",
+        "g": 43,
+        "c": 1,
+        "casts": 1,
         "l": "Nov 11 2026"
       },
       {
@@ -9177,6 +9209,13 @@
         "d": "Nov 11 2026"
       },
       {
+        "n": "thetsho",
+        "i": "Iowa Speedway",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "Nov 11 2026"
+      },
+      {
         "n": "johnnyog54",
         "i": "Trout",
         "v": 12,
@@ -9207,6 +9246,13 @@
         "d": "Nov 11 2026"
       },
       {
+        "n": "thetsho",
+        "i": "Iowa Speedway",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "Nov 11 2026"
+      },
+      {
         "n": "johnnyog54",
         "i": "Trout",
         "v": 12,
@@ -9223,6 +9269,13 @@
         "d": "Nov 11 2026"
       },
       {
+        "n": "thetsho",
+        "i": "Iowa Speedway",
+        "v": 43,
+        "r": "Uncommon",
+        "d": "Nov 11 2026"
+      },
+      {
         "n": "johnnyog54",
         "i": "Trout",
         "v": 12,
@@ -9234,7 +9287,7 @@
   "achievements": {
     "stream": {
       "broke_in": {
-        "total": 815,
+        "total": 816,
         "holders": [
           "juicedracing",
           "community_patroll",
@@ -10050,11 +10103,12 @@
           "dingo2121_au2",
           "phiyaman",
           "dhuckab1",
-          "grouchy_mode"
+          "grouchy_mode",
+          "thetsho"
         ],
         "latest": {
-          "u": "grouchy_mode",
-          "d": "Aug 19 2026"
+          "u": "thetsho",
+          "d": "Nov 11 2026"
         }
       },
       "first_cast": {
@@ -10589,7 +10643,7 @@
         }
       },
       "custom_catch": {
-        "total": 666,
+        "total": 667,
         "holders": [
           "flippy00",
           "drybonesmalone",
@@ -11256,11 +11310,12 @@
           "off_the_bar",
           "dingo2121_au2",
           "phiyaman",
-          "purple_racingcataclysm"
+          "purple_racingcataclysm",
+          "thetsho"
         ],
         "latest": {
-          "u": "purple_racingcataclysm",
-          "d": "Aug 15 2026"
+          "u": "thetsho",
+          "d": "Nov 11 2026"
         }
       },
       "heavy_hauler": {
@@ -19089,6 +19144,10 @@
       },
       "grouchy_mode": {
         "broke_in": "Aug 19 2026"
+      },
+      "thetsho": {
+        "broke_in": "Nov 11 2026",
+        "custom_catch": "Nov 11 2026"
       }
     },
     "recent_unlocks": [
@@ -21431,7 +21490,7 @@
       "n": "Iowa Speedway",
       "custom": true,
       "r": "Uncommon",
-      "c": 75,
+      "c": 76,
       "h": "duel_king320",
       "v": 56,
       "w": 112.96
@@ -22619,7 +22678,17 @@
       "period": "2025-01"
     }
   },
-  "new_anglers": [],
+  "new_anglers": [
+    {
+      "u": "thetsho",
+      "g": 43,
+      "c": 1,
+      "best_n": "Iowa Speedway",
+      "best_r": "Uncommon",
+      "best_v": 43,
+      "d": "Nov 11 2026"
+    }
+  ],
   "dex": [
     {
       "n": "Red Eye Fish",
@@ -24966,7 +25035,7 @@
       "r": "Uncommon",
       "custom": true,
       "desc": "You win @ Iowa but no one lives here so no one saw it.",
-      "c": 75,
+      "c": 76,
       "rec": "112.96 lb",
       "v": 56
     },
@@ -25999,6 +26068,14 @@
   ],
   "recent": [
     {
+      "u": "thetsho",
+      "i": "Iowa Speedway",
+      "w": 85.74,
+      "v": 43,
+      "r": "Uncommon",
+      "d": "Nov 11 2026"
+    },
+    {
       "u": "jdawg250f",
       "i": "Scrapermouth Mbun",
       "w": 0.16,
@@ -26588,14 +26665,6 @@
       "w": 11.25,
       "v": 6,
       "r": "Junk",
-      "d": "Sep 16 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Simucube 2 Ultimate",
-      "w": 9.47,
-      "v": 208,
-      "r": "Epic",
       "d": "Sep 16 2026"
     }
   ]
