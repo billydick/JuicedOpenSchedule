@@ -1,7 +1,7 @@
 {
   "meta": {
-    "generated_at": "2026-11-12T00:28:22.168925+00:00",
-    "total_catches": 23919,
+    "generated_at": "2026-11-12T00:29:27.442810+00:00",
+    "total_catches": 23920,
     "unique_catches": 375,
     "total_players": 816,
     "dex_total": 375,
@@ -272,7 +272,7 @@
   "competition_meta": {
     "alltime": {
       "label": "All Time",
-      "sub": "Since launch - 23919 catches"
+      "sub": "Since launch - 23920 catches"
     },
     "monthly": {
       "label": "November 2026",
@@ -364,9 +364,9 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 36129,
-        "c": 512,
-        "casts": 512,
+        "g": 36318,
+        "c": 513,
+        "casts": 513,
         "l": "Nov 11 2026"
       },
       {
@@ -6820,20 +6820,20 @@
     ],
     "monthly": [
       {
+        "u": "jdawg250f",
+        "n": "jdawg250f",
+        "g": 278,
+        "c": 4,
+        "casts": 4,
+        "l": "Nov 11 2026"
+      },
+      {
         "u": "beliron",
         "n": "beliron",
         "g": 223,
         "c": 1,
         "casts": 1,
         "l": "Nov 04 2026"
-      },
-      {
-        "u": "jdawg250f",
-        "n": "jdawg250f",
-        "g": 89,
-        "c": 3,
-        "casts": 3,
-        "l": "Nov 11 2026"
       },
       {
         "u": "drewieblaster",
@@ -6888,9 +6888,9 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 89,
-        "c": 3,
-        "casts": 3,
+        "g": 278,
+        "c": 4,
+        "casts": 4,
         "l": "Nov 11 2026"
       },
       {
@@ -6914,9 +6914,9 @@
       {
         "u": "jdawg250f",
         "n": "jdawg250f",
-        "g": 89,
-        "c": 3,
-        "casts": 3,
+        "g": 278,
+        "c": 4,
+        "casts": 4,
         "l": "Nov 11 2026"
       },
       {
@@ -9188,6 +9188,13 @@
         "d": "Nov 04 2026"
       },
       {
+        "n": "jdawg250f",
+        "i": "TR160 Mk4 Racing Simulator",
+        "v": 189,
+        "r": "Epic",
+        "d": "Nov 11 2026"
+      },
+      {
         "n": "drewieblaster",
         "i": "Floor Jack",
         "v": 55,
@@ -9200,13 +9207,6 @@
         "v": 53,
         "r": "Uncommon",
         "d": "Nov 01 2026"
-      },
-      {
-        "n": "jdawg250f",
-        "i": "Harrison Burton",
-        "v": 47,
-        "r": "Uncommon",
-        "d": "Nov 11 2026"
       },
       {
         "n": "thetsho",
@@ -9240,9 +9240,9 @@
     "weekly": [
       {
         "n": "jdawg250f",
-        "i": "Harrison Burton",
-        "v": 47,
-        "r": "Uncommon",
+        "i": "TR160 Mk4 Racing Simulator",
+        "v": 189,
+        "r": "Epic",
         "d": "Nov 11 2026"
       },
       {
@@ -9263,9 +9263,9 @@
     "daily": [
       {
         "n": "jdawg250f",
-        "i": "Harrison Burton",
-        "v": 47,
-        "r": "Uncommon",
+        "i": "TR160 Mk4 Racing Simulator",
+        "v": 189,
+        "r": "Epic",
         "d": "Nov 11 2026"
       },
       {
@@ -13112,11 +13112,11 @@
           "brookswhynot",
           "showtime_84",
           "nellafella",
-          "beliron"
+          "jdawg250f"
         ],
         "latest": {
-          "u": "beliron",
-          "d": "Nov 04 2026"
+          "u": "jdawg250f",
+          "d": "Nov 11 2026"
         }
       },
       "the_market": {
@@ -14410,6 +14410,7 @@
         "two_k_day": "Oct 05 2024",
         "wholesale": "Jan 24 2025",
         "win_week": "Oct 16 2024",
+        "win_month": "Nov 11 2026",
         "golden_cast": "Oct 20 2024",
         "legend_hunter": "Oct 05 2024",
         "legend_collector": "Oct 20 2024",
@@ -17505,7 +17506,6 @@
         "triple_crown": "Jun 17 2026",
         "leg_epic_day": "Jun 17 2026",
         "win_week": "Nov 05 2025",
-        "win_month": "Nov 04 2026",
         "golden_cast": "Jun 07 2025",
         "legend_hunter": "May 04 2026"
       },
@@ -20032,7 +20032,7 @@
       "n": "TR160 Mk4 Racing Simulator",
       "custom": true,
       "r": "Epic",
-      "c": 40,
+      "c": 41,
       "h": "flippy00",
       "v": 222,
       "w": 55.58
@@ -24846,7 +24846,7 @@
       "r": "Epic",
       "custom": true,
       "desc": "Most rigid sim racing cockpit on the market",
-      "c": 40,
+      "c": 41,
       "rec": "55.58 lb",
       "v": 222
     },
@@ -26068,6 +26068,14 @@
   ],
   "recent": [
     {
+      "u": "jdawg250f",
+      "i": "TR160 Mk4 Racing Simulator",
+      "w": 47.32,
+      "v": 189,
+      "r": "Epic",
+      "d": "Nov 11 2026"
+    },
+    {
       "u": "thetsho",
       "i": "Iowa Speedway",
       "w": 85.74,
@@ -26657,14 +26665,6 @@
       "w": 39.84,
       "v": 30,
       "r": "Common",
-      "d": "Sep 16 2026"
-    },
-    {
-      "u": "nellafella",
-      "i": "Kaz Grala",
-      "w": 11.25,
-      "v": 6,
-      "r": "Junk",
       "d": "Sep 16 2026"
     }
   ]
